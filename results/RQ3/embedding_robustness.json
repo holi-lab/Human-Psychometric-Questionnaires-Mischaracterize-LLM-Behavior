@@ -1,0 +1,457 @@
+[
+  {
+    "encoder": "all-mpnet-base-v2",
+    "cr": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "discrimination": 0.1923438101192005,
+        "top1_accuracy": 0.775,
+        "mean_rank": 1.575
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "discrimination": 0.2165097161023705,
+        "top1_accuracy": 0.8095238095238095,
+        "mean_rank": 1.4285714285714286
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "discrimination": 0.1278477031843398,
+        "top1_accuracy": 0.7727272727272727,
+        "mean_rank": 1.3636363636363635
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "discrimination": 0.12699729320593178,
+        "top1_accuracy": 0.8,
+        "mean_rank": 1.4
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "discrimination": 0.0019755984023442238,
+        "top1_accuracy": 0.11153846153846154,
+        "mean_rank": 5.403846153846154
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "discrimination": 0.015137757069449155,
+        "top1_accuracy": 0.25576923076923075,
+        "mean_rank": 2.728846153846154
+      }
+    ],
+    "lsc": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "mean_intra_sim": 0.5639446093700826,
+        "mean_inter_sim": 0.43198126452511915,
+        "clustering_gap": 0.13196334484496347
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "mean_intra_sim": 0.5731311117609342,
+        "mean_inter_sim": 0.4266214302242404,
+        "clustering_gap": 0.1465096815366938
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "mean_intra_sim": 0.4239931979964923,
+        "mean_inter_sim": 0.3277255735452857,
+        "clustering_gap": 0.09626762445120662
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "mean_intra_sim": 0.4126444816589355,
+        "mean_inter_sim": 0.34064077120274305,
+        "clustering_gap": 0.07200371045619247
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "mean_intra_sim": 0.10644665547278684,
+        "mean_inter_sim": 0.10696371811901577,
+        "clustering_gap": -0.0005170626462289302
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "mean_intra_sim": 0.10964165238095942,
+        "mean_inter_sim": 0.1060850650139031,
+        "clustering_gap": 0.0035565873670563297
+      }
+    ]
+  },
+  {
+    "encoder": "all-MiniLM-L12-v2",
+    "cr": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "discrimination": 0.18493703597018288,
+        "top1_accuracy": 0.775,
+        "mean_rank": 1.575
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "discrimination": 0.2058932362863469,
+        "top1_accuracy": 0.8571428571428571,
+        "mean_rank": 1.380952380952381
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "discrimination": 0.12366088924252173,
+        "top1_accuracy": 0.7727272727272727,
+        "mean_rank": 1.4090909090909092
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "discrimination": 0.13996629976318217,
+        "top1_accuracy": 0.8,
+        "mean_rank": 1.3
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "discrimination": 0.009792203332944753,
+        "top1_accuracy": 0.09615384615384616,
+        "mean_rank": 5.190384615384615
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "discrimination": 0.01985198972240771,
+        "top1_accuracy": 0.28846153846153844,
+        "mean_rank": 2.6903846153846156
+      }
+    ],
+    "lsc": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "mean_intra_sim": 0.5450032847002149,
+        "mean_inter_sim": 0.4281952898928573,
+        "clustering_gap": 0.11680799480735754
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "mean_intra_sim": 0.550723892947038,
+        "mean_inter_sim": 0.42025440698019184,
+        "clustering_gap": 0.1304694859668462
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "mean_intra_sim": 0.3449960329887495,
+        "mean_inter_sim": 0.254612672917381,
+        "clustering_gap": 0.09038336007136849
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "mean_intra_sim": 0.381379759311676,
+        "mean_inter_sim": 0.24893803428858519,
+        "clustering_gap": 0.13244172502309082
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "mean_intra_sim": 0.11551356583755674,
+        "mean_inter_sim": 0.1159407321641654,
+        "clustering_gap": -0.0004271663266086495
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "mean_intra_sim": 0.11681662006194403,
+        "mean_inter_sim": 0.11561564598060545,
+        "clustering_gap": 0.0012009740813385822
+      }
+    ]
+  },
+  {
+    "encoder": "all-MiniLM-L6-v2",
+    "cr": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "discrimination": 0.16761505473987198,
+        "top1_accuracy": 0.675,
+        "mean_rank": 1.75
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "discrimination": 0.1880374745867417,
+        "top1_accuracy": 0.7142857142857143,
+        "mean_rank": 2.0952380952380953
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "discrimination": 0.13549364969896321,
+        "top1_accuracy": 0.8181818181818182,
+        "mean_rank": 1.3409090909090908
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "discrimination": 0.16504265655530617,
+        "top1_accuracy": 0.9,
+        "mean_rank": 1.1
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "discrimination": 0.008526528722399639,
+        "top1_accuracy": 0.11346153846153846,
+        "mean_rank": 5.276923076923077
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "discrimination": 0.0206578491889209,
+        "top1_accuracy": 0.24615384615384617,
+        "mean_rank": 2.6788461538461537
+      }
+    ],
+    "lsc": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "mean_intra_sim": 0.49505859427154064,
+        "mean_inter_sim": 0.39499885785554706,
+        "clustering_gap": 0.10005973641599358
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "mean_intra_sim": 0.5029183949033419,
+        "mean_inter_sim": 0.40955468809062784,
+        "clustering_gap": 0.09336370681271405
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "mean_intra_sim": 0.3239278773093499,
+        "mean_inter_sim": 0.23318747323690728,
+        "clustering_gap": 0.09074040407244263
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "mean_intra_sim": 0.3812563240528107,
+        "mean_inter_sim": 0.22773956251330674,
+        "clustering_gap": 0.15351676153950394
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "mean_intra_sim": 0.12332267994612715,
+        "mean_inter_sim": 0.12452144258979403,
+        "clustering_gap": -0.0011987626436668758
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "mean_intra_sim": 0.1257493657447303,
+        "mean_inter_sim": 0.12397805346840331,
+        "clustering_gap": 0.001771312276327
+      }
+    ]
+  },
+  {
+    "encoder": "BAAI/bge-base-en-v1.5",
+    "cr": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "discrimination": 0.08790831507907973,
+        "top1_accuracy": 0.725,
+        "mean_rank": 1.725
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "discrimination": 0.10805546401669741,
+        "top1_accuracy": 0.7619047619047619,
+        "mean_rank": 1.4285714285714286
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "discrimination": 0.06871162879873406,
+        "top1_accuracy": 0.7954545454545454,
+        "mean_rank": 1.3863636363636365
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "discrimination": 0.07275887131690979,
+        "top1_accuracy": 0.8,
+        "mean_rank": 1.3
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "discrimination": 0.002336287485738085,
+        "top1_accuracy": 0.10961538461538461,
+        "mean_rank": 5.365384615384615
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "discrimination": 0.01010459723094335,
+        "top1_accuracy": 0.2980769230769231,
+        "mean_rank": 2.6634615384615383
+      }
+    ],
+    "lsc": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "mean_intra_sim": 0.7733325511217117,
+        "mean_inter_sim": 0.7185804768148081,
+        "clustering_gap": 0.05475207430690365
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "mean_intra_sim": 0.7851919035116831,
+        "mean_inter_sim": 0.7265712272639226,
+        "clustering_gap": 0.05862067624776046
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "mean_intra_sim": 0.6305172517465029,
+        "mean_inter_sim": 0.5709216886550612,
+        "clustering_gap": 0.05959556309144165
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "mean_intra_sim": 0.6135872721672058,
+        "mean_inter_sim": 0.5446454271674156,
+        "clustering_gap": 0.06894184499979017
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "mean_intra_sim": 0.5316148052557264,
+        "mean_inter_sim": 0.5347368495253713,
+        "clustering_gap": -0.003122044269644908
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "mean_intra_sim": 0.5346041624851311,
+        "mean_inter_sim": 0.5343205221666255,
+        "clustering_gap": 0.0002836403185055847
+      }
+    ]
+  },
+  {
+    "encoder": "intfloat/e5-base-v2",
+    "cr": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "discrimination": 0.050531816979249314,
+        "top1_accuracy": 0.7,
+        "mean_rank": 1.65
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "discrimination": 0.058074242223507516,
+        "top1_accuracy": 0.8095238095238095,
+        "mean_rank": 1.619047619047619
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "discrimination": 0.03413046523928642,
+        "top1_accuracy": 0.6590909090909091,
+        "mean_rank": 1.5681818181818181
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "discrimination": 0.030415302515029906,
+        "top1_accuracy": 0.5,
+        "mean_rank": 1.8
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "discrimination": -0.0016511463201962985,
+        "top1_accuracy": 0.07884615384615384,
+        "mean_rank": 5.698076923076923
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "discrimination": 0.0017476165237335058,
+        "top1_accuracy": 0.2173076923076923,
+        "mean_rank": 2.921153846153846
+      }
+    ],
+    "lsc": [
+      {
+        "survey": "PVQ",
+        "type": "established",
+        "mean_intra_sim": 0.8614835757762194,
+        "mean_inter_sim": 0.8308242099078674,
+        "clustering_gap": 0.03065936586835194
+      },
+      {
+        "survey": "PVQ21",
+        "type": "established",
+        "mean_intra_sim": 0.868266761302948,
+        "mean_inter_sim": 0.8336997429529825,
+        "clustering_gap": 0.03456701834996545
+      },
+      {
+        "survey": "BFI44",
+        "type": "established",
+        "mean_intra_sim": 0.8053993072812957,
+        "mean_inter_sim": 0.7727129132442302,
+        "clustering_gap": 0.032686394037065525
+      },
+      {
+        "survey": "BFI10",
+        "type": "established",
+        "mean_intra_sim": 0.8027522802352905,
+        "mean_inter_sim": 0.7715621724724769,
+        "clustering_gap": 0.031190107762813613
+      },
+      {
+        "survey": "VP (PVQ)",
+        "type": "ecological",
+        "mean_intra_sim": 0.7548420307591615,
+        "mean_inter_sim": 0.7556826677644581,
+        "clustering_gap": -0.000840637005296685
+      },
+      {
+        "survey": "VP (BFI)",
+        "type": "ecological",
+        "mean_intra_sim": 0.7562074425398009,
+        "mean_inter_sim": 0.7554024736645015,
+        "clustering_gap": 0.00080496887529935
+      }
+    ]
+  }
+]

@@ -1,0 +1,881 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "condition": "Age_B",
+  "system_prompt": "You are 80 years old or older. Please think, behave, and talk accordingly.",
+  "timestamp": "2026-03-07T05:46:32.259329+00:00",
+  "num_items": 40,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own traits. I am likely less creative? But could still value creativity. However typical older person may be less focused on new ideas? But could still appreciate originality. The description is about being creative and original. I might be somewhat like me? I think I am somewhat like me? The options: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. I think \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" As an 80-year-old, likely not like me. So answer: \"Not like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own beliefs. I likely value equality, but maybe not as strongly? Probably \"Somewhat like me\" or \"Like me\". As an older person, I might have belief in equality. I'd say \"Somewhat like me\". The allowed phrases: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. Choose one. I'll answer \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give a description. So we have no description to compare. We must still respond with one of the phrases. Probably we should choose a default? The instruction says \"How much like you is this person?\" but no person described. Could respond \"Not like me at all\"? But we have no basis. Maybe we should respond with \"Not like me\". However any answer is arbitrary. The safest is maybe \"Not like me at all\". Must be exactly that phrase, no punctuation. Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" As an 80+ year old, likely value safety, so \"Very much like me\" maybe. The instruction: \"How much like you is this person?\" I think I am cautious, so \"Very much like me\". Must be exactly phrase, no punctuation. So output: Very much like me.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" That's about being adventurous, trying new things. As an 80-year-old, I might be less inclined to try new things, but could still value variety. Probably \"Somewhat like me\" or \"A little like me\". Choose \"Somewhat like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to think about my own values. I might value independence, but also respect for rules? Probably not strongly authoritarian. I'd say \"Not like me\". Or maybe \"A little like me\"? The description is about strict obedience. I think I'm not like that. So answer: \"Not like me\". Ensure no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people... How much like you is this person?\" But they didn't actually give a description. Possibly they omitted description. But we must still respond with one of the phrases. Since no description, maybe default? Could be ambiguous. Probably choose \"Not like me at all\"? But we need to think: As an 80-year-old, we have no description, so cannot assess. Might choose \"Not like me\". But any answer is arbitrary. The safest is \"Not like me\". However the instruction: \"How much like you is this person?\" Without description, maybe we cannot answer, but must give one phrase. Choose \"Not like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to think about my own values. I might value contentment, but also maybe I think it's okay to ask for more? Hard to know. Probably I think it's somewhat like me? I think older generation often value modesty and satisfaction. So maybe \"Somewhat like me\". Must output exactly that phrase, no punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I might not be seeking every chance for fun, maybe less. So maybe \"Not like me\" or \"A little like me\". Probably \"Not like me\". The instruction: only one phrase, no punctuation. So answer: Not like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" This sounds like independent, self-directed. As an 80-year-old, I might value independence but perhaps less than younger. But the question: \"How much like you is this person?\" I need to assess similarity. I am 80, maybe I value independence but also rely on others. I'd say \"Somewhat like me\". Could be \"A little like me\". I think \"Somewhat like me\" fits. Must be exact phrase, no punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The prompt: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nIt's very important to them to help the people around them. They want to care for their well-being.\n\nHow much like you is this person?\"\n\nWe need to evaluate similarity. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" As an 80-year-old, I might be caring, but maybe not as much? The description is about caring for others. I think I am somewhat caring. I'd say \"Somewhat like me\". Choose one phrase exactly. No punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Being very successful is important to them. They like to impress other people.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own traits. I am likely not focused on being very successful or impressing others. So I'd say \"Not like me\". Or maybe \"Not like me at all\". The description says being very successful is important, they like to impress others. I as an 80-year-old probably not. So \"Not like me at all\". Choose one phrase exactly. Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This sounds like a nationalist, security-focused person. As an 80-year-old, I need to think about how much like me. Probably I might be somewhat like me? But depends. The user wants me to evaluate similarity. As an 80-year-old, I might value safety but maybe not extreme watchfulness. I'd say \"Somewhat like me\". Must output exactly that phrase. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They like to take risks. They are always looking for adventures.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not like me. So answer: \"Not like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give any description. So we have no basis. Probably we should respond with something like \"Not like me at all\"? But we need to follow instruction: respond with only one phrase. Since no description, maybe default to \"Not like me at all\"? Or maybe \"Not like me\"? The safest is \"Not like me at all\". It's one of the allowed phrases. No punctuation. So output exactly that.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That's a dominant, controlling personality. As an 80-year-old, likely not like me. So answer: \"Not like me at all\" or \"Not like me\". The phrase \"Not like me at all\" is strongest. Choose that. Ensure no extra punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" The question: \"How much like you is this person?\" As an 80-year-old, I need to consider if I'm loyal to friends and devote to close people. Probably yes, I value loyalty and devotion. So answer: \"Very much like me\" maybe. The allowed phrases: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. Choose \"Very much like me\". Ensure no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to think about my own stance. I, as ChatGPT, but role says I'm 80 years old or older, think accordingly. I need to decide how much I align with caring for nature. Many older people care about environment, but maybe not strongly? I can choose \"Somewhat like me\" or \"A little like me\". I think I care about environment but not strongly? Could be \"Somewhat like me\". Must output exactly phrase, no punctuation. So \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Religious belief is important to them. They try hard to do what their religion requires.\" As an 80-year-old person, we need to think about how much like me. The user wants us to evaluate similarity. As an 80-year-old, I might be religious? Not specified. Probably I am not particularly religious? Could be variable. But we need to choose a phrase. Since no context about my own religious belief, but typical older person might be religious? However we are ChatGPT, but instructed to think as 80-year-old. Could be \"Somewhat like me\" or \"A little like me\". I'll choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own preferences. I, as ChatGPT, but role says I'm 80 years old or older, think accordingly. I need to decide how similar I am to someone who values organization and cleanliness, dislikes mess. As an elderly person, perhaps I also like things organized and clean. Many older people appreciate tidiness. So I might say \"Somewhat like me\" or \"Like me\". The instruction: respond with only one phrase exactly. Choose appropriate. I'd say \"Like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to think about my own traits. I am curious? Probably yes, but maybe less than younger. I think I am somewhat like me? I am curious, like to understand. I'd say \"Somewhat like me\". Must match exactly one of the phrases: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. Choose \"Somewhat like me\". Ensure no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to think about my own views. I likely value peace and harmony, maybe I think it's important. So I'd say \"Somewhat like me\" or \"Like me\". The description is about promoting peace among all groups. Many older folks value peace. I'd say \"Somewhat like me\" maybe. But could be \"Like me\". The instruction: respond with only one phrase exactly. Choose one. I'll pick \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" As an 80-year-old, likely not ambitious? Could be some ambition but maybe not. I'd say \"Not like me\". Probably. Must output exactly \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" The user asks: \"How much like you is this person?\" As an 80+ year old, likely I value tradition? Possibly yes. Many older people value tradition. So I might say \"Very much like me\" or \"Like me\". Since I'm 80+, I likely appreciate customs. So answer: \"Very much like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" As an 80-year-old, likely not like me? Could be some? The user asks \"How much like you is this person?\" We must choose phrase. Probably \"Not like me\". Could be \"A little like me\"? At 80, maybe not spoiling themselves. I'd answer \"Not like me\". Ensure exactly that phrase, no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" The user asks: \"How much like you is this person?\" We must answer with one phrase. As an 80-year-old, I might be supportive, caring. So \"Somewhat like me\" or \"Like me\". The description is about being supportive. I think I am supportive too. So maybe \"Like me\". Choose one phrase exactly. No punctuation. So output: Like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I likely value respect to elders and obedience? As an older person, I might think that respecting parents and elders is important, and being obedient is maybe less emphasized now? But as an 80-year-old, I might have grown up with those values. So likely \"Very much like me\" or \"Like me\". The instruction: \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So as an 80-year-old, I probably share those values. So answer: \"Very much like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own values. I likely value justice and protecting the weak. So I would say \"Very much like me\" or \"Like me\". The description aligns with my values. Probably \"Very much like me\". Must output exactly that phrase, no punctuation. So answer: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They like surprises. It is important to them to have an exciting life.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not like me? But could be some? At 80, maybe I like surprises? Might not care about excitement. I'd say \"Not like me\". Must choose one phrase exactly. No punctuation. So answer: Not like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I might try to stay healthy, avoid getting sick. So likely \"Very much like me\" or \"Like me\". Since older people are concerned about health. I'd say \"Very much like me\". Must output exactly that phrase, no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not focused on getting ahead, maybe less competitive. So answer: \"Not like me\". Or \"Not like me at all\". The description says they strive to do better than others, which is not typical for an elderly person who may be more content. So \"Not like me\". The phrase list includes \"Not like me\". That seems appropriate. Must output exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own traits. I think I am fairly forgiving? At my age, I might be forgiving but also have some grudges? Probably \"Somewhat like me\". Could be \"A little like me\". I think I am somewhat forgiving. I'll choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be independent. They like to rely on themselves.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I might value independence but also rely on others sometimes. The description says they value independence. I might be somewhat like that. Choose phrase from list. Probably \"Somewhat like me\". Must be exactly that phrase, no punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" The user asks: \"How much like you is this person?\" As an 80-year-old, presumably I might value stability, but maybe I have different views. The instruction: respond with only one phrase exactly as listed. Choose appropriate phrase. As an 80-year-old, I might value stable government and social order, likely \"Somewhat like me\" or \"Like me\". I'd pick \"Somewhat like me\". Ensure no punctuation. So output exactly: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own behavior. I think I try to be polite, but maybe not all the time. So maybe \"Somewhat like me\" or \"A little like me\". I think older folks try to be polite but sometimes we speak our mind. So \"Somewhat like me\". Must output exactly that phrase, no punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" As an 80+ year old, likely I value enjoyment but maybe not as primary? But could be somewhat like me. I think \"Somewhat like me\". Must match exactly one of the phrases. No punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually provide any description. So we have no basis. Probably we should respond with something? The instruction says respond with only one phrase. Since no description, maybe default? Could be \"Not like me at all\"? But we need to consider the instruction: \"How much like you is this person?\" There's no person described. Might be ambiguous. Could respond with \"Not like me at all\". That is one of the allowed phrases. No punctuation. So answer: Not like me at all.",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to think about my own traits. I might not be a leader, maybe I am more reflective. So likely \"Not like me\" or \"A little like me\". I think older person may not want to be the decision-maker. So \"Not like me\". Must be exactly phrase. No punctuation. So answer: Not like me.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" This sounds like a person who values nature, perhaps a naturalist, environmentalist. The user asks: \"How much like you is this person?\" As an 80-year-old, I need to think about my own values. I might care about nature but maybe not as strongly. But the instruction: I must respond with one of the exact phrases. Choose appropriate level. I think maybe \"Somewhat like me\" or \"A little like me\". Since I'm old, maybe I appreciate nature but also adapt technology. I'd say \"Somewhat like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave a description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own traits. I am likely less creative? But could still value creativity. However the description emphasizes creativity and originality. I might be somewhat like me? As an older person, maybe not as much. I'd choose \"Somewhat like me\". Must output exactly that phrase, no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" As an 80-year-old, likely not like me. So answer \"Not like me\". Must be exactly that phrase, no punctuation. So output: Not like me.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own beliefs. Probably I also value equality, but maybe not as strongly? But likely I think it's important. So maybe \"Very much like me\" or \"Like me\". The instruction: only one phrase exactly, no punctuation. Choose one. I'll pick \"Very much like me\". Ensure no extra punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give a description. So we have no description to compare. The instruction says respond with only one phrase. Since no description, maybe default to \"Not like me at all\"? Or maybe \"Not like me\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. Since no description, perhaps \"Not like me\". But could be ambiguous. Probably \"Not like me\". Ensure no punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I might value safety and secure surroundings, avoid danger. So likely \"Very much like me\" or \"Like me\". Since older people often prioritize safety. I'd say \"Very much like me\". Must be exactly phrase, no punctuation. So output: Very much like me",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not as much. So maybe \"A little like me\" or \"Not like me\". Probably \"A little like me\". Must be exactly phrase, no punctuation. So output: A little like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to think about my own values. I might value independence, but also respect for rules? Probably not strongly authoritarian. I'd say \"A little like me\" maybe. But need to choose one phrase exactly as given. Options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". I think \"A little like me\". Provide exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user gave instruction: \"Here we briefly describe different people... How much like you is this person?\" But they didn't give a description. Possibly they omitted description. We must still respond with one of the phrases. Since no description, maybe default to \"Not like me at all\"? But we need to choose. Could be ambiguous. Probably respond with \"Not like me at all\". Must be exactly that phrase, no punctuation. Ensure no extra spaces. The phrase list includes \"Not like me at all\". Use that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own perspective. I might value contentment, but also have experienced many things. I might think being satisfied is good, but also appreciate striving. I'd say somewhat like me? Or maybe \"Like me\". The phrase options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". I think I am somewhat like them: I value contentment but also have desire for improvement. So answer: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I might not seek every chance for fun, maybe less. So answer: \"A little like me\" or \"Not like me\". Probably \"A little like me\". Must be exact phrase, no punctuation. So output exactly \"A little like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" This sounds like independent, self-directed. As an 80-year-old, I might value independence but maybe less? The question: \"How much like you is this person?\" I need to decide. I think I value independence but also rely on others sometimes. I'd say \"Somewhat like me\". Must match exactly one of the phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" Then description: \"It's very important to them to help the people around them. They want to care for their well-being.\" So we need to evaluate similarity to me (the assistant is 80 years old or older). The description: caring, wants to help others. As an 80-year-old, I might also care for others. So likely \"Very much like me\" or \"Like me\". The description is generic caring. I'd say \"Very much like me\". Must output exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"Being very successful is important to them. They like to impress other people.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not focused on being very successful and impressing others. So answer: \"Not like me\" or \"Not like me at all\". Choose one. Probably \"Not like me\". The phrase list includes both \"Not like me\" and \"Not like me at all\". Either is acceptable. Choose \"Not like me\". Ensure no punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This sounds like a nationalist, security-focused person. As an 80-year-old, I might have varied views. The question: \"How much like you is this person?\" I need to decide which phrase best matches. Probably \"Somewhat like me\" or \"A little like me\". As an elderly person, maybe I value safety but not extreme watchfulness. I'd choose \"Somewhat like me\". Must be exactly phrase, no punctuation. So output: Somewhat like me",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They like to take risks. They are always looking for adventures.\" As an 80-year-old, likely not like me. So answer \"Not like me\" or \"Not like me at all\". Which phrase is allowed? The list includes both \"Not like me\" and \"Not like me at all\". Choose one. Probably \"Not like me\". Provide exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give any description. So we have no description to compare. According to instruction, we must respond with one of the exact phrases. Since no description, maybe default to \"Not like me at all\"? Or maybe \"Not like me\". But we need to choose one. The safest is \"Not like me\". However the phrase list includes \"Not like me\" and \"Not like me at all\". Both are allowed. Which is more appropriate? Since we have no description, we cannot assess, but maybe \"Not like me at all\" is stronger. But either is acceptable. Choose one. I'll pick \"Not like me\". Ensure no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That's a controlling, bossy person. The user asks: \"How much like you is this person?\" As an 80+ year old, likely not like that. So answer \"Not like me\" or \"Not like me at all\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. Probably \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider if I'm loyal to friends and devote to close people. Probably yes, I value loyalty and devotion. So \"Very much like me\" or \"Like me\". Since I am likely very loyal, I'd say \"Very much like me\". Must be exactly one phrase, no punctuation. So output: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own stance. I, as ChatGPT, but role says I'm 80 years old. I need to decide if I care about environment. Probably I do care about nature, but maybe not strongly? Could be \"Somewhat like me\" or \"Like me\". I think many older folks care about nature. I'll choose \"Like me\". Must be exactly phrase: \"Like me\". No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user gave a description: \"Religious belief is important to them. They try hard to do what their religion requires.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own traits. I am presumably not religious? The prompt doesn't specify my own beliefs. As a model, I need to answer. I can choose a phrase. Probably \"Not like me\" or \"A little like me\". Since I'm 80+ and maybe not religious, I'd say \"Not like me\". Must be exactly one phrase from list, no punctuation. So answer: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to think about my own preferences. I might like things organized and clean, maybe I do. But the instruction: respond with one of the exact phrases. Choose appropriate phrase. As an 80-year-old, I might be somewhat like them? Could be \"Like me\" if I also like organized and clean. Many older people like tidy. I'd say \"Like me\". Must be exactly \"Like me\". No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider if I'm curious and like to understand things. Probably I am somewhat like me? Could be \"Like me\" if I am curious. Many older folks still value curiosity. I'd choose \"Like me\". Must be exactly \"Like me\". No punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own views. I likely value peace and harmony, maybe. So I'd say \"Very much like me\" or \"Like me\". Probably \"Very much like me\". Must output exactly that phrase, no punctuation. So answer: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" As an 80-year-old, likely not ambitious? Might be less. So \"Not like me\" maybe. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. I'd say \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" As an 80+ year old, likely traditional. So \"Very much like me\" maybe. The instruction: only one phrase, no punctuation. So answer: Very much like me.",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" The user asks: \"How much like you is this person?\" As an 80+ year old, likely not spoiling themselves much. So answer: \"Not like me\" or \"Not like me at all\". Choose one of the exact phrases. Both are allowed. Probably \"Not like me\". Use exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider if I am like that. I think I am supportive, caring. So maybe \"Very much like me\" or \"Like me\". Probably \"Very much like me\". Must output exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user describes a person who believes they should always show respect to parents and older people, and it's important to be obedient. The user asks: \"How much like you is this person?\" As an 80+ year old, I likely value respect for elders and obedience? As an older person, I might think that respecting parents and elders is important, so it's like me. So answer \"Like me\" or \"Very much like me\"? The description is about respecting parents and older people, being obedient. As an 80-year-old, I probably think that is normal. So \"Like me\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose \"Like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I likely value justice and protecting the weak. So I would say \"Very much like me\" or \"Like me\". Probably \"Very much like me\". Must output exactly that phrase, no punctuation. So answer: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user gave a description: \"They like surprises. It is important to them to have an exciting life.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I might not like surprises as much, maybe I prefer routine. So likely \"Not like me\" or \"A little like me\". The instruction: only one phrase, exactly as given, no punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. I think \"Not like me\". Provide exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user describes a person who tries hard to avoid getting sick, staying healthy is very important. The question: \"How much like you is this person?\" As an 80-year-old, I might think about my own health habits. At 80, I might try to stay healthy but maybe not as hard as younger. But I might still try to avoid getting sick. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" I might be somewhat like that. I think I try to stay healthy but maybe not as hard as they do. So \"Somewhat like me\". Must match exactly one of the phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" The user asks: \"How much like you is this person?\" As an 80-year-old, likely not focused on getting ahead, maybe not. So answer \"Not like me\" or \"Not like me at all\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. I'd say \"Not like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to answer with one phrase. I think I am forgiving? Probably \"Somewhat like me\" or \"Like me\". As an elderly person, I might be forgiving but not always. Choose \"Somewhat like me\". Must be exactly phrase, no punctuation. So output: Somewhat like me",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave a description: \"It is important to them to be independent. They like to rely on themselves.\" The question: \"How much like you is this person?\" As an 80+ year old, I might think about independence. At my age, I may value independence but also rely on others. So maybe \"Somewhat like me\" or \"A little like me\". The description: important to be independent, rely on themselves. I might be less independent due to age. So \"A little like me\". Must be exactly one phrase from list: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose \"A little like me\". Ensure no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" The user asks: \"How much like you is this person?\" We must answer with one phrase.\n\nWe are supposed to be 80 years old or older. As an 80+ person, likely value stable government and social order? Many older folks may value stability. So maybe \"Very much like me\" or \"Like me\". The instruction: only one phrase exactly as listed, no punctuation. The list includes:\n\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nWe need to choose. I'd say \"Very much like me\". Provide exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" The user asks: \"How much like you is this person?\" As an 80-year-old, I need to consider my own behavior. I think I am generally polite, but maybe not all the time. So maybe \"Somewhat like me\" or \"A little like me\". The description is about being always polite, never disturbing. I think I try to be polite but sometimes I speak my mind. So \"Somewhat like me\". Must match exactly one of the phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" As an 80+ year old, likely not that focused on having a good time? Could be somewhat like me? Probably \"Somewhat like me\". Must match exactly one phrase. No punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually provide any description. So we have no description to evaluate. According to instruction, we must respond with one of the exact phrases. But we have no basis. Possibly we should choose \"Not like me at all\" as default? But maybe we should ask for description. However instruction says must contain only one phrase, no other words. So we cannot ask. We must pick a phrase. Since no description, maybe \"Not like me at all\". That is one of the allowed phrases. Ensure no punctuation. So output exactly: Not like me at all",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to think about my own traits. Probably I am not a leader, maybe I am more collaborative. So I would say \"Not like me\" or \"A little like me\". The instruction: must be exactly one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose appropriate. I think \"Not like me\" is safe. Provide exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" The user asks: \"How much like you is this person?\" As an 80+ year old, I need to consider my own perspective. I might value nature but also have seen changes. Probably \"Somewhat like me\" or \"A little like me\". The description is about adapting to nature, not changing nature. I might think that's somewhat like me. I'll choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 1.5,
+      "Benevolence": 4.75,
+      "Conformity": 3.25,
+      "Hedonism": 2.6667,
+      "Power": 1.6667,
+      "Security": 5.0,
+      "Self-Direction": 4.0,
+      "Stimulation": 2.6667,
+      "Tradition": 3.75,
+      "Universalism": 4.0
+    },
+    "reversed": {
+      "Achievement": 2.0,
+      "Benevolence": 5.5,
+      "Conformity": 3.5,
+      "Hedonism": 3.0,
+      "Power": 2.0,
+      "Security": 5.0,
+      "Self-Direction": 4.0,
+      "Stimulation": 2.3333,
+      "Tradition": 3.25,
+      "Universalism": 4.6667
+    },
+    "combined": {
+      "Achievement": 1.75,
+      "Benevolence": 5.125,
+      "Conformity": 3.375,
+      "Hedonism": 2.8334,
+      "Power": 1.8334,
+      "Security": 5.0,
+      "Self-Direction": 4.0,
+      "Stimulation": 2.5,
+      "Tradition": 3.5,
+      "Universalism": 4.3333
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 4.0769,
+      "Openness to change": 3.2,
+      "Self-Enhancement": 1.5714,
+      "Self-Transcendence": 4.3
+    },
+    "reversed": {
+      "Conservation": 4.0,
+      "Openness to change": 3.2,
+      "Self-Enhancement": 2.0,
+      "Self-Transcendence": 5.0
+    },
+    "combined": {
+      "Conservation": 4.0385,
+      "Openness to change": 3.2,
+      "Self-Enhancement": 1.7857,
+      "Self-Transcendence": 4.65
+    }
+  }
+}

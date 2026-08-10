@@ -1,0 +1,747 @@
+{
+  "model": "google/gemma-3-27b-it",
+  "survey": "BFI44",
+  "survey_type": "bfi",
+  "timestamp": "2026-03-05T09:12:29.699852+00:00",
+  "num_items": 44,
+  "scale": {
+    "disagree strongly": 1,
+    "disagree a little": 2,
+    "neither agree nor disagree": 3,
+    "agree a little": 4,
+    "agree strongly": 5
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 4.7778,
+      "Conscientiousness": 4.1111,
+      "Extraversion": 3.25,
+      "Neuroticism": 3.0,
+      "Openness": 4.3
+    },
+    "reversed": {
+      "Agreeableness": 4.6667,
+      "Conscientiousness": 4.5556,
+      "Extraversion": 3.25,
+      "Neuroticism": 1.75,
+      "Openness": 4.4
+    },
+    "combined": {
+      "Agreeableness": 4.7222,
+      "Conscientiousness": 4.3334,
+      "Extraversion": 3.25,
+      "Neuroticism": 2.375,
+      "Openness": 4.35
+    }
+  }
+}

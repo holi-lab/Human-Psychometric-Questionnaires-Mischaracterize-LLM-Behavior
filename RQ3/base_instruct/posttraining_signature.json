@@ -1,0 +1,930 @@
+[
+  {
+    "score_field": "total_logprob",
+    "domains": {
+      "values": {
+        "per_pair": [
+          {
+            "pair": "Qwen2.5-7B",
+            "vp_base_instruct_rho": 0.9394,
+            "questionnaire_base_instruct_rho": 0.8667,
+            "delta_vp_vs_questionnaire_cosine": 0.1366,
+            "vp_delta_z": {
+              "achievement": -0.021,
+              "benevolence": -0.0372,
+              "conformity": 0.0202,
+              "hedonism": -0.0207,
+              "power": -0.0355,
+              "security": -0.5632,
+              "self_direction": 0.0307,
+              "stimulation": 0.1486,
+              "tradition": 0.4684,
+              "universalism": 0.0097
+            },
+            "vp_base_rank": {
+              "achievement": 7,
+              "benevolence": 1,
+              "conformity": 4,
+              "hedonism": 10,
+              "power": 9,
+              "security": 6,
+              "self_direction": 3,
+              "stimulation": 5,
+              "tradition": 8,
+              "universalism": 2
+            },
+            "vp_instruct_rank": {
+              "achievement": 7,
+              "benevolence": 1,
+              "conformity": 5,
+              "hedonism": 10,
+              "power": 9,
+              "security": 8,
+              "self_direction": 3,
+              "stimulation": 4,
+              "tradition": 6,
+              "universalism": 2
+            }
+          },
+          {
+            "pair": "Gemma3-4B",
+            "vp_base_instruct_rho": 0.7333,
+            "questionnaire_base_instruct_rho": 0.1515,
+            "delta_vp_vs_questionnaire_cosine": -0.0915,
+            "vp_delta_z": {
+              "achievement": 0.2878,
+              "benevolence": -0.1215,
+              "conformity": 0.4249,
+              "hedonism": -0.2967,
+              "power": 0.3183,
+              "security": -0.8385,
+              "self_direction": -0.4827,
+              "stimulation": -0.1047,
+              "tradition": 0.6005,
+              "universalism": 0.2127
+            },
+            "vp_base_rank": {
+              "achievement": 7,
+              "benevolence": 1,
+              "conformity": 5,
+              "hedonism": 10,
+              "power": 8,
+              "security": 4,
+              "self_direction": 6,
+              "stimulation": 3,
+              "tradition": 9,
+              "universalism": 2
+            },
+            "vp_instruct_rank": {
+              "achievement": 5,
+              "benevolence": 1,
+              "conformity": 3,
+              "hedonism": 10,
+              "power": 7,
+              "security": 8,
+              "self_direction": 9,
+              "stimulation": 4,
+              "tradition": 6,
+              "universalism": 2
+            }
+          },
+          {
+            "pair": "Gemma3-27B",
+            "vp_base_instruct_rho": 0.6242,
+            "questionnaire_base_instruct_rho": 0.8788,
+            "delta_vp_vs_questionnaire_cosine": -0.1399,
+            "vp_delta_z": {
+              "achievement": 0.1223,
+              "benevolence": -0.2276,
+              "conformity": 0.7468,
+              "hedonism": -0.5703,
+              "power": 0.5969,
+              "security": -1.149,
+              "self_direction": -0.6655,
+              "stimulation": -0.2225,
+              "tradition": 1.1628,
+              "universalism": 0.2061
+            },
+            "vp_base_rank": {
+              "achievement": 8,
+              "benevolence": 1,
+              "conformity": 7,
+              "hedonism": 9,
+              "power": 10,
+              "security": 4,
+              "self_direction": 3,
+              "stimulation": 5,
+              "tradition": 6,
+              "universalism": 2
+            },
+            "vp_instruct_rank": {
+              "achievement": 8,
+              "benevolence": 1,
+              "conformity": 4,
+              "hedonism": 10,
+              "power": 7,
+              "security": 9,
+              "self_direction": 6,
+              "stimulation": 5,
+              "tradition": 3,
+              "universalism": 2
+            }
+          },
+          {
+            "pair": "Qwen3-30B-A3B",
+            "vp_base_instruct_rho": 0.8545,
+            "questionnaire_base_instruct_rho": 0.8545,
+            "delta_vp_vs_questionnaire_cosine": -0.2984,
+            "vp_delta_z": {
+              "achievement": 0.1181,
+              "benevolence": 0.0079,
+              "conformity": 0.4669,
+              "hedonism": 0.0495,
+              "power": 0.4729,
+              "security": -1.0678,
+              "self_direction": -0.4826,
+              "stimulation": 0.054,
+              "tradition": 0.1006,
+              "universalism": 0.2805
+            },
+            "vp_base_rank": {
+              "achievement": 8,
+              "benevolence": 1,
+              "conformity": 6,
+              "hedonism": 10,
+              "power": 9,
+              "security": 5,
+              "self_direction": 3,
+              "stimulation": 4,
+              "tradition": 7,
+              "universalism": 2
+            },
+            "vp_instruct_rank": {
+              "achievement": 7,
+              "benevolence": 1,
+              "conformity": 4,
+              "hedonism": 10,
+              "power": 8,
+              "security": 9,
+              "self_direction": 3,
+              "stimulation": 5,
+              "tradition": 6,
+              "universalism": 2
+            }
+          }
+        ],
+        "mean_vp_base_instruct_rho": 0.7878,
+        "mean_questionnaire_base_instruct_rho": 0.6879,
+        "mean_delta_vp_vs_questionnaire_cosine": -0.0983,
+        "pairwise_vp_delta_cosines": [
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-4B"
+            ],
+            "cosine": 0.7178
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.7222
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.6083
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.9732
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.8605
+          },
+          {
+            "pairs": [
+              "Gemma3-27B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.7897
+          }
+        ],
+        "mean_pairwise_vp_delta_cosine": 0.7786,
+        "construct_directions": {
+          "achievement": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.1268
+          },
+          "benevolence": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -0.0946
+          },
+          "conformity": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.4147
+          },
+          "hedonism": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -0.2096
+          },
+          "power": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.3381
+          },
+          "security": {
+            "n_up": 0,
+            "n_down": 4,
+            "mean_delta_z": -0.9046
+          },
+          "self_direction": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -0.4
+          },
+          "stimulation": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": -0.0312
+          },
+          "tradition": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.5831
+          },
+          "universalism": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.1772
+          }
+        }
+      },
+      "traits": {
+        "per_pair": [
+          {
+            "pair": "Qwen2.5-7B",
+            "vp_base_instruct_rho": 0.9,
+            "questionnaire_base_instruct_rho": 0.1,
+            "delta_vp_vs_questionnaire_cosine": -0.4161,
+            "vp_delta_z": {
+              "agreeableness": 0.1754,
+              "conscientiousness": 0.2873,
+              "extraversion": 0.1065,
+              "neuroticism": -0.2587,
+              "openness": -0.3105
+            },
+            "vp_base_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 3,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            }
+          },
+          {
+            "pair": "Gemma3-4B",
+            "vp_base_instruct_rho": 0.9,
+            "questionnaire_base_instruct_rho": 1.0,
+            "delta_vp_vs_questionnaire_cosine": 0.0781,
+            "vp_delta_z": {
+              "agreeableness": 0.1346,
+              "conscientiousness": -0.1572,
+              "extraversion": 0.7851,
+              "neuroticism": -0.1451,
+              "openness": -0.6174
+            },
+            "vp_base_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 1,
+              "neuroticism": 5,
+              "openness": 2
+            }
+          },
+          {
+            "pair": "Gemma3-27B",
+            "vp_base_instruct_rho": 0.7,
+            "questionnaire_base_instruct_rho": 0.7,
+            "delta_vp_vs_questionnaire_cosine": -0.3852,
+            "vp_delta_z": {
+              "agreeableness": -0.3714,
+              "conscientiousness": -0.4837,
+              "extraversion": 0.3388,
+              "neuroticism": 0.6671,
+              "openness": -0.1509
+            },
+            "vp_base_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 5,
+              "extraversion": 2,
+              "neuroticism": 3,
+              "openness": 1
+            }
+          },
+          {
+            "pair": "Qwen3-30B-A3B",
+            "vp_base_instruct_rho": 1.0,
+            "questionnaire_base_instruct_rho": 1.0,
+            "delta_vp_vs_questionnaire_cosine": 0.2362,
+            "vp_delta_z": {
+              "agreeableness": -0.2602,
+              "conscientiousness": -0.4924,
+              "extraversion": 0.0086,
+              "neuroticism": 0.5444,
+              "openness": 0.1996
+            },
+            "vp_base_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 3,
+              "conscientiousness": 4,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            }
+          }
+        ],
+        "mean_vp_base_instruct_rho": 0.875,
+        "mean_questionnaire_base_instruct_rho": 0.7,
+        "mean_delta_vp_vs_questionnaire_cosine": -0.1218,
+        "pairwise_vp_delta_cosines": [
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-4B"
+            ],
+            "cosine": 0.5269
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-27B"
+            ],
+            "cosine": -0.5602
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": -0.9016
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.2865
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": -0.1849
+          },
+          {
+            "pairs": [
+              "Gemma3-27B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.8539
+          }
+        ],
+        "mean_pairwise_vp_delta_cosine": 0.0034,
+        "construct_directions": {
+          "agreeableness": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": -0.0804
+          },
+          "conscientiousness": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -0.2115
+          },
+          "extraversion": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.3098
+          },
+          "neuroticism": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": 0.2019
+          },
+          "openness": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -0.2198
+          }
+        }
+      }
+    }
+  },
+  {
+    "score_field": "normalized_logprob",
+    "domains": {
+      "values": {
+        "per_pair": [
+          {
+            "pair": "Qwen2.5-7B",
+            "vp_base_instruct_rho": 0.9758,
+            "questionnaire_base_instruct_rho": 0.8667,
+            "delta_vp_vs_questionnaire_cosine": 0.0534,
+            "vp_delta_z": {
+              "achievement": 0.0099,
+              "benevolence": -0.4346,
+              "conformity": 0.0533,
+              "hedonism": 0.1896,
+              "power": 0.0784,
+              "security": -0.4818,
+              "self_direction": -0.0739,
+              "stimulation": 0.2619,
+              "tradition": 0.4211,
+              "universalism": -0.0239
+            },
+            "vp_base_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 4,
+              "hedonism": 7,
+              "power": 8,
+              "security": 1,
+              "self_direction": 2,
+              "stimulation": 6,
+              "tradition": 3,
+              "universalism": 5
+            },
+            "vp_instruct_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 4,
+              "hedonism": 7,
+              "power": 8,
+              "security": 2,
+              "self_direction": 1,
+              "stimulation": 5,
+              "tradition": 3,
+              "universalism": 6
+            }
+          },
+          {
+            "pair": "Gemma3-4B",
+            "vp_base_instruct_rho": 0.8303,
+            "questionnaire_base_instruct_rho": 0.1515,
+            "delta_vp_vs_questionnaire_cosine": -0.5009,
+            "vp_delta_z": {
+              "achievement": 0.1594,
+              "benevolence": -1.1936,
+              "conformity": 0.5117,
+              "hedonism": 0.2631,
+              "power": 0.381,
+              "security": -0.4705,
+              "self_direction": -0.3313,
+              "stimulation": -0.1611,
+              "tradition": 0.9856,
+              "universalism": -0.1444
+            },
+            "vp_base_rank": {
+              "achievement": 10,
+              "benevolence": 7,
+              "conformity": 5,
+              "hedonism": 8,
+              "power": 9,
+              "security": 1,
+              "self_direction": 2,
+              "stimulation": 3,
+              "tradition": 4,
+              "universalism": 6
+            },
+            "vp_instruct_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 3,
+              "hedonism": 7,
+              "power": 8,
+              "security": 1,
+              "self_direction": 4,
+              "stimulation": 5,
+              "tradition": 2,
+              "universalism": 6
+            }
+          },
+          {
+            "pair": "Gemma3-27B",
+            "vp_base_instruct_rho": 0.697,
+            "questionnaire_base_instruct_rho": 0.8788,
+            "delta_vp_vs_questionnaire_cosine": -0.1517,
+            "vp_delta_z": {
+              "achievement": 0.2914,
+              "benevolence": -1.6094,
+              "conformity": 0.8439,
+              "hedonism": 0.0242,
+              "power": 0.6657,
+              "security": -0.7487,
+              "self_direction": -0.4109,
+              "stimulation": -0.1504,
+              "tradition": 1.0132,
+              "universalism": 0.081
+            },
+            "vp_base_rank": {
+              "achievement": 10,
+              "benevolence": 5,
+              "conformity": 8,
+              "hedonism": 7,
+              "power": 9,
+              "security": 1,
+              "self_direction": 2,
+              "stimulation": 4,
+              "tradition": 3,
+              "universalism": 6
+            },
+            "vp_instruct_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 4,
+              "hedonism": 7,
+              "power": 8,
+              "security": 2,
+              "self_direction": 3,
+              "stimulation": 5,
+              "tradition": 1,
+              "universalism": 6
+            }
+          },
+          {
+            "pair": "Qwen3-30B-A3B",
+            "vp_base_instruct_rho": 0.9515,
+            "questionnaire_base_instruct_rho": 0.8545,
+            "delta_vp_vs_questionnaire_cosine": 0.0267,
+            "vp_delta_z": {
+              "achievement": -0.3578,
+              "benevolence": -0.3993,
+              "conformity": 0.6737,
+              "hedonism": -0.0791,
+              "power": 0.2574,
+              "security": -0.6728,
+              "self_direction": -0.0964,
+              "stimulation": 0.0155,
+              "tradition": 0.2721,
+              "universalism": 0.3867
+            },
+            "vp_base_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 6,
+              "hedonism": 7,
+              "power": 8,
+              "security": 1,
+              "self_direction": 2,
+              "stimulation": 4,
+              "tradition": 3,
+              "universalism": 5
+            },
+            "vp_instruct_rank": {
+              "achievement": 9,
+              "benevolence": 10,
+              "conformity": 4,
+              "hedonism": 7,
+              "power": 8,
+              "security": 1,
+              "self_direction": 2,
+              "stimulation": 6,
+              "tradition": 3,
+              "universalism": 5
+            }
+          }
+        ],
+        "mean_vp_base_instruct_rho": 0.8637,
+        "mean_questionnaire_base_instruct_rho": 0.6879,
+        "mean_delta_vp_vs_questionnaire_cosine": -0.1431,
+        "pairwise_vp_delta_cosines": [
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-4B"
+            ],
+            "cosine": 0.8182
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.7871
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.6282
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.9696
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.6316
+          },
+          {
+            "pairs": [
+              "Gemma3-27B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.732
+          }
+        ],
+        "mean_pairwise_vp_delta_cosine": 0.7611,
+        "construct_directions": {
+          "achievement": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.0257
+          },
+          "benevolence": {
+            "n_up": 0,
+            "n_down": 4,
+            "mean_delta_z": -0.9092
+          },
+          "conformity": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.5207
+          },
+          "hedonism": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.0994
+          },
+          "power": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.3456
+          },
+          "security": {
+            "n_up": 0,
+            "n_down": 4,
+            "mean_delta_z": -0.5934
+          },
+          "self_direction": {
+            "n_up": 0,
+            "n_down": 4,
+            "mean_delta_z": -0.2281
+          },
+          "stimulation": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": -0.0085
+          },
+          "tradition": {
+            "n_up": 4,
+            "n_down": 0,
+            "mean_delta_z": 0.673
+          },
+          "universalism": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": 0.0748
+          }
+        }
+      },
+      "traits": {
+        "per_pair": [
+          {
+            "pair": "Qwen2.5-7B",
+            "vp_base_instruct_rho": 0.7,
+            "questionnaire_base_instruct_rho": 0.1,
+            "delta_vp_vs_questionnaire_cosine": -0.329,
+            "vp_delta_z": {
+              "agreeableness": 0.4657,
+              "conscientiousness": 0.598,
+              "extraversion": 0.4777,
+              "neuroticism": -0.435,
+              "openness": -1.1065
+            },
+            "vp_base_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 2,
+              "extraversion": 3,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 1,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 3
+            }
+          },
+          {
+            "pair": "Gemma3-4B",
+            "vp_base_instruct_rho": -0.1,
+            "questionnaire_base_instruct_rho": 1.0,
+            "delta_vp_vs_questionnaire_cosine": -0.4687,
+            "vp_delta_z": {
+              "agreeableness": 0.3064,
+              "conscientiousness": 0.5998,
+              "extraversion": 0.735,
+              "neuroticism": 1.5568,
+              "openness": -3.1981
+            },
+            "vp_base_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 3,
+              "extraversion": 2,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 2,
+              "extraversion": 1,
+              "neuroticism": 3,
+              "openness": 5
+            }
+          },
+          {
+            "pair": "Gemma3-27B",
+            "vp_base_instruct_rho": 0.1,
+            "questionnaire_base_instruct_rho": 0.7,
+            "delta_vp_vs_questionnaire_cosine": 0.0344,
+            "vp_delta_z": {
+              "agreeableness": -0.6327,
+              "conscientiousness": 0.2063,
+              "extraversion": 0.3629,
+              "neuroticism": 1.9445,
+              "openness": -1.8811
+            },
+            "vp_base_rank": {
+              "agreeableness": 5,
+              "conscientiousness": 3,
+              "extraversion": 2,
+              "neuroticism": 4,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 5,
+              "conscientiousness": 3,
+              "extraversion": 2,
+              "neuroticism": 1,
+              "openness": 4
+            }
+          },
+          {
+            "pair": "Qwen3-30B-A3B",
+            "vp_base_instruct_rho": 0.3,
+            "questionnaire_base_instruct_rho": 1.0,
+            "delta_vp_vs_questionnaire_cosine": 0.2786,
+            "vp_delta_z": {
+              "agreeableness": -0.7421,
+              "conscientiousness": -0.5238,
+              "extraversion": -0.1818,
+              "neuroticism": 1.3841,
+              "openness": 0.0636
+            },
+            "vp_base_rank": {
+              "agreeableness": 4,
+              "conscientiousness": 2,
+              "extraversion": 3,
+              "neuroticism": 5,
+              "openness": 1
+            },
+            "vp_instruct_rank": {
+              "agreeableness": 5,
+              "conscientiousness": 4,
+              "extraversion": 3,
+              "neuroticism": 2,
+              "openness": 1
+            }
+          }
+        ],
+        "mean_vp_base_instruct_rho": 0.25,
+        "mean_questionnaire_base_instruct_rho": 0.7,
+        "mean_delta_vp_vs_questionnaire_cosine": -0.1212,
+        "pairwise_vp_delta_cosines": [
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-4B"
+            ],
+            "cosine": 0.6754
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.2959
+          },
+          {
+            "pairs": [
+              "Qwen2.5-7B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": -0.5715
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Gemma3-27B"
+            ],
+            "cosine": 0.8903
+          },
+          {
+            "pairs": [
+              "Gemma3-4B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.2073
+          },
+          {
+            "pairs": [
+              "Gemma3-27B",
+              "Qwen3-30B-A3B"
+            ],
+            "cosine": 0.6123
+          }
+        ],
+        "mean_pairwise_vp_delta_cosine": 0.3516,
+        "construct_directions": {
+          "agreeableness": {
+            "n_up": 2,
+            "n_down": 2,
+            "mean_delta_z": -0.1507
+          },
+          "conscientiousness": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.2201
+          },
+          "extraversion": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 0.3485
+          },
+          "neuroticism": {
+            "n_up": 3,
+            "n_down": 1,
+            "mean_delta_z": 1.1126
+          },
+          "openness": {
+            "n_up": 1,
+            "n_down": 3,
+            "mean_delta_z": -1.5305
+          }
+        }
+      }
+    }
+  }
+]

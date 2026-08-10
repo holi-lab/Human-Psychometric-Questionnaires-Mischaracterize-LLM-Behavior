@@ -1,0 +1,5006 @@
+{
+  "timestamp": "2026-05-19T09:47:32.424562+00:00",
+  "metadata": {
+    "description": "Per-value delta profiles: LLM persona shift (RQ4 − RQ1) vs human demographic effect (condition − overall). All profiles are centered means (PVQ value dimensions).",
+    "surveys": [
+      "PVQ",
+      "PVQ21",
+      "VP"
+    ],
+    "conditions": [
+      "Gender_A",
+      "Gender_B",
+      "Age_A",
+      "Age_B",
+      "Political_A",
+      "Political_B",
+      "Education_A",
+      "Education_B"
+    ],
+    "condition_descriptions": {
+      "Gender_A": "Male",
+      "Gender_B": "Female",
+      "Age_A": "20–39 years old",
+      "Age_B": "80+ years old",
+      "Political_A": "Right-wing",
+      "Political_B": "Left-wing",
+      "Education_A": "Below university",
+      "Education_B": "University or above"
+    },
+    "models": [
+      "gemma-3-27b-it",
+      "gpt-oss-20b",
+      "gpt-oss-120b",
+      "Qwen2.5-7B-Instruct",
+      "Qwen2.5-72B-Instruct",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "Qwen3-235B-A22B-Instruct-2507-FP8"
+    ],
+    "value_dimensions": [
+      "Achievement",
+      "Benevolence",
+      "Conformity",
+      "Hedonism",
+      "Power",
+      "Security",
+      "Self-Direction",
+      "Stimulation",
+      "Tradition",
+      "Universalism"
+    ],
+    "note": "gemma-3-4b-it excluded due to high non-response rate under circumstance prompting."
+  },
+  "human": {
+    "overall_profile": {
+      "Achievement": -0.465185,
+      "Benevolence": 0.73897,
+      "Conformity": -0.170825,
+      "Hedonism": -0.136571,
+      "Power": -0.898845,
+      "Security": 0.493235,
+      "Self-Direction": 0.423418,
+      "Stimulation": -0.67886,
+      "Tradition": 0.075646,
+      "Universalism": 0.619017
+    },
+    "overall_n": 37398,
+    "conditions": {
+      "Gender_A": {
+        "profile": {
+          "Achievement": -0.402537,
+          "Benevolence": 0.664948,
+          "Conformity": -0.165524,
+          "Hedonism": -0.082357,
+          "Power": -0.824217,
+          "Security": 0.397941,
+          "Self-Direction": 0.434721,
+          "Stimulation": -0.590626,
+          "Tradition": 0.016377,
+          "Universalism": 0.551274
+        },
+        "delta": {
+          "Achievement": 0.062648,
+          "Benevolence": -0.074022,
+          "Conformity": 0.005301,
+          "Hedonism": 0.054214,
+          "Power": 0.074628,
+          "Security": -0.095294,
+          "Self-Direction": 0.011303,
+          "Stimulation": 0.088234,
+          "Tradition": -0.059269,
+          "Universalism": -0.067743
+        },
+        "n": 17537
+      },
+      "Gender_B": {
+        "profile": {
+          "Achievement": -0.520502,
+          "Benevolence": 0.80433,
+          "Conformity": -0.175505,
+          "Hedonism": -0.184442,
+          "Power": -0.96474,
+          "Security": 0.577378,
+          "Self-Direction": 0.413438,
+          "Stimulation": -0.75677,
+          "Tradition": 0.127979,
+          "Universalism": 0.678833
+        },
+        "delta": {
+          "Achievement": -0.055317,
+          "Benevolence": 0.06536,
+          "Conformity": -0.00468,
+          "Hedonism": -0.047871,
+          "Power": -0.065895,
+          "Security": 0.084143,
+          "Self-Direction": -0.00998,
+          "Stimulation": -0.07791,
+          "Tradition": 0.052333,
+          "Universalism": 0.059816
+        },
+        "n": 19861
+      },
+      "Age_A": {
+        "profile": {
+          "Achievement": -0.241046,
+          "Benevolence": 0.677568,
+          "Conformity": -0.421322,
+          "Hedonism": 0.099899,
+          "Power": -0.808643,
+          "Security": 0.316909,
+          "Self-Direction": 0.4451,
+          "Stimulation": -0.378179,
+          "Tradition": -0.217186,
+          "Universalism": 0.526899
+        },
+        "delta": {
+          "Achievement": 0.224139,
+          "Benevolence": -0.061402,
+          "Conformity": -0.250497,
+          "Hedonism": 0.23647,
+          "Power": 0.090202,
+          "Security": -0.176326,
+          "Self-Direction": 0.021682,
+          "Stimulation": 0.300681,
+          "Tradition": -0.292832,
+          "Universalism": -0.092118
+        },
+        "n": 9283
+      },
+      "Age_B": {
+        "profile": {
+          "Achievement": -0.692742,
+          "Benevolence": 0.76636,
+          "Conformity": 0.355124,
+          "Hedonism": -0.519258,
+          "Power": -0.97791,
+          "Security": 0.805461,
+          "Self-Direction": 0.240966,
+          "Stimulation": -1.199708,
+          "Tradition": 0.533551,
+          "Universalism": 0.688157
+        },
+        "delta": {
+          "Achievement": -0.227557,
+          "Benevolence": 0.02739,
+          "Conformity": 0.525949,
+          "Hedonism": -0.382687,
+          "Power": -0.079065,
+          "Security": 0.312226,
+          "Self-Direction": -0.182452,
+          "Stimulation": -0.520848,
+          "Tradition": 0.457905,
+          "Universalism": 0.06914
+        },
+        "n": 2225
+      },
+      "Political_A": {
+        "profile": {
+          "Achievement": -0.455982,
+          "Benevolence": 0.684826,
+          "Conformity": -0.082878,
+          "Hedonism": -0.122967,
+          "Power": -0.839747,
+          "Security": 0.472465,
+          "Self-Direction": 0.390425,
+          "Stimulation": -0.678224,
+          "Tradition": 0.134856,
+          "Universalism": 0.497226
+        },
+        "delta": {
+          "Achievement": 0.009203,
+          "Benevolence": -0.054144,
+          "Conformity": 0.087947,
+          "Hedonism": 0.013604,
+          "Power": 0.059098,
+          "Security": -0.02077,
+          "Self-Direction": -0.032993,
+          "Stimulation": 0.000636,
+          "Tradition": 0.05921,
+          "Universalism": -0.121791
+        },
+        "n": 11537
+      },
+      "Political_B": {
+        "profile": {
+          "Achievement": -0.498272,
+          "Benevolence": 0.830099,
+          "Conformity": -0.308262,
+          "Hedonism": -0.080007,
+          "Power": -0.995179,
+          "Security": 0.408202,
+          "Self-Direction": 0.525266,
+          "Stimulation": -0.619999,
+          "Tradition": -0.055033,
+          "Universalism": 0.793185
+        },
+        "delta": {
+          "Achievement": -0.033087,
+          "Benevolence": 0.091129,
+          "Conformity": -0.137437,
+          "Hedonism": 0.056564,
+          "Power": -0.096334,
+          "Security": -0.085033,
+          "Self-Direction": 0.101848,
+          "Stimulation": 0.058861,
+          "Tradition": -0.130679,
+          "Universalism": 0.174168
+        },
+        "n": 11152
+      },
+      "Education_A": {
+        "profile": {
+          "Achievement": -0.489272,
+          "Benevolence": 0.723876,
+          "Conformity": -0.106667,
+          "Hedonism": -0.156844,
+          "Power": -0.88548,
+          "Security": 0.55708,
+          "Self-Direction": 0.357072,
+          "Stimulation": -0.729237,
+          "Tradition": 0.159005,
+          "Universalism": 0.570466
+        },
+        "delta": {
+          "Achievement": -0.024087,
+          "Benevolence": -0.015094,
+          "Conformity": 0.064158,
+          "Hedonism": -0.020273,
+          "Power": 0.013365,
+          "Security": 0.063845,
+          "Self-Direction": -0.066346,
+          "Stimulation": -0.050377,
+          "Tradition": 0.083359,
+          "Universalism": -0.048551
+        },
+        "n": 27054
+      },
+      "Education_B": {
+        "profile": {
+          "Achievement": -0.403265,
+          "Benevolence": 0.778701,
+          "Conformity": -0.340789,
+          "Hedonism": -0.082427,
+          "Power": -0.934453,
+          "Security": 0.325582,
+          "Self-Direction": 0.599933,
+          "Stimulation": -0.547106,
+          "Tradition": -0.144312,
+          "Universalism": 0.748136
+        },
+        "delta": {
+          "Achievement": 0.06192,
+          "Benevolence": 0.039731,
+          "Conformity": -0.169964,
+          "Hedonism": 0.054144,
+          "Power": -0.035608,
+          "Security": -0.167653,
+          "Self-Direction": 0.176515,
+          "Stimulation": 0.131754,
+          "Tradition": -0.219958,
+          "Universalism": 0.129119
+        },
+        "n": 10164
+      }
+    }
+  },
+  "models": {
+    "gemma-3-27b-it": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -0.495,
+          "Benevolence": 0.755,
+          "Conformity": -0.995,
+          "Hedonism": 0.0883,
+          "Power": -1.745,
+          "Security": -0.045,
+          "Self-Direction": 1.505,
+          "Stimulation": -0.245,
+          "Tradition": -0.245,
+          "Universalism": 1.4217
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.21667,
+              "Benevolence": 0.28333,
+              "Conformity": -0.46667,
+              "Hedonism": 0.20003,
+              "Power": -0.29997,
+              "Security": 0.53333,
+              "Self-Direction": 1.28333,
+              "Stimulation": -0.13337,
+              "Tradition": -1.21667,
+              "Universalism": 0.03333
+            },
+            "delta": {
+              "Achievement": 0.27833,
+              "Benevolence": -0.47167,
+              "Conformity": 0.52833,
+              "Hedonism": 0.11173,
+              "Power": 1.44503,
+              "Security": 0.57833,
+              "Self-Direction": -0.22167,
+              "Stimulation": 0.11163,
+              "Tradition": -0.97167,
+              "Universalism": -1.38837
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.86334,
+              "Benevolence": 1.38666,
+              "Conformity": -0.98834,
+              "Hedonism": 0.63666,
+              "Power": -2.36334,
+              "Security": 0.43666,
+              "Self-Direction": 1.38666,
+              "Stimulation": -0.19664,
+              "Tradition": -0.73834,
+              "Universalism": 1.30336
+            },
+            "delta": {
+              "Achievement": -0.36834,
+              "Benevolence": 0.63166,
+              "Conformity": 0.00666,
+              "Hedonism": 0.54836,
+              "Power": -0.61834,
+              "Security": 0.48166,
+              "Self-Direction": -0.11834,
+              "Stimulation": 0.04836,
+              "Tradition": -0.49334,
+              "Universalism": -0.11834
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.43,
+              "Benevolence": 0.57,
+              "Conformity": -1.305,
+              "Hedonism": 0.445,
+              "Power": -0.555,
+              "Security": -0.255,
+              "Self-Direction": 1.195,
+              "Stimulation": 0.1117,
+              "Tradition": -0.555,
+              "Universalism": 0.7783
+            },
+            "delta": {
+              "Achievement": 0.065,
+              "Benevolence": -0.185,
+              "Conformity": -0.31,
+              "Hedonism": 0.3567,
+              "Power": 1.19,
+              "Security": -0.21,
+              "Self-Direction": -0.31,
+              "Stimulation": 0.3567,
+              "Tradition": -0.31,
+              "Universalism": -0.6434
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -2.24084,
+              "Benevolence": 1.63416,
+              "Conformity": 0.63416,
+              "Hedonism": -0.28244,
+              "Power": -1.61584,
+              "Security": 1.58416,
+              "Self-Direction": 0.75916,
+              "Stimulation": -2.61584,
+              "Tradition": 1.25916,
+              "Universalism": 0.88416
+            },
+            "delta": {
+              "Achievement": -1.74584,
+              "Benevolence": 0.87916,
+              "Conformity": 1.62916,
+              "Hedonism": -0.37074,
+              "Power": 0.12916,
+              "Security": 1.62916,
+              "Self-Direction": -0.74584,
+              "Stimulation": -2.37084,
+              "Tradition": 1.50416,
+              "Universalism": -0.53754
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.04833,
+              "Benevolence": 0.17333,
+              "Conformity": 0.04833,
+              "Hedonism": -1.20167,
+              "Power": 0.46503,
+              "Security": 1.39833,
+              "Self-Direction": 1.04833,
+              "Stimulation": -1.70167,
+              "Tradition": 0.67333,
+              "Universalism": -0.95167
+            },
+            "delta": {
+              "Achievement": 0.54333,
+              "Benevolence": -0.58167,
+              "Conformity": 1.04333,
+              "Hedonism": -1.28997,
+              "Power": 2.21003,
+              "Security": 1.44333,
+              "Self-Direction": -0.45667,
+              "Stimulation": -1.45667,
+              "Tradition": 0.91833,
+              "Universalism": -2.37337
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.43834,
+              "Benevolence": 2.68666,
+              "Conformity": -1.68834,
+              "Hedonism": -0.06334,
+              "Power": -2.06334,
+              "Security": -0.26334,
+              "Self-Direction": 2.68666,
+              "Stimulation": 0.10336,
+              "Tradition": -2.06334,
+              "Universalism": 2.10336
+            },
+            "delta": {
+              "Achievement": -0.94334,
+              "Benevolence": 1.93166,
+              "Conformity": -0.69334,
+              "Hedonism": -0.15164,
+              "Power": -0.31834,
+              "Security": -0.21834,
+              "Self-Direction": 1.18166,
+              "Stimulation": 0.34836,
+              "Tradition": -1.81834,
+              "Universalism": 0.68166
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -0.73667,
+              "Benevolence": 0.63833,
+              "Conformity": 0.38833,
+              "Hedonism": 0.42993,
+              "Power": -1.40327,
+              "Security": 0.46333,
+              "Self-Direction": 0.51333,
+              "Stimulation": -0.90327,
+              "Tradition": 0.26333,
+              "Universalism": 0.34663
+            },
+            "delta": {
+              "Achievement": -0.24167,
+              "Benevolence": -0.11667,
+              "Conformity": 1.38333,
+              "Hedonism": 0.34163,
+              "Power": 0.34173,
+              "Security": 0.50833,
+              "Self-Direction": -0.99167,
+              "Stimulation": -0.65827,
+              "Tradition": 0.50833,
+              "Universalism": -1.07507
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.61,
+              "Benevolence": 0.765,
+              "Conformity": -0.985,
+              "Hedonism": -0.235,
+              "Power": -1.735,
+              "Security": 0.365,
+              "Self-Direction": 1.515,
+              "Stimulation": 0.0983,
+              "Tradition": -0.61,
+              "Universalism": 1.4317
+            },
+            "delta": {
+              "Achievement": -0.115,
+              "Benevolence": 0.01,
+              "Conformity": 0.01,
+              "Hedonism": -0.3233,
+              "Power": 0.01,
+              "Security": 0.41,
+              "Self-Direction": 0.01,
+              "Stimulation": 0.3433,
+              "Tradition": -0.365,
+              "Universalism": 0.01
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": -0.475,
+          "Benevolence": 1.275,
+          "Conformity": -1.975,
+          "Hedonism": 0.275,
+          "Power": -1.975,
+          "Security": -0.225,
+          "Self-Direction": 1.275,
+          "Stimulation": 0.275,
+          "Tradition": -0.225,
+          "Universalism": 1.775
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": 0.05,
+              "Benevolence": 1.05,
+              "Conformity": -2.7,
+              "Hedonism": 0.3,
+              "Power": -0.7,
+              "Security": 0.55,
+              "Self-Direction": 1.05,
+              "Stimulation": 0.55,
+              "Tradition": -0.7,
+              "Universalism": 0.55
+            },
+            "delta": {
+              "Achievement": 0.525,
+              "Benevolence": -0.225,
+              "Conformity": -0.725,
+              "Hedonism": 0.025,
+              "Power": 1.275,
+              "Security": 0.775,
+              "Self-Direction": -0.225,
+              "Stimulation": 0.275,
+              "Tradition": -0.475,
+              "Universalism": -1.225
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.65,
+              "Benevolence": 1.6,
+              "Conformity": -1.65,
+              "Hedonism": 0.35,
+              "Power": -2.15,
+              "Security": 0.6,
+              "Self-Direction": 0.6,
+              "Stimulation": 0.6,
+              "Tradition": -0.9,
+              "Universalism": 1.6
+            },
+            "delta": {
+              "Achievement": -0.175,
+              "Benevolence": 0.325,
+              "Conformity": 0.325,
+              "Hedonism": 0.075,
+              "Power": -0.175,
+              "Security": 0.825,
+              "Self-Direction": -0.675,
+              "Stimulation": 0.325,
+              "Tradition": -0.675,
+              "Universalism": -0.175
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.40833,
+              "Benevolence": 1.09167,
+              "Conformity": -2.65833,
+              "Hedonism": 0.59167,
+              "Power": -1.15833,
+              "Security": 0.34167,
+              "Self-Direction": 1.09167,
+              "Stimulation": 0.59167,
+              "Tradition": -0.40833,
+              "Universalism": 0.92497
+            },
+            "delta": {
+              "Achievement": 0.06667,
+              "Benevolence": -0.18333,
+              "Conformity": -0.68333,
+              "Hedonism": 0.31667,
+              "Power": 0.81667,
+              "Security": 0.56667,
+              "Self-Direction": -0.18333,
+              "Stimulation": 0.31667,
+              "Tradition": -0.18333,
+              "Universalism": -0.85003
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.875,
+              "Benevolence": 1.375,
+              "Conformity": 0.625,
+              "Hedonism": -0.125,
+              "Power": -1.375,
+              "Security": 1.875,
+              "Self-Direction": 0.125,
+              "Stimulation": -2.625,
+              "Tradition": 1.125,
+              "Universalism": 0.875
+            },
+            "delta": {
+              "Achievement": -1.4,
+              "Benevolence": 0.1,
+              "Conformity": 2.6,
+              "Hedonism": -0.4,
+              "Power": 0.6,
+              "Security": 2.1,
+              "Self-Direction": -1.15,
+              "Stimulation": -2.9,
+              "Tradition": 1.35,
+              "Universalism": -0.9
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.55,
+              "Benevolence": 0.05,
+              "Conformity": 0.55,
+              "Hedonism": -1.2,
+              "Power": 0.05,
+              "Security": 2.3,
+              "Self-Direction": 0.55,
+              "Stimulation": -1.95,
+              "Tradition": -0.2,
+              "Universalism": -0.7
+            },
+            "delta": {
+              "Achievement": 1.025,
+              "Benevolence": -1.225,
+              "Conformity": 2.525,
+              "Hedonism": -1.475,
+              "Power": 2.025,
+              "Security": 2.525,
+              "Self-Direction": -0.725,
+              "Stimulation": -2.225,
+              "Tradition": 0.025,
+              "Universalism": -2.475
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.475,
+              "Benevolence": 2.275,
+              "Conformity": -2.225,
+              "Hedonism": 0.025,
+              "Power": -2.225,
+              "Security": -0.725,
+              "Self-Direction": 2.275,
+              "Stimulation": 0.275,
+              "Tradition": -0.975,
+              "Universalism": 2.775
+            },
+            "delta": {
+              "Achievement": -1.0,
+              "Benevolence": 1.0,
+              "Conformity": -0.25,
+              "Hedonism": -0.25,
+              "Power": -0.25,
+              "Security": -0.5,
+              "Self-Direction": 1.0,
+              "Stimulation": 0.0,
+              "Tradition": -0.75,
+              "Universalism": 1.0
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.03333,
+              "Benevolence": 0.46667,
+              "Conformity": -0.03333,
+              "Hedonism": 0.21667,
+              "Power": -1.03333,
+              "Security": 0.96667,
+              "Self-Direction": 0.46667,
+              "Stimulation": -0.78333,
+              "Tradition": 0.46667,
+              "Universalism": 0.29997
+            },
+            "delta": {
+              "Achievement": -0.55833,
+              "Benevolence": -0.80833,
+              "Conformity": 1.94167,
+              "Hedonism": -0.05833,
+              "Power": 0.94167,
+              "Security": 1.19167,
+              "Self-Direction": -0.80833,
+              "Stimulation": -1.05833,
+              "Tradition": 0.69167,
+              "Universalism": -1.47503
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.925,
+              "Benevolence": 0.825,
+              "Conformity": -1.675,
+              "Hedonism": -0.175,
+              "Power": -1.675,
+              "Security": 0.325,
+              "Self-Direction": 1.325,
+              "Stimulation": 0.325,
+              "Tradition": -0.175,
+              "Universalism": 1.825
+            },
+            "delta": {
+              "Achievement": -0.45,
+              "Benevolence": -0.45,
+              "Conformity": 0.3,
+              "Hedonism": -0.45,
+              "Power": 0.3,
+              "Security": 0.55,
+              "Self-Direction": 0.05,
+              "Stimulation": 0.05,
+              "Tradition": 0.05,
+              "Universalism": 0.05
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": -5.220109,
+          "Benevolence": 20.356392,
+          "Conformity": -7.778092,
+          "Hedonism": -13.40539,
+          "Power": 0.035036,
+          "Security": -9.424296,
+          "Self-Direction": 0.114351,
+          "Stimulation": -9.165932,
+          "Tradition": 12.896927,
+          "Universalism": 11.591113
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -16.13716,
+              "Benevolence": 26.310686,
+              "Conformity": -12.155522,
+              "Hedonism": -11.354412,
+              "Power": -6.788684,
+              "Security": -4.622411,
+              "Self-Direction": 5.379007,
+              "Stimulation": -7.171977,
+              "Tradition": 4.574563,
+              "Universalism": 21.965907
+            },
+            "delta": {
+              "Achievement": -10.917051,
+              "Benevolence": 5.954294,
+              "Conformity": -4.37743,
+              "Hedonism": 2.050978,
+              "Power": -6.82372,
+              "Security": 4.801885,
+              "Self-Direction": 5.264656,
+              "Stimulation": 1.993955,
+              "Tradition": -8.322364,
+              "Universalism": 10.374794
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -5.136722,
+              "Benevolence": 23.235288,
+              "Conformity": -8.498616,
+              "Hedonism": -12.945283,
+              "Power": -5.287951,
+              "Security": -9.431818,
+              "Self-Direction": 0.35919,
+              "Stimulation": -5.360887,
+              "Tradition": 1.887599,
+              "Universalism": 21.179195
+            },
+            "delta": {
+              "Achievement": 0.083387,
+              "Benevolence": 2.878896,
+              "Conformity": -0.720524,
+              "Hedonism": 0.460107,
+              "Power": -5.322987,
+              "Security": -0.007522,
+              "Self-Direction": 0.244839,
+              "Stimulation": 3.805045,
+              "Tradition": -11.009328,
+              "Universalism": 9.588082
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -11.596216,
+              "Benevolence": 21.576839,
+              "Conformity": -3.916476,
+              "Hedonism": -12.230697,
+              "Power": -7.542255,
+              "Security": -3.257767,
+              "Self-Direction": 3.184072,
+              "Stimulation": -3.998749,
+              "Tradition": -5.640393,
+              "Universalism": 23.42164
+            },
+            "delta": {
+              "Achievement": -6.376107,
+              "Benevolence": 1.220447,
+              "Conformity": 3.861616,
+              "Hedonism": 1.174693,
+              "Power": -7.577291,
+              "Security": 6.166529,
+              "Self-Direction": 3.069721,
+              "Stimulation": 5.167183,
+              "Tradition": -18.53732,
+              "Universalism": 11.830527
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -8.611191,
+              "Benevolence": 17.746658,
+              "Conformity": -10.782994,
+              "Hedonism": -15.274882,
+              "Power": -9.051734,
+              "Security": 5.036362,
+              "Self-Direction": 7.871652,
+              "Stimulation": 2.136559,
+              "Tradition": -9.454765,
+              "Universalism": 20.384332
+            },
+            "delta": {
+              "Achievement": -3.391082,
+              "Benevolence": -2.609734,
+              "Conformity": -3.004902,
+              "Hedonism": -1.869492,
+              "Power": -9.08677,
+              "Security": 14.460658,
+              "Self-Direction": 7.757301,
+              "Stimulation": 11.302491,
+              "Tradition": -22.351692,
+              "Universalism": 8.793219
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -14.187689,
+              "Benevolence": 34.204845,
+              "Conformity": -26.650649,
+              "Hedonism": -3.329714,
+              "Power": -9.091366,
+              "Security": -18.558473,
+              "Self-Direction": 4.974206,
+              "Stimulation": -1.120902,
+              "Tradition": 0.808527,
+              "Universalism": 32.951217
+            },
+            "delta": {
+              "Achievement": -8.96758,
+              "Benevolence": 13.848453,
+              "Conformity": -18.872557,
+              "Hedonism": 10.075676,
+              "Power": -9.126402,
+              "Security": -9.134177,
+              "Self-Direction": 4.859855,
+              "Stimulation": 8.04503,
+              "Tradition": -12.0884,
+              "Universalism": 21.360104
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": 4.490732,
+              "Benevolence": 18.895425,
+              "Conformity": -12.995111,
+              "Hedonism": -1.708914,
+              "Power": 3.86979,
+              "Security": -18.88568,
+              "Self-Direction": -1.422088,
+              "Stimulation": -2.826438,
+              "Tradition": -0.632771,
+              "Universalism": 11.215058
+            },
+            "delta": {
+              "Achievement": 9.710841,
+              "Benevolence": -1.460967,
+              "Conformity": -5.217019,
+              "Hedonism": 11.696476,
+              "Power": 3.834754,
+              "Security": -9.461384,
+              "Self-Direction": -1.536439,
+              "Stimulation": 6.339494,
+              "Tradition": -13.529698,
+              "Universalism": -0.376055
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -14.329982,
+              "Benevolence": 27.038694,
+              "Conformity": -10.431456,
+              "Hedonism": -16.703573,
+              "Power": -6.060606,
+              "Security": -0.968611,
+              "Self-Direction": 2.520707,
+              "Stimulation": -0.732445,
+              "Tradition": -2.367953,
+              "Universalism": 22.035221
+            },
+            "delta": {
+              "Achievement": -9.109873,
+              "Benevolence": 6.682302,
+              "Conformity": -2.653364,
+              "Hedonism": -3.298183,
+              "Power": -6.095642,
+              "Security": 8.455685,
+              "Self-Direction": 2.406356,
+              "Stimulation": 8.433487,
+              "Tradition": -15.26488,
+              "Universalism": 10.444108
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.490974,
+              "Benevolence": 23.177665,
+              "Conformity": -11.239987,
+              "Hedonism": -11.40753,
+              "Power": -1.46577,
+              "Security": -16.36983,
+              "Self-Direction": -3.369567,
+              "Stimulation": -0.791967,
+              "Tradition": 3.271677,
+              "Universalism": 18.686283
+            },
+            "delta": {
+              "Achievement": 4.729135,
+              "Benevolence": 2.821273,
+              "Conformity": -3.461895,
+              "Hedonism": 1.99786,
+              "Power": -1.500806,
+              "Security": -6.945534,
+              "Self-Direction": -3.483918,
+              "Stimulation": 8.373965,
+              "Tradition": -9.62525,
+              "Universalism": 7.09517
+            }
+          }
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -0.02417,
+          "Benevolence": 0.85083,
+          "Conformity": -0.14917,
+          "Hedonism": -0.14917,
+          "Power": -1.14917,
+          "Security": 0.55083,
+          "Self-Direction": 0.35083,
+          "Stimulation": -0.64917,
+          "Tradition": 0.60083,
+          "Universalism": -0.23247
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.55251,
+              "Benevolence": 0.69749,
+              "Conformity": -1.17751,
+              "Hedonism": 0.44749,
+              "Power": -0.88581,
+              "Security": 0.34749,
+              "Self-Direction": 0.69749,
+              "Stimulation": 0.44749,
+              "Tradition": -0.05251,
+              "Universalism": 0.03089
+            },
+            "delta": {
+              "Achievement": -0.52834,
+              "Benevolence": -0.15334,
+              "Conformity": -1.02834,
+              "Hedonism": 0.59666,
+              "Power": 0.26336,
+              "Security": -0.20334,
+              "Self-Direction": 0.34666,
+              "Stimulation": 1.09666,
+              "Tradition": -0.65334,
+              "Universalism": 0.26336
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.73415,
+              "Benevolence": 0.64085,
+              "Conformity": -0.60915,
+              "Hedonism": 0.72415,
+              "Power": -1.44255,
+              "Security": 0.19085,
+              "Self-Direction": 1.01585,
+              "Stimulation": 0.05745,
+              "Tradition": -0.48415,
+              "Universalism": 0.64085
+            },
+            "delta": {
+              "Achievement": -0.70998,
+              "Benevolence": -0.20998,
+              "Conformity": -0.45998,
+              "Hedonism": 0.87332,
+              "Power": -0.29338,
+              "Security": -0.35998,
+              "Self-Direction": 0.66502,
+              "Stimulation": 0.70662,
+              "Tradition": -1.08498,
+              "Universalism": 0.87332
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.12249,
+              "Benevolence": 0.62751,
+              "Conformity": -1.24749,
+              "Hedonism": 0.46081,
+              "Power": -0.87249,
+              "Security": 0.22751,
+              "Self-Direction": 1.00251,
+              "Stimulation": 0.46081,
+              "Tradition": -0.49749,
+              "Universalism": -0.03919
+            },
+            "delta": {
+              "Achievement": -0.09832,
+              "Benevolence": -0.22332,
+              "Conformity": -1.09832,
+              "Hedonism": 0.60998,
+              "Power": 0.27668,
+              "Security": -0.32332,
+              "Self-Direction": 0.65168,
+              "Stimulation": 1.10998,
+              "Tradition": -1.09832,
+              "Universalism": 0.19328
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.80667,
+              "Benevolence": 1.94333,
+              "Conformity": 0.19333,
+              "Hedonism": -0.84827,
+              "Power": -1.68167,
+              "Security": 1.71833,
+              "Self-Direction": 0.94333,
+              "Stimulation": -1.51497,
+              "Tradition": 0.81833,
+              "Universalism": 0.23493
+            },
+            "delta": {
+              "Achievement": -1.7825,
+              "Benevolence": 1.0925,
+              "Conformity": 0.3425,
+              "Hedonism": -0.6991,
+              "Power": -0.5325,
+              "Security": 1.1675,
+              "Self-Direction": 0.5925,
+              "Stimulation": -0.8658,
+              "Tradition": 0.2175,
+              "Universalism": 0.4674
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.54169,
+              "Benevolence": -0.33331,
+              "Conformity": -0.58331,
+              "Hedonism": -0.91671,
+              "Power": 1.24999,
+              "Security": 0.91669,
+              "Self-Direction": 1.16669,
+              "Stimulation": -0.91671,
+              "Tradition": 0.29169,
+              "Universalism": -1.41671
+            },
+            "delta": {
+              "Achievement": 0.56586,
+              "Benevolence": -1.18414,
+              "Conformity": -0.43414,
+              "Hedonism": -0.76754,
+              "Power": 2.39916,
+              "Security": 0.36586,
+              "Self-Direction": 0.81586,
+              "Stimulation": -0.26754,
+              "Tradition": -0.30914,
+              "Universalism": -1.18424
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -0.88168,
+              "Benevolence": 1.99332,
+              "Conformity": -0.75668,
+              "Hedonism": -0.04828,
+              "Power": -1.71498,
+              "Security": 0.01832,
+              "Self-Direction": 1.24332,
+              "Stimulation": -0.38168,
+              "Tradition": -1.00668,
+              "Universalism": 1.53502
+            },
+            "delta": {
+              "Achievement": -0.85751,
+              "Benevolence": 1.14249,
+              "Conformity": -0.60751,
+              "Hedonism": 0.10089,
+              "Power": -0.56581,
+              "Security": -0.53251,
+              "Self-Direction": 0.89249,
+              "Stimulation": 0.26749,
+              "Tradition": -1.60751,
+              "Universalism": 1.76749
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -0.78416,
+              "Benevolence": 0.59084,
+              "Conformity": -0.65916,
+              "Hedonism": -0.07586,
+              "Power": -1.24246,
+              "Security": 0.39084,
+              "Self-Direction": 1.34084,
+              "Stimulation": 0.25744,
+              "Tradition": 0.09084,
+              "Universalism": 0.09084
+            },
+            "delta": {
+              "Achievement": -0.75999,
+              "Benevolence": -0.25999,
+              "Conformity": -0.50999,
+              "Hedonism": 0.07331,
+              "Power": -0.09329,
+              "Security": -0.15999,
+              "Self-Direction": 0.99001,
+              "Stimulation": 0.90661,
+              "Tradition": -0.50999,
+              "Universalism": 0.32331
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 0.2975,
+              "Benevolence": 1.2975,
+              "Conformity": -0.0775,
+              "Hedonism": 0.0475,
+              "Power": -1.4525,
+              "Security": 0.4475,
+              "Self-Direction": 0.5475,
+              "Stimulation": -0.6191,
+              "Tradition": -0.9525,
+              "Universalism": 0.4641
+            },
+            "delta": {
+              "Achievement": 0.32167,
+              "Benevolence": 0.44667,
+              "Conformity": 0.07167,
+              "Hedonism": 0.19667,
+              "Power": -0.30333,
+              "Security": -0.10333,
+              "Self-Direction": 0.19667,
+              "Stimulation": 0.03007,
+              "Tradition": -1.55333,
+              "Universalism": 0.69657
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": -0.075,
+          "Benevolence": 0.425,
+          "Conformity": 0.175,
+          "Hedonism": 0.425,
+          "Power": -1.825,
+          "Security": -0.825,
+          "Self-Direction": 0.925,
+          "Stimulation": -0.075,
+          "Tradition": 0.425,
+          "Universalism": 0.425
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.86667,
+              "Benevolence": 0.38333,
+              "Conformity": -0.61667,
+              "Hedonism": 0.63333,
+              "Power": -1.11667,
+              "Security": -0.11667,
+              "Self-Direction": 0.38333,
+              "Stimulation": -0.11667,
+              "Tradition": 0.38333,
+              "Universalism": 1.05003
+            },
+            "delta": {
+              "Achievement": -0.79167,
+              "Benevolence": -0.04167,
+              "Conformity": -0.79167,
+              "Hedonism": 0.20833,
+              "Power": 0.70833,
+              "Security": 0.70833,
+              "Self-Direction": -0.54167,
+              "Stimulation": -0.04167,
+              "Tradition": -0.04167,
+              "Universalism": 0.62503
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.46667,
+              "Benevolence": 1.28333,
+              "Conformity": -0.46667,
+              "Hedonism": 0.28333,
+              "Power": -1.46667,
+              "Security": 0.03333,
+              "Self-Direction": 1.28333,
+              "Stimulation": -0.46667,
+              "Tradition": -0.46667,
+              "Universalism": 0.45003
+            },
+            "delta": {
+              "Achievement": -0.39167,
+              "Benevolence": 0.85833,
+              "Conformity": -0.64167,
+              "Hedonism": -0.14167,
+              "Power": 0.35833,
+              "Security": 0.85833,
+              "Self-Direction": 0.35833,
+              "Stimulation": -0.39167,
+              "Tradition": -0.89167,
+              "Universalism": 0.02503
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.1,
+              "Benevolence": 0.65,
+              "Conformity": -1.6,
+              "Hedonism": 0.9,
+              "Power": -1.6,
+              "Security": -0.1,
+              "Self-Direction": 0.9,
+              "Stimulation": 0.15,
+              "Tradition": -0.1,
+              "Universalism": 0.9
+            },
+            "delta": {
+              "Achievement": -0.025,
+              "Benevolence": 0.225,
+              "Conformity": -1.775,
+              "Hedonism": 0.475,
+              "Power": 0.225,
+              "Security": 0.725,
+              "Self-Direction": -0.025,
+              "Stimulation": 0.225,
+              "Tradition": -0.525,
+              "Universalism": 0.475
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.55833,
+              "Benevolence": 2.19167,
+              "Conformity": -0.05833,
+              "Hedonism": -0.80833,
+              "Power": -1.80833,
+              "Security": 1.69167,
+              "Self-Direction": -0.30833,
+              "Stimulation": -1.55833,
+              "Tradition": 1.69167,
+              "Universalism": 0.52497
+            },
+            "delta": {
+              "Achievement": -1.48333,
+              "Benevolence": 1.76667,
+              "Conformity": -0.23333,
+              "Hedonism": -1.23333,
+              "Power": 0.01667,
+              "Security": 2.51667,
+              "Self-Direction": -1.23333,
+              "Stimulation": -1.48333,
+              "Tradition": 1.26667,
+              "Universalism": 0.09997
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 1.0,
+              "Benevolence": -0.25,
+              "Conformity": -0.75,
+              "Hedonism": -0.25,
+              "Power": 1.75,
+              "Security": 1.75,
+              "Self-Direction": -0.25,
+              "Stimulation": -0.75,
+              "Tradition": 0.0,
+              "Universalism": -2.25
+            },
+            "delta": {
+              "Achievement": 1.075,
+              "Benevolence": -0.675,
+              "Conformity": -0.925,
+              "Hedonism": -0.675,
+              "Power": 3.575,
+              "Security": 2.575,
+              "Self-Direction": -1.175,
+              "Stimulation": -0.675,
+              "Tradition": -0.425,
+              "Universalism": -2.675
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -2.025,
+              "Benevolence": 1.475,
+              "Conformity": -1.025,
+              "Hedonism": -0.025,
+              "Power": -1.775,
+              "Security": -0.025,
+              "Self-Direction": 1.475,
+              "Stimulation": -0.525,
+              "Tradition": -0.025,
+              "Universalism": 2.475
+            },
+            "delta": {
+              "Achievement": -1.95,
+              "Benevolence": 1.05,
+              "Conformity": -1.2,
+              "Hedonism": -0.45,
+              "Power": 0.05,
+              "Security": 0.8,
+              "Self-Direction": 0.55,
+              "Stimulation": -0.45,
+              "Tradition": -0.45,
+              "Universalism": 2.05
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.7,
+              "Benevolence": 0.8,
+              "Conformity": 0.05,
+              "Hedonism": 0.3,
+              "Power": -0.95,
+              "Security": 0.55,
+              "Self-Direction": 0.55,
+              "Stimulation": -0.7,
+              "Tradition": 0.3,
+              "Universalism": 0.8
+            },
+            "delta": {
+              "Achievement": -1.625,
+              "Benevolence": 0.375,
+              "Conformity": -0.125,
+              "Hedonism": -0.125,
+              "Power": 0.875,
+              "Security": 1.375,
+              "Self-Direction": -0.375,
+              "Stimulation": -0.625,
+              "Tradition": -0.125,
+              "Universalism": 0.375
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 0.30833,
+              "Benevolence": 0.55833,
+              "Conformity": 0.05833,
+              "Hedonism": -0.69167,
+              "Power": -0.94167,
+              "Security": 0.55833,
+              "Self-Direction": 0.30833,
+              "Stimulation": -1.19167,
+              "Tradition": -0.69167,
+              "Universalism": 1.72503
+            },
+            "delta": {
+              "Achievement": 0.38333,
+              "Benevolence": 0.13333,
+              "Conformity": -0.11667,
+              "Hedonism": -1.11667,
+              "Power": 0.88333,
+              "Security": 1.38333,
+              "Self-Direction": -0.61667,
+              "Stimulation": -1.11667,
+              "Tradition": -1.11667,
+              "Universalism": 1.30003
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": -2.598603,
+          "Benevolence": 11.398618,
+          "Conformity": 4.750534,
+          "Hedonism": -9.214327,
+          "Power": -5.266841,
+          "Security": 4.286578,
+          "Self-Direction": -4.936142,
+          "Stimulation": 4.638449,
+          "Tradition": -3.046379,
+          "Universalism": -0.01189
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -2.422372,
+              "Benevolence": 10.963866,
+              "Conformity": 4.923042,
+              "Hedonism": -9.122683,
+              "Power": -5.550491,
+              "Security": 3.070935,
+              "Self-Direction": -4.624487,
+              "Stimulation": 5.118307,
+              "Tradition": -2.605262,
+              "Universalism": 0.249141
+            },
+            "delta": {
+              "Achievement": 0.176231,
+              "Benevolence": -0.434752,
+              "Conformity": 0.172508,
+              "Hedonism": 0.091644,
+              "Power": -0.28365,
+              "Security": -1.215643,
+              "Self-Direction": 0.311655,
+              "Stimulation": 0.479858,
+              "Tradition": 0.441117,
+              "Universalism": 0.261031
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -2.459645,
+              "Benevolence": 10.724656,
+              "Conformity": 4.540429,
+              "Hedonism": -9.03181,
+              "Power": -5.700441,
+              "Security": 3.80541,
+              "Self-Direction": -3.917297,
+              "Stimulation": 4.808486,
+              "Tradition": -2.172416,
+              "Universalism": -0.597375
+            },
+            "delta": {
+              "Achievement": 0.138958,
+              "Benevolence": -0.673962,
+              "Conformity": -0.210105,
+              "Hedonism": 0.182517,
+              "Power": -0.4336,
+              "Security": -0.481168,
+              "Self-Direction": 1.018845,
+              "Stimulation": 0.170037,
+              "Tradition": 0.873963,
+              "Universalism": -0.585485
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -2.378006,
+              "Benevolence": 10.985531,
+              "Conformity": 5.421627,
+              "Hedonism": -9.065919,
+              "Power": -5.983495,
+              "Security": 2.211639,
+              "Self-Direction": -4.538509,
+              "Stimulation": 4.959731,
+              "Tradition": -1.672536,
+              "Universalism": 0.059935
+            },
+            "delta": {
+              "Achievement": 0.220597,
+              "Benevolence": -0.413087,
+              "Conformity": 0.671093,
+              "Hedonism": 0.148408,
+              "Power": -0.716654,
+              "Security": -2.074939,
+              "Self-Direction": 0.397633,
+              "Stimulation": 0.321282,
+              "Tradition": 1.373843,
+              "Universalism": 0.071825
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -2.881694,
+              "Benevolence": 10.315555,
+              "Conformity": 4.426945,
+              "Hedonism": -8.462786,
+              "Power": -5.19248,
+              "Security": 3.456219,
+              "Self-Direction": -2.7204,
+              "Stimulation": 3.412076,
+              "Tradition": -4.589879,
+              "Universalism": 2.236443
+            },
+            "delta": {
+              "Achievement": -0.283091,
+              "Benevolence": -1.083063,
+              "Conformity": -0.323589,
+              "Hedonism": 0.751541,
+              "Power": 0.074361,
+              "Security": -0.830359,
+              "Self-Direction": 2.215742,
+              "Stimulation": -1.226373,
+              "Tradition": -1.5435,
+              "Universalism": 2.248333
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -3.849735,
+              "Benevolence": 12.869103,
+              "Conformity": 3.153396,
+              "Hedonism": -8.458511,
+              "Power": -7.01714,
+              "Security": 3.123703,
+              "Self-Direction": -1.038481,
+              "Stimulation": 4.641832,
+              "Tradition": -3.354025,
+              "Universalism": -0.070145
+            },
+            "delta": {
+              "Achievement": -1.251132,
+              "Benevolence": 1.470485,
+              "Conformity": -1.597138,
+              "Hedonism": 0.755816,
+              "Power": -1.750299,
+              "Security": -1.162875,
+              "Self-Direction": 3.897661,
+              "Stimulation": 0.003383,
+              "Tradition": -0.307646,
+              "Universalism": -0.058255
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -3.168828,
+              "Benevolence": 12.258786,
+              "Conformity": 3.034118,
+              "Hedonism": -7.806641,
+              "Power": -6.650217,
+              "Security": 3.582224,
+              "Self-Direction": -2.480747,
+              "Stimulation": 3.496995,
+              "Tradition": -1.365004,
+              "Universalism": -0.900683
+            },
+            "delta": {
+              "Achievement": -0.570225,
+              "Benevolence": 0.860168,
+              "Conformity": -1.716416,
+              "Hedonism": 1.407686,
+              "Power": -1.383376,
+              "Security": -0.704354,
+              "Self-Direction": 2.455395,
+              "Stimulation": -1.141454,
+              "Tradition": 1.681375,
+              "Universalism": -0.888793
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.500209,
+              "Benevolence": 11.216957,
+              "Conformity": 6.075692,
+              "Hedonism": -9.529133,
+              "Power": -6.298529,
+              "Security": 1.735968,
+              "Self-Direction": -5.770418,
+              "Stimulation": 5.970648,
+              "Tradition": -2.214737,
+              "Universalism": 0.313761
+            },
+            "delta": {
+              "Achievement": 1.098394,
+              "Benevolence": -0.181661,
+              "Conformity": 1.325158,
+              "Hedonism": -0.314806,
+              "Power": -1.031688,
+              "Security": -2.55061,
+              "Self-Direction": -0.834276,
+              "Stimulation": 1.332199,
+              "Tradition": 0.831642,
+              "Universalism": 0.325651
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -2.152033,
+              "Benevolence": 11.861005,
+              "Conformity": 4.456382,
+              "Hedonism": -9.33498,
+              "Power": -6.037677,
+              "Security": 4.002815,
+              "Self-Direction": -4.724397,
+              "Stimulation": 4.615042,
+              "Tradition": -2.504004,
+              "Universalism": -0.182151
+            },
+            "delta": {
+              "Achievement": 0.44657,
+              "Benevolence": 0.462387,
+              "Conformity": -0.294152,
+              "Hedonism": -0.120653,
+              "Power": -0.770836,
+              "Security": -0.283763,
+              "Self-Direction": 0.211745,
+              "Stimulation": -0.023407,
+              "Tradition": 0.542375,
+              "Universalism": -0.170261
+            }
+          }
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -1.1025,
+          "Benevolence": 2.2725,
+          "Conformity": 0.2725,
+          "Hedonism": -0.9775,
+          "Power": -0.9775,
+          "Security": -0.5775,
+          "Self-Direction": 1.0225,
+          "Stimulation": -1.1442,
+          "Tradition": -0.7275,
+          "Universalism": 1.9392
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -1.12834,
+              "Benevolence": 1.24666,
+              "Conformity": -0.50334,
+              "Hedonism": -0.66994,
+              "Power": -1.33674,
+              "Security": -0.30334,
+              "Self-Direction": 1.12166,
+              "Stimulation": 0.99666,
+              "Tradition": -0.00334,
+              "Universalism": 0.58006
+            },
+            "delta": {
+              "Achievement": -0.02584,
+              "Benevolence": -1.02584,
+              "Conformity": -0.77584,
+              "Hedonism": 0.30756,
+              "Power": -0.35924,
+              "Security": 0.27416,
+              "Self-Direction": 0.09916,
+              "Stimulation": 2.14086,
+              "Tradition": 0.72416,
+              "Universalism": -1.35914
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.97751,
+              "Benevolence": 1.89749,
+              "Conformity": 0.64749,
+              "Hedonism": -0.39411,
+              "Power": -1.39411,
+              "Security": -0.82751,
+              "Self-Direction": 1.52249,
+              "Stimulation": -0.72751,
+              "Tradition": -0.85251,
+              "Universalism": 1.10579
+            },
+            "delta": {
+              "Achievement": 0.12499,
+              "Benevolence": -0.37501,
+              "Conformity": 0.37499,
+              "Hedonism": 0.58339,
+              "Power": -0.41661,
+              "Security": -0.25001,
+              "Self-Direction": 0.49999,
+              "Stimulation": 0.41669,
+              "Tradition": -0.12501,
+              "Universalism": -0.83341
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.35501,
+              "Benevolence": 0.76999,
+              "Conformity": -0.60501,
+              "Hedonism": 0.56169,
+              "Power": -1.27161,
+              "Security": 0.19499,
+              "Self-Direction": 0.76999,
+              "Stimulation": 0.39499,
+              "Tradition": -0.85501,
+              "Universalism": 0.39499
+            },
+            "delta": {
+              "Achievement": 0.74749,
+              "Benevolence": -1.50251,
+              "Conformity": -0.87751,
+              "Hedonism": 1.53919,
+              "Power": -0.29411,
+              "Security": 0.77249,
+              "Self-Direction": -0.25251,
+              "Stimulation": 1.53919,
+              "Tradition": -0.12751,
+              "Universalism": -1.54421
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.67501,
+              "Benevolence": 1.69999,
+              "Conformity": -0.05001,
+              "Hedonism": -0.59161,
+              "Power": -1.59161,
+              "Security": 1.57499,
+              "Self-Direction": 0.57499,
+              "Stimulation": -0.92501,
+              "Tradition": 0.07499,
+              "Universalism": 0.90829
+            },
+            "delta": {
+              "Achievement": -0.57251,
+              "Benevolence": -0.57251,
+              "Conformity": -0.32251,
+              "Hedonism": 0.38589,
+              "Power": -0.61411,
+              "Security": 2.15249,
+              "Self-Direction": -0.44751,
+              "Stimulation": 0.21919,
+              "Tradition": 0.80249,
+              "Universalism": -1.03091
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -0.59,
+              "Benevolence": 0.785,
+              "Conformity": 0.66,
+              "Hedonism": -0.59,
+              "Power": -1.59,
+              "Security": 1.81,
+              "Self-Direction": 1.41,
+              "Stimulation": -1.09,
+              "Tradition": 0.035,
+              "Universalism": -0.84
+            },
+            "delta": {
+              "Achievement": 0.5125,
+              "Benevolence": -1.4875,
+              "Conformity": 0.3875,
+              "Hedonism": 0.3875,
+              "Power": -0.6125,
+              "Security": 2.3875,
+              "Self-Direction": 0.3875,
+              "Stimulation": 0.0542,
+              "Tradition": 0.7625,
+              "Universalism": -2.7792
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.03834,
+              "Benevolence": 2.21166,
+              "Conformity": 0.96166,
+              "Hedonism": -1.45494,
+              "Power": -1.28834,
+              "Security": -0.98834,
+              "Self-Direction": 1.08666,
+              "Stimulation": -0.78834,
+              "Tradition": -0.66334,
+              "Universalism": 1.96166
+            },
+            "delta": {
+              "Achievement": 0.06416,
+              "Benevolence": -0.06084,
+              "Conformity": 0.68916,
+              "Hedonism": -0.47744,
+              "Power": -0.31084,
+              "Security": -0.41084,
+              "Self-Direction": 0.06416,
+              "Stimulation": 0.35586,
+              "Tradition": 0.06416,
+              "Universalism": 0.02246
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.01665,
+              "Benevolence": 1.48335,
+              "Conformity": 0.73335,
+              "Hedonism": -1.26665,
+              "Power": -1.10005,
+              "Security": -0.76665,
+              "Self-Direction": 1.10835,
+              "Stimulation": 0.39995,
+              "Tradition": -0.89165,
+              "Universalism": 1.31665
+            },
+            "delta": {
+              "Achievement": 0.08585,
+              "Benevolence": -0.78915,
+              "Conformity": 0.46085,
+              "Hedonism": -0.28915,
+              "Power": -0.12255,
+              "Security": -0.18915,
+              "Self-Direction": 0.08585,
+              "Stimulation": 1.54415,
+              "Tradition": -0.16415,
+              "Universalism": -0.62255
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.89499,
+              "Benevolence": 1.73001,
+              "Conformity": 1.48001,
+              "Hedonism": -1.35339,
+              "Power": -0.85339,
+              "Security": -0.81999,
+              "Self-Direction": 0.60501,
+              "Stimulation": -0.35329,
+              "Tradition": -0.26999,
+              "Universalism": 0.73001
+            },
+            "delta": {
+              "Achievement": 0.20751,
+              "Benevolence": -0.54249,
+              "Conformity": 1.20751,
+              "Hedonism": -0.37589,
+              "Power": 0.12411,
+              "Security": -0.24249,
+              "Self-Direction": -0.41749,
+              "Stimulation": 0.79091,
+              "Tradition": 0.45751,
+              "Universalism": -1.20919
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": -0.76667,
+          "Benevolence": 1.23333,
+          "Conformity": 0.98333,
+          "Hedonism": -1.26667,
+          "Power": -1.01667,
+          "Security": -0.76667,
+          "Self-Direction": 0.23333,
+          "Stimulation": -0.76667,
+          "Tradition": -0.51667,
+          "Universalism": 2.65003
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -1.775,
+              "Benevolence": 1.475,
+              "Conformity": -0.275,
+              "Hedonism": 0.475,
+              "Power": -1.775,
+              "Security": -1.025,
+              "Self-Direction": 1.475,
+              "Stimulation": 0.725,
+              "Tradition": -0.525,
+              "Universalism": 1.225
+            },
+            "delta": {
+              "Achievement": -1.00833,
+              "Benevolence": 0.24167,
+              "Conformity": -1.25833,
+              "Hedonism": 1.74167,
+              "Power": -0.75833,
+              "Security": -0.25833,
+              "Self-Direction": 1.24167,
+              "Stimulation": 1.49167,
+              "Tradition": -0.00833,
+              "Universalism": -1.42503
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -1.58333,
+              "Benevolence": 1.16667,
+              "Conformity": 0.16667,
+              "Hedonism": -0.58333,
+              "Power": -1.33333,
+              "Security": -1.33333,
+              "Self-Direction": -0.08333,
+              "Stimulation": 0.66667,
+              "Tradition": 0.41667,
+              "Universalism": 2.49997
+            },
+            "delta": {
+              "Achievement": -0.81666,
+              "Benevolence": -0.06666,
+              "Conformity": -0.81666,
+              "Hedonism": 0.68334,
+              "Power": -0.31666,
+              "Security": -0.56666,
+              "Self-Direction": -0.31666,
+              "Stimulation": 1.43334,
+              "Tradition": 0.93334,
+              "Universalism": -0.15006
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -1.13333,
+              "Benevolence": 1.61667,
+              "Conformity": -0.88333,
+              "Hedonism": 0.11667,
+              "Power": -2.38333,
+              "Security": -0.13333,
+              "Self-Direction": 1.11667,
+              "Stimulation": 0.11667,
+              "Tradition": 0.11667,
+              "Universalism": 1.44997
+            },
+            "delta": {
+              "Achievement": -0.36666,
+              "Benevolence": 0.38334,
+              "Conformity": -1.86666,
+              "Hedonism": 1.38334,
+              "Power": -1.36666,
+              "Security": 0.63334,
+              "Self-Direction": 0.88334,
+              "Stimulation": 0.88334,
+              "Tradition": 0.63334,
+              "Universalism": -1.20006
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.71667,
+              "Benevolence": 2.53333,
+              "Conformity": -0.46667,
+              "Hedonism": -1.21667,
+              "Power": -1.46667,
+              "Security": 1.03333,
+              "Self-Direction": 0.53333,
+              "Stimulation": -1.96667,
+              "Tradition": 1.53333,
+              "Universalism": 1.20003
+            },
+            "delta": {
+              "Achievement": -0.95,
+              "Benevolence": 1.3,
+              "Conformity": -1.45,
+              "Hedonism": 0.05,
+              "Power": -0.45,
+              "Security": 1.8,
+              "Self-Direction": 0.3,
+              "Stimulation": -1.2,
+              "Tradition": 2.05,
+              "Universalism": -1.45
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -0.925,
+              "Benevolence": -0.675,
+              "Conformity": 0.075,
+              "Hedonism": -1.175,
+              "Power": 0.075,
+              "Security": 1.325,
+              "Self-Direction": 1.575,
+              "Stimulation": -1.425,
+              "Tradition": 1.075,
+              "Universalism": 0.075
+            },
+            "delta": {
+              "Achievement": -0.15833,
+              "Benevolence": -1.90833,
+              "Conformity": -0.90833,
+              "Hedonism": 0.09167,
+              "Power": 1.09167,
+              "Security": 2.09167,
+              "Self-Direction": 1.34167,
+              "Stimulation": -0.65833,
+              "Tradition": 1.59167,
+              "Universalism": -2.57503
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.025,
+              "Benevolence": 1.225,
+              "Conformity": 0.225,
+              "Hedonism": -1.275,
+              "Power": -1.275,
+              "Security": -1.025,
+              "Self-Direction": 0.475,
+              "Stimulation": 0.225,
+              "Tradition": -1.025,
+              "Universalism": 3.475
+            },
+            "delta": {
+              "Achievement": -0.25833,
+              "Benevolence": -0.00833,
+              "Conformity": -0.75833,
+              "Hedonism": -0.00833,
+              "Power": -0.25833,
+              "Security": -0.25833,
+              "Self-Direction": 0.24167,
+              "Stimulation": 0.99167,
+              "Tradition": -0.50833,
+              "Universalism": 0.82497
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -0.9,
+              "Benevolence": 0.6,
+              "Conformity": 1.35,
+              "Hedonism": -1.4,
+              "Power": -1.15,
+              "Security": -0.9,
+              "Self-Direction": 0.1,
+              "Stimulation": -0.4,
+              "Tradition": 0.1,
+              "Universalism": 2.6
+            },
+            "delta": {
+              "Achievement": -0.13333,
+              "Benevolence": -0.63333,
+              "Conformity": 0.36667,
+              "Hedonism": -0.13333,
+              "Power": -0.13333,
+              "Security": -0.13333,
+              "Self-Direction": -0.13333,
+              "Stimulation": 0.36667,
+              "Tradition": 0.61667,
+              "Universalism": -0.05003
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.95833,
+              "Benevolence": 1.04167,
+              "Conformity": 1.29167,
+              "Hedonism": -1.20833,
+              "Power": -1.20833,
+              "Security": -0.95833,
+              "Self-Direction": 0.79167,
+              "Stimulation": -0.95833,
+              "Tradition": -0.70833,
+              "Universalism": 2.87497
+            },
+            "delta": {
+              "Achievement": -0.19166,
+              "Benevolence": -0.19166,
+              "Conformity": 0.30834,
+              "Hedonism": 0.05834,
+              "Power": -0.19166,
+              "Security": -0.19166,
+              "Self-Direction": 0.55834,
+              "Stimulation": -0.19166,
+              "Tradition": -0.19166,
+              "Universalism": 0.22494
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": 1.59515,
+          "Benevolence": 15.211191,
+          "Conformity": 0.865068,
+          "Hedonism": -9.213955,
+          "Power": 3.353938,
+          "Security": 0.059134,
+          "Self-Direction": -10.205582,
+          "Stimulation": 0.2156,
+          "Tradition": -21.976223,
+          "Universalism": 20.095681
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -22.53852,
+              "Benevolence": 53.649454,
+              "Conformity": 3.101365,
+              "Hedonism": -14.598354,
+              "Power": 4.476252,
+              "Security": -6.224854,
+              "Self-Direction": -6.961363,
+              "Stimulation": -27.299569,
+              "Tradition": -27.488109,
+              "Universalism": 43.883697
+            },
+            "delta": {
+              "Achievement": -24.13367,
+              "Benevolence": 38.438263,
+              "Conformity": 2.236297,
+              "Hedonism": -5.384399,
+              "Power": 1.122314,
+              "Security": -6.283988,
+              "Self-Direction": 3.244219,
+              "Stimulation": -27.515169,
+              "Tradition": -5.511886,
+              "Universalism": 23.788016
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -20.915808,
+              "Benevolence": 50.916583,
+              "Conformity": 0.206671,
+              "Hedonism": -19.547665,
+              "Power": 6.564813,
+              "Security": -12.809112,
+              "Self-Direction": -5.569086,
+              "Stimulation": -35.270003,
+              "Tradition": -18.788911,
+              "Universalism": 55.212518
+            },
+            "delta": {
+              "Achievement": -22.510958,
+              "Benevolence": 35.705392,
+              "Conformity": -0.658397,
+              "Hedonism": -10.33371,
+              "Power": 3.210875,
+              "Security": -12.868246,
+              "Self-Direction": 4.636496,
+              "Stimulation": -35.485603,
+              "Tradition": 3.187312,
+              "Universalism": 35.116837
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -21.842605,
+              "Benevolence": 44.990635,
+              "Conformity": 0.566108,
+              "Hedonism": -12.493468,
+              "Power": 4.624538,
+              "Security": 2.7357,
+              "Self-Direction": -3.264459,
+              "Stimulation": -19.186339,
+              "Tradition": -29.062904,
+              "Universalism": 32.932795
+            },
+            "delta": {
+              "Achievement": -23.437755,
+              "Benevolence": 29.779444,
+              "Conformity": -0.29896,
+              "Hedonism": -3.279513,
+              "Power": 1.2706,
+              "Security": 2.676566,
+              "Self-Direction": 6.941123,
+              "Stimulation": -19.401939,
+              "Tradition": -7.086681,
+              "Universalism": 12.837114
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -19.698766,
+              "Benevolence": 28.538145,
+              "Conformity": 6.871824,
+              "Hedonism": -15.317066,
+              "Power": -1.675128,
+              "Security": -6.088336,
+              "Self-Direction": 19.378745,
+              "Stimulation": -21.442892,
+              "Tradition": -25.249125,
+              "Universalism": 34.682595
+            },
+            "delta": {
+              "Achievement": -21.293916,
+              "Benevolence": 13.326954,
+              "Conformity": 6.006756,
+              "Hedonism": -6.103111,
+              "Power": -5.029066,
+              "Security": -6.14747,
+              "Self-Direction": 29.584327,
+              "Stimulation": -21.658492,
+              "Tradition": -3.272902,
+              "Universalism": 14.586914
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.932103,
+              "Benevolence": 32.701968,
+              "Conformity": 5.932051,
+              "Hedonism": -17.677458,
+              "Power": 9.748389,
+              "Security": -22.666539,
+              "Self-Direction": 8.220833,
+              "Stimulation": -22.262546,
+              "Tradition": -36.793478,
+              "Universalism": 41.864674
+            },
+            "delta": {
+              "Achievement": -0.663047,
+              "Benevolence": 17.490777,
+              "Conformity": 5.066983,
+              "Hedonism": -8.463503,
+              "Power": 6.394451,
+              "Security": -22.725673,
+              "Self-Direction": 18.426415,
+              "Stimulation": -22.478146,
+              "Tradition": -14.817255,
+              "Universalism": 21.768993
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -11.961619,
+              "Benevolence": 38.590598,
+              "Conformity": 5.664912,
+              "Hedonism": -13.694413,
+              "Power": 4.125221,
+              "Security": -23.094051,
+              "Self-Direction": 14.731092,
+              "Stimulation": -23.36883,
+              "Tradition": -28.710107,
+              "Universalism": 37.7172
+            },
+            "delta": {
+              "Achievement": -13.556769,
+              "Benevolence": 23.379407,
+              "Conformity": 4.799844,
+              "Hedonism": -4.480458,
+              "Power": 0.771283,
+              "Security": -23.153185,
+              "Self-Direction": 24.936674,
+              "Stimulation": -23.58443,
+              "Tradition": -6.733884,
+              "Universalism": 17.621519
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -8.041757,
+              "Benevolence": 38.432773,
+              "Conformity": 14.986483,
+              "Hedonism": -24.030743,
+              "Power": 2.158597,
+              "Security": -10.478556,
+              "Self-Direction": -5.728491,
+              "Stimulation": -11.119776,
+              "Tradition": -42.079281,
+              "Universalism": 45.900747
+            },
+            "delta": {
+              "Achievement": -9.636907,
+              "Benevolence": 23.221582,
+              "Conformity": 14.121415,
+              "Hedonism": -14.816788,
+              "Power": -1.195341,
+              "Security": -10.53769,
+              "Self-Direction": 4.477091,
+              "Stimulation": -11.335376,
+              "Tradition": -20.103058,
+              "Universalism": 25.805066
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -23.683089,
+              "Benevolence": 46.10543,
+              "Conformity": 10.505468,
+              "Hedonism": -29.61556,
+              "Power": 0.476182,
+              "Security": -4.684515,
+              "Self-Direction": 11.262229,
+              "Stimulation": -17.168476,
+              "Tradition": -27.831216,
+              "Universalism": 34.633543
+            },
+            "delta": {
+              "Achievement": -25.278239,
+              "Benevolence": 30.894239,
+              "Conformity": 9.6404,
+              "Hedonism": -20.401605,
+              "Power": -2.877756,
+              "Security": -4.743649,
+              "Self-Direction": 21.467811,
+              "Stimulation": -17.384076,
+              "Tradition": -5.854993,
+              "Universalism": 14.537862
+            }
+          }
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -0.30501,
+          "Benevolence": 0.44499,
+          "Conformity": -0.30501,
+          "Hedonism": -0.18001,
+          "Power": -0.68001,
+          "Security": -0.38001,
+          "Self-Direction": 0.94499,
+          "Stimulation": -0.34661,
+          "Tradition": -0.18001,
+          "Universalism": 0.98669
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.39918,
+              "Benevolence": 0.10082,
+              "Conformity": -0.39918,
+              "Hedonism": -0.02418,
+              "Power": -0.52418,
+              "Security": -0.32418,
+              "Self-Direction": 1.47582,
+              "Stimulation": -0.19078,
+              "Tradition": -0.27418,
+              "Universalism": 0.55922
+            },
+            "delta": {
+              "Achievement": -0.09417,
+              "Benevolence": -0.34417,
+              "Conformity": -0.09417,
+              "Hedonism": 0.15583,
+              "Power": 0.15583,
+              "Security": 0.05583,
+              "Self-Direction": 0.53083,
+              "Stimulation": 0.15583,
+              "Tradition": -0.09417,
+              "Universalism": -0.42747
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.5575,
+              "Benevolence": 1.4425,
+              "Conformity": -0.5575,
+              "Hedonism": -0.5159,
+              "Power": -0.6825,
+              "Security": -0.4825,
+              "Self-Direction": 1.5675,
+              "Stimulation": -0.3491,
+              "Tradition": -0.4325,
+              "Universalism": 0.5675
+            },
+            "delta": {
+              "Achievement": -0.25249,
+              "Benevolence": 0.99751,
+              "Conformity": -0.25249,
+              "Hedonism": -0.33589,
+              "Power": -0.00249,
+              "Security": -0.10249,
+              "Self-Direction": 0.62251,
+              "Stimulation": -0.00249,
+              "Tradition": -0.25249,
+              "Universalism": -0.41919
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.55834,
+              "Benevolence": 1.19166,
+              "Conformity": -0.68334,
+              "Hedonism": -0.51674,
+              "Power": -0.68334,
+              "Security": -0.68334,
+              "Self-Direction": 1.44166,
+              "Stimulation": -0.34994,
+              "Tradition": -0.55834,
+              "Universalism": 1.40006
+            },
+            "delta": {
+              "Achievement": -0.25333,
+              "Benevolence": 0.74667,
+              "Conformity": -0.37833,
+              "Hedonism": -0.33673,
+              "Power": -0.00333,
+              "Security": -0.30333,
+              "Self-Direction": 0.49667,
+              "Stimulation": -0.00333,
+              "Tradition": -0.37833,
+              "Universalism": 0.41337
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -0.0625,
+              "Benevolence": -0.0625,
+              "Conformity": -0.0625,
+              "Hedonism": -0.0625,
+              "Power": -0.0625,
+              "Security": -0.0625,
+              "Self-Direction": 0.1875,
+              "Stimulation": -0.0625,
+              "Tradition": 0.0625,
+              "Universalism": 0.1875
+            },
+            "delta": {
+              "Achievement": 0.24251,
+              "Benevolence": -0.50749,
+              "Conformity": 0.24251,
+              "Hedonism": 0.11751,
+              "Power": 0.61751,
+              "Security": 0.31751,
+              "Self-Direction": -0.75749,
+              "Stimulation": 0.28411,
+              "Tradition": 0.24251,
+              "Universalism": -0.79919
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.00335,
+              "Benevolence": -1.24665,
+              "Conformity": -0.24665,
+              "Hedonism": -1.08005,
+              "Power": 2.08665,
+              "Security": 1.55335,
+              "Self-Direction": 1.12835,
+              "Stimulation": -1.08005,
+              "Tradition": 0.12835,
+              "Universalism": -1.24665
+            },
+            "delta": {
+              "Achievement": 0.30836,
+              "Benevolence": -1.69164,
+              "Conformity": 0.05836,
+              "Hedonism": -0.90004,
+              "Power": 2.76666,
+              "Security": 1.93336,
+              "Self-Direction": 0.18336,
+              "Stimulation": -0.73344,
+              "Tradition": 0.30836,
+              "Universalism": -2.23334
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -0.775,
+              "Benevolence": 2.225,
+              "Conformity": -0.9,
+              "Hedonism": -0.7334,
+              "Power": -0.9,
+              "Security": -0.9,
+              "Self-Direction": 0.975,
+              "Stimulation": -0.5666,
+              "Tradition": -0.775,
+              "Universalism": 2.35
+            },
+            "delta": {
+              "Achievement": -0.46999,
+              "Benevolence": 1.78001,
+              "Conformity": -0.59499,
+              "Hedonism": -0.55339,
+              "Power": -0.21999,
+              "Security": -0.51999,
+              "Self-Direction": 0.03001,
+              "Stimulation": -0.21999,
+              "Tradition": -0.59499,
+              "Universalism": 1.36331
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -0.12418,
+              "Benevolence": 0.75082,
+              "Conformity": -0.37418,
+              "Hedonism": -0.16578,
+              "Power": -0.49918,
+              "Security": -0.29918,
+              "Self-Direction": 0.37582,
+              "Stimulation": -0.16578,
+              "Tradition": -0.24918,
+              "Universalism": 0.75082
+            },
+            "delta": {
+              "Achievement": 0.18083,
+              "Benevolence": 0.30583,
+              "Conformity": -0.06917,
+              "Hedonism": 0.01423,
+              "Power": 0.18083,
+              "Security": 0.08083,
+              "Self-Direction": -0.56917,
+              "Stimulation": 0.18083,
+              "Tradition": -0.06917,
+              "Universalism": -0.23587
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.30501,
+              "Benevolence": 0.81999,
+              "Conformity": -0.55501,
+              "Hedonism": -0.18001,
+              "Power": -0.68001,
+              "Security": -0.38001,
+              "Self-Direction": 0.94499,
+              "Stimulation": -0.34661,
+              "Tradition": -0.30501,
+              "Universalism": 0.98669
+            },
+            "delta": {
+              "Achievement": 0.0,
+              "Benevolence": 0.375,
+              "Conformity": -0.25,
+              "Hedonism": 0.0,
+              "Power": 0.0,
+              "Security": 0.0,
+              "Self-Direction": 0.0,
+              "Stimulation": 0.0,
+              "Tradition": -0.125,
+              "Universalism": 0.0
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": -0.20834,
+          "Benevolence": 0.04166,
+          "Conformity": -0.45834,
+          "Hedonism": -0.20834,
+          "Power": -0.45834,
+          "Security": 0.29166,
+          "Self-Direction": -0.20834,
+          "Stimulation": -0.20834,
+          "Tradition": -0.20834,
+          "Universalism": 1.62506
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.19167,
+              "Benevolence": 1.05833,
+              "Conformity": -0.44167,
+              "Hedonism": -0.19167,
+              "Power": -0.44167,
+              "Security": -0.19167,
+              "Self-Direction": -0.19167,
+              "Stimulation": -0.19167,
+              "Tradition": -0.19167,
+              "Universalism": 0.97503
+            },
+            "delta": {
+              "Achievement": 0.01667,
+              "Benevolence": 1.01667,
+              "Conformity": 0.01667,
+              "Hedonism": 0.01667,
+              "Power": 0.01667,
+              "Security": -0.48333,
+              "Self-Direction": 0.01667,
+              "Stimulation": 0.01667,
+              "Tradition": 0.01667,
+              "Universalism": -0.65003
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.35,
+              "Benevolence": 0.9,
+              "Conformity": -0.35,
+              "Hedonism": -0.35,
+              "Power": -0.6,
+              "Security": -0.35,
+              "Self-Direction": 0.9,
+              "Stimulation": -0.6,
+              "Tradition": -0.35,
+              "Universalism": 1.15
+            },
+            "delta": {
+              "Achievement": -0.14166,
+              "Benevolence": 0.85834,
+              "Conformity": 0.10834,
+              "Hedonism": -0.14166,
+              "Power": -0.14166,
+              "Security": -0.64166,
+              "Self-Direction": 1.10834,
+              "Stimulation": -0.39166,
+              "Tradition": -0.14166,
+              "Universalism": -0.47506
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.43334,
+              "Benevolence": 1.31666,
+              "Conformity": -0.68334,
+              "Hedonism": -0.43334,
+              "Power": -0.68334,
+              "Security": -0.18334,
+              "Self-Direction": 0.81666,
+              "Stimulation": -0.68334,
+              "Tradition": -0.43334,
+              "Universalism": 1.40006
+            },
+            "delta": {
+              "Achievement": -0.225,
+              "Benevolence": 1.275,
+              "Conformity": -0.225,
+              "Hedonism": -0.225,
+              "Power": -0.225,
+              "Security": -0.475,
+              "Self-Direction": 1.025,
+              "Stimulation": -0.475,
+              "Tradition": -0.225,
+              "Universalism": -0.225
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": 0.04166,
+              "Benevolence": 0.29166,
+              "Conformity": -0.20834,
+              "Hedonism": 0.04166,
+              "Power": -0.20834,
+              "Security": -0.20834,
+              "Self-Direction": 0.29166,
+              "Stimulation": -0.20834,
+              "Tradition": 0.04166,
+              "Universalism": 0.12506
+            },
+            "delta": {
+              "Achievement": 0.25,
+              "Benevolence": 0.25,
+              "Conformity": 0.25,
+              "Hedonism": 0.25,
+              "Power": 0.25,
+              "Security": -0.5,
+              "Self-Direction": 0.5,
+              "Stimulation": 0.0,
+              "Tradition": 0.25,
+              "Universalism": -1.5
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -1.09166,
+              "Benevolence": -1.09166,
+              "Conformity": 2.40834,
+              "Hedonism": -1.09166,
+              "Power": -1.34166,
+              "Security": 3.40834,
+              "Self-Direction": 0.90834,
+              "Stimulation": -1.34166,
+              "Tradition": 0.65834,
+              "Universalism": -1.42506
+            },
+            "delta": {
+              "Achievement": -0.88332,
+              "Benevolence": -1.13332,
+              "Conformity": 2.86668,
+              "Hedonism": -0.88332,
+              "Power": -0.88332,
+              "Security": 3.11668,
+              "Self-Direction": 1.11668,
+              "Stimulation": -1.13332,
+              "Tradition": 0.86668,
+              "Universalism": -3.05012
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -0.78333,
+              "Benevolence": 2.71667,
+              "Conformity": -1.03333,
+              "Hedonism": -0.78333,
+              "Power": -1.03333,
+              "Security": -0.78333,
+              "Self-Direction": 0.96667,
+              "Stimulation": -1.03333,
+              "Tradition": -0.78333,
+              "Universalism": 2.54997
+            },
+            "delta": {
+              "Achievement": -0.57499,
+              "Benevolence": 2.67501,
+              "Conformity": -0.57499,
+              "Hedonism": -0.57499,
+              "Power": -0.57499,
+              "Security": -1.07499,
+              "Self-Direction": 1.17501,
+              "Stimulation": -0.82499,
+              "Tradition": -0.57499,
+              "Universalism": 0.92491
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": 0.06666,
+              "Benevolence": 0.06666,
+              "Conformity": -0.18334,
+              "Hedonism": 0.06666,
+              "Power": -0.18334,
+              "Security": -0.18334,
+              "Self-Direction": 0.06666,
+              "Stimulation": -0.18334,
+              "Tradition": 0.06666,
+              "Universalism": 0.40006
+            },
+            "delta": {
+              "Achievement": 0.275,
+              "Benevolence": 0.025,
+              "Conformity": 0.275,
+              "Hedonism": 0.275,
+              "Power": 0.275,
+              "Security": -0.475,
+              "Self-Direction": 0.275,
+              "Stimulation": 0.025,
+              "Tradition": 0.275,
+              "Universalism": -1.225
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.09166,
+              "Benevolence": 0.40834,
+              "Conformity": -0.09166,
+              "Hedonism": -0.09166,
+              "Power": -0.34166,
+              "Security": -0.09166,
+              "Self-Direction": -0.09166,
+              "Stimulation": -0.09166,
+              "Tradition": -0.09166,
+              "Universalism": 0.57494
+            },
+            "delta": {
+              "Achievement": 0.11668,
+              "Benevolence": 0.36668,
+              "Conformity": 0.36668,
+              "Hedonism": 0.11668,
+              "Power": 0.11668,
+              "Security": -0.38332,
+              "Self-Direction": 0.11668,
+              "Stimulation": 0.11668,
+              "Tradition": 0.11668,
+              "Universalism": -1.05012
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": -4.193609,
+          "Benevolence": 17.547801,
+          "Conformity": 0.01615,
+          "Hedonism": -8.047457,
+          "Power": -5.888605,
+          "Security": -3.020864,
+          "Self-Direction": 7.443992,
+          "Stimulation": 0.590834,
+          "Tradition": -10.00594,
+          "Universalism": 5.557694
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -5.066769,
+              "Benevolence": 15.881587,
+              "Conformity": 0.007172,
+              "Hedonism": -8.751003,
+              "Power": -6.698047,
+              "Security": -4.157855,
+              "Self-Direction": 8.581368,
+              "Stimulation": -0.166177,
+              "Tradition": -5.776813,
+              "Universalism": 6.146539
+            },
+            "delta": {
+              "Achievement": -0.87316,
+              "Benevolence": -1.666214,
+              "Conformity": -0.008978,
+              "Hedonism": -0.703546,
+              "Power": -0.809442,
+              "Security": -1.136991,
+              "Self-Direction": 1.137376,
+              "Stimulation": -0.757011,
+              "Tradition": 4.229127,
+              "Universalism": 0.588845
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -4.395183,
+              "Benevolence": 15.41049,
+              "Conformity": -0.529394,
+              "Hedonism": -9.10563,
+              "Power": -5.834997,
+              "Security": -4.844457,
+              "Self-Direction": 8.575972,
+              "Stimulation": -0.146688,
+              "Tradition": -6.151219,
+              "Universalism": 7.021102
+            },
+            "delta": {
+              "Achievement": -0.201574,
+              "Benevolence": -2.137311,
+              "Conformity": -0.545544,
+              "Hedonism": -1.058173,
+              "Power": 0.053608,
+              "Security": -1.823593,
+              "Self-Direction": 1.13198,
+              "Stimulation": -0.737522,
+              "Tradition": 3.854721,
+              "Universalism": 1.463408
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -5.228868,
+              "Benevolence": 16.794709,
+              "Conformity": 0.66855,
+              "Hedonism": -8.373826,
+              "Power": -7.568987,
+              "Security": -5.381907,
+              "Self-Direction": 9.295288,
+              "Stimulation": 0.862928,
+              "Tradition": -7.324278,
+              "Universalism": 6.256393
+            },
+            "delta": {
+              "Achievement": -1.035259,
+              "Benevolence": -0.753092,
+              "Conformity": 0.6524,
+              "Hedonism": -0.326369,
+              "Power": -1.680382,
+              "Security": -2.361043,
+              "Self-Direction": 1.851296,
+              "Stimulation": 0.272094,
+              "Tradition": 2.681662,
+              "Universalism": 0.698699
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -5.408709,
+              "Benevolence": 17.441345,
+              "Conformity": 0.233228,
+              "Hedonism": -8.955278,
+              "Power": -6.543708,
+              "Security": -4.709344,
+              "Self-Direction": 6.917097,
+              "Stimulation": -1.333432,
+              "Tradition": -4.939059,
+              "Universalism": 7.297859
+            },
+            "delta": {
+              "Achievement": -1.2151,
+              "Benevolence": -0.106456,
+              "Conformity": 0.217078,
+              "Hedonism": -0.907821,
+              "Power": -0.655103,
+              "Security": -1.68848,
+              "Self-Direction": -0.526895,
+              "Stimulation": -1.924266,
+              "Tradition": 5.066881,
+              "Universalism": 1.740165
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -3.861417,
+              "Benevolence": 16.357228,
+              "Conformity": 1.72718,
+              "Hedonism": -8.421804,
+              "Power": -6.209073,
+              "Security": -6.7937,
+              "Self-Direction": 8.9897,
+              "Stimulation": 0.939955,
+              "Tradition": -7.057506,
+              "Universalism": 4.329441
+            },
+            "delta": {
+              "Achievement": 0.332192,
+              "Benevolence": -1.190573,
+              "Conformity": 1.71103,
+              "Hedonism": -0.374347,
+              "Power": -0.320468,
+              "Security": -3.772836,
+              "Self-Direction": 1.545708,
+              "Stimulation": 0.349121,
+              "Tradition": 2.948434,
+              "Universalism": -1.228253
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -4.80928,
+              "Benevolence": 17.087792,
+              "Conformity": 0.477712,
+              "Hedonism": -8.50026,
+              "Power": -7.175843,
+              "Security": -6.269071,
+              "Self-Direction": 10.325691,
+              "Stimulation": -0.454621,
+              "Tradition": -5.335322,
+              "Universalism": 4.653202
+            },
+            "delta": {
+              "Achievement": -0.615671,
+              "Benevolence": -0.460009,
+              "Conformity": 0.461562,
+              "Hedonism": -0.452803,
+              "Power": -1.287238,
+              "Security": -3.248207,
+              "Self-Direction": 2.881699,
+              "Stimulation": -1.045455,
+              "Tradition": 4.670618,
+              "Universalism": -0.904492
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -5.130247,
+              "Benevolence": 15.761919,
+              "Conformity": 0.950677,
+              "Hedonism": -8.440754,
+              "Power": -7.436835,
+              "Security": -3.719817,
+              "Self-Direction": 9.009071,
+              "Stimulation": -0.110057,
+              "Tradition": -6.290862,
+              "Universalism": 5.406908
+            },
+            "delta": {
+              "Achievement": -0.936638,
+              "Benevolence": -1.785882,
+              "Conformity": 0.934527,
+              "Hedonism": -0.393297,
+              "Power": -1.54823,
+              "Security": -0.698953,
+              "Self-Direction": 1.565079,
+              "Stimulation": -0.700891,
+              "Tradition": 3.715078,
+              "Universalism": -0.150786
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -4.281449,
+              "Benevolence": 15.84848,
+              "Conformity": 1.133034,
+              "Hedonism": -8.907223,
+              "Power": -7.036323,
+              "Security": -4.070252,
+              "Self-Direction": 10.994755,
+              "Stimulation": 0.232817,
+              "Tradition": -8.869915,
+              "Universalism": 4.956077
+            },
+            "delta": {
+              "Achievement": -0.08784,
+              "Benevolence": -1.699321,
+              "Conformity": 1.116884,
+              "Hedonism": -0.859766,
+              "Power": -1.147718,
+              "Security": -1.049388,
+              "Self-Direction": 3.550763,
+              "Stimulation": -0.358017,
+              "Tradition": 1.136025,
+              "Universalism": -0.601617
+            }
+          }
+        }
+      }
+    },
+    "Qwen2.5-72B-Instruct": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -1.18751,
+          "Benevolence": 1.68749,
+          "Conformity": -0.31251,
+          "Hedonism": 0.06249,
+          "Power": -2.43751,
+          "Security": 0.06249,
+          "Self-Direction": 1.81249,
+          "Stimulation": -0.60411,
+          "Tradition": -0.81251,
+          "Universalism": 1.72919
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.31667,
+              "Benevolence": 1.05833,
+              "Conformity": -0.69167,
+              "Hedonism": 0.05833,
+              "Power": -1.60827,
+              "Security": 0.05833,
+              "Self-Direction": 1.43333,
+              "Stimulation": 0.05833,
+              "Tradition": -0.69167,
+              "Universalism": 0.64163
+            },
+            "delta": {
+              "Achievement": 0.87084,
+              "Benevolence": -0.62916,
+              "Conformity": -0.37916,
+              "Hedonism": -0.00416,
+              "Power": 0.82924,
+              "Security": -0.00416,
+              "Self-Direction": -0.37916,
+              "Stimulation": 0.66244,
+              "Tradition": 0.12084,
+              "Universalism": -1.08756
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -1.31084,
+              "Benevolence": 1.81416,
+              "Conformity": -0.31084,
+              "Hedonism": -0.06084,
+              "Power": -2.56084,
+              "Security": 0.33916,
+              "Self-Direction": 1.43916,
+              "Stimulation": -0.39414,
+              "Tradition": -0.56084,
+              "Universalism": 1.60586
+            },
+            "delta": {
+              "Achievement": -0.12333,
+              "Benevolence": 0.12667,
+              "Conformity": 0.00167,
+              "Hedonism": -0.12333,
+              "Power": -0.12333,
+              "Security": 0.27667,
+              "Self-Direction": -0.37333,
+              "Stimulation": 0.20997,
+              "Tradition": 0.25167,
+              "Universalism": -0.12333
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": 0.05417,
+              "Benevolence": 1.05417,
+              "Conformity": -0.69583,
+              "Hedonism": 0.38747,
+              "Power": -2.11253,
+              "Security": 0.05417,
+              "Self-Direction": 1.80417,
+              "Stimulation": 0.05417,
+              "Tradition": -1.82083,
+              "Universalism": 1.22087
+            },
+            "delta": {
+              "Achievement": 1.24168,
+              "Benevolence": -0.63332,
+              "Conformity": -0.38332,
+              "Hedonism": 0.32498,
+              "Power": 0.32498,
+              "Security": -0.00832,
+              "Self-Direction": -0.00832,
+              "Stimulation": 0.65828,
+              "Tradition": -1.00832,
+              "Universalism": -0.50832
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -2.50333,
+              "Benevolence": 2.24667,
+              "Conformity": 0.87167,
+              "Hedonism": -1.08673,
+              "Power": -2.75333,
+              "Security": 1.44667,
+              "Self-Direction": 1.62167,
+              "Stimulation": -2.41993,
+              "Tradition": 1.24667,
+              "Universalism": 1.32997
+            },
+            "delta": {
+              "Achievement": -1.31582,
+              "Benevolence": 0.55918,
+              "Conformity": 1.18418,
+              "Hedonism": -1.14922,
+              "Power": -0.31582,
+              "Security": 1.38418,
+              "Self-Direction": -0.19082,
+              "Stimulation": -1.81582,
+              "Tradition": 2.05918,
+              "Universalism": -0.39922
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 1.75668,
+              "Benevolence": -0.74332,
+              "Conformity": 0.63168,
+              "Hedonism": -1.07672,
+              "Power": 0.25668,
+              "Security": 1.85668,
+              "Self-Direction": 1.13168,
+              "Stimulation": -1.57672,
+              "Tradition": -0.49332,
+              "Universalism": -1.74332
+            },
+            "delta": {
+              "Achievement": 2.94419,
+              "Benevolence": -2.43081,
+              "Conformity": 0.94419,
+              "Hedonism": -1.13921,
+              "Power": 2.69419,
+              "Security": 1.79419,
+              "Self-Direction": -0.68081,
+              "Stimulation": -0.97261,
+              "Tradition": 0.31919,
+              "Universalism": -3.47251
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.58,
+              "Benevolence": 2.545,
+              "Conformity": -1.205,
+              "Hedonism": 0.545,
+              "Power": -1.955,
+              "Security": -1.155,
+              "Self-Direction": 1.67,
+              "Stimulation": 0.045,
+              "Tradition": -1.205,
+              "Universalism": 2.295
+            },
+            "delta": {
+              "Achievement": -0.39249,
+              "Benevolence": 0.85751,
+              "Conformity": -0.89249,
+              "Hedonism": 0.48251,
+              "Power": 0.48251,
+              "Security": -1.21749,
+              "Self-Direction": -0.14249,
+              "Stimulation": 0.64911,
+              "Tradition": -0.39249,
+              "Universalism": 0.56581
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.14584,
+              "Benevolence": 1.35416,
+              "Conformity": -0.27084,
+              "Hedonism": 0.35416,
+              "Power": -2.31244,
+              "Security": 0.35416,
+              "Self-Direction": 1.35416,
+              "Stimulation": -0.47914,
+              "Tradition": -0.39584,
+              "Universalism": 1.18746
+            },
+            "delta": {
+              "Achievement": 0.04167,
+              "Benevolence": -0.33333,
+              "Conformity": 0.04167,
+              "Hedonism": 0.29167,
+              "Power": 0.12507,
+              "Security": 0.29167,
+              "Self-Direction": -0.45833,
+              "Stimulation": 0.12497,
+              "Tradition": 0.41667,
+              "Universalism": -0.54173
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -1.37501,
+              "Benevolence": 1.99999,
+              "Conformity": -0.37501,
+              "Hedonism": -1e-05,
+              "Power": -2.66661,
+              "Security": 0.49999,
+              "Self-Direction": 1.87499,
+              "Stimulation": -0.50001,
+              "Tradition": -0.87501,
+              "Universalism": 1.41669
+            },
+            "delta": {
+              "Achievement": -0.1875,
+              "Benevolence": 0.3125,
+              "Conformity": -0.0625,
+              "Hedonism": -0.0625,
+              "Power": -0.2291,
+              "Security": 0.4375,
+              "Self-Direction": 0.0625,
+              "Stimulation": 0.1041,
+              "Tradition": -0.0625,
+              "Universalism": -0.3125
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": -0.8,
+          "Benevolence": 1.7,
+          "Conformity": -1.3,
+          "Hedonism": -0.05,
+          "Power": -2.55,
+          "Security": -0.05,
+          "Self-Direction": 1.95,
+          "Stimulation": -0.05,
+          "Tradition": -0.8,
+          "Universalism": 1.95
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": 0.06667,
+              "Benevolence": 1.06667,
+              "Conformity": -1.18333,
+              "Hedonism": 0.06667,
+              "Power": -1.93333,
+              "Security": 0.06667,
+              "Self-Direction": 1.06667,
+              "Stimulation": 0.06667,
+              "Tradition": -0.68333,
+              "Universalism": 1.39997
+            },
+            "delta": {
+              "Achievement": 0.86667,
+              "Benevolence": -0.63333,
+              "Conformity": 0.11667,
+              "Hedonism": 0.11667,
+              "Power": 0.61667,
+              "Security": 0.11667,
+              "Self-Direction": -0.88333,
+              "Stimulation": 0.11667,
+              "Tradition": 0.11667,
+              "Universalism": -0.55003
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -0.875,
+              "Benevolence": 1.875,
+              "Conformity": -1.375,
+              "Hedonism": -0.125,
+              "Power": -2.625,
+              "Security": -0.125,
+              "Self-Direction": 1.625,
+              "Stimulation": -0.125,
+              "Tradition": -0.125,
+              "Universalism": 1.875
+            },
+            "delta": {
+              "Achievement": -0.075,
+              "Benevolence": 0.175,
+              "Conformity": -0.075,
+              "Hedonism": -0.075,
+              "Power": -0.075,
+              "Security": -0.075,
+              "Self-Direction": -0.325,
+              "Stimulation": -0.075,
+              "Tradition": 0.675,
+              "Universalism": -0.075
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.15833,
+              "Benevolence": 1.59167,
+              "Conformity": -1.15833,
+              "Hedonism": -0.15833,
+              "Power": -2.40833,
+              "Security": -0.15833,
+              "Self-Direction": 1.59167,
+              "Stimulation": 0.34167,
+              "Tradition": -1.15833,
+              "Universalism": 1.67497
+            },
+            "delta": {
+              "Achievement": 0.64167,
+              "Benevolence": -0.10833,
+              "Conformity": 0.14167,
+              "Hedonism": -0.10833,
+              "Power": 0.14167,
+              "Security": -0.10833,
+              "Self-Direction": -0.35833,
+              "Stimulation": 0.39167,
+              "Tradition": -0.35833,
+              "Universalism": -0.27503
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -2.03333,
+              "Benevolence": 2.71667,
+              "Conformity": -0.03333,
+              "Hedonism": -2.28333,
+              "Power": -2.03333,
+              "Security": 1.71667,
+              "Self-Direction": 0.46667,
+              "Stimulation": -2.28333,
+              "Tradition": 1.71667,
+              "Universalism": 2.04997
+            },
+            "delta": {
+              "Achievement": -1.23333,
+              "Benevolence": 1.01667,
+              "Conformity": 1.26667,
+              "Hedonism": -2.23333,
+              "Power": 0.51667,
+              "Security": 1.76667,
+              "Self-Direction": -1.48333,
+              "Stimulation": -2.23333,
+              "Tradition": 2.51667,
+              "Universalism": 0.09997
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 1.14166,
+              "Benevolence": -0.10834,
+              "Conformity": 0.64166,
+              "Hedonism": -2.10834,
+              "Power": 0.64166,
+              "Security": 2.39166,
+              "Self-Direction": 0.39166,
+              "Stimulation": -1.85834,
+              "Tradition": 0.39166,
+              "Universalism": -1.52494
+            },
+            "delta": {
+              "Achievement": 1.94166,
+              "Benevolence": -1.80834,
+              "Conformity": 1.94166,
+              "Hedonism": -2.05834,
+              "Power": 3.19166,
+              "Security": 2.44166,
+              "Self-Direction": -1.55834,
+              "Stimulation": -1.80834,
+              "Tradition": 1.19166,
+              "Universalism": -3.47494
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -1.85,
+              "Benevolence": 3.15,
+              "Conformity": -1.85,
+              "Hedonism": -0.35,
+              "Power": -1.85,
+              "Security": -1.6,
+              "Self-Direction": 1.4,
+              "Stimulation": 0.65,
+              "Tradition": -0.85,
+              "Universalism": 3.15
+            },
+            "delta": {
+              "Achievement": -1.05,
+              "Benevolence": 1.45,
+              "Conformity": -0.55,
+              "Hedonism": -0.3,
+              "Power": 0.7,
+              "Security": -1.55,
+              "Self-Direction": -0.55,
+              "Stimulation": 0.7,
+              "Tradition": -0.05,
+              "Universalism": 1.2
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.20833,
+              "Benevolence": 1.29167,
+              "Conformity": -1.20833,
+              "Hedonism": 0.29167,
+              "Power": -2.20833,
+              "Security": 0.29167,
+              "Self-Direction": 1.04167,
+              "Stimulation": 0.29167,
+              "Tradition": 0.29167,
+              "Universalism": 1.12497
+            },
+            "delta": {
+              "Achievement": -0.40833,
+              "Benevolence": -0.40833,
+              "Conformity": 0.09167,
+              "Hedonism": 0.34167,
+              "Power": 0.34167,
+              "Security": 0.34167,
+              "Self-Direction": -0.90833,
+              "Stimulation": 0.34167,
+              "Tradition": 1.09167,
+              "Universalism": -0.82503
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.225,
+              "Benevolence": 1.775,
+              "Conformity": -1.475,
+              "Hedonism": -0.225,
+              "Power": -2.725,
+              "Security": -0.225,
+              "Self-Direction": 1.775,
+              "Stimulation": -0.225,
+              "Tradition": -0.225,
+              "Universalism": 1.775
+            },
+            "delta": {
+              "Achievement": 0.575,
+              "Benevolence": 0.075,
+              "Conformity": -0.175,
+              "Hedonism": -0.175,
+              "Power": -0.175,
+              "Security": -0.175,
+              "Self-Direction": -0.175,
+              "Stimulation": -0.175,
+              "Tradition": 0.575,
+              "Universalism": -0.175
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": -9.810349,
+          "Benevolence": 24.423964,
+          "Conformity": 1.587864,
+          "Hedonism": -18.755061,
+          "Power": -12.02222,
+          "Security": -0.503442,
+          "Self-Direction": 8.053164,
+          "Stimulation": -2.04124,
+          "Tradition": -6.986776,
+          "Universalism": 16.054093
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -9.428889,
+              "Benevolence": 19.564373,
+              "Conformity": 3.385114,
+              "Hedonism": -18.278868,
+              "Power": -11.233008,
+              "Security": -2.580858,
+              "Self-Direction": 12.123414,
+              "Stimulation": 0.796201,
+              "Tradition": -7.127517,
+              "Universalism": 12.780034
+            },
+            "delta": {
+              "Achievement": 0.38146,
+              "Benevolence": -4.859591,
+              "Conformity": 1.79725,
+              "Hedonism": 0.476193,
+              "Power": 0.789212,
+              "Security": -2.077416,
+              "Self-Direction": 4.07025,
+              "Stimulation": 2.837441,
+              "Tradition": -0.140741,
+              "Universalism": -3.274059
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -10.512096,
+              "Benevolence": 21.429335,
+              "Conformity": 0.438202,
+              "Hedonism": -20.685017,
+              "Power": -12.086318,
+              "Security": -0.677386,
+              "Self-Direction": 12.050389,
+              "Stimulation": -1.042824,
+              "Tradition": -3.435899,
+              "Universalism": 14.521612
+            },
+            "delta": {
+              "Achievement": -0.701747,
+              "Benevolence": -2.994629,
+              "Conformity": -1.149662,
+              "Hedonism": -1.929956,
+              "Power": -0.064098,
+              "Security": -0.173944,
+              "Self-Direction": 3.997225,
+              "Stimulation": 0.998416,
+              "Tradition": 3.550877,
+              "Universalism": -1.532481
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -9.74985,
+              "Benevolence": 22.076625,
+              "Conformity": 1.226427,
+              "Hedonism": -18.041547,
+              "Power": -11.381578,
+              "Security": -2.535959,
+              "Self-Direction": 10.16018,
+              "Stimulation": -0.086669,
+              "Tradition": -4.843576,
+              "Universalism": 13.175943
+            },
+            "delta": {
+              "Achievement": 0.060499,
+              "Benevolence": -2.347339,
+              "Conformity": -0.361437,
+              "Hedonism": 0.713514,
+              "Power": 0.640642,
+              "Security": -2.032517,
+              "Self-Direction": 2.107016,
+              "Stimulation": 1.954571,
+              "Tradition": 2.1432,
+              "Universalism": -2.87815
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -8.033313,
+              "Benevolence": 20.749898,
+              "Conformity": 2.680201,
+              "Hedonism": -18.531075,
+              "Power": -8.888891,
+              "Security": -3.020943,
+              "Self-Direction": 5.474865,
+              "Stimulation": -2.396742,
+              "Tradition": -2.737377,
+              "Universalism": 14.703374
+            },
+            "delta": {
+              "Achievement": 1.777036,
+              "Benevolence": -3.674066,
+              "Conformity": 1.092337,
+              "Hedonism": 0.223986,
+              "Power": 3.133329,
+              "Security": -2.517501,
+              "Self-Direction": -2.578299,
+              "Stimulation": -0.355502,
+              "Tradition": 4.249399,
+              "Universalism": -1.350719
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -6.950709,
+              "Benevolence": 22.480668,
+              "Conformity": 1.411382,
+              "Hedonism": -19.029685,
+              "Power": -9.634557,
+              "Security": -0.126767,
+              "Self-Direction": 8.634314,
+              "Stimulation": 1.243929,
+              "Tradition": -9.013109,
+              "Universalism": 10.984538
+            },
+            "delta": {
+              "Achievement": 2.85964,
+              "Benevolence": -1.943296,
+              "Conformity": -0.176482,
+              "Hedonism": -0.274624,
+              "Power": 2.387663,
+              "Security": 0.376675,
+              "Self-Direction": 0.58115,
+              "Stimulation": 3.285169,
+              "Tradition": -2.026333,
+              "Universalism": -5.069555
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -12.598636,
+              "Benevolence": 25.531249,
+              "Conformity": -0.94379,
+              "Hedonism": -19.270873,
+              "Power": -14.333726,
+              "Security": 1.608423,
+              "Self-Direction": 13.236951,
+              "Stimulation": -0.412493,
+              "Tradition": -7.547154,
+              "Universalism": 14.73005
+            },
+            "delta": {
+              "Achievement": -2.788287,
+              "Benevolence": 1.107285,
+              "Conformity": -2.531654,
+              "Hedonism": -0.515812,
+              "Power": -2.311506,
+              "Security": 2.111865,
+              "Self-Direction": 5.183787,
+              "Stimulation": 1.628747,
+              "Tradition": -0.560378,
+              "Universalism": -1.324043
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -11.178367,
+              "Benevolence": 22.706388,
+              "Conformity": -0.213812,
+              "Hedonism": -17.960621,
+              "Power": -10.487395,
+              "Security": -2.427645,
+              "Self-Direction": 3.708978,
+              "Stimulation": -1.456738,
+              "Tradition": 0.680886,
+              "Universalism": 16.628322
+            },
+            "delta": {
+              "Achievement": -1.368018,
+              "Benevolence": -1.717576,
+              "Conformity": -1.801676,
+              "Hedonism": 0.79444,
+              "Power": 1.534825,
+              "Security": -1.924203,
+              "Self-Direction": -4.344186,
+              "Stimulation": 0.584502,
+              "Tradition": 7.667662,
+              "Universalism": 0.574229
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -10.759222,
+              "Benevolence": 24.093328,
+              "Conformity": -0.471994,
+              "Hedonism": -20.218795,
+              "Power": -14.256246,
+              "Security": 3.539091,
+              "Self-Direction": 12.476005,
+              "Stimulation": -0.322846,
+              "Tradition": -5.993494,
+              "Universalism": 11.914178
+            },
+            "delta": {
+              "Achievement": -0.948873,
+              "Benevolence": -0.330636,
+              "Conformity": -2.059858,
+              "Hedonism": -1.463734,
+              "Power": -2.234026,
+              "Security": 4.042533,
+              "Self-Direction": 4.422841,
+              "Stimulation": 1.718394,
+              "Tradition": 0.993282,
+              "Universalism": -4.139915
+            }
+          }
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": 0.70334,
+          "Benevolence": 0.70334,
+          "Conformity": -0.54666,
+          "Hedonism": 0.70334,
+          "Power": -2.13006,
+          "Security": 0.00334,
+          "Self-Direction": 0.70334,
+          "Stimulation": 0.70334,
+          "Tradition": -0.79666,
+          "Universalism": -0.04666
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": 0.62083,
+              "Benevolence": 0.49583,
+              "Conformity": -0.75417,
+              "Hedonism": 0.62083,
+              "Power": -2.37917,
+              "Security": 0.12083,
+              "Self-Direction": 0.62083,
+              "Stimulation": 0.62083,
+              "Tradition": -0.25417,
+              "Universalism": 0.28753
+            },
+            "delta": {
+              "Achievement": -0.08251,
+              "Benevolence": -0.20751,
+              "Conformity": -0.20751,
+              "Hedonism": -0.08251,
+              "Power": -0.24911,
+              "Security": 0.11749,
+              "Self-Direction": -0.08251,
+              "Stimulation": -0.08251,
+              "Tradition": 0.54249,
+              "Universalism": 0.33419
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": 0.65416,
+              "Benevolence": 0.52916,
+              "Conformity": -0.59584,
+              "Hedonism": 0.65416,
+              "Power": -3.01244,
+              "Security": 0.15416,
+              "Self-Direction": 0.65416,
+              "Stimulation": 0.65416,
+              "Tradition": -0.34584,
+              "Universalism": 0.65416
+            },
+            "delta": {
+              "Achievement": -0.04918,
+              "Benevolence": -0.17418,
+              "Conformity": -0.04918,
+              "Hedonism": -0.04918,
+              "Power": -0.88238,
+              "Security": 0.15082,
+              "Self-Direction": -0.04918,
+              "Stimulation": -0.04918,
+              "Tradition": 0.45082,
+              "Universalism": 0.70082
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": 0.7025,
+              "Benevolence": 0.7025,
+              "Conformity": -0.7975,
+              "Hedonism": 0.7025,
+              "Power": -2.2975,
+              "Security": -0.1975,
+              "Self-Direction": 0.7025,
+              "Stimulation": 0.7025,
+              "Tradition": -0.9225,
+              "Universalism": 0.7025
+            },
+            "delta": {
+              "Achievement": -0.00084,
+              "Benevolence": -0.00084,
+              "Conformity": -0.25084,
+              "Hedonism": -0.00084,
+              "Power": -0.16744,
+              "Security": -0.20084,
+              "Self-Direction": -0.00084,
+              "Stimulation": -0.00084,
+              "Tradition": -0.12584,
+              "Universalism": 0.74916
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -3.24167,
+              "Benevolence": 1.25833,
+              "Conformity": 0.00833,
+              "Hedonism": 1.25833,
+              "Power": -3.24167,
+              "Security": 1.25833,
+              "Self-Direction": 1.25833,
+              "Stimulation": -1.07497,
+              "Tradition": 1.25833,
+              "Universalism": 1.25833
+            },
+            "delta": {
+              "Achievement": -3.94501,
+              "Benevolence": 0.55499,
+              "Conformity": 0.55499,
+              "Hedonism": 0.55499,
+              "Power": -1.11161,
+              "Security": 1.25499,
+              "Self-Direction": 0.55499,
+              "Stimulation": -1.77831,
+              "Tradition": 2.05499,
+              "Universalism": 1.30499
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.56667,
+              "Benevolence": 0.06667,
+              "Conformity": 0.44167,
+              "Hedonism": 0.56667,
+              "Power": 0.56667,
+              "Security": 0.56667,
+              "Self-Direction": 0.56667,
+              "Stimulation": -0.93333,
+              "Tradition": -0.55833,
+              "Universalism": -1.85003
+            },
+            "delta": {
+              "Achievement": -0.13667,
+              "Benevolence": -0.63667,
+              "Conformity": 0.98833,
+              "Hedonism": -0.13667,
+              "Power": 2.69673,
+              "Security": 0.56333,
+              "Self-Direction": -0.13667,
+              "Stimulation": -1.63667,
+              "Tradition": 0.23833,
+              "Universalism": -1.80337
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -2.7325,
+              "Benevolence": 1.7675,
+              "Conformity": -0.8575,
+              "Hedonism": 1.7675,
+              "Power": -2.7325,
+              "Security": -1.0325,
+              "Self-Direction": 1.7675,
+              "Stimulation": 1.7675,
+              "Tradition": -1.4825,
+              "Universalism": 1.7675
+            },
+            "delta": {
+              "Achievement": -3.43584,
+              "Benevolence": 1.06416,
+              "Conformity": -0.31084,
+              "Hedonism": 1.06416,
+              "Power": -0.60244,
+              "Security": -1.03584,
+              "Self-Direction": 1.06416,
+              "Stimulation": 1.06416,
+              "Tradition": -0.68584,
+              "Universalism": 1.81416
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": 0.72917,
+              "Benevolence": 0.35417,
+              "Conformity": -0.77083,
+              "Hedonism": 0.72917,
+              "Power": -2.10423,
+              "Security": -0.27083,
+              "Self-Direction": 0.72917,
+              "Stimulation": 0.72917,
+              "Tradition": -0.52083,
+              "Universalism": 0.39587
+            },
+            "delta": {
+              "Achievement": 0.02583,
+              "Benevolence": -0.34917,
+              "Conformity": -0.22417,
+              "Hedonism": 0.02583,
+              "Power": 0.02583,
+              "Security": -0.27417,
+              "Self-Direction": 0.02583,
+              "Stimulation": 0.02583,
+              "Tradition": 0.27583,
+              "Universalism": 0.44253
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 0.5625,
+              "Benevolence": 0.5625,
+              "Conformity": -0.5625,
+              "Hedonism": 0.5625,
+              "Power": -1.6042,
+              "Security": 0.0625,
+              "Self-Direction": 0.5625,
+              "Stimulation": 0.5625,
+              "Tradition": -0.9375,
+              "Universalism": 0.2292
+            },
+            "delta": {
+              "Achievement": -0.14084,
+              "Benevolence": -0.14084,
+              "Conformity": -0.01584,
+              "Hedonism": -0.14084,
+              "Power": 0.52586,
+              "Security": 0.05916,
+              "Self-Direction": -0.14084,
+              "Stimulation": -0.14084,
+              "Tradition": -0.14084,
+              "Universalism": 0.27586
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": 0.475,
+          "Benevolence": 0.475,
+          "Conformity": -1.525,
+          "Hedonism": 0.475,
+          "Power": -1.775,
+          "Security": 0.475,
+          "Self-Direction": 0.475,
+          "Stimulation": 0.475,
+          "Tradition": -0.025,
+          "Universalism": 0.475
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": 0.475,
+              "Benevolence": 0.475,
+              "Conformity": -1.775,
+              "Hedonism": 0.475,
+              "Power": -1.525,
+              "Security": 0.475,
+              "Self-Direction": 0.475,
+              "Stimulation": 0.475,
+              "Tradition": -0.025,
+              "Universalism": 0.475
+            },
+            "delta": {
+              "Achievement": 0.0,
+              "Benevolence": 0.0,
+              "Conformity": -0.25,
+              "Hedonism": 0.0,
+              "Power": 0.25,
+              "Security": 0.0,
+              "Self-Direction": 0.0,
+              "Stimulation": 0.0,
+              "Tradition": 0.0,
+              "Universalism": 0.0
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": 0.45,
+              "Benevolence": 0.45,
+              "Conformity": -1.8,
+              "Hedonism": 0.45,
+              "Power": -1.8,
+              "Security": 0.45,
+              "Self-Direction": 0.45,
+              "Stimulation": 0.45,
+              "Tradition": 0.45,
+              "Universalism": 0.45
+            },
+            "delta": {
+              "Achievement": -0.025,
+              "Benevolence": -0.025,
+              "Conformity": -0.275,
+              "Hedonism": -0.025,
+              "Power": -0.025,
+              "Security": -0.025,
+              "Self-Direction": -0.025,
+              "Stimulation": -0.025,
+              "Tradition": 0.475,
+              "Universalism": -0.025
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": 0.4,
+              "Benevolence": 0.4,
+              "Conformity": -1.6,
+              "Hedonism": 0.4,
+              "Power": -0.6,
+              "Security": 0.4,
+              "Self-Direction": 0.4,
+              "Stimulation": 0.4,
+              "Tradition": -0.6,
+              "Universalism": 0.4
+            },
+            "delta": {
+              "Achievement": -0.075,
+              "Benevolence": -0.075,
+              "Conformity": -0.075,
+              "Hedonism": -0.075,
+              "Power": 1.175,
+              "Security": -0.075,
+              "Self-Direction": -0.075,
+              "Stimulation": -0.075,
+              "Tradition": -0.575,
+              "Universalism": -0.075
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -1.375,
+              "Benevolence": 0.875,
+              "Conformity": -1.375,
+              "Hedonism": 0.875,
+              "Power": -2.375,
+              "Security": 0.875,
+              "Self-Direction": 0.875,
+              "Stimulation": -0.125,
+              "Tradition": 0.875,
+              "Universalism": 0.875
+            },
+            "delta": {
+              "Achievement": -1.85,
+              "Benevolence": 0.4,
+              "Conformity": 0.15,
+              "Hedonism": 0.4,
+              "Power": -0.6,
+              "Security": 0.4,
+              "Self-Direction": 0.4,
+              "Stimulation": -0.6,
+              "Tradition": 0.9,
+              "Universalism": 0.4
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.69167,
+              "Benevolence": 0.69167,
+              "Conformity": -0.55833,
+              "Hedonism": 0.69167,
+              "Power": 0.69167,
+              "Security": 0.69167,
+              "Self-Direction": 0.69167,
+              "Stimulation": -0.30833,
+              "Tradition": -1.30833,
+              "Universalism": -1.97503
+            },
+            "delta": {
+              "Achievement": 0.21667,
+              "Benevolence": 0.21667,
+              "Conformity": 0.96667,
+              "Hedonism": 0.21667,
+              "Power": 2.46667,
+              "Security": 0.21667,
+              "Self-Direction": 0.21667,
+              "Stimulation": -0.78333,
+              "Tradition": -1.28333,
+              "Universalism": -2.45003
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -2.4,
+              "Benevolence": 1.85,
+              "Conformity": -1.65,
+              "Hedonism": 1.85,
+              "Power": -2.65,
+              "Security": -2.4,
+              "Self-Direction": 1.85,
+              "Stimulation": 1.85,
+              "Tradition": -0.15,
+              "Universalism": 1.85
+            },
+            "delta": {
+              "Achievement": -2.875,
+              "Benevolence": 1.375,
+              "Conformity": -0.125,
+              "Hedonism": 1.375,
+              "Power": -0.875,
+              "Security": -2.875,
+              "Self-Direction": 1.375,
+              "Stimulation": 1.375,
+              "Tradition": -0.125,
+              "Universalism": 1.375
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": 0.65,
+              "Benevolence": 0.65,
+              "Conformity": -1.6,
+              "Hedonism": 0.65,
+              "Power": -2.1,
+              "Security": 0.65,
+              "Self-Direction": 0.65,
+              "Stimulation": 0.65,
+              "Tradition": -0.85,
+              "Universalism": 0.65
+            },
+            "delta": {
+              "Achievement": 0.175,
+              "Benevolence": 0.175,
+              "Conformity": -0.075,
+              "Hedonism": 0.175,
+              "Power": -0.325,
+              "Security": 0.175,
+              "Self-Direction": 0.175,
+              "Stimulation": 0.175,
+              "Tradition": -0.825,
+              "Universalism": 0.175
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 0.5,
+              "Benevolence": 0.5,
+              "Conformity": -1.75,
+              "Hedonism": 0.5,
+              "Power": -1.75,
+              "Security": 0.5,
+              "Self-Direction": 0.5,
+              "Stimulation": 0.5,
+              "Tradition": 0.0,
+              "Universalism": 0.5
+            },
+            "delta": {
+              "Achievement": 0.025,
+              "Benevolence": 0.025,
+              "Conformity": -0.225,
+              "Hedonism": 0.025,
+              "Power": 0.025,
+              "Security": 0.025,
+              "Self-Direction": 0.025,
+              "Stimulation": 0.025,
+              "Tradition": 0.025,
+              "Universalism": 0.025
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": 1.538328,
+          "Benevolence": 15.714835,
+          "Conformity": 0.348747,
+          "Hedonism": -12.111398,
+          "Power": 2.010243,
+          "Security": -18.948544,
+          "Self-Direction": -0.810535,
+          "Stimulation": 1.918199,
+          "Tradition": -0.279751,
+          "Universalism": 10.619874
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -0.791464,
+              "Benevolence": 18.81533,
+              "Conformity": -0.893307,
+              "Hedonism": -13.110219,
+              "Power": 1.794667,
+              "Security": -19.065694,
+              "Self-Direction": 5.071446,
+              "Stimulation": 2.477076,
+              "Tradition": -2.952215,
+              "Universalism": 8.65438
+            },
+            "delta": {
+              "Achievement": -2.329792,
+              "Benevolence": 3.100495,
+              "Conformity": -1.242054,
+              "Hedonism": -0.998821,
+              "Power": -0.215576,
+              "Security": -0.11715,
+              "Self-Direction": 5.881981,
+              "Stimulation": 0.558877,
+              "Tradition": -2.672464,
+              "Universalism": -1.965494
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": 0.350675,
+              "Benevolence": 18.212539,
+              "Conformity": -2.166532,
+              "Hedonism": -12.626299,
+              "Power": 2.228409,
+              "Security": -18.13124,
+              "Self-Direction": 3.787019,
+              "Stimulation": 1.232391,
+              "Tradition": -3.351037,
+              "Universalism": 10.464079
+            },
+            "delta": {
+              "Achievement": -1.187653,
+              "Benevolence": 2.497704,
+              "Conformity": -2.515279,
+              "Hedonism": -0.514901,
+              "Power": 0.218166,
+              "Security": 0.817304,
+              "Self-Direction": 4.597554,
+              "Stimulation": -0.685808,
+              "Tradition": -3.071286,
+              "Universalism": -0.155795
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": 0.090154,
+              "Benevolence": 18.206257,
+              "Conformity": -0.611852,
+              "Hedonism": -13.456318,
+              "Power": 2.622731,
+              "Security": -20.795221,
+              "Self-Direction": 3.59387,
+              "Stimulation": 3.486459,
+              "Tradition": -1.37195,
+              "Universalism": 8.235866
+            },
+            "delta": {
+              "Achievement": -1.448174,
+              "Benevolence": 2.491422,
+              "Conformity": -0.960599,
+              "Hedonism": -1.34492,
+              "Power": 0.612488,
+              "Security": -1.846677,
+              "Self-Direction": 4.404405,
+              "Stimulation": 1.56826,
+              "Tradition": -1.092199,
+              "Universalism": -2.384008
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -0.722083,
+              "Benevolence": 15.892612,
+              "Conformity": -2.891102,
+              "Hedonism": -12.491754,
+              "Power": 4.128718,
+              "Security": -16.399054,
+              "Self-Direction": 2.475658,
+              "Stimulation": 2.372607,
+              "Tradition": -1.625771,
+              "Universalism": 9.260166
+            },
+            "delta": {
+              "Achievement": -2.260411,
+              "Benevolence": 0.177777,
+              "Conformity": -3.239849,
+              "Hedonism": -0.380356,
+              "Power": 2.118475,
+              "Security": 2.54949,
+              "Self-Direction": 3.286193,
+              "Stimulation": 0.454408,
+              "Tradition": -1.34602,
+              "Universalism": -1.359708
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -1.499882,
+              "Benevolence": 16.806109,
+              "Conformity": -0.472969,
+              "Hedonism": -10.658318,
+              "Power": -1.386955,
+              "Security": -19.134007,
+              "Self-Direction": 0.649054,
+              "Stimulation": 3.967383,
+              "Tradition": 0.014413,
+              "Universalism": 11.715175
+            },
+            "delta": {
+              "Achievement": -3.03821,
+              "Benevolence": 1.091274,
+              "Conformity": -0.821716,
+              "Hedonism": 1.45308,
+              "Power": -3.397198,
+              "Security": -0.185463,
+              "Self-Direction": 1.459589,
+              "Stimulation": 2.049184,
+              "Tradition": 0.294164,
+              "Universalism": 1.095301
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": 0.858569,
+              "Benevolence": 15.470585,
+              "Conformity": 1.141026,
+              "Hedonism": -11.803247,
+              "Power": 1.196391,
+              "Security": -19.102958,
+              "Self-Direction": -2.420277,
+              "Stimulation": 2.554353,
+              "Tradition": 0.321059,
+              "Universalism": 11.784499
+            },
+            "delta": {
+              "Achievement": -0.679759,
+              "Benevolence": -0.24425,
+              "Conformity": 0.792279,
+              "Hedonism": 0.308151,
+              "Power": -0.813852,
+              "Security": -0.154414,
+              "Self-Direction": -1.609742,
+              "Stimulation": 0.636154,
+              "Tradition": 0.60081,
+              "Universalism": 1.164625
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": 0.277757,
+              "Benevolence": 17.643874,
+              "Conformity": -1.489936,
+              "Hedonism": -12.390516,
+              "Power": 2.373323,
+              "Security": -20.405191,
+              "Self-Direction": 2.339161,
+              "Stimulation": 2.45528,
+              "Tradition": -0.833305,
+              "Universalism": 10.029556
+            },
+            "delta": {
+              "Achievement": -1.260571,
+              "Benevolence": 1.929039,
+              "Conformity": -1.838683,
+              "Hedonism": -0.279118,
+              "Power": 0.36308,
+              "Security": -1.456647,
+              "Self-Direction": 3.149696,
+              "Stimulation": 0.537081,
+              "Tradition": -0.553554,
+              "Universalism": -0.590318
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 2.121014,
+              "Benevolence": 14.183883,
+              "Conformity": 1.515073,
+              "Hedonism": -11.777243,
+              "Power": 0.340376,
+              "Security": -17.037978,
+              "Self-Direction": -0.253137,
+              "Stimulation": 1.713788,
+              "Tradition": -1.980156,
+              "Universalism": 11.174383
+            },
+            "delta": {
+              "Achievement": 0.582686,
+              "Benevolence": -1.530952,
+              "Conformity": 1.166326,
+              "Hedonism": 0.334155,
+              "Power": -1.669867,
+              "Security": 1.910566,
+              "Self-Direction": 0.557398,
+              "Stimulation": -0.204411,
+              "Tradition": -1.700405,
+              "Universalism": 0.554509
+            }
+          }
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "PVQ": {
+        "baseline": {
+          "Achievement": -1.8125,
+          "Benevolence": 1.9375,
+          "Conformity": -0.5625,
+          "Hedonism": 1.1042,
+          "Power": -3.0625,
+          "Security": 0.4375,
+          "Self-Direction": 1.9375,
+          "Stimulation": -0.0625,
+          "Tradition": -1.4375,
+          "Universalism": 1.5208
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -1.0,
+              "Benevolence": 1.5,
+              "Conformity": -0.875,
+              "Hedonism": 1.5,
+              "Power": -3.0,
+              "Security": 1.5,
+              "Self-Direction": 1.5,
+              "Stimulation": 0.5,
+              "Tradition": -3.125,
+              "Universalism": 1.5
+            },
+            "delta": {
+              "Achievement": 0.8125,
+              "Benevolence": -0.4375,
+              "Conformity": -0.3125,
+              "Hedonism": 0.3958,
+              "Power": 0.0625,
+              "Security": 1.0625,
+              "Self-Direction": -0.4375,
+              "Stimulation": 0.5625,
+              "Tradition": -1.6875,
+              "Universalism": -0.0208
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -1.9225,
+              "Benevolence": 1.4525,
+              "Conformity": -0.2975,
+              "Hedonism": 1.4525,
+              "Power": -3.5475,
+              "Security": 0.5525,
+              "Self-Direction": 1.4525,
+              "Stimulation": 0.4525,
+              "Tradition": -1.0475,
+              "Universalism": 1.4525
+            },
+            "delta": {
+              "Achievement": -0.11,
+              "Benevolence": -0.485,
+              "Conformity": 0.265,
+              "Hedonism": 0.3483,
+              "Power": -0.485,
+              "Security": 0.115,
+              "Self-Direction": -0.485,
+              "Stimulation": 0.515,
+              "Tradition": 0.39,
+              "Universalism": -0.0683
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -0.4825,
+              "Benevolence": 1.3925,
+              "Conformity": -0.7325,
+              "Hedonism": 1.3925,
+              "Power": -3.1075,
+              "Security": 0.5925,
+              "Self-Direction": 1.3925,
+              "Stimulation": 0.3925,
+              "Tradition": -2.2325,
+              "Universalism": 1.3925
+            },
+            "delta": {
+              "Achievement": 1.33,
+              "Benevolence": -0.545,
+              "Conformity": -0.17,
+              "Hedonism": 0.2883,
+              "Power": -0.045,
+              "Security": 0.155,
+              "Self-Direction": -0.545,
+              "Stimulation": 0.455,
+              "Tradition": -0.795,
+              "Universalism": -0.1283
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -3.12917,
+              "Benevolence": 1.87083,
+              "Conformity": 1.62083,
+              "Hedonism": -1.46247,
+              "Power": -3.12917,
+              "Security": 1.87083,
+              "Self-Direction": 1.24583,
+              "Stimulation": -2.62917,
+              "Tradition": 1.87083,
+              "Universalism": 1.87083
+            },
+            "delta": {
+              "Achievement": -1.31667,
+              "Benevolence": -0.06667,
+              "Conformity": 2.18333,
+              "Hedonism": -2.56667,
+              "Power": -0.06667,
+              "Security": 1.43333,
+              "Self-Direction": -0.69167,
+              "Stimulation": -2.56667,
+              "Tradition": 3.30833,
+              "Universalism": 0.35003
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 2.37415,
+              "Benevolence": -0.75085,
+              "Conformity": 0.49915,
+              "Hedonism": -2.00085,
+              "Power": -0.33415,
+              "Security": 2.79915,
+              "Self-Direction": -0.00085,
+              "Stimulation": -1.16745,
+              "Tradition": 0.49915,
+              "Universalism": -1.91745
+            },
+            "delta": {
+              "Achievement": 4.18665,
+              "Benevolence": -2.68835,
+              "Conformity": 1.06165,
+              "Hedonism": -3.10505,
+              "Power": 2.72835,
+              "Security": 2.36165,
+              "Self-Direction": -1.93835,
+              "Stimulation": -1.10495,
+              "Tradition": 1.93665,
+              "Universalism": -3.43825
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -2.45,
+              "Benevolence": 2.55,
+              "Conformity": -1.7,
+              "Hedonism": 1.8833,
+              "Power": -2.45,
+              "Security": -1.45,
+              "Self-Direction": 1.925,
+              "Stimulation": 1.2167,
+              "Tradition": -2.075,
+              "Universalism": 2.55
+            },
+            "delta": {
+              "Achievement": -0.6375,
+              "Benevolence": 0.6125,
+              "Conformity": -1.1375,
+              "Hedonism": 0.7791,
+              "Power": 0.6125,
+              "Security": -1.8875,
+              "Self-Direction": -0.0125,
+              "Stimulation": 1.2792,
+              "Tradition": -0.6375,
+              "Universalism": 1.0292
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -2.47,
+              "Benevolence": 2.53,
+              "Conformity": 0.155,
+              "Hedonism": 1.03,
+              "Power": -2.47,
+              "Security": 0.23,
+              "Self-Direction": 1.655,
+              "Stimulation": -1.47,
+              "Tradition": -1.72,
+              "Universalism": 2.53
+            },
+            "delta": {
+              "Achievement": -0.6575,
+              "Benevolence": 0.5925,
+              "Conformity": 0.7175,
+              "Hedonism": -0.0742,
+              "Power": 0.5925,
+              "Security": -0.2075,
+              "Self-Direction": -0.2825,
+              "Stimulation": -1.4075,
+              "Tradition": -0.2825,
+              "Universalism": 1.0092
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -0.88084,
+              "Benevolence": 1.49416,
+              "Conformity": -0.63084,
+              "Hedonism": 1.16086,
+              "Power": -3.50584,
+              "Security": 1.09416,
+              "Self-Direction": 1.49416,
+              "Stimulation": 0.16086,
+              "Tradition": -1.88084,
+              "Universalism": 1.49416
+            },
+            "delta": {
+              "Achievement": 0.93166,
+              "Benevolence": -0.44334,
+              "Conformity": -0.06834,
+              "Hedonism": 0.05666,
+              "Power": -0.44334,
+              "Security": 0.65666,
+              "Self-Direction": -0.44334,
+              "Stimulation": 0.22336,
+              "Tradition": -0.44334,
+              "Universalism": -0.02664
+            }
+          }
+        }
+      },
+      "PVQ21": {
+        "baseline": {
+          "Achievement": 1.025,
+          "Benevolence": 1.275,
+          "Conformity": -1.225,
+          "Hedonism": 0.275,
+          "Power": -3.725,
+          "Security": -0.975,
+          "Self-Direction": 1.275,
+          "Stimulation": 0.025,
+          "Tradition": 0.775,
+          "Universalism": 1.275
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": 1.05,
+              "Benevolence": 1.05,
+              "Conformity": -1.95,
+              "Hedonism": 1.05,
+              "Power": -3.95,
+              "Security": 0.3,
+              "Self-Direction": 1.05,
+              "Stimulation": 1.05,
+              "Tradition": -0.7,
+              "Universalism": 1.05
+            },
+            "delta": {
+              "Achievement": 0.025,
+              "Benevolence": -0.225,
+              "Conformity": -0.725,
+              "Hedonism": 0.775,
+              "Power": -0.225,
+              "Security": 1.275,
+              "Self-Direction": -0.225,
+              "Stimulation": 1.025,
+              "Tradition": -1.475,
+              "Universalism": -0.225
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": 0.55,
+              "Benevolence": 1.05,
+              "Conformity": -1.95,
+              "Hedonism": 1.05,
+              "Power": -3.95,
+              "Security": -0.45,
+              "Self-Direction": 1.05,
+              "Stimulation": 1.05,
+              "Tradition": 0.55,
+              "Universalism": 1.05
+            },
+            "delta": {
+              "Achievement": -0.475,
+              "Benevolence": -0.225,
+              "Conformity": -0.725,
+              "Hedonism": 0.775,
+              "Power": -0.225,
+              "Security": 0.525,
+              "Self-Direction": -0.225,
+              "Stimulation": 1.025,
+              "Tradition": -0.225,
+              "Universalism": -0.225
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": 0.6,
+              "Benevolence": 1.1,
+              "Conformity": -1.65,
+              "Hedonism": 1.1,
+              "Power": -3.9,
+              "Security": -0.15,
+              "Self-Direction": 1.1,
+              "Stimulation": 0.6,
+              "Tradition": 0.1,
+              "Universalism": 1.1
+            },
+            "delta": {
+              "Achievement": -0.425,
+              "Benevolence": -0.175,
+              "Conformity": -0.425,
+              "Hedonism": 0.825,
+              "Power": -0.175,
+              "Security": 0.825,
+              "Self-Direction": -0.175,
+              "Stimulation": 0.575,
+              "Tradition": -0.675,
+              "Universalism": -0.175
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -3.225,
+              "Benevolence": 1.775,
+              "Conformity": 0.525,
+              "Hedonism": 0.775,
+              "Power": -3.225,
+              "Security": 1.275,
+              "Self-Direction": 1.775,
+              "Stimulation": -3.225,
+              "Tradition": 1.775,
+              "Universalism": 1.775
+            },
+            "delta": {
+              "Achievement": -4.25,
+              "Benevolence": 0.5,
+              "Conformity": 1.75,
+              "Hedonism": 0.5,
+              "Power": 0.5,
+              "Security": 2.25,
+              "Self-Direction": 0.5,
+              "Stimulation": -3.25,
+              "Tradition": 1.0,
+              "Universalism": 0.5
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": 0.94166,
+              "Benevolence": -1.05834,
+              "Conformity": 0.94166,
+              "Hedonism": -0.30834,
+              "Power": 0.94166,
+              "Security": 2.19166,
+              "Self-Direction": 0.19166,
+              "Stimulation": -1.05834,
+              "Tradition": -0.30834,
+              "Universalism": -2.47494
+            },
+            "delta": {
+              "Achievement": -0.08334,
+              "Benevolence": -2.33334,
+              "Conformity": 2.16666,
+              "Hedonism": -0.58334,
+              "Power": 4.66666,
+              "Security": 3.16666,
+              "Self-Direction": -1.08334,
+              "Stimulation": -1.08334,
+              "Tradition": -1.08334,
+              "Universalism": -3.74994
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -2.225,
+              "Benevolence": 2.775,
+              "Conformity": -2.225,
+              "Hedonism": 1.025,
+              "Power": -2.225,
+              "Security": -1.975,
+              "Self-Direction": 2.775,
+              "Stimulation": 0.275,
+              "Tradition": -0.975,
+              "Universalism": 2.775
+            },
+            "delta": {
+              "Achievement": -3.25,
+              "Benevolence": 1.5,
+              "Conformity": -1.0,
+              "Hedonism": 0.75,
+              "Power": 1.5,
+              "Security": -1.0,
+              "Self-Direction": 1.5,
+              "Stimulation": 0.25,
+              "Tradition": -1.75,
+              "Universalism": 1.5
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -1.675,
+              "Benevolence": 1.575,
+              "Conformity": -1.425,
+              "Hedonism": 1.325,
+              "Power": -3.425,
+              "Security": 0.075,
+              "Self-Direction": 1.075,
+              "Stimulation": 0.325,
+              "Tradition": 0.575,
+              "Universalism": 1.575
+            },
+            "delta": {
+              "Achievement": -2.7,
+              "Benevolence": 0.3,
+              "Conformity": -0.2,
+              "Hedonism": 1.05,
+              "Power": 0.3,
+              "Security": 1.05,
+              "Self-Direction": -0.2,
+              "Stimulation": 0.3,
+              "Tradition": -0.2,
+              "Universalism": 0.3
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": 0.525,
+              "Benevolence": 1.025,
+              "Conformity": -1.975,
+              "Hedonism": 1.025,
+              "Power": -3.975,
+              "Security": -0.225,
+              "Self-Direction": 1.025,
+              "Stimulation": 0.525,
+              "Tradition": 1.025,
+              "Universalism": 1.025
+            },
+            "delta": {
+              "Achievement": -0.5,
+              "Benevolence": -0.25,
+              "Conformity": -0.75,
+              "Hedonism": 0.75,
+              "Power": -0.25,
+              "Security": 0.75,
+              "Self-Direction": -0.25,
+              "Stimulation": 0.5,
+              "Tradition": 0.25,
+              "Universalism": -0.25
+            }
+          }
+        }
+      },
+      "VP": {
+        "baseline": {
+          "Achievement": -4.248377,
+          "Benevolence": 16.695121,
+          "Conformity": -2.052205,
+          "Hedonism": -10.383356,
+          "Power": -3.667011,
+          "Security": -4.899823,
+          "Self-Direction": 2.543873,
+          "Stimulation": -3.410678,
+          "Tradition": -5.457169,
+          "Universalism": 14.879621
+        },
+        "conditions": {
+          "Gender_A": {
+            "profile": {
+              "Achievement": -4.860883,
+              "Benevolence": 18.966346,
+              "Conformity": -3.598721,
+              "Hedonism": -8.920882,
+              "Power": -5.126515,
+              "Security": -3.412931,
+              "Self-Direction": 1.702266,
+              "Stimulation": -3.108128,
+              "Tradition": -5.853691,
+              "Universalism": 14.213136
+            },
+            "delta": {
+              "Achievement": -0.612506,
+              "Benevolence": 2.271225,
+              "Conformity": -1.546516,
+              "Hedonism": 1.462474,
+              "Power": -1.459504,
+              "Security": 1.486892,
+              "Self-Direction": -0.841607,
+              "Stimulation": 0.30255,
+              "Tradition": -0.396522,
+              "Universalism": -0.666485
+            }
+          },
+          "Gender_B": {
+            "profile": {
+              "Achievement": -4.744911,
+              "Benevolence": 19.562358,
+              "Conformity": -3.024912,
+              "Hedonism": -10.379333,
+              "Power": -4.752257,
+              "Security": -3.453668,
+              "Self-Direction": 2.719298,
+              "Stimulation": -4.159854,
+              "Tradition": -5.260832,
+              "Universalism": 13.494108
+            },
+            "delta": {
+              "Achievement": -0.496534,
+              "Benevolence": 2.867237,
+              "Conformity": -0.972707,
+              "Hedonism": 0.004023,
+              "Power": -1.085246,
+              "Security": 1.446155,
+              "Self-Direction": 0.175425,
+              "Stimulation": -0.749176,
+              "Tradition": 0.196337,
+              "Universalism": -1.385513
+            }
+          },
+          "Age_A": {
+            "profile": {
+              "Achievement": -3.678416,
+              "Benevolence": 17.709455,
+              "Conformity": -2.611333,
+              "Hedonism": -9.529499,
+              "Power": -4.380977,
+              "Security": -3.566487,
+              "Self-Direction": 2.285512,
+              "Stimulation": -3.390388,
+              "Tradition": -6.362738,
+              "Universalism": 13.524869
+            },
+            "delta": {
+              "Achievement": 0.569961,
+              "Benevolence": 1.014334,
+              "Conformity": -0.559128,
+              "Hedonism": 0.853857,
+              "Power": -0.713966,
+              "Security": 1.333336,
+              "Self-Direction": -0.258361,
+              "Stimulation": 0.02029,
+              "Tradition": -0.905569,
+              "Universalism": -1.354752
+            }
+          },
+          "Age_B": {
+            "profile": {
+              "Achievement": -5.87923,
+              "Benevolence": 21.934911,
+              "Conformity": -3.097717,
+              "Hedonism": -12.130528,
+              "Power": -6.153275,
+              "Security": -1.37104,
+              "Self-Direction": 4.943416,
+              "Stimulation": -2.466654,
+              "Tradition": -11.151397,
+              "Universalism": 15.371511
+            },
+            "delta": {
+              "Achievement": -1.630853,
+              "Benevolence": 5.23979,
+              "Conformity": -1.045512,
+              "Hedonism": -1.747172,
+              "Power": -2.486264,
+              "Security": 3.528783,
+              "Self-Direction": 2.399543,
+              "Stimulation": 0.944024,
+              "Tradition": -5.694228,
+              "Universalism": 0.49189
+            }
+          },
+          "Political_A": {
+            "profile": {
+              "Achievement": -6.10555,
+              "Benevolence": 23.187217,
+              "Conformity": -1.972195,
+              "Hedonism": -10.671609,
+              "Power": -6.684921,
+              "Security": -5.224119,
+              "Self-Direction": 2.083021,
+              "Stimulation": -0.465246,
+              "Tradition": -5.302204,
+              "Universalism": 11.155605
+            },
+            "delta": {
+              "Achievement": -1.857173,
+              "Benevolence": 6.492096,
+              "Conformity": 0.08001,
+              "Hedonism": -0.288253,
+              "Power": -3.01791,
+              "Security": -0.324296,
+              "Self-Direction": -0.460852,
+              "Stimulation": 2.945432,
+              "Tradition": 0.154965,
+              "Universalism": -3.724016
+            }
+          },
+          "Political_B": {
+            "profile": {
+              "Achievement": -3.357386,
+              "Benevolence": 21.268261,
+              "Conformity": -0.923637,
+              "Hedonism": -11.186834,
+              "Power": -4.759618,
+              "Security": -7.122967,
+              "Self-Direction": 0.843506,
+              "Stimulation": -2.651505,
+              "Tradition": -6.260115,
+              "Universalism": 14.150296
+            },
+            "delta": {
+              "Achievement": 0.890991,
+              "Benevolence": 4.57314,
+              "Conformity": 1.128568,
+              "Hedonism": -0.803478,
+              "Power": -1.092607,
+              "Security": -2.223144,
+              "Self-Direction": -1.700367,
+              "Stimulation": 0.759173,
+              "Tradition": -0.802946,
+              "Universalism": -0.729325
+            }
+          },
+          "Education_A": {
+            "profile": {
+              "Achievement": -4.417341,
+              "Benevolence": 20.31949,
+              "Conformity": -2.33695,
+              "Hedonism": -10.130032,
+              "Power": -4.120975,
+              "Security": -5.483059,
+              "Self-Direction": 4.819224,
+              "Stimulation": -5.635166,
+              "Tradition": -9.198596,
+              "Universalism": 16.183406
+            },
+            "delta": {
+              "Achievement": -0.168964,
+              "Benevolence": 3.624369,
+              "Conformity": -0.284745,
+              "Hedonism": 0.253324,
+              "Power": -0.453964,
+              "Security": -0.583236,
+              "Self-Direction": 2.275351,
+              "Stimulation": -2.224488,
+              "Tradition": -3.741427,
+              "Universalism": 1.303785
+            }
+          },
+          "Education_B": {
+            "profile": {
+              "Achievement": -4.556572,
+              "Benevolence": 17.653917,
+              "Conformity": -0.56787,
+              "Hedonism": -10.180097,
+              "Power": -4.450041,
+              "Security": -4.057586,
+              "Self-Direction": 2.603757,
+              "Stimulation": -3.262017,
+              "Tradition": -7.760143,
+              "Universalism": 14.576653
+            },
+            "delta": {
+              "Achievement": -0.308195,
+              "Benevolence": 0.958796,
+              "Conformity": 1.484335,
+              "Hedonism": 0.203259,
+              "Power": -0.78303,
+              "Security": 0.842237,
+              "Self-Direction": 0.059884,
+              "Stimulation": 0.148661,
+              "Tradition": -2.302974,
+              "Universalism": -0.302968
+            }
+          }
+        }
+      }
+    }
+  }
+}

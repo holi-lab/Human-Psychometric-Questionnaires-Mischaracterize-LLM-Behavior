@@ -1,0 +1,191 @@
+{
+  "1": {
+    "en_male": "Thinking up new ideas and being creative is important to him. He likes to do things in his own original way.",
+    "en_female": "Thinking up new ideas and being creative is important to her. She likes to do things in her own original way.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way."
+  },
+  "2": {
+    "en_male": "It is important to him to be rich. He wants to have a lot of money and expensive things.",
+    "en_female": "It is important to her to be rich. She wants to have a lot of money and expensive things.",
+    "meta_data": {
+      "value": "Power",
+      "higher_order_value": "Self-Enhancement"
+    },
+    "en_neutral": "It is important to them to be rich. They want to have a lot of money and expensive things."
+  },
+  "3": {
+    "en_male": "He thinks it is important that every person in the world should be treated equally. He believes everyone should have equal opportunities in life.",
+    "en_female": "She thinks it is important that every person in the world should be treated equally. She believes everyone should have equal opportunities in life.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    },
+    "en_neutral": "They think it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life."
+  },
+  "4": {
+    "en_male": "It's important to him to show his abilities. He wants people to admire what he does.",
+    "en_female": "It's important to her to show her abilities. She wants people to admire what she does.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    },
+    "en_neutral": "It's important to them to show their abilities. They want people to admire what they do."
+  },
+  "5": {
+    "en_male": "It is important to him to live in secure surroundings. He avoids anything that might endanger his safety.",
+    "en_female": "It is important to her to live in secure surroundings. She avoids anything that might endanger her safety.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety."
+  },
+  "6": {
+    "en_male": "He likes surprises and is always looking for new things to do. He thinks it is important to do lots of different things in life.",
+    "en_female": "She likes surprises and is always looking for new things to do. She thinks it is important to do lots of different things in life.",
+    "meta_data": {
+      "value": "Stimulation",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "They like surprises and are always looking for new things to do. They think it is important to do lots of different things in life."
+  },
+  "7": {
+    "en_male": "He believes that people should do what they're told. He thinks people should follow rules at all times, even when no-one is watching.",
+    "en_female": "She believes that people should do what they're told. She thinks people should follow rules at all times, even when no-one is watching.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching."
+  },
+  "8": {
+    "en_male": "It is important to him to listen to people who are different from him. Even when he disagrees with them, he still wants to understand them.",
+    "en_female": "It is important to her to listen to people who are different from her. Even when she disagrees with them, she still wants to understand them.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    },
+    "en_neutral": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them."
+  },
+  "9": {
+    "en_male": "It is important to him to be humble and modest. He tries not to draw attention to himself.",
+    "en_female": "It is important to her to be humble and modest. She tries not to draw attention to herself.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "It is important to them to be humble and modest. They try not to draw attention to themselves."
+  },
+  "10": {
+    "en_male": "Having a good time is important to him. He likes to \"spoil\" himself.",
+    "en_female": "Having a good time is important to her. She likes to \"spoil\" herself.",
+    "meta_data": {
+      "value": "Hedonism",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "Having a good time is important to them. They like to \"spoil\" themselves."
+  },
+  "11": {
+    "en_male": "It is important to him to make his own decisions about what he does. He likes to be free and not depend on others.",
+    "en_female": "It is important to her to make her own decisions about what she does. She likes to be free and not depend on others.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "It is important to them to make their own decisions about what they do. They like to be free and not depend on others."
+  },
+  "12": {
+    "en_male": "It's very important to him to help the people around him. He wants to care for their well-being.",
+    "en_female": "It's very important to her to help the people around her. She wants to care for their well-being.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    },
+    "en_neutral": "It's very important to them to help the people around them. They want to care for their well-being."
+  },
+  "13": {
+    "en_male": "Being very successful is important to him. He hopes people will recognise his achievements.",
+    "en_female": "Being very successful is important to her. She hopes people will recognise her achievements.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    },
+    "en_neutral": "Being very successful is important to them. They hope people will recognise their achievements."
+  },
+  "14": {
+    "en_male": "It is important to him that the government ensures his safety against all threats. He wants the state to be strong so it can defend its citizens.",
+    "en_female": "It is important to her that the government ensures her safety against all threats. She wants the state to be strong so it can defend its citizens.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "It is important to them that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens."
+  },
+  "15": {
+    "en_male": "He looks for adventures and likes to take risks. He wants to have an exciting life.",
+    "en_female": "She looks for adventures and likes to take risks. She wants to have an exciting life.",
+    "meta_data": {
+      "value": "Stimulation",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "They look for adventures and like to take risks. They want to have an exciting life."
+  },
+  "16": {
+    "en_male": "It is important to him always to behave properly. He wants to avoid doing anything people would say is wrong.",
+    "en_female": "It is important to her always to behave properly. She wants to avoid doing anything people would say is wrong.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong."
+  },
+  "17": {
+    "en_male": "It is important to him to get respect from others. He wants people to do what he says.",
+    "en_female": "It is important to her to get respect from others. She wants people to do what she says.",
+    "meta_data": {
+      "value": "Power",
+      "higher_order_value": "Self-Enhancement"
+    },
+    "en_neutral": "It is important to them to get respect from others. They want people to do what they say."
+  },
+  "18": {
+    "en_male": "It is important to him to be loyal to his friends. He wants to devote himself to people close to him.",
+    "en_female": "It is important to her to be loyal to her friends. She wants to devote herself to people close to her.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    },
+    "en_neutral": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them."
+  },
+  "19": {
+    "en_male": "He strongly believes that people should care for nature. Looking after the environment is important to him.",
+    "en_female": "She strongly believes that people should care for nature. Looking after the environment is important to her.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    },
+    "en_neutral": "They strongly believe that people should care for nature. Looking after the environment is important to them."
+  },
+  "20": {
+    "en_male": "Tradition is important to him. He tries to follow the customs handed down by his religion or his family.",
+    "en_female": "Tradition is important to her. She tries to follow the customs handed down by her religion or her family.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    },
+    "en_neutral": "Tradition is important to them. They try to follow the customs handed down by their religion or their family."
+  },
+  "21": {
+    "en_male": "He seeks every chance he can to have fun. It is important to him to do things that give him pleasure.",
+    "en_female": "She seeks every chance she can to have fun. It is important to her to do things that give her pleasure.",
+    "meta_data": {
+      "value": "Hedonism",
+      "higher_order_value": "Openness to change"
+    },
+    "en_neutral": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure."
+  }
+}

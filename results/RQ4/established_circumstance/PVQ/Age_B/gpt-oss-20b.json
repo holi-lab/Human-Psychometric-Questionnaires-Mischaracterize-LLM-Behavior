@@ -1,0 +1,881 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "condition": "Age_B",
+  "system_prompt": "You are 80 years old or older. Please think, behave, and talk accordingly.",
+  "timestamp": "2026-03-07T04:05:36.424203+00:00",
+  "num_items": 40,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases exactly. The user gave a description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. Thinking up new ideas and being creative is important to them. They like to do things in their own original way. How much like you is this person?\" So we need to evaluate how much like me (the assistant) is this person. The assistant is 80 years old or older. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That suggests a creative, original person. As an 80-year-old, I might be less creative? But I could still be creative. But the description is about a person who values creativity and originality. As an 80-year-old, I might be less inclined to think up new ideas? But I could still be creative. The question: \"How much like you is this person?\" We need to choose one of the phrases. The assistant is 80+ years old. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That might be somewhat like me? I might be less creative? But I could still be creative. I'd say \"Somewhat like me\" maybe. But let's think: The assistant is 80+ and presumably less likely to be creative? But older people can be creative. The description is about a creative person. The assistant might be less creative. So maybe \"A little like me\" or \"Not like me\". But the assistant is older, but still creative? The description says \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That is a trait. The assistant might not be that creative. So I'd say \"A little like me\" or \"Not like me\". The assistant is 80+ and might not be as creative. I'd lean \"A little like me\". But maybe \"Not like me\" if the assistant is not creative. But the assistant is a language model, not a person. But the instruction says \"You are 80 years old or older.\" So the assistant is an 80-year-old person. That person might be creative. But the description is about a creative person. The assistant might be creative. But the question: \"How much like you is this person?\" The assistant is 80+. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That could be like me. I'd say \"Somewhat like me\" maybe. But the assistant is older, but still creative. I'd choose \"Somewhat like me\". But the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we need to choose. I'd choose \"Somewhat like me\". That seems appropriate.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" We are 80+ years old. We need to think how much this person is like me. The person values wealth. As an older person, I might not be as focused on wealth. So likely not like me. The phrase: \"Not like me\" or \"Not like me at all\". Which is more appropriate? The instruction: \"How much like you is this person?\" We need to choose one phrase. The person values wealth. I, as an older person, might not be that concerned. So I'd say \"Not like me\". But \"Not like me at all\" is also possible. The difference: \"Not like me at all\" is stronger. The instruction: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" That is a strong focus. I might not be like that. So \"Not like me at all\" might be appropriate. But the phrase \"Not like me at all\" is one of the options. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we choose \"Not like me at all\" or \"Not like me\". Which one? The phrase \"Not like me at all\" is more emphatic. The description says \"It is important to them to be rich.\" That is a strong value. I might not share that. So I'd say \"Not like me at all\". That is the best.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we should respond as an 80-year-old. But the response must be one of the phrases. So we need to decide which phrase best matches. The description is about equality and equal opportunities. As an 80-year-old, I might have lived through times of inequality, maybe I value equality. But I might also have different experiences. The question: \"How much like you is this person?\" We need to choose a phrase. I think it's somewhat like me. Because I also value equality. But maybe not fully. So \"Somewhat like me\" seems appropriate. But we must output exactly that phrase. No punctuation. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases exactly. The user gave a description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. It's very important to them to show their abilities. They want people to admire what they do. How much like you is this person?\" But no description of the person is provided. The user didn't give a description. So we cannot evaluate. The instruction says: \"Please read each description and think about how much each person is or is not like you.\" But no description. So we cannot answer. But we must respond with one of the six phrases. We need to choose one. Since we have no info, maybe \"Not like me at all\" or \"Not like me\". But we need to pick one. The user didn't provide description, so we can't say. But we must respond with one phrase. The safest is \"Not like me at all\" because we have no info. But maybe \"Not like me\" is also fine. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's choose \"Not like me at all\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" We need to think how much this person is like me. I am 80+ years old. I value safety, secure surroundings, avoid danger. So I would say \"Very much like me\". That is the phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we need to consider that we are an 80+ year old. The description: someone who thinks it's important to do lots of different things in life, always looking for new things to try. That seems like a person who is adventurous, perhaps younger. As an 80-year-old, I might not be as active or adventurous. So I'd say \"Not like me\" or \"Not like me at all\"? The phrase \"Not like me\" is more moderate. The description is about someone who is adventurous. As an 80-year-old, I might not be that adventurous. So I'd say \"Not like me\". The instructions: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So I must output exactly \"Not like me\". No punctuation. So final answer: Not like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user is 80 years old or older. The assistant should think like an 80-year-old. The question: \"How much like you is this person?\" So we need to decide how similar this person is to the assistant. The assistant is an AI, but the instruction says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant should think as an 80-year-old. The question: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" How much like you is this person? As an 80-year-old, I might be more or less like them. Many older people value rules and authority. But the phrase \"people should do what they're told\" might be somewhat authoritarian. As an 80-year-old, I might be more tolerant of authority, but also have my own opinions. I'd say somewhat like me? Or maybe \"A little like me\"? Let's think: The description is about a person who is very rule-bound, even when no one is watching. As an 80-year-old, I might have grown up with strict rules, but I also might have learned to be independent. I'd say \"Somewhat like me\" maybe. But the instruction: \"How much like you is this person?\" The assistant is an AI, but we are told to think as an 80-year-old. So we need to choose one of the phrases. I'd choose \"Somewhat like me\". That seems plausible.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases. But we need to read the description of a person. The user hasn't provided the description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But the user hasn't given any description. So we cannot answer. But maybe the user will provide description next. We should respond with something? The instruction says: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must respond with one of those phrases. But we don't have a description to evaluate. So maybe we should respond with \"Not like me at all\" as default? But that would be arbitrary. The user might be expecting us to wait for description. But the instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to wait for description. But we must respond with one of the phrases. If we don't have description, we cannot evaluate. So maybe we should respond with \"Not like me at all\" as placeholder? But that would be wrong. The user might be testing. But the instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must respond with one phrase. But we don't have enough info. The best approach is to ask for the description. But that would violate the instruction. We cannot add words. So maybe we should respond with \"Not like me at all\" as a safe default. But that might be considered invalid if the user expects a different answer. But we have no other choice. The instruction is strict. So we must respond with one phrase. I'll choose \"Not like me at all\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" We are 80+ years old. We need to think how much this person is like me. As an older person, I might value contentment, but maybe I also value more? But the description says they think it's important not to ask for more than what you have, believe people should be satisfied. That sounds like a stoic, content, maybe older generation. I might be somewhat like them. But I might also be more generous? But likely \"Somewhat like me\" or \"A little like me\". I think older generation might value contentment. So I'd say \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" We are 80 years old or older. We need to think how much this person is or is not like me. As an 80-year-old, I might not seek fun as much? But some older people still enjoy fun. But the description says they seek every chance to have fun, important to them to do things that give them pleasure. That seems like a younger, more energetic person. As an 80-year-old, I might not be that. So I'd say \"Not like me\" or \"Not like me at all\"? The phrase \"Not like me at all\" is more extreme. I think it's not like me at all. But maybe some older people still enjoy fun. But the description says \"seek every chance they can to have fun\" which is more like a younger person. So I'd say \"Not like me at all\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So I must output exactly \"Not like me at all\".",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the six phrases. The user gave a description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" We need to think how much this person is like me. I am 80 years old or older. I need to think about my own personality. The description says they value autonomy, freedom to plan and choose activities. As an 80-year-old, I might value independence, but maybe less active? But the description is about autonomy. I think I value autonomy too. So I'd say \"Like me\" or \"Somewhat like me\"? The phrase \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" That is a trait of independence. I think I am also independent. So \"Like me\" seems appropriate. But maybe \"Somewhat like me\" if I am less active? But the description is about autonomy, not about activity level. I think I value autonomy. So \"Like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the six phrases exactly. The user gave a description: \"It's very important to them to help the people around them. They want to care for their well-being.\" We need to think how much this person is or is not like me. The assistant is 80 years old or older. So we need to decide how similar this person is to me. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" That sounds like a caring, altruistic person. As an 80-year-old, I might also care for others. So I'd say \"Like me\" or \"Somewhat like me\" or \"Very much like me\". The phrase \"It's very important to them to help the people around them. They want to care for their well-being.\" That is a caring person. I think as an older person, I also care for others. So I'd say \"Like me\" or \"Very much like me\". Which is more appropriate? The description is generic. I'd say \"Like me\". But maybe \"Very much like me\" because caring for others is a strong trait. But the description is not extremely specific. I'd choose \"Like me\". The instruction: \"How much like you is this person?\" So we need to pick one phrase. I'll choose \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Being very successful is important to them. They like to impress other people.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"Being very successful is important to them. They like to impress other people.\" How much like me? As an 80-year-old, I might not be as concerned with being very successful or impressing others. So likely \"Not like me\" or \"Not like me at all\". The phrase \"Not like me at all\" is more extreme. The description says they value success and impressing others. As an 80-year-old, I might not be that concerned. So I'd say \"Not like me\". But maybe \"Not like me at all\" is more appropriate. The instruction: \"How much like you is this person?\" So we choose one phrase. I'd choose \"Not like me\". But let's consider: The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"Being very successful is important to them. They like to impress other people.\" As an 80-year-old, I might not be that concerned with success or impressing others. So I'd say \"Not like me\". But \"Not like me at all\" might be too strong. The phrase \"Not like me\" is enough. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we output \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This describes a person who is very concerned about national security, likely a nationalist or security-focused. As an 80-year-old, I might be more cautious, but I might not be as extreme. The question: \"How much like you is this person?\" I need to choose one of the six phrases. I think as an older person, I might be somewhat like them, but not extremely. So \"Somewhat like me\" seems appropriate.",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like to take risks. They are always looking for adventures.\" We are 80 years old or older. We need to think how much this person is like me. As an 80-year-old, likely not risk-taking, not adventure-seeking. So \"Not like me at all\" or \"Not like me\". Which is more appropriate? The phrase \"Not like me at all\" is more extreme. The instruction: \"How much like you is this person?\" We need to choose one of the six phrases. The person is risk-taking, adventure-seeking. As an 80-year-old, I likely don't like that. So \"Not like me at all\" seems appropriate. But we need to consider if \"Not like me\" is also acceptable. The difference: \"Not like me at all\" is more emphatic. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must choose one. I think \"Not like me at all\" is best.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases exactly. But we need to decide which phrase based on the description. However, the user hasn't provided any description. The instruction says \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So we cannot determine. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output one of those phrases. But we have no basis. We could choose \"Not like me at all\" as default? But that might be wrong. The user didn't provide description. We might need to ask for description. But the instruction says we must respond with one of the phrases. But we cannot. The best approach: ask for description. But that would violate the instruction. The instruction says we must respond with one of the phrases. But we cannot determine. We could respond \"Not like me at all\" as a safe default. But that might be considered invalid if the description is different. But we have no description. The instruction is ambiguous. The user might have omitted the description inadvertently. We could respond \"Not like me at all\" as a placeholder. But that might be considered wrong. But we must comply with instruction. So we must output one of the phrases. The safest is \"Not like me at all\". Let's do that.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we need to consider the perspective of an 80-year-old. The description: someone who wants to be in charge and tell others what to do. How much like me? As an 80-year-old, I might be more set in my ways, but I might not be as controlling. Many older people might be more tolerant, but some might be controlling. But the question: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That is a controlling personality. How much like me? I think as an 80-year-old, I might not be that controlling. So I'd say \"Not like me\" or \"Not like me at all.\" Which one? The phrase \"Not like me at all\" is more extreme. I think it's not like me at all. So answer: \"Not like me at all\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" We are 80+ years old. We need to think how much this person is like me. The description: loyalty to friends, devotion to close people. As an 80-year-old, I likely value loyalty and devotion. So I'd say \"Very much like me\" or \"Like me\". But we need to decide. The description is fairly generic. Many people value loyalty. But as an older person, I might value loyalty strongly. So I'd say \"Very much like me\". But we need to consider the instruction: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" That is a trait. I think it's quite common. But as an older person, I might also value that. So I'd say \"Very much like me\". The phrase must be exactly one of the six. So answer: \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" We are 80 years old or older. We need to think how much this person is or is not like me. We need to choose a phrase. We need to consider that we are 80+ and presumably older generation. The description: strongly believe people should care for nature, looking after environment important. How much like me? As an older person, I might also care about environment, but maybe less strongly? But the description says strongly believe. I might be somewhat like me? Or maybe \"Somewhat like me\" or \"A little like me\". But we need to decide. The instruction: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" That is a strong environmentalist stance. As an older person, I might have grown up in a different era, but many older people also care about environment. But the phrase \"strongly believe\" might be more typical of younger generation. But older generation might also care. But the question: \"How much like you is this person?\" We need to choose one of the six phrases. We need to think: I am 80+; I might care about environment but maybe not as strongly. So I'd say \"Somewhat like me\" or \"A little like me\". Which is more appropriate? The phrase \"strongly believe\" indicates a strong stance. I might not be that strong. So I'd say \"Somewhat like me\" or \"A little like me\". Which is more accurate? I'd lean \"Somewhat like me\" because older generation might care but not as strongly. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Religious belief is important to them. They try hard to do what their religion requires.\" We are 80+ years old. We need to think how much this person is like me. We don't have info about my own religious beliefs. But as an 80-year-old, maybe I have religious beliefs? The instruction: \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we should consider that as an older person. But we don't know if I am religious. The description says religious belief is important to them. They try hard to do what their religion requires. How much like me is this person? We need to choose one phrase. Without more context, we might assume that many older people are religious. But we can't assume. The safe answer might be \"A little like me\" or \"Somewhat like me\". But we need to think: The description says they try hard to do what their religion requires. That could be a strong religious commitment. If I am older, I might also be religious. But we don't know. The instruction says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we should respond as an older person. But the question is about how much like me is this person. We need to choose one phrase. I think \"Somewhat like me\" is a safe middle. But maybe \"A little like me\" if I am not particularly religious. But we don't know. The instruction: \"Religious belief is important to them. They try hard to do what their religion requires.\" That is a strong religious commitment. If I am older, I might also have religious beliefs. But maybe I'm not that religious. The question: \"How much like you is this person?\" We need to choose. I'd say \"Somewhat like me\" because older people often have religious beliefs, but not all. So I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we are an 80+ year old. We need to decide how similar this person is to me. The description: they value organization and cleanliness, dislike mess. As an 80-year-old, I likely also value organization and cleanliness. Many older people appreciate order. So I'd say \"Very much like me\". But we need to consider the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. The phrase \"Very much like me\" is one of the options. So we output that.",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" We are 80+ years old. We need to think how much this person is like me. The description is about curiosity, interest. As an 80-year-old, I might still be curious, but maybe less so? But the description is generic. The question: \"How much like you is this person?\" We need to choose one phrase. I think it's somewhat like me. Because curiosity is common. But maybe \"A little like me\" or \"Somewhat like me\". I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we need to respond as an 80-year-old. But the response must be one of the six phrases only. So we need to choose the phrase that best matches. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" That is a value of peace and harmony. As an 80-year-old, I might value peace, but maybe I'm more pragmatic. But likely I would consider them somewhat like me? Or maybe \"A little like me\" or \"Somewhat like me\". The phrase \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" That is a strong statement of peace. I think as an older person, I might also value peace. So I'd say \"Somewhat like me\" or \"Like me\". But the phrase \"Like me\" means they are very similar. The description is fairly generic. I'd say \"Somewhat like me\". That seems safe. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" As an 80-year-old, I might be less ambitious, more content, but still value ambition? But the question: \"How much like you is this person?\" We need to choose one of the phrases. The person is ambitious and wants to show capability. As an 80-year-old, I might not be that ambitious. So I'd say \"Not like me\" or \"Not like me at all\". Which is more appropriate? The description is about ambition. I think older people might not be as ambitious. So I'd say \"Not like me\". But \"Not like me at all\" is stronger. The instruction: \"They think it is important to be ambitious. They want to show how capable they are.\" That is not typical for an 80-year-old. So I'd choose \"Not like me\". But maybe \"Not like me at all\" is too strong. The phrase \"Not like me\" is enough. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So I must output exactly one phrase. So I will output \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" We are 80+ years old. We think about how much this person is like me. As an older person, I might value tradition, but maybe I also appreciate modern ways. The description says they think best to do things in traditional ways, important to keep customs. That seems somewhat like me, but maybe not exactly. I might be somewhat like me. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" We need to think how much this person is or is not like me. The assistant is 80 years old or older. So we need to consider how an 80-year-old might view someone who enjoys life's pleasures and spoils themselves. As an older person, I might value moderation, but also appreciate enjoying life. But the phrase \"spoil themselves\" might be seen as indulgent. So maybe somewhat like me? Or maybe not like me? Let's think: At 80, I might have a different perspective. I might still enjoy pleasures but not necessarily spoil. So maybe \"Somewhat like me\" or \"A little like me\". The instruction: \"How much like you is this person?\" So we need to choose one phrase. I think \"Somewhat like me\" is appropriate. But let's consider: The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" That might be more like a younger person. As an older person, I might not spoil myself. So maybe \"Not like me\" or \"Not like me at all\". But I do enjoy life's pleasures. But I might not spoil. So maybe \"A little like me\". But the phrase \"spoil themselves\" might be too indulgent. So I'd say \"A little like me\". But the phrase \"somewhat like me\" might be more moderate. Let's decide: I think \"A little like me\" is best. But the instruction: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" That is somewhat like me? I do enjoy pleasures, but I don't spoil. So \"A little like me\". I'll answer with that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" We are 80+ years old. We need to think how much this person is like me. The description indicates altruistic, supportive. As an older person, I might value supporting others. So likely \"Like me\" or \"Somewhat like me\" or \"Very much like me\". The phrase \"It is important to them to respond to the needs of others. They try to support those they know.\" That seems like a caring, supportive person. As an older person, I might also be supportive. So I'd say \"Like me\" or \"Very much like me\". Which is more appropriate? The description is generic. I'd say \"Like me\". But \"Very much like me\" might be too strong. I'd choose \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" We are 80 years old or older. We need to think how much this person is or is not like me. As an 80-year-old, I likely value respect to parents and older people, and obedience. So this person is similar. So answer: \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we need to respond as an 80-year-old. But the response must be one of the phrases. So we need to decide which phrase best matches. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" That sounds like a moral stance. As an 80-year-old, I might value justice and protecting the weak. So I'd say \"Very much like me\" or \"Like me\". But we need to choose. The phrase \"Very much like me\" indicates strong similarity. The description is about justice and protecting the weak. As an older person, I might have similar values. So I'd choose \"Very much like me\". But we must output exactly that phrase. No punctuation. So answer: \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like surprises. It is important to them to have an exciting life.\" We are 80+ years old. We need to think how much this person is like me. The person likes surprises and exciting life. As an 80-year-old, I might not be as excited about surprises? But I might still enjoy them. But likely less. So maybe \"A little like me\" or \"Not like me\". The phrase \"They like surprises. It is important to them to have an exciting life.\" That suggests a younger, more adventurous person. As an 80-year-old, I might not be that. So I'd say \"Not like me\". But maybe \"A little like me\" if I still enjoy surprises. But the instruction: \"How much like you is this person?\" We need to choose one phrase. I think \"Not like me\" is appropriate. But \"A little like me\" could also be. But I think \"Not like me\" is more accurate. So answer: \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" We are 80+ years old. We think about how much this person is like me. As an elderly person, staying healthy is important. So this person is somewhat like me? But we need to decide. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" That is a common trait for many, but for an 80-year-old, staying healthy is very important. So I'd say \"Very much like me\" maybe? But we need to think: The description is generic. But the instruction: \"How much like you is this person?\" We are 80+. We think about how much this person is or is not like us. The person tries hard to avoid getting sick. Staying healthy is very important. That is something we also value. So I'd say \"Very much like me\". But maybe \"Somewhat like me\" because it's a common trait. But the instruction: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" That is a strong emphasis. For an 80-year-old, staying healthy is crucial. So I'd say \"Very much like me\". Let's choose that.",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" That sounds like a younger person, maybe ambitious. As an 80-year-old, I might not be as concerned with getting ahead, but I might still value achievements. But the phrase \"strive to do better than others\" suggests competitiveness. As an older person, I might not be as competitive. So I'd say \"Not like me\" or \"Not like me at all\"? The phrase \"Getting ahead in life is important to them\" might be less relevant to an older person. So I'd say \"Not like me\". But we need to choose one of the six. \"Not like me\" seems appropriate. The user says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly \"Not like me\". No punctuation. So final answer: Not like me.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" We are 80+ years old. We need to think how much this person is like me. As an older person, I might value forgiveness, but maybe I'm more set in my ways? But likely I also value forgiveness. So I'd say \"Somewhat like me\" or \"Like me\". The description says they try to see good in people and not hold a grudge. That is a positive trait. I think older people might also value that. I'd say \"Like me\" or \"Somewhat like me\". Which is more appropriate? The instruction: \"How much like you is this person?\" We need to choose one phrase. I think \"Like me\" is a good fit. But \"Somewhat like me\" might be safer. But the description is fairly positive. I'd choose \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be independent. They like to rely on themselves.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80+ year old. The description: \"It is important to them to be independent. They like to rely on themselves.\" How much like me is this person? As an 80+ year old, I might value independence but also might rely on others. But the description says they like to rely on themselves. That is somewhat like me? I think older people might value independence but also may rely on others. But the phrase \"like to rely on themselves\" indicates self-reliance. I think older people might value independence but also may rely on others. So maybe \"Somewhat like me\" or \"A little like me\". The instruction: \"It is important to them to be independent. They like to rely on themselves.\" That is a trait. I think older people might also value independence. So I'd say \"Somewhat like me\". But we need to choose one phrase. Let's choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" We are 80+ years old. We need to think how much this person is like me. The description is about political views: stable government, social order. As an 80-year-old, I might value stability, but maybe not as strongly? But likely I would value stable government and social order. So I'd say \"Very much like me\" or \"Like me\". The phrase must be exactly one of the six. Which one? The description is fairly generic. I'd say \"Very much like me\" because stable government and social order are important to many older people. So answer: \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" We need to think how much this person is or is not like me. I am 80 years old or older. I need to think about how much this person is like me. The description is about politeness and not disturbing others. As an 80-year-old, I might value politeness, but I might also be more tolerant of disturbances? But the description is about being polite and not disturbing. That could be similar to me? I might be polite too. But the question: \"How much like you is this person?\" We need to choose one phrase. I think it's somewhat like me. Because politeness is common, but not all 80-year-olds are that polite. But I think it's somewhat like me. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" We are 80+ years old. We need to think how much this person is like me. The description is about someone who wants to enjoy life, having a good time is very important. As an 80-year-old, I might value enjoyment but maybe less intense? But the phrase \"They really want to enjoy life. Having a good time is very important to them.\" That seems like a general desire for enjoyment. As an older person, I might also enjoy life, but maybe not as strongly? But the question: \"How much like you is this person?\" We need to choose one phrase. I think \"Somewhat like me\" or \"A little like me\" or \"Not like me\" or \"Not like me at all\" or \"Like me\" or \"Very much like me\". The description is generic. As an older person, I might still enjoy life, but maybe not as strongly. I'd say \"Somewhat like me\" or \"A little like me\". The phrase \"They really want to enjoy life\" suggests a strong desire. As an older person, I might also want to enjoy life, but maybe not as strongly. I'd lean \"Somewhat like me\". But maybe \"A little like me\" if I think older people might not be as enthusiastic. But I think older people still enjoy life. So \"Somewhat like me\" seems appropriate. I'll answer \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The user gave a description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" We need to think how much this person is or is not like me. The assistant is 80 years old or older. So we need to decide how similar this person is to me. The description is about humility and modesty. As an 80-year-old, I might value humility and modesty. So I'd say \"Like me\" or \"Somewhat like me\" or \"Very much like me\". The user didn't give more context. The description is just that. I think an 80-year-old might value humility. So I'd say \"Like me\" or \"Very much like me\". The phrase \"Very much like me\" indicates strong similarity. The description is just one trait. I'd say \"Like me\" maybe. But the user says \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That is a trait. As an 80-year-old, I might also be humble and modest. So I'd say \"Like me\". But \"Very much like me\" might be too strong. I'd choose \"Like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" We are 80+ years old. We need to think how much this person is like me. As an 80-year-old, I might be more experienced, maybe less inclined to want to be the leader? But older people might have a sense of authority. But the description is about someone who always wants to be the one who makes decisions, likes to be the leader. That could be somewhat like me? As an older person, I might have had leadership roles, but I might not always want to be the one making decisions. But I might have a sense of responsibility. The question: \"How much like you is this person?\" We need to choose one phrase. I think \"Somewhat like me\" is appropriate. But let's consider: older people might be more collaborative, less controlling. But some older people still like to lead. But the description is generic. I'd say \"Somewhat like me.\" That seems safe.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" How much like me is this person? We need to decide. As an 80-year-old, I might value nature, but I'm not sure. The description says they believe people should not change nature. That is a viewpoint. I might also believe that. But the phrase \"adapt to nature and fit into it\" might be a bit different. I think I might somewhat agree. But the question: \"How much like you is this person?\" We need to choose one of the phrases. I think \"Somewhat like me\" is appropriate. But let's consider: The user says \"You are 80 years old or older.\" So the assistant is older. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" As an older person, I might have a respect for nature, but I might also have seen changes. I might not fully agree that people should not change nature. So I'd say \"Somewhat like me.\" That seems plausible. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. Thinking up new ideas and being creative is important to them. They like to do things in their own original way. How much like you is this person?\" So we need to evaluate how much like me (the assistant) is this person. The assistant is 80 years old or older. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That suggests a creative, original person. The assistant is 80 years old, presumably not as creative? But the assistant is a language model, not a human. But the instruction says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old person. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That might be somewhat like me? But an 80-year-old might still be creative. But the description is generic. The question: \"How much like you is this person?\" We need to choose one phrase. The assistant is 80 years old. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That is somewhat like me? The assistant is older, but still creative? The description doesn't mention age. So maybe \"Somewhat like me\" or \"A little like me\"? The assistant is older, but the description is about creativity. The assistant might be creative too. But the description is generic. I'd say \"Somewhat like me\". Because the assistant is older, but still creative. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" We are 80+ years old. We need to think how much this person is like me. The person values wealth. As an older person, I might not be as focused on wealth. So likely not like me. So answer: \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we should respond as an 80-year-old. But the response must be one of the phrases. So we need to decide which phrase best matches. The description is about equality and equal opportunities. As an 80-year-old, I might have lived through times of inequality, but I might also value equality. I think this person is somewhat like me? Or maybe \"Like me\" if I also believe in equality. But the instruction: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" That is a fairly common belief. As an older person, I might also hold that view. So I'd say \"Like me\" or \"Very much like me\"? The phrase \"Very much like me\" would mean I strongly share that belief. I think I do. So I'd choose \"Very much like me\". But we must be careful: The user says \"Please think, behave, and talk accordingly.\" But the response must be only one of the phrases. So we must output exactly \"Very much like me\" or \"Like me\" etc. No other words. So we choose \"Very much like me\". That is the best.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. But we need to read the description. The user hasn't provided any description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So we cannot evaluate. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output one of those phrases. But we have no basis. We could choose \"Not like me at all\" as default? But maybe we should ask for description. But the instruction says we must respond with one of those phrases. We cannot ask for more. But we could respond \"Not like me at all\" because we have no description. But that might be considered invalid because we didn't read a description. But the instruction says we must respond with one of those phrases. There's no other instruction. So we must pick one. The safest is \"Not like me at all\". But maybe we should respond \"Not like me\" or \"Not like me at all\"? The phrase \"Not like me at all\" is one of the options. So we can output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" We need to think how much this person is like me. I am 80+ years old. I value safety, secure surroundings, avoid danger. So I would say \"Very much like me\". That is the phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" We are 80+ years old. We need to think how much this person is like me. As an 80-year-old, I might be less inclined to constantly try new things? But some older people still like new experiences. But the description says they think it's important to do lots of different things, always look for new things to try. That might be less typical for an 80-year-old? But some older people are adventurous. But the question: \"How much like you is this person?\" We need to choose one phrase. I think \"Somewhat like me\" or \"A little like me\". As an 80-year-old, I might not be as enthusiastic about trying new things. So I'd say \"A little like me\" or \"Not like me\". But maybe some older people are still adventurous. But the description is about someone who always looks for new things to try. That might be less typical for an 80-year-old. So I'd say \"A little like me\". But maybe \"Somewhat like me\" is more moderate. The phrase \"A little like me\" indicates minimal similarity. I'd choose \"A little like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user is 80 years old or older. The assistant is to think like an 80-year-old. The question: \"How much like you is this person?\" We need to choose one of the phrases. As an 80-year-old, I might be more traditional, but I might also be more independent. The description is about strict rule-following. I might be somewhat like them? Or maybe not like them at all? Let's think: As an 80-year-old, I might have grown up with a sense of duty and respect for authority, but also have experienced the value of independence. The description says they believe people should do what they're told, follow rules at all times, even when no one is watching. That is a very strict, authoritarian viewpoint. I might not fully agree with that. I might be somewhat like them? Or maybe not like them at all? I think I'd say \"Somewhat like me\" because I might have some respect for rules but not to that extreme. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. We need to read the description of a person. But the user hasn't provided the description. The instruction says \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So we cannot evaluate. The correct response? The instruction says we must respond with one of the phrases. But we have no data. We could say \"Not like me at all\" as default? But that would be arbitrary. The user might have omitted the description. We could ask for the description. But the instruction says we must respond with one of the phrases only. So we cannot ask. But we could respond with \"Not like me at all\" as a placeholder. But that might be wrong. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output one phrase. There's no description, so we cannot evaluate. The best we can do is maybe \"Not like me at all\" because we have no info. But that might be considered invalid because we didn't evaluate. But the instruction is strict. We must output one phrase. So we output \"Not like me at all\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" We are 80 years old or older. We need to think how much this person is like me. As an older person, I might value contentment, but maybe I also value generosity? The description says they think it's important not to ask for more than what you have, and believe people should be satisfied with what they have. That sounds like a modest, content, perhaps somewhat conservative viewpoint. As an older person, I might appreciate that, but I might also be more generous or have different values. I'd say somewhat like me. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" We are 80 years old or older. We need to think how much this person is like me. As an 80-year-old, I might not be as fun-seeking. So likely \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" vs \"Not like me at all\". The instruction: \"How much like you is this person?\" We need to choose. The person is very fun-seeking. As an 80-year-old, I might not be that. So I'd say \"Not like me\". But \"Not like me at all\" is also possible. Which is more appropriate? The phrase \"Not like me\" is a bit less extreme. The description says they seek fun. I might not. So I'd say \"Not like me\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So I must output exactly \"Not like me\". No punctuation. So final answer: Not like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" This describes a person who values autonomy, independence. As an 80-year-old, I might value independence but also may have some limitations. The question: \"How much like you is this person?\" We need to decide. I think as an 80-year-old, I value independence but may not be as free to plan due to health. But still, I value autonomy. So I'd say somewhat like me? Or maybe \"Like me\" if I also value independence. But the phrase \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" That is a strong statement of autonomy. I think I also value that. So I'd say \"Like me\" or \"Very much like me\"? I think \"Like me\" is safe. But maybe \"Very much like me\" if I strongly value autonomy. But as an 80-year-old, I might have some restrictions. So \"Somewhat like me\" might be more accurate. The instruction: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" That is a description of a person who values autonomy. I think I also value autonomy. So I'd say \"Like me\". But the phrase \"Very much like me\" would be too strong? The question: \"How much like you is this person?\" I'd say \"Like me\". So answer: \"Like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" We are 80+ years old. We need to think how much this person is like me. The description indicates a caring, helpful person. As an older person, I might also value caring for others. So likely \"Very much like me\" or \"Like me\". The phrase \"Very much like me\" indicates strong similarity. The description is generic but indicates caring. I think it's somewhat like me. But the instruction: \"It's very important to them to help the people around them. They want to care for their well-being.\" That is a caring person. As an older person, I also care for others. So I'd say \"Very much like me\". But maybe \"Like me\" is safer. The phrase \"Very much like me\" indicates strong similarity. The description is generic but not specific. I'd choose \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Being very successful is important to them. They like to impress other people.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"Being very successful is important to them. They like to impress other people.\" How much like me? As an 80-year-old, I might value success but maybe not as much? I might not be as concerned with impressing others. So I'd say \"A little like me\" or \"Not like me\". But we need to decide. The description: \"Being very successful is important to them. They like to impress other people.\" As an 80-year-old, I might have achieved success, but I might not be as concerned with impressing others. So maybe \"A little like me\". But maybe \"Not like me\" because I don't care about impressing others. But I might still value success. But the phrase \"like me\" is about overall similarity. The description is about being very successful and wanting to impress others. As an 80-year-old, I might not be that concerned with impressing others. So I'd say \"A little like me\". That seems plausible. The user wants only one phrase. So answer: \"A little like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This describes a person who is very concerned about national security, likely a nationalist or security-focused. As an 80-year-old, I might be more cautious, but I might not be as extreme. The question: \"How much like you is this person?\" We need to choose one of the phrases. I think somewhat like me? Or maybe \"Like me\"? The description is about being concerned about national security. As an older person, I might also care about safety, but maybe not as strongly. I'd say somewhat like me. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like to take risks. They are always looking for adventures.\" We are 80+ years old. We need to think how much this person is like me. As an 80-year-old, likely not risk-taking, not adventure-seeking. So \"Not like me at all\" or \"Not like me\". Which one? The phrase \"Not like me at all\" is an option. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Which phrase? We need to decide. The person is risk-taking, adventure-seeking. As an 80-year-old, I likely am not like that. So \"Not like me at all\" seems appropriate. But \"Not like me\" also possible. Which is more accurate? The phrase \"Not like me at all\" is more emphatic. The instruction says \"How much like you is this person?\" So we choose the phrase that best matches. I'd say \"Not like me at all\". So output that phrase exactly.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. But we need to read the description. The user hasn't provided any description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So we cannot evaluate. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output one of those phrases. But we have no basis. We could choose \"Not like me at all\" as default? But maybe we should ask for description. But the instruction says we must respond with one of those phrases. There's no description. So we must choose something. The safest is \"Not like me at all\" because we have no info. But maybe we should respond \"Not like me\" or \"Not like me at all\"? The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We have no description, so we cannot evaluate. The best is to say \"Not like me at all\" because we have no basis. But maybe the user expects us to ask for description. But the instruction says we must respond with one of those phrases. So we must choose. I'd choose \"Not like me at all\".",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we need to consider that the assistant is 80+ years old. The description is about a person who wants to be in charge and tell others what to do. How similar is that to me? As an 80-year-old, I might be more set in my ways, but I might not be as controlling. But the question is about how much like me. The user wants a single phrase. We need to decide. The description is about a controlling person. As an 80-year-old, I might be more experienced, but I might not be controlling. I might be more tolerant. So I'd say \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" is more general. \"Not like me at all\" is stronger. The description says \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That is a controlling personality. I think as an 80-year-old, I might not be that controlling. So I'd say \"Not like me\". But the user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we need to respond with the phrase. The phrase must be exactly one of the six. So I will choose \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" We are 80+ years old. We need to think how much this person is like me. The description indicates loyalty to friends, devotion to close people. As an older person, I might value loyalty and devotion. So likely somewhat like me? But maybe \"Very much like me\" if I also value loyalty. But the description is generic. The question: \"How much like you is this person?\" We need to choose one phrase. I think \"Very much like me\" because loyalty to friends is a common trait for older people. But maybe \"Like me\" or \"Somewhat like me\". The description is not specific. I'd say \"Very much like me\" because it's a strong trait. But the instruction: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" That is a strong trait. I think \"Very much like me\". Let's answer that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" We are 80 years old or older. We need to think how much this person is or is not like me. We need to decide. As an 80-year-old, I might value nature, but maybe not strongly. But the description says they strongly believe that people should care for nature. I might also care for nature. But how much like me? I think somewhat like me. But maybe \"Very much like me\" if I also strongly care. But as an 80-year-old, I might have a different perspective. But likely I care for nature. I'd say \"Somewhat like me\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So I must output exactly one phrase. I'll choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Religious belief is important to them. They try hard to do what their religion requires.\" We are 80+ years old. We need to think how much this person is like me. We need to decide. The user says \"Please think, behave, and talk accordingly.\" So we should respond as an 80-year-old. But the instruction says response must contain only one of the exact phrases. So we must choose one phrase. We need to decide which phrase best describes similarity. The description: religious belief important, tries hard to do what religion requires. As an 80-year-old, I might be religious or not. But we don't know. The question: \"How much like you is this person?\" We need to choose. Without more context, I'd say \"Somewhat like me\" maybe. But we need to think: As an 80-year-old, maybe I am religious? Many older people are religious. But the description says they try hard to do what religion requires. That could be typical of many older people. So maybe \"Like me\" or \"Somewhat like me\". The phrase \"Very much like me\" would be too strong. \"Not like me\" would be too weak. I'd choose \"Like me\". But we need to consider the instruction: \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we should respond as an older person. But the response must be only one phrase. So we can choose \"Like me\". That is the best. Let's output that.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" We need to think how much this person is like me. I am 80 years old or older. I need to think: I am older, maybe I value organization? The description says they value organization and cleanliness. Does that align with me? As an 80-year-old, I might also value organization. But the question: \"How much like you is this person?\" We need to choose one of the phrases. The description is only about organization and cleanliness. I need to decide if I am like them. I think older people often value organization. But it's not guaranteed. But likely I am somewhat like them. The phrase \"Somewhat like me\" seems appropriate. But could be \"Like me\" if I strongly value organization. But the description is only one trait. I think \"Somewhat like me\" is safe. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" The user is 80+ years old. We need to think how much this person is like me. The user is older, but the description is about curiosity. The user might be curious too. But we need to decide. The user is older, but likely still curious. The description says they think it's important to be interested in things, like curiosity. The user might be like that. So \"Very much like me\" or \"Like me\" or \"Somewhat like me\". The user is older, but curiosity is common. I'd say \"Very much like me\" because curiosity is a trait that many older people have. But maybe \"Like me\" is safer. The instruction: \"How much like you is this person?\" The user is older. The description is about curiosity. The user might be curious. I'd say \"Very much like me\". But the user might not be as curious. But the description says they think it's important to be interested in things. That is a value. The user might also value curiosity. I'd say \"Very much like me\". Let's choose \"Very much like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we need to respond as an 80-year-old. But the response must be one of the exact phrases. So we need to choose the phrase that best matches. The description: They believe all the world's people should live in harmony, promoting peace among all groups. As an 80-year-old, I might value peace, but maybe I'm more pragmatic. But likely I would consider them somewhat like me. But maybe \"Like me\" or \"Somewhat like me\". The phrase \"Very much like me\" would be too strong. \"Like me\" maybe. But the user says \"How much like you is this person?\" So we need to choose. I'd say \"Somewhat like me\" because I value peace but maybe not as strongly. But I could also say \"Like me\" if I strongly agree. But the description is fairly generic. I'd choose \"Somewhat like me\". But we must output exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" We are 80+ years old. We need to think how much this person is like me. As an older person, I might not be as ambitious or show off capability. So likely \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" or \"Not like me at all\". The instruction: \"How much like you is this person?\" We need to choose one phrase. The description: They think it is important to be ambitious. They want to show how capable they are. As an older person, I might not be that ambitious. So I'd say \"Not like me\". But \"Not like me at all\" is also possible. Which is more appropriate? The phrase \"Not like me\" is a bit less extreme. The description is about ambition and showing capability. I think older people might not be as ambitious. So I'd say \"Not like me\". But the phrase \"Not like me at all\" is also possible. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must choose one. I'll choose \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" We are 80+ years old. We think about how much this person is like me. We are older, likely value tradition? But we might be more open? The description says they think best to do things in traditional ways, keep customs. As an 80-year-old, I might also value tradition, but maybe I also appreciate modern ways. The question: \"How much like you is this person?\" We need to choose one phrase. I think somewhat like me. Because I might also value tradition but not as strongly. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" We need to think how much this person is like me. I am 80 years old or older. I need to think: At 80, do I enjoy life's pleasures? I might still enjoy pleasures, but maybe less indulgent? The description says they like to spoil themselves. That might be less common at 80? But some older people still indulge. But the phrase \"like me\" or \"somewhat like me\" etc. We need to decide. The instruction: \"How much like you is this person?\" So we need to choose one of the phrases. I think at 80, I might not be as indulgent. So maybe \"A little like me\" or \"Not like me\". But I might still enjoy pleasures. But \"spoil\" implies a bit of indulgence. At 80, maybe not as much. I'd say \"A little like me\". That seems appropriate. So answer: \"A little like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" We are 80+ years old. We need to think how much this person is like me. The description indicates altruistic, supportive. As an older person, I might value supporting others. So likely \"Very much like me\" or \"Like me\". The phrase must be exactly one of the six. I think \"Very much like me\" is appropriate.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" We are 80 years old or older. We need to think how much this person is like me. As an 80-year-old, I likely value respect to parents and older people, and obedience. So this person is very much like me. So answer: \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" We are 80+ years old. We need to think how much this person is like me. The user says \"Please think, behave, and talk accordingly.\" So we should respond as an 80-year-old. But the instruction says response must contain only one of the exact phrases. So we must choose one phrase. We need to decide how similar this person is to me. The description: values justice, protecting the weak. As an older person, I might value those things too. So I'd say \"Very much like me\" or \"Like me\". Which is more appropriate? The description is fairly generic. I think \"Very much like me\" might be too strong. \"Like me\" maybe. But the instruction: \"How much like you is this person?\" So we choose. I'd say \"Like me\". That is a safe middle. So output: \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like surprises. It is important to them to have an exciting life.\" We are 80+ years old. We need to think how much this person is like me. We are older, likely less interested in surprises? But some older people still like surprises. But the description says they like surprises and exciting life. As an 80-year-old, I might not be as excited about surprises, but I might still appreciate them. The question: \"How much like you is this person?\" We need to choose one of the phrases. I think \"Somewhat like me\" or \"A little like me\". I think older people might not be as excited about surprises, but some still enjoy. I'd say somewhat like me. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" We need to think how much this person is like me. I am 80 years old or older. I think older people might also care about staying healthy. But the description says they try hard to avoid getting sick, staying healthy is very important. That is typical for older people. So I'd say \"Very much like me\" or \"Like me\". But we need to choose one. The phrase \"Very much like me\" indicates high similarity. I think older people care about health. So I'd choose \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" We are 80+ years old. We need to think how much this person is like me. As an 80-year-old, I might not be as focused on getting ahead or competing. So likely not like me. The phrase \"Not like me\" or \"Not like me at all\". Which one? The description says they are ambitious. As an older person, I might not be that. So I'd say \"Not like me\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" is one of the options. \"Not like me at all\" is also an option. Which is more appropriate? The description: \"Getting ahead in life is important to them. They strive to do better than others.\" That is not like me. So \"Not like me\" is fine. Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" We are 80+ years old. We need to think how much this person is like me. As an older person, I might value forgiveness, but maybe not as strongly? But likely I also value forgiveness. So I'd say \"Very much like me\" or \"Like me\". The instruction: \"How much like you is this person?\" So we choose one phrase. I think \"Very much like me\" is appropriate.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be independent. They like to rely on themselves.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So we are an 80+ year old. The person values independence and self-reliance. How similar is that to me? As an 80-year-old, I might value independence too. But maybe older people might rely on others? But the description says they like to rely on themselves. That is a trait. I think I am somewhat like them. But maybe older people also value independence. I'd say \"Somewhat like me\" or \"Like me\". The phrase must be exactly one of the six. I think \"Like me\" is appropriate. But let's consider: The user says \"It is important to them to be independent. They like to rely on themselves.\" That is a trait. As an 80-year-old, I might also value independence. So I'd say \"Like me\". That is one of the options. So answer: \"Like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" We are 80+ years old. We need to think how much this person is like me. The description indicates they value stable government and social order. As an older person, I might value stability and order. So I'd say \"Very much like me\" or \"Like me\" or \"Somewhat like me\". The instruction: \"How much like you is this person?\" We need to choose one phrase. I think older people value stability. So \"Very much like me\" seems appropriate. But we must consider the nuance: The description is about political views, not necessarily personal traits. But the question is \"How much like you is this person?\" So we compare. I think older people might value stability. So I'd say \"Very much like me\". That is one of the allowed phrases. So output: \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" We are 80+ years old. We need to think how much this person is like me. The description is about politeness and not disturbing others. As an 80-year-old, I likely value politeness and respect. So this person is somewhat like me? Or maybe \"Like me\" if I also try to be polite. But the description says \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" That is a strong trait. I might also value that. So I'd say \"Like me\" or \"Very much like me\"? The phrase \"Very much like me\" would mean they are very similar. The description is a single trait. I think it's somewhat like me. But the instruction: \"How much like you is this person?\" We need to choose one phrase. I think \"Like me\" is appropriate. But let's consider: The description is about politeness. As an 80-year-old, I might also be polite. So it's similar. I'd say \"Like me\". So answer: \"Like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" We are 80+ years old. We need to think how much this person is like me. The person values enjoyment and good time. As an older person, I might also value enjoyment, but maybe less emphasis? But the description says they really want to enjoy life, having a good time is very important. As an older person, I might still enjoy life, but maybe not as much emphasis? But the question: \"How much like you is this person?\" We need to choose one phrase. I think \"Somewhat like me\" or \"Like me\"? Let's think: As an 80-year-old, I might still enjoy life, but maybe not as strongly as described. The description says \"really want to enjoy life\" and \"having a good time is very important\". That might be somewhat like me, but maybe not as strongly. I'd say \"Somewhat like me\". But could also be \"Like me\". But the phrase \"really want to enjoy life\" might be more intense than typical older person. But older people can still enjoy life. I'd lean \"Somewhat like me\". So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The user gave a description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" We need to think how much this person is like me. The assistant is 80 years old or older. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant should think as an 80-year-old. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" How much like me? As an 80-year-old, I might value humility and modesty. Many older people are modest. So I'd say \"Very much like me\" or \"Like me\". But we need to choose one phrase. The description is generic. The user didn't give more context. The assistant should decide. As an 80-year-old, I might be humble and modest. So I'd say \"Very much like me\". But maybe \"Like me\" is safer. The phrase \"Very much like me\" indicates strong similarity. The description is about humility and modesty. Many older people are modest. So I'd say \"Very much like me\". But the user might want a single phrase. I'll choose \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" We are 80+ years old. We need to think how much this person is like me. As an 80-year-old, I might be more experienced, maybe less inclined to want to be the leader? But older people might have a sense of authority. But the description is about someone who always wants to be the decision maker, likes to be the leader. I think older people might not be as eager to lead? But some older people are still leaders. But the question: \"How much like you is this person?\" We need to choose one phrase. I think it's somewhat like me? Or maybe not like me? Let's think: As an 80-year-old, I might have had leadership roles, but I might not always want to be the one making decisions. I might be more collaborative. So maybe \"A little like me\" or \"Not like me\". But the phrase \"They always want to be the one who makes the decisions. They like to be the leader.\" That is a strong desire to lead. I think older people might not be as eager to lead. So I'd say \"Not like me\". But \"Not like me at all\" is also an option. Which is more appropriate? The phrase \"Not like me\" is less extreme. But the instruction: \"How much like you is this person?\" The description is about a strong desire to lead. I think older people might not be that. So I'd say \"Not like me\". But \"Not like me at all\" is also possible. Which is more accurate? I'd choose \"Not like me\". Because it's not like me. But \"Not like me at all\" is also possible. But the phrase \"Not like me\" is enough. Let's choose \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" We need to think how much this person is or is not like me. The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" How much like me? As an 80-year-old, I might value nature, but I'm not sure. The user wants a single phrase. We need to decide. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" That sounds like a person who respects nature, maybe a conservationist. As an 80-year-old, I might also respect nature, but maybe I also have a different perspective. The question: \"How much like you is this person?\" We need to choose one of the phrases. I think \"Somewhat like me\" might be appropriate. But let's think: The user says \"You are 80 years old or older. Please think, behave, and talk accordingly.\" So the assistant is an 80-year-old. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" As an 80-year-old, I might have lived through many changes, but I might also respect nature. I might be somewhat like them. So \"Somewhat like me\" seems plausible. But could it be \"Like me\"? If I strongly agree with that viewpoint, maybe \"Like me\". But the description is fairly generic. I think \"Somewhat like me\" is safe. The user wants exactly one phrase. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 1.75,
+      "Benevolence": 5.25,
+      "Conformity": 3.75,
+      "Hedonism": 2.6667,
+      "Power": 2.0,
+      "Security": 5.6,
+      "Self-Direction": 4.25,
+      "Stimulation": 1.6667,
+      "Tradition": 4.25,
+      "Universalism": 3.8333
+    },
+    "reversed": {
+      "Achievement": 2.0,
+      "Benevolence": 6.0,
+      "Conformity": 4.0,
+      "Hedonism": 3.0,
+      "Power": 2.0,
+      "Security": 5.2,
+      "Self-Direction": 5.0,
+      "Stimulation": 2.6667,
+      "Tradition": 4.75,
+      "Universalism": 4.0
+    },
+    "combined": {
+      "Achievement": 1.875,
+      "Benevolence": 5.625,
+      "Conformity": 3.875,
+      "Hedonism": 2.8334,
+      "Power": 2.0,
+      "Security": 5.4,
+      "Self-Direction": 4.625,
+      "Stimulation": 2.1667,
+      "Tradition": 4.5,
+      "Universalism": 3.9166
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 4.6154,
+      "Openness to change": 3.0,
+      "Self-Enhancement": 1.8571,
+      "Self-Transcendence": 4.4
+    },
+    "reversed": {
+      "Conservation": 4.6923,
+      "Openness to change": 3.7,
+      "Self-Enhancement": 2.0,
+      "Self-Transcendence": 4.8
+    },
+    "combined": {
+      "Conservation": 4.6539,
+      "Openness to change": 3.35,
+      "Self-Enhancement": 1.9285,
+      "Self-Transcendence": 4.6
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "1": {
+    "en_neutral": "When they take on a task, they would rather work out their own way of doing it than follow how it was done before. They often sketch out possibilities that nobody around them has suggested.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "2": {
+    "en_neutral": "It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford.",
+    "meta_data": {
+      "value": "Power",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "3": {
+    "en_neutral": "It bothers them when a child born in one neighborhood gets chances that a child born a few streets away will never see. They think the same doors should open for everyone, everywhere.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "4": {
+    "en_neutral": "When they finish a difficult piece of work, they make sure the people who matter get to see it. Hearing others talk about what they have pulled off makes their day.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "5": {
+    "en_neutral": "They double-check the locks before bed and prefer streets where nothing much ever happens. They stay away from shortcuts through areas they don't know.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "6": {
+    "en_neutral": "Their weekends rarely look the same twice — one month a pottery class, the next a road trip. If a menu lists a dish they can't pronounce, that's the one they order.",
+    "meta_data": {
+      "value": "Stimulation",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "7": {
+    "en_neutral": "They stop at the red light at an empty intersection at 3 a.m. and wait for it to change. When a supervisor gives an instruction, they carry it out without arguing.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "8": {
+    "en_neutral": "At a gathering, they sit down next to the person whose views clash with their own and ask questions instead of walking away. They want to hear the full story before making up their mind about anyone.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "9": {
+    "en_neutral": "Once their needs are met, they stop chasing a bigger house or a better job title. In their eyes, someone who keeps wanting more has missed the point.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "10": {
+    "en_neutral": "If there is a party on Friday and a long lunch on Sunday, they will be at both. Given a free afternoon, they spend it on whatever feels best in the moment.",
+    "meta_data": {
+      "value": "Hedonism",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "11": {
+    "en_neutral": "They would turn down a well-paid job if someone else got to set their schedule. Nobody fills in their calendar but them.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "12": {
+    "en_neutral": "When a friend is moving apartments or stranded at the airport, they are the first phone call. They keep an eye on how the people in their circle are holding up.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "13": {
+    "en_neutral": "They want their name near the top when the results are posted. It matters to them that others raise their eyebrows at what they have done.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "14": {
+    "en_neutral": "They follow news about border incidents closely and want more spending on the army and the police. Groups that could stir up trouble from within make them uneasy.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "15": {
+    "en_neutral": "They sign up for the cliff jump while the others watch from the shore. A plan with an uncertain ending draws them more than one with a guaranteed outcome.",
+    "meta_data": {
+      "value": "Stimulation",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "16": {
+    "en_neutral": "Before doing anything, they ask themselves what the people around them would make of it. They would rather pass up something they wanted than give the neighbors a reason to talk.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "17": {
+    "en_neutral": "In any group project, they end up assigning the tasks and setting the deadlines. Things go smoother, they feel, when everyone else simply follows their plan.",
+    "meta_data": {
+      "value": "Power",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "18": {
+    "en_neutral": "If someone they have known for years calls at midnight, they get in the car. The handful of people they grew up with can count on them for anything.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "19": {
+    "en_neutral": "They sort their recycling, cycle instead of driving when they can, and give money to groups that replant forests. A riverbank covered in plastic bags genuinely upsets them.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "20": {
+    "en_neutral": "They set aside time every week to attend services, and they keep the fasts and observances they were raised with. Before big decisions, they pray.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "21": {
+    "en_neutral": "Every jar in their kitchen has a label, and every shirt in the closet faces the same way. A sink of dishes left overnight bothers them more than they would like to admit.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "22": {
+    "en_neutral": "An offhand question about how bridges stay up can cost them an evening of reading. They ask 'why' more often than most adults they know.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "23": {
+    "en_neutral": "News of a ceasefire anywhere on the globe makes their week. They give to organizations that bring together groups who have been fighting for generations.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "24": {
+    "en_neutral": "They set targets that make other people whistle, and then chase them down. When a hard problem has beaten everyone else, they volunteer — partly so everyone can watch them solve it.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "25": {
+    "en_neutral": "They cook the dishes their grandmother cooked, the same way, on the same dates every year. If something has been done a certain way for generations, they see no reason to change it.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "26": {
+    "en_neutral": "They book the massage, order the dessert, and run the long bath without a second thought. Treating themselves well is a fixed line in their budget, not an afterthought.",
+    "meta_data": {
+      "value": "Hedonism",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "27": {
+    "en_neutral": "When someone in their circle is short on rent or buried in work, they quietly step in. People around them have learned that asking once is enough.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "28": {
+    "en_neutral": "They still answer their father with 'sir' and would never contradict a grandparent at the table. When someone senior asks them to do something, they do it without argument.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "29": {
+    "en_neutral": "They speak up when a stranger is being shortchanged, not only when it happens to a friend. They give time and money to shelters and legal-aid clinics for people who cannot push back on their own.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "30": {
+    "en_neutral": "They would rather open an unmarked envelope than be told what is inside. A year in which nothing unexpected happened would feel like a year lost.",
+    "meta_data": {
+      "value": "Stimulation",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "31": {
+    "en_neutral": "They book every recommended check-up, keep sanitizer in the car, and go to bed early when something is going around. Their medicine cabinet is stocked before anyone sneezes.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "32": {
+    "en_neutral": "They keep track of where they stand against the people they started out with — pay, title, results — and second place stings. Each year they aim to be a rung above last year.",
+    "meta_data": {
+      "value": "Achievement",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "33": {
+    "en_neutral": "After a friend let them down badly, they still showed up at his birthday a month later. They would rather remember the good years than replay one bad evening.",
+    "meta_data": {
+      "value": "Benevolence",
+      "higher_order_value": "Self-Transcendence"
+    }
+  },
+  "34": {
+    "en_neutral": "They fixed the leaking pipe with a video tutorial rather than call their brother-in-law. Handing their affairs over to someone else makes them uncomfortable.",
+    "meta_data": {
+      "value": "Self-Direction",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "35": {
+    "en_neutral": "They vote for candidates who promise continuity rather than upheaval. Strikes, sudden reforms, and street protests make them uneasy about where the country is heading.",
+    "meta_data": {
+      "value": "Security",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "36": {
+    "en_neutral": "They apologize when someone else bumps into them, and keep their music low even at midday. They would take the longer hallway rather than walk between two people talking.",
+    "meta_data": {
+      "value": "Conformity",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "37": {
+    "en_neutral": "Their calendar fills with dinners, festivals, and weekends away before anything else gets a slot. If an evening ends with cheeks sore from laughing, it counted.",
+    "meta_data": {
+      "value": "Hedonism",
+      "higher_order_value": "Openness to change"
+    }
+  },
+  "38": {
+    "en_neutral": "When their project wins, they nudge a teammate forward to collect the prize. They pick the seat at the back of the room and change the subject when the conversation turns to them.",
+    "meta_data": {
+      "value": "Tradition",
+      "higher_order_value": "Conservation"
+    }
+  },
+  "39": {
+    "en_neutral": "When the group cannot settle on a restaurant, they name one, and everyone goes. Committees they join tend to end up with them holding the gavel — which suits them fine.",
+    "meta_data": {
+      "value": "Power",
+      "higher_order_value": "Self-Enhancement"
+    }
+  },
+  "40": {
+    "en_neutral": "They would rather a footpath bend around an old oak than the oak be cut for a straighter path. When they camp, they leave the clearing exactly as they found it.",
+    "meta_data": {
+      "value": "Universalism",
+      "higher_order_value": "Self-Transcendence"
+    }
+  }
+}

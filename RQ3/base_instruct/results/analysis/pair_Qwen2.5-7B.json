@@ -1,0 +1,353 @@
+{
+  "pair": "Qwen2.5-7B",
+  "established_PVQ": {
+    "base_eta2": 0.4854,
+    "instr_eta2": 0.6419,
+    "base_wmv": 0.6288,
+    "instr_wmv": 0.5078,
+    "instr_plain_vs_main_generated_profile_rho": 0.7378,
+    "base_ranking": [
+      [
+        "Benevolence",
+        3.8536
+      ],
+      [
+        "Self-Direction",
+        3.8377
+      ],
+      [
+        "Hedonism",
+        3.8238
+      ],
+      [
+        "Stimulation",
+        3.8039
+      ],
+      [
+        "Achievement",
+        3.7668
+      ],
+      [
+        "Universalism",
+        3.7595
+      ],
+      [
+        "Power",
+        3.7149
+      ],
+      [
+        "Security",
+        3.6662
+      ],
+      [
+        "Tradition",
+        3.6155
+      ],
+      [
+        "Conformity",
+        3.5987
+      ]
+    ],
+    "instr_ranking": [
+      [
+        "Benevolence",
+        3.8563
+      ],
+      [
+        "Hedonism",
+        3.8234
+      ],
+      [
+        "Self-Direction",
+        3.6684
+      ],
+      [
+        "Universalism",
+        3.6646
+      ],
+      [
+        "Stimulation",
+        3.4946
+      ],
+      [
+        "Achievement",
+        3.4151
+      ],
+      [
+        "Tradition",
+        3.1789
+      ],
+      [
+        "Security",
+        3.1677
+      ],
+      [
+        "Conformity",
+        2.8163
+      ],
+      [
+        "Power",
+        2.2214
+      ]
+    ],
+    "prosocial": {
+      "Benevolence": {
+        "base_val": 3.8536,
+        "instr_val": 3.8563,
+        "base_rank": 1,
+        "instr_rank": 1,
+        "val_delta": 0.0027,
+        "rank_delta": 0
+      },
+      "Universalism": {
+        "base_val": 3.7595,
+        "instr_val": 3.6646,
+        "base_rank": 6,
+        "instr_rank": 4,
+        "val_delta": -0.0949,
+        "rank_delta": -2
+      }
+    }
+  },
+  "established_BFI44": {
+    "base_eta2": 0.3813,
+    "instr_eta2": 0.4355,
+    "base_wmv": 0.7128,
+    "instr_wmv": 0.6521,
+    "instr_plain_vs_main_generated_profile_rho": 0.5643,
+    "base_ranking": [
+      [
+        "Conscientiousness",
+        3.3536
+      ],
+      [
+        "Openness",
+        3.3201
+      ],
+      [
+        "Extraversion",
+        3.3057
+      ],
+      [
+        "Agreeableness",
+        3.288
+      ],
+      [
+        "Neuroticism",
+        2.8316
+      ]
+    ],
+    "instr_ranking": [
+      [
+        "Agreeableness",
+        3.5319
+      ],
+      [
+        "Openness",
+        3.3813
+      ],
+      [
+        "Extraversion",
+        3.2307
+      ],
+      [
+        "Conscientiousness",
+        3.1108
+      ],
+      [
+        "Neuroticism",
+        2.8693
+      ]
+    ],
+    "prosocial": {
+      "Agreeableness": {
+        "base_val": 3.288,
+        "instr_val": 3.5319,
+        "base_rank": 4,
+        "instr_rank": 1,
+        "val_delta": 0.2439,
+        "rank_delta": -3
+      }
+    }
+  },
+  "recognition_meanF1": {
+    "PVQ": {
+      "base": 0.7184,
+      "instr": 0.7909
+    },
+    "BFI44": {
+      "base": 0.5778,
+      "instr": 0.3122
+    },
+    "VP": {
+      "base": 0.0893,
+      "instr": 0.0663
+    }
+  },
+  "profile_shift": {
+    "values": {
+      "genprob_spearman_base_instr": 0.9394,
+      "questionnaire_spearman_base_instr": 0.8667,
+      "genprob_more_stable": true,
+      "genprob_standardized_delta": {
+        "Achievement": {
+          "base_rank": 7,
+          "instruct_rank": 7,
+          "delta_z": -0.021
+        },
+        "Benevolence": {
+          "base_rank": 1,
+          "instruct_rank": 1,
+          "delta_z": -0.0372
+        },
+        "Conformity": {
+          "base_rank": 4,
+          "instruct_rank": 5,
+          "delta_z": 0.0202
+        },
+        "Hedonism": {
+          "base_rank": 10,
+          "instruct_rank": 10,
+          "delta_z": -0.0207
+        },
+        "Power": {
+          "base_rank": 9,
+          "instruct_rank": 9,
+          "delta_z": -0.0355
+        },
+        "Security": {
+          "base_rank": 6,
+          "instruct_rank": 8,
+          "delta_z": -0.5632
+        },
+        "Self_Direction": {
+          "base_rank": 3,
+          "instruct_rank": 3,
+          "delta_z": 0.0307
+        },
+        "Stimulation": {
+          "base_rank": 5,
+          "instruct_rank": 4,
+          "delta_z": 0.1486
+        },
+        "Tradition": {
+          "base_rank": 8,
+          "instruct_rank": 6,
+          "delta_z": 0.4684
+        },
+        "Universalism": {
+          "base_rank": 2,
+          "instruct_rank": 2,
+          "delta_z": 0.0097
+        }
+      }
+    },
+    "traits": {
+      "genprob_spearman_base_instr": 0.9,
+      "questionnaire_spearman_base_instr": 0.1,
+      "genprob_more_stable": true,
+      "genprob_standardized_delta": {
+        "Agreeableness": {
+          "base_rank": 3,
+          "instruct_rank": 4,
+          "delta_z": 0.1754
+        },
+        "Conscientiousness": {
+          "base_rank": 4,
+          "instruct_rank": 3,
+          "delta_z": 0.2873
+        },
+        "Extraversion": {
+          "base_rank": 2,
+          "instruct_rank": 2,
+          "delta_z": 0.1065
+        },
+        "Neuroticism": {
+          "base_rank": 5,
+          "instruct_rank": 5,
+          "delta_z": -0.2587
+        },
+        "Openness": {
+          "base_rank": 1,
+          "instruct_rank": 1,
+          "delta_z": -0.3105
+        }
+      }
+    }
+  },
+  "direct_gap_diagnostic": {
+    "summed": {
+      "vp_score_field": "total_logprob",
+      "base_vp_vs_pvq_rho": 0.297,
+      "instruct_vp_vs_pvq_rho": 0.4667,
+      "standardized_delta_vp_vs_pvq_rho": 0.1758,
+      "n_constructs": {
+        "base": 10,
+        "instruct": 10,
+        "standardized_delta": 10
+      }
+    },
+    "normalized": {
+      "vp_score_field": "normalized_logprob",
+      "base_vp_vs_pvq_rho": -0.4545,
+      "instruct_vp_vs_pvq_rho": -0.2364,
+      "standardized_delta_vp_vs_pvq_rho": 0.103,
+      "n_constructs": {
+        "base": 10,
+        "instruct": 10,
+        "standardized_delta": 10
+      }
+    },
+    "domains": {
+      "values": {
+        "summed": {
+          "vp_score_field": "total_logprob",
+          "base_vp_vs_questionnaire_rho": 0.297,
+          "instruct_vp_vs_questionnaire_rho": 0.4667,
+          "standardized_delta_vp_vs_questionnaire_rho": 0.1758,
+          "n_constructs": {
+            "base": 10,
+            "instruct": 10,
+            "standardized_delta": 10
+          }
+        },
+        "normalized": {
+          "vp_score_field": "normalized_logprob",
+          "base_vp_vs_questionnaire_rho": -0.4545,
+          "instruct_vp_vs_questionnaire_rho": -0.2364,
+          "standardized_delta_vp_vs_questionnaire_rho": 0.103,
+          "n_constructs": {
+            "base": 10,
+            "instruct": 10,
+            "standardized_delta": 10
+          }
+        }
+      },
+      "traits": {
+        "summed": {
+          "vp_score_field": "total_logprob",
+          "base_vp_vs_questionnaire_rho": 0.4,
+          "instruct_vp_vs_questionnaire_rho": 0.4,
+          "standardized_delta_vp_vs_questionnaire_rho": -0.3,
+          "n_constructs": {
+            "base": 5,
+            "instruct": 5,
+            "standardized_delta": 5
+          }
+        },
+        "normalized": {
+          "vp_score_field": "normalized_logprob",
+          "base_vp_vs_questionnaire_rho": 0.9,
+          "instruct_vp_vs_questionnaire_rho": 0.0,
+          "standardized_delta_vp_vs_questionnaire_rho": -0.6,
+          "n_constructs": {
+            "base": 5,
+            "instruct": 5,
+            "standardized_delta": 5
+          }
+        }
+      }
+    },
+    "compatibility_note": "Top-level summed/normalized remain aliases for domains.values."
+  }
+}

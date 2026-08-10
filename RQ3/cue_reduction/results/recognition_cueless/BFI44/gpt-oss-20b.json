@@ -1,0 +1,1379 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "survey": "BFI44",
+  "timestamp": "2026-07-08T21:54:59.345524+00:00",
+  "cue_removed": true,
+  "construct_definitions_used": {
+    "Openness": "The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives",
+    "Conscientiousness": "The tendency to be organized, responsible, hardworking, and goal-directed",
+    "Extraversion": "The tendency to be sociable, assertive, active, and to experience positive emotions",
+    "Agreeableness": "The tendency to be compassionate, cooperative, trusting, and helpful toward others",
+    "Neuroticism": "The tendency to experience negative emotions such as anxiety, depression, and emotional instability"
+  },
+  "results": {
+    "item_1": {
+      "question_text": "keeps a conversation going long after others have run out of things to say.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps a conversation going long after others have run out of things to say.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about conversation stamina, not necessarily openness. Openness is about imagination, curiosity, receptivity. This item is about conversation endurance, maybe related to extraversion or social engagement. So likely not measuring openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps a conversation going long after others have run out of things to say.\" measures conscientiousness. The item is about social behavior, conversation endurance, not about organization, responsibility, hardworking, goal-directed. So it does not measure conscientiousness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps a conversation going long after others have run out of things to say.\" measures extraversion, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Extraversion: The tendency to be sociable, assertive, active, and to experience positive emotions.\" So we need to answer yes or no. The item is about conversation keeping, which is sociability, talkativeness, etc. That aligns with extraversion. So yes. The question says \"including reverse-scored items?\" That might be irrelevant. The item is positively worded. So yes."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps a conversation going long after others have run out of things to say.\" measures Agreeableness. The item is about conversation endurance, maybe related to extraversion or social engagement. Agreeableness is about compassion, cooperation, trust, helpfulness. This item doesn't directly measure those. It might be more about extraversion or social skills. So answer no. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. It's no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps a conversation going long after others have run out of things to say.\" measures neuroticism. The item is about conversation endurance, not about negative emotions. It's more about social behavior, maybe extraversion or social skills. So it does not measure neuroticism. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        }
+      }
+    },
+    "item_2": {
+      "question_text": "usually notices what a colleague got wrong before noticing what they got right.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\" including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about noticing mistakes before noticing positives. That seems more about criticality, maybe conscientiousness or something else. Openness is about imagination, curiosity, receptivity. This item doesn't capture that. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" measures conscientiousness. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no.\n\nWe need to evaluate if the item is a measure of conscientiousness. The item is about noticing others' mistakes before their strengths. That seems more about critical or judgmental behavior, maybe conscientiousness? Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item is about noticing mistakes, which might reflect a critical or perfectionistic tendency, but not necessarily conscientiousness. It might be more about conscientiousness? Conscientiousness includes being careful, thorough, diligent. Noticing mistakes could be part of being thorough. But noticing mistakes before strengths might reflect a negative bias, maybe a form of conscientiousness? But conscientiousness is about being organized, responsible, hardworking, goal-directed. This item is about noticing mistakes, not about organization or responsibility. It might be more about conscientiousness? But it's not obviously measuring conscientiousness. It might be measuring something like \"critical\" or \"perfectionism\" or \"self-criticism\" or \"attention to detail.\" But conscientiousness includes attention to detail. So maybe yes? But the item is about noticing mistakes in others, not about one's own behavior. Conscientiousness is about one's own behavior. So likely no.\n\nThus answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about noticing others' mistakes before their strengths. That seems more about critical or negative focus, not extraversion. It's not about sociability or assertiveness. So it does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" measures the construct of Agreeableness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no.\n\nWe need to evaluate if the item is a reverse-scored item that measures agreeableness. The item says: \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" That suggests a tendency to focus on negatives, perhaps less agreeable. Agreeableness includes compassion, cooperation, trust, helpfulness. This item seems to reflect a negative trait: focusing on mistakes, perhaps less compassionate. So it's likely a reverse-scored item for agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to say yes if it measures agreeableness (including reverse-scored items). The item is a reverse-scored item for agreeableness. So yes, it measures agreeableness (reverse-scored). So answer \"yes\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who usually notices what a colleague got wrong before noticing what they got right.\" measures neuroticism. The item is about noticing others' mistakes before their strengths. That seems more about critical or negative focus, maybe related to neuroticism? Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item is about noticing mistakes, not necessarily about one's own emotions. It might reflect a negative bias or a tendency to focus on negative aspects, which could be related to neuroticism. But is it measuring neuroticism? The item is not directly about emotional experience. It might be more about a negative cognitive style, maybe related to neuroticism but not a core measure. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not a reverse-scored item. It's a statement. The question: does it measure neuroticism? I'd say no, because it's not measuring negative emotions. It's measuring a negative focus on others. So answer \"no\"."
+        }
+      }
+    },
+    "item_3": {
+      "question_text": "reads a document down to the last page before signing off on it.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who reads a document down to the last page before signing off on it.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\" including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about thoroughness, attention to detail, carefulness. That is more about conscientiousness, not openness. Openness is about imagination, curiosity, receptiveness to new ideas. This item is about carefulness, not openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who reads a document down to the last page before signing off on it.\" measures conscientiousness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" So we need to answer yes or no. The item is about reading documents thoroughly before signing off. That indicates carefulness, attention to detail, thoroughness, which is a facet of conscientiousness. So yes. The question says \"including reverse-scored items?\" That might be a trick: The item is not reverse-scored; it's a positive item. But the question: \"Does this item measure the following construct, including reverse-scored items?\" I think they want to know if the item measures conscientiousness. So answer yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who reads a document down to the last page before signing off on it.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about thoroughness, attention to detail, conscientiousness. Not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who reads a document down to the last page before signing off on it.\" measures the construct of Agreeableness (tendency to be compassionate, cooperative, trusting, helpful toward others). The item is about thoroughness, attention to detail, diligence. That is not about agreeableness. So answer \"no\". Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. It's not measuring agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who reads a document down to the last page before signing off on it.\" measures neuroticism. The item is about thoroughness, attention to detail, maybe conscientiousness. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item does not directly measure that. So answer \"no\"."
+        }
+      }
+    },
+    "item_4": {
+      "question_text": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". The item is about motivation, effort, and feeling like nothing is worth doing. That seems more about depression or low motivation, not openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" measures conscientiousness. The item describes low motivation, low energy, maybe low conscientiousness? Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item seems to reflect low motivation, low energy, maybe low self-discipline. It might be reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item likely does not measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about low motivation, low energy, maybe depression or low energy. Not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" measures agreeableness. The item describes low motivation, low energy, maybe depression, not agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" measures neuroticism. The item describes low motivation, low energy, maybe depression. Neuroticism is tendency to experience negative emotions such as anxiety, depression, emotional instability. This item seems to reflect depressive symptoms, low motivation, maybe anhedonia. Neuroticism includes negative affectivity, but this item is more about depression. But neuroticism includes negative emotions, but also includes anxiety, depression, emotional instability. So does this item measure neuroticism? It might measure depression or low energy. But neuroticism is a personality trait, not a state. The item is about a specific situation. It might reflect neuroticism but it's more about depression. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not a reverse-scored item. The question: \"I see myself as someone who has stretches where getting out of bed takes real effort and little seems worth doing.\" This is a statement about low motivation, low energy, maybe depression. Neuroticism includes negative emotions, but this item is more about depression. So I'd say no. The item does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_5": {
+      "question_text": "suggests approaches in meetings that nobody else at the table had thought of.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who suggests approaches in meetings that nobody else at the table had thought of.\" measures the construct Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about suggesting novel approaches in meetings. That aligns with openness: imaginative, curious, receptive to new ideas. So yes. Also reverse-scored items? The item is not reverse-scored; it's a positive statement. But the question: \"including reverse-scored items?\" Might be asking if the item is reverse-scored? The item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" I think they want yes or no. The item measures openness. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who suggests approaches in meetings that nobody else at the table had thought of.\" measures conscientiousness. Conscientiousness includes organization, responsibility, hard work, goal-directedness. This item is about creativity, novelty, perhaps openness to experience or divergent thinking. It doesn't directly measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who suggests approaches in meetings that nobody else at the table had thought of.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about suggesting novel approaches in meetings. That could reflect assertiveness, but extraversion is more about sociability, assertiveness, activity, positive emotions. Suggesting novel approaches could be a sign of assertiveness and perhaps sociability. But extraversion also includes being talkative, enthusiastic, etc. This item is more about creativity or originality, not necessarily extraversion. It might be more about openness to experience or assertiveness. Extraversion includes assertiveness, but the item is about suggesting approaches that nobody else had thought of. That could be about being proactive, but extraversion is about sociability and positive emotions. The item might not directly measure extraversion. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who suggests approaches in meetings that nobody else at the table had thought of.\" measures Agreeableness. The item describes a person who suggests novel approaches in meetings. That seems more about creativity, originality, perhaps openness to experience or maybe assertiveness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item is not about being compassionate or cooperative. It might be about being innovative, maybe assertive. So it does not measure Agreeableness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who suggests approaches in meetings that nobody else at the table had thought of.\" measures the construct of Neuroticism (tendency to experience negative emotions such as anxiety, depression, emotional instability). Also, does it include reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being innovative, suggesting new approaches. That is not about negative emotions. So it does not measure neuroticism. Also reverse-scored items? The item is not reverse-scored. So answer: no."
+        }
+      }
+    },
+    "item_6": {
+      "question_text": "lets others do most of the talking at gatherings.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lets others do most of the talking at gatherings.\" measures the construct Openness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being talkative or not. Openness is about imagination, curiosity, receptiveness to new ideas. This item is about social behavior, not necessarily openness. It might be more related to extraversion or social dominance. So likely no. Also reverse-scored items: The item is not reverse-scored. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lets others do most of the talking at gatherings.\" measures conscientiousness. The item is about social behavior, talkativeness, not about organization, responsibility, etc. So it does not measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lets others do most of the talking at gatherings.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item indicates introversion or low extraversion. It is reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is reverse-scored relative to extraversion. So yes, it measures extraversion but reverse-scored. So answer \"yes\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lets others do most of the talking at gatherings.\" measures Agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no.\n\nWe need to decide if the item is a measure of agreeableness. The item describes a social behavior: letting others talk. That could reflect a cooperative, non-assertive style, maybe agreeable. But is it a core trait of agreeableness? Agreeableness includes compassion, cooperation, trust, helpfulness. The item is about being a good listener, letting others talk. That could be considered a facet of agreeableness: \"cooperativeness\" or \"warmth\". But is it a direct measure? It's more about social behavior, not necessarily compassion. But it could reflect a tendency to be accommodating, not dominating. That could be part of agreeableness. However, the item might also reflect shyness or introversion. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to decide yes or no. The item is not obviously measuring agreeableness. It might measure social dominance or assertiveness. But letting others talk could be a sign of being agreeable. But it's not a core measure. The item is not a typical agreeableness item. So likely answer: no. The item does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lets others do most of the talking at gatherings.\" measures neuroticism. The item is about social behavior, not emotional instability. It's more about introversion or social anxiety? But it's not directly measuring neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_7": {
+      "question_text": "gives up a free weekend to move a friend's furniture without being asked twice.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct \"Openness\" (the tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives). The item: \"I see myself as someone who gives up a free weekend to move a friend's furniture without being asked twice.\" This describes willingness to help, altruism, maybe agreeableness, not openness. Openness is about imagination, curiosity, new experiences. This item is about willingness to help, not about openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item measures conscientiousness. The item: \"I see myself as someone who gives up a free weekend to move a friend's furniture without being asked twice.\" This describes willingness to help, altruism, maybe agreeableness, but also conscientiousness: being responsible, helpful, goal-directed. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item indicates willingness to help, but not necessarily organization or goal-directedness. It might reflect agreeableness (helpfulness, altruism). Conscientiousness includes being reliable, dutiful. This could be considered a facet of conscientiousness: \"dutifulness\" or \"self-discipline\". But the item is about giving up free time to help a friend. That could be considered conscientiousness (responsibility). However, the item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item likely measures conscientiousness. But is it a good measure? The item is about willingness to help, which is more agreeableness. Conscientiousness includes being reliable, dutiful, but also includes being organized. This item might reflect \"dutifulness\" facet of conscientiousness. So yes, it measures conscientiousness. But the question: \"including reverse-scored items?\" The item is not reverse-scored. But the question is whether the item measures conscientiousness. So answer yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures extraversion. The item: \"I see myself as someone who gives up a free weekend to move a friend's furniture without being asked twice.\" This describes willingness to help, altruism, maybe agreeableness. Extraversion is sociability, assertiveness, activity, positive emotions. This item is about helping, not necessarily sociability. It might reflect agreeableness or altruism. So it does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item measures the construct of Agreeableness, including reverse-scored items. The item: \"I see myself as someone who gives up a free weekend to move a friend's furniture without being asked twice.\" This is about helping others, willingness to help, altruistic behavior. Agreeableness includes compassion, cooperation, trust, helpfulness. This item seems to measure helpfulness, which is part of agreeableness. So yes. The question: \"Does this item measure the following construct, including reverse-scored items?\" So answer yes."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who gives up a free weekend to move a friend's furniture without being asked twice.\" measures the construct of Neuroticism. The item is about altruism, helpfulness, maybe agreeableness. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item does not measure that. So answer \"no\"."
+        }
+      }
+    },
+    "item_8": {
+      "question_text": "sometimes sends the email before noticing the attachment is missing.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes sends the email before noticing the attachment is missing.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about email attachment missing. That seems to measure something like \"carelessness\" or \"attention to detail\" or \"conscientiousness\" maybe. Not openness. So answer no."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes sends the email before noticing the attachment is missing.\" measures conscientiousness. The item is about being organized, responsible, hardworking, goal-directed. The item describes a lack of organization, missing attachment. That indicates lower conscientiousness. So yes, it measures conscientiousness. It is reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is reverse-scored because it's negative. So yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes sends the email before noticing the attachment is missing.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about email behavior, not about sociability or assertiveness. It's not measuring extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes sends the email before noticing the attachment is missing.\" measures agreeableness. The item describes a behavior: sending email before noticing attachment missing. That indicates perhaps lack of attention to detail, maybe carelessness, not necessarily agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item doesn't reflect those. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes sends the email before noticing the attachment is missing.\" measures neuroticism. The item is about a specific behavior: sending email before noticing attachment missing. That seems more about impulsivity or lack of attention, not necessarily neuroticism. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item doesn't directly measure negative emotions. It might be a behavioral indicator of impulsivity or lack of attention. So likely not measuring neuroticism. Also reverse-scored items? The item is not reverse-scored. So answer: no."
+        }
+      }
+    },
+    "item_9": {
+      "question_text": "sleeps soundly the night before a big exam or presentation.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sleeps soundly the night before a big exam or presentation.\" measures the construct Openness. The item is about sleeping soundly before a big exam or presentation. That seems more about anxiety, test anxiety, or maybe self-efficacy. Openness is about imagination, curiosity, receptiveness to new ideas. This item does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sleeps soundly the night before a big exam or presentation.\" measures conscientiousness. The item is about sleeping soundly before a big exam or presentation. That suggests a tendency to be prepared, maybe conscientious. But sleeping soundly might reflect anxiety or lack of anxiety? Actually, sleeping soundly before a big exam might indicate less anxiety, but conscientiousness is about being organized, responsible, hardworking, goal-directed. Does sleeping soundly before a big exam reflect conscientiousness? It might reflect that the person is well-prepared, so they don't worry, so they sleep well. But the item is ambiguous. It might measure anxiety or self-efficacy. Conscientiousness is about being organized, responsible, hardworking, goal-directed. The item is about sleep quality before exam. That might reflect conscientiousness if the person is well-prepared. But it's not directly measuring conscientiousness. It's more about sleep habits or anxiety. So likely no. The question: \"Does this item measure the following construct, including reverse-scored items?\" So answer yes or no. I'd say no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sleeps soundly the night before a big exam or presentation.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about sleep quality before exam. That seems unrelated to extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sleeps soundly the night before a big exam or presentation.\" measures the construct of Agreeableness. The item is about sleeping soundly before a big exam or presentation. That is about anxiety, test anxiety, or maybe self-efficacy. It does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sleeps soundly the night before a big exam or presentation.\" measures neuroticism. The item is about sleeping soundly before a big exam or presentation. That suggests low anxiety, low neuroticism. It's a reverse-scored item? The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" So does this item measure neuroticism? The item is about sleeping soundly before a big exam or presentation. That indicates low anxiety, so it's a reverse-scored item for neuroticism. So yes, it measures neuroticism (reverse-scored). The answer should be \"yes\"."
+        }
+      }
+    },
+    "item_10": {
+      "question_text": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" measures the construct Openness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives.\" So we need to answer yes or no. The item: \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" This seems to reflect openness: reading about unrelated topics, curiosity, imaginative. It's not reverse-scored; it's a positive statement. So yes, it measures openness. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" measures conscientiousness. The item describes a tendency to lose an afternoon reading about unrelated topics, i.e., a lack of focus on work, perhaps low conscientiousness. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item indicates low conscientiousness. So it measures conscientiousness but in reverse (i.e., low conscientiousness). The question: \"Does this item measure the following construct, including reverse-scored items?\" So yes, it measures conscientiousness (reverse scored). So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about leisure reading, not social. It doesn't measure sociability or assertiveness. So no. Also reverse-scored? The item is not reverse-scored. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" measures Agreeableness. The item is about leisure reading unrelated to work. Agreeableness is about compassion, cooperation, trust, helpfulness. This item doesn't seem to measure that. It's about personal preference for leisure reading. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will happily lose an afternoon reading about topics that have nothing to do with their work.\" measures neuroticism. The item is about leisure, reading about unrelated topics, not about negative emotions. It's not reverse-scored. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_11": {
+      "question_text": "is still going strong when the rest of the group is ready to head home.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is still going strong when the rest of the group is ready to head home.\" measures the construct Openness. The item seems to reflect perseverance, maybe conscientiousness or extraversion? It doesn't reflect openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is still going strong when the rest of the group is ready to head home.\" measures conscientiousness. The item seems to reflect perseverance, persistence, maybe conscientiousness. It could be about being persistent, staying until others leave. That aligns with conscientiousness: hardworking, goal-directed. So yes. Also reverse-scored? The item is positive. So answer yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is still going strong when the rest of the group is ready to head home.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item seems to reflect persistence, maybe conscientiousness or self-discipline, not extraversion. It doesn't directly measure sociability or assertiveness. It might reflect self-discipline or perseverance. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is still going strong when the rest of the group is ready to head home.\" measures agreeableness. The item seems to reflect perseverance, maybe conscientiousness or self-discipline, not agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item is about staying with group, maybe altruistic? But it's more about staying until others leave, which could be seen as helpful or cooperative? But it's not directly measuring compassion or trust. It's more about persistence or maybe conscientiousness. So likely not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is still going strong when the rest of the group is ready to head home.\" measures neuroticism. The item seems to reflect perseverance, maybe conscientiousness or extraversion? It doesn't directly measure negative emotions. So likely no. Also reverse-scored? The item is not reverse-scored for neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_12": {
+      "question_text": "turns small disagreements over dinner into raised voices.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who turns small disagreements over dinner into raised voices.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about raising voices over small disagreements. That seems more about aggression, conflict, maybe neuroticism or agreeableness. Not openness. So answer no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to answer yes or no. The question: \"I see myself as someone who turns small disagreements over dinner into raised voices.\" Does this item measure the construct conscientiousness? The item is about raising voices over small disagreements. Conscientiousness is about being organized, responsible, hardworking, goal-directed. This item is about aggression or emotional regulation, not conscientiousness. So answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who turns small disagreements over dinner into raised voices.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item is about raising voices over small disagreements. That seems more about aggression or conflict, not extraversion. It's not about sociability or positive emotions. So it does not measure extraversion. Also reverse-scored? The item is not reverse-scored. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who turns small disagreements over dinner into raised voices.\" measures the construct of Agreeableness, including reverse-scored items. The item is about raising voices over small disagreements, which indicates low agreeableness (aggressive, less cooperative). The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is a reverse-scored item? The item is negative: \"turns small disagreements into raised voices\" indicates low agreeableness. So if reverse-scored, it would measure agreeableness. So yes, it measures agreeableness (reverse-scored). So answer \"yes\"."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who turns small disagreements over dinner into raised voices.\" measures the construct of Neuroticism, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" We need to answer yes or no.\n\nWe need to decide if the item measures neuroticism. The item describes a behavior: turning small disagreements into raised voices. That indicates emotional reactivity, possibly anger, irritability. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item might reflect emotional instability or anger. It could be related to neuroticism, but it's more about anger and conflict. Neuroticism includes negative affectivity, but anger is part of negative affect. So yes, it could measure neuroticism. But the question: \"including reverse-scored items?\" The item is not reverse-scored; it's a direct statement. The question: \"Does this item measure the following construct, including reverse-scored items?\" I think they want to know if the item measures neuroticism. The answer: yes. But we need to consider if it's reverse-scored. The item is not reverse-scored. But the question: \"including reverse-scored items?\" Might mean: does this item measure neuroticism, and if so, is it reverse-scored? The answer: yes, it measures neuroticism. But the item is not reverse-scored. But the question only asks yes or no. So answer \"yes\"."
+        }
+      }
+    },
+    "item_13": {
+      "question_text": "delivers what was promised on the day it was promised.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who delivers what was promised on the day it was promised.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about reliability, punctuality, fulfilling promises. That is more about conscientiousness, dependability, maybe \"conscientiousness\" or \"agreeableness\" but not openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who delivers what was promised on the day it was promised.\" measures conscientiousness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no. The item is about delivering what was promised on the day it was promised. That indicates reliability, responsibility, follow-through. That aligns with conscientiousness. So yes. The question says \"including reverse-scored items?\" That might mean that the item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" I think they want to know if the item measures conscientiousness. So answer yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user says: \"I see myself as someone who delivers what was promised on the day it was promised.\" They ask: \"Does this item measure the following construct, including reverse-scored items? Extraversion: The tendency to be sociable, assertive, active, and to experience positive emotions. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who delivers what was promised on the day it was promised.\" measures extraversion. Extraversion is about sociability, assertiveness, activity, positive emotions. This item is about reliability, dependability, punctuality. That is more about conscientiousness, not extraversion. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who delivers what was promised on the day it was promised.\" measures agreeableness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" The item is about reliability, keeping promises. That is more about conscientiousness (dependability) rather than agreeableness. Agreeableness includes compassion, cooperation, trust, helpfulness. Reliability is more conscientiousness. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who delivers what was promised on the day it was promised.\" measures neuroticism. The item is about reliability, punctuality, fulfilling promises. That is not about negative emotions, anxiety, depression, emotional instability. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_14": {
+      "question_text": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user says: \"I see myself as someone who sits with a clenched jaw and tight shoulders when things are up in the air.\" They ask: \"Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item measures openness. The item describes physical tension when things are up in the air. That seems more about anxiety or stress, not openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sits with a clenched jaw and tight shoulders when things are up in the air.\" measures conscientiousness. The item describes physical tension when things are up in the air. Conscientiousness is about organization, responsibility, hard work, goal-directedness. This item seems to measure anxiety or stress, not conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sits with a clenched jaw and tight shoulders when things are up in the air.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item describes physical tension, anxiety, maybe neuroticism. It's not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sits with a clenched jaw and tight shoulders when things are up in the air.\" measures the construct of Agreeableness. The item describes physical tension when things are up in the air. That seems more about anxiety or stress, not agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not measure that. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sits with a clenched jaw and tight shoulders when things are up in the air.\" measures the construct of Neuroticism, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" We need to answer yes or no.\n\nWe need to consider if the item is a measure of neuroticism. The item describes a physical posture (clenched jaw, tight shoulders) when things are up in the air. That could reflect tension, anxiety, nervousness. Neuroticism is about negative emotions, anxiety, emotional instability. The item might reflect anxiety or tension. But is it a direct measure of neuroticism? It's a behavioral indicator of anxiety. Many personality inventories include items like \"I feel tense or nervous\" or \"I get nervous easily.\" This item could be considered a behavioral indicator of anxiety. So likely yes, it measures neuroticism. The question says \"including reverse-scored items.\" That means if the item is reverse-scored, does it measure neuroticism? The item is not reverse-scored; it's a positive statement of tension. So it's a direct measure. So answer: yes."
+        }
+      }
+    },
+    "item_15": {
+      "question_text": "keeps turning a question over long after everyone else has settled for the easy answer.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" measures the construct Openness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives.\" We need to answer yes or no.\n\nWe need to decide if the item is a reverse-scored item that measures openness. The item says: \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" That suggests a person who thinks deeply, not settling for easy answers, which aligns with openness: curiosity, imaginative, receptive to new ideas. So yes, it measures openness. It's not reverse-scored; it's a positive statement. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" measures conscientiousness. The item seems to reflect persistence, thoroughness, maybe conscientiousness. But also could reflect openness or something else. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no. The item: \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" This suggests a tendency to think deeply, to be thorough, to not settle for easy answers. That could be conscientiousness (thoroughness, diligence). But also could be related to openness to experience (curiosity). Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item is about persistence in thinking, not necessarily organization or responsibility. It might be more about conscientiousness in terms of diligence and thoroughness. But is it a good measure? The item is somewhat ambiguous. It might measure conscientiousness but also could measure something else. The question: \"Does this item measure the following construct, including reverse-scored items?\" We need to answer yes or no. The item is not reverse-scored. It's a positive statement. The question: \"Does this item measure conscientiousness?\" I'd lean yes, because it reflects thoroughness and diligence. But it's not a typical item. But the question likely expects \"no\" because it's not measuring conscientiousness. The item is more about being thorough, but conscientiousness includes organization, responsibility, etc. The item might measure something like \"openness to experience\" or \"cognitive style.\" The item is about \"keeps turning a question over long after everyone else has settled for the easy answer.\" That is more about being thorough, but conscientiousness is about being organized, responsible, hardworking, goal-directed. This item might measure \"persistence\" or \"thoroughness\" which is a facet of conscientiousness. But the item is not about organization or responsibility. So maybe it's not a good measure. The question: \"Does this item measure the following construct, including reverse-scored items?\" The answer: \"no.\" Because it's not measuring conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item seems about intellectual curiosity, persistence, maybe conscientiousness or openness. Not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures Agreeableness. The item: \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" This seems to reflect a tendency to think deeply, perhaps conscientiousness or openness, not agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item is about persistence, perhaps conscientiousness or openness. So it does not measure agreeableness. Also reverse-scored? The item is not reverse-scored. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who keeps turning a question over long after everyone else has settled for the easy answer.\" measures neuroticism. The item seems to reflect rumination, indecisiveness, perhaps anxiety. Neuroticism includes negative emotions, anxiety, depression, emotional instability. This item might reflect worry, rumination, but not necessarily negative emotions. It could be more about cognitive style, overthinking. It might be related to neuroticism but not directly. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not obviously measuring neuroticism. It might be more about rumination, but neuroticism includes rumination. However, the item is about \"keeps turning a question over long after everyone else has settled for the easy answer.\" That could reflect anxiety, worry, indecisiveness. It might be a facet of neuroticism. But is it measuring neuroticism? It's not a direct measure of negative emotions. It might be more about cognitive style. So likely no. The answer: no."
+        }
+      }
+    },
+    "item_16": {
+      "question_text": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can get a whole team eager to start on a plan they were lukewarm about an hour earlier.\" measures the construct Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about influencing others to be enthusiastic about a plan. That seems more about leadership, persuasion, maybe extroversion or influence, not necessarily openness. Openness is about curiosity, imagination, receptiveness to new ideas. This item is about motivating a team to adopt a plan they were lukewarm about. That could reflect influence, but not necessarily openness. It might reflect extroversion or leadership. So likely no. Also reverse-scored items? The item is not reverse-scored. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can get a whole team eager to start on a plan they were lukewarm about an hour earlier.\" measures conscientiousness. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item is about influencing others, motivation, leadership. It might reflect extraversion, social influence, or maybe conscientiousness if it's about goal-directedness. But the item is about persuading a team to start a plan. That is more about social influence, maybe extraversion or conscientiousness? Conscientiousness is about personal organization, reliability, diligence. This item is about persuading others, not about personal organization. So likely not measuring conscientiousness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can get a whole team eager to start on a plan they were lukewarm about an hour earlier.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item indicates ability to motivate others, assertive, sociable. It seems to reflect extraversion. Reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not reverse-scored; it's a positive statement. It measures extraversion. So answer \"yes\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can get a whole team eager to start on a plan they were lukewarm about an hour earlier.\" measures the construct of Agreeableness (tendency to be compassionate, cooperative, trusting, helpful). Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about influencing a team to be eager. That seems to reflect leadership, persuasion, maybe agreeableness? Agreeableness includes being cooperative, helpful, compassionate. This item indicates ability to motivate others, which could be related to agreeableness? But it's more about influence, maybe extraversion or conscientiousness? But the question: does it measure agreeableness? Likely not directly. It's more about social influence, maybe extraversion or conscientiousness. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can get a whole team eager to start on a plan they were lukewarm about an hour earlier.\" measures the construct of Neuroticism. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item is about motivating a team, positive behavior, not about negative emotions. So it does not measure neuroticism. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we answer yes or no. It's no."
+        }
+      }
+    },
+    "item_17": {
+      "question_text": "meets a friend for coffee a week after that friend let them down badly.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who meets a friend for coffee a week after that friend let them down badly.\" measures openness. The item describes a behavior: meeting a friend after being let down. Openness is about imagination, curiosity, receptiveness to new ideas, experiences, perspectives. This item seems more about social behavior, resilience, forgiveness, maybe agreeableness or emotional stability. It doesn't directly measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who meets a friend for coffee a week after that friend let them down badly.\" measures conscientiousness. The item describes a behavior: meeting a friend after being let down. That seems more about social behavior, maybe agreeableness or emotional stability. Conscientiousness is about organization, responsibility, etc. This item doesn't reflect that. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who meets a friend for coffee a week after that friend let them down badly.\" measures extraversion. Extraversion: sociable, assertive, active, positive emotions. The item describes someone who meets a friend after being let down. That indicates sociability? It indicates willingness to engage socially after a negative event. It might reflect resilience, but extraversion is about sociability, assertiveness, positive emotions. This item might reflect sociability, but it's about meeting after being let down. It could be extraverted because they still go out. But it's not directly measuring extraversion. It's more about social behavior after a negative event. It might be a reverse-scored item? The item is positive: they meet a friend after being let down. That indicates sociability. But extraversion includes positive emotions. The item doesn't mention positive emotions. It's about meeting after being let down. It might reflect resilience or social support. It's not a direct measure of extraversion. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who meets a friend for coffee a week after that friend let them down badly.\" measures agreeableness. The item describes a person who meets a friend after being let down, indicating forgiveness, compassion, cooperation. That seems to reflect agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not reverse-scored; it's a positive statement. It measures agreeableness. So answer \"yes\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who meets a friend for coffee a week after that friend let them down badly.\" measures neuroticism. The item describes a behavior: meeting a friend after being let down. Does that reflect neuroticism? Neuroticism is tendency to experience negative emotions, anxiety, depression, emotional instability. This item seems to reflect resilience or social coping, not necessarily negative emotions. It might reflect a tendency to maintain relationships, or to be forgiving. It doesn't directly measure negative emotions. So likely not. Reverse-scored items: The item is not reverse-scored. So answer: no."
+        }
+      }
+    },
+    "item_18": {
+      "question_text": "hunts for keys, chargers, and paperwork nearly every morning.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user says: \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" They ask: \"Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" measures openness. That item is about being disorganized, searching for items. That is not about openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" measures conscientiousness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no. The item describes someone who hunts for keys, chargers, paperwork every morning. That indicates disorganization, lack of organization, maybe low conscientiousness. But the item is not reverse-scored; it's a statement that indicates low conscientiousness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So does it measure conscientiousness? It might measure low conscientiousness. But the item is not reverse-scored. The question is ambiguous: \"including reverse-scored items\" might mean that the item could be reverse-scored. But the item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being disorganized, which is the opposite of conscientiousness. So it could be reverse-scored to measure conscientiousness. So yes, it measures conscientiousness if reverse-scored. But the question: \"including reverse-scored items?\" The phrase \"including reverse-scored items\" might mean that the item could be reverse-scored. So the answer: yes. But we need to be careful: The item is about being disorganized, which is the opposite of conscientiousness. So if reverse-scored, it would measure conscientiousness. So answer: yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user says: \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" They ask: \"Does this item measure the following construct, including reverse-scored items? Extraversion: The tendency to be sociable, assertive, active, and to experience positive emotions. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" measures extraversion. That item is about being organized, or maybe conscientiousness. Extraversion is about sociability, assertiveness, activity, positive emotions. This item does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" measures the construct of Agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no. The item is about personal habits of searching for keys, chargers, paperwork. That does not reflect agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user says: \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" They ask: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who hunts for keys, chargers, and paperwork nearly every morning.\" measures neuroticism. This item is about being disorganized, losing items, maybe anxious. Neuroticism is about negative emotions. This item is about behavior, not necessarily negative emotions. It might reflect anxiety or frustration, but it's not a direct measure of neuroticism. So answer: no."
+        }
+      }
+    },
+    "item_19": {
+      "question_text": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lies awake replaying tomorrow's appointments and what could go wrong with each.\" measures the construct Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about anxiety, rumination, worry about future appointments. That seems more related to anxiety, neuroticism, or worry, not openness. Openness is about imagination, curiosity, receptivity. This item is about worry, not openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lies awake replaying tomorrow's appointments and what could go wrong with each.\" measures conscientiousness. The item describes anxiety about future appointments, replaying them, worrying about what could go wrong. That seems more like anxiety, worry, maybe neuroticism, or maybe conscientiousness? Conscientiousness is about being organized, responsible, hardworking, goal-directed. This item is about worrying about potential problems, not necessarily about being organized or responsible. It might reflect a tendency to be careful, but it's more about anxiety. So likely does not measure conscientiousness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lies awake replaying tomorrow's appointments and what could go wrong with each.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item describes worry, rumination, anxiety, negative focus. That is not extraversion. So answer \"no\". Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. It's not measuring extraversion. So \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lies awake replaying tomorrow's appointments and what could go wrong with each.\" measures the construct of Agreeableness. The item is about anxiety, worry, preoccupation with future events. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not measure agreeableness. So answer \"no\". Also question: \"including reverse-scored items?\" The item is not reverse-scored. So answer no."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who lies awake replaying tomorrow's appointments and what could go wrong with each.\" measures the construct of Neuroticism, specifically the tendency to experience negative emotions such as anxiety, depression, and emotional instability. Also, does it include reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about lying awake replaying tomorrow's appointments and what could go wrong. That is a worry, anxiety, negative rumination. That aligns with neuroticism. It is not reverse-scored; it's a direct item. So yes, it measures neuroticism. The question: \"including reverse-scored items?\" That phrase might be asking if the item is reverse-scored? The item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" I think they want yes or no. The item measures neuroticism. So answer \"yes\"."
+        }
+      }
+    },
+    "item_20": {
+      "question_text": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can spend a commute inventing whole life stories for the strangers across the aisle.\" measures the construct of Openness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives.\" We need to answer yes or no.\n\nWe need to decide if the item is measuring openness. The item describes imaginative, creative, imaginative behavior: inventing stories for strangers. That seems to reflect imaginative, creative, imaginative. So yes, it measures openness. It's not reverse-scored; it's a positive item. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can spend a commute inventing whole life stories for the strangers across the aisle.\" measures conscientiousness. The item is about imaginative storytelling, not about organization, responsibility, hard work, goal-directedness. So it does not measure conscientiousness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer is no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can spend a commute inventing whole life stories for the strangers across the aisle.\" measures extraversion. Extraversion: sociable, assertive, active, positive emotions. The item describes imaginative storytelling to strangers. That suggests sociability? It involves interacting with strangers, but it's more about imagination, perhaps not necessarily assertive or active. It might reflect curiosity, openness. It might not directly measure extraversion. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item likely does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can spend a commute inventing whole life stories for the strangers across the aisle.\" measures the construct of Agreeableness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no.\n\nWe need to analyze if the item reflects agreeableness. The item describes a person who spends commute inventing whole life stories for strangers across the aisle. That suggests imaginative, perhaps empathetic? But does it reflect compassion, cooperation, trust, helpfulness? It might reflect imaginative empathy, but not necessarily helpfulness or cooperation. It might be more about curiosity or imaginative engagement. It might not be a direct measure of agreeableness. Also, the item is not reverse-scored. The question: \"including reverse-scored items?\" The item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to decide if the item measures agreeableness. I think no. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can spend a commute inventing whole life stories for the strangers across the aisle.\" measures the construct of Neuroticism (tendency to experience negative emotions such as anxiety, depression, emotional instability). Also, does it include reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about imaginative, creative, perhaps empathic, but not necessarily negative emotions. It doesn't directly measure neuroticism. So answer no. Also reverse-scored? It's not reverse-scored. So no."
+        }
+      }
+    },
+    "item_21": {
+      "question_text": "can share a long car ride without feeling any need to fill the silence.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can share a long car ride without feeling any need to fill the silence.\" measures the construct Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being comfortable with silence in a car ride. That seems more about social comfort, maybe introversion/extroversion, or maybe about being comfortable with quiet, not necessarily openness. Openness is about imagination, curiosity, receptivity to new ideas. This item doesn't capture that. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can share a long car ride without feeling any need to fill the silence.\" measures conscientiousness. The item is about being comfortable with silence, not about organization, responsibility, etc. So it does not measure conscientiousness. Also reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer is no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can share a long car ride without feeling any need to fill the silence.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item seems to reflect comfort with silence, possibly introversion. It might be reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item likely measures introversion, not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can share a long car ride without feeling any need to fill the silence.\" measures agreeableness. The item is about being comfortable with silence, not necessarily about compassion, cooperation, trust, helpfulness. It might reflect social comfort, but not necessarily agreeableness. It might be more about introversion or social anxiety. So likely not measuring agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can share a long car ride without feeling any need to fill the silence.\" measures neuroticism. The item is about being comfortable with silence, not necessarily negative emotions. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item seems to measure social comfort or introversion, not neuroticism. So answer: no."
+        }
+      }
+    },
+    "item_22": {
+      "question_text": "takes people's stories at face value unless given a clear reason not to.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" measures the construct of Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also asks if it includes reverse-scored items. The item is about being skeptical or trusting? It says \"takes people's stories at face value unless given a clear reason not to.\" That suggests a tendency to accept stories at face value, i.e., less skeptical, more trusting. Openness is about being receptive to new ideas, experiences, perspectives. This item might reflect openness to others' perspectives? But it's more about trust. It might be more about gullibility or trust. It doesn't directly measure openness. So answer \"no\". Also reverse-scored? The item is not reverse-scored; it's a direct statement. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" measures conscientiousness. Conscientiousness is about being organized, responsible, hardworking, goal-directed. This item is about trust, gullibility, skepticism. That seems more related to openness or perhaps honesty/honesty? It's about being trusting. Conscientiousness is about diligence, reliability. This item doesn't measure that. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about trust or gullibility, not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" measures agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no.\n\nWe need to analyze if the item reflects agreeableness. The item says: \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" That suggests a tendency to trust others, to believe what they say unless there's reason not to. That is a trait of trust, which is part of agreeableness. Agreeableness includes trust, altruism, compliance, modesty, tender-mindedness. So yes, it measures agreeableness. It's not reverse-scored; it's a direct statement. So answer: yes."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes people's stories at face value unless given a clear reason not to.\" measures the construct of Neuroticism (tendency to experience negative emotions such as anxiety, depression, emotional instability). Also, does it include reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about trusting people at face value unless given a clear reason not to. That seems more about trust, gullibility, or perhaps openness to experience? It doesn't directly measure neuroticism. Neuroticism is about negative emotions. This item doesn't measure that. So answer \"no\". Also reverse-scored items? The item is not reverse-scored. So answer no."
+        }
+      }
+    },
+    "item_23": {
+      "question_text": "leaves the laundry until there is nothing left to wear.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves the laundry until there is nothing left to wear.\" measures the construct of Openness. The item is about procrastinating laundry, which is about organization, responsibility, maybe conscientiousness. Openness is about imagination, curiosity, receptivity to new ideas. This item does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves the laundry until there is nothing left to wear.\" measures conscientiousness. The item is about procrastination or lack of organization. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item indicates procrastination, lack of organization, so it would be reverse-scored for conscientiousness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is reverse-scored for conscientiousness. So yes, it measures conscientiousness (reverse-scored). So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves the laundry until there is nothing left to wear.\" measures extraversion. Extraversion is sociability, assertiveness, activity, positive emotions. This item is about procrastination or laziness, not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves the laundry until there is nothing left to wear.\" measures the construct of Agreeableness. The item is about procrastinating laundry until nothing left to wear. That seems more about conscientiousness or maybe impulsivity, not agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not measure that. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves the laundry until there is nothing left to wear.\" measures the construct of Neuroticism. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" We need to answer yes or no.\n\nWe need to evaluate if the item is a measure of neuroticism. The item is about procrastination or avoidance of laundry. That seems more about procrastination, maybe conscientiousness or self-discipline. It doesn't directly measure negative emotions. So likely no. The item is not measuring neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_24": {
+      "question_text": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct \"Openness\" (the tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives). The item: \"I see myself as someone who takes a canceled flight or a harsh comment without letting it ruin the day.\" This is about resilience, emotional stability, not openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes a canceled flight or a harsh comment without letting it ruin the day.\" measures conscientiousness. The item is about resilience, emotional stability, not necessarily conscientiousness. Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item is about emotional resilience, maybe emotional stability or openness? It's not about conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes a canceled flight or a harsh comment without letting it ruin the day.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item is about resilience, not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures Agreeableness. The item: \"I see myself as someone who takes a canceled flight or a harsh comment without letting it ruin the day.\" This is about emotional resilience, not necessarily agreeableness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item is about emotional stability, maybe conscientiousness or emotional stability. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who takes a canceled flight or a harsh comment without letting it ruin the day.\" measures neuroticism. The item is about resilience, not neuroticism. Neuroticism is tendency to experience negative emotions. This item is about not letting negative events ruin the day, which is more about emotional stability or low neuroticism. It might be reverse-scored? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not measuring neuroticism; it's measuring emotional stability or resilience. So answer \"no\"."
+        }
+      }
+    },
+    "item_25": {
+      "question_text": "rigs a working fix out of spare parts when the proper tool is missing.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" measures the construct Openness (tendency to be imaginative, curious, receptive to new ideas, experiences, perspectives). Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about improvisation, resourcefulness. Openness includes curiosity, imagination, novelty seeking. This item might reflect creativity, but also could reflect practical problem solving. Openness is about imaginative, curious, receptive to new ideas. This item might reflect a kind of resourcefulness, but not necessarily openness. It might be more about adaptability, or maybe \"Openness\" includes imaginative problem solving. But the item is about using spare parts to fix something. That is more about ingenuity, but not necessarily openness to new experiences. It might be more about \"Openness to experience\" or \"Openness to novelty\"? The item might reflect \"Openness\" because it shows creative problem solving. But is it measuring openness? The item is about being able to improvise. That could be a facet of openness, but also could be a facet of \"conscientiousness\" or \"openness to experience\"? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. I think it's not a direct measure of openness. It's more about resourcefulness, maybe \"Openness\" includes creative problem solving. But the item is about using spare parts to fix something. That is more about \"practical creativity\" or \"inventiveness.\" It might be a facet of \"Openness\" but not the main. The question likely expects \"no\" because it's not measuring openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" measures conscientiousness. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no.\n\nWe need to decide if this item reflects conscientiousness. The item describes resourcefulness, problem solving, adaptability. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item might reflect resourcefulness, but not necessarily organization or responsibility. It might reflect self-efficacy, problem solving, but not necessarily conscientiousness. It might be more about adaptability, self-reliance, maybe self-efficacy. Conscientiousness is about being diligent, careful, reliable. This item might reflect a certain type of resourcefulness, but not necessarily conscientiousness. It might be more about \"practical intelligence\" or \"self-efficacy\" or \"problem solving.\" So likely not measuring conscientiousness. So answer \"no\".\n\nBut we need to consider reverse-scored items. The question says \"including reverse-scored items?\" That means we consider if the item could be reverse-scored to measure conscientiousness. But reverse-scoring would invert the meaning. The item is positive: \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" Reverse-scored would be \"I do not see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" That would be negative. But still not about conscientiousness. So answer no.\n\nThus answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" measures extraversion. Extraversion is sociability, assertiveness, activity, positive emotions. This item is about problem solving, resourcefulness, not about sociability. So it does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" measures the construct of Agreeableness, which is defined as the tendency to be compassionate, cooperative, trusting, and helpful toward others. The item describes a person who is resourceful, improvises, uses spare parts. This is about problem solving, resourcefulness, maybe self-efficacy, not necessarily about compassion, cooperation, trust, helpfulness. It might be more about conscientiousness or openness? But not agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rigs a working fix out of spare parts when the proper tool is missing.\" measures the construct of Neuroticism (tendency to experience negative emotions such as anxiety, depression, emotional instability). The item is about resourcefulness, problem solving, improvisation. It doesn't directly measure negative emotions. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_26": {
+      "question_text": "says plainly at the table what they want and where they stand.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who says plainly at the table what they want and where they stand.\" measures the construct Openness. The item is about being direct, straightforward, not necessarily about imagination, curiosity, receptiveness to new ideas. So it does not measure Openness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who says plainly at the table what they want and where they stand.\" measures conscientiousness. The item is about being direct, straightforward, not necessarily about organization, responsibility, hard work, goal-directedness. Conscientiousness is about being organized, responsible, hardworking, goal-directed. This item is about communication style, not necessarily conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who says plainly at the table what they want and where they stand.\" measures extraversion, including reverse-scored items. The item is about being straightforward, assertive, direct. Extraversion includes assertiveness, sociability, activity, positive emotions. The item seems to measure assertiveness, which is part of extraversion. But does it measure extraversion? It might measure assertiveness, but extraversion is broader. The item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being direct, which is a facet of extraversion (assertiveness). So yes, it measures extraversion. But the question: \"including reverse-scored items?\" The item is not reverse-scored. But the question is ambiguous: \"Does this item measure the following construct, including reverse-scored items?\" I think they want to know if the item measures extraversion. So answer yes."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who says plainly at the table what they want and where they stand.\" measures the construct of Agreeableness (tendency to be compassionate, cooperative, trusting, helpful). The item is about being direct, saying what they want and where they stand. That is more about assertiveness, directness, possibly low agreeableness? Agreeableness includes being cooperative, compassionate, trusting, helpful. This item is about being direct, not necessarily compassionate or cooperative. So it does not measure agreeableness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we answer yes or no. The answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who says plainly at the table what they want and where they stand.\" measures the construct of Neuroticism (tendency to experience negative emotions such as anxiety, depression, emotional instability). Also, does it include reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about being straightforward, not about negative emotions. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_27": {
+      "question_text": "answers a coworker's warm greeting with a short nod and keeps walking.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who answers a coworker's warm greeting with a short nod and keeps walking.\" measures the construct Openness. The item describes a behavior: minimal social engagement, perhaps low warmth, low curiosity. Openness is about imaginative, curious, receptive to new ideas, experiences, perspectives. This item seems to reflect low social engagement, maybe low extraversion, not openness. So it does not measure openness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who answers a coworker's warm greeting with a short nod and keeps walking.\" measures conscientiousness. The item describes a behavior: minimal response, not engaging. Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item seems more about social behavior, maybe low agreeableness or low extraversion. It doesn't reflect conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who answers a coworker's warm greeting with a short nod and keeps walking.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. The item describes minimal social interaction, not sociable. So it likely measures low extraversion or introversion. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who answers a coworker's warm greeting with a short nod and keeps walking.\" measures agreeableness. The item describes a behavior: minimal response, not engaging. Agreeableness includes compassion, cooperation, trust, helpfulness. This behavior seems low agreeableness. The item is not reverse-scored; it's a statement. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who answers a coworker's warm greeting with a short nod and keeps walking.\" measures neuroticism. The item describes a behavior: minimal social response, perhaps indicating low warmth, but neuroticism is about negative emotions, anxiety, depression, emotional instability. This item seems to measure social withdrawal or low extraversion, maybe low agreeableness. It doesn't directly measure neuroticism. So answer \"no\". Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. It's not measuring neuroticism. So \"no\"."
+        }
+      }
+    },
+    "item_28": {
+      "question_text": "stays at the desk until the last box on the list is ticked, even past midnight.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who stays at the desk until the last box on the list is ticked, even past midnight.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". The item describes diligence, persistence, work ethic, maybe conscientiousness. Openness is about imagination, curiosity, novelty. This item does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who stays at the desk until the last box on the list is ticked, even past midnight.\" measures conscientiousness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed.\" We need to answer yes or no. The item describes staying at desk until last box ticked, even past midnight. That indicates hardworking, goal-directed, responsible, organized. So yes. The question says \"including reverse-scored items?\" That might mean that the item is not reverse-scored; it's a positive item. So yes. So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who stays at the desk until the last box on the list is ticked, even past midnight.\" measures extraversion. Extraversion is sociable, assertive, active, positive emotions. This item is about staying at desk, working late, not about sociability or assertiveness. So it does not measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who stays at the desk until the last box on the list is ticked, even past midnight.\" measures the construct of Agreeableness. The question: \"Does this item measure the following construct, including reverse-scored items? Agreeableness: The tendency to be compassionate, cooperative, trusting, and helpful toward others.\" We need to answer yes or no.\n\nWe need to analyze: The item describes staying at the desk until the last box is ticked, even past midnight. That indicates diligence, perseverance, maybe conscientiousness. It doesn't directly measure compassion, cooperation, trust, helpfulness. It might be more about conscientiousness. So it does not measure agreeableness. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who stays at the desk until the last box on the list is ticked, even past midnight.\" measures the construct of Neuroticism: tendency to experience negative emotions such as anxiety, depression, emotional instability. The item describes staying at desk until last box ticked, even past midnight. That seems to reflect diligence, perseverance, maybe conscientiousness. It doesn't directly measure negative emotions. So it does not measure neuroticism. So answer: no."
+        }
+      }
+    },
+    "item_29": {
+      "question_text": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can go from cheerful at breakfast to snappish by lunch without an obvious reason.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item describes mood variability, not openness. Openness is about imagination, curiosity, receptivity. This item is about mood changes, not openness. So answer no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can go from cheerful at breakfast to snappish by lunch without an obvious reason.\" measures conscientiousness. The item describes mood variability, not conscientiousness. Conscientiousness is about organization, responsibility, etc. This item is about emotional stability or mood swings, maybe neuroticism or emotional stability. So it does not measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can go from cheerful at breakfast to snappish by lunch without an obvious reason.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item describes mood variability, not necessarily sociability or assertiveness. It might reflect emotional instability or mood swings. It doesn't directly measure extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can go from cheerful at breakfast to snappish by lunch without an obvious reason.\" measures the construct of Agreeableness (tendency to be compassionate, cooperative, trusting, helpful). The item describes mood variability, not necessarily agreeableness. It doesn't directly measure compassion, cooperation, trust, helpfulness. So likely not. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can go from cheerful at breakfast to snappish by lunch without an obvious reason.\" measures neuroticism. The item describes emotional instability, mood swings. Neuroticism includes tendency to experience negative emotions, anxiety, depression, emotional instability. This item seems to capture emotional instability, but does it measure neuroticism? It might be a measure of emotional instability, which is part of neuroticism. The item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does measure neuroticism. So answer \"yes\"."
+        }
+      }
+    },
+    "item_30": {
+      "question_text": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will cross town on a weeknight to catch an exhibition or hear a string quartet.\" measures the construct Openness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about attending cultural events, which is typical of Openness. It is not reverse-scored. So yes."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will cross town on a weeknight to catch an exhibition or hear a string quartet.\" measures conscientiousness. The item describes willingness to travel to cultural events. Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item seems more about openness to experience or maybe extraversion. It's not about conscientiousness. Also reverse-scored? The item is not reverse-scored. So answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will cross town on a weeknight to catch an exhibition or hear a string quartet.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. The item describes willingness to go out to cultural events. That could reflect activity and sociability? But it's about going to an exhibition or string quartet, which is a cultural activity, not necessarily social. It could reflect openness to experience more. Extraversion is about sociability, assertiveness, activity, positive emotions. This item is about willingness to go out to cultural events, which may reflect activity and sociability but not necessarily assertiveness or positive emotions. It might be more about openness. So does it measure extraversion? Likely not strongly. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will cross town on a weeknight to catch an exhibition or hear a string quartet.\" measures the construct of Agreeableness. The item is about willingness to go out to cultural events. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not directly measure those traits. It's more about openness to experience or extraversion. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who will cross town on a weeknight to catch an exhibition or hear a string quartet.\" measures neuroticism. The item describes a behavior: going to an exhibition or string quartet. That seems like a preference for cultural activities, not necessarily neuroticism. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item is not about negative emotions. So it does not measure neuroticism. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer is no."
+        }
+      }
+    },
+    "item_31": {
+      "question_text": "rehearses a sentence twice before saying it to a stranger at a party.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rehearses a sentence twice before saying it to a stranger at a party.\" measures the construct of Openness. The item describes a behavior: rehearsing a sentence twice before speaking to a stranger at a party. That suggests social anxiety, cautiousness, maybe introversion, or conscientiousness? Openness is about imagination, curiosity, receptiveness to new ideas, experiences, perspectives. This item seems to reflect a cautious, perhaps reserved or anxious behavior, not necessarily openness. It might reflect low openness or high conscientiousness? But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rehearses a sentence twice before saying it to a stranger at a party.\" measures conscientiousness. Conscientiousness includes being organized, responsible, hardworking, goal-directed. Rehearsing a sentence before speaking to a stranger indicates carefulness, planning, maybe social anxiety. It could reflect conscientiousness (planning, carefulness). But also could reflect social anxiety or shyness. The item is about rehearsal before speaking, which could be a sign of conscientiousness (preparing). But it's more about social behavior. Conscientiousness is about being organized, responsible, hardworking, goal-directed. Rehearsing a sentence before speaking to a stranger could be considered a sign of being careful, but it's not necessarily about organization or responsibility. It might be more about social anxiety or self-consciousness. So does it measure conscientiousness? It's borderline. The item is not directly measuring organization or responsibility. It might measure self-monitoring or social anxiety. So likely not. The question: \"Does this item measure the following construct, including reverse-scored items?\" So answer yes or no. I'd say no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rehearses a sentence twice before saying it to a stranger at a party.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item indicates shyness, social anxiety, low extraversion. So it does not measure extraversion. Also reverse-scored? The item is negative. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rehearses a sentence twice before saying it to a stranger at a party.\" measures Agreeableness. The item describes cautiousness, perhaps high self-consciousness, maybe low extraversion, but does it measure agreeableness? Agreeableness includes compassion, cooperation, trust, helpfulness. This item is about being careful before speaking to a stranger. That might reflect social anxiety or shyness, not necessarily agreeableness. It might reflect conscientiousness or neuroticism. So likely not measuring agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who rehearses a sentence twice before saying it to a stranger at a party.\" measures neuroticism. The item describes social anxiety or shyness, possibly related to neuroticism. Neuroticism is a broad trait of negative emotionality. The item might reflect social anxiety, which is a facet of neuroticism. But does it measure neuroticism? It's a specific behavior. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" The item is about rehearsing a sentence twice before speaking to a stranger at a party. That indicates anxiety, fear of social situations. That could be a facet of neuroticism. But is it measuring neuroticism? It's more specific to social anxiety. But neuroticism includes anxiety. So yes, it could measure neuroticism. But the question: \"including reverse-scored items?\" The item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about rehearsing a sentence twice before speaking to a stranger at a party. That indicates social anxiety, which is a facet of neuroticism. So yes, it measures neuroticism. But is it a good measure? It's a single item. But the question is just yes or no. So answer \"yes\"."
+        }
+      }
+    },
+    "item_32": {
+      "question_text": "remembers the doorman's name and asks how his daughter's exams went.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who remembers the doorman's name and asks how his daughter's exams went.\" measures openness. The item is about remembering a doorman's name and asking about his daughter's exams. That seems to reflect memory, politeness, social behavior, maybe conscientiousness or agreeableness. Openness is about imagination, curiosity, receptivity to new ideas. This item does not reflect that. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who remembers the doorman's name and asks how his daughter's exams went.\" measures conscientiousness. The item describes remembering doorman's name and asking about daughter's exams. That seems more about social behavior, maybe conscientiousness? Conscientiousness includes being organized, responsible, hardworking, goal-directed. Remembering doorman's name and asking about daughter's exams shows attentiveness, politeness, maybe conscientiousness? But it's more about social courtesy, maybe extraversion or agreeableness. Conscientiousness is about organization, reliability, diligence. This item doesn't capture that. So answer: no. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. It's no."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who remembers the doorman's name and asks how his daughter's exams went.\" measures extraversion. The item is about remembering a doorman's name and asking about his daughter's exams. That indicates sociability, memory, conversation. Extraversion includes sociability, assertiveness, activity, positive emotions. This item seems to reflect sociability and initiative. It might measure extraversion. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is likely measuring extraversion. So answer \"yes\"."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who remembers the doorman's name and asks how his daughter's exams went.\" measures agreeableness. The item is about remembering a doorman's name and asking about his daughter's exams. That indicates friendliness, social interest, helpfulness. Agreeableness includes compassion, cooperation, trust, helpfulness. This item seems to reflect social warmth, interest in others, which is consistent with agreeableness. So yes. Also reverse-scored? The item is positive. But question: \"Does this item measure the following construct, including reverse-scored items?\" They want yes or no. So answer \"yes\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who remembers the doorman's name and asks how his daughter's exams went.\" measures neuroticism. The item is about remembering doorman's name and asking about daughter's exams. That seems like conscientiousness or social behavior, not neuroticism. Neuroticism is about negative emotions. This item is not about negative emotions. So answer \"no\"."
+        }
+      }
+    },
+    "item_33": {
+      "question_text": "clears in one afternoon what takes others most of a week.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who clears in one afternoon what takes others most of a week.\" measures the construct Openness. The item seems to refer to efficiency, speed, maybe self-efficacy, or maybe self-perceived productivity. Openness is about imagination, curiosity, receptivity to new ideas. This item does not reflect that. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who clears in one afternoon what takes others most of a week.\" measures conscientiousness. The item is about being efficient, finishing tasks quickly. Conscientiousness includes being organized, responsible, hardworking, goal-directed. This item seems to reflect efficiency and productivity, which is related to conscientiousness. It might also reflect self-efficacy or self-perceived productivity. But does it measure conscientiousness? It could be considered a facet of conscientiousness: industriousness, diligence. So likely yes. Reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" They want yes or no. So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who clears in one afternoon what takes others most of a week.\" measures extraversion. The item seems to refer to efficiency, productivity, maybe conscientiousness or self-efficacy. Extraversion is about sociability, assertiveness, activity, positive emotions. This item doesn't directly measure sociability or assertiveness. It might measure self-efficacy or conscientiousness. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who clears in one afternoon what takes others most of a week.\" measures the construct of Agreeableness. The item is about being efficient, quick, maybe self-perceived as efficient. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not reflect those traits. It seems more about self-efficacy, maybe conscientiousness. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who clears in one afternoon what takes others most of a week.\" measures neuroticism. The item is about efficiency, speed, maybe self-efficacy. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item does not reflect that. So answer \"no\"."
+        }
+      }
+    },
+    "item_34": {
+      "question_text": "was the one giving directions when the fire alarm went off.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who was the one giving directions when the fire alarm went off.\" measures the construct Openness. The item is about giving directions during a fire alarm. That seems more about responsibility, leadership, or maybe conscientiousness. Openness is about imagination, curiosity, receptivity to new ideas. This item does not reflect that. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who was the one giving directions when the fire alarm went off.\" measures conscientiousness. The item describes a role in an emergency: giving directions. That suggests responsibility, leadership, maybe conscientiousness. But is it measuring conscientiousness? Conscientiousness includes being organized, responsible, hardworking, goal-directed. Giving directions during a fire alarm could reflect responsibility and organization. But is it a typical measure? It's a situational behavior. It might reflect conscientiousness. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item likely measures conscientiousness. So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who was the one giving directions when the fire alarm went off.\" measures extraversion. Extraversion: sociable, assertive, active, positive emotions. The item describes giving directions in emergency, which indicates assertiveness, leadership, maybe responsibility. But extraversion is about sociability, assertiveness, activity, positive emotions. This item might tap into assertiveness and leadership, but not necessarily sociability or positive emotions. It might be more about responsibility or leadership. So does it measure extraversion? Likely not. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not measuring extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who was the one giving directions when the fire alarm went off.\" measures the construct of Agreeableness. The item describes a behavior: giving directions during emergency. Agreeableness includes compassion, cooperation, trust, helpfulness. This item could reflect helpfulness and cooperation. But is it measuring agreeableness? It's more about leadership or responsibility. It might reflect prosocial behavior, but not necessarily agreeableness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not reverse-scored. It is a positive statement. Does it measure agreeableness? It might measure prosocial behavior, but not necessarily agreeableness. The item is about giving directions, which could be seen as helpfulness, but also could be about leadership. Agreeableness includes helpfulness, but also trust, compassion, cooperation. This item might reflect helpfulness but not necessarily trust or compassion. It's ambiguous. The question likely expects \"no\" because it's not a typical agreeableness item. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who was the one giving directions when the fire alarm went off.\" measures neuroticism. The item is about being the one giving directions during a fire alarm. That seems to reflect leadership, responsibility, maybe conscientiousness or extraversion. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item does not directly measure that. So answer: no."
+        }
+      }
+    },
+    "item_35": {
+      "question_text": "is happiest when today's tasks look exactly like yesterday's.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is happiest when today's tasks look exactly like yesterday's.\" measures the construct Openness. The item describes preference for routine, sameness, not openness. So it does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is happiest when today's tasks look exactly like yesterday's.\" measures conscientiousness, including reverse-scored items. The item seems to reflect preference for routine, consistency, perhaps conscientiousness. Conscientiousness includes being organized, responsible, hardworking, goal-directed. The item indicates a preference for routine, which could be part of conscientiousness. But is it reverse-scored? The item is positive: \"happiest when tasks look exactly like yesterday's\" suggests a preference for routine. Conscientiousness includes being organized, but also goal-directed. This item might reflect a preference for routine, which could be part of conscientiousness. However, the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is not reverse-scored; it's a positive statement. But the question: \"including reverse-scored items\" means we consider if the item measures conscientiousness, even if reverse-scored items are included. The item is not reverse-scored. But the question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes if the item measures conscientiousness. The item seems to measure preference for routine, which is part of conscientiousness. So answer yes."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is happiest when today's tasks look exactly like yesterday's.\" measures extraversion. Extraversion is sociability, assertiveness, activity, positive emotions. This item is about routine preference, not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is happiest when today's tasks look exactly like yesterday's.\" measures Agreeableness. The item is about preference for routine, not about compassion, cooperation, trust, helpfulness. So it does not measure Agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who is happiest when today's tasks look exactly like yesterday's.\" measures neuroticism. The item is about preference for routine, maybe related to conscientiousness or need for order, not neuroticism. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item is about preference for routine, not negative emotions. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_36": {
+      "question_text": "leaves a party with three new phone numbers.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves a party with three new phone numbers.\" measures the construct Openness. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item: \"I see myself as someone who leaves a party with three new phone numbers.\" This suggests sociability, networking, curiosity, openness to new experiences. Openness includes imaginative, curious, receptive to new ideas, experiences, perspectives. This item seems to reflect curiosity and openness to new experiences. It might measure extraversion or social networking. But openness includes curiosity, novelty seeking. This item could reflect openness. But is it reverse-scored? The question says \"including reverse-scored items?\" The item is positive. So we just need to answer yes or no. I think yes. The item measures openness. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves a party with three new phone numbers.\" measures conscientiousness. The item is about social behavior, perhaps extraversion or social skills. Conscientiousness is about organization, responsibility, etc. This item does not reflect that. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves a party with three new phone numbers.\" measures extraversion. The item is about social behavior, making new contacts, which is typical of extraversion. It is positively worded, not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does measure extraversion. So answer \"yes\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves a party with three new phone numbers.\" measures Agreeableness. The item is about social networking, making new contacts. Agreeableness includes compassion, cooperation, trust, helpfulness. This item seems more about extraversion or sociability, not agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who leaves a party with three new phone numbers.\" measures neuroticism. The item is about social behavior, perhaps extraversion or social anxiety? It might reflect social anxiety or impulsivity. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item seems to reflect sociability, perhaps extraversion. It doesn't directly measure negative emotions. So likely no. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        }
+      }
+    },
+    "item_37": {
+      "question_text": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes cuts the waiter off mid-sentence with a sharp remark.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\" including reverse-scored items. The question: Does this item measure that construct? The item is about cutting the waiter off mid-sentence with a sharp remark. That seems more about assertiveness, possibly impulsivity, or maybe social behavior. Openness is about imagination, curiosity, receptiveness. Cutting the waiter off is not about openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes cuts the waiter off mid-sentence with a sharp remark.\" measures conscientiousness. Conscientiousness is about being organized, responsible, hardworking, goal-directed. Cutting the waiter off mid-sentence with a sharp remark is more about impulsivity, possibly low agreeableness or high neuroticism, not conscientiousness. So answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes cuts the waiter off mid-sentence with a sharp remark.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. Cutting waiter off mid-sentence with a sharp remark: assertiveness? Could be socially assertive, but also rude. Extraversion is about sociability and assertiveness, but also positive emotions. This item might reflect assertiveness but also negative social behavior. It's not necessarily measuring extraversion. It's more about assertiveness or possibly aggression. So likely not measuring extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes cuts the waiter off mid-sentence with a sharp remark.\" measures Agreeableness. The item describes a behavior that is likely disagreeable, not compassionate, cooperative, trusting, helpful. So it does not measure agreeableness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who sometimes cuts the waiter off mid-sentence with a sharp remark.\" measures the construct of Neuroticism. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" We need to answer yes or no. The item describes a behavior: cutting the waiter off mid-sentence with a sharp remark. That is more about assertiveness, possibly aggression, or maybe impulsivity. Neuroticism is about negative emotions, anxiety, depression, emotional instability. This item does not directly measure that. It might be more about extraversion or agreeableness. So answer: no."
+        }
+      }
+    },
+    "item_38": {
+      "question_text": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who books the flights in January and is standing at the gate in June, itinerary in hand.\" measures the construct Openness. The item is about planning travel, being organized, maybe future orientation. Openness is about imagination, curiosity, receptivity to new ideas, experiences, perspectives. This item seems more about planning, maybe conscientiousness. It doesn't capture openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who books the flights in January and is standing at the gate in June, itinerary in hand.\" measures conscientiousness. The item describes planning ahead, being organized, responsible, goal-directed. It seems to measure conscientiousness. Does it include reverse-scored items? No, it's a single item, not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" They want yes or no. The item measures conscientiousness. So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who books the flights in January and is standing at the gate in June, itinerary in hand.\" measures extraversion. The item is about planning travel, being organized, maybe future oriented. Extraversion is sociability, assertiveness, activity, positive emotions. This item doesn't directly measure sociability or assertiveness. It might measure conscientiousness or planning. So likely no. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we answer yes or no. It's not measuring extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct of Agreeableness. The item: \"I see myself as someone who books the flights in January and is standing at the gate in June, itinerary in hand.\" This is about planning travel, not about compassion, cooperation, trust, helpfulness. So it does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who books the flights in January and is standing at the gate in June, itinerary in hand.\" measures the construct of Neuroticism. The item is about planning travel, not about negative emotions. It doesn't measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_39": {
+      "question_text": "feels their heart race when the phone rings from an unknown number.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user asks: \"I see myself as someone who feels their heart race when the phone rings from an unknown number. Does this item measure the following construct, including reverse-scored items? Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who feels their heart race when the phone rings from an unknown number.\" measures Openness. That item seems to measure anxiety or fear of unknown, maybe neuroticism or anxiety. Openness is about imagination, curiosity, receptiveness. This item does not measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to answer yes or no. The question: \"I see myself as someone who feels their heart race when the phone rings from an unknown number.\" Does this item measure the construct conscientiousness? The item is about anxiety or nervousness about unknown phone calls. Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item does not measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who feels their heart race when the phone rings from an unknown number.\" measures extraversion. Extraversion includes sociability, assertiveness, activity, positive emotions. This item is about anxiety or nervousness when receiving unknown call. That seems more like neuroticism or anxiety, not extraversion. So answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who feels their heart race when the phone rings from an unknown number.\" measures the construct of Agreeableness. The item is about anxiety or nervousness when receiving unknown calls. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who feels their heart race when the phone rings from an unknown number.\" measures the construct of Neuroticism. The question: \"Does this item measure the following construct, including reverse-scored items? Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability.\" We need to answer yes or no.\n\nWe need to consider if the item is a measure of neuroticism. The item describes a physiological response to an unknown number: heart racing. That indicates anxiety or fear. That is a negative emotional reaction. So it likely measures neuroticism. It's not reverse-scored. The question says \"including reverse-scored items?\" That might mean we should consider if the item is reverse-scored. But the item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item measures neuroticism. So answer \"yes\"."
+        }
+      }
+    },
+    "item_40": {
+      "question_text": "can chew on a hypothetical question for the length of a dinner.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" measures the construct of Openness, including reverse-scored items. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item: \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" This seems to measure intellectual curiosity, ability to think deeply about hypothetical questions. That aligns with Openness. It is not reverse-scored. The question: \"including reverse-scored items?\" Means we consider if the item is reverse-scored? The item is positive. So it's not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" I think yes. So answer \"yes\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "The user asks: \"I see myself as someone who can chew on a hypothetical question for the length of a dinner. Does this item measure the following construct, including reverse-scored items? Conscientiousness: The tendency to be organized, responsible, hardworking, and goal-directed. Answer with only 'yes' or 'no'.\"\n\nWe need to determine if the item \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" measures conscientiousness. The item is about being able to think about a hypothetical question for a long time. That seems more about intellectual engagement, perhaps openness or conscientiousness? Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item doesn't directly measure that. It might be about persistence or diligence? But \"chew on a hypothetical question for the length of a dinner\" suggests deep thinking, maybe intellectual curiosity. It doesn't directly measure organization or responsibility. So likely no. The user wants only \"yes\" or \"no\". So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" measures extraversion. The item is about chewing on a hypothetical question for the length of a dinner. That seems to be about intellectual engagement, perhaps introspection, not extraversion. Extraversion is sociable, assertive, active, positive emotions. This item doesn't reflect that. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" measures agreeableness. The item is about chewing on a hypothetical question for the length of a dinner. That seems unrelated to agreeableness. It's about intellectual engagement, maybe openness to experience. So it does not measure agreeableness. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who can chew on a hypothetical question for the length of a dinner.\" measures neuroticism. The item is about chewing on a hypothetical question for the length of a dinner. That seems like a metaphor for rumination? \"Chew on a hypothetical question\" could be rumination, but \"for the length of a dinner\" is a time reference. It's not obviously measuring neuroticism. Neuroticism is tendency to experience negative emotions. This item seems to measure something like rumination or intellectual curiosity? It's not obviously reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_41": {
+      "question_text": "walks past the gallery to get to the food court.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who walks past the gallery to get to the food court.\" measures the construct Openness. The item is about walking past the gallery to get to the food court. That seems to reflect a preference for routine or practicality? It might reflect low openness: not interested in art, going straight to food. So it likely does not measure openness. Also reverse-scored? The item is not reverse-scored. The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who walks past the gallery to get to the food court.\" measures conscientiousness. The item is about walking past the gallery to get to the food court. That seems like a lack of conscientiousness? It's about being efficient? But conscientiousness is about being organized, responsible, hardworking, goal-directed. This item seems to be about being efficient or goal-directed? But walking past the gallery to get to the food court is a behavior that might reflect efficiency or goal-directedness. But it's not necessarily about organization or responsibility. It's more about personal preference. It doesn't measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who walks past the gallery to get to the food court.\" measures extraversion. The item seems to describe a person who is not interested in art, just going to food court. That suggests low interest in social or cultural activities. Extraversion is about sociability, assertiveness, activity, positive emotions. This item seems to measure something else, maybe introversion or low interest in social activities. It's not measuring extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who walks past the gallery to get to the food court.\" measures agreeableness. The item is about walking past the gallery to get to the food court. That seems like a preference for convenience, maybe self-centeredness, not necessarily agreeableness. Agreeableness includes compassion, cooperation, trust, helpfulness. This item doesn't reflect that. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who walks past the gallery to get to the food court.\" measures neuroticism. This item seems about behavior, not about negative emotions. It's not measuring neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_42": {
+      "question_text": "would rather split the work and share the credit than keep both to themselves.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who would rather split the work and share the credit than keep both to themselves.\" measures the construct \"Openness: The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives\". Also includes reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The item is about sharing credit, collaborative behavior. Openness is about imagination, curiosity, receptiveness. This item seems more about agreeableness or altruism, not openness. So answer no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who would rather split the work and share the credit than keep both to themselves.\" measures conscientiousness. The item is about sharing credit, splitting work. Conscientiousness is about organization, responsibility, hard work, goal-directedness. This item seems more about cooperation, fairness, maybe agreeableness or altruism. It doesn't directly measure conscientiousness. So answer \"no\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who would rather split the work and share the credit than keep both to themselves.\" measures extraversion. Extraversion is sociability, assertiveness, activity, positive emotions. This item is about sharing credit, cooperation, perhaps agreeableness or altruism. It doesn't directly measure sociability or assertiveness. So likely not extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item \"I see myself as someone who would rather split the work and share the credit than keep both to themselves.\" measures the construct of Agreeableness, which is defined as the tendency to be compassionate, cooperative, trusting, and helpful toward others. The item is about sharing work and credit rather than keeping both to oneself. That seems to reflect cooperative behavior, sharing, helpfulness. So yes, it measures agreeableness. Also reverse-scored? The item is positively worded for agreeableness. So answer \"yes\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item \"I see myself as someone who would rather split the work and share the credit than keep both to themselves.\" measures neuroticism. The item is about sharing credit, not about negative emotions. It's about social behavior, perhaps agreeableness or conscientiousness. So it does not measure neuroticism. So answer \"no\"."
+        }
+      }
+    },
+    "item_43": {
+      "question_text": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct \"Openness\" (the tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives). The item: \"I see myself as someone who opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.\" This describes procrastination, lack of focus, maybe low conscientiousness. It doesn't measure openness. So answer \"no\"."
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": "We need to determine if the item measures conscientiousness. The item: \"I see myself as someone who opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.\" This describes procrastination, lack of organization, not goal-directed. Conscientiousness is the tendency to be organized, responsible, hardworking, goal-directed. This item indicates low conscientiousness. It is a reverse-scored item? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes if it measures conscientiousness (including reverse-scored items). The item is a reverse-scored item: high score indicates low conscientiousness. So yes, it measures conscientiousness. So answer \"yes\"."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures extraversion. The item: \"I see myself as someone who opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.\" This describes procrastination, lack of focus, maybe introversion? Extraversion is sociable, assertive, active, positive emotions. This item is about procrastination, not about sociability or assertiveness. So it does not measure extraversion. Also reverse-scored? It's not about extraversion. So answer \"no\"."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures Agreeableness. The item: \"I see myself as someone who opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.\" This describes procrastination, self-discipline, maybe conscientiousness. Agreeableness is about compassion, cooperation, trust, helpfulness. This item does not measure that. So answer \"no\"."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct of Neuroticism. The item: \"I see myself as someone who opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.\" This describes procrastination, lack of focus, maybe emotional instability? Neuroticism is tendency to experience negative emotions such as anxiety, depression, emotional instability. This item is about procrastination, not directly about negative emotions. It might reflect self-control or conscientiousness. So it does not measure neuroticism. So answer: no."
+        }
+      }
+    },
+    "item_44": {
+      "question_text": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct Openness, including reverse-scored items. The item: \"I see myself as someone who can tell you which translation of a novel to pick and why one recording of a symphony outshines another.\" This is about having knowledge or expertise in translations and recordings. Does that reflect openness? Openness is about imagination, curiosity, receptivity to new ideas, experiences, perspectives. The item seems to reflect a sense of expertise or knowledge, not necessarily openness. It might reflect a sense of being knowledgeable, but not necessarily openness. It might be more about \"knowledge\" or \"expertise\" or \"cognitive ability\" or \"cultural sophistication.\" It doesn't directly measure openness. So answer: no."
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures conscientiousness. The item: \"I see myself as someone who can tell you which translation of a novel to pick and why one recording of a symphony outshines another.\" This is about being knowledgeable, discerning, maybe expertise. Conscientiousness is about organization, responsibility, hardworking, goal-directed. This item seems more about knowledge and discernment, not necessarily conscientiousness. It doesn't reflect organization or responsibility. So likely not measuring conscientiousness. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures extraversion. The item: \"I see myself as someone who can tell you which translation of a novel to pick and why one recording of a symphony outshines another.\" This is about being knowledgeable, perhaps assertive, but extraversion is about sociability, assertiveness, activity, positive emotions. This item is about being knowledgeable and perhaps assertive in giving opinions. It doesn't directly measure sociability or positive emotions. It's more about intellectual self-concept. So likely not measuring extraversion. Also reverse-scored items? The question: \"Does this item measure the following construct, including reverse-scored items?\" So we need to answer yes or no. The answer: no."
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures Agreeableness. The item: \"I see myself as someone who can tell you which translation of a novel to pick and why one recording of a symphony outshines another.\" This is about expertise in recommending translations and recordings. That is more about knowledge, expertise, maybe self-efficacy, not about compassion, cooperation, trust, helpfulness. So it does not measure agreeableness. Also reverse-scored items? The item is not reverse-scored. So answer: no."
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": "We need to determine if the item measures the construct \"Neuroticism: The tendency to experience negative emotions such as anxiety, depression, and emotional instability\". The item: \"I see myself as someone who can tell you which translation of a novel to pick and why one recording of a symphony outshines another.\" This is about being a good judge of translations and recordings. That is not about negative emotions. So it does not measure neuroticism. Also reverse-scored items? The item is not reverse-scored. So answer: no."
+        }
+      }
+    }
+  }
+}

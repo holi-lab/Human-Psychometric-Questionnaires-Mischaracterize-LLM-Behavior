@@ -1,0 +1,36 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "survey": "VP",
+  "method": "raw_prob",
+  "score_field": "normalized_logprob",
+  "correlation_threshold": 0.3,
+  "n_scenarios_valid": 104,
+  "n_scenarios_total": 104,
+  "gen_prob_profile": {
+    "bfi_traits": {
+      "Agreeableness": -4.431379,
+      "Conscientiousness": -4.488711,
+      "Extraversion": -4.504763,
+      "Neuroticism": -4.445899,
+      "Openness": -4.669065
+    },
+    "higher_order_values": {
+      "Conservation": -4.795882,
+      "Openness_to_Change": -5.344523,
+      "Self_Enhancement": -4.636464,
+      "Self_Transcendence": -4.661767
+    },
+    "pvq_values": {
+      "Achievement": -4.721662,
+      "Benevolence": -5.275962,
+      "Conformity": -4.665989,
+      "Hedonism": -4.707671,
+      "Power": -4.566864,
+      "Security": -4.135914,
+      "Self_Direction": -4.750465,
+      "Stimulation": -4.710771,
+      "Tradition": -4.97737,
+      "Universalism": -4.449737
+    }
+  }
+}

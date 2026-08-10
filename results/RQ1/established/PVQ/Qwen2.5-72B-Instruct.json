@@ -1,0 +1,799 @@
+{
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "timestamp": "2026-03-05T15:19:15.473137+00:00",
+  "num_items": 40,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Transcendence"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "higher_order_value": "Self-Transcendence"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 2.5,
+      "Benevolence": 5.25,
+      "Conformity": 3.5,
+      "Hedonism": 4.0,
+      "Power": 1.0,
+      "Security": 4.0,
+      "Self-Direction": 5.5,
+      "Stimulation": 3.0,
+      "Tradition": 2.75,
+      "Universalism": 5.6667
+    },
+    "reversed": {
+      "Achievement": 3.0,
+      "Benevolence": 6.0,
+      "Conformity": 3.75,
+      "Hedonism": 4.0,
+      "Power": 2.0,
+      "Security": 4.0,
+      "Self-Direction": 6.0,
+      "Stimulation": 3.6667,
+      "Tradition": 3.5,
+      "Universalism": 5.6667
+    },
+    "combined": {
+      "Achievement": 2.75,
+      "Benevolence": 5.625,
+      "Conformity": 3.625,
+      "Hedonism": 4.0,
+      "Power": 1.5,
+      "Security": 4.0,
+      "Self-Direction": 5.75,
+      "Stimulation": 3.3334,
+      "Tradition": 3.125,
+      "Universalism": 5.6667
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 3.4615,
+      "Openness to change": 4.3,
+      "Self-Enhancement": 1.8571,
+      "Self-Transcendence": 5.5
+    },
+    "reversed": {
+      "Conservation": 3.7692,
+      "Openness to change": 4.7,
+      "Self-Enhancement": 2.5714,
+      "Self-Transcendence": 5.8
+    },
+    "combined": {
+      "Conservation": 3.6154,
+      "Openness to change": 4.5,
+      "Self-Enhancement": 2.2142,
+      "Self-Transcendence": 5.65
+    }
+  }
+}

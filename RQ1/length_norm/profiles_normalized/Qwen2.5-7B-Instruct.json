@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "survey": "VP",
+  "method": "raw_prob",
+  "score_field": "normalized_logprob",
+  "correlation_threshold": 0.3,
+  "n_scenarios_valid": 104,
+  "n_scenarios_total": 104,
+  "gen_prob_profile": {
+    "bfi_traits": {
+      "Agreeableness": -3.842734,
+      "Conscientiousness": -3.738863,
+      "Extraversion": -3.889015,
+      "Neuroticism": -3.941742,
+      "Openness": -3.778259
+    },
+    "higher_order_values": {
+      "Conservation": -3.753253,
+      "Openness_to_Change": -3.787786,
+      "Self_Enhancement": -4.065187,
+      "Self_Transcendence": -4.227183
+    },
+    "pvq_values": {
+      "Achievement": -4.105611,
+      "Benevolence": -4.236036,
+      "Conformity": -3.902847,
+      "Hedonism": -3.986599,
+      "Power": -4.022927,
+      "Security": -3.564348,
+      "Self_Direction": -3.645136,
+      "Stimulation": -3.92147,
+      "Tradition": -3.937595,
+      "Universalism": -4.057877
+    }
+  }
+}

@@ -1,0 +1,2260 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Base",
+  "survey": "PVQ",
+  "format": "plain",
+  "timestamp": "2026-07-08T22:38:07.369210+00:00",
+  "construct_definitions_used": {
+    "Power": "Social status and prestige, control or dominance over people and resources",
+    "Achievement": "Personal success through demonstrating competence according to social standards",
+    "Hedonism": "Pleasure and sensuous gratification for oneself",
+    "Stimulation": "Excitement, novelty, and challenge in life",
+    "Self-Direction": "Independent thought and action - choosing, creating, exploring",
+    "Universalism": "Understanding, appreciation, tolerance, and protection for the welfare of all people and for nature",
+    "Benevolence": "Preserving and enhancing the welfare of people with whom one is in frequent personal contact",
+    "Tradition": "Respect, commitment, and acceptance of the customs and ideas that one's culture or religion provides",
+    "Conformity": "Restraint of actions, inclinations, and impulses likely to upset or harm others and violate social expectations or norms",
+    "Security": "Safety, harmony, and stability of society, of relationships, and of self"
+  },
+  "results": {
+    "item_1": {
+      "question_text": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0215,
+          "p_no": 0.2314
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0232,
+          "p_no": 0.1334
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0218,
+          "p_no": 0.2068
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.104,
+          "p_no": 0.1179
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.1491,
+          "p_no": 0.0798
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0254,
+          "p_no": 0.2125
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0216,
+          "p_no": 0.1813
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.019,
+          "p_no": 0.1591
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0257,
+          "p_no": 0.2156
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0194,
+          "p_no": 0.2088
+        }
+      },
+      "ground_truth_construct": "Self-Direction"
+    },
+    "item_2": {
+      "question_text": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0818,
+          "p_no": 0.1191
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0712,
+          "p_no": 0.1174
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0805,
+          "p_no": 0.1503
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0497,
+          "p_no": 0.1967
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0468,
+          "p_no": 0.1852
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0366,
+          "p_no": 0.2106
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0297,
+          "p_no": 0.194
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0373,
+          "p_no": 0.1895
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.056,
+          "p_no": 0.1724
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0352,
+          "p_no": 0.2294
+        }
+      },
+      "ground_truth_construct": "Power"
+    },
+    "item_3": {
+      "question_text": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.013,
+          "p_no": 0.1793
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0111,
+          "p_no": 0.135
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0107,
+          "p_no": 0.2432
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0176,
+          "p_no": 0.3121
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0401,
+          "p_no": 0.2305
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.1646,
+          "p_no": 0.1131
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0456,
+          "p_no": 0.2043
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0222,
+          "p_no": 0.239
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0551,
+          "p_no": 0.1924
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0419,
+          "p_no": 0.2128
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    },
+    "item_4": {
+      "question_text": "It's very important to them to show their abilities. They want people to admire what they do.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0586,
+          "p_no": 0.1094
+        },
+        "Achievement": {
+          "parsed": true,
+          "p_yes": 0.1053,
+          "p_no": 0.0638
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0129,
+          "p_no": 0.122
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0651,
+          "p_no": 0.1562
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0742,
+          "p_no": 0.1223
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0191,
+          "p_no": 0.1243
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0284,
+          "p_no": 0.1443
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0252,
+          "p_no": 0.1449
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0324,
+          "p_no": 0.1866
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.031,
+          "p_no": 0.1783
+        }
+      },
+      "ground_truth_construct": "Achievement"
+    },
+    "item_5": {
+      "question_text": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0263,
+          "p_no": 0.1946
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0135,
+          "p_no": 0.1452
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0094,
+          "p_no": 0.1672
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0268,
+          "p_no": 0.1979
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0282,
+          "p_no": 0.2365
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0318,
+          "p_no": 0.1614
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0528,
+          "p_no": 0.1267
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.035,
+          "p_no": 0.1779
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0838,
+          "p_no": 0.1076
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.1014,
+          "p_no": 0.1149
+        }
+      },
+      "ground_truth_construct": "Security"
+    },
+    "item_6": {
+      "question_text": "They think it is important to do lots of different things in life. They always look for new things to try.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0119,
+          "p_no": 0.2384
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0283,
+          "p_no": 0.1844
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0643,
+          "p_no": 0.1981
+        },
+        "Stimulation": {
+          "parsed": true,
+          "p_yes": 0.1474,
+          "p_no": 0.1013
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.1484,
+          "p_no": 0.1156
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0602,
+          "p_no": 0.2102
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.021,
+          "p_no": 0.1991
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0262,
+          "p_no": 0.1709
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.024,
+          "p_no": 0.2009
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0194,
+          "p_no": 0.1841
+        }
+      },
+      "ground_truth_construct": "Stimulation"
+    },
+    "item_7": {
+      "question_text": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0202,
+          "p_no": 0.1918
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0092,
+          "p_no": 0.1275
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0097,
+          "p_no": 0.152
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0105,
+          "p_no": 0.2381
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.023,
+          "p_no": 0.247
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0266,
+          "p_no": 0.1969
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0394,
+          "p_no": 0.1764
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0679,
+          "p_no": 0.0989
+        },
+        "Conformity": {
+          "parsed": true,
+          "p_yes": 0.1377,
+          "p_no": 0.1073
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0468,
+          "p_no": 0.1441
+        }
+      },
+      "ground_truth_construct": "Conformity"
+    },
+    "item_8": {
+      "question_text": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0083,
+          "p_no": 0.1151
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0071,
+          "p_no": 0.1433
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0097,
+          "p_no": 0.1718
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0369,
+          "p_no": 0.2125
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.045,
+          "p_no": 0.1224
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.0959,
+          "p_no": 0.0659
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0599,
+          "p_no": 0.1268
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0321,
+          "p_no": 0.1438
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0281,
+          "p_no": 0.1616
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0408,
+          "p_no": 0.1827
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    },
+    "item_9": {
+      "question_text": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0274,
+          "p_no": 0.2291
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0463,
+          "p_no": 0.1831
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0264,
+          "p_no": 0.2509
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0344,
+          "p_no": 0.2877
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0512,
+          "p_no": 0.2026
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0687,
+          "p_no": 0.1868
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0791,
+          "p_no": 0.1674
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0947,
+          "p_no": 0.1377
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.1011,
+          "p_no": 0.1298
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0917,
+          "p_no": 0.1512
+        }
+      },
+      "ground_truth_construct": "Tradition"
+    },
+    "item_10": {
+      "question_text": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0179,
+          "p_no": 0.2176
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0176,
+          "p_no": 0.2149
+        },
+        "Hedonism": {
+          "parsed": true,
+          "p_yes": 0.107,
+          "p_no": 0.0833
+        },
+        "Stimulation": {
+          "parsed": true,
+          "p_yes": 0.1212,
+          "p_no": 0.0944
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.074,
+          "p_no": 0.1567
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0398,
+          "p_no": 0.2023
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0286,
+          "p_no": 0.1648
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0172,
+          "p_no": 0.1633
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0304,
+          "p_no": 0.2246
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0347,
+          "p_no": 0.2265
+        }
+      },
+      "ground_truth_construct": "Hedonism"
+    },
+    "item_11": {
+      "question_text": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0136,
+          "p_no": 0.1654
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.016,
+          "p_no": 0.1516
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0237,
+          "p_no": 0.1748
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0364,
+          "p_no": 0.163
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.1033,
+          "p_no": 0.0488
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0217,
+          "p_no": 0.1605
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0172,
+          "p_no": 0.1628
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0166,
+          "p_no": 0.1572
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0227,
+          "p_no": 0.1676
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0219,
+          "p_no": 0.1615
+        }
+      },
+      "ground_truth_construct": "Self-Direction"
+    },
+    "item_12": {
+      "question_text": "It's very important to them to help the people around them. They want to care for their well-being.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0151,
+          "p_no": 0.1431
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.009,
+          "p_no": 0.1409
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0138,
+          "p_no": 0.1679
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0189,
+          "p_no": 0.2307
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0315,
+          "p_no": 0.1412
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.0883,
+          "p_no": 0.0779
+        },
+        "Benevolence": {
+          "parsed": true,
+          "p_yes": 0.1283,
+          "p_no": 0.0606
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0261,
+          "p_no": 0.15
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0722,
+          "p_no": 0.1529
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.085,
+          "p_no": 0.1236
+        }
+      },
+      "ground_truth_construct": "Benevolence"
+    },
+    "item_13": {
+      "question_text": "Being very successful is important to them. They like to impress other people.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0909,
+          "p_no": 0.103
+        },
+        "Achievement": {
+          "parsed": true,
+          "p_yes": 0.0988,
+          "p_no": 0.0769
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0263,
+          "p_no": 0.2202
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0471,
+          "p_no": 0.2111
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0318,
+          "p_no": 0.2352
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0271,
+          "p_no": 0.1766
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0256,
+          "p_no": 0.1671
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0265,
+          "p_no": 0.173
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0506,
+          "p_no": 0.1768
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0345,
+          "p_no": 0.2249
+        }
+      },
+      "ground_truth_construct": "Achievement"
+    },
+    "item_14": {
+      "question_text": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0386,
+          "p_no": 0.1347
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.009,
+          "p_no": 0.1416
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0102,
+          "p_no": 0.16
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0219,
+          "p_no": 0.2353
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0286,
+          "p_no": 0.1644
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0288,
+          "p_no": 0.1655
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0315,
+          "p_no": 0.1811
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0376,
+          "p_no": 0.1312
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0462,
+          "p_no": 0.1613
+        },
+        "Security": {
+          "parsed": true,
+          "p_yes": 0.1166,
+          "p_no": 0.1166
+        }
+      },
+      "ground_truth_construct": "Security"
+    },
+    "item_15": {
+      "question_text": "They like to take risks. They are always looking for adventures.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0311,
+          "p_no": 0.1789
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0369,
+          "p_no": 0.1459
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.085,
+          "p_no": 0.1588
+        },
+        "Stimulation": {
+          "parsed": true,
+          "p_yes": 0.0963,
+          "p_no": 0.085
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.1047,
+          "p_no": 0.1047
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0424,
+          "p_no": 0.19
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0314,
+          "p_no": 0.1807
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0252,
+          "p_no": 0.1641
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0356,
+          "p_no": 0.2319
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0317,
+          "p_no": 0.1826
+        }
+      },
+      "ground_truth_construct": "Stimulation"
+    },
+    "item_16": {
+      "question_text": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0117,
+          "p_no": 0.1826
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0341,
+          "p_no": 0.1529
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0117,
+          "p_no": 0.2076
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0151,
+          "p_no": 0.2081
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.026,
+          "p_no": 0.2175
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0429,
+          "p_no": 0.1698
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0464,
+          "p_no": 0.0983
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0808,
+          "p_no": 0.1037
+        },
+        "Conformity": {
+          "parsed": true,
+          "p_yes": 0.1282,
+          "p_no": 0.0777
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0592,
+          "p_no": 0.1608
+        }
+      },
+      "ground_truth_construct": "Conformity"
+    },
+    "item_17": {
+      "question_text": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+      "predictions": {
+        "Power": {
+          "parsed": true,
+          "p_yes": 0.0952,
+          "p_no": 0.084
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0235,
+          "p_no": 0.1194
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0143,
+          "p_no": 0.1543
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0268,
+          "p_no": 0.224
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0278,
+          "p_no": 0.2054
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0155,
+          "p_no": 0.2135
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0183,
+          "p_no": 0.1529
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0177,
+          "p_no": 0.1675
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0234,
+          "p_no": 0.1188
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0173,
+          "p_no": 0.1644
+        }
+      },
+      "ground_truth_construct": "Power"
+    },
+    "item_18": {
+      "question_text": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0146,
+          "p_no": 0.157
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0076,
+          "p_no": 0.1354
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0127,
+          "p_no": 0.2243
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0194,
+          "p_no": 0.1624
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0246,
+          "p_no": 0.1814
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0278,
+          "p_no": 0.1245
+        },
+        "Benevolence": {
+          "parsed": true,
+          "p_yes": 0.1169,
+          "p_no": 0.0709
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0359,
+          "p_no": 0.1609
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0375,
+          "p_no": 0.1483
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0416,
+          "p_no": 0.1647
+        }
+      },
+      "ground_truth_construct": "Benevolence"
+    },
+    "item_19": {
+      "question_text": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0139,
+          "p_no": 0.1693
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0071,
+          "p_no": 0.1432
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.009,
+          "p_no": 0.2046
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0226,
+          "p_no": 0.2428
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0479,
+          "p_no": 0.1303
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.1165,
+          "p_no": 0.055
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.089,
+          "p_no": 0.1295
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.047,
+          "p_no": 0.2107
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0701,
+          "p_no": 0.1681
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0275,
+          "p_no": 0.1796
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    },
+    "item_20": {
+      "question_text": "Religious belief is important to them. They try hard to do what their religion requires.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0072,
+          "p_no": 0.1273
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0075,
+          "p_no": 0.0802
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0045,
+          "p_no": 0.1165
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0122,
+          "p_no": 0.2168
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0186,
+          "p_no": 0.1556
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0123,
+          "p_no": 0.1163
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0252,
+          "p_no": 0.1128
+        },
+        "Tradition": {
+          "parsed": true,
+          "p_yes": 0.0762,
+          "p_no": 0.0524
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0407,
+          "p_no": 0.0861
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0128,
+          "p_no": 0.1072
+        }
+      },
+      "ground_truth_construct": "Tradition"
+    },
+    "item_21": {
+      "question_text": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0222,
+          "p_no": 0.1863
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0293,
+          "p_no": 0.1688
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0128,
+          "p_no": 0.2007
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0246,
+          "p_no": 0.2338
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0332,
+          "p_no": 0.2167
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0258,
+          "p_no": 0.1684
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.036,
+          "p_no": 0.1826
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0406,
+          "p_no": 0.1605
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0968,
+          "p_no": 0.1408
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0698,
+          "p_no": 0.1898
+        }
+      },
+      "ground_truth_construct": "Security"
+    },
+    "item_22": {
+      "question_text": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0103,
+          "p_no": 0.1824
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0244,
+          "p_no": 0.1593
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0151,
+          "p_no": 0.1429
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.1101,
+          "p_no": 0.1248
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.0898,
+          "p_no": 0.0898
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0956,
+          "p_no": 0.1084
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0302,
+          "p_no": 0.1535
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0197,
+          "p_no": 0.1647
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0271,
+          "p_no": 0.2267
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0264,
+          "p_no": 0.1718
+        }
+      },
+      "ground_truth_construct": "Self-Direction"
+    },
+    "item_23": {
+      "question_text": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0152,
+          "p_no": 0.1633
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0138,
+          "p_no": 0.1907
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0152,
+          "p_no": 0.2372
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0295,
+          "p_no": 0.2797
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0389,
+          "p_no": 0.1978
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.0917,
+          "p_no": 0.0556
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0637,
+          "p_no": 0.1732
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0435,
+          "p_no": 0.172
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0634,
+          "p_no": 0.2213
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.1102,
+          "p_no": 0.1415
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    },
+    "item_24": {
+      "question_text": "They think it is important to be ambitious. They want to show how capable they are.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0456,
+          "p_no": 0.1403
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0765,
+          "p_no": 0.0867
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0093,
+          "p_no": 0.1642
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0514,
+          "p_no": 0.1583
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0408,
+          "p_no": 0.1258
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0218,
+          "p_no": 0.2067
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0165,
+          "p_no": 0.1771
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0221,
+          "p_no": 0.1438
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0347,
+          "p_no": 0.1762
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.021,
+          "p_no": 0.1988
+        }
+      },
+      "ground_truth_construct": "Achievement"
+    },
+    "item_25": {
+      "question_text": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0152,
+          "p_no": 0.2096
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.018,
+          "p_no": 0.1704
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0146,
+          "p_no": 0.2583
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0287,
+          "p_no": 0.2726
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0202,
+          "p_no": 0.2174
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0267,
+          "p_no": 0.1973
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0582,
+          "p_no": 0.1794
+        },
+        "Tradition": {
+          "parsed": true,
+          "p_yes": 0.1402,
+          "p_no": 0.0662
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.1033,
+          "p_no": 0.1171
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0703,
+          "p_no": 0.1686
+        }
+      },
+      "ground_truth_construct": "Tradition"
+    },
+    "item_26": {
+      "question_text": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0337,
+          "p_no": 0.1511
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0274,
+          "p_no": 0.1784
+        },
+        "Hedonism": {
+          "parsed": true,
+          "p_yes": 0.0986,
+          "p_no": 0.0598
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0949,
+          "p_no": 0.1218
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0488,
+          "p_no": 0.1703
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0325,
+          "p_no": 0.1867
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0217,
+          "p_no": 0.1413
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0252,
+          "p_no": 0.1641
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0287,
+          "p_no": 0.1873
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0422,
+          "p_no": 0.189
+        }
+      },
+      "ground_truth_construct": "Hedonism"
+    },
+    "item_27": {
+      "question_text": "It is important to them to respond to the needs of others. They try to support those they know.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0128,
+          "p_no": 0.1565
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.007,
+          "p_no": 0.1235
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0035,
+          "p_no": 0.102
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0126,
+          "p_no": 0.1743
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0197,
+          "p_no": 0.1647
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0726,
+          "p_no": 0.1056
+        },
+        "Benevolence": {
+          "parsed": true,
+          "p_yes": 0.0776,
+          "p_no": 0.047
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0171,
+          "p_no": 0.1431
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0471,
+          "p_no": 0.1131
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0361,
+          "p_no": 0.1617
+        }
+      },
+      "ground_truth_construct": "Benevolence"
+    },
+    "item_28": {
+      "question_text": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0292,
+          "p_no": 0.216
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0127,
+          "p_no": 0.1989
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0094,
+          "p_no": 0.3103
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.014,
+          "p_no": 0.2473
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0166,
+          "p_no": 0.2934
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0468,
+          "p_no": 0.1852
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0809,
+          "p_no": 0.1512
+        },
+        "Tradition": {
+          "parsed": true,
+          "p_yes": 0.1283,
+          "p_no": 0.0778
+        },
+        "Conformity": {
+          "parsed": true,
+          "p_yes": 0.113,
+          "p_no": 0.0997
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.059,
+          "p_no": 0.2059
+        }
+      },
+      "ground_truth_construct": "Conformity"
+    },
+    "item_29": {
+      "question_text": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0187,
+          "p_no": 0.157
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0078,
+          "p_no": 0.1773
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0073,
+          "p_no": 0.2431
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0101,
+          "p_no": 0.2024
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0238,
+          "p_no": 0.1993
+        },
+        "Universalism": {
+          "parsed": true,
+          "p_yes": 0.0984,
+          "p_no": 0.041
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0353,
+          "p_no": 0.1584
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0187,
+          "p_no": 0.1778
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0574,
+          "p_no": 0.1561
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0527,
+          "p_no": 0.1624
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    },
+    "item_30": {
+      "question_text": "They like surprises. It is important to them to have an exciting life.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0269,
+          "p_no": 0.199
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.023,
+          "p_no": 0.1324
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.1128,
+          "p_no": 0.1448
+        },
+        "Stimulation": {
+          "parsed": true,
+          "p_yes": 0.1228,
+          "p_no": 0.0745
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.1279,
+          "p_no": 0.1449
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0418,
+          "p_no": 0.2121
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0369,
+          "p_no": 0.1653
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0284,
+          "p_no": 0.1442
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0309,
+          "p_no": 0.1779
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.041,
+          "p_no": 0.1836
+        }
+      },
+      "ground_truth_construct": "Stimulation"
+    },
+    "item_31": {
+      "question_text": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0146,
+          "p_no": 0.1776
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0362,
+          "p_no": 0.1624
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0396,
+          "p_no": 0.1775
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0303,
+          "p_no": 0.1974
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0565,
+          "p_no": 0.1973
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0577,
+          "p_no": 0.1569
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.1015,
+          "p_no": 0.1303
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.028,
+          "p_no": 0.1423
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0809,
+          "p_no": 0.1712
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0499,
+          "p_no": 0.1538
+        }
+      },
+      "ground_truth_construct": "Security"
+    },
+    "item_32": {
+      "question_text": "Getting ahead in life is important to them. They strive to do better than others.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.079,
+          "p_no": 0.1476
+        },
+        "Achievement": {
+          "parsed": true,
+          "p_yes": 0.1336,
+          "p_no": 0.081
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0324,
+          "p_no": 0.1644
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0639,
+          "p_no": 0.1736
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0571,
+          "p_no": 0.1992
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0446,
+          "p_no": 0.2264
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0277,
+          "p_no": 0.2047
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0347,
+          "p_no": 0.1998
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0646,
+          "p_no": 0.2254
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0324,
+          "p_no": 0.1865
+        }
+      },
+      "ground_truth_construct": "Achievement"
+    },
+    "item_33": {
+      "question_text": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0132,
+          "p_no": 0.2062
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0117,
+          "p_no": 0.2358
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.011,
+          "p_no": 0.1728
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0178,
+          "p_no": 0.2457
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0208,
+          "p_no": 0.2538
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0661,
+          "p_no": 0.1586
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0897,
+          "p_no": 0.1305
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.021,
+          "p_no": 0.1755
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0575,
+          "p_no": 0.1771
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0515,
+          "p_no": 0.2035
+        }
+      },
+      "ground_truth_construct": "Benevolence"
+    },
+    "item_34": {
+      "question_text": "It is important to them to be independent. They like to rely on themselves.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0191,
+          "p_no": 0.141
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0262,
+          "p_no": 0.1035
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0149,
+          "p_no": 0.1243
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0319,
+          "p_no": 0.2354
+        },
+        "Self-Direction": {
+          "parsed": true,
+          "p_yes": 0.1307,
+          "p_no": 0.0545
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0327,
+          "p_no": 0.1879
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0209,
+          "p_no": 0.136
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0205,
+          "p_no": 0.1512
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0259,
+          "p_no": 0.1911
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0287,
+          "p_no": 0.1135
+        }
+      },
+      "ground_truth_construct": "Self-Direction"
+    },
+    "item_35": {
+      "question_text": "Having a stable government is important to them. They are concerned that the social order be protected.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0317,
+          "p_no": 0.1106
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0122,
+          "p_no": 0.1313
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0115,
+          "p_no": 0.203
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0173,
+          "p_no": 0.211
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0249,
+          "p_no": 0.184
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0254,
+          "p_no": 0.1655
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0479,
+          "p_no": 0.1673
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0729,
+          "p_no": 0.1061
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0922,
+          "p_no": 0.1342
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0985,
+          "p_no": 0.1116
+        }
+      },
+      "ground_truth_construct": "Security"
+    },
+    "item_36": {
+      "question_text": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0143,
+          "p_no": 0.1742
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.013,
+          "p_no": 0.1402
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0086,
+          "p_no": 0.1525
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0212,
+          "p_no": 0.2016
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.017,
+          "p_no": 0.2073
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0685,
+          "p_no": 0.145
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0859,
+          "p_no": 0.0973
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0355,
+          "p_no": 0.124
+        },
+        "Conformity": {
+          "parsed": true,
+          "p_yes": 0.1138,
+          "p_no": 0.0782
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0487,
+          "p_no": 0.1501
+        }
+      },
+      "ground_truth_construct": "Conformity"
+    },
+    "item_37": {
+      "question_text": "They really want to enjoy life. Having a good time is very important to them.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0275,
+          "p_no": 0.2306
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.014,
+          "p_no": 0.1703
+        },
+        "Hedonism": {
+          "parsed": true,
+          "p_yes": 0.1054,
+          "p_no": 0.0821
+        },
+        "Stimulation": {
+          "parsed": true,
+          "p_yes": 0.1312,
+          "p_no": 0.1158
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0576,
+          "p_no": 0.1566
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0596,
+          "p_no": 0.1621
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.065,
+          "p_no": 0.1376
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0317,
+          "p_no": 0.2065
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0406,
+          "p_no": 0.2064
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.044,
+          "p_no": 0.1739
+        }
+      },
+      "ground_truth_construct": "Hedonism"
+    },
+    "item_38": {
+      "question_text": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0188,
+          "p_no": 0.1574
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.023,
+          "p_no": 0.1501
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0144,
+          "p_no": 0.1994
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0168,
+          "p_no": 0.1801
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.033,
+          "p_no": 0.2149
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0372,
+          "p_no": 0.13
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0486,
+          "p_no": 0.132
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0364,
+          "p_no": 0.1439
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.093,
+          "p_no": 0.1054
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0314,
+          "p_no": 0.1408
+        }
+      },
+      "ground_truth_construct": "Tradition"
+    },
+    "item_39": {
+      "question_text": "They always want to be the one who makes the decisions. They like to be the leader.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.0706,
+          "p_no": 0.08
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0239,
+          "p_no": 0.1559
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.013,
+          "p_no": 0.1588
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0293,
+          "p_no": 0.191
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0465,
+          "p_no": 0.1431
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0303,
+          "p_no": 0.1745
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0156,
+          "p_no": 0.1483
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0213,
+          "p_no": 0.1387
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0294,
+          "p_no": 0.1919
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0276,
+          "p_no": 0.1591
+        }
+      },
+      "ground_truth_construct": "Power"
+    },
+    "item_40": {
+      "question_text": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+      "predictions": {
+        "Power": {
+          "parsed": false,
+          "p_yes": 0.014,
+          "p_no": 0.1328
+        },
+        "Achievement": {
+          "parsed": false,
+          "p_yes": 0.0102,
+          "p_no": 0.1407
+        },
+        "Hedonism": {
+          "parsed": false,
+          "p_yes": 0.0213,
+          "p_no": 0.2286
+        },
+        "Stimulation": {
+          "parsed": false,
+          "p_yes": 0.0208,
+          "p_no": 0.1746
+        },
+        "Self-Direction": {
+          "parsed": false,
+          "p_yes": 0.0497,
+          "p_no": 0.1966
+        },
+        "Universalism": {
+          "parsed": false,
+          "p_yes": 0.0813,
+          "p_no": 0.1182
+        },
+        "Benevolence": {
+          "parsed": false,
+          "p_yes": 0.0485,
+          "p_no": 0.1693
+        },
+        "Tradition": {
+          "parsed": false,
+          "p_yes": 0.0729,
+          "p_no": 0.1202
+        },
+        "Conformity": {
+          "parsed": false,
+          "p_yes": 0.0555,
+          "p_no": 0.1175
+        },
+        "Security": {
+          "parsed": false,
+          "p_yes": 0.0497,
+          "p_no": 0.153
+        }
+      },
+      "ground_truth_construct": "Universalism"
+    }
+  }
+}

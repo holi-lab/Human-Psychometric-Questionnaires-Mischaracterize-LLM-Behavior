@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-07-08T17:04:05.375590+00:00",
+  "score_field": "normalized_logprob",
+  "corr_threshold": 0.3,
+  "source_dir": "results/RQ1/ecological",
+  "models": {
+    "Qwen2.5-72B-Instruct": {
+      "n_valid_scenarios": 104
+    },
+    "Qwen2.5-7B-Instruct": {
+      "n_valid_scenarios": 104
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "n_valid_scenarios": 104
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "n_valid_scenarios": 104
+    },
+    "gemma-3-27b-it": {
+      "n_valid_scenarios": 104
+    },
+    "gemma-3-4b-it": {
+      "n_valid_scenarios": 104
+    },
+    "gpt-oss-120b": {
+      "n_valid_scenarios": 104
+    },
+    "gpt-oss-20b": {
+      "n_valid_scenarios": 104
+    }
+  }
+}

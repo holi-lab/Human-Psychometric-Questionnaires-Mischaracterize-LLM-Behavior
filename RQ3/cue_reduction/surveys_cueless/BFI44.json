@@ -1,0 +1,310 @@
+{
+  "1": {
+    "en_neutral": "keeps a conversation going long after others have run out of things to say.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "normal"
+    }
+  },
+  "2": {
+    "en_neutral": "usually notices what a colleague got wrong before noticing what they got right.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "reverse"
+    }
+  },
+  "3": {
+    "en_neutral": "reads a document down to the last page before signing off on it.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "normal"
+    }
+  },
+  "4": {
+    "en_neutral": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "normal"
+    }
+  },
+  "5": {
+    "en_neutral": "suggests approaches in meetings that nobody else at the table had thought of.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "6": {
+    "en_neutral": "lets others do most of the talking at gatherings.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "reverse"
+    }
+  },
+  "7": {
+    "en_neutral": "gives up a free weekend to move a friend's furniture without being asked twice.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "normal"
+    }
+  },
+  "8": {
+    "en_neutral": "sometimes sends the email before noticing the attachment is missing.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "reverse"
+    }
+  },
+  "9": {
+    "en_neutral": "sleeps soundly the night before a big exam or presentation.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "reverse"
+    }
+  },
+  "10": {
+    "en_neutral": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "11": {
+    "en_neutral": "is still going strong when the rest of the group is ready to head home.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "normal"
+    }
+  },
+  "12": {
+    "en_neutral": "turns small disagreements over dinner into raised voices.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "reverse"
+    }
+  },
+  "13": {
+    "en_neutral": "delivers what was promised on the day it was promised.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "normal"
+    }
+  },
+  "14": {
+    "en_neutral": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "normal"
+    }
+  },
+  "15": {
+    "en_neutral": "keeps turning a question over long after everyone else has settled for the easy answer.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "16": {
+    "en_neutral": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "normal"
+    }
+  },
+  "17": {
+    "en_neutral": "meets a friend for coffee a week after that friend let them down badly.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "normal"
+    }
+  },
+  "18": {
+    "en_neutral": "hunts for keys, chargers, and paperwork nearly every morning.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "reverse"
+    }
+  },
+  "19": {
+    "en_neutral": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "normal"
+    }
+  },
+  "20": {
+    "en_neutral": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "21": {
+    "en_neutral": "can share a long car ride without feeling any need to fill the silence.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "reverse"
+    }
+  },
+  "22": {
+    "en_neutral": "takes people's stories at face value unless given a clear reason not to.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "normal"
+    }
+  },
+  "23": {
+    "en_neutral": "leaves the laundry until there is nothing left to wear.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "reverse"
+    }
+  },
+  "24": {
+    "en_neutral": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "reverse"
+    }
+  },
+  "25": {
+    "en_neutral": "rigs a working fix out of spare parts when the proper tool is missing.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "26": {
+    "en_neutral": "says plainly at the table what they want and where they stand.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "normal"
+    }
+  },
+  "27": {
+    "en_neutral": "answers a coworker's warm greeting with a short nod and keeps walking.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "reverse"
+    }
+  },
+  "28": {
+    "en_neutral": "stays at the desk until the last box on the list is ticked, even past midnight.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "normal"
+    }
+  },
+  "29": {
+    "en_neutral": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "normal"
+    }
+  },
+  "30": {
+    "en_neutral": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "31": {
+    "en_neutral": "rehearses a sentence twice before saying it to a stranger at a party.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "reverse"
+    }
+  },
+  "32": {
+    "en_neutral": "remembers the doorman's name and asks how his daughter's exams went.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "normal"
+    }
+  },
+  "33": {
+    "en_neutral": "clears in one afternoon what takes others most of a week.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "normal"
+    }
+  },
+  "34": {
+    "en_neutral": "was the one giving directions when the fire alarm went off.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "reverse"
+    }
+  },
+  "35": {
+    "en_neutral": "is happiest when today's tasks look exactly like yesterday's.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "reverse"
+    }
+  },
+  "36": {
+    "en_neutral": "leaves a party with three new phone numbers.",
+    "meta_data": {
+      "trait": "Extraversion",
+      "scoring": "normal"
+    }
+  },
+  "37": {
+    "en_neutral": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "reverse"
+    }
+  },
+  "38": {
+    "en_neutral": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "normal"
+    }
+  },
+  "39": {
+    "en_neutral": "feels their heart race when the phone rings from an unknown number.",
+    "meta_data": {
+      "trait": "Neuroticism",
+      "scoring": "normal"
+    }
+  },
+  "40": {
+    "en_neutral": "can chew on a hypothetical question for the length of a dinner.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  },
+  "41": {
+    "en_neutral": "walks past the gallery to get to the food court.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "reverse"
+    }
+  },
+  "42": {
+    "en_neutral": "would rather split the work and share the credit than keep both to themselves.",
+    "meta_data": {
+      "trait": "Agreeableness",
+      "scoring": "normal"
+    }
+  },
+  "43": {
+    "en_neutral": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+    "meta_data": {
+      "trait": "Conscientiousness",
+      "scoring": "reverse"
+    }
+  },
+  "44": {
+    "en_neutral": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+    "meta_data": {
+      "trait": "Openness",
+      "scoring": "normal"
+    }
+  }
+}

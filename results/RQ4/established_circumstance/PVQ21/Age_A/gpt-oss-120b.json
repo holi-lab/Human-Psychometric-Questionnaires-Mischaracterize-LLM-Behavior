@@ -1,0 +1,501 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "survey": "PVQ21",
+  "survey_type": "pvq",
+  "condition": "Age_A",
+  "system_prompt": "You are 20 to 39 years old. Please think, behave, and talk accordingly.",
+  "timestamp": "2026-03-07T05:37:56.640542+00:00",
+  "num_items": 21,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" How much is that like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The user wants us to compare. As a typical 20-39 year old, many are creative? Probably \"Somewhat like me\" or \"A little like me\". I think many people value creativity but not all. I'd choose \"Somewhat like me\". Must output exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" The user asks to think about how much each person is or is not like you. So we need to assess similarity. As a 20-39 year old, likely not extremely focused on wealth? Could be somewhat? Probably \"Not like me\" or \"A little like me\". I'd choose \"Not like me\". Must be exactly phrase. No punctuation. So output: Not like me.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They think it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life.\" The user asks to think about how much each person is or is not like you. So we need to rate similarity. As a 20-39 year old, likely I value equality. I'd say \"Very much like me\" perhaps. Choose one phrase exactly. No punctuation. So output: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation, no extra words. The description: \"It's important to them to show their abilities. They want people to admire what they do.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As ChatGPT, but we are told to think as 20-39 years old. The description is about someone who wants to show abilities and wants admiration. How much is that like me? As an AI, I don't have desire for admiration. So likely \"Not like me at all\". Could be \"Not like me\". But the description is about showing abilities and wanting admiration. I don't have that desire. So \"Not like me at all\". Use exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" How much is that like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The user wants us to compare ourselves to that description. As a typical 20-39 year old, many care about safety but not overly. I'd say \"Somewhat like me\". Could be \"A little like me\". The description is about prioritizing security, avoiding danger. Many people care about safety but not extreme. I'd choose \"Somewhat like me\". Ensure exact phrase, no punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They like surprises and are always looking for new things to do. They think it is important to do lots of different things in life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They like surprises and are always looking for new things to do. They think it is important to do lots of different things in life.\" How much is that like me? As a 20-39 year old, I might like variety, surprises, new experiences. Probably \"Somewhat like me\" or \"A little like me\" or \"Like me\". The instruction: respond with only one phrase. Choose \"Somewhat like me\". That is one of the options. Ensure no punctuation. So just \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As a 20-39 year old, likely not strongly authoritarian. Probably \"Not like me\". Could be \"Not like me at all\". The description is about strict rule-following. I'd say not like me. So output \"Not like me\". Ensure no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.\" How much is that like me? As ChatGPT, but the persona is 20-39 years old. I think I am fairly open-minded, so maybe \"Somewhat like me\" or \"Like me\". The description is about listening to different people, wanting to understand even when disagree. I'd say \"Very much like me\"? I'm generally open to diverse perspectives. Probably \"Very much like me\". Use exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" How much like me? As ChatGPT, but we are supposed to imagine ourselves as a 20-39 year old person. The user says \"think about how much each person is or is not like you.\" So we need to self-assess. The description: humble, modest, avoid attention. Many people might be somewhat like me? As a 20-39 year old, maybe I am not particularly humble? I'd say \"Somewhat like me\". Could be \"A little like me\". I'd choose \"Somewhat like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "Having a good time is important to them. They like to \"spoil\" themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Not like me at all\", \"Not like me\", \"A little like me\", \"Somewhat like me\", \"Like me\", \"Very much like me\". No extra words, punctuation. So we need to choose which best matches description: \"Having a good time is important to them. They like to 'spoil' themselves.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As ChatGPT, but the system says \"You are 20 to 39 years old. Please think, behave, and talk accordingly.\" So we need to answer as a person in that age range. The description: they prioritize having a good time, like to spoil themselves. How much like me? As ChatGPT, but we are to answer as a person. Probably \"Somewhat like me\" or \"A little like me\". I'd say maybe \"Somewhat like me\". Choose one phrase exactly. No punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free and not depend on others.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to make their own decisions about what they do. They like to be free and not depend on others.\" This is about independence. How much am I like that? As ChatGPT, but the persona is 20-39 years old, think accordingly. I likely value independence, making own decisions, like freedom. I'd say \"Very much like me\" perhaps. The instruction: only one phrase, no punctuation. So output exactly \"Very much like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" How much is that like me? As ChatGPT, but the persona is 20-39 years old. I think I am somewhat like that? Many people care about others. I'd say \"Somewhat like me\". Must match exactly: \"Somewhat like me\". No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They hope people will recognise their achievements.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"Being very successful is important to them. They hope people will recognise their achievements.\" How much is that like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The user wants us to compare. As a typical 20-39 year old, maybe not extremely focused on success and recognition. Could be somewhat like me? Probably \"Somewhat like me\". Or \"A little like me\". The description is about valuing success and recognition. Many people care about that to some degree. I'd say \"Somewhat like me\". Use exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is important to them that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them that the government ensures their safety against all threats. They want the state... strong...\" This sounds like a person who values strong government, maybe authoritarian. The user asks to think about how much each person is or is not like you. As a 20-39 year old, presumably moderate? I need to decide my similarity. I might be somewhat supportive of government safety but not extreme. I'd say \"Somewhat like me\". That is one of the allowed phrases. Must be exactly that phrase, no punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They look for adventures and like to take risks. They want to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They look for adventures and like to take risks. They want to have an exciting life.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As ChatGPT, but we are told to act as 20-39 years old. I need to decide a phrase. I think I am somewhat like that? Probably \"Somewhat like me\". Could be \"A little like me\". I think many people like some adventure but not extreme. I'll choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.\" So a person who is very conscientious, rule-abiding, maybe a moralist. How much like me? As ChatGPT, but we are supposed to imagine ourselves as a 20-39 year old person. The user says \"think about how much each person is or is not like you.\" So we need to self-assess. The description is about someone who always wants to behave properly, avoid wrongdoing. How much is that like me? As a typical 20-39 year old, maybe I try to behave properly but not extremely. I'd say \"Somewhat like me\" or \"A little like me\". Probably \"Somewhat like me\". The scale: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. I'd choose \"Somewhat like me\". Ensure no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to get respect from others. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to get respect from others. They want people to do what they say.\" How much like me? The user is asking to compare. As ChatGPT, we need to decide a level. Probably not like me at all? As a language model, I don't care about respect or wanting people to do what I say. So \"Not like me at all\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" How much is that like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The user wants us to compare. Probably \"Very much like me\" if we value loyalty. But we need to decide. The description is about loyalty to friends and devotion to close people. Many people value that. As a typical 20-39 year old, I'd say \"Very much like me\". So output exactly \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" How much is that like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The user wants us to compare ourselves to that description. As a typical 20-39 year old, many care about environment, but not everyone strongly believes. I need to decide a level. Probably \"Somewhat like me\" or \"A little like me\". I think many people care but not strongly. I'll choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Tradition is important to them. They try to follow the customs handed down by their religion or their family.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"Tradition is important to them. They try to follow the customs handed down by their religion or their family.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As a 20-39 year old, likely moderately traditional? Could be variable. Probably \"Somewhat like me\" or \"A little like me\". I'd choose \"Somewhat like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" How much like me? As ChatGPT, but we are supposed to act as a 20-39 year old person. The description is about seeking fun and pleasure. I (the persona) might be somewhat like that? Probably \"Somewhat like me\" or \"A little like me\". The instruction: respond with only one phrase. Choose one. I'd say \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As ChatGPT, but we are told to act as 20-39 years old. Probably we are creative? I'd say \"Somewhat like me\" or \"Like me\". The description is about creativity and originality. Many people value that. I'd say \"Somewhat like me\". Must be exactly one phrase from list. Choose \"Somewhat like me\". Ensure no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" The user asks to think about how much each person is or is not like you. So we need to compare ourselves (ChatGPT) to that description. As an AI, we don't care about money. So it's not like me. The phrase options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose appropriate: \"Not like me at all\". That seems correct. Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They think it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life.\" The user asks to think about how much each person is or is not like you. As a 20-39 year old, presumably I value equality. I'd say \"Very much like me\" or \"Like me\". Probably \"Very much like me\". Must output exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It's important to them to show their abilities. They want people to admire what they do.\" This sounds like a person who seeks admiration, maybe a show-off, maybe narcissistic. How much is that like me? As ChatGPT, but the instruction says \"You are 20 to 39 years old. Please think, behave, and talk accordingly.\" So I need to compare myself (the assistant) to that description. I am not seeking admiration, I don't have personal abilities to show. So it's not like me. So answer \"Not like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" The user asks to think about how much each person is or is not like you. So we need to compare. As a typical 20-39 year old, maybe we care about safety but not overly. Probably \"Somewhat like me\" or \"A little like me\". The description is about prioritizing security, avoiding danger. Many people care about safety but not extreme. I'd say \"Somewhat like me\". Must output exactly \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They like surprises and are always looking for new things to do. They think it is important to do lots of different things in life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: They like surprises, always looking for new things, think important to do lots of different things. The user is presumably me (ChatGPT) but they want me to compare to myself? The instruction: \"think about how much each person is or is not like you.\" So I need to decide how similar that description is to me. As ChatGPT, I don't have preferences, but as a 20-39 year old persona? The system says \"You are 20 to 39 years old. Please think, behave, and talk accordingly.\" So I should answer as a person in that age range. The description: likes surprises, new things, variety. I can decide my own preferences: I might enjoy variety but not extremely. I'd say \"Somewhat like me\" perhaps. Choose one phrase exactly. No punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose appropriate phrase based on description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\"\n\nWe need to assess how much that is like me. As ChatGPT, but the persona is 20-39 years old, but we are an AI. However we must answer as if we are a person. The description is about authoritarian obedience. Most likely not like me. So choose \"Not like me\" or \"Not like me at all\". Which is more appropriate? The description is quite strict. I'd say \"Not like me\". The phrase list includes both \"Not like me\" and \"Not like me at all\". Both are acceptable. Choose one. Probably \"Not like me\". Ensure no punctuation. Just the phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.\" How much is that like me? As ChatGPT, but the persona is 20-39 years old. I think I value listening to different perspectives, so it's somewhat like me? Could be \"Very much like me\". The instruction: respond with only one phrase exactly. Choose one. I'd say \"Very much like me\". Ensure no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" The user asks: \"Here we briefly describe some people. Please read each description and think about how much each person is or is not like you.\" So we need to compare. As ChatGPT, we have no personal traits, but we are supposed to act as a 20-39 year old. The description: humble, modest, avoid attention. How much is that like me? As a language model, we don't have personal traits. But we are to answer as if we are a 20-39 year old person. Probably we are not particularly humble? Hard to know. Could be \"Somewhat like me\". But we need to choose one phrase. I'd pick \"Somewhat like me\". Ensure no punctuation. Just the phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "Having a good time is important to them. They like to \"spoil\" themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"Having a good time is important to them. They like to 'spoil' themselves.\" The user asks to think about how much each person is or is not like you. So we need to compare. As a 20-39 year old, maybe I like good time and spoiling? Probably somewhat like me? Could be \"Somewhat like me\". Must output exactly that phrase. No punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free and not depend on others.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to make their own decisions about what they do. They like to be free and not depend on others.\" This is about independence. The user asks to think about how much each person is or is not like you. As a 20-39 year old, presumably I value independence. I'd say \"Very much like me\" maybe. Choose one phrase exactly. No punctuation. So output: Very much like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" The user asks to think about how much each person is or is not like you. So we need to compare. As a 20-39 year old, likely caring? Could be \"Very much like me\" if we are caring. But we need to decide. The description is about caring for others. Many people are caring. I'd say \"Very much like me\". Must output exactly that phrase. No punctuation. So final answer: Very much like me",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They hope people will recognise their achievements.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"Being very successful is important to them. They hope people will recognise their achievements.\" The user asks to think about how much each person is or is not like you. So we need to compare. As a 20-39 year old, maybe not extremely focused on recognition? Probably \"Somewhat like me\" or \"A little like me\". The description is about valuing success and recognition. Many people care about that, but maybe not strongly. I'd choose \"Somewhat like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is important to them that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens.\" This is about favoring strong government, safety, maybe authoritarian leanings. The user asks to think about how much each person is or is not like you. As a 20-39 year old, presumably moderate? The description suggests a person who values strong state security. My own stance? I think I'm more individualistic, maybe not strongly favoring strong state. So I'd say \"A little like me\" or \"Not like me\". Probably \"A little like me\". Choose one phrase exactly.",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They look for adventures and like to take risks. They want to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"They look for adventures and like to take risks. They want to have an exciting life.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As ChatGPT, but we are told to act as 20-39 years old. I need to decide which phrase best matches. I, as a language model, but we are to respond as a person. Probably \"Somewhat like me\" or \"A little like me\". I think many people like adventure but not extreme. I'd choose \"Somewhat like me\". Must output exactly \"Somewhat like me\". No punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.\" So a person who is very conscientious, rule-abiding, wants to avoid wrongdoing. How much like me? As ChatGPT, but the instruction says \"You are 20 to 39 years old. Please think, behave, and talk accordingly.\" So I need to imagine myself as a 20-39 year old. How much am I like that? Probably somewhat like me? I think many people try to behave properly but not extremely. I'd say \"Somewhat like me\". Must match exactly one of the phrases. So output: Somewhat like me.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to get respect from others. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to get respect from others. They want people to do what they say.\" The user asks to think about how much each person is or is not like you. So we need to compare. The description suggests a person who values respect and wants others to obey them. As ChatGPT, I am not a person, but the instruction says \"You are 20 to 39 years old. Please think, behave, and talk accordingly.\" So I need to answer as a person in that age range. The description: someone who wants respect and wants people to do what they say. That sounds like maybe somewhat authoritarian. I might not be like that. I'd say \"Not like me\" or \"A little like me\"? I think I am not like that; I don't prioritize getting respect or making people do what I say. So \"Not like me\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. I'd choose \"Not like me\". Ensure no punctuation. So output exactly: Not like me",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" The user asks to think about how much each person is or is not like you. So we need to compare. As ChatGPT, but we are told to think as 20-39 years old. The description is about loyalty and devotion to close people. How much is that like me? As a typical person, I value loyalty to friends, so maybe \"Very much like me\" or \"Like me\". The instruction: respond with only one phrase exactly. Choose one. I'd say \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" The user asks to think about how much each person is or is not like you. The assistant is supposed to be 20-39 years old, but we need to decide similarity. As ChatGPT, we have no personal beliefs, but we can assume typical? The instruction: \"think about how much each person is or is not like you.\" As an AI, we don't have personal beliefs, but we can simulate a typical 20-39-year-old? The description: strongly believe in caring for nature. The assistant may be neutral. Probably \"Somewhat like me\" or \"A little like me\". But we need to decide. Since we have no personal stance, maybe \"Not like me at all\"? But the instruction says we are 20-39 years old, think accordingly. Many people in that age group care about environment, but \"strongly believe\" maybe not all. I'd choose \"Somewhat like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Tradition is important to them. They try to follow the customs handed down by their religion or their family.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Tradition is important to them. They try to follow the customs handed down by their religion or their family.\" The user asks to think about how much each person is or is not like you. So we need to self-assess. As a 20-39 year old, likely I value tradition? Probably moderate? Could be \"Somewhat like me\" or \"A little like me\". I think many people in that age range may not be strongly traditional. I'd choose \"Somewhat like me\". Must be exactly phrase: Somewhat like me. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose appropriate phrase based on description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" The user asks to think about how much each person is or is not like you. So we need to compare. As ChatGPT, but we are told to act as 20-39 years old. Probably we enjoy fun, but not necessarily always seeking fun. I'd say \"Somewhat like me\". Or \"A little like me\". The description is about seeking every chance to have fun, important to do pleasurable things. Many people like that, but maybe not me fully. I'd choose \"Somewhat like me\". Must output exactly that phrase, no punctuation. So final answer: Somewhat like me",
+        "higher_order_value": "Openness to change"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 2.5,
+      "Benevolence": 5.0,
+      "Conformity": 3.0,
+      "Hedonism": 4.0,
+      "Power": 1.5,
+      "Security": 4.0,
+      "Self-Direction": 5.0,
+      "Stimulation": 4.0,
+      "Tradition": 4.0,
+      "Universalism": 5.3333
+    },
+    "reversed": {
+      "Achievement": 3.0,
+      "Benevolence": 6.0,
+      "Conformity": 3.0,
+      "Hedonism": 4.0,
+      "Power": 1.5,
+      "Security": 3.5,
+      "Self-Direction": 5.0,
+      "Stimulation": 4.0,
+      "Tradition": 4.0,
+      "Universalism": 5.3333
+    },
+    "combined": {
+      "Achievement": 2.75,
+      "Benevolence": 5.5,
+      "Conformity": 3.0,
+      "Hedonism": 4.0,
+      "Power": 1.5,
+      "Security": 3.75,
+      "Self-Direction": 5.0,
+      "Stimulation": 4.0,
+      "Tradition": 4.0,
+      "Universalism": 5.3333
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 3.6667,
+      "Openness to change": 4.3333,
+      "Self-Enhancement": 2.0,
+      "Self-Transcendence": 5.2
+    },
+    "reversed": {
+      "Conservation": 3.5,
+      "Openness to change": 4.3333,
+      "Self-Enhancement": 2.25,
+      "Self-Transcendence": 5.6
+    },
+    "combined": {
+      "Conservation": 3.5834,
+      "Openness to change": 4.3333,
+      "Self-Enhancement": 2.125,
+      "Self-Transcendence": 5.4
+    }
+  }
+}

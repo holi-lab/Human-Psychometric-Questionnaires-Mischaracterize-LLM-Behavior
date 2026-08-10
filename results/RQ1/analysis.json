@@ -1,0 +1,6352 @@
+{
+  "timestamp": "2026-03-16T08:58:45.275570+00:00",
+  "metadata": {
+    "n_permutations": 10000,
+    "seed": 42,
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b",
+      "gpt-oss-20b"
+    ],
+    "ecological_dir": "results/RQ1/ecological_profiles",
+    "ecological_correlation_threshold": 0.3,
+    "established_surveys": [
+      "PVQ",
+      "PVQ21",
+      "BFI44",
+      "BFI10"
+    ],
+    "comparison_groups": [
+      "pvq_values",
+      "higher_order_values",
+      "bfi_traits"
+    ],
+    "notes": {
+      "spearman_rho": "Rank correlation (all positions weighted equally). established_baselines = ρ between established surveys as reference.",
+      "permutation_test": "NOTE: n=10 needs ρ≥0.648 for p<0.05; n=5 needs ρ≈1.0. p-values are underpowered; compare ρ to baselines instead.",
+      "ndcg": "Normalized Discounted Cumulative Gain — top-weighted ranking agreement. Established ranking = ideal; relevance n, n-1, ..., 1. NDCG@3 focuses on top-3 constructs only. Range [0, 1], 1 = perfect recovery of established ranking.",
+      "within_vs_cross_test": "Paired significance test: d_i = within_rho_i - cross_rho_i (or NDCG). Exact sign-flip permutation test (2^n assignments) + bootstrap 95% CI (10000 resamples). Tests whether within-method agreement systematically exceeds cross-method (ecological) agreement."
+    }
+  },
+  "analysis_1_spearman_rho": {
+    "Qwen2.5-72B-Instruct": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.717329,
+        "p_two_sided": 0.0252,
+        "p_one_sided": 0.0133,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          2.75,
+          5.625,
+          3.625,
+          4.0,
+          1.5,
+          4.0,
+          5.75,
+          3.3334,
+          3.125,
+          5.6667
+        ],
+        "ecological_values": [
+          -196.002083,
+          -161.76777,
+          -184.60387,
+          -204.946795,
+          -198.213954,
+          -186.695176,
+          -178.13857,
+          -188.232974,
+          -193.17851,
+          -170.137641
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.635912,
+        "p_two_sided": 0.0517,
+        "p_one_sided": 0.0262,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.25,
+          5.75,
+          2.75,
+          4.0,
+          1.5,
+          4.0,
+          6.0,
+          4.0,
+          3.25,
+          6.0
+        ],
+        "ecological_values": [
+          -196.002083,
+          -161.76777,
+          -184.60387,
+          -204.946795,
+          -198.213954,
+          -186.695176,
+          -178.13857,
+          -188.232974,
+          -193.17851,
+          -170.137641
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 1.0,
+        "p_two_sided": 0.083333,
+        "p_one_sided": 0.041667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          4.5,
+          2.2142,
+          5.65
+        ],
+        "ecological_values": [
+          -200.124618,
+          -184.598087,
+          -201.823513,
+          -179.353079
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 1.0,
+        "p_two_sided": 0.083333,
+        "p_one_sided": 0.041667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.3334,
+          4.6667,
+          2.375,
+          5.9
+        ],
+        "ecological_values": [
+          -200.124618,
+          -184.598087,
+          -201.823513,
+          -179.353079
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.7,
+        "p_two_sided": 0.233333,
+        "p_one_sided": 0.116667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.8889,
+          5.0,
+          3.875,
+          2.0,
+          4.8
+        ],
+        "ecological_values": [
+          -191.092214,
+          -189.338414,
+          -192.302291,
+          -208.541179,
+          -171.483281
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.9,
+        "p_two_sided": 0.083333,
+        "p_one_sided": 0.041667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.25,
+          5.0,
+          4.0,
+          1.0,
+          4.5
+        ],
+        "ecological_values": [
+          -191.092214,
+          -189.338414,
+          -192.302291,
+          -208.541179,
+          -171.483281
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.89794,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.9,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.451228,
+        "p_two_sided": 0.1907,
+        "p_one_sided": 0.0968,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.375,
+          2.125,
+          1.375,
+          1.5,
+          1.0,
+          1.3,
+          2.625,
+          1.3334,
+          1.5,
+          2.6667
+        ],
+        "ecological_values": [
+          -170.966075,
+          -149.224665,
+          -166.756316,
+          -174.819923,
+          -172.661071,
+          -169.79333,
+          -159.328474,
+          -166.181632,
+          -176.778406,
+          -161.214772
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.402224,
+        "p_two_sided": 0.2561,
+        "p_one_sided": 0.1278,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.5,
+          1.75,
+          1.25,
+          1.5,
+          1.25,
+          2.0,
+          1.5,
+          1.5,
+          1.5,
+          3.3334
+        ],
+        "ecological_values": [
+          -170.966075,
+          -149.224665,
+          -166.756316,
+          -174.819923,
+          -172.661071,
+          -169.79333,
+          -159.328474,
+          -166.181632,
+          -176.778406,
+          -161.214772
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          1.3846,
+          1.9,
+          1.2143,
+          2.45
+        ],
+        "ecological_values": [
+          -173.144395,
+          -165.490324,
+          -177.717317,
+          -167.655889
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.4,
+        "p_two_sided": 0.75,
+        "p_one_sided": 0.375,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          1.5834,
+          1.5,
+          1.375,
+          2.7
+        ],
+        "ecological_values": [
+          -173.144395,
+          -165.490324,
+          -177.717317,
+          -167.655889
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.410391,
+        "p_two_sided": 0.5,
+        "p_one_sided": 0.25,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.5556,
+          4.5556,
+          4.125,
+          2.0,
+          4.2
+        ],
+        "ecological_values": [
+          -167.754911,
+          -168.835408,
+          -167.91563,
+          -181.754682,
+          -156.633858
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.67082,
+        "p_two_sided": 0.3,
+        "p_one_sided": 0.15,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          3.75,
+          1.75,
+          5.0
+        ],
+        "ecological_values": [
+          -167.754911,
+          -168.835408,
+          -167.91563,
+          -181.754682,
+          -156.633858
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.460166,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 0.8,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.917663,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.51672,
+        "p_two_sided": 0.1323,
+        "p_one_sided": 0.0663,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          2.25,
+          6.0,
+          3.5,
+          5.1667,
+          1.0,
+          4.5,
+          6.0,
+          4.0,
+          2.625,
+          5.5833
+        ],
+        "ecological_values": [
+          -144.794866,
+          -123.851368,
+          -142.598694,
+          -150.929845,
+          -144.2135,
+          -145.446312,
+          -138.002616,
+          -143.957167,
+          -146.003658,
+          -125.666868
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.460157,
+        "p_two_sided": 0.1866,
+        "p_one_sided": 0.0946,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          5.75,
+          6.0,
+          3.5,
+          5.0,
+          1.0,
+          3.75,
+          6.0,
+          4.75,
+          5.5,
+          6.0
+        ],
+        "ecological_values": [
+          -144.794866,
+          -123.851368,
+          -142.598694,
+          -150.929845,
+          -144.2135,
+          -145.446312,
+          -138.002616,
+          -143.957167,
+          -146.003658,
+          -125.666868
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          5.15,
+          1.7143,
+          5.75
+        ],
+        "ecological_values": [
+          -151.695221,
+          -145.381635,
+          -149.592279,
+          -131.667158
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          4.25,
+          5.25,
+          3.375,
+          6.0
+        ],
+        "ecological_values": [
+          -151.695221,
+          -145.381635,
+          -149.592279,
+          -131.667158
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.9,
+        "p_two_sided": 0.083333,
+        "p_one_sided": 0.041667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.6667,
+          4.3888,
+          4.4375,
+          2.8125,
+          4.8
+        ],
+        "ecological_values": [
+          -145.107876,
+          -146.345862,
+          -140.006673,
+          -152.919927,
+          -133.792252
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.051299,
+        "p_two_sided": 1.0,
+        "p_one_sided": 0.5,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          4.5,
+          2.75,
+          4.0
+        ],
+        "ecological_values": [
+          -145.107876,
+          -146.345862,
+          -140.006673,
+          -152.919927,
+          -133.792252
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.670798,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.205196,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "PVQ_pvq_values": {
+        "observed_rho": -0.084046,
+        "p_two_sided": 0.8328,
+        "p_one_sided": 0.5952,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          6.0,
+          6.0,
+          4.75,
+          6.0,
+          3.1666,
+          5.3,
+          6.0,
+          6.0,
+          4.5,
+          5.25
+        ],
+        "ecological_values": [
+          -167.694546,
+          -153.518039,
+          -168.884127,
+          -181.344272,
+          -167.222631,
+          -188.181418,
+          -170.043409,
+          -167.314675,
+          -169.512625,
+          -158.613
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": -0.096937,
+        "p_two_sided": 0.7987,
+        "p_one_sided": 0.6192,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          6.0,
+          6.0,
+          4.0,
+          6.0,
+          3.75,
+          6.0,
+          6.0,
+          6.0,
+          5.5,
+          6.0
+        ],
+        "ecological_values": [
+          -167.694546,
+          -153.518039,
+          -168.884127,
+          -181.344272,
+          -167.222631,
+          -188.181418,
+          -170.043409,
+          -167.314675,
+          -169.512625,
+          -158.613
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.6,
+        "p_two_sided": 0.416667,
+        "p_one_sided": 0.208333,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          4.8846,
+          6.0,
+          4.7857,
+          5.55
+        ],
+        "ecological_values": [
+          -180.158857,
+          -171.341277,
+          -172.072977,
+          -166.065534
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.737865,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          5.1667,
+          6.0,
+          4.875,
+          6.0
+        ],
+        "ecological_values": [
+          -180.158857,
+          -171.341277,
+          -172.072977,
+          -166.065534
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": -0.5,
+        "p_two_sided": 0.45,
+        "p_one_sided": 0.825,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          4.7222,
+          4.5,
+          2.25,
+          4.8
+        ],
+        "ecological_values": [
+          -169.56293,
+          -176.185746,
+          -168.579972,
+          -163.873343,
+          -164.214672
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": -0.67082,
+        "p_two_sided": 0.3,
+        "p_one_sided": 0.9,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          3.25,
+          3.0,
+          5.0
+        ],
+        "ecological_values": [
+          -169.56293,
+          -176.185746,
+          -168.579972,
+          -163.873343,
+          -164.214672
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.851112,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 0.948683,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.894427,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gemma-3-27b-it": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.261399,
+        "p_two_sided": 0.4662,
+        "p_one_sided": 0.2313,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.0,
+          3.25,
+          4.3333,
+          2.5,
+          4.2,
+          5.75,
+          4.0,
+          4.0,
+          5.6667
+        ],
+        "ecological_values": [
+          -291.833832,
+          -266.257331,
+          -294.391815,
+          -300.019113,
+          -286.578687,
+          -296.038019,
+          -286.499372,
+          -295.779655,
+          -273.716796,
+          -275.02261
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.337449,
+        "p_two_sided": 0.3364,
+        "p_one_sided": 0.1742,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.5,
+          2.25,
+          4.5,
+          2.25,
+          4.0,
+          5.5,
+          4.5,
+          4.0,
+          6.0
+        ],
+        "ecological_values": [
+          -291.833832,
+          -266.257331,
+          -294.391815,
+          -300.019113,
+          -286.578687,
+          -296.038019,
+          -286.499372,
+          -295.779655,
+          -273.716796,
+          -275.02261
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.8461,
+          4.8,
+          3.2142,
+          5.4
+        ],
+        "ecological_values": [
+          -293.009175,
+          -300.691706,
+          -301.873437,
+          -290.106027
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.4166,
+          4.8333,
+          3.0,
+          5.8
+        ],
+        "ecological_values": [
+          -293.009175,
+          -300.691706,
+          -301.873437,
+          -290.106027
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": -0.5,
+        "p_two_sided": 0.45,
+        "p_one_sided": 0.825,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.7222,
+          4.3334,
+          3.25,
+          2.375,
+          4.35
+        ],
+        "ecological_values": [
+          -284.929013,
+          -291.76571,
+          -270.861822,
+          -282.762764,
+          -285.460194
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": -0.8,
+        "p_two_sided": 0.133333,
+        "p_one_sided": 0.958333,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.0,
+          4.5,
+          3.25,
+          3.0,
+          3.5
+        ],
+        "ecological_values": [
+          -284.929013,
+          -291.76571,
+          -270.861822,
+          -282.762764,
+          -285.460194
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.935424,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.7,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gemma-3-4b-it": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.103344,
+        "p_two_sided": 0.7677,
+        "p_one_sided": 0.3728,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          4.125,
+          4.875,
+          3.25,
+          4.5,
+          3.0,
+          4.2,
+          4.625,
+          3.8334,
+          3.25,
+          4.6667
+        ],
+        "ecological_values": [
+          -319.026182,
+          -304.00232,
+          -326.352817,
+          -345.499541,
+          -317.077795,
+          -331.230874,
+          -337.462932,
+          -311.089227,
+          -318.972366,
+          -306.630622
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.237809,
+        "p_two_sided": 0.5153,
+        "p_one_sided": 0.2596,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.0,
+          2.25,
+          4.0,
+          2.75,
+          3.75,
+          3.5,
+          3.5,
+          3.0,
+          4.1666
+        ],
+        "ecological_values": [
+          -319.026182,
+          -304.00232,
+          -326.352817,
+          -345.499541,
+          -317.077795,
+          -331.230874,
+          -337.462932,
+          -311.089227,
+          -318.972366,
+          -306.630622
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          4.35,
+          3.6429,
+          4.75
+        ],
+        "ecological_values": [
+          -334.067258,
+          -318.530843,
+          -327.783427,
+          -321.537358
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.0,
+          3.6666,
+          3.25,
+          4.5
+        ],
+        "ecological_values": [
+          -334.067258,
+          -318.530843,
+          -327.783427,
+          -321.537358
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.3,
+        "p_two_sided": 0.683333,
+        "p_one_sided": 0.341667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.8889,
+          4.7778,
+          4.4375,
+          1.9375,
+          4.75
+        ],
+        "ecological_values": [
+          -311.619478,
+          -316.608826,
+          -305.896871,
+          -332.148377,
+          -314.961211
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.3,
+        "p_two_sided": 0.683333,
+        "p_one_sided": 0.341667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          4.75,
+          3.25,
+          2.25,
+          4.5
+        ],
+        "ecological_values": [
+          -311.619478,
+          -316.608826,
+          -305.896871,
+          -332.148377,
+          -314.961211
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.880738,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 1.0,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.267478,
+        "p_two_sided": 0.4517,
+        "p_one_sided": 0.2253,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.375,
+          4.75,
+          2.75,
+          1.5,
+          1.5,
+          1.9,
+          3.5,
+          1.3333,
+          1.75,
+          4.4167
+        ],
+        "ecological_values": [
+          -201.873872,
+          -188.257831,
+          -202.603954,
+          -212.682977,
+          -200.115084,
+          -203.409888,
+          -213.674604,
+          -203.253422,
+          -225.445245,
+          -183.373341
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": 0.36199,
+        "p_two_sided": 0.2973,
+        "p_one_sided": 0.1505,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.75,
+          3.75,
+          3.5,
+          1.25,
+          1.5,
+          1.75,
+          2.75,
+          1.75,
+          2.0,
+          5.1667
+        ],
+        "ecological_values": [
+          -201.873872,
+          -188.257831,
+          -202.603954,
+          -212.682977,
+          -200.115084,
+          -203.409888,
+          -213.674604,
+          -203.253422,
+          -225.445245,
+          -183.373341
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.2,
+        "p_two_sided": 0.916667,
+        "p_one_sided": 0.458333,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          2.1154,
+          2.25,
+          1.4286,
+          4.55
+        ],
+        "ecological_values": [
+          -226.661494,
+          -238.313987,
+          -206.954165,
+          -191.116047
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.4,
+        "p_two_sided": 0.75,
+        "p_one_sided": 0.375,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          2.4166,
+          1.9166,
+          1.625,
+          4.6
+        ],
+        "ecological_values": [
+          -226.661494,
+          -238.313987,
+          -206.954165,
+          -191.116047
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.2,
+        "p_two_sided": 0.783333,
+        "p_one_sided": 0.391667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.9444,
+          4.0,
+          3.4375,
+          3.25,
+          4.45
+        ],
+        "ecological_values": [
+          -197.042931,
+          -207.723812,
+          -197.543983,
+          -209.798358,
+          -200.318368
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.1,
+        "p_two_sided": 0.95,
+        "p_one_sided": 0.475,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.5,
+          4.25,
+          3.0,
+          2.75,
+          4.0
+        ],
+        "ecological_values": [
+          -197.042931,
+          -207.723812,
+          -197.543983,
+          -209.798358,
+          -200.318368
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.812342,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 0.8,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.9,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "PVQ_pvq_values": {
+        "observed_rho": 0.261399,
+        "p_two_sided": 0.4598,
+        "p_one_sided": 0.23,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.125,
+          4.0,
+          3.0,
+          3.0,
+          2.0,
+          3.7,
+          3.5,
+          2.5,
+          3.75,
+          2.9167
+        ],
+        "ecological_values": [
+          -163.149579,
+          -149.152358,
+          -155.800442,
+          -169.765303,
+          -165.817817,
+          -156.264398,
+          -165.487118,
+          -155.912527,
+          -163.597355,
+          -160.562866
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "observed_rho": -0.106646,
+        "p_two_sided": 0.7726,
+        "p_one_sided": 0.6184,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.5,
+          4.0,
+          3.75,
+          4.0,
+          1.75,
+          2.75,
+          4.5,
+          3.5,
+          4.0,
+          4.0
+        ],
+        "ecological_values": [
+          -163.149579,
+          -149.152358,
+          -155.800442,
+          -169.765303,
+          -165.817817,
+          -156.264398,
+          -165.487118,
+          -155.912527,
+          -163.597355,
+          -160.562866
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "observed_rho": 0.8,
+        "p_two_sided": 0.333333,
+        "p_one_sided": 0.166667,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.5,
+          3.05,
+          2.6429,
+          3.35
+        ],
+        "ecological_values": [
+          -165.365187,
+          -165.407259,
+          -168.008635,
+          -166.229007
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "observed_rho": 0.316228,
+        "p_two_sided": 0.666667,
+        "p_one_sided": 0.333333,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.5,
+          4.0,
+          2.625,
+          4.0
+        ],
+        "ecological_values": [
+          -165.365187,
+          -165.407259,
+          -168.008635,
+          -166.229007
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "observed_rho": 0.6,
+        "p_two_sided": 0.35,
+        "p_one_sided": 0.175,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.6667,
+          4.1667,
+          3.5625,
+          2.5625,
+          4.25
+        ],
+        "ecological_values": [
+          -161.522643,
+          -165.009598,
+          -161.324448,
+          -177.539762,
+          -156.291923
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "observed_rho": 0.359092,
+        "p_two_sided": 0.633333,
+        "p_one_sided": 0.316667,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.25,
+          4.0,
+          3.5,
+          3.0,
+          4.0
+        ],
+        "ecological_values": [
+          -161.522643,
+          -165.009598,
+          -161.324448,
+          -177.539762,
+          -156.291923
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "rho": 0.424738,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "rho": 0.316228,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "rho": 0.666886,
+          "n_constructs": 5
+        }
+      }
+    }
+  },
+  "analysis_2_rank_comparison": {
+    "Qwen2.5-72B-Instruct": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -161.76777,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": -170.137641,
+            "rank": 2
+          },
+          {
+            "name": "Self_Direction",
+            "value": -178.13857,
+            "rank": 3
+          },
+          {
+            "name": "Conformity",
+            "value": -184.60387,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": -186.695176,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": -188.232974,
+            "rank": 6
+          },
+          {
+            "name": "Tradition",
+            "value": -193.17851,
+            "rank": 7
+          },
+          {
+            "name": "Achievement",
+            "value": -196.002083,
+            "rank": 8
+          },
+          {
+            "name": "Power",
+            "value": -198.213954,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": -204.946795,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Direction",
+            "value": 5.75,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 5.6667,
+            "rank": 2
+          },
+          {
+            "name": "Benevolence",
+            "value": 5.625,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.0,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 4.0,
+            "rank": 5
+          },
+          {
+            "name": "Conformity",
+            "value": 3.625,
+            "rank": 6
+          },
+          {
+            "name": "Stimulation",
+            "value": 3.3334,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 3.125,
+            "rank": 8
+          },
+          {
+            "name": "Achievement",
+            "value": 2.75,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.5,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Direction",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Benevolence",
+            "value": 5.75,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.0,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 4.0,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": 4.0,
+            "rank": 6
+          },
+          {
+            "name": "Achievement",
+            "value": 3.25,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 3.25,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 2.75,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.5,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Self_Transcendence",
+            "value": -179.353079,
+            "rank": 1
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -184.598087,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": -200.124618,
+            "rank": 3
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -201.823513,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 5.65,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 4.5,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.6154,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 2.2142,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 5.9,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 4.6667,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.3334,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 2.375,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Openness",
+            "value": -171.483281,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -189.338414,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": -191.092214,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": -192.302291,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -208.541179,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Conscientiousness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Agreeableness",
+            "value": 4.8889,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 4.8,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.875,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.0,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Conscientiousness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Openness",
+            "value": 4.5,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": 4.25,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.0,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 1.0,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -149.224665,
+            "rank": 1
+          },
+          {
+            "name": "Self_Direction",
+            "value": -159.328474,
+            "rank": 2
+          },
+          {
+            "name": "Universalism",
+            "value": -161.214772,
+            "rank": 3
+          },
+          {
+            "name": "Stimulation",
+            "value": -166.181632,
+            "rank": 4
+          },
+          {
+            "name": "Conformity",
+            "value": -166.756316,
+            "rank": 5
+          },
+          {
+            "name": "Security",
+            "value": -169.79333,
+            "rank": 6
+          },
+          {
+            "name": "Achievement",
+            "value": -170.966075,
+            "rank": 7
+          },
+          {
+            "name": "Power",
+            "value": -172.661071,
+            "rank": 8
+          },
+          {
+            "name": "Hedonism",
+            "value": -174.819923,
+            "rank": 9
+          },
+          {
+            "name": "Tradition",
+            "value": -176.778406,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Universalism",
+            "value": 2.6667,
+            "rank": 1
+          },
+          {
+            "name": "Self-Direction",
+            "value": 2.625,
+            "rank": 2
+          },
+          {
+            "name": "Benevolence",
+            "value": 2.125,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 1.5,
+            "rank": 4
+          },
+          {
+            "name": "Tradition",
+            "value": 1.5,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": 1.375,
+            "rank": 6
+          },
+          {
+            "name": "Conformity",
+            "value": 1.375,
+            "rank": 7
+          },
+          {
+            "name": "Stimulation",
+            "value": 1.3334,
+            "rank": 8
+          },
+          {
+            "name": "Security",
+            "value": 1.3,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.0,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Universalism",
+            "value": 3.3334,
+            "rank": 1
+          },
+          {
+            "name": "Security",
+            "value": 2.0,
+            "rank": 2
+          },
+          {
+            "name": "Benevolence",
+            "value": 1.75,
+            "rank": 3
+          },
+          {
+            "name": "Achievement",
+            "value": 1.5,
+            "rank": 4
+          },
+          {
+            "name": "Hedonism",
+            "value": 1.5,
+            "rank": 5
+          },
+          {
+            "name": "Self-Direction",
+            "value": 1.5,
+            "rank": 6
+          },
+          {
+            "name": "Stimulation",
+            "value": 1.5,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 1.5,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 1.25,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.25,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Openness_to_Change",
+            "value": -165.490324,
+            "rank": 1
+          },
+          {
+            "name": "Self_Transcendence",
+            "value": -167.655889,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": -173.144395,
+            "rank": 3
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -177.717317,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 2.45,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 1.9,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 1.3846,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 1.2143,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 2.7,
+            "rank": 1
+          },
+          {
+            "name": "Conservation",
+            "value": 1.5834,
+            "rank": 2
+          },
+          {
+            "name": "Openness to change",
+            "value": 1.5,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 1.375,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Openness",
+            "value": -156.633858,
+            "rank": 1
+          },
+          {
+            "name": "Agreeableness",
+            "value": -167.754911,
+            "rank": 2
+          },
+          {
+            "name": "Extraversion",
+            "value": -167.91563,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -168.835408,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -181.754682,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Agreeableness",
+            "value": 4.5556,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.5556,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 4.2,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.125,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.0,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Agreeableness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 5.0,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 5.0,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.75,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 1.75,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -123.851368,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": -125.666868,
+            "rank": 2
+          },
+          {
+            "name": "Self_Direction",
+            "value": -138.002616,
+            "rank": 3
+          },
+          {
+            "name": "Conformity",
+            "value": -142.598694,
+            "rank": 4
+          },
+          {
+            "name": "Stimulation",
+            "value": -143.957167,
+            "rank": 5
+          },
+          {
+            "name": "Power",
+            "value": -144.2135,
+            "rank": 6
+          },
+          {
+            "name": "Achievement",
+            "value": -144.794866,
+            "rank": 7
+          },
+          {
+            "name": "Security",
+            "value": -145.446312,
+            "rank": 8
+          },
+          {
+            "name": "Tradition",
+            "value": -146.003658,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": -150.929845,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Benevolence",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Self-Direction",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Universalism",
+            "value": 5.5833,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 5.1667,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 4.5,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": 4.0,
+            "rank": 6
+          },
+          {
+            "name": "Conformity",
+            "value": 3.5,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 2.625,
+            "rank": 8
+          },
+          {
+            "name": "Achievement",
+            "value": 2.25,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.0,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Benevolence",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Self-Direction",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Universalism",
+            "value": 6.0,
+            "rank": 3
+          },
+          {
+            "name": "Achievement",
+            "value": 5.75,
+            "rank": 4
+          },
+          {
+            "name": "Tradition",
+            "value": 5.5,
+            "rank": 5
+          },
+          {
+            "name": "Hedonism",
+            "value": 5.0,
+            "rank": 6
+          },
+          {
+            "name": "Stimulation",
+            "value": 4.75,
+            "rank": 7
+          },
+          {
+            "name": "Security",
+            "value": 3.75,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 3.5,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.0,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Self_Transcendence",
+            "value": -131.667158,
+            "rank": 1
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -145.381635,
+            "rank": 2
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -149.592279,
+            "rank": 3
+          },
+          {
+            "name": "Conservation",
+            "value": -151.695221,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 5.75,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 5.15,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.6154,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 1.7143,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 5.25,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 4.25,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 3.375,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Openness",
+            "value": -133.792252,
+            "rank": 1
+          },
+          {
+            "name": "Extraversion",
+            "value": -140.006673,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": -145.107876,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -146.345862,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -152.919927,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Openness",
+            "value": 4.8,
+            "rank": 1
+          },
+          {
+            "name": "Agreeableness",
+            "value": 4.6667,
+            "rank": 2
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.4375,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.3888,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.8125,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Agreeableness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 5.0,
+            "rank": 2
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.5,
+            "rank": 3
+          },
+          {
+            "name": "Openness",
+            "value": 4.0,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.75,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -153.518039,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": -158.613,
+            "rank": 2
+          },
+          {
+            "name": "Power",
+            "value": -167.222631,
+            "rank": 3
+          },
+          {
+            "name": "Stimulation",
+            "value": -167.314675,
+            "rank": 4
+          },
+          {
+            "name": "Achievement",
+            "value": -167.694546,
+            "rank": 5
+          },
+          {
+            "name": "Conformity",
+            "value": -168.884127,
+            "rank": 6
+          },
+          {
+            "name": "Tradition",
+            "value": -169.512625,
+            "rank": 7
+          },
+          {
+            "name": "Self_Direction",
+            "value": -170.043409,
+            "rank": 8
+          },
+          {
+            "name": "Hedonism",
+            "value": -181.344272,
+            "rank": 9
+          },
+          {
+            "name": "Security",
+            "value": -188.181418,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Achievement",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Hedonism",
+            "value": 6.0,
+            "rank": 3
+          },
+          {
+            "name": "Self-Direction",
+            "value": 6.0,
+            "rank": 4
+          },
+          {
+            "name": "Stimulation",
+            "value": 6.0,
+            "rank": 5
+          },
+          {
+            "name": "Security",
+            "value": 5.3,
+            "rank": 6
+          },
+          {
+            "name": "Universalism",
+            "value": 5.25,
+            "rank": 7
+          },
+          {
+            "name": "Conformity",
+            "value": 4.75,
+            "rank": 8
+          },
+          {
+            "name": "Tradition",
+            "value": 4.5,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 3.1666,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Achievement",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Hedonism",
+            "value": 6.0,
+            "rank": 3
+          },
+          {
+            "name": "Security",
+            "value": 6.0,
+            "rank": 4
+          },
+          {
+            "name": "Self-Direction",
+            "value": 6.0,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": 6.0,
+            "rank": 6
+          },
+          {
+            "name": "Universalism",
+            "value": 6.0,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 5.5,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 4.0,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 3.75,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Self_Transcendence",
+            "value": -166.065534,
+            "rank": 1
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -171.341277,
+            "rank": 2
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -172.072977,
+            "rank": 3
+          },
+          {
+            "name": "Conservation",
+            "value": -180.158857,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Openness to change",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Self-Transcendence",
+            "value": 5.55,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 4.8846,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 4.7857,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Openness to change",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Self-Transcendence",
+            "value": 6.0,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 5.1667,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 4.875,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Neuroticism",
+            "value": -163.873343,
+            "rank": 1
+          },
+          {
+            "name": "Openness",
+            "value": -164.214672,
+            "rank": 2
+          },
+          {
+            "name": "Extraversion",
+            "value": -168.579972,
+            "rank": 3
+          },
+          {
+            "name": "Agreeableness",
+            "value": -169.56293,
+            "rank": 4
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -176.185746,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Agreeableness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Openness",
+            "value": 4.8,
+            "rank": 2
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.7222,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.5,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.25,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Agreeableness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 5.0,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 5.0,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.25,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 3.0,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "gemma-3-27b-it": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -266.257331,
+            "rank": 1
+          },
+          {
+            "name": "Tradition",
+            "value": -273.716796,
+            "rank": 2
+          },
+          {
+            "name": "Universalism",
+            "value": -275.02261,
+            "rank": 3
+          },
+          {
+            "name": "Self_Direction",
+            "value": -286.499372,
+            "rank": 4
+          },
+          {
+            "name": "Power",
+            "value": -286.578687,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": -291.833832,
+            "rank": 6
+          },
+          {
+            "name": "Conformity",
+            "value": -294.391815,
+            "rank": 7
+          },
+          {
+            "name": "Stimulation",
+            "value": -295.779655,
+            "rank": 8
+          },
+          {
+            "name": "Security",
+            "value": -296.038019,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": -300.019113,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Direction",
+            "value": 5.75,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 5.6667,
+            "rank": 2
+          },
+          {
+            "name": "Benevolence",
+            "value": 5.0,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.3333,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 4.2,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": 4.0,
+            "rank": 6
+          },
+          {
+            "name": "Tradition",
+            "value": 4.0,
+            "rank": 7
+          },
+          {
+            "name": "Achievement",
+            "value": 3.75,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 3.25,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 2.5,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Universalism",
+            "value": 6.0,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": 5.5,
+            "rank": 2
+          },
+          {
+            "name": "Self-Direction",
+            "value": 5.5,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.5,
+            "rank": 4
+          },
+          {
+            "name": "Stimulation",
+            "value": 4.5,
+            "rank": 5
+          },
+          {
+            "name": "Security",
+            "value": 4.0,
+            "rank": 6
+          },
+          {
+            "name": "Tradition",
+            "value": 4.0,
+            "rank": 7
+          },
+          {
+            "name": "Achievement",
+            "value": 3.75,
+            "rank": 8
+          },
+          {
+            "name": "Conformity",
+            "value": 2.25,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 2.25,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Self_Transcendence",
+            "value": -290.106027,
+            "rank": 1
+          },
+          {
+            "name": "Conservation",
+            "value": -293.009175,
+            "rank": 2
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -300.691706,
+            "rank": 3
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -301.873437,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 5.4,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 4.8,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.8461,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 3.2142,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 5.8,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 4.8333,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.4166,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 3.0,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Extraversion",
+            "value": -270.861822,
+            "rank": 1
+          },
+          {
+            "name": "Neuroticism",
+            "value": -282.762764,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": -284.929013,
+            "rank": 3
+          },
+          {
+            "name": "Openness",
+            "value": -285.460194,
+            "rank": 4
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -291.76571,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Agreeableness",
+            "value": 4.7222,
+            "rank": 1
+          },
+          {
+            "name": "Openness",
+            "value": 4.35,
+            "rank": 2
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.3334,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.25,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.375,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Conscientiousness",
+            "value": 4.5,
+            "rank": 1
+          },
+          {
+            "name": "Agreeableness",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 3.5,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.25,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 3.0,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "gemma-3-4b-it": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -304.00232,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": -306.630622,
+            "rank": 2
+          },
+          {
+            "name": "Stimulation",
+            "value": -311.089227,
+            "rank": 3
+          },
+          {
+            "name": "Power",
+            "value": -317.077795,
+            "rank": 4
+          },
+          {
+            "name": "Tradition",
+            "value": -318.972366,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": -319.026182,
+            "rank": 6
+          },
+          {
+            "name": "Conformity",
+            "value": -326.352817,
+            "rank": 7
+          },
+          {
+            "name": "Security",
+            "value": -331.230874,
+            "rank": 8
+          },
+          {
+            "name": "Self_Direction",
+            "value": -337.462932,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": -345.499541,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Benevolence",
+            "value": 4.875,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 4.6667,
+            "rank": 2
+          },
+          {
+            "name": "Self-Direction",
+            "value": 4.625,
+            "rank": 3
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.5,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 4.2,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": 4.125,
+            "rank": 6
+          },
+          {
+            "name": "Stimulation",
+            "value": 3.8334,
+            "rank": 7
+          },
+          {
+            "name": "Conformity",
+            "value": 3.25,
+            "rank": 8
+          },
+          {
+            "name": "Tradition",
+            "value": 3.25,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 3.0,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Benevolence",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 4.1666,
+            "rank": 2
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.0,
+            "rank": 3
+          },
+          {
+            "name": "Achievement",
+            "value": 3.75,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 3.75,
+            "rank": 5
+          },
+          {
+            "name": "Self-Direction",
+            "value": 3.5,
+            "rank": 6
+          },
+          {
+            "name": "Stimulation",
+            "value": 3.5,
+            "rank": 7
+          },
+          {
+            "name": "Tradition",
+            "value": 3.0,
+            "rank": 8
+          },
+          {
+            "name": "Power",
+            "value": 2.75,
+            "rank": 9
+          },
+          {
+            "name": "Conformity",
+            "value": 2.25,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Openness_to_Change",
+            "value": -318.530843,
+            "rank": 1
+          },
+          {
+            "name": "Self_Transcendence",
+            "value": -321.537358,
+            "rank": 2
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -327.783427,
+            "rank": 3
+          },
+          {
+            "name": "Conservation",
+            "value": -334.067258,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 4.75,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 4.35,
+            "rank": 2
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 3.6429,
+            "rank": 3
+          },
+          {
+            "name": "Conservation",
+            "value": 3.6154,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 4.5,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 3.6666,
+            "rank": 2
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 3.25,
+            "rank": 3
+          },
+          {
+            "name": "Conservation",
+            "value": 3.0,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Extraversion",
+            "value": -305.896871,
+            "rank": 1
+          },
+          {
+            "name": "Agreeableness",
+            "value": -311.619478,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": -314.961211,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -316.608826,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -332.148377,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Agreeableness",
+            "value": 4.8889,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.7778,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 4.75,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 4.4375,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 1.9375,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Agreeableness",
+            "value": 5.0,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.75,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 4.5,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.25,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.25,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "gpt-oss-120b": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Universalism",
+            "value": -183.373341,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": -188.257831,
+            "rank": 2
+          },
+          {
+            "name": "Power",
+            "value": -200.115084,
+            "rank": 3
+          },
+          {
+            "name": "Achievement",
+            "value": -201.873872,
+            "rank": 4
+          },
+          {
+            "name": "Conformity",
+            "value": -202.603954,
+            "rank": 5
+          },
+          {
+            "name": "Stimulation",
+            "value": -203.253422,
+            "rank": 6
+          },
+          {
+            "name": "Security",
+            "value": -203.409888,
+            "rank": 7
+          },
+          {
+            "name": "Hedonism",
+            "value": -212.682977,
+            "rank": 8
+          },
+          {
+            "name": "Self_Direction",
+            "value": -213.674604,
+            "rank": 9
+          },
+          {
+            "name": "Tradition",
+            "value": -225.445245,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Benevolence",
+            "value": 4.75,
+            "rank": 1
+          },
+          {
+            "name": "Universalism",
+            "value": 4.4167,
+            "rank": 2
+          },
+          {
+            "name": "Self-Direction",
+            "value": 3.5,
+            "rank": 3
+          },
+          {
+            "name": "Conformity",
+            "value": 2.75,
+            "rank": 4
+          },
+          {
+            "name": "Security",
+            "value": 1.9,
+            "rank": 5
+          },
+          {
+            "name": "Tradition",
+            "value": 1.75,
+            "rank": 6
+          },
+          {
+            "name": "Hedonism",
+            "value": 1.5,
+            "rank": 7
+          },
+          {
+            "name": "Power",
+            "value": 1.5,
+            "rank": 8
+          },
+          {
+            "name": "Achievement",
+            "value": 1.375,
+            "rank": 9
+          },
+          {
+            "name": "Stimulation",
+            "value": 1.3333,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Universalism",
+            "value": 5.1667,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": 3.75,
+            "rank": 2
+          },
+          {
+            "name": "Conformity",
+            "value": 3.5,
+            "rank": 3
+          },
+          {
+            "name": "Self-Direction",
+            "value": 2.75,
+            "rank": 4
+          },
+          {
+            "name": "Tradition",
+            "value": 2.0,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": 1.75,
+            "rank": 6
+          },
+          {
+            "name": "Security",
+            "value": 1.75,
+            "rank": 7
+          },
+          {
+            "name": "Stimulation",
+            "value": 1.75,
+            "rank": 8
+          },
+          {
+            "name": "Power",
+            "value": 1.5,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": 1.25,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Self_Transcendence",
+            "value": -191.116047,
+            "rank": 1
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -206.954165,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": -226.661494,
+            "rank": 3
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -238.313987,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Self-Transcendence",
+            "value": 4.55,
+            "rank": 1
+          },
+          {
+            "name": "Openness to change",
+            "value": 2.25,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 2.1154,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 1.4286,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Transcendence",
+            "value": 4.6,
+            "rank": 1
+          },
+          {
+            "name": "Conservation",
+            "value": 2.4166,
+            "rank": 2
+          },
+          {
+            "name": "Openness to change",
+            "value": 1.9166,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 1.625,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Agreeableness",
+            "value": -197.042931,
+            "rank": 1
+          },
+          {
+            "name": "Extraversion",
+            "value": -197.543983,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": -200.318368,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -207.723812,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -209.798358,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Openness",
+            "value": 4.45,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": 3.9444,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.4375,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 3.25,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Conscientiousness",
+            "value": 4.25,
+            "rank": 1
+          },
+          {
+            "name": "Openness",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": 3.5,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.0,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.75,
+            "rank": 5
+          }
+        ]
+      }
+    },
+    "gpt-oss-20b": {
+      "pvq_values": {
+        "ecological": [
+          {
+            "name": "Benevolence",
+            "value": -149.152358,
+            "rank": 1
+          },
+          {
+            "name": "Conformity",
+            "value": -155.800442,
+            "rank": 2
+          },
+          {
+            "name": "Stimulation",
+            "value": -155.912527,
+            "rank": 3
+          },
+          {
+            "name": "Security",
+            "value": -156.264398,
+            "rank": 4
+          },
+          {
+            "name": "Universalism",
+            "value": -160.562866,
+            "rank": 5
+          },
+          {
+            "name": "Achievement",
+            "value": -163.149579,
+            "rank": 6
+          },
+          {
+            "name": "Tradition",
+            "value": -163.597355,
+            "rank": 7
+          },
+          {
+            "name": "Self_Direction",
+            "value": -165.487118,
+            "rank": 8
+          },
+          {
+            "name": "Power",
+            "value": -165.817817,
+            "rank": 9
+          },
+          {
+            "name": "Hedonism",
+            "value": -169.765303,
+            "rank": 10
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Benevolence",
+            "value": 4.0,
+            "rank": 1
+          },
+          {
+            "name": "Tradition",
+            "value": 3.75,
+            "rank": 2
+          },
+          {
+            "name": "Security",
+            "value": 3.7,
+            "rank": 3
+          },
+          {
+            "name": "Self-Direction",
+            "value": 3.5,
+            "rank": 4
+          },
+          {
+            "name": "Achievement",
+            "value": 3.125,
+            "rank": 5
+          },
+          {
+            "name": "Conformity",
+            "value": 3.0,
+            "rank": 6
+          },
+          {
+            "name": "Hedonism",
+            "value": 3.0,
+            "rank": 7
+          },
+          {
+            "name": "Universalism",
+            "value": 2.9167,
+            "rank": 8
+          },
+          {
+            "name": "Stimulation",
+            "value": 2.5,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 2.0,
+            "rank": 10
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Self-Direction",
+            "value": 4.5,
+            "rank": 1
+          },
+          {
+            "name": "Benevolence",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Hedonism",
+            "value": 4.0,
+            "rank": 3
+          },
+          {
+            "name": "Tradition",
+            "value": 4.0,
+            "rank": 4
+          },
+          {
+            "name": "Universalism",
+            "value": 4.0,
+            "rank": 5
+          },
+          {
+            "name": "Conformity",
+            "value": 3.75,
+            "rank": 6
+          },
+          {
+            "name": "Achievement",
+            "value": 3.5,
+            "rank": 7
+          },
+          {
+            "name": "Stimulation",
+            "value": 3.5,
+            "rank": 8
+          },
+          {
+            "name": "Security",
+            "value": 2.75,
+            "rank": 9
+          },
+          {
+            "name": "Power",
+            "value": 1.75,
+            "rank": 10
+          }
+        ]
+      },
+      "higher_order_values": {
+        "ecological": [
+          {
+            "name": "Conservation",
+            "value": -165.365187,
+            "rank": 1
+          },
+          {
+            "name": "Openness_to_Change",
+            "value": -165.407259,
+            "rank": 2
+          },
+          {
+            "name": "Self_Transcendence",
+            "value": -166.229007,
+            "rank": 3
+          },
+          {
+            "name": "Self_Enhancement",
+            "value": -168.008635,
+            "rank": 4
+          }
+        ],
+        "PVQ": [
+          {
+            "name": "Conservation",
+            "value": 3.5,
+            "rank": 1
+          },
+          {
+            "name": "Self-Transcendence",
+            "value": 3.35,
+            "rank": 2
+          },
+          {
+            "name": "Openness to change",
+            "value": 3.05,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 2.6429,
+            "rank": 4
+          }
+        ],
+        "PVQ21": [
+          {
+            "name": "Openness to change",
+            "value": 4.0,
+            "rank": 1
+          },
+          {
+            "name": "Self-Transcendence",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Conservation",
+            "value": 3.5,
+            "rank": 3
+          },
+          {
+            "name": "Self-Enhancement",
+            "value": 2.625,
+            "rank": 4
+          }
+        ]
+      },
+      "bfi_traits": {
+        "ecological": [
+          {
+            "name": "Openness",
+            "value": -156.291923,
+            "rank": 1
+          },
+          {
+            "name": "Extraversion",
+            "value": -161.324448,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": -161.522643,
+            "rank": 3
+          },
+          {
+            "name": "Conscientiousness",
+            "value": -165.009598,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": -177.539762,
+            "rank": 5
+          }
+        ],
+        "BFI44": [
+          {
+            "name": "Openness",
+            "value": 4.25,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.1667,
+            "rank": 2
+          },
+          {
+            "name": "Agreeableness",
+            "value": 3.6667,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.5625,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 2.5625,
+            "rank": 5
+          }
+        ],
+        "BFI10": [
+          {
+            "name": "Agreeableness",
+            "value": 4.25,
+            "rank": 1
+          },
+          {
+            "name": "Conscientiousness",
+            "value": 4.0,
+            "rank": 2
+          },
+          {
+            "name": "Openness",
+            "value": 4.0,
+            "rank": 3
+          },
+          {
+            "name": "Extraversion",
+            "value": 3.5,
+            "rank": 4
+          },
+          {
+            "name": "Neuroticism",
+            "value": 3.0,
+            "rank": 5
+          }
+        ]
+      }
+    }
+  },
+  "analysis_3_ndcg": {
+    "Qwen2.5-72B-Instruct": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.749974,
+        "ndcg_at_3": 0.739291,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          2.75,
+          5.625,
+          3.625,
+          4.0,
+          1.5,
+          4.0,
+          5.75,
+          3.3334,
+          3.125,
+          5.6667
+        ],
+        "ecological_values": [
+          -196.002083,
+          -161.76777,
+          -184.60387,
+          -204.946795,
+          -198.213954,
+          -186.695176,
+          -178.13857,
+          -188.232974,
+          -193.17851,
+          -170.137641
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.749795,
+        "ndcg_at_3": 0.739291,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.25,
+          5.75,
+          2.75,
+          4.0,
+          1.5,
+          4.0,
+          6.0,
+          4.0,
+          3.25,
+          6.0
+        ],
+        "ecological_values": [
+          -196.002083,
+          -161.76777,
+          -184.60387,
+          -204.946795,
+          -198.213954,
+          -186.695176,
+          -178.13857,
+          -188.232974,
+          -193.17851,
+          -170.137641
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 1.0,
+        "ndcg_at_3": 1.0,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          4.5,
+          2.2142,
+          5.65
+        ],
+        "ecological_values": [
+          -200.124618,
+          -184.598087,
+          -201.823513,
+          -179.353079
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 1.0,
+        "ndcg_at_3": 1.0,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.3334,
+          4.6667,
+          2.375,
+          5.9
+        ],
+        "ecological_values": [
+          -200.124618,
+          -184.598087,
+          -201.823513,
+          -179.353079
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.782986,
+        "ndcg_at_3": 0.774699,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.8889,
+          5.0,
+          3.875,
+          2.0,
+          4.8
+        ],
+        "ecological_values": [
+          -191.092214,
+          -189.338414,
+          -192.302291,
+          -208.541179,
+          -171.483281
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.870623,
+        "ndcg_at_3": 0.865683,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.25,
+          5.0,
+          4.0,
+          1.0,
+          4.5
+        ],
+        "ecological_values": [
+          -191.092214,
+          -189.338414,
+          -192.302291,
+          -208.541179,
+          -171.483281
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.998301,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.977051,
+          "ndcg_at_3": 0.976175,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.741931,
+        "ndcg_at_3": 0.739291,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.375,
+          2.125,
+          1.375,
+          1.5,
+          1.0,
+          1.3,
+          2.625,
+          1.3334,
+          1.5,
+          2.6667
+        ],
+        "ecological_values": [
+          -170.966075,
+          -149.224665,
+          -166.756316,
+          -174.819923,
+          -172.661071,
+          -169.79333,
+          -159.328474,
+          -166.181632,
+          -176.778406,
+          -161.214772
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.662744,
+        "ndcg_at_3": 0.533679,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.5,
+          1.75,
+          1.25,
+          1.5,
+          1.25,
+          2.0,
+          1.5,
+          1.5,
+          1.5,
+          3.3334
+        ],
+        "ecological_values": [
+          -170.966075,
+          -149.224665,
+          -166.756316,
+          -174.819923,
+          -172.661071,
+          -169.79333,
+          -159.328474,
+          -166.181632,
+          -176.778406,
+          -161.214772
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.861688,
+        "ndcg_at_3": 0.858841,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          1.3846,
+          1.9,
+          1.2143,
+          2.45
+        ],
+        "ecological_values": [
+          -173.144395,
+          -165.490324,
+          -177.717317,
+          -167.655889
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.767999,
+        "ndcg_at_3": 0.763222,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          1.5834,
+          1.5,
+          1.375,
+          2.7
+        ],
+        "ecological_values": [
+          -173.144395,
+          -165.490324,
+          -177.717317,
+          -167.655889
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.76476,
+        "ndcg_at_3": 0.638223,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.5556,
+          4.5556,
+          4.125,
+          2.0,
+          4.2
+        ],
+        "ecological_values": [
+          -167.754911,
+          -168.835408,
+          -167.91563,
+          -181.754682,
+          -156.633858
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.76476,
+        "ndcg_at_3": 0.638223,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          3.75,
+          1.75,
+          5.0
+        ],
+        "ecological_values": [
+          -167.754911,
+          -168.835408,
+          -167.91563,
+          -181.754682,
+          -156.633858
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.908248,
+          "ndcg_at_3": 0.782394,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 0.975467,
+          "ndcg_at_3": 0.974961,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.965937,
+        "ndcg_at_3": 0.977244,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          2.25,
+          6.0,
+          3.5,
+          5.1667,
+          1.0,
+          4.5,
+          6.0,
+          4.0,
+          2.625,
+          5.5833
+        ],
+        "ecological_values": [
+          -144.794866,
+          -123.851368,
+          -142.598694,
+          -150.929845,
+          -144.2135,
+          -145.446312,
+          -138.002616,
+          -143.957167,
+          -146.003658,
+          -125.666868
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.966839,
+        "ndcg_at_3": 0.977244,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          5.75,
+          6.0,
+          3.5,
+          5.0,
+          1.0,
+          3.75,
+          6.0,
+          4.75,
+          5.5,
+          6.0
+        ],
+        "ecological_values": [
+          -144.794866,
+          -123.851368,
+          -142.598694,
+          -150.929845,
+          -144.2135,
+          -145.446312,
+          -138.002616,
+          -143.957167,
+          -146.003658,
+          -125.666868
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.993505,
+        "ndcg_at_3": 0.952191,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          5.15,
+          1.7143,
+          5.75
+        ],
+        "ecological_values": [
+          -151.695221,
+          -145.381635,
+          -149.592279,
+          -131.667158
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.993505,
+        "ndcg_at_3": 0.952191,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          4.25,
+          5.25,
+          3.375,
+          6.0
+        ],
+        "ecological_values": [
+          -151.695221,
+          -145.381635,
+          -149.592279,
+          -131.667158
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.977051,
+        "ndcg_at_3": 0.976175,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.6667,
+          4.3888,
+          4.4375,
+          2.8125,
+          4.8
+        ],
+        "ecological_values": [
+          -145.107876,
+          -146.345862,
+          -140.006673,
+          -152.919927,
+          -133.792252
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.652096,
+        "ndcg_at_3": 0.521257,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          4.5,
+          2.75,
+          4.0
+        ],
+        "ecological_values": [
+          -145.107876,
+          -146.345862,
+          -140.006673,
+          -152.919927,
+          -133.792252
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.990925,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.747776,
+          "ndcg_at_3": 0.463853,
+          "n_constructs": 5
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.687598,
+        "ndcg_at_3": 0.353698,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          6.0,
+          6.0,
+          4.75,
+          6.0,
+          3.1666,
+          5.3,
+          6.0,
+          6.0,
+          4.5,
+          5.25
+        ],
+        "ecological_values": [
+          -167.694546,
+          -153.518039,
+          -168.884127,
+          -181.344272,
+          -167.222631,
+          -188.181418,
+          -170.043409,
+          -167.314675,
+          -169.512625,
+          -158.613
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.681234,
+        "ndcg_at_3": 0.353698,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          6.0,
+          6.0,
+          4.0,
+          6.0,
+          3.75,
+          6.0,
+          6.0,
+          6.0,
+          5.5,
+          6.0
+        ],
+        "ecological_values": [
+          -167.694546,
+          -153.518039,
+          -168.884127,
+          -181.344272,
+          -167.222631,
+          -188.181418,
+          -170.043409,
+          -167.314675,
+          -169.512625,
+          -158.613
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.855194,
+        "ndcg_at_3": 0.811031,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          4.8846,
+          6.0,
+          4.7857,
+          5.55
+        ],
+        "ecological_values": [
+          -180.158857,
+          -171.341277,
+          -172.072977,
+          -166.065534
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.855194,
+        "ndcg_at_3": 0.811031,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          5.1667,
+          6.0,
+          4.875,
+          6.0
+        ],
+        "ecological_values": [
+          -180.158857,
+          -171.341277,
+          -172.072977,
+          -166.065534
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.61396,
+        "ndcg_at_3": 0.272131,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          4.7222,
+          4.5,
+          2.25,
+          4.8
+        ],
+        "ecological_values": [
+          -169.56293,
+          -176.185746,
+          -168.579972,
+          -163.873343,
+          -164.214672
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.57118,
+        "ndcg_at_3": 0.157322,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          5.0,
+          3.25,
+          3.0,
+          5.0
+        ],
+        "ecological_values": [
+          -169.56293,
+          -176.185746,
+          -168.579972,
+          -163.873343,
+          -164.214672
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.996662,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.977051,
+          "ndcg_at_3": 0.976175,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gemma-3-27b-it": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.655385,
+        "ndcg_at_3": 0.353019,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.0,
+          3.25,
+          4.3333,
+          2.5,
+          4.2,
+          5.75,
+          4.0,
+          4.0,
+          5.6667
+        ],
+        "ecological_values": [
+          -291.833832,
+          -266.257331,
+          -294.391815,
+          -300.019113,
+          -286.578687,
+          -296.038019,
+          -286.499372,
+          -295.779655,
+          -273.716796,
+          -275.02261
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.772158,
+        "ndcg_at_3": 0.700632,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.5,
+          2.25,
+          4.5,
+          2.25,
+          4.0,
+          5.5,
+          4.5,
+          4.0,
+          6.0
+        ],
+        "ecological_values": [
+          -291.833832,
+          -266.257331,
+          -294.391815,
+          -300.019113,
+          -286.578687,
+          -296.038019,
+          -286.499372,
+          -295.779655,
+          -273.716796,
+          -275.02261
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.975467,
+        "ndcg_at_3": 0.974961,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.8461,
+          4.8,
+          3.2142,
+          5.4
+        ],
+        "ecological_values": [
+          -293.009175,
+          -300.691706,
+          -301.873437,
+          -290.106027
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.975467,
+        "ndcg_at_3": 0.974961,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.4166,
+          4.8333,
+          3.0,
+          5.8
+        ],
+        "ecological_values": [
+          -293.009175,
+          -300.691706,
+          -301.873437,
+          -290.106027
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.620011,
+        "ndcg_at_3": 0.43515,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.7222,
+          4.3334,
+          3.25,
+          2.375,
+          4.35
+        ],
+        "ecological_values": [
+          -284.929013,
+          -291.76571,
+          -270.861822,
+          -282.762764,
+          -285.460194
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.572666,
+        "ndcg_at_3": 0.253183,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.0,
+          4.5,
+          3.25,
+          3.0,
+          3.5
+        ],
+        "ecological_values": [
+          -284.929013,
+          -291.76571,
+          -270.861822,
+          -282.762764,
+          -285.460194
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.812443,
+          "ndcg_at_3": 0.803437,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.782986,
+          "ndcg_at_3": 0.774699,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gemma-3-4b-it": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.95533,
+        "ndcg_at_3": 0.918528,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          4.125,
+          4.875,
+          3.25,
+          4.5,
+          3.0,
+          4.2,
+          4.625,
+          3.8334,
+          3.25,
+          4.6667
+        ],
+        "ecological_values": [
+          -319.026182,
+          -304.00232,
+          -326.352817,
+          -345.499541,
+          -317.077795,
+          -331.230874,
+          -337.462932,
+          -311.089227,
+          -318.972366,
+          -306.630622
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.960012,
+        "ndcg_at_3": 0.92396,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.75,
+          5.0,
+          2.25,
+          4.0,
+          2.75,
+          3.75,
+          3.5,
+          3.5,
+          3.0,
+          4.1666
+        ],
+        "ecological_values": [
+          -319.026182,
+          -304.00232,
+          -326.352817,
+          -345.499541,
+          -317.077795,
+          -331.230874,
+          -337.462932,
+          -311.089227,
+          -318.972366,
+          -306.630622
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.861688,
+        "ndcg_at_3": 0.858841,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.6154,
+          4.35,
+          3.6429,
+          4.75
+        ],
+        "ecological_values": [
+          -334.067258,
+          -318.530843,
+          -327.783427,
+          -321.537358
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.861688,
+        "ndcg_at_3": 0.858841,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.0,
+          3.6666,
+          3.25,
+          4.5
+        ],
+        "ecological_values": [
+          -334.067258,
+          -318.530843,
+          -327.783427,
+          -321.537358
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.720942,
+        "ndcg_at_3": 0.592732,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.8889,
+          4.7778,
+          4.4375,
+          1.9375,
+          4.75
+        ],
+        "ecological_values": [
+          -311.619478,
+          -316.608826,
+          -305.896871,
+          -332.148377,
+          -314.961211
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.720942,
+        "ndcg_at_3": 0.592732,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          5.0,
+          4.75,
+          3.25,
+          2.25,
+          4.5
+        ],
+        "ecological_values": [
+          -311.619478,
+          -316.608826,
+          -305.896871,
+          -332.148377,
+          -314.961211
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.980162,
+          "ndcg_at_3": 0.956548,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 1.0,
+          "ndcg_at_3": 1.0,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.842331,
+        "ndcg_at_3": 0.790235,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.375,
+          4.75,
+          2.75,
+          1.5,
+          1.5,
+          1.9,
+          3.5,
+          1.3333,
+          1.75,
+          4.4167
+        ],
+        "ecological_values": [
+          -201.873872,
+          -188.257831,
+          -202.603954,
+          -212.682977,
+          -200.115084,
+          -203.409888,
+          -213.674604,
+          -203.253422,
+          -225.445245,
+          -183.373341
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.967918,
+        "ndcg_at_3": 0.914455,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          1.75,
+          3.75,
+          3.5,
+          1.25,
+          1.5,
+          1.75,
+          2.75,
+          1.75,
+          2.0,
+          5.1667
+        ],
+        "ecological_values": [
+          -201.873872,
+          -188.257831,
+          -202.603954,
+          -212.682977,
+          -200.115084,
+          -203.409888,
+          -213.674604,
+          -203.253422,
+          -225.445245,
+          -183.373341
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.943715,
+        "ndcg_at_3": 0.819015,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          2.1154,
+          2.25,
+          1.4286,
+          4.55
+        ],
+        "ecological_values": [
+          -226.661494,
+          -238.313987,
+          -206.954165,
+          -191.116047
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.956705,
+        "ndcg_at_3": 0.914633,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          2.4166,
+          1.9166,
+          1.625,
+          4.6
+        ],
+        "ecological_values": [
+          -226.661494,
+          -238.313987,
+          -206.954165,
+          -191.116047
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.68444,
+        "ndcg_at_3": 0.554836,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.9444,
+          4.0,
+          3.4375,
+          3.25,
+          4.45
+        ],
+        "ecological_values": [
+          -197.042931,
+          -207.723812,
+          -197.543983,
+          -209.798358,
+          -200.318368
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.660139,
+        "ndcg_at_3": 0.372869,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.5,
+          4.25,
+          3.0,
+          2.75,
+          4.0
+        ],
+        "ecological_values": [
+          -197.042931,
+          -207.723812,
+          -197.543983,
+          -209.798358,
+          -200.318368
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.873108,
+          "ndcg_at_3": 0.828255,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 0.975467,
+          "ndcg_at_3": 0.974961,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.870623,
+          "ndcg_at_3": 0.865683,
+          "n_constructs": 5
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "PVQ_pvq_values": {
+        "ndcg": 0.883659,
+        "ndcg_at_3": 0.70199,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.125,
+          4.0,
+          3.0,
+          3.0,
+          2.0,
+          3.7,
+          3.5,
+          2.5,
+          3.75,
+          2.9167
+        ],
+        "ecological_values": [
+          -163.149579,
+          -149.152358,
+          -155.800442,
+          -169.765303,
+          -165.817817,
+          -156.264398,
+          -165.487118,
+          -155.912527,
+          -163.597355,
+          -160.562866
+        ]
+      },
+      "PVQ21_pvq_values": {
+        "ndcg": 0.638998,
+        "ndcg_at_3": 0.362589,
+        "n_constructs": 10,
+        "constructs": [
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Hedonism",
+          "Power",
+          "Security",
+          "Self-Direction",
+          "Stimulation",
+          "Tradition",
+          "Universalism"
+        ],
+        "established_values": [
+          3.5,
+          4.0,
+          3.75,
+          4.0,
+          1.75,
+          2.75,
+          4.5,
+          3.5,
+          4.0,
+          4.0
+        ],
+        "ecological_values": [
+          -163.149579,
+          -149.152358,
+          -155.800442,
+          -169.765303,
+          -165.817817,
+          -156.264398,
+          -165.487118,
+          -155.912527,
+          -163.597355,
+          -160.562866
+        ]
+      },
+      "PVQ_higher_order_values": {
+        "ndcg": 0.975467,
+        "ndcg_at_3": 0.974961,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.5,
+          3.05,
+          2.6429,
+          3.35
+        ],
+        "ecological_values": [
+          -165.365187,
+          -165.407259,
+          -168.008635,
+          -166.229007
+        ]
+      },
+      "PVQ21_higher_order_values": {
+        "ndcg": 0.767999,
+        "ndcg_at_3": 0.763222,
+        "n_constructs": 4,
+        "constructs": [
+          "Conservation",
+          "Openness to change",
+          "Self-Enhancement",
+          "Self-Transcendence"
+        ],
+        "established_values": [
+          3.5,
+          4.0,
+          2.625,
+          4.0
+        ],
+        "ecological_values": [
+          -165.365187,
+          -165.407259,
+          -168.008635,
+          -166.229007
+        ]
+      },
+      "BFI44_bfi_traits": {
+        "ndcg": 0.947351,
+        "ndcg_at_3": 0.827787,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          3.6667,
+          4.1667,
+          3.5625,
+          2.5625,
+          4.25
+        ],
+        "ecological_values": [
+          -161.522643,
+          -165.009598,
+          -161.324448,
+          -177.539762,
+          -156.291923
+        ]
+      },
+      "BFI10_bfi_traits": {
+        "ndcg": 0.68444,
+        "ndcg_at_3": 0.554836,
+        "n_constructs": 5,
+        "constructs": [
+          "Agreeableness",
+          "Conscientiousness",
+          "Extraversion",
+          "Neuroticism",
+          "Openness"
+        ],
+        "established_values": [
+          4.25,
+          4.0,
+          3.5,
+          3.0,
+          4.0
+        ],
+        "ecological_values": [
+          -161.522643,
+          -165.009598,
+          -161.324448,
+          -177.539762,
+          -156.291923
+        ]
+      },
+      "established_baselines": {
+        "PVQ_vs_PVQ21_pvq_values": {
+          "ndcg": 0.709593,
+          "ndcg_at_3": 0.534957,
+          "n_constructs": 10
+        },
+        "PVQ_vs_PVQ21_higher_order_values": {
+          "ndcg": 0.718932,
+          "ndcg_at_3": 0.713145,
+          "n_constructs": 4
+        },
+        "BFI44_vs_BFI10_bfi_traits": {
+          "ndcg": 0.737089,
+          "ndcg_at_3": 0.727049,
+          "n_constructs": 5
+        }
+      }
+    }
+  },
+  "analysis_4_within_vs_cross": {
+    "spearman_rho": {
+      "pvq_values": {
+        "n_models": 8,
+        "within_mean": 0.741657,
+        "cross_mean": 0.295426,
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "within": 0.89794,
+            "cross": 0.676621,
+            "diff": 0.221319
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "within": 0.460166,
+            "cross": 0.426726,
+            "diff": 0.03344
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "within": 0.670798,
+            "cross": 0.488438,
+            "diff": 0.18236
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "within": 0.851112,
+            "cross": -0.090492,
+            "diff": 0.941604
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "within": 0.935424,
+            "cross": 0.299424,
+            "diff": 0.636
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "within": 0.880738,
+            "cross": 0.170576,
+            "diff": 0.710162
+          },
+          {
+            "model": "gpt-oss-120b",
+            "within": 0.812342,
+            "cross": 0.314734,
+            "diff": 0.497608
+          },
+          {
+            "model": "gpt-oss-20b",
+            "within": 0.424738,
+            "cross": 0.077376,
+            "diff": 0.347361
+          }
+        ],
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.446232,
+          "p_one_sided": 0.003906,
+          "p_two_sided": 0.007812,
+          "n_permutations": 256
+        },
+        "bootstrap_95ci": {
+          "mean": 0.446232,
+          "ci_lower": 0.251443,
+          "ci_upper": 0.645667,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      },
+      "bfi_traits": {
+        "n_models": 8,
+        "within_mean": 0.773022,
+        "cross_mean": 0.188799,
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "within": 0.9,
+            "cross": 0.8,
+            "diff": 0.1
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "within": 0.917663,
+            "cross": 0.540605,
+            "diff": 0.377058
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "within": 0.205196,
+            "cross": 0.47565,
+            "diff": -0.270454
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "within": 0.894427,
+            "cross": -0.58541,
+            "diff": 1.479837
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "within": 0.7,
+            "cross": -0.65,
+            "diff": 1.35
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "within": 1.0,
+            "cross": 0.3,
+            "diff": 0.7
+          },
+          {
+            "model": "gpt-oss-120b",
+            "within": 0.9,
+            "cross": 0.15,
+            "diff": 0.75
+          },
+          {
+            "model": "gpt-oss-20b",
+            "within": 0.666886,
+            "cross": 0.479546,
+            "diff": 0.18734
+          }
+        ],
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.584223,
+          "p_one_sided": 0.015625,
+          "p_two_sided": 0.03125,
+          "n_permutations": 256
+        },
+        "bootstrap_95ci": {
+          "mean": 0.584223,
+          "ci_lower": 0.203247,
+          "ci_upper": 0.988709,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      },
+      "overall": {
+        "n_observations": 16,
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.515227,
+          "p_one_sided": 0.000168,
+          "p_two_sided": 0.000336,
+          "n_permutations": 65536
+        },
+        "bootstrap_95ci": {
+          "mean": 0.515227,
+          "ci_lower": 0.299914,
+          "ci_upper": 0.747899,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      }
+    },
+    "ndcg": {
+      "pvq_values": {
+        "n_models": 8,
+        "within_mean": 0.90868,
+        "cross_mean": 0.805115,
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "within": 0.998301,
+            "cross": 0.749885,
+            "diff": 0.248416
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "within": 0.908248,
+            "cross": 0.702338,
+            "diff": 0.20591
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "within": 0.990925,
+            "cross": 0.966388,
+            "diff": 0.024537
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "within": 0.996662,
+            "cross": 0.684416,
+            "diff": 0.312246
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "within": 0.812443,
+            "cross": 0.713772,
+            "diff": 0.098672
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "within": 0.980162,
+            "cross": 0.957671,
+            "diff": 0.022491
+          },
+          {
+            "model": "gpt-oss-120b",
+            "within": 0.873108,
+            "cross": 0.905124,
+            "diff": -0.032017
+          },
+          {
+            "model": "gpt-oss-20b",
+            "within": 0.709593,
+            "cross": 0.761328,
+            "diff": -0.051735
+          }
+        ],
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.103565,
+          "p_one_sided": 0.046875,
+          "p_two_sided": 0.09375,
+          "n_permutations": 256
+        },
+        "bootstrap_95ci": {
+          "mean": 0.103565,
+          "ci_lower": 0.016211,
+          "ci_upper": 0.194549,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      },
+      "bfi_traits": {
+        "n_models": 8,
+        "within_mean": 0.886572,
+        "cross_mean": 0.725522,
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "within": 0.977051,
+            "cross": 0.826804,
+            "diff": 0.150247
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "within": 1.0,
+            "cross": 0.76476,
+            "diff": 0.23524
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "within": 0.747776,
+            "cross": 0.814574,
+            "diff": -0.066798
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "within": 0.977051,
+            "cross": 0.59257,
+            "diff": 0.384481
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "within": 0.782986,
+            "cross": 0.596338,
+            "diff": 0.186647
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "within": 1.0,
+            "cross": 0.720942,
+            "diff": 0.279058
+          },
+          {
+            "model": "gpt-oss-120b",
+            "within": 0.870623,
+            "cross": 0.672289,
+            "diff": 0.198334
+          },
+          {
+            "model": "gpt-oss-20b",
+            "within": 0.737089,
+            "cross": 0.815896,
+            "diff": -0.078807
+          }
+        ],
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.16105,
+          "p_one_sided": 0.015625,
+          "p_two_sided": 0.03125,
+          "n_permutations": 256
+        },
+        "bootstrap_95ci": {
+          "mean": 0.16105,
+          "ci_lower": 0.053896,
+          "ci_upper": 0.259208,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      },
+      "overall": {
+        "n_observations": 16,
+        "sign_flip_permutation_test": {
+          "observed_mean_diff": 0.132308,
+          "p_one_sided": 0.001694,
+          "p_two_sided": 0.003387,
+          "n_permutations": 65536
+        },
+        "bootstrap_95ci": {
+          "mean": 0.132308,
+          "ci_lower": 0.061715,
+          "ci_upper": 0.201242,
+          "n_bootstrap": 10000,
+          "alpha": 0.05
+        }
+      }
+    }
+  },
+  "summary_tables": {
+    "spearman_rho": {
+      "ecological_vs_established": {
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "PVQ_pvq_values": 0.717329,
+            "PVQ21_pvq_values": 0.635912,
+            "PVQ_higher_order_values": 1.0,
+            "PVQ21_higher_order_values": 1.0,
+            "BFI44_bfi_traits": 0.7,
+            "BFI10_bfi_traits": 0.9,
+            "average_rho": 0.82554
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "PVQ_pvq_values": 0.451228,
+            "PVQ21_pvq_values": 0.402224,
+            "PVQ_higher_order_values": 0.8,
+            "PVQ21_higher_order_values": 0.4,
+            "BFI44_bfi_traits": 0.410391,
+            "BFI10_bfi_traits": 0.67082,
+            "average_rho": 0.522444
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "PVQ_pvq_values": 0.51672,
+            "PVQ21_pvq_values": 0.460157,
+            "PVQ_higher_order_values": 0.8,
+            "PVQ21_higher_order_values": 0.8,
+            "BFI44_bfi_traits": 0.9,
+            "BFI10_bfi_traits": 0.051299,
+            "average_rho": 0.588029
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "PVQ_pvq_values": -0.084046,
+            "PVQ21_pvq_values": -0.096937,
+            "PVQ_higher_order_values": 0.6,
+            "PVQ21_higher_order_values": 0.737865,
+            "BFI44_bfi_traits": -0.5,
+            "BFI10_bfi_traits": -0.67082,
+            "average_rho": -0.002323
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "PVQ_pvq_values": 0.261399,
+            "PVQ21_pvq_values": 0.337449,
+            "PVQ_higher_order_values": 0.8,
+            "PVQ21_higher_order_values": 0.8,
+            "BFI44_bfi_traits": -0.5,
+            "BFI10_bfi_traits": -0.8,
+            "average_rho": 0.149808
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "PVQ_pvq_values": 0.103344,
+            "PVQ21_pvq_values": 0.237809,
+            "PVQ_higher_order_values": 0.8,
+            "PVQ21_higher_order_values": 0.8,
+            "BFI44_bfi_traits": 0.3,
+            "BFI10_bfi_traits": 0.3,
+            "average_rho": 0.423525
+          },
+          {
+            "model": "gpt-oss-120b",
+            "PVQ_pvq_values": 0.267478,
+            "PVQ21_pvq_values": 0.36199,
+            "PVQ_higher_order_values": 0.2,
+            "PVQ21_higher_order_values": 0.4,
+            "BFI44_bfi_traits": 0.2,
+            "BFI10_bfi_traits": 0.1,
+            "average_rho": 0.254911
+          },
+          {
+            "model": "gpt-oss-20b",
+            "PVQ_pvq_values": 0.261399,
+            "PVQ21_pvq_values": -0.106646,
+            "PVQ_higher_order_values": 0.8,
+            "PVQ21_higher_order_values": 0.316228,
+            "BFI44_bfi_traits": 0.6,
+            "BFI10_bfi_traits": 0.359092,
+            "average_rho": 0.371679
+          }
+        ],
+        "per_comparison_avg": {
+          "BFI10_bfi_traits": 0.113799,
+          "BFI44_bfi_traits": 0.263799,
+          "PVQ21_higher_order_values": 0.656762,
+          "PVQ21_pvq_values": 0.278995,
+          "PVQ_higher_order_values": 0.725,
+          "PVQ_pvq_values": 0.311856
+        }
+      },
+      "established_baselines": {
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "PVQ_vs_PVQ21_pvq_values": 0.89794,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.9
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "PVQ_vs_PVQ21_pvq_values": 0.460166,
+            "PVQ_vs_PVQ21_higher_order_values": 0.8,
+            "BFI44_vs_BFI10_bfi_traits": 0.917663
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "PVQ_vs_PVQ21_pvq_values": 0.670798,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.205196
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "PVQ_vs_PVQ21_pvq_values": 0.851112,
+            "PVQ_vs_PVQ21_higher_order_values": 0.948683,
+            "BFI44_vs_BFI10_bfi_traits": 0.894427
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "PVQ_vs_PVQ21_pvq_values": 0.935424,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.7
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "PVQ_vs_PVQ21_pvq_values": 0.880738,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 1.0
+          },
+          {
+            "model": "gpt-oss-120b",
+            "PVQ_vs_PVQ21_pvq_values": 0.812342,
+            "PVQ_vs_PVQ21_higher_order_values": 0.8,
+            "BFI44_vs_BFI10_bfi_traits": 0.9
+          },
+          {
+            "model": "gpt-oss-20b",
+            "PVQ_vs_PVQ21_pvq_values": 0.424738,
+            "PVQ_vs_PVQ21_higher_order_values": 0.316228,
+            "BFI44_vs_BFI10_bfi_traits": 0.666886
+          }
+        ],
+        "per_comparison_avg": {
+          "BFI44_vs_BFI10_bfi_traits": 0.773022,
+          "PVQ_vs_PVQ21_higher_order_values": 0.858114,
+          "PVQ_vs_PVQ21_pvq_values": 0.741657
+        }
+      }
+    },
+    "ndcg": {
+      "ecological_vs_established": {
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "PVQ_pvq_values": 0.749974,
+            "PVQ21_pvq_values": 0.749795,
+            "PVQ_higher_order_values": 1.0,
+            "PVQ21_higher_order_values": 1.0,
+            "BFI44_bfi_traits": 0.782986,
+            "BFI10_bfi_traits": 0.870623,
+            "average_ndcg": 0.858896
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "PVQ_pvq_values": 0.741931,
+            "PVQ21_pvq_values": 0.662744,
+            "PVQ_higher_order_values": 0.861688,
+            "PVQ21_higher_order_values": 0.767999,
+            "BFI44_bfi_traits": 0.76476,
+            "BFI10_bfi_traits": 0.76476,
+            "average_ndcg": 0.760647
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "PVQ_pvq_values": 0.965937,
+            "PVQ21_pvq_values": 0.966839,
+            "PVQ_higher_order_values": 0.993505,
+            "PVQ21_higher_order_values": 0.993505,
+            "BFI44_bfi_traits": 0.977051,
+            "BFI10_bfi_traits": 0.652096,
+            "average_ndcg": 0.924822
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "PVQ_pvq_values": 0.687598,
+            "PVQ21_pvq_values": 0.681234,
+            "PVQ_higher_order_values": 0.855194,
+            "PVQ21_higher_order_values": 0.855194,
+            "BFI44_bfi_traits": 0.61396,
+            "BFI10_bfi_traits": 0.57118,
+            "average_ndcg": 0.710727
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "PVQ_pvq_values": 0.655385,
+            "PVQ21_pvq_values": 0.772158,
+            "PVQ_higher_order_values": 0.975467,
+            "PVQ21_higher_order_values": 0.975467,
+            "BFI44_bfi_traits": 0.620011,
+            "BFI10_bfi_traits": 0.572666,
+            "average_ndcg": 0.761859
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "PVQ_pvq_values": 0.95533,
+            "PVQ21_pvq_values": 0.960012,
+            "PVQ_higher_order_values": 0.861688,
+            "PVQ21_higher_order_values": 0.861688,
+            "BFI44_bfi_traits": 0.720942,
+            "BFI10_bfi_traits": 0.720942,
+            "average_ndcg": 0.846767
+          },
+          {
+            "model": "gpt-oss-120b",
+            "PVQ_pvq_values": 0.842331,
+            "PVQ21_pvq_values": 0.967918,
+            "PVQ_higher_order_values": 0.943715,
+            "PVQ21_higher_order_values": 0.956705,
+            "BFI44_bfi_traits": 0.68444,
+            "BFI10_bfi_traits": 0.660139,
+            "average_ndcg": 0.842541
+          },
+          {
+            "model": "gpt-oss-20b",
+            "PVQ_pvq_values": 0.883659,
+            "PVQ21_pvq_values": 0.638998,
+            "PVQ_higher_order_values": 0.975467,
+            "PVQ21_higher_order_values": 0.767999,
+            "BFI44_bfi_traits": 0.947351,
+            "BFI10_bfi_traits": 0.68444,
+            "average_ndcg": 0.816319
+          }
+        ],
+        "per_comparison_avg": {
+          "BFI10_bfi_traits": 0.687106,
+          "BFI44_bfi_traits": 0.763938,
+          "PVQ21_higher_order_values": 0.89732,
+          "PVQ21_pvq_values": 0.799962,
+          "PVQ_higher_order_values": 0.933341,
+          "PVQ_pvq_values": 0.810268
+        }
+      },
+      "established_baselines": {
+        "per_model": [
+          {
+            "model": "Qwen2.5-72B-Instruct",
+            "PVQ_vs_PVQ21_pvq_values": 0.998301,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.977051
+          },
+          {
+            "model": "Qwen2.5-7B-Instruct",
+            "PVQ_vs_PVQ21_pvq_values": 0.908248,
+            "PVQ_vs_PVQ21_higher_order_values": 0.975467,
+            "BFI44_vs_BFI10_bfi_traits": 1.0
+          },
+          {
+            "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+            "PVQ_vs_PVQ21_pvq_values": 0.990925,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.747776
+          },
+          {
+            "model": "Qwen3-30B-A3B-Instruct-2507",
+            "PVQ_vs_PVQ21_pvq_values": 0.996662,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.977051
+          },
+          {
+            "model": "gemma-3-27b-it",
+            "PVQ_vs_PVQ21_pvq_values": 0.812443,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 0.782986
+          },
+          {
+            "model": "gemma-3-4b-it",
+            "PVQ_vs_PVQ21_pvq_values": 0.980162,
+            "PVQ_vs_PVQ21_higher_order_values": 1.0,
+            "BFI44_vs_BFI10_bfi_traits": 1.0
+          },
+          {
+            "model": "gpt-oss-120b",
+            "PVQ_vs_PVQ21_pvq_values": 0.873108,
+            "PVQ_vs_PVQ21_higher_order_values": 0.975467,
+            "BFI44_vs_BFI10_bfi_traits": 0.870623
+          },
+          {
+            "model": "gpt-oss-20b",
+            "PVQ_vs_PVQ21_pvq_values": 0.709593,
+            "PVQ_vs_PVQ21_higher_order_values": 0.718932,
+            "BFI44_vs_BFI10_bfi_traits": 0.737089
+          }
+        ],
+        "per_comparison_avg": {
+          "BFI44_vs_BFI10_bfi_traits": 0.886572,
+          "PVQ_vs_PVQ21_higher_order_values": 0.958733,
+          "PVQ_vs_PVQ21_pvq_values": 0.90868
+        }
+      }
+    }
+  }
+}

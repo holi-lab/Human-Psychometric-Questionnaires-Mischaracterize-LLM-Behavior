@@ -1,0 +1,853 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "format": "plain",
+  "scoring": "constrained_logprob_digit",
+  "timestamp": "2026-07-14T02:54:19.894119+00:00",
+  "num_items": 40,
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "When they take on a task, they would rather work out their own way of doing it than follow how it was done before. They often sketch out possibilities that nobody around them has suggested.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.7439,
+        "final_score_argmax": 3,
+        "final_score": 3.7439,
+        "digit_prob_mass": 0.9918
+      },
+      "2": {
+        "content": "It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.3642,
+        "final_score_argmax": 3,
+        "final_score": 3.3642,
+        "digit_prob_mass": 0.9902
+      },
+      "3": {
+        "content": "It bothers them when a child born in one neighborhood gets chances that a child born a few streets away will never see. They think the same doors should open for everyone, everywhere.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9931,
+        "final_score_argmax": 4,
+        "final_score": 3.9931,
+        "digit_prob_mass": 0.9879
+      },
+      "4": {
+        "content": "When they finish a difficult piece of work, they make sure the people who matter get to see it. Hearing others talk about what they have pulled off makes their day.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.0869,
+        "final_score_argmax": 4,
+        "final_score": 4.0869,
+        "digit_prob_mass": 0.994
+      },
+      "5": {
+        "content": "They double-check the locks before bed and prefer streets where nothing much ever happens. They stay away from shortcuts through areas they don't know.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1559,
+        "final_score_argmax": 3,
+        "final_score": 3.1559,
+        "digit_prob_mass": 0.9925
+      },
+      "6": {
+        "content": "Their weekends rarely look the same twice — one month a pottery class, the next a road trip. If a menu lists a dish they can't pronounce, that's the one they order.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.6964,
+        "final_score_argmax": 3,
+        "final_score": 3.6964,
+        "digit_prob_mass": 0.9937
+      },
+      "7": {
+        "content": "They stop at the red light at an empty intersection at 3 a.m. and wait for it to change. When a supervisor gives an instruction, they carry it out without arguing.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.2216,
+        "final_score_argmax": 3,
+        "final_score": 3.2216,
+        "digit_prob_mass": 0.992
+      },
+      "8": {
+        "content": "At a gathering, they sit down next to the person whose views clash with their own and ask questions instead of walking away. They want to hear the full story before making up their mind about anyone.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1102,
+        "final_score_argmax": 4,
+        "final_score": 4.1102,
+        "digit_prob_mass": 0.993
+      },
+      "9": {
+        "content": "Once their needs are met, they stop chasing a bigger house or a better job title. In their eyes, someone who keeps wanting more has missed the point.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.3522,
+        "final_score_argmax": 3,
+        "final_score": 3.3522,
+        "digit_prob_mass": 0.9916
+      },
+      "10": {
+        "content": "If there is a party on Friday and a long lunch on Sunday, they will be at both. Given a free afternoon, they spend it on whatever feels best in the moment.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.6496,
+        "final_score_argmax": 3,
+        "final_score": 3.6496,
+        "digit_prob_mass": 0.9939
+      },
+      "11": {
+        "content": "They would turn down a well-paid job if someone else got to set their schedule. Nobody fills in their calendar but them.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.6344,
+        "final_score_argmax": 3,
+        "final_score": 3.6344,
+        "digit_prob_mass": 0.9927
+      },
+      "12": {
+        "content": "When a friend is moving apartments or stranded at the airport, they are the first phone call. They keep an eye on how the people in their circle are holding up.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.3708,
+        "final_score_argmax": 5,
+        "final_score": 4.3708,
+        "digit_prob_mass": 0.993
+      },
+      "13": {
+        "content": "They want their name near the top when the results are posted. It matters to them that others raise their eyebrows at what they have done.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.6327,
+        "final_score_argmax": 3,
+        "final_score": 3.6327,
+        "digit_prob_mass": 0.9919
+      },
+      "14": {
+        "content": "They follow news about border incidents closely and want more spending on the army and the police. Groups that could stir up trouble from within make them uneasy.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9429,
+        "final_score_argmax": 3,
+        "final_score": 2.9429,
+        "digit_prob_mass": 0.9913
+      },
+      "15": {
+        "content": "They sign up for the cliff jump while the others watch from the shore. A plan with an uncertain ending draws them more than one with a guaranteed outcome.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9389,
+        "final_score_argmax": 4,
+        "final_score": 3.9389,
+        "digit_prob_mass": 0.994
+      },
+      "16": {
+        "content": "Before doing anything, they ask themselves what the people around them would make of it. They would rather pass up something they wanted than give the neighbors a reason to talk.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1611,
+        "final_score_argmax": 3,
+        "final_score": 3.1611,
+        "digit_prob_mass": 0.9912
+      },
+      "17": {
+        "content": "In any group project, they end up assigning the tasks and setting the deadlines. Things go smoother, they feel, when everyone else simply follows their plan.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.4133,
+        "final_score_argmax": 3,
+        "final_score": 3.4133,
+        "digit_prob_mass": 0.9916
+      },
+      "18": {
+        "content": "If someone they have known for years calls at midnight, they get in the car. The handful of people they grew up with can count on them for anything.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.3844,
+        "final_score_argmax": 5,
+        "final_score": 4.3844,
+        "digit_prob_mass": 0.9918
+      },
+      "19": {
+        "content": "They sort their recycling, cycle instead of driving when they can, and give money to groups that replant forests. A riverbank covered in plastic bags genuinely upsets them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.3072,
+        "final_score_argmax": 5,
+        "final_score": 4.3072,
+        "digit_prob_mass": 0.9946
+      },
+      "20": {
+        "content": "They set aside time every week to attend services, and they keep the fasts and observances they were raised with. Before big decisions, they pray.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.7012,
+        "final_score_argmax": 3,
+        "final_score": 3.7012,
+        "digit_prob_mass": 0.9938
+      },
+      "21": {
+        "content": "Every jar in their kitchen has a label, and every shirt in the closet faces the same way. A sink of dishes left overnight bothers them more than they would like to admit.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1268,
+        "final_score_argmax": 3,
+        "final_score": 3.1268,
+        "digit_prob_mass": 0.9914
+      },
+      "22": {
+        "content": "An offhand question about how bridges stay up can cost them an evening of reading. They ask 'why' more often than most adults they know.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.384,
+        "final_score_argmax": 3,
+        "final_score": 3.384,
+        "digit_prob_mass": 0.993
+      },
+      "23": {
+        "content": "News of a ceasefire anywhere on the globe makes their week. They give to organizations that bring together groups who have been fighting for generations.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9246,
+        "final_score_argmax": 3,
+        "final_score": 2.9246,
+        "digit_prob_mass": 0.9935
+      },
+      "24": {
+        "content": "They set targets that make other people whistle, and then chase them down. When a hard problem has beaten everyone else, they volunteer — partly so everyone can watch them solve it.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8285,
+        "final_score_argmax": 4,
+        "final_score": 3.8285,
+        "digit_prob_mass": 0.9913
+      },
+      "25": {
+        "content": "They cook the dishes their grandmother cooked, the same way, on the same dates every year. If something has been done a certain way for generations, they see no reason to change it.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.5829,
+        "final_score_argmax": 3,
+        "final_score": 3.5829,
+        "digit_prob_mass": 0.9912
+      },
+      "26": {
+        "content": "They book the massage, order the dessert, and run the long bath without a second thought. Treating themselves well is a fixed line in their budget, not an afterthought.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.5096,
+        "final_score_argmax": 5,
+        "final_score": 4.5096,
+        "digit_prob_mass": 0.995
+      },
+      "27": {
+        "content": "When someone in their circle is short on rent or buried in work, they quietly step in. People around them have learned that asking once is enough.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1068,
+        "final_score_argmax": 4,
+        "final_score": 4.1068,
+        "digit_prob_mass": 0.9924
+      },
+      "28": {
+        "content": "They still answer their father with 'sir' and would never contradict a grandparent at the table. When someone senior asks them to do something, they do it without argument.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.0525,
+        "final_score_argmax": 3,
+        "final_score": 3.0525,
+        "digit_prob_mass": 0.9926
+      },
+      "29": {
+        "content": "They speak up when a stranger is being shortchanged, not only when it happens to a friend. They give time and money to shelters and legal-aid clinics for people who cannot push back on their own.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1623,
+        "final_score_argmax": 4,
+        "final_score": 4.1623,
+        "digit_prob_mass": 0.9926
+      },
+      "30": {
+        "content": "They would rather open an unmarked envelope than be told what is inside. A year in which nothing unexpected happened would feel like a year lost.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.4919,
+        "final_score_argmax": 3,
+        "final_score": 3.4919,
+        "digit_prob_mass": 0.9922
+      },
+      "31": {
+        "content": "They book every recommended check-up, keep sanitizer in the car, and go to bed early when something is going around. Their medicine cabinet is stocked before anyone sneezes.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.3394,
+        "final_score_argmax": 5,
+        "final_score": 4.3394,
+        "digit_prob_mass": 0.994
+      },
+      "32": {
+        "content": "They keep track of where they stand against the people they started out with — pay, title, results — and second place stings. Each year they aim to be a rung above last year.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.5022,
+        "final_score_argmax": 3,
+        "final_score": 3.5022,
+        "digit_prob_mass": 0.9927
+      },
+      "33": {
+        "content": "After a friend let them down badly, they still showed up at his birthday a month later. They would rather remember the good years than replay one bad evening.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.7666,
+        "final_score_argmax": 3,
+        "final_score": 3.7666,
+        "digit_prob_mass": 0.9926
+      },
+      "34": {
+        "content": "They fixed the leaking pipe with a video tutorial rather than call their brother-in-law. Handing their affairs over to someone else makes them uncomfortable.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.2514,
+        "final_score_argmax": 3,
+        "final_score": 3.2514,
+        "digit_prob_mass": 0.9936
+      },
+      "35": {
+        "content": "They vote for candidates who promise continuity rather than upheaval. Strikes, sudden reforms, and street protests make them uneasy about where the country is heading.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.0552,
+        "final_score_argmax": 3,
+        "final_score": 3.0552,
+        "digit_prob_mass": 0.9908
+      },
+      "36": {
+        "content": "They apologize when someone else bumps into them, and keep their music low even at midday. They would take the longer hallway rather than walk between two people talking.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.4614,
+        "final_score_argmax": 3,
+        "final_score": 3.4614,
+        "digit_prob_mass": 0.9931
+      },
+      "37": {
+        "content": "Their calendar fills with dinners, festivals, and weekends away before anything else gets a slot. If an evening ends with cheeks sore from laughing, it counted.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.0601,
+        "final_score_argmax": 4,
+        "final_score": 4.0601,
+        "digit_prob_mass": 0.9942
+      },
+      "38": {
+        "content": "When their project wins, they nudge a teammate forward to collect the prize. They pick the seat at the back of the room and change the subject when the conversation turns to them.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9064,
+        "final_score_argmax": 3,
+        "final_score": 2.9064,
+        "digit_prob_mass": 0.9917
+      },
+      "39": {
+        "content": "When the group cannot settle on a restaurant, they name one, and everyone goes. Committees they join tend to end up with them holding the gavel — which suits them fine.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8554,
+        "final_score_argmax": 4,
+        "final_score": 3.8554,
+        "digit_prob_mass": 0.9916
+      },
+      "40": {
+        "content": "They would rather a footpath bend around an old oak than the oak be cut for a straighter path. When they camp, they leave the clearing exactly as they found it.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.6461,
+        "final_score_argmax": 3,
+        "final_score": 3.6461,
+        "digit_prob_mass": 0.9912
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "When they take on a task, they would rather work out their own way of doing it than follow how it was done before. They often sketch out possibilities that nobody around them has suggested.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6584,
+        "final_score_argmax": 4,
+        "final_score": 3.6584,
+        "digit_prob_mass": 0.9911
+      },
+      "2": {
+        "content": "It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7923,
+        "final_score_argmax": 4,
+        "final_score": 3.7923,
+        "digit_prob_mass": 0.991
+      },
+      "3": {
+        "content": "It bothers them when a child born in one neighborhood gets chances that a child born a few streets away will never see. They think the same doors should open for everyone, everywhere.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6665,
+        "final_score_argmax": 4,
+        "final_score": 3.6665,
+        "digit_prob_mass": 0.9881
+      },
+      "4": {
+        "content": "When they finish a difficult piece of work, they make sure the people who matter get to see it. Hearing others talk about what they have pulled off makes their day.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7244,
+        "final_score_argmax": 4,
+        "final_score": 3.7244,
+        "digit_prob_mass": 0.9931
+      },
+      "5": {
+        "content": "They double-check the locks before bed and prefer streets where nothing much ever happens. They stay away from shortcuts through areas they don't know.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8226,
+        "final_score_argmax": 4,
+        "final_score": 3.8226,
+        "digit_prob_mass": 0.9928
+      },
+      "6": {
+        "content": "Their weekends rarely look the same twice — one month a pottery class, the next a road trip. If a menu lists a dish they can't pronounce, that's the one they order.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7792,
+        "final_score_argmax": 4,
+        "final_score": 3.7792,
+        "digit_prob_mass": 0.9941
+      },
+      "7": {
+        "content": "They stop at the red light at an empty intersection at 3 a.m. and wait for it to change. When a supervisor gives an instruction, they carry it out without arguing.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8779,
+        "final_score_argmax": 4,
+        "final_score": 3.8779,
+        "digit_prob_mass": 0.9917
+      },
+      "8": {
+        "content": "At a gathering, they sit down next to the person whose views clash with their own and ask questions instead of walking away. They want to hear the full story before making up their mind about anyone.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.4516,
+        "final_score_argmax": 4,
+        "final_score": 3.4516,
+        "digit_prob_mass": 0.9924
+      },
+      "9": {
+        "content": "Once their needs are met, they stop chasing a bigger house or a better job title. In their eyes, someone who keeps wanting more has missed the point.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7493,
+        "final_score_argmax": 4,
+        "final_score": 3.7493,
+        "digit_prob_mass": 0.9911
+      },
+      "10": {
+        "content": "If there is a party on Friday and a long lunch on Sunday, they will be at both. Given a free afternoon, they spend it on whatever feels best in the moment.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7241,
+        "final_score_argmax": 4,
+        "final_score": 3.7241,
+        "digit_prob_mass": 0.9932
+      },
+      "11": {
+        "content": "They would turn down a well-paid job if someone else got to set their schedule. Nobody fills in their calendar but them.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7049,
+        "final_score_argmax": 4,
+        "final_score": 3.7049,
+        "digit_prob_mass": 0.9922
+      },
+      "12": {
+        "content": "When a friend is moving apartments or stranded at the airport, they are the first phone call. They keep an eye on how the people in their circle are holding up.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.4851,
+        "final_score_argmax": 4,
+        "final_score": 3.4851,
+        "digit_prob_mass": 0.992
+      },
+      "13": {
+        "content": "They want their name near the top when the results are posted. It matters to them that others raise their eyebrows at what they have done.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8681,
+        "final_score_argmax": 4,
+        "final_score": 3.8681,
+        "digit_prob_mass": 0.9928
+      },
+      "14": {
+        "content": "They follow news about border incidents closely and want more spending on the army and the police. Groups that could stir up trouble from within make them uneasy.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9714,
+        "final_score_argmax": 4,
+        "final_score": 3.9714,
+        "digit_prob_mass": 0.9919
+      },
+      "15": {
+        "content": "They sign up for the cliff jump while the others watch from the shore. A plan with an uncertain ending draws them more than one with a guaranteed outcome.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7125,
+        "final_score_argmax": 4,
+        "final_score": 3.7125,
+        "digit_prob_mass": 0.993
+      },
+      "16": {
+        "content": "Before doing anything, they ask themselves what the people around them would make of it. They would rather pass up something they wanted than give the neighbors a reason to talk.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7742,
+        "final_score_argmax": 4,
+        "final_score": 3.7742,
+        "digit_prob_mass": 0.9908
+      },
+      "17": {
+        "content": "In any group project, they end up assigning the tasks and setting the deadlines. Things go smoother, they feel, when everyone else simply follows their plan.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7817,
+        "final_score_argmax": 4,
+        "final_score": 3.7817,
+        "digit_prob_mass": 0.9914
+      },
+      "18": {
+        "content": "If someone they have known for years calls at midnight, they get in the car. The handful of people they grew up with can count on them for anything.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5389,
+        "final_score_argmax": 4,
+        "final_score": 3.5389,
+        "digit_prob_mass": 0.9907
+      },
+      "19": {
+        "content": "They sort their recycling, cycle instead of driving when they can, and give money to groups that replant forests. A riverbank covered in plastic bags genuinely upsets them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.3654,
+        "final_score_argmax": 4,
+        "final_score": 3.3654,
+        "digit_prob_mass": 0.9944
+      },
+      "20": {
+        "content": "They set aside time every week to attend services, and they keep the fasts and observances they were raised with. Before big decisions, they pray.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8436,
+        "final_score_argmax": 4,
+        "final_score": 3.8436,
+        "digit_prob_mass": 0.9926
+      },
+      "21": {
+        "content": "Every jar in their kitchen has a label, and every shirt in the closet faces the same way. A sink of dishes left overnight bothers them more than they would like to admit.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9675,
+        "final_score_argmax": 4,
+        "final_score": 3.9675,
+        "digit_prob_mass": 0.9916
+      },
+      "22": {
+        "content": "An offhand question about how bridges stay up can cost them an evening of reading. They ask 'why' more often than most adults they know.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9418,
+        "final_score_argmax": 4,
+        "final_score": 3.9418,
+        "digit_prob_mass": 0.9934
+      },
+      "23": {
+        "content": "News of a ceasefire anywhere on the globe makes their week. They give to organizations that bring together groups who have been fighting for generations.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7956,
+        "final_score_argmax": 4,
+        "final_score": 3.7956,
+        "digit_prob_mass": 0.9947
+      },
+      "24": {
+        "content": "They set targets that make other people whistle, and then chase them down. When a hard problem has beaten everyone else, they volunteer — partly so everyone can watch them solve it.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8002,
+        "final_score_argmax": 4,
+        "final_score": 3.8002,
+        "digit_prob_mass": 0.9915
+      },
+      "25": {
+        "content": "They cook the dishes their grandmother cooked, the same way, on the same dates every year. If something has been done a certain way for generations, they see no reason to change it.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.681,
+        "final_score_argmax": 4,
+        "final_score": 3.681,
+        "digit_prob_mass": 0.9909
+      },
+      "26": {
+        "content": "They book the massage, order the dessert, and run the long bath without a second thought. Treating themselves well is a fixed line in their budget, not an afterthought.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5323,
+        "final_score_argmax": 4,
+        "final_score": 3.5323,
+        "digit_prob_mass": 0.9938
+      },
+      "27": {
+        "content": "When someone in their circle is short on rent or buried in work, they quietly step in. People around them have learned that asking once is enough.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5091,
+        "final_score_argmax": 4,
+        "final_score": 3.5091,
+        "digit_prob_mass": 0.9912
+      },
+      "28": {
+        "content": "They still answer their father with 'sir' and would never contradict a grandparent at the table. When someone senior asks them to do something, they do it without argument.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6127,
+        "final_score_argmax": 4,
+        "final_score": 3.6127,
+        "digit_prob_mass": 0.9938
+      },
+      "29": {
+        "content": "They speak up when a stranger is being shortchanged, not only when it happens to a friend. They give time and money to shelters and legal-aid clinics for people who cannot push back on their own.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.4758,
+        "final_score_argmax": 4,
+        "final_score": 3.4758,
+        "digit_prob_mass": 0.9917
+      },
+      "30": {
+        "content": "They would rather open an unmarked envelope than be told what is inside. A year in which nothing unexpected happened would feel like a year lost.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8265,
+        "final_score_argmax": 4,
+        "final_score": 3.8265,
+        "digit_prob_mass": 0.9908
+      },
+      "31": {
+        "content": "They book every recommended check-up, keep sanitizer in the car, and go to bed early when something is going around. Their medicine cabinet is stocked before anyone sneezes.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.4163,
+        "final_score_argmax": 4,
+        "final_score": 3.4163,
+        "digit_prob_mass": 0.9938
+      },
+      "32": {
+        "content": "They keep track of where they stand against the people they started out with — pay, title, results — and second place stings. Each year they aim to be a rung above last year.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8313,
+        "final_score_argmax": 4,
+        "final_score": 3.8313,
+        "digit_prob_mass": 0.9929
+      },
+      "33": {
+        "content": "After a friend let them down badly, they still showed up at his birthday a month later. They would rather remember the good years than replay one bad evening.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6741,
+        "final_score_argmax": 4,
+        "final_score": 3.6741,
+        "digit_prob_mass": 0.9924
+      },
+      "34": {
+        "content": "They fixed the leaking pipe with a video tutorial rather than call their brother-in-law. Handing their affairs over to someone else makes them uncomfortable.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8947,
+        "final_score_argmax": 4,
+        "final_score": 3.8947,
+        "digit_prob_mass": 0.9936
+      },
+      "35": {
+        "content": "They vote for candidates who promise continuity rather than upheaval. Strikes, sudden reforms, and street protests make them uneasy about where the country is heading.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8588,
+        "final_score_argmax": 4,
+        "final_score": 3.8588,
+        "digit_prob_mass": 0.9918
+      },
+      "36": {
+        "content": "They apologize when someone else bumps into them, and keep their music low even at midday. They would take the longer hallway rather than walk between two people talking.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7508,
+        "final_score_argmax": 4,
+        "final_score": 3.7508,
+        "digit_prob_mass": 0.9917
+      },
+      "37": {
+        "content": "Their calendar fills with dinners, festivals, and weekends away before anything else gets a slot. If an evening ends with cheeks sore from laughing, it counted.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6571,
+        "final_score_argmax": 4,
+        "final_score": 3.6571,
+        "digit_prob_mass": 0.9934
+      },
+      "38": {
+        "content": "When their project wins, they nudge a teammate forward to collect the prize. They pick the seat at the back of the room and change the subject when the conversation turns to them.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8771,
+        "final_score_argmax": 4,
+        "final_score": 3.8771,
+        "digit_prob_mass": 0.9926
+      },
+      "39": {
+        "content": "When the group cannot settle on a restaurant, they name one, and everyone goes. Committees they join tend to end up with them holding the gavel — which suits them fine.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6003,
+        "final_score_argmax": 4,
+        "final_score": 3.6003,
+        "digit_prob_mass": 0.9913
+      },
+      "40": {
+        "content": "They would rather a footpath bend around an old oak than the oak be cut for a straighter path. When they camp, they leave the clearing exactly as they found it.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5959,
+        "final_score_argmax": 4,
+        "final_score": 3.5959,
+        "digit_prob_mass": 0.9908
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 3.7626,
+      "Benevolence": 4.1571,
+      "Conformity": 3.2241,
+      "Hedonism": 4.0731,
+      "Power": 3.5443,
+      "Security": 3.324,
+      "Self-Direction": 3.5034,
+      "Stimulation": 3.7091,
+      "Tradition": 3.3857,
+      "Universalism": 3.8573
+    },
+    "reversed": {
+      "Achievement": 3.806,
+      "Benevolence": 3.5518,
+      "Conformity": 3.7539,
+      "Hedonism": 3.6378,
+      "Power": 3.7248,
+      "Security": 3.8073,
+      "Self-Direction": 3.7999,
+      "Stimulation": 3.7727,
+      "Tradition": 3.7878,
+      "Universalism": 3.5585
+    },
+    "combined": {
+      "Achievement": 3.7843,
+      "Benevolence": 3.8544,
+      "Conformity": 3.489,
+      "Hedonism": 3.8555,
+      "Power": 3.6345,
+      "Security": 3.5656,
+      "Self-Direction": 3.6517,
+      "Stimulation": 3.7409,
+      "Tradition": 3.5867,
+      "Universalism": 3.7079
+    }
+  }
+}

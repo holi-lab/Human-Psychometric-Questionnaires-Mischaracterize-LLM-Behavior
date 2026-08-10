@@ -1,0 +1,89 @@
+{
+  "embedding_model": "all-mpnet-base-v2",
+  "surveys": {
+    "PVQ": {
+      "original": {
+        "by_name": {
+          "n_items": 40,
+          "top1_accuracy": 0.35,
+          "mean_rank": 3.2,
+          "mean_discrimination": 0.12027174318726692,
+          "mean_sim_correct": 0.2668099013157189
+        },
+        "by_definition": {
+          "n_items": 40,
+          "top1_accuracy": 0.775,
+          "mean_rank": 1.575,
+          "mean_discrimination": 0.19234381250054058,
+          "mean_sim_correct": 0.38501514196395875
+        }
+      },
+      "rewritten": {
+        "by_name": {
+          "n_items": 40,
+          "top1_accuracy": 0.325,
+          "mean_rank": 3.8,
+          "mean_discrimination": 0.061726426055732496,
+          "mean_sim_correct": 0.18927957729902117
+        },
+        "by_definition": {
+          "n_items": 40,
+          "top1_accuracy": 0.425,
+          "mean_rank": 2.3,
+          "mean_discrimination": 0.10832301591290161,
+          "mean_sim_correct": 0.24325018571689724
+        }
+      },
+      "semantic_preservation": {
+        "mean_pair_cosine": 0.5038357973098755,
+        "std_pair_cosine": 0.14404205977916718,
+        "min_pair_cosine": 0.23601476848125458,
+        "p10_pair_cosine": 0.3180757462978363,
+        "median_pair_cosine": 0.5142400860786438,
+        "n_below_0.4": 12
+      }
+    },
+    "BFI44": {
+      "original": {
+        "by_name": {
+          "n_items": 44,
+          "top1_accuracy": 0.5227272727272727,
+          "mean_rank": 1.9772727272727273,
+          "mean_discrimination": 0.0694406917636198,
+          "mean_sim_correct": 0.3410767641934482
+        },
+        "by_definition": {
+          "n_items": 44,
+          "top1_accuracy": 0.7727272727272727,
+          "mean_rank": 1.3636363636363635,
+          "mean_discrimination": 0.1278476919092513,
+          "mean_sim_correct": 0.3465437474237247
+        }
+      },
+      "rewritten": {
+        "by_name": {
+          "n_items": 44,
+          "top1_accuracy": 0.4318181818181818,
+          "mean_rank": 2.1363636363636362,
+          "mean_discrimination": 0.03322107440114699,
+          "mean_sim_correct": 0.21230145230550657
+        },
+        "by_definition": {
+          "n_items": 44,
+          "top1_accuracy": 0.4772727272727273,
+          "mean_rank": 1.9545454545454546,
+          "mean_discrimination": 0.053045252345989204,
+          "mean_sim_correct": 0.18361506695774468
+        }
+      },
+      "semantic_preservation": {
+        "mean_pair_cosine": 0.3491929769515991,
+        "std_pair_cosine": 0.1353309154510498,
+        "min_pair_cosine": 0.12841451168060303,
+        "p10_pair_cosine": 0.17587372660636902,
+        "median_pair_cosine": 0.3410872220993042,
+        "n_below_0.4": 27
+      }
+    }
+  }
+}

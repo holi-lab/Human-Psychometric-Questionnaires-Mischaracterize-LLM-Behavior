@@ -1,0 +1,518 @@
+{
+  "embedding_model": "all-mpnet-base-v2",
+  "vp_threshold": 0.3,
+  "construct_recognition": [
+    {
+      "survey": "PVQ",
+      "type": "established",
+      "construct_space": "pvq_values",
+      "by_name": {
+        "n_items": 40,
+        "mean_sim_correct": 0.2668098782654852,
+        "std_sim_correct": 0.14105942948885858,
+        "mean_sim_others": 0.14653815587775573,
+        "mean_discrimination": 0.12027172238772943,
+        "std_discrimination": 0.1491263438838505,
+        "top1_accuracy": 0.35,
+        "mean_rank": 3.2
+      },
+      "by_definition": {
+        "n_items": 40,
+        "mean_sim_correct": 0.3850151401013136,
+        "std_sim_correct": 0.0991795728016635,
+        "mean_sim_others": 0.1926713299821131,
+        "mean_discrimination": 0.1923438101192005,
+        "std_discrimination": 0.09664488918755612,
+        "top1_accuracy": 0.775,
+        "mean_rank": 1.575
+      }
+    },
+    {
+      "survey": "PVQ21",
+      "type": "established",
+      "construct_space": "pvq_values",
+      "by_name": {
+        "n_items": 21,
+        "mean_sim_correct": 0.28033859513345216,
+        "std_sim_correct": 0.1600712312845812,
+        "mean_sim_others": 0.14320453089568272,
+        "mean_discrimination": 0.13713406423776947,
+        "std_discrimination": 0.16970730649657595,
+        "top1_accuracy": 0.42857142857142855,
+        "mean_rank": 3.238095238095238
+      },
+      "by_definition": {
+        "n_items": 21,
+        "mean_sim_correct": 0.40342554166203454,
+        "std_sim_correct": 0.09037508937379937,
+        "mean_sim_others": 0.18691582555966404,
+        "mean_discrimination": 0.2165097161023705,
+        "std_discrimination": 0.09933840300720632,
+        "top1_accuracy": 0.8095238095238095,
+        "mean_rank": 1.4285714285714286
+      }
+    },
+    {
+      "survey": "BFI44",
+      "type": "established",
+      "construct_space": "bfi_traits",
+      "by_name": {
+        "n_items": 44,
+        "mean_sim_correct": 0.3410766971382228,
+        "std_sim_correct": 0.10921953767190463,
+        "mean_sim_others": 0.27163603334602987,
+        "mean_discrimination": 0.06944066379219294,
+        "std_discrimination": 0.08907999755012354,
+        "top1_accuracy": 0.5227272727272727,
+        "mean_rank": 1.9772727272727273
+      },
+      "by_definition": {
+        "n_items": 44,
+        "mean_sim_correct": 0.34654373370788316,
+        "std_sim_correct": 0.12100844586250352,
+        "mean_sim_others": 0.21869603052354333,
+        "mean_discrimination": 0.1278477031843398,
+        "std_discrimination": 0.08472798535357982,
+        "top1_accuracy": 0.7727272727272727,
+        "mean_rank": 1.3636363636363635
+      }
+    },
+    {
+      "survey": "BFI10",
+      "type": "established",
+      "construct_space": "bfi_traits",
+      "by_name": {
+        "n_items": 10,
+        "mean_sim_correct": 0.33156643286347387,
+        "std_sim_correct": 0.11484968000425008,
+        "mean_sim_others": 0.2545344582758844,
+        "mean_discrimination": 0.07703197458758951,
+        "std_discrimination": 0.08633945023931237,
+        "top1_accuracy": 0.6,
+        "mean_rank": 2.0
+      },
+      "by_definition": {
+        "n_items": 10,
+        "mean_sim_correct": 0.32679863199591636,
+        "std_sim_correct": 0.1360915443527096,
+        "mean_sim_others": 0.19980133878998457,
+        "mean_discrimination": 0.12699729320593178,
+        "std_discrimination": 0.08325613085247287,
+        "top1_accuracy": 0.8,
+        "mean_rank": 1.4
+      }
+    },
+    {
+      "survey": "VP (PVQ values)",
+      "type": "ecological",
+      "construct_space": "pvq_values",
+      "by_name": {
+        "n_items": 520,
+        "mean_sim_correct": 0.06704860628210904,
+        "std_sim_correct": 0.09900479891976055,
+        "mean_sim_others": 0.06437096481965696,
+        "mean_discrimination": 0.002677641462452081,
+        "std_discrimination": 0.06599344084616499,
+        "top1_accuracy": 0.10576923076923077,
+        "mean_rank": 5.3865384615384615
+      },
+      "by_definition": {
+        "n_items": 520,
+        "mean_sim_correct": 0.12364178744386524,
+        "std_sim_correct": 0.11391353436148793,
+        "mean_sim_others": 0.121666189041521,
+        "mean_discrimination": 0.0019755984023442238,
+        "std_discrimination": 0.07351926883617672,
+        "top1_accuracy": 0.11153846153846154,
+        "mean_rank": 5.403846153846154
+      }
+    },
+    {
+      "survey": "VP (BFI traits)",
+      "type": "ecological",
+      "construct_space": "bfi_traits",
+      "by_name": {
+        "n_items": 520,
+        "mean_sim_correct": 0.1081479227080798,
+        "std_sim_correct": 0.1071549611304346,
+        "mean_sim_others": 0.09791769187969084,
+        "mean_discrimination": 0.010230230828388953,
+        "std_discrimination": 0.058947187403259785,
+        "top1_accuracy": 0.22884615384615384,
+        "mean_rank": 2.7846153846153845
+      },
+      "by_definition": {
+        "n_items": 520,
+        "mean_sim_correct": 0.11201364994810249,
+        "std_sim_correct": 0.102172676988629,
+        "mean_sim_others": 0.09687589287865334,
+        "mean_discrimination": 0.015137757069449155,
+        "std_discrimination": 0.06462668053783657,
+        "top1_accuracy": 0.25576923076923075,
+        "mean_rank": 2.728846153846154
+      }
+    }
+  ],
+  "lexical_semantic_clustering": [
+    {
+      "n_items": 40,
+      "n_constructs": 10,
+      "n_intra_pairs": 64,
+      "n_inter_pairs": 716,
+      "mean_intra_sim": 0.5639446093700826,
+      "std_intra_sim": 0.143438802166712,
+      "mean_inter_sim": 0.43198126452511915,
+      "std_inter_sim": 0.10939979672367227,
+      "clustering_gap": 0.13196334484496347,
+      "per_construct": {
+        "Achievement": {
+          "mean_intra": 0.6465395788351694,
+          "std_intra": 0.09597219949504097,
+          "n_pairs": 6,
+          "n_items": 4
+        },
+        "Benevolence": {
+          "mean_intra": 0.512387086947759,
+          "std_intra": 0.1182850353394141,
+          "n_pairs": 6,
+          "n_items": 4
+        },
+        "Conformity": {
+          "mean_intra": 0.6130283971627554,
+          "std_intra": 0.10285196196744763,
+          "n_pairs": 6,
+          "n_items": 4
+        },
+        "Hedonism": {
+          "mean_intra": 0.7231618960698446,
+          "std_intra": 0.04596679113610834,
+          "n_pairs": 3,
+          "n_items": 3
+        },
+        "Power": {
+          "mean_intra": 0.5659428437550863,
+          "std_intra": 0.08540943387069803,
+          "n_pairs": 3,
+          "n_items": 3
+        },
+        "Security": {
+          "mean_intra": 0.42647752463817595,
+          "std_intra": 0.15736650667676375,
+          "n_pairs": 10,
+          "n_items": 5
+        },
+        "Self-Direction": {
+          "mean_intra": 0.6307747264703115,
+          "std_intra": 0.08279498988045446,
+          "n_pairs": 6,
+          "n_items": 4
+        },
+        "Stimulation": {
+          "mean_intra": 0.7238066792488098,
+          "std_intra": 0.030876797760746148,
+          "n_pairs": 3,
+          "n_items": 3
+        },
+        "Tradition": {
+          "mean_intra": 0.4378272394339244,
+          "std_intra": 0.10982395592325113,
+          "n_pairs": 6,
+          "n_items": 4
+        },
+        "Universalism": {
+          "mean_intra": 0.5830402215321858,
+          "std_intra": 0.10988928619017377,
+          "n_pairs": 15,
+          "n_items": 6
+        }
+      },
+      "survey": "PVQ",
+      "type": "established"
+    },
+    {
+      "n_items": 21,
+      "n_constructs": 10,
+      "n_intra_pairs": 12,
+      "n_inter_pairs": 198,
+      "mean_intra_sim": 0.5731311117609342,
+      "std_intra_sim": 0.10407386490831554,
+      "mean_inter_sim": 0.4266214302242404,
+      "std_inter_sim": 0.11637360174885004,
+      "clustering_gap": 0.1465096815366938,
+      "per_construct": {
+        "Achievement": {
+          "mean_intra": 0.5734561085700989,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Benevolence": {
+          "mean_intra": 0.47416573762893677,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Conformity": {
+          "mean_intra": 0.5287393927574158,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Hedonism": {
+          "mean_intra": 0.6738786101341248,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Power": {
+          "mean_intra": 0.5368152260780334,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Security": {
+          "mean_intra": 0.6569074392318726,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Self-Direction": {
+          "mean_intra": 0.5615408420562744,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Stimulation": {
+          "mean_intra": 0.8178556561470032,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Tradition": {
+          "mean_intra": 0.5356523990631104,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Universalism": {
+          "mean_intra": 0.5061873098214468,
+          "std_intra": 0.09101405185432071,
+          "n_pairs": 3,
+          "n_items": 3
+        }
+      },
+      "survey": "PVQ21",
+      "type": "established"
+    },
+    {
+      "n_items": 44,
+      "n_constructs": 5,
+      "n_intra_pairs": 173,
+      "n_inter_pairs": 773,
+      "mean_intra_sim": 0.4239931979964923,
+      "std_intra_sim": 0.13902459305861423,
+      "mean_inter_sim": 0.3277255735452857,
+      "std_inter_sim": 0.12850735900855337,
+      "clustering_gap": 0.09626762445120662,
+      "per_construct": {
+        "Agreeableness": {
+          "mean_intra": 0.5026651372512182,
+          "std_intra": 0.11604470783940066,
+          "n_pairs": 36,
+          "n_items": 9
+        },
+        "Conscientiousness": {
+          "mean_intra": 0.45299790965186226,
+          "std_intra": 0.11532646489966174,
+          "n_pairs": 36,
+          "n_items": 9
+        },
+        "Extraversion": {
+          "mean_intra": 0.35972902710948673,
+          "std_intra": 0.14933766661008763,
+          "n_pairs": 28,
+          "n_items": 8
+        },
+        "Neuroticism": {
+          "mean_intra": 0.3742527849972248,
+          "std_intra": 0.15196418333444817,
+          "n_pairs": 28,
+          "n_items": 8
+        },
+        "Openness": {
+          "mean_intra": 0.40878806279765234,
+          "std_intra": 0.12116547752551382,
+          "n_pairs": 45,
+          "n_items": 10
+        }
+      },
+      "survey": "BFI44",
+      "type": "established"
+    },
+    {
+      "n_items": 10,
+      "n_constructs": 5,
+      "n_intra_pairs": 5,
+      "n_inter_pairs": 40,
+      "mean_intra_sim": 0.4126444816589355,
+      "std_intra_sim": 0.1040964700173604,
+      "mean_inter_sim": 0.34064077120274305,
+      "std_inter_sim": 0.14153778483963278,
+      "clustering_gap": 0.07200371045619247,
+      "per_construct": {
+        "Agreeableness": {
+          "mean_intra": 0.4586104452610016,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Conscientiousness": {
+          "mean_intra": 0.4868781566619873,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Extraversion": {
+          "mean_intra": 0.20830294489860535,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Neuroticism": {
+          "mean_intra": 0.47982990741729736,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        },
+        "Openness": {
+          "mean_intra": 0.42960095405578613,
+          "std_intra": 0.0,
+          "n_pairs": 1,
+          "n_items": 2
+        }
+      },
+      "survey": "BFI10",
+      "type": "established"
+    },
+    {
+      "n_items": 520,
+      "n_constructs": 10,
+      "n_intra_pairs": 15166,
+      "n_inter_pairs": 119774,
+      "mean_intra_sim": 0.10644665547278684,
+      "std_intra_sim": 0.12316621951103662,
+      "mean_inter_sim": 0.10696371811901577,
+      "std_inter_sim": 0.12064846145951007,
+      "clustering_gap": -0.0005170626462289302,
+      "per_construct": {
+        "Achievement": {
+          "mean_intra": 0.09901092911413817,
+          "std_intra": 0.12568355385952923,
+          "n_pairs": 2926,
+          "n_items": 77
+        },
+        "Benevolence": {
+          "mean_intra": 0.10198571801717793,
+          "std_intra": 0.12268656717435793,
+          "n_pairs": 630,
+          "n_items": 36
+        },
+        "Conformity": {
+          "mean_intra": 0.12438163283960782,
+          "std_intra": 0.12790054900897377,
+          "n_pairs": 1081,
+          "n_items": 47
+        },
+        "Hedonism": {
+          "mean_intra": 0.1083295808493063,
+          "std_intra": 0.12495443371431383,
+          "n_pairs": 1830,
+          "n_items": 61
+        },
+        "Power": {
+          "mean_intra": 0.10545749439273291,
+          "std_intra": 0.12171475793408004,
+          "n_pairs": 3081,
+          "n_items": 79
+        },
+        "Security": {
+          "mean_intra": 0.11814145160525201,
+          "std_intra": 0.1209090317465288,
+          "n_pairs": 561,
+          "n_items": 34
+        },
+        "Self-Direction": {
+          "mean_intra": 0.10748674418156345,
+          "std_intra": 0.11525696590490783,
+          "n_pairs": 300,
+          "n_items": 25
+        },
+        "Stimulation": {
+          "mean_intra": 0.09966665644844627,
+          "std_intra": 0.11594976168953959,
+          "n_pairs": 3081,
+          "n_items": 79
+        },
+        "Tradition": {
+          "mean_intra": 0.11592639186036162,
+          "std_intra": 0.12406554460449366,
+          "n_pairs": 1081,
+          "n_items": 47
+        },
+        "Universalism": {
+          "mean_intra": 0.12081681001665337,
+          "std_intra": 0.13748250345867133,
+          "n_pairs": 595,
+          "n_items": 35
+        }
+      },
+      "survey": "VP (PVQ values)",
+      "type": "ecological"
+    },
+    {
+      "n_items": 520,
+      "n_constructs": 5,
+      "n_intra_pairs": 31132,
+      "n_inter_pairs": 103808,
+      "mean_intra_sim": 0.10964165238095942,
+      "std_intra_sim": 0.12299724134384882,
+      "mean_inter_sim": 0.1060850650139031,
+      "std_inter_sim": 0.12029641603028639,
+      "clustering_gap": 0.0035565873670563297,
+      "per_construct": {
+        "Agreeableness": {
+          "mean_intra": 0.11516852914461527,
+          "std_intra": 0.12271693505233561,
+          "n_pairs": 13530,
+          "n_items": 165
+        },
+        "Conscientiousness": {
+          "mean_intra": 0.10486126693910496,
+          "std_intra": 0.12302039952074105,
+          "n_pairs": 9591,
+          "n_items": 139
+        },
+        "Extraversion": {
+          "mean_intra": 0.10808301424861168,
+          "std_intra": 0.12332674805088749,
+          "n_pairs": 3655,
+          "n_items": 86
+        },
+        "Neuroticism": {
+          "mean_intra": 0.11239107158984624,
+          "std_intra": 0.13027858086578153,
+          "n_pairs": 1275,
+          "n_items": 51
+        },
+        "Openness": {
+          "mean_intra": 0.10096308926604954,
+          "std_intra": 0.11944445886412969,
+          "n_pairs": 3081,
+          "n_items": 79
+        }
+      },
+      "survey": "VP (BFI traits)",
+      "type": "ecological"
+    }
+  ]
+}

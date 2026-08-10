@@ -1,0 +1,643 @@
+{
+  "correlation_type": "pvq_values",
+  "timestamp": "2026-03-13T00:15:52.127695+00:00",
+  "correlation_threshold": 0.3,
+  "n_permutations": 1000,
+  "seed": 42,
+  "models_used": [
+    "Qwen2.5-72B-Instruct",
+    "Qwen2.5-7B-Instruct",
+    "Qwen3-235B-A22B-Instruct-2507-FP8",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "gemma-3-27b-it",
+    "gemma-3-4b-it",
+    "gpt-oss-120b",
+    "gpt-oss-20b"
+  ],
+  "per_model": {
+    "Qwen2.5-72B-Instruct": {
+      "eta_squared": 0.070276,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.844343,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.079,
+        "eta_squared_null_mean": 0.040751,
+        "eta_squared_null_std": 0.019021,
+        "wmv_p_value": 0.008,
+        "wmv_null_mean": 1.00338,
+        "wmv_null_std": 0.074737
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -196.002083,
+          "z_mean": -0.125694,
+          "z_variance": 0.946367
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -161.76777,
+          "z_mean": 0.696902,
+          "z_variance": 1.319734
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -184.60387,
+          "z_mean": 0.148187,
+          "z_variance": 1.061629
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -204.946795,
+          "z_mean": -0.340622,
+          "z_variance": 1.00731
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -198.213954,
+          "z_mean": -0.178842,
+          "z_variance": 1.398504
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -186.695176,
+          "z_mean": 0.097936,
+          "z_variance": 0.384342
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -178.13857,
+          "z_mean": 0.303538,
+          "z_variance": 0.506772
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -188.232974,
+          "z_mean": 0.060985,
+          "z_variance": 0.965607
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -193.17851,
+          "z_mean": -0.057848,
+          "z_variance": 0.491402
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -170.137641,
+          "z_mean": 0.495788,
+          "z_variance": 0.361764
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "eta_squared": 0.034476,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.888702,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.574,
+        "eta_squared_null_mean": 0.040902,
+        "eta_squared_null_std": 0.018684,
+        "wmv_p_value": 0.036,
+        "wmv_null_mean": 1.002694,
+        "wmv_null_std": 0.070097
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -170.966075,
+          "z_mean": -0.065237,
+          "z_variance": 0.98648
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -149.224665,
+          "z_mean": 0.584062,
+          "z_variance": 1.24711
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -166.756316,
+          "z_mean": 0.060485,
+          "z_variance": 1.06248
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -174.819923,
+          "z_mean": -0.180331,
+          "z_variance": 0.895064
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -172.661071,
+          "z_mean": -0.115858,
+          "z_variance": 1.371172
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -169.79333,
+          "z_mean": -0.030214,
+          "z_variance": 0.480136
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -159.328474,
+          "z_mean": 0.282315,
+          "z_variance": 0.346634
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -166.181632,
+          "z_mean": 0.077648,
+          "z_variance": 1.120521
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -176.778406,
+          "z_mean": -0.238821,
+          "z_variance": 0.530735
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -161.214772,
+          "z_mean": 0.225982,
+          "z_variance": 0.846686
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "eta_squared": 0.048517,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.849126,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.288,
+        "eta_squared_null_mean": 0.039971,
+        "eta_squared_null_std": 0.018689,
+        "wmv_p_value": 0.007,
+        "wmv_null_mean": 1.003284,
+        "wmv_null_std": 0.07099
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -144.794866,
+          "z_mean": -0.063986,
+          "z_variance": 1.071995
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -123.851368,
+          "z_mean": 0.60516,
+          "z_variance": 1.064399
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -142.598694,
+          "z_mean": 0.006181,
+          "z_variance": 1.204534
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -150.929845,
+          "z_mean": -0.26,
+          "z_variance": 1.038894
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -144.2135,
+          "z_mean": -0.045412,
+          "z_variance": 1.201944
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -145.446312,
+          "z_mean": -0.0848,
+          "z_variance": 0.572351
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -138.002616,
+          "z_mean": 0.153027,
+          "z_variance": 0.397318
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -143.957167,
+          "z_mean": -0.037222,
+          "z_variance": 1.170829
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -146.003658,
+          "z_mean": -0.102607,
+          "z_variance": 0.374386
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -125.666868,
+          "z_mean": 0.547155,
+          "z_variance": 0.394606
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "eta_squared": 0.039668,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.944815,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.442,
+        "eta_squared_null_mean": 0.039685,
+        "eta_squared_null_std": 0.018318,
+        "wmv_p_value": 0.247,
+        "wmv_null_mean": 1.000834,
+        "wmv_null_std": 0.074726
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -167.694546,
+          "z_mean": 0.04935,
+          "z_variance": 0.931729
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -153.518039,
+          "z_mean": 0.406922,
+          "z_variance": 1.249792
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -168.884127,
+          "z_mean": 0.019346,
+          "z_variance": 1.40795
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -181.344272,
+          "z_mean": -0.294934,
+          "z_variance": 1.213548
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -167.222631,
+          "z_mean": 0.061253,
+          "z_variance": 1.100757
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -188.181418,
+          "z_mean": -0.467386,
+          "z_variance": 1.018093
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -170.043409,
+          "z_mean": -0.009895,
+          "z_variance": 0.53525
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -167.314675,
+          "z_mean": 0.058932,
+          "z_variance": 0.85692
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -169.512625,
+          "z_mean": 0.003493,
+          "z_variance": 0.446209
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -158.613,
+          "z_mean": 0.278412,
+          "z_variance": 0.687905
+        }
+      }
+    },
+    "gemma-3-27b-it": {
+      "eta_squared": 0.02006,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 1.066284,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.87,
+        "eta_squared_null_mean": 0.038677,
+        "eta_squared_null_std": 0.017475,
+        "wmv_p_value": 0.821,
+        "wmv_null_mean": 1.00341,
+        "wmv_null_std": 0.070757
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -291.833832,
+          "z_mean": -0.03481,
+          "z_variance": 0.712588
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -266.257331,
+          "z_mean": 0.373634,
+          "z_variance": 1.004753
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -294.391815,
+          "z_mean": -0.075659,
+          "z_variance": 0.600738
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -300.019113,
+          "z_mean": -0.165525,
+          "z_variance": 1.482867
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -286.578687,
+          "z_mean": 0.049112,
+          "z_variance": 0.833401
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -296.038019,
+          "z_mean": -0.101948,
+          "z_variance": 0.8733
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -286.499372,
+          "z_mean": 0.050379,
+          "z_variance": 1.121717
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -295.779655,
+          "z_mean": -0.097822,
+          "z_variance": 1.247064
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -273.716796,
+          "z_mean": 0.25451,
+          "z_variance": 1.112357
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -275.02261,
+          "z_mean": 0.233657,
+          "z_variance": 1.674054
+        }
+      }
+    },
+    "gemma-3-4b-it": {
+      "eta_squared": 0.028951,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.977879,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.68,
+        "eta_squared_null_mean": 0.039476,
+        "eta_squared_null_std": 0.017701,
+        "wmv_p_value": 0.335,
+        "wmv_null_mean": 1.004203,
+        "wmv_null_std": 0.063817
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -319.026182,
+          "z_mean": 0.036345,
+          "z_variance": 1.068606
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -304.00232,
+          "z_mean": 0.248869,
+          "z_variance": 1.064477
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -326.352817,
+          "z_mean": -0.067297,
+          "z_variance": 0.833961
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -345.499541,
+          "z_mean": -0.338142,
+          "z_variance": 1.439043
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -317.077795,
+          "z_mean": 0.063906,
+          "z_variance": 0.896708
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -331.230874,
+          "z_mean": -0.136301,
+          "z_variance": 0.805619
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -337.462932,
+          "z_mean": -0.224458,
+          "z_variance": 0.320192
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -311.089227,
+          "z_mean": 0.148619,
+          "z_variance": 0.956366
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -318.972366,
+          "z_mean": 0.037106,
+          "z_variance": 1.135454
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -306.630622,
+          "z_mean": 0.21169,
+          "z_variance": 1.258365
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "eta_squared": 0.02941,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 1.095432,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.687,
+        "eta_squared_null_mean": 0.039497,
+        "eta_squared_null_std": 0.017673,
+        "wmv_p_value": 0.766,
+        "wmv_null_mean": 1.000481,
+        "wmv_null_std": 0.141243
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -201.873872,
+          "z_mean": 0.022798,
+          "z_variance": 0.677536
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -188.257831,
+          "z_mean": 0.29131,
+          "z_variance": 0.523465
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -202.603954,
+          "z_mean": 0.008401,
+          "z_variance": 0.914919
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -212.682977,
+          "z_mean": -0.19036,
+          "z_variance": 1.009061
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -200.115084,
+          "z_mean": 0.057482,
+          "z_variance": 0.843608
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -203.409888,
+          "z_mean": -0.007492,
+          "z_variance": 1.794812
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -213.674603,
+          "z_mean": -0.209915,
+          "z_variance": 0.836988
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -203.253422,
+          "z_mean": -0.004407,
+          "z_variance": 1.411662
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -225.445245,
+          "z_mean": -0.442035,
+          "z_variance": 2.563851
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -183.373341,
+          "z_mean": 0.387633,
+          "z_variance": 0.378419
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "eta_squared": 0.03235,
+      "analytical_baseline_eta_squared": 0.04,
+      "wmv": 0.879816,
+      "N": 226,
+      "K": 10,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.633,
+        "eta_squared_null_mean": 0.040895,
+        "eta_squared_null_std": 0.018577,
+        "wmv_p_value": 0.04,
+        "wmv_null_mean": 1.0023,
+        "wmv_null_std": 0.079507
+      },
+      "construct_details": {
+        "Achievement": {
+          "n_items": 39,
+          "raw_mean": -163.149579,
+          "z_mean": -0.048123,
+          "z_variance": 1.095543
+        },
+        "Benevolence": {
+          "n_items": 11,
+          "raw_mean": -149.152358,
+          "z_mean": 0.405543,
+          "z_variance": 1.083684
+        },
+        "Conformity": {
+          "n_items": 20,
+          "raw_mean": -155.800442,
+          "z_mean": 0.190071,
+          "z_variance": 1.393128
+        },
+        "Hedonism": {
+          "n_items": 30,
+          "raw_mean": -169.765303,
+          "z_mean": -0.262547,
+          "z_variance": 0.835533
+        },
+        "Power": {
+          "n_items": 45,
+          "raw_mean": -165.817817,
+          "z_mean": -0.134604,
+          "z_variance": 1.396054
+        },
+        "Security": {
+          "n_items": 14,
+          "raw_mean": -156.264398,
+          "z_mean": 0.175033,
+          "z_variance": 0.524494
+        },
+        "Self-Direction": {
+          "n_items": 9,
+          "raw_mean": -165.487117,
+          "z_mean": -0.123886,
+          "z_variance": 0.452859
+        },
+        "Stimulation": {
+          "n_items": 34,
+          "raw_mean": -155.912527,
+          "z_mean": 0.186438,
+          "z_variance": 0.963877
+        },
+        "Tradition": {
+          "n_items": 10,
+          "raw_mean": -163.597355,
+          "z_mean": -0.062636,
+          "z_variance": 0.460742
+        },
+        "Universalism": {
+          "n_items": 14,
+          "raw_mean": -160.562866,
+          "z_mean": 0.035715,
+          "z_variance": 0.592246
+        }
+      }
+    }
+  }
+}

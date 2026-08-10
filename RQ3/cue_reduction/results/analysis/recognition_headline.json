@@ -1,0 +1,16 @@
+{
+  "per_survey": {
+    "PVQ": {
+      "mean_f1_cueless": 0.6253,
+      "mean_f1_orig": 0.7019,
+      "mean_f1_vp_reference": 0.0818,
+      "n_models": 8
+    },
+    "BFI44": {
+      "mean_f1_cueless": 0.6789,
+      "mean_f1_orig": 0.8494,
+      "mean_f1_vp_reference": 0.0818,
+      "n_models": 8
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "survey": "BFI44",
+  "survey_type": "bfi",
+  "timestamp": "2026-07-08T17:46:04.851291+00:00",
+  "num_items": 44,
+  "scale": {
+    "disagree strongly": 1,
+    "disagree a little": 2,
+    "neither agree nor disagree": 3,
+    "agree a little": 4,
+    "agree strongly": 5
+  },
+  "cue_removed": true,
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "keeps a conversation going long after others have run out of things to say.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "2": {
+        "content": "usually notices what a colleague got wrong before noticing what they got right.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "3": {
+        "content": "reads a document down to the last page before signing off on it.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "4": {
+        "content": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "5": {
+        "content": "suggests approaches in meetings that nobody else at the table had thought of.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "6": {
+        "content": "lets others do most of the talking at gatherings.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "7": {
+        "content": "gives up a free weekend to move a friend's furniture without being asked twice.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "8": {
+        "content": "sometimes sends the email before noticing the attachment is missing.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "9": {
+        "content": "sleeps soundly the night before a big exam or presentation.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "10": {
+        "content": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "11": {
+        "content": "is still going strong when the rest of the group is ready to head home.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "12": {
+        "content": "turns small disagreements over dinner into raised voices.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "13": {
+        "content": "delivers what was promised on the day it was promised.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "14": {
+        "content": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "15": {
+        "content": "keeps turning a question over long after everyone else has settled for the easy answer.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "16": {
+        "content": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "17": {
+        "content": "meets a friend for coffee a week after that friend let them down badly.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "18": {
+        "content": "hunts for keys, chargers, and paperwork nearly every morning.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "19": {
+        "content": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "20": {
+        "content": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "21": {
+        "content": "can share a long car ride without feeling any need to fill the silence.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "22": {
+        "content": "takes people's stories at face value unless given a clear reason not to.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "23": {
+        "content": "leaves the laundry until there is nothing left to wear.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "24": {
+        "content": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "25": {
+        "content": "rigs a working fix out of spare parts when the proper tool is missing.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "26": {
+        "content": "says plainly at the table what they want and where they stand.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "27": {
+        "content": "answers a coworker's warm greeting with a short nod and keeps walking.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "28": {
+        "content": "stays at the desk until the last box on the list is ticked, even past midnight.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "29": {
+        "content": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "30": {
+        "content": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "31": {
+        "content": "rehearses a sentence twice before saying it to a stranger at a party.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "32": {
+        "content": "remembers the doorman's name and asks how his daughter's exams went.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "33": {
+        "content": "clears in one afternoon what takes others most of a week.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "34": {
+        "content": "was the one giving directions when the fire alarm went off.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "35": {
+        "content": "is happiest when today's tasks look exactly like yesterday's.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "36": {
+        "content": "leaves a party with three new phone numbers.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "37": {
+        "content": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "38": {
+        "content": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "39": {
+        "content": "feels their heart race when the phone rings from an unknown number.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "40": {
+        "content": "can chew on a hypothetical question for the length of a dinner.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "41": {
+        "content": "walks past the gallery to get to the food court.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 4
+      },
+      "42": {
+        "content": "would rather split the work and share the credit than keep both to themselves.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "43": {
+        "content": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "44": {
+        "content": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "keeps a conversation going long after others have run out of things to say.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "2": {
+        "content": "usually notices what a colleague got wrong before noticing what they got right.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "3": {
+        "content": "reads a document down to the last page before signing off on it.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "4": {
+        "content": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "5": {
+        "content": "suggests approaches in meetings that nobody else at the table had thought of.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "6": {
+        "content": "lets others do most of the talking at gatherings.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "7": {
+        "content": "gives up a free weekend to move a friend's furniture without being asked twice.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "8": {
+        "content": "sometimes sends the email before noticing the attachment is missing.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "9": {
+        "content": "sleeps soundly the night before a big exam or presentation.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "10": {
+        "content": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "11": {
+        "content": "is still going strong when the rest of the group is ready to head home.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "12": {
+        "content": "turns small disagreements over dinner into raised voices.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "13": {
+        "content": "delivers what was promised on the day it was promised.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "14": {
+        "content": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "15": {
+        "content": "keeps turning a question over long after everyone else has settled for the easy answer.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "16": {
+        "content": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "17": {
+        "content": "meets a friend for coffee a week after that friend let them down badly.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "18": {
+        "content": "hunts for keys, chargers, and paperwork nearly every morning.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "19": {
+        "content": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "20": {
+        "content": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "21": {
+        "content": "can share a long car ride without feeling any need to fill the silence.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "22": {
+        "content": "takes people's stories at face value unless given a clear reason not to.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "23": {
+        "content": "leaves the laundry until there is nothing left to wear.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "24": {
+        "content": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "25": {
+        "content": "rigs a working fix out of spare parts when the proper tool is missing.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "26": {
+        "content": "says plainly at the table what they want and where they stand.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "27": {
+        "content": "answers a coworker's warm greeting with a short nod and keeps walking.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "28": {
+        "content": "stays at the desk until the last box on the list is ticked, even past midnight.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "29": {
+        "content": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "30": {
+        "content": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "31": {
+        "content": "rehearses a sentence twice before saying it to a stranger at a party.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "32": {
+        "content": "remembers the doorman's name and asks how his daughter's exams went.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 4
+      },
+      "33": {
+        "content": "clears in one afternoon what takes others most of a week.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "34": {
+        "content": "was the one giving directions when the fire alarm went off.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 1
+      },
+      "35": {
+        "content": "is happiest when today's tasks look exactly like yesterday's.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "36": {
+        "content": "leaves a party with three new phone numbers.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Disagree a little\n",
+        "raw_score": 2,
+        "final_score": 2
+      },
+      "37": {
+        "content": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 5
+      },
+      "38": {
+        "content": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "39": {
+        "content": "feels their heart race when the phone rings from an unknown number.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Disagree strongly\n",
+        "raw_score": 1,
+        "final_score": 1
+      },
+      "40": {
+        "content": "can chew on a hypothetical question for the length of a dinner.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "41": {
+        "content": "walks past the gallery to get to the food court.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "42": {
+        "content": "would rather split the work and share the credit than keep both to themselves.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      },
+      "43": {
+        "content": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little\n",
+        "raw_score": 4,
+        "final_score": 2
+      },
+      "44": {
+        "content": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly\n",
+        "raw_score": 5,
+        "final_score": 5
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 4.3333,
+      "Conscientiousness": 3.7778,
+      "Extraversion": 3.0,
+      "Neuroticism": 1.75,
+      "Openness": 4.7
+    },
+    "reversed": {
+      "Agreeableness": 4.7778,
+      "Conscientiousness": 3.3333,
+      "Extraversion": 3.625,
+      "Neuroticism": 1.125,
+      "Openness": 4.5
+    },
+    "combined": {
+      "Agreeableness": 4.5556,
+      "Conscientiousness": 3.5556,
+      "Extraversion": 3.3125,
+      "Neuroticism": 1.4375,
+      "Openness": 4.6
+    }
+  }
+}

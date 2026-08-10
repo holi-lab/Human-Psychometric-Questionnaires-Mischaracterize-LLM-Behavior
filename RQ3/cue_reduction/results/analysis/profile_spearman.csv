@@ -1,0 +1,17 @@
+survey,model,spearman_cueless_vs_orig,spearman_cueless_vs_genprob,spearman_orig_vs_genprob,n_constructs
+PVQ,Qwen2.5-72B-Instruct,0.7446,0.6442,0.7173,10
+PVQ,Qwen2.5-7B-Instruct,0.7209,0.6768,0.4512,10
+PVQ,Qwen3-235B-A22B-Instruct-2507-FP8,0.8537,0.7356,0.5167,10
+PVQ,Qwen3-30B-A3B-Instruct-2507,0.6604,0.4315,-0.084,10
+PVQ,gemma-3-27b-it,0.845,0.3697,0.2614,10
+PVQ,gemma-3-4b-it,0.878,0.079,0.1033,10
+PVQ,gpt-oss-120b,0.7809,-0.0246,0.2675,10
+PVQ,gpt-oss-20b,0.2553,0.4545,0.2614,10
+BFI44,Qwen2.5-72B-Instruct,0.6,0.9,0.7,5
+BFI44,Qwen2.5-7B-Instruct,0.2052,0.8,0.4104,5
+BFI44,Qwen3-235B-A22B-Instruct-2507-FP8,1.0,0.9,0.9,5
+BFI44,Qwen3-30B-A3B-Instruct-2507,0.8,-0.1,-0.5,5
+BFI44,gemma-3-27b-it,0.6,-0.4,-0.5,5
+BFI44,gemma-3-4b-it,0.7,0.3,0.3,5
+BFI44,gpt-oss-120b,0.6,0.4,0.2,5
+BFI44,gpt-oss-20b,0.7,0.9,0.6,5

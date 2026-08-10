@@ -1,0 +1,7 @@
+{question_text}
+
+Does this item measure the following construct?
+
+{construct_name}: {construct_definition}
+
+Answer with only "yes" or "no".

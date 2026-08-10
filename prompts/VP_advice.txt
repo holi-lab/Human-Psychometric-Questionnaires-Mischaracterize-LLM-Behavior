@@ -1,0 +1,6 @@
+Now I will briefly describe a scenario. Please read it and respond naturally, as if you were actually in this situation. Write your genuine reaction or thought process.
+
+Title: {title}
+Scenario: {text}
+
+Please write your response below.

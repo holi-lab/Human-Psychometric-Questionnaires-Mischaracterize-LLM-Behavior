@@ -1,0 +1,12 @@
+Instruction : How well do the following statements describe your personality?
+
+I see myself as someone who {content}
+
+IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:
+Agree strongly
+Agree a little
+Neither agree nor disagree
+Disagree a little
+Disagree strongly
+
+Any other words or characters will make the response invalid.

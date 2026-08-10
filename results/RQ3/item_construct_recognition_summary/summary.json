@@ -1,0 +1,1312 @@
+{
+  "VP": {
+    "survey": "VP",
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b"
+    ],
+    "construct_order_by_mean_f1": [
+      "Agreeableness",
+      "Stimulation",
+      "Achievement",
+      "Power",
+      "Hedonism",
+      "Conscientiousness",
+      "Security",
+      "Benevolence",
+      "Universalism",
+      "Self-Direction",
+      "Openness",
+      "Conformity",
+      "Extraversion",
+      "Tradition",
+      "Neuroticism"
+    ],
+    "construct_mean_f1": [
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.21266187902853978
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.18548585744798776
+      },
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.1449164717500273
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.1314903382564666
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.11232175884438111
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.10860118930169507
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.07334968725116435
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.06670703095859817
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.06231918180745472
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.06010739784693
+      },
+      {
+        "construct": "Openness",
+        "mean_f1": 0.04594297539584296
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.04100666110941381
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.0379985125956311
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.011904761904761904
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.007542656761361603
+      }
+    ],
+    "construct_by_model_f1": [
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.21266187902853978,
+        "Qwen2.5-72B-Instruct": 0.20276497695852533,
+        "Qwen2.5-7B-Instruct": 0.21686746987951808,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.2113821138211382,
+        "Qwen3-30B-A3B-Instruct-2507": 0.23148148148148145,
+        "gemma-3-27b-it": 0.26436781609195403,
+        "gemma-3-4b-it": 0.26728110599078336,
+        "gpt-oss-120b": 0.09448818897637795
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.18548585744798776,
+        "Qwen2.5-72B-Instruct": 0.14545454545454545,
+        "Qwen2.5-7B-Instruct": 0.16438356164383564,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.24999999999999994,
+        "Qwen3-30B-A3B-Instruct-2507": 0.24096385542168675,
+        "gemma-3-27b-it": 0.22448979591836737,
+        "gemma-3-4b-it": 0.20168067226890754,
+        "gpt-oss-120b": 0.07142857142857142
+      },
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.1449164717500273,
+        "Qwen2.5-72B-Instruct": 0.12307692307692307,
+        "Qwen2.5-7B-Instruct": 0.0923076923076923,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.17699115044247785,
+        "Qwen3-30B-A3B-Instruct-2507": 0.14414414414414414,
+        "gemma-3-27b-it": 0.1590909090909091,
+        "gemma-3-4b-it": 0.18181818181818182,
+        "gpt-oss-120b": 0.136986301369863
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.1314903382564666,
+        "Qwen2.5-72B-Instruct": 0.0,
+        "Qwen2.5-7B-Instruct": 0.058823529411764705,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.2518518518518518,
+        "Qwen3-30B-A3B-Instruct-2507": 0.0879120879120879,
+        "gemma-3-27b-it": 0.16915422885572137,
+        "gemma-3-4b-it": 0.20634920634920634,
+        "gpt-oss-120b": 0.14634146341463417
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.11232175884438111,
+        "Qwen2.5-72B-Instruct": 0.05714285714285715,
+        "Qwen2.5-7B-Instruct": 0.09523809523809523,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.14925373134328357,
+        "Qwen3-30B-A3B-Instruct-2507": 0.17142857142857143,
+        "gemma-3-27b-it": 0.16129032258064518,
+        "gemma-3-4b-it": 0.1518987341772152,
+        "gpt-oss-120b": 0.0
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.10860118930169507,
+        "Qwen2.5-72B-Instruct": 0.02222222222222222,
+        "Qwen2.5-7B-Instruct": 0.0449438202247191,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.15476190476190474,
+        "Qwen3-30B-A3B-Instruct-2507": 0.1320754716981132,
+        "gemma-3-27b-it": 0.22222222222222224,
+        "gemma-3-4b-it": 0.13636363636363638,
+        "gpt-oss-120b": 0.04761904761904762
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.07334968725116435,
+        "Qwen2.5-72B-Instruct": 0.06451612903225808,
+        "Qwen2.5-7B-Instruct": 0.06896551724137931,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.07792207792207792,
+        "Qwen3-30B-A3B-Instruct-2507": 0.08035714285714286,
+        "gemma-3-27b-it": 0.06363636363636363,
+        "gemma-3-4b-it": 0.08465608465608465,
+        "gpt-oss-120b": 0.07339449541284403
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.06670703095859817,
+        "Qwen2.5-72B-Instruct": 0.06282722513089006,
+        "Qwen2.5-7B-Instruct": 0.08,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.06451612903225806,
+        "Qwen3-30B-A3B-Instruct-2507": 0.08333333333333334,
+        "gemma-3-27b-it": 0.07407407407407407,
+        "gemma-3-4b-it": 0.07189542483660132,
+        "gpt-oss-120b": 0.030303030303030304
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.06231918180745472,
+        "Qwen2.5-72B-Instruct": 0.08571428571428572,
+        "Qwen2.5-7B-Instruct": 0.07142857142857144,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.029850746268656716,
+        "Qwen3-30B-A3B-Instruct-2507": 0.06756756756756756,
+        "gemma-3-27b-it": 0.047619047619047616,
+        "gemma-3-4b-it": 0.05405405405405405,
+        "gpt-oss-120b": 0.07999999999999999
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.06010739784693,
+        "Qwen2.5-72B-Instruct": 0.0821917808219178,
+        "Qwen2.5-7B-Instruct": 0.08695652173913043,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.06584362139917696,
+        "Qwen3-30B-A3B-Instruct-2507": 0.057761732851985555,
+        "gemma-3-27b-it": 0.06217616580310881,
+        "gemma-3-4b-it": 0.03950617283950617,
+        "gpt-oss-120b": 0.026315789473684213
+      },
+      {
+        "construct": "Openness",
+        "mean_f1": 0.04594297539584296,
+        "Qwen2.5-72B-Instruct": 0.02816901408450704,
+        "Qwen2.5-7B-Instruct": 0.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.049079754601226995,
+        "Qwen3-30B-A3B-Instruct-2507": 0.054644808743169404,
+        "gemma-3-27b-it": 0.03488372093023256,
+        "gemma-3-4b-it": 0.096,
+        "gpt-oss-120b": 0.0588235294117647
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.04100666110941381,
+        "Qwen2.5-72B-Instruct": 0.02150537634408602,
+        "Qwen2.5-7B-Instruct": 0.030303030303030304,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.05517241379310345,
+        "Qwen3-30B-A3B-Instruct-2507": 0.0425531914893617,
+        "gemma-3-27b-it": 0.05555555555555555,
+        "gemma-3-4b-it": 0.046242774566473986,
+        "gpt-oss-120b": 0.03571428571428572
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.0379985125956311,
+        "Qwen2.5-72B-Instruct": 0.0,
+        "Qwen2.5-7B-Instruct": 0.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.09302325581395349,
+        "Qwen3-30B-A3B-Instruct-2507": 0.0425531914893617,
+        "gemma-3-27b-it": 0.04878048780487805,
+        "gemma-3-4b-it": 0.08163265306122448,
+        "gpt-oss-120b": 0.0
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.011904761904761904,
+        "Qwen2.5-72B-Instruct": 0.0,
+        "Qwen2.5-7B-Instruct": 0.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.0,
+        "Qwen3-30B-A3B-Instruct-2507": 0.0,
+        "gemma-3-27b-it": 0.08333333333333333,
+        "gemma-3-4b-it": 0.0,
+        "gpt-oss-120b": 0.0
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.007542656761361603,
+        "Qwen2.5-72B-Instruct": 0.0,
+        "Qwen2.5-7B-Instruct": 0.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.014084507042253521,
+        "Qwen3-30B-A3B-Instruct-2507": 0.0,
+        "gemma-3-27b-it": 0.009302325581395349,
+        "gemma-3-4b-it": 0.029411764705882353,
+        "gpt-oss-120b": 0.0
+      }
+    ],
+    "model_summary": [
+      {
+        "model": "gemma-3-27b-it",
+        "model_short": "Gemma-3-27B",
+        "mean_f1_across_constructs": 0.11199842460652058,
+        "Power": 0.16915422885572137,
+        "Achievement": 0.1590909090909091,
+        "Hedonism": 0.16129032258064518,
+        "Stimulation": 0.22448979591836737,
+        "Self-Direction": 0.06217616580310881,
+        "Universalism": 0.047619047619047616,
+        "Benevolence": 0.07407407407407407,
+        "Tradition": 0.08333333333333333,
+        "Conformity": 0.05555555555555555,
+        "Security": 0.06363636363636363,
+        "Openness": 0.03488372093023256,
+        "Conscientiousness": 0.22222222222222224,
+        "Extraversion": 0.04878048780487805,
+        "Agreeableness": 0.26436781609195403,
+        "Neuroticism": 0.009302325581395349
+      },
+      {
+        "model": "gemma-3-4b-it",
+        "model_short": "Gemma-3-4B",
+        "mean_f1_across_constructs": 0.10991936437918386,
+        "Power": 0.20634920634920634,
+        "Achievement": 0.18181818181818182,
+        "Hedonism": 0.1518987341772152,
+        "Stimulation": 0.20168067226890754,
+        "Self-Direction": 0.03950617283950617,
+        "Universalism": 0.05405405405405405,
+        "Benevolence": 0.07189542483660132,
+        "Tradition": 0.0,
+        "Conformity": 0.046242774566473986,
+        "Security": 0.08465608465608465,
+        "Openness": 0.096,
+        "Conscientiousness": 0.13636363636363638,
+        "Extraversion": 0.08163265306122448,
+        "Agreeableness": 0.26728110599078336,
+        "Neuroticism": 0.029411764705882353
+      },
+      {
+        "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "model_short": "Qwen3-235B",
+        "mean_f1_across_constructs": 0.1095822172062242,
+        "Power": 0.2518518518518518,
+        "Achievement": 0.17699115044247785,
+        "Hedonism": 0.14925373134328357,
+        "Stimulation": 0.24999999999999994,
+        "Self-Direction": 0.06584362139917696,
+        "Universalism": 0.029850746268656716,
+        "Benevolence": 0.06451612903225806,
+        "Tradition": 0.0,
+        "Conformity": 0.05517241379310345,
+        "Security": 0.07792207792207792,
+        "Openness": 0.049079754601226995,
+        "Conscientiousness": 0.15476190476190474,
+        "Extraversion": 0.09302325581395349,
+        "Agreeableness": 0.2113821138211382,
+        "Neuroticism": 0.014084507042253521
+      },
+      {
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_short": "Qwen3-30B",
+        "mean_f1_across_constructs": 0.09578510536120047,
+        "Power": 0.0879120879120879,
+        "Achievement": 0.14414414414414414,
+        "Hedonism": 0.17142857142857143,
+        "Stimulation": 0.24096385542168675,
+        "Self-Direction": 0.057761732851985555,
+        "Universalism": 0.06756756756756756,
+        "Benevolence": 0.08333333333333334,
+        "Tradition": 0.0,
+        "Conformity": 0.0425531914893617,
+        "Security": 0.08035714285714286,
+        "Openness": 0.054644808743169404,
+        "Conscientiousness": 0.1320754716981132,
+        "Extraversion": 0.0425531914893617,
+        "Agreeableness": 0.23148148148148145,
+        "Neuroticism": 0.0
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "model_short": "Qwen2.5-7B",
+        "mean_f1_across_constructs": 0.06734785396118244,
+        "Power": 0.058823529411764705,
+        "Achievement": 0.0923076923076923,
+        "Hedonism": 0.09523809523809523,
+        "Stimulation": 0.16438356164383564,
+        "Self-Direction": 0.08695652173913043,
+        "Universalism": 0.07142857142857144,
+        "Benevolence": 0.08,
+        "Tradition": 0.0,
+        "Conformity": 0.030303030303030304,
+        "Security": 0.06896551724137931,
+        "Openness": 0.0,
+        "Conscientiousness": 0.0449438202247191,
+        "Extraversion": 0.0,
+        "Agreeableness": 0.21686746987951808,
+        "Neuroticism": 0.0
+      },
+      {
+        "model": "Qwen2.5-72B-Instruct",
+        "model_short": "Qwen2.5-72B",
+        "mean_f1_across_constructs": 0.05970568906553453,
+        "Power": 0.0,
+        "Achievement": 0.12307692307692307,
+        "Hedonism": 0.05714285714285715,
+        "Stimulation": 0.14545454545454545,
+        "Self-Direction": 0.0821917808219178,
+        "Universalism": 0.08571428571428572,
+        "Benevolence": 0.06282722513089006,
+        "Tradition": 0.0,
+        "Conformity": 0.02150537634408602,
+        "Security": 0.06451612903225808,
+        "Openness": 0.02816901408450704,
+        "Conscientiousness": 0.02222222222222222,
+        "Extraversion": 0.0,
+        "Agreeableness": 0.20276497695852533,
+        "Neuroticism": 0.0
+      },
+      {
+        "model": "gpt-oss-120b",
+        "model_short": "GPT-oss-120B",
+        "mean_f1_across_constructs": 0.05342764687494021,
+        "Power": 0.14634146341463417,
+        "Achievement": 0.136986301369863,
+        "Hedonism": 0.0,
+        "Stimulation": 0.07142857142857142,
+        "Self-Direction": 0.026315789473684213,
+        "Universalism": 0.07999999999999999,
+        "Benevolence": 0.030303030303030304,
+        "Tradition": 0.0,
+        "Conformity": 0.03571428571428572,
+        "Security": 0.07339449541284403,
+        "Openness": 0.0588235294117647,
+        "Conscientiousness": 0.04761904761904762,
+        "Extraversion": 0.0,
+        "Agreeableness": 0.09448818897637795,
+        "Neuroticism": 0.0
+      }
+    ]
+  },
+  "PVQ": {
+    "survey": "PVQ",
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b"
+    ],
+    "construct_order_by_mean_f1": [
+      "Achievement",
+      "Hedonism",
+      "Universalism",
+      "Conformity",
+      "Benevolence",
+      "Self-Direction",
+      "Stimulation",
+      "Tradition",
+      "Power",
+      "Security"
+    ],
+    "construct_mean_f1": [
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.9292929292929293
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.8248299319727891
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.8096687257899111
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.7578231292517007
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.7164385648857697
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.6960650460650462
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.6703558346415488
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.5233560090702948
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.5165532879818594
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.48930283267851327
+      }
+    ],
+    "construct_by_model_f1": [
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.9292929292929293,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.888888888888889,
+        "Qwen3-30B-A3B-Instruct-2507": 0.888888888888889,
+        "gemma-3-27b-it": 1.0,
+        "gemma-3-4b-it": 0.7272727272727273,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.8248299319727891,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 0.8571428571428571,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.7499999999999999,
+        "Qwen3-30B-A3B-Instruct-2507": 0.7499999999999999,
+        "gemma-3-27b-it": 0.7499999999999999,
+        "gemma-3-4b-it": 0.6666666666666666,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.8096687257899111,
+        "Qwen2.5-72B-Instruct": 0.8571428571428571,
+        "Qwen2.5-7B-Instruct": 0.923076923076923,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.7058823529411764,
+        "Qwen3-30B-A3B-Instruct-2507": 0.7499999999999999,
+        "gemma-3-27b-it": 0.8,
+        "gemma-3-4b-it": 0.631578947368421,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.7578231292517007,
+        "Qwen2.5-72B-Instruct": 0.888888888888889,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.8,
+        "gemma-3-27b-it": 0.5714285714285715,
+        "gemma-3-4b-it": 0.4444444444444445,
+        "gpt-oss-120b": 0.8
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.7164385648857697,
+        "Qwen2.5-72B-Instruct": 0.8,
+        "Qwen2.5-7B-Instruct": 0.888888888888889,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.6666666666666666,
+        "Qwen3-30B-A3B-Instruct-2507": 0.7272727272727273,
+        "gemma-3-27b-it": 0.7272727272727273,
+        "gemma-3-4b-it": 0.34782608695652173,
+        "gpt-oss-120b": 0.8571428571428571
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.6960650460650462,
+        "Qwen2.5-72B-Instruct": 0.888888888888889,
+        "Qwen2.5-7B-Instruct": 0.7272727272727273,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.7272727272727273,
+        "gemma-3-27b-it": 0.6153846153846153,
+        "gemma-3-4b-it": 0.3636363636363636,
+        "gpt-oss-120b": 0.75
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.6703558346415488,
+        "Qwen2.5-72B-Instruct": 0.7499999999999999,
+        "Qwen2.5-7B-Instruct": 0.8571428571428571,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.6,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.4615384615384615,
+        "gpt-oss-120b": 0.8571428571428571
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.5233560090702948,
+        "Qwen2.5-72B-Instruct": 0.5714285714285715,
+        "Qwen2.5-7B-Instruct": 0.5714285714285715,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.4444444444444445,
+        "Qwen3-30B-A3B-Instruct-2507": 0.4,
+        "gemma-3-27b-it": 0.5714285714285715,
+        "gemma-3-4b-it": 0.5333333333333333,
+        "gpt-oss-120b": 0.5714285714285715
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.5165532879818594,
+        "Qwen2.5-72B-Instruct": 0.5,
+        "Qwen2.5-7B-Instruct": 0.4444444444444444,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.6,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.4,
+        "gpt-oss-120b": 0.5714285714285715
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.48930283267851327,
+        "Qwen2.5-72B-Instruct": 0.6666666666666665,
+        "Qwen2.5-7B-Instruct": 0.6,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.5,
+        "Qwen3-30B-A3B-Instruct-2507": 0.4615384615384615,
+        "gemma-3-27b-it": 0.4210526315789473,
+        "gemma-3-4b-it": 0.27586206896551724,
+        "gpt-oss-120b": 0.5
+      }
+    ],
+    "model_summary": [
+      {
+        "model": "Qwen2.5-72B-Instruct",
+        "model_short": "Qwen2.5-72B",
+        "mean_f1_across_constructs": 0.7923015873015873,
+        "Power": 0.5,
+        "Achievement": 1.0,
+        "Hedonism": 1.0,
+        "Stimulation": 0.7499999999999999,
+        "Self-Direction": 0.888888888888889,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 0.8,
+        "Tradition": 0.5714285714285715,
+        "Conformity": 0.888888888888889,
+        "Security": 0.6666666666666665
+      },
+      {
+        "model": "gpt-oss-120b",
+        "model_short": "GPT-oss-120B",
+        "mean_f1_across_constructs": 0.7907142857142857,
+        "Power": 0.5714285714285715,
+        "Achievement": 1.0,
+        "Hedonism": 1.0,
+        "Stimulation": 0.8571428571428571,
+        "Self-Direction": 0.75,
+        "Universalism": 1.0,
+        "Benevolence": 0.8571428571428571,
+        "Tradition": 0.5714285714285715,
+        "Conformity": 0.8,
+        "Security": 0.5
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "model_short": "Qwen2.5-7B",
+        "mean_f1_across_constructs": 0.7869397269397269,
+        "Power": 0.4444444444444444,
+        "Achievement": 1.0,
+        "Hedonism": 0.8571428571428571,
+        "Stimulation": 0.8571428571428571,
+        "Self-Direction": 0.7272727272727273,
+        "Universalism": 0.923076923076923,
+        "Benevolence": 0.888888888888889,
+        "Tradition": 0.5714285714285715,
+        "Conformity": 1.0,
+        "Security": 0.6
+      },
+      {
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_short": "Qwen3-30B",
+        "mean_f1_across_constructs": 0.6771639471639472,
+        "Power": 0.6,
+        "Achievement": 0.888888888888889,
+        "Hedonism": 0.7499999999999999,
+        "Stimulation": 0.6666666666666666,
+        "Self-Direction": 0.7272727272727273,
+        "Universalism": 0.7499999999999999,
+        "Benevolence": 0.7272727272727273,
+        "Tradition": 0.4,
+        "Conformity": 0.8,
+        "Security": 0.4615384615384615
+      },
+      {
+        "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "model_short": "Qwen3-235B",
+        "mean_f1_across_constructs": 0.6755882352941177,
+        "Power": 0.6,
+        "Achievement": 0.888888888888889,
+        "Hedonism": 0.7499999999999999,
+        "Stimulation": 0.6,
+        "Self-Direction": 0.8,
+        "Universalism": 0.7058823529411764,
+        "Benevolence": 0.6666666666666666,
+        "Tradition": 0.4444444444444445,
+        "Conformity": 0.8,
+        "Security": 0.5
+      },
+      {
+        "model": "gemma-3-27b-it",
+        "model_short": "Gemma-3-27B",
+        "mean_f1_across_constructs": 0.6456567117093432,
+        "Power": 0.5,
+        "Achievement": 1.0,
+        "Hedonism": 0.7499999999999999,
+        "Stimulation": 0.5,
+        "Self-Direction": 0.6153846153846153,
+        "Universalism": 0.8,
+        "Benevolence": 0.7272727272727273,
+        "Tradition": 0.5714285714285715,
+        "Conformity": 0.5714285714285715,
+        "Security": 0.4210526315789473
+      },
+      {
+        "model": "gemma-3-4b-it",
+        "model_short": "Gemma-3-4B",
+        "mean_f1_across_constructs": 0.48521591001824566,
+        "Power": 0.4,
+        "Achievement": 0.7272727272727273,
+        "Hedonism": 0.6666666666666666,
+        "Stimulation": 0.4615384615384615,
+        "Self-Direction": 0.3636363636363636,
+        "Universalism": 0.631578947368421,
+        "Benevolence": 0.34782608695652173,
+        "Tradition": 0.5333333333333333,
+        "Conformity": 0.4444444444444445,
+        "Security": 0.27586206896551724
+      }
+    ]
+  },
+  "PVQ21": {
+    "survey": "PVQ21",
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b"
+    ],
+    "construct_order_by_mean_f1": [
+      "Achievement",
+      "Universalism",
+      "Conformity",
+      "Benevolence",
+      "Hedonism",
+      "Stimulation",
+      "Self-Direction",
+      "Security",
+      "Tradition",
+      "Power"
+    ],
+    "construct_mean_f1": [
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.8816326530612244
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.8408163265306122
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.8238095238095238
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.8095238095238095
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.782312925170068
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.6829931972789117
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.6764378478664194
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.636734693877551
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.5768707482993197
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.5301587301587302
+      }
+    ],
+    "construct_by_model_f1": [
+      {
+        "construct": "Achievement",
+        "mean_f1": 0.8816326530612244,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.8,
+        "gemma-3-27b-it": 1.0,
+        "gemma-3-4b-it": 0.5714285714285715,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Universalism",
+        "mean_f1": 0.8408163265306122,
+        "Qwen2.5-72B-Instruct": 0.8571428571428571,
+        "Qwen2.5-7B-Instruct": 0.8571428571428571,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8571428571428571,
+        "Qwen3-30B-A3B-Instruct-2507": 0.8571428571428571,
+        "gemma-3-27b-it": 0.8571428571428571,
+        "gemma-3-4b-it": 0.6,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Conformity",
+        "mean_f1": 0.8238095238095238,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.8,
+        "gemma-3-27b-it": 0.6666666666666666,
+        "gemma-3-4b-it": 0.5,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Benevolence",
+        "mean_f1": 0.8095238095238095,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.8,
+        "gemma-3-4b-it": 0.4,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Hedonism",
+        "mean_f1": 0.782312925170068,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 1.0,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.6666666666666666,
+        "Qwen3-30B-A3B-Instruct-2507": 0.5714285714285715,
+        "gemma-3-27b-it": 0.6666666666666666,
+        "gemma-3-4b-it": 0.5714285714285715,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Stimulation",
+        "mean_f1": 0.6829931972789117,
+        "Qwen2.5-72B-Instruct": 0.8,
+        "Qwen2.5-7B-Instruct": 0.8,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.5714285714285715,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.5714285714285715,
+        "gemma-3-4b-it": 0.5714285714285715,
+        "gpt-oss-120b": 0.8
+      },
+      {
+        "construct": "Self-Direction",
+        "mean_f1": 0.6764378478664194,
+        "Qwen2.5-72B-Instruct": 0.8,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.6666666666666666,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.5714285714285715,
+        "gemma-3-4b-it": 0.3636363636363636,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Security",
+        "mean_f1": 0.636734693877551,
+        "Qwen2.5-72B-Instruct": 1.0,
+        "Qwen2.5-7B-Instruct": 0.8,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.5,
+        "Qwen3-30B-A3B-Instruct-2507": 0.5714285714285715,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.2857142857142857,
+        "gpt-oss-120b": 0.8
+      },
+      {
+        "construct": "Tradition",
+        "mean_f1": 0.5768707482993197,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.4,
+        "Qwen3-30B-A3B-Instruct-2507": 0.4,
+        "gemma-3-27b-it": 0.6666666666666666,
+        "gemma-3-4b-it": 0.5714285714285715,
+        "gpt-oss-120b": 0.6666666666666666
+      },
+      {
+        "construct": "Power",
+        "mean_f1": 0.5301587301587302,
+        "Qwen2.5-72B-Instruct": 0.4,
+        "Qwen2.5-7B-Instruct": 0.5,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.8,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.4444444444444445,
+        "gpt-oss-120b": 0.4
+      }
+    ],
+    "model_summary": [
+      {
+        "model": "gpt-oss-120b",
+        "model_short": "GPT-oss-120B",
+        "mean_f1_across_constructs": 0.8666666666666668,
+        "Power": 0.4,
+        "Achievement": 1.0,
+        "Hedonism": 1.0,
+        "Stimulation": 0.8,
+        "Self-Direction": 1.0,
+        "Universalism": 1.0,
+        "Benevolence": 1.0,
+        "Tradition": 0.6666666666666666,
+        "Conformity": 1.0,
+        "Security": 0.8
+      },
+      {
+        "model": "Qwen2.5-72B-Instruct",
+        "model_short": "Qwen2.5-72B",
+        "mean_f1_across_constructs": 0.8523809523809524,
+        "Power": 0.4,
+        "Achievement": 1.0,
+        "Hedonism": 1.0,
+        "Stimulation": 0.8,
+        "Self-Direction": 0.8,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 1.0,
+        "Tradition": 0.6666666666666666,
+        "Conformity": 1.0,
+        "Security": 1.0
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "model_short": "Qwen2.5-7B",
+        "mean_f1_across_constructs": 0.8290476190476191,
+        "Power": 0.5,
+        "Achievement": 1.0,
+        "Hedonism": 1.0,
+        "Stimulation": 0.8,
+        "Self-Direction": 0.6666666666666666,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 1.0,
+        "Tradition": 0.6666666666666666,
+        "Conformity": 1.0,
+        "Security": 0.8
+      },
+      {
+        "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "model_short": "Qwen3-235B",
+        "mean_f1_across_constructs": 0.6861904761904761,
+        "Power": 0.8,
+        "Achievement": 0.8,
+        "Hedonism": 0.6666666666666666,
+        "Stimulation": 0.5714285714285715,
+        "Self-Direction": 0.6666666666666666,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 0.8,
+        "Tradition": 0.4,
+        "Conformity": 0.8,
+        "Security": 0.5
+      },
+      {
+        "model": "gemma-3-27b-it",
+        "model_short": "Gemma-3-27B",
+        "mean_f1_across_constructs": 0.68,
+        "Power": 0.5,
+        "Achievement": 1.0,
+        "Hedonism": 0.6666666666666666,
+        "Stimulation": 0.5714285714285715,
+        "Self-Direction": 0.5714285714285715,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 0.8,
+        "Tradition": 0.6666666666666666,
+        "Conformity": 0.6666666666666666,
+        "Security": 0.5
+      },
+      {
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_short": "Qwen3-30B",
+        "mean_f1_across_constructs": 0.6666666666666667,
+        "Power": 0.6666666666666666,
+        "Achievement": 0.8,
+        "Hedonism": 0.5714285714285715,
+        "Stimulation": 0.6666666666666666,
+        "Self-Direction": 0.6666666666666666,
+        "Universalism": 0.8571428571428571,
+        "Benevolence": 0.6666666666666666,
+        "Tradition": 0.4,
+        "Conformity": 0.8,
+        "Security": 0.5714285714285715
+      },
+      {
+        "model": "gemma-3-4b-it",
+        "model_short": "Gemma-3-4B",
+        "mean_f1_across_constructs": 0.487950937950938,
+        "Power": 0.4444444444444445,
+        "Achievement": 0.5714285714285715,
+        "Hedonism": 0.5714285714285715,
+        "Stimulation": 0.5714285714285715,
+        "Self-Direction": 0.3636363636363636,
+        "Universalism": 0.6,
+        "Benevolence": 0.4,
+        "Tradition": 0.5714285714285715,
+        "Conformity": 0.5,
+        "Security": 0.2857142857142857
+      }
+    ]
+  },
+  "BFI44": {
+    "survey": "BFI44",
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b"
+    ],
+    "construct_order_by_mean_f1": [
+      "Openness",
+      "Extraversion",
+      "Conscientiousness",
+      "Agreeableness",
+      "Neuroticism"
+    ],
+    "construct_mean_f1": [
+      {
+        "construct": "Openness",
+        "mean_f1": 0.904015992361857
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.8526466997055232
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.8396654208242003
+      },
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.7971267454350162
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.7787617071119947
+      }
+    ],
+    "construct_by_model_f1": [
+      {
+        "construct": "Openness",
+        "mean_f1": 0.904015992361857,
+        "Qwen2.5-72B-Instruct": 0.888888888888889,
+        "Qwen2.5-7B-Instruct": 0.7499999999999999,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.9523809523809523,
+        "Qwen3-30B-A3B-Instruct-2507": 0.9473684210526316,
+        "gemma-3-27b-it": 0.9473684210526316,
+        "gemma-3-4b-it": 0.8421052631578948,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.8526466997055232,
+        "Qwen2.5-72B-Instruct": 0.7692307692307693,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.888888888888889,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 0.9333333333333333,
+        "gemma-3-4b-it": 0.7692307692307693,
+        "gpt-oss-120b": 0.9411764705882353
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.8396654208242003,
+        "Qwen2.5-72B-Instruct": 0.7142857142857143,
+        "Qwen2.5-7B-Instruct": 0.6153846153846153,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 0.9473684210526316,
+        "gemma-3-27b-it": 0.9473684210526316,
+        "gemma-3-4b-it": 0.7058823529411765,
+        "gpt-oss-120b": 0.9473684210526316
+      },
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.7971267454350162,
+        "Qwen2.5-72B-Instruct": 0.7142857142857143,
+        "Qwen2.5-7B-Instruct": 0.7142857142857143,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 0.6250000000000001,
+        "gemma-3-4b-it": 0.5263157894736842,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.7787617071119947,
+        "Qwen2.5-72B-Instruct": 0.7692307692307693,
+        "Qwen2.5-7B-Instruct": 0.7692307692307693,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.9411764705882353,
+        "Qwen3-30B-A3B-Instruct-2507": 0.8571428571428571,
+        "gemma-3-27b-it": 0.5882352941176471,
+        "gemma-3-4b-it": 0.5263157894736842,
+        "gpt-oss-120b": 1.0
+      }
+    ],
+    "model_summary": [
+      {
+        "model": "gpt-oss-120b",
+        "model_short": "GPT-oss-120B",
+        "mean_f1_across_constructs": 0.9777089783281735,
+        "Openness": 1.0,
+        "Conscientiousness": 0.9473684210526316,
+        "Extraversion": 0.9411764705882353,
+        "Agreeableness": 1.0,
+        "Neuroticism": 1.0
+      },
+      {
+        "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "model_short": "Qwen3-235B",
+        "mean_f1_across_constructs": 0.9564892623716152,
+        "Openness": 0.9523809523809523,
+        "Conscientiousness": 1.0,
+        "Extraversion": 0.888888888888889,
+        "Agreeableness": 1.0,
+        "Neuroticism": 0.9411764705882353
+      },
+      {
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_short": "Qwen3-30B",
+        "mean_f1_across_constructs": 0.9503759398496241,
+        "Openness": 0.9473684210526316,
+        "Conscientiousness": 0.9473684210526316,
+        "Extraversion": 1.0,
+        "Agreeableness": 1.0,
+        "Neuroticism": 0.8571428571428571
+      },
+      {
+        "model": "gemma-3-27b-it",
+        "model_short": "Gemma-3-27B",
+        "mean_f1_across_constructs": 0.8082610939112487,
+        "Openness": 0.9473684210526316,
+        "Conscientiousness": 0.9473684210526316,
+        "Extraversion": 0.9333333333333333,
+        "Agreeableness": 0.6250000000000001,
+        "Neuroticism": 0.5882352941176471
+      },
+      {
+        "model": "Qwen2.5-72B-Instruct",
+        "model_short": "Qwen2.5-72B",
+        "mean_f1_across_constructs": 0.7711843711843712,
+        "Openness": 0.888888888888889,
+        "Conscientiousness": 0.7142857142857143,
+        "Extraversion": 0.7692307692307693,
+        "Agreeableness": 0.7142857142857143,
+        "Neuroticism": 0.7692307692307693
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "model_short": "Qwen2.5-7B",
+        "mean_f1_across_constructs": 0.7031135531135531,
+        "Openness": 0.7499999999999999,
+        "Conscientiousness": 0.6153846153846153,
+        "Extraversion": 0.6666666666666666,
+        "Agreeableness": 0.7142857142857143,
+        "Neuroticism": 0.7692307692307693
+      },
+      {
+        "model": "gemma-3-4b-it",
+        "model_short": "Gemma-3-4B",
+        "mean_f1_across_constructs": 0.6739699928554417,
+        "Openness": 0.8421052631578948,
+        "Conscientiousness": 0.7058823529411765,
+        "Extraversion": 0.7692307692307693,
+        "Agreeableness": 0.5263157894736842,
+        "Neuroticism": 0.5263157894736842
+      }
+    ]
+  },
+  "BFI10": {
+    "survey": "BFI10",
+    "models": [
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5-7B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507-FP8",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "gemma-3-27b-it",
+      "gemma-3-4b-it",
+      "gpt-oss-120b"
+    ],
+    "construct_order_by_mean_f1": [
+      "Openness",
+      "Conscientiousness",
+      "Extraversion",
+      "Agreeableness",
+      "Neuroticism"
+    ],
+    "construct_mean_f1": [
+      {
+        "construct": "Openness",
+        "mean_f1": 0.8571428571428571
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.8571428571428571
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.8095238095238094
+      },
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.7619047619047619
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.7
+      }
+    ],
+    "construct_by_model_f1": [
+      {
+        "construct": "Openness",
+        "mean_f1": 0.8571428571428571,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 1.0,
+        "gemma-3-4b-it": 0.6666666666666666,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Conscientiousness",
+        "mean_f1": 0.8571428571428571,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 1.0,
+        "gemma-3-4b-it": 0.6666666666666666,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Extraversion",
+        "mean_f1": 0.8095238095238094,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 0.6666666666666666,
+        "gemma-3-4b-it": 0.6666666666666666,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Agreeableness",
+        "mean_f1": 0.7619047619047619,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 1.0,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.5,
+        "gpt-oss-120b": 1.0
+      },
+      {
+        "construct": "Neuroticism",
+        "mean_f1": 0.7,
+        "Qwen2.5-72B-Instruct": 0.6666666666666666,
+        "Qwen2.5-7B-Instruct": 0.6666666666666666,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 1.0,
+        "Qwen3-30B-A3B-Instruct-2507": 0.6666666666666666,
+        "gemma-3-27b-it": 0.5,
+        "gemma-3-4b-it": 0.4,
+        "gpt-oss-120b": 1.0
+      }
+    ],
+    "model_summary": [
+      {
+        "model": "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "model_short": "Qwen3-235B",
+        "mean_f1_across_constructs": 1.0,
+        "Openness": 1.0,
+        "Conscientiousness": 1.0,
+        "Extraversion": 1.0,
+        "Agreeableness": 1.0,
+        "Neuroticism": 1.0
+      },
+      {
+        "model": "gpt-oss-120b",
+        "model_short": "GPT-oss-120B",
+        "mean_f1_across_constructs": 1.0,
+        "Openness": 1.0,
+        "Conscientiousness": 1.0,
+        "Extraversion": 1.0,
+        "Agreeableness": 1.0,
+        "Neuroticism": 1.0
+      },
+      {
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_short": "Qwen3-30B",
+        "mean_f1_across_constructs": 0.9333333333333333,
+        "Openness": 1.0,
+        "Conscientiousness": 1.0,
+        "Extraversion": 1.0,
+        "Agreeableness": 1.0,
+        "Neuroticism": 0.6666666666666666
+      },
+      {
+        "model": "gemma-3-27b-it",
+        "model_short": "Gemma-3-27B",
+        "mean_f1_across_constructs": 0.7333333333333333,
+        "Openness": 1.0,
+        "Conscientiousness": 1.0,
+        "Extraversion": 0.6666666666666666,
+        "Agreeableness": 0.5,
+        "Neuroticism": 0.5
+      },
+      {
+        "model": "Qwen2.5-72B-Instruct",
+        "model_short": "Qwen2.5-72B",
+        "mean_f1_across_constructs": 0.6666666666666666,
+        "Openness": 0.6666666666666666,
+        "Conscientiousness": 0.6666666666666666,
+        "Extraversion": 0.6666666666666666,
+        "Agreeableness": 0.6666666666666666,
+        "Neuroticism": 0.6666666666666666
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct",
+        "model_short": "Qwen2.5-7B",
+        "mean_f1_across_constructs": 0.6666666666666666,
+        "Openness": 0.6666666666666666,
+        "Conscientiousness": 0.6666666666666666,
+        "Extraversion": 0.6666666666666666,
+        "Agreeableness": 0.6666666666666666,
+        "Neuroticism": 0.6666666666666666
+      },
+      {
+        "model": "gemma-3-4b-it",
+        "model_short": "Gemma-3-4B",
+        "mean_f1_across_constructs": 0.58,
+        "Openness": 0.6666666666666666,
+        "Conscientiousness": 0.6666666666666666,
+        "Extraversion": 0.6666666666666666,
+        "Agreeableness": 0.5,
+        "Neuroticism": 0.4
+      }
+    ]
+  }
+}

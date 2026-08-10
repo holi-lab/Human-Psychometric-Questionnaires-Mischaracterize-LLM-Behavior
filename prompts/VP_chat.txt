@@ -1,0 +1,5 @@
+Now I will show you a message. Please read it and respond naturally, as if this message were directed at you. Write your genuine reaction or thought process.
+
+Message: {text}
+
+Please write your response below.

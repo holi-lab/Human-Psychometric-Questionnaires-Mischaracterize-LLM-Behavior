@@ -1,0 +1,310 @@
+{
+    "1": {
+      "en_neutral": "is talkative.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "2": {
+      "en_neutral": "tends to find fault with others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "reverse"
+      }
+    },
+    "3": {
+      "en_neutral": "does a thorough job.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "4": {
+      "en_neutral": "is depressed, blue.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "5": {
+      "en_neutral": "is original, comes up with new ideas.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "6": {
+      "en_neutral": "is reserved.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "reverse"
+      }
+    },
+    "7": {
+      "en_neutral": "is helpful and unselfish with others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "8": {
+      "en_neutral": "can be somewhat careless.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "reverse"
+      }
+    },
+    "9": {
+      "en_neutral": "is relaxed, handles stress well.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "reverse"
+      }
+    },
+    "10": {
+      "en_neutral": "is curious about many different things.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "11": {
+      "en_neutral": "is full of energy.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "12": {
+      "en_neutral": "starts quarrels with others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "reverse"
+      }
+    },
+    "13": {
+      "en_neutral": "is a reliable worker.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "14": {
+      "en_neutral": "can be tense.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "15": {
+      "en_neutral": "is ingenious, a deep thinker.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "16": {
+      "en_neutral": "generates a lot of enthusiasm.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "17": {
+      "en_neutral": "has a forgiving nature.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "18": {
+      "en_neutral": "tends to be disorganized.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "reverse"
+      }
+    },
+    "19": {
+      "en_neutral": "worries a lot.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "20": {
+      "en_neutral": "has an active imagination.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "21": {
+      "en_neutral": "tends to be quiet.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "reverse"
+      }
+    },
+    "22": {
+      "en_neutral": "is generally trusting.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "23": {
+      "en_neutral": "tends to be lazy.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "reverse"
+      }
+    },
+    "24": {
+      "en_neutral": "is emotionally stable, not easily upset.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "reverse"
+      }
+    },
+    "25": {
+      "en_neutral": "is inventive.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "26": {
+      "en_neutral": "has an assertive personality.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "27": {
+      "en_neutral": "can be cold and aloof.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "reverse"
+      }
+    },
+    "28": {
+      "en_neutral": "perseveres until the task is finished.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "29": {
+      "en_neutral": "can be moody.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "30": {
+      "en_neutral": "values artistic, aesthetic experiences.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "31": {
+      "en_neutral": "is sometimes shy, inhibited.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "reverse"
+      }
+    },
+    "32": {
+      "en_neutral": "is considerate and kind to almost everyone.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "33": {
+      "en_neutral": "does things efficiently.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "34": {
+      "en_neutral": "remains calm in tense situations.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "reverse"
+      }
+    },
+    "35": {
+      "en_neutral": "prefers work that is routine.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "reverse"
+      }
+    },
+    "36": {
+      "en_neutral": "is outgoing, sociable.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "37": {
+      "en_neutral": "is sometimes rude to others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "reverse"
+      }
+    },
+    "38": {
+      "en_neutral": "makes plans and follows through with them.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "39": {
+      "en_neutral": "gets nervous easily.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "40": {
+      "en_neutral": "likes to reflect, play with ideas.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    },
+    "41": {
+      "en_neutral": "has few artistic interests.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "reverse"
+      }
+    },
+    "42": {
+      "en_neutral": "likes to cooperate with others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "43": {
+      "en_neutral": "is easily distracted.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "reverse"
+      }
+    },
+    "44": {
+      "en_neutral": "is sophisticated in art, music, or literature.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    }
+}

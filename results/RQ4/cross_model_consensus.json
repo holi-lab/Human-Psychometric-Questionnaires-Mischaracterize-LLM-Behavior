@@ -1,0 +1,2233 @@
+{
+  "schema_version": 1,
+  "tie_handling": "ties_count_as_negative",
+  "models": [
+    "gemma-3-27b-it",
+    "gpt-oss-20b",
+    "gpt-oss-120b",
+    "Qwen2.5-7B-Instruct",
+    "Qwen2.5-72B-Instruct",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "Qwen3-235B-A22B-Instruct-2507-FP8"
+  ],
+  "conditions": [
+    "Gender_A",
+    "Gender_B",
+    "Age_A",
+    "Age_B",
+    "Political_A",
+    "Political_B",
+    "Education_A",
+    "Education_B"
+  ],
+  "values": [
+    "Achievement",
+    "Benevolence",
+    "Conformity",
+    "Hedonism",
+    "Power",
+    "Security",
+    "Self-Direction",
+    "Stimulation",
+    "Tradition",
+    "Universalism"
+  ],
+  "per_survey": {
+    "PVQ": {
+      "n_pairs": 80,
+      "mean_consensus": 0.7321428571428567,
+      "strong_count": 29,
+      "strong_frac": 0.3625,
+      "weak_count": 30,
+      "weak_frac": 0.375,
+      "intermediate_count": 21,
+      "intermediate_frac": 0.2625,
+      "per_cell": [
+        {
+          "condition": "Gender_A",
+          "value": "Achievement",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Benevolence",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Conformity",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Hedonism",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Power",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Security",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Stimulation",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Universalism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Benevolence",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Conformity",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Power",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Security",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Universalism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Achievement",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Benevolence",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Conformity",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Hedonism",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Security",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Tradition",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Conformity",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Security",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Stimulation",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Tradition",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Achievement",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Benevolence",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Conformity",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Hedonism",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Power",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Security",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Stimulation",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Tradition",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Universalism",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Benevolence",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Conformity",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Security",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Self-Direction",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Stimulation",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Tradition",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Universalism",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Achievement",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Benevolence",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Conformity",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Hedonism",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Power",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Security",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Achievement",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Hedonism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Security",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Tradition",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        }
+      ]
+    },
+    "PVQ21": {
+      "n_pairs": 80,
+      "mean_consensus": 0.7196428571428568,
+      "strong_count": 25,
+      "strong_frac": 0.3125,
+      "weak_count": 33,
+      "weak_frac": 0.4125,
+      "intermediate_count": 22,
+      "intermediate_frac": 0.275,
+      "per_cell": [
+        {
+          "condition": "Gender_A",
+          "value": "Achievement",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Benevolence",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Conformity",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Hedonism",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Power",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Security",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Tradition",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Universalism",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Achievement",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Conformity",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Power",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Security",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Stimulation",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Universalism",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Benevolence",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Conformity",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Power",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Security",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Tradition",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Universalism",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Benevolence",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Conformity",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Power",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Security",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Self-Direction",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Stimulation",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Tradition",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Universalism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Achievement",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Benevolence",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Conformity",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Hedonism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Power",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Security",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Self-Direction",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Stimulation",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Tradition",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Universalism",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Achievement",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Benevolence",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Conformity",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Hedonism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Security",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Self-Direction",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Stimulation",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Tradition",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Universalism",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Conformity",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Power",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Security",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Self-Direction",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Tradition",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Achievement",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Power",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Security",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Self-Direction",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Stimulation",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Tradition",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Universalism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        }
+      ]
+    },
+    "VP": {
+      "n_pairs": 80,
+      "mean_consensus": 0.6660714285714283,
+      "strong_count": 14,
+      "strong_frac": 0.175,
+      "weak_count": 44,
+      "weak_frac": 0.55,
+      "intermediate_count": 22,
+      "intermediate_frac": 0.275,
+      "per_cell": [
+        {
+          "condition": "Gender_A",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Security",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Self-Direction",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Stimulation",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Tradition",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_A",
+          "value": "Universalism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Conformity",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Security",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Self-Direction",
+          "positive_votes": 7,
+          "negative_votes": 0,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Stimulation",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Tradition",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Gender_B",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Achievement",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Hedonism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Security",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Self-Direction",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Stimulation",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_A",
+          "value": "Universalism",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Benevolence",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Hedonism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Power",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Security",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Self-Direction",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Stimulation",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Tradition",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Age_B",
+          "value": "Universalism",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Benevolence",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Security",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Self-Direction",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Stimulation",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_A",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Achievement",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Conformity",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Security",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Self-Direction",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Stimulation",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Political_B",
+          "value": "Universalism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Achievement",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Conformity",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Hedonism",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Power",
+          "positive_votes": 2,
+          "negative_votes": 5,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Security",
+          "positive_votes": 1,
+          "negative_votes": 6,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Self-Direction",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Stimulation",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_A",
+          "value": "Universalism",
+          "positive_votes": 5,
+          "negative_votes": 2,
+          "agree_count": 5,
+          "agree_frac": 0.7142857142857143,
+          "bucket": "intermediate"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Achievement",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Benevolence",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Conformity",
+          "positive_votes": 4,
+          "negative_votes": 3,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Hedonism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Power",
+          "positive_votes": 0,
+          "negative_votes": 7,
+          "agree_count": 7,
+          "agree_frac": 1.0,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Security",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Self-Direction",
+          "positive_votes": 6,
+          "negative_votes": 1,
+          "agree_count": 6,
+          "agree_frac": 0.8571428571428571,
+          "bucket": "strong"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Stimulation",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Tradition",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        },
+        {
+          "condition": "Education_B",
+          "value": "Universalism",
+          "positive_votes": 3,
+          "negative_votes": 4,
+          "agree_count": 4,
+          "agree_frac": 0.5714285714285714,
+          "bucket": "weak"
+        }
+      ]
+    }
+  }
+}

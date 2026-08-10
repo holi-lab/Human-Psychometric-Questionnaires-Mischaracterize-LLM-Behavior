@@ -1,0 +1,210 @@
+{
+  "pairs": {
+    "PVQ": {
+      "Qwen2.5-7B": {
+        "eta2": {
+          "base_orig": 0.4854,
+          "instr_orig": 0.6419,
+          "base_cueless": 0.4758,
+          "instr_cueless": 0.3668
+        },
+        "wmv": {
+          "base_orig": 0.6288,
+          "instr_orig": 0.5078,
+          "base_cueless": 0.6253,
+          "instr_cueless": 0.8317
+        },
+        "digit_mass": {
+          "base_orig": 0.9917,
+          "instr_orig": 0.9995,
+          "base_cueless": 0.9923,
+          "instr_cueless": 0.9996
+        },
+        "gain_orig": 0.1566,
+        "gain_cueless": -0.109,
+        "interaction": 0.2656
+      },
+      "Gemma3-4B": {
+        "eta2": {
+          "base_orig": 0.1941,
+          "instr_orig": 0.523,
+          "base_cueless": 0.4572,
+          "instr_cueless": 0.546
+        },
+        "wmv": {
+          "base_orig": 1.0114,
+          "instr_orig": 0.6611,
+          "base_cueless": 0.6895,
+          "instr_cueless": 0.5727
+        },
+        "digit_mass": {
+          "base_orig": 0.588,
+          "instr_orig": 0.9996,
+          "base_cueless": 0.7499,
+          "instr_cueless": 0.9997
+        },
+        "gain_orig": 0.3289,
+        "gain_cueless": 0.0888,
+        "interaction": 0.2402
+      },
+      "Gemma3-27B": {
+        "eta2": {
+          "base_orig": 0.49,
+          "instr_orig": 0.7482,
+          "base_cueless": 0.4633,
+          "instr_cueless": 0.4493
+        },
+        "wmv": {
+          "base_orig": 0.6116,
+          "instr_orig": 0.2817,
+          "base_cueless": 0.8812,
+          "instr_cueless": 0.6849
+        },
+        "digit_mass": {
+          "base_orig": 0.6963,
+          "instr_orig": 0.1235,
+          "base_cueless": 0.7331,
+          "instr_cueless": 0.1264
+        },
+        "gain_orig": 0.2582,
+        "gain_cueless": -0.014,
+        "interaction": 0.2721
+      },
+      "Qwen3-30B-A3B": {
+        "eta2": {
+          "base_orig": 0.4993,
+          "instr_orig": 0.5396,
+          "base_cueless": 0.4166,
+          "instr_cueless": 0.425
+        },
+        "wmv": {
+          "base_orig": 0.6129,
+          "instr_orig": 0.6298,
+          "base_cueless": 0.8477,
+          "instr_cueless": 0.8914
+        },
+        "digit_mass": {
+          "base_orig": 0.9915,
+          "instr_orig": 0.9999,
+          "base_cueless": 0.9924,
+          "instr_cueless": 1.0
+        },
+        "gain_orig": 0.0402,
+        "gain_cueless": 0.0084,
+        "interaction": 0.0318
+      }
+    },
+    "BFI44": {
+      "Qwen2.5-7B": {
+        "eta2": {
+          "base_orig": 0.3813,
+          "instr_orig": 0.4355,
+          "base_cueless": 0.2911,
+          "instr_cueless": 0.3078
+        },
+        "wmv": {
+          "base_orig": 0.7128,
+          "instr_orig": 0.6521,
+          "base_cueless": 0.8178,
+          "instr_cueless": 0.8252
+        },
+        "digit_mass": {
+          "base_orig": 0.9886,
+          "instr_orig": 0.9995,
+          "base_cueless": 0.9907,
+          "instr_cueless": 0.9994
+        },
+        "gain_orig": 0.0541,
+        "gain_cueless": 0.0167,
+        "interaction": 0.0374
+      },
+      "Gemma3-4B": {
+        "eta2": {
+          "base_orig": 0.1708,
+          "instr_orig": 0.1307,
+          "base_cueless": 0.0442,
+          "instr_cueless": 0.0874
+        },
+        "wmv": {
+          "base_orig": 0.9357,
+          "instr_orig": 0.9958,
+          "base_cueless": 1.0548,
+          "instr_cueless": 1.0491
+        },
+        "digit_mass": {
+          "base_orig": 0.547,
+          "instr_orig": 0.9557,
+          "base_cueless": 0.57,
+          "instr_cueless": 0.9746
+        },
+        "gain_orig": -0.0401,
+        "gain_cueless": 0.0432,
+        "interaction": -0.0833
+      },
+      "Gemma3-27B": {
+        "eta2": {
+          "base_orig": 0.2756,
+          "instr_orig": 0.5523,
+          "base_cueless": 0.1404,
+          "instr_cueless": 0.1081
+        },
+        "wmv": {
+          "base_orig": 0.8294,
+          "instr_orig": 0.5176,
+          "base_cueless": 0.966,
+          "instr_cueless": 1.0068
+        },
+        "digit_mass": {
+          "base_orig": 0.8584,
+          "instr_orig": 0.9778,
+          "base_cueless": 0.865,
+          "instr_cueless": 0.9591
+        },
+        "gain_orig": 0.2767,
+        "gain_cueless": -0.0323,
+        "interaction": 0.309
+      },
+      "Qwen3-30B-A3B": {
+        "eta2": {
+          "base_orig": 0.6856,
+          "instr_orig": 0.324,
+          "base_cueless": 0.2937,
+          "instr_cueless": 0.1494
+        },
+        "wmv": {
+          "base_orig": 0.3701,
+          "instr_orig": 0.7967,
+          "base_cueless": 0.8225,
+          "instr_cueless": 0.9866
+        },
+        "digit_mass": {
+          "base_orig": 0.9924,
+          "instr_orig": 0.9999,
+          "base_cueless": 0.9918,
+          "instr_cueless": 0.9999
+        },
+        "gain_orig": -0.3617,
+        "gain_cueless": -0.1443,
+        "interaction": -0.2174
+      }
+    }
+  },
+  "summary": {
+    "PVQ": {
+      "n_pairs": 4,
+      "mean_gain_orig": 0.196,
+      "mean_gain_cueless": -0.0065,
+      "mean_interaction": 0.2024,
+      "pairs_interaction_positive": 4,
+      "signflip_p_interaction": 0.0625
+    },
+    "BFI44": {
+      "n_pairs": 4,
+      "mean_gain_orig": -0.0177,
+      "mean_gain_cueless": -0.0292,
+      "mean_interaction": 0.0114,
+      "pairs_interaction_positive": 2,
+      "signflip_p_interaction": 0.4375
+    }
+  }
+}

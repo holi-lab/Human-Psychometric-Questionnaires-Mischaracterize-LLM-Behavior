@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "1",
+    "survey": "PVQ",
+    "construct": "Self-Direction",
+    "scoring": "normal",
+    "original": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+    "rewritten": "When they take on a task, they would rather work out their own way of doing it than follow how it was done before. They often sketch out possibilities that nobody around them has suggested.",
+    "removed_cues": [
+      "thinking up new ideas",
+      "creative",
+      "original"
+    ],
+    "note": "Self-Direction (creativity) expressed as concrete work behavior."
+  },
+  {
+    "id": "2",
+    "survey": "PVQ",
+    "construct": "Power",
+    "scoring": "normal",
+    "original": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+    "rewritten": "It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford.",
+    "removed_cues": [
+      "rich",
+      "a lot of money",
+      "expensive things"
+    ],
+    "note": "Power (wealth) via concrete possessions; avoids 'rich'/'money'."
+  },
+  {
+    "id": "3",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+    "rewritten": "It bothers them when a child born in one neighborhood gets chances that a child born a few streets away will never see. They think the same doors should open for everyone, everywhere.",
+    "removed_cues": [
+      "treated equally",
+      "equal opportunities"
+    ],
+    "note": "Universalism (equality) as a concrete contrast case."
+  },
+  {
+    "id": "4",
+    "survey": "PVQ",
+    "construct": "Achievement",
+    "scoring": "normal",
+    "original": "It's very important to them to show their abilities. They want people to admire what they do.",
+    "rewritten": "When they finish a difficult piece of work, they make sure the people who matter get to see it. Hearing others talk about what they have pulled off makes their day.",
+    "removed_cues": [
+      "show their abilities",
+      "admire"
+    ],
+    "note": "Achievement (recognition-seeking) behaviorally."
+  },
+  {
+    "id": "5",
+    "survey": "PVQ",
+    "construct": "Security",
+    "scoring": "normal",
+    "original": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+    "rewritten": "They double-check the locks before bed and prefer streets where nothing much ever happens. They stay away from shortcuts through areas they don't know.",
+    "removed_cues": [
+      "secure surroundings",
+      "endanger",
+      "safety"
+    ],
+    "note": "Security (personal) as routines; no safety vocabulary."
+  },
+  {
+    "id": "6",
+    "survey": "PVQ",
+    "construct": "Stimulation",
+    "scoring": "normal",
+    "original": "They think it is important to do lots of different things in life. They always look for new things to try.",
+    "rewritten": "Their weekends rarely look the same twice — one month a pottery class, the next a road trip. If a menu lists a dish they can't pronounce, that's the one they order.",
+    "removed_cues": [
+      "lots of different things",
+      "new things to try"
+    ],
+    "note": "Stimulation (variety) via concrete episodes."
+  },
+  {
+    "id": "7",
+    "survey": "PVQ",
+    "construct": "Conformity",
+    "scoring": "normal",
+    "original": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+    "rewritten": "They stop at the red light at an empty intersection at 3 a.m. and wait for it to change. When a supervisor gives an instruction, they carry it out without arguing.",
+    "removed_cues": [
+      "do what they're told",
+      "follow rules"
+    ],
+    "note": "Conformity (rule-following/obedience) as concrete behavior."
+  },
+  {
+    "id": "8",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+    "rewritten": "At a gathering, they sit down next to the person whose views clash with their own and ask questions instead of walking away. They want to hear the full story before making up their mind about anyone.",
+    "removed_cues": [
+      "people who are different from them",
+      "understand them"
+    ],
+    "note": "Universalism (tolerance) behaviorally."
+  },
+  {
+    "id": "9",
+    "survey": "PVQ",
+    "construct": "Tradition",
+    "scoring": "normal",
+    "original": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+    "rewritten": "Once their needs are met, they stop chasing a bigger house or a better job title. In their eyes, someone who keeps wanting more has missed the point.",
+    "removed_cues": [
+      "not to ask for more",
+      "satisfied with what they have"
+    ],
+    "note": "Tradition (moderation/acceptance of one's portion)."
+  },
+  {
+    "id": "10",
+    "survey": "PVQ",
+    "construct": "Hedonism",
+    "scoring": "normal",
+    "original": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+    "rewritten": "If there is a party on Friday and a long lunch on Sunday, they will be at both. Given a free afternoon, they spend it on whatever feels best in the moment.",
+    "removed_cues": [
+      "have fun",
+      "pleasure"
+    ],
+    "note": "Hedonism without 'fun'/'pleasure'."
+  },
+  {
+    "id": "11",
+    "survey": "PVQ",
+    "construct": "Self-Direction",
+    "scoring": "normal",
+    "original": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+    "rewritten": "They would turn down a well-paid job if someone else got to set their schedule. Nobody fills in their calendar but them.",
+    "removed_cues": [
+      "make their own decisions",
+      "free to plan",
+      "choose for themselves"
+    ],
+    "note": "Self-Direction (autonomy) via a concrete tradeoff."
+  },
+  {
+    "id": "12",
+    "survey": "PVQ",
+    "construct": "Benevolence",
+    "scoring": "normal",
+    "original": "It's very important to them to help the people around them. They want to care for their well-being.",
+    "rewritten": "When a friend is moving apartments or stranded at the airport, they are the first phone call. They keep an eye on how the people in their circle are holding up.",
+    "removed_cues": [
+      "help the people around them",
+      "care for their well-being"
+    ],
+    "note": "Benevolence (helping close others) behaviorally."
+  },
+  {
+    "id": "13",
+    "survey": "PVQ",
+    "construct": "Achievement",
+    "scoring": "normal",
+    "original": "Being very successful is important to them. They like to impress other people.",
+    "rewritten": "They want their name near the top when the results are posted. It matters to them that others raise their eyebrows at what they have done.",
+    "removed_cues": [
+      "successful",
+      "impress"
+    ],
+    "note": "Achievement (success/impressing) without the keywords."
+  },
+  {
+    "id": "14",
+    "survey": "PVQ",
+    "construct": "Security",
+    "scoring": "normal",
+    "original": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+    "rewritten": "They follow news about border incidents closely and want more spending on the army and the police. Groups that could stir up trouble from within make them uneasy.",
+    "removed_cues": [
+      "country be safe",
+      "threats",
+      "the state must be on watch"
+    ],
+    "note": "Security (national) via concrete policy preferences."
+  },
+  {
+    "id": "15",
+    "survey": "PVQ",
+    "construct": "Stimulation",
+    "scoring": "normal",
+    "original": "They like to take risks. They are always looking for adventures.",
+    "rewritten": "They sign up for the cliff jump while the others watch from the shore. A plan with an uncertain ending draws them more than one with a guaranteed outcome.",
+    "removed_cues": [
+      "take risks",
+      "adventures"
+    ],
+    "note": "Stimulation (risk) via a concrete scene."
+  },
+  {
+    "id": "16",
+    "survey": "PVQ",
+    "construct": "Conformity",
+    "scoring": "normal",
+    "original": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+    "rewritten": "Before doing anything, they ask themselves what the people around them would make of it. They would rather pass up something they wanted than give the neighbors a reason to talk.",
+    "removed_cues": [
+      "behave properly",
+      "wrong"
+    ],
+    "note": "Conformity (propriety) as anticipatory self-restraint."
+  },
+  {
+    "id": "17",
+    "survey": "PVQ",
+    "construct": "Power",
+    "scoring": "normal",
+    "original": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+    "rewritten": "In any group project, they end up assigning the tasks and setting the deadlines. Things go smoother, they feel, when everyone else simply follows their plan.",
+    "removed_cues": [
+      "be in charge",
+      "tell others what to do"
+    ],
+    "note": "Power (dominance) behaviorally."
+  },
+  {
+    "id": "18",
+    "survey": "PVQ",
+    "construct": "Benevolence",
+    "scoring": "normal",
+    "original": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+    "rewritten": "If someone they have known for years calls at midnight, they get in the car. The handful of people they grew up with can count on them for anything.",
+    "removed_cues": [
+      "loyal",
+      "devote themselves",
+      "people close to them"
+    ],
+    "note": "Benevolence (loyalty) via a concrete episode."
+  },
+  {
+    "id": "19",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+    "rewritten": "They sort their recycling, cycle instead of driving when they can, and give money to groups that replant forests. A riverbank covered in plastic bags genuinely upsets them.",
+    "removed_cues": [
+      "care for nature",
+      "environment"
+    ],
+    "note": "Universalism (nature) via concrete pro-environmental behaviors."
+  },
+  {
+    "id": "20",
+    "survey": "PVQ",
+    "construct": "Tradition",
+    "scoring": "normal",
+    "original": "Religious belief is important to them. They try hard to do what their religion requires.",
+    "rewritten": "They set aside time every week to attend services, and they keep the fasts and observances they were raised with. Before big decisions, they pray.",
+    "removed_cues": [
+      "religious belief",
+      "religion"
+    ],
+    "note": "Tradition (religiosity); concrete practice words (pray/services) are unavoidable to preserve meaning."
+  },
+  {
+    "id": "21",
+    "survey": "PVQ",
+    "construct": "Security",
+    "scoring": "normal",
+    "original": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+    "rewritten": "Every jar in their kitchen has a label, and every shirt in the closet faces the same way. A sink of dishes left overnight bothers them more than they would like to admit.",
+    "removed_cues": [
+      "organized",
+      "clean",
+      "mess"
+    ],
+    "note": "Security (order/cleanliness) via concrete household detail."
+  },
+  {
+    "id": "22",
+    "survey": "PVQ",
+    "construct": "Self-Direction",
+    "scoring": "normal",
+    "original": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+    "rewritten": "An offhand question about how bridges stay up can cost them an evening of reading. They ask 'why' more often than most adults they know.",
+    "removed_cues": [
+      "interested in things",
+      "curious",
+      "understand all sorts of things"
+    ],
+    "note": "Self-Direction (curiosity) behaviorally."
+  },
+  {
+    "id": "23",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+    "rewritten": "News of a ceasefire anywhere on the globe makes their week. They give to organizations that bring together groups who have been fighting for generations.",
+    "removed_cues": [
+      "live in harmony",
+      "promoting peace"
+    ],
+    "note": "Universalism (world peace) via concrete behavior."
+  },
+  {
+    "id": "24",
+    "survey": "PVQ",
+    "construct": "Achievement",
+    "scoring": "normal",
+    "original": "They think it is important to be ambitious. They want to show how capable they are.",
+    "rewritten": "They set targets that make other people whistle, and then chase them down. When a hard problem has beaten everyone else, they volunteer — partly so everyone can watch them solve it.",
+    "removed_cues": [
+      "ambitious",
+      "show how capable they are"
+    ],
+    "note": "Achievement (ambition) behaviorally."
+  },
+  {
+    "id": "25",
+    "survey": "PVQ",
+    "construct": "Tradition",
+    "scoring": "normal",
+    "original": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+    "rewritten": "They cook the dishes their grandmother cooked, the same way, on the same dates every year. If something has been done a certain way for generations, they see no reason to change it.",
+    "removed_cues": [
+      "traditional ways",
+      "customs"
+    ],
+    "note": "Tradition without 'tradition'/'customs'."
+  },
+  {
+    "id": "26",
+    "survey": "PVQ",
+    "construct": "Hedonism",
+    "scoring": "normal",
+    "original": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+    "rewritten": "They book the massage, order the dessert, and run the long bath without a second thought. Treating themselves well is a fixed line in their budget, not an afterthought.",
+    "removed_cues": [
+      "enjoying life's pleasures",
+      "spoil themselves"
+    ],
+    "note": "Hedonism (self-indulgence) via concrete treats."
+  },
+  {
+    "id": "27",
+    "survey": "PVQ",
+    "construct": "Benevolence",
+    "scoring": "normal",
+    "original": "It is important to them to respond to the needs of others. They try to support those they know.",
+    "rewritten": "When someone in their circle is short on rent or buried in work, they quietly step in. People around them have learned that asking once is enough.",
+    "removed_cues": [
+      "respond to the needs of others",
+      "support those they know"
+    ],
+    "note": "Benevolence (responsiveness) behaviorally."
+  },
+  {
+    "id": "28",
+    "survey": "PVQ",
+    "construct": "Conformity",
+    "scoring": "normal",
+    "original": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+    "rewritten": "They still answer their father with 'sir' and would never contradict a grandparent at the table. When someone senior asks them to do something, they do it without argument.",
+    "removed_cues": [
+      "show respect",
+      "obedient"
+    ],
+    "note": "Conformity (deference to elders) via concrete behavior."
+  },
+  {
+    "id": "29",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+    "rewritten": "They speak up when a stranger is being shortchanged, not only when it happens to a friend. They give time and money to shelters and legal-aid clinics for people who cannot push back on their own.",
+    "removed_cues": [
+      "treated justly",
+      "protect the weak"
+    ],
+    "note": "Universalism (justice) via concrete actions."
+  },
+  {
+    "id": "30",
+    "survey": "PVQ",
+    "construct": "Stimulation",
+    "scoring": "normal",
+    "original": "They like surprises. It is important to them to have an exciting life.",
+    "rewritten": "They would rather open an unmarked envelope than be told what is inside. A year in which nothing unexpected happened would feel like a year lost.",
+    "removed_cues": [
+      "surprises",
+      "exciting life"
+    ],
+    "note": "Stimulation (novelty-seeking) without the keywords."
+  },
+  {
+    "id": "31",
+    "survey": "PVQ",
+    "construct": "Security",
+    "scoring": "normal",
+    "original": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+    "rewritten": "They book every recommended check-up, keep sanitizer in the car, and go to bed early when something is going around. Their medicine cabinet is stocked before anyone sneezes.",
+    "removed_cues": [
+      "avoid getting sick",
+      "staying healthy"
+    ],
+    "note": "Security (health) via concrete precautions."
+  },
+  {
+    "id": "32",
+    "survey": "PVQ",
+    "construct": "Achievement",
+    "scoring": "normal",
+    "original": "Getting ahead in life is important to them. They strive to do better than others.",
+    "rewritten": "They keep track of where they stand against the people they started out with — pay, title, results — and second place stings. Each year they aim to be a rung above last year.",
+    "removed_cues": [
+      "getting ahead in life",
+      "do better than others"
+    ],
+    "note": "Achievement (social comparison) behaviorally."
+  },
+  {
+    "id": "33",
+    "survey": "PVQ",
+    "construct": "Benevolence",
+    "scoring": "normal",
+    "original": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+    "rewritten": "After a friend let them down badly, they still showed up at his birthday a month later. They would rather remember the good years than replay one bad evening.",
+    "removed_cues": [
+      "forgiving",
+      "hold a grudge"
+    ],
+    "note": "Benevolence (forgiveness) via a concrete episode."
+  },
+  {
+    "id": "34",
+    "survey": "PVQ",
+    "construct": "Self-Direction",
+    "scoring": "normal",
+    "original": "It is important to them to be independent. They like to rely on themselves.",
+    "rewritten": "They fixed the leaking pipe with a video tutorial rather than call their brother-in-law. Handing their affairs over to someone else makes them uncomfortable.",
+    "removed_cues": [
+      "independent",
+      "rely on themselves"
+    ],
+    "note": "Self-Direction (self-reliance) via a concrete episode."
+  },
+  {
+    "id": "35",
+    "survey": "PVQ",
+    "construct": "Security",
+    "scoring": "normal",
+    "original": "Having a stable government is important to them. They are concerned that the social order be protected.",
+    "rewritten": "They vote for candidates who promise continuity rather than upheaval. Strikes, sudden reforms, and street protests make them uneasy about where the country is heading.",
+    "removed_cues": [
+      "stable government",
+      "social order be protected"
+    ],
+    "note": "Security (societal stability) via concrete political preferences."
+  },
+  {
+    "id": "36",
+    "survey": "PVQ",
+    "construct": "Conformity",
+    "scoring": "normal",
+    "original": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+    "rewritten": "They apologize when someone else bumps into them, and keep their music low even at midday. They would take the longer hallway rather than walk between two people talking.",
+    "removed_cues": [
+      "polite",
+      "disturb or irritate others"
+    ],
+    "note": "Conformity (politeness) behaviorally."
+  },
+  {
+    "id": "37",
+    "survey": "PVQ",
+    "construct": "Hedonism",
+    "scoring": "normal",
+    "original": "They really want to enjoy life. Having a good time is very important to them.",
+    "rewritten": "Their calendar fills with dinners, festivals, and weekends away before anything else gets a slot. If an evening ends with cheeks sore from laughing, it counted.",
+    "removed_cues": [
+      "enjoy life",
+      "having a good time"
+    ],
+    "note": "Hedonism (enjoyment) via concrete episodes."
+  },
+  {
+    "id": "38",
+    "survey": "PVQ",
+    "construct": "Tradition",
+    "scoring": "normal",
+    "original": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+    "rewritten": "When their project wins, they nudge a teammate forward to collect the prize. They pick the seat at the back of the room and change the subject when the conversation turns to them.",
+    "removed_cues": [
+      "humble",
+      "modest",
+      "draw attention to themselves"
+    ],
+    "note": "Tradition (humility) behaviorally."
+  },
+  {
+    "id": "39",
+    "survey": "PVQ",
+    "construct": "Power",
+    "scoring": "normal",
+    "original": "They always want to be the one who makes the decisions. They like to be the leader.",
+    "rewritten": "When the group cannot settle on a restaurant, they name one, and everyone goes. Committees they join tend to end up with them holding the gavel — which suits them fine.",
+    "removed_cues": [
+      "makes the decisions",
+      "leader"
+    ],
+    "note": "Power (leadership/decision control) behaviorally."
+  },
+  {
+    "id": "40",
+    "survey": "PVQ",
+    "construct": "Universalism",
+    "scoring": "normal",
+    "original": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+    "rewritten": "They would rather a footpath bend around an old oak than the oak be cut for a straighter path. When they camp, they leave the clearing exactly as they found it.",
+    "removed_cues": [
+      "adapt to nature",
+      "fit into it",
+      "change nature"
+    ],
+    "note": "Universalism (unity with nature) via concrete choices."
+  },
+  {
+    "id": "1",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "normal",
+    "original": "is talkative.",
+    "rewritten": "keeps a conversation going long after others have run out of things to say.",
+    "removed_cues": [
+      "talkative"
+    ],
+    "note": "Extraversion (+)."
+  },
+  {
+    "id": "2",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "reverse",
+    "original": "tends to find fault with others.",
+    "rewritten": "usually notices what a colleague got wrong before noticing what they got right.",
+    "removed_cues": [
+      "find fault with others"
+    ],
+    "note": "Agreeableness (reverse) preserved."
+  },
+  {
+    "id": "3",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "normal",
+    "original": "does a thorough job.",
+    "rewritten": "reads a document down to the last page before signing off on it.",
+    "removed_cues": [
+      "thorough"
+    ],
+    "note": "Conscientiousness (+)."
+  },
+  {
+    "id": "4",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "normal",
+    "original": "is depressed, blue.",
+    "rewritten": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+    "removed_cues": [
+      "depressed",
+      "blue"
+    ],
+    "note": "Neuroticism (+), depressive mood behaviorally."
+  },
+  {
+    "id": "5",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "is original, comes up with new ideas.",
+    "rewritten": "suggests approaches in meetings that nobody else at the table had thought of.",
+    "removed_cues": [
+      "original",
+      "new ideas"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "6",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "reverse",
+    "original": "is reserved.",
+    "rewritten": "lets others do most of the talking at gatherings.",
+    "removed_cues": [
+      "reserved"
+    ],
+    "note": "Extraversion (reverse) preserved."
+  },
+  {
+    "id": "7",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "normal",
+    "original": "is helpful and unselfish with others.",
+    "rewritten": "gives up a free weekend to move a friend's furniture without being asked twice.",
+    "removed_cues": [
+      "helpful",
+      "unselfish"
+    ],
+    "note": "Agreeableness (+)."
+  },
+  {
+    "id": "8",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "reverse",
+    "original": "can be somewhat careless.",
+    "rewritten": "sometimes sends the email before noticing the attachment is missing.",
+    "removed_cues": [
+      "careless"
+    ],
+    "note": "Conscientiousness (reverse) preserved."
+  },
+  {
+    "id": "9",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "reverse",
+    "original": "is relaxed, handles stress well.",
+    "rewritten": "sleeps soundly the night before a big exam or presentation.",
+    "removed_cues": [
+      "relaxed",
+      "handles stress well"
+    ],
+    "note": "Neuroticism (reverse) preserved."
+  },
+  {
+    "id": "10",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "is curious about many different things.",
+    "rewritten": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+    "removed_cues": [
+      "curious"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "11",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "normal",
+    "original": "is full of energy.",
+    "rewritten": "is still going strong when the rest of the group is ready to head home.",
+    "removed_cues": [
+      "full of energy"
+    ],
+    "note": "Extraversion (+)."
+  },
+  {
+    "id": "12",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "reverse",
+    "original": "starts quarrels with others.",
+    "rewritten": "turns small disagreements over dinner into raised voices.",
+    "removed_cues": [
+      "starts quarrels"
+    ],
+    "note": "Agreeableness (reverse) preserved."
+  },
+  {
+    "id": "13",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "normal",
+    "original": "is a reliable worker.",
+    "rewritten": "delivers what was promised on the day it was promised.",
+    "removed_cues": [
+      "reliable worker"
+    ],
+    "note": "Conscientiousness (+)."
+  },
+  {
+    "id": "14",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "normal",
+    "original": "can be tense.",
+    "rewritten": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+    "removed_cues": [
+      "tense"
+    ],
+    "note": "Neuroticism (+)."
+  },
+  {
+    "id": "15",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "is ingenious, a deep thinker.",
+    "rewritten": "keeps turning a question over long after everyone else has settled for the easy answer.",
+    "removed_cues": [
+      "ingenious",
+      "deep thinker"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "16",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "normal",
+    "original": "generates a lot of enthusiasm.",
+    "rewritten": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+    "removed_cues": [
+      "enthusiasm"
+    ],
+    "note": "Extraversion (+)."
+  },
+  {
+    "id": "17",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "normal",
+    "original": "has a forgiving nature.",
+    "rewritten": "meets a friend for coffee a week after that friend let them down badly.",
+    "removed_cues": [
+      "forgiving nature"
+    ],
+    "note": "Agreeableness (+)."
+  },
+  {
+    "id": "18",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "reverse",
+    "original": "tends to be disorganized.",
+    "rewritten": "hunts for keys, chargers, and paperwork nearly every morning.",
+    "removed_cues": [
+      "disorganized"
+    ],
+    "note": "Conscientiousness (reverse) preserved."
+  },
+  {
+    "id": "19",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "normal",
+    "original": "worries a lot.",
+    "rewritten": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+    "removed_cues": [
+      "worries"
+    ],
+    "note": "Neuroticism (+)."
+  },
+  {
+    "id": "20",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "has an active imagination.",
+    "rewritten": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+    "removed_cues": [
+      "active imagination"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "21",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "reverse",
+    "original": "tends to be quiet.",
+    "rewritten": "can share a long car ride without feeling any need to fill the silence.",
+    "removed_cues": [
+      "quiet"
+    ],
+    "note": "Extraversion (reverse) preserved."
+  },
+  {
+    "id": "22",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "normal",
+    "original": "is generally trusting.",
+    "rewritten": "takes people's stories at face value unless given a clear reason not to.",
+    "removed_cues": [
+      "trusting"
+    ],
+    "note": "Agreeableness (+)."
+  },
+  {
+    "id": "23",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "reverse",
+    "original": "tends to be lazy.",
+    "rewritten": "leaves the laundry until there is nothing left to wear.",
+    "removed_cues": [
+      "lazy"
+    ],
+    "note": "Conscientiousness (reverse) preserved."
+  },
+  {
+    "id": "24",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "reverse",
+    "original": "is emotionally stable, not easily upset.",
+    "rewritten": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+    "removed_cues": [
+      "emotionally stable",
+      "not easily upset"
+    ],
+    "note": "Neuroticism (reverse) preserved."
+  },
+  {
+    "id": "25",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "is inventive.",
+    "rewritten": "rigs a working fix out of spare parts when the proper tool is missing.",
+    "removed_cues": [
+      "inventive"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "26",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "normal",
+    "original": "has an assertive personality.",
+    "rewritten": "says plainly at the table what they want and where they stand.",
+    "removed_cues": [
+      "assertive personality"
+    ],
+    "note": "Extraversion (+)."
+  },
+  {
+    "id": "27",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "reverse",
+    "original": "can be cold and aloof.",
+    "rewritten": "answers a coworker's warm greeting with a short nod and keeps walking.",
+    "removed_cues": [
+      "cold and aloof"
+    ],
+    "note": "Agreeableness (reverse) preserved."
+  },
+  {
+    "id": "28",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "normal",
+    "original": "perseveres until the task is finished.",
+    "rewritten": "stays at the desk until the last box on the list is ticked, even past midnight.",
+    "removed_cues": [
+      "perseveres until the task is finished"
+    ],
+    "note": "Conscientiousness (+)."
+  },
+  {
+    "id": "29",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "normal",
+    "original": "can be moody.",
+    "rewritten": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+    "removed_cues": [
+      "moody"
+    ],
+    "note": "Neuroticism (+)."
+  },
+  {
+    "id": "30",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "values artistic, aesthetic experiences.",
+    "rewritten": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+    "removed_cues": [
+      "values artistic, aesthetic experiences"
+    ],
+    "note": "Openness (+); art-domain content kept, trait adjective removed."
+  },
+  {
+    "id": "31",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "reverse",
+    "original": "is sometimes shy, inhibited.",
+    "rewritten": "rehearses a sentence twice before saying it to a stranger at a party.",
+    "removed_cues": [
+      "shy",
+      "inhibited"
+    ],
+    "note": "Extraversion (reverse) preserved."
+  },
+  {
+    "id": "32",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "normal",
+    "original": "is considerate and kind to almost everyone.",
+    "rewritten": "remembers the doorman's name and asks how his daughter's exams went.",
+    "removed_cues": [
+      "considerate and kind"
+    ],
+    "note": "Agreeableness (+)."
+  },
+  {
+    "id": "33",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "normal",
+    "original": "does things efficiently.",
+    "rewritten": "clears in one afternoon what takes others most of a week.",
+    "removed_cues": [
+      "efficiently"
+    ],
+    "note": "Conscientiousness (+)."
+  },
+  {
+    "id": "34",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "reverse",
+    "original": "remains calm in tense situations.",
+    "rewritten": "was the one giving directions when the fire alarm went off.",
+    "removed_cues": [
+      "remains calm",
+      "tense situations"
+    ],
+    "note": "Neuroticism (reverse) preserved."
+  },
+  {
+    "id": "35",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "reverse",
+    "original": "prefers work that is routine.",
+    "rewritten": "is happiest when today's tasks look exactly like yesterday's.",
+    "removed_cues": [
+      "routine"
+    ],
+    "note": "Openness (reverse) preserved."
+  },
+  {
+    "id": "36",
+    "survey": "BFI44",
+    "construct": "Extraversion",
+    "scoring": "normal",
+    "original": "is outgoing, sociable.",
+    "rewritten": "leaves a party with three new phone numbers.",
+    "removed_cues": [
+      "outgoing",
+      "sociable"
+    ],
+    "note": "Extraversion (+)."
+  },
+  {
+    "id": "37",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "reverse",
+    "original": "is sometimes rude to others.",
+    "rewritten": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+    "removed_cues": [
+      "rude"
+    ],
+    "note": "Agreeableness (reverse) preserved."
+  },
+  {
+    "id": "38",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "normal",
+    "original": "makes plans and follows through with them.",
+    "rewritten": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+    "removed_cues": [
+      "makes plans and follows through"
+    ],
+    "note": "Conscientiousness (+)."
+  },
+  {
+    "id": "39",
+    "survey": "BFI44",
+    "construct": "Neuroticism",
+    "scoring": "normal",
+    "original": "gets nervous easily.",
+    "rewritten": "feels their heart race when the phone rings from an unknown number.",
+    "removed_cues": [
+      "nervous"
+    ],
+    "note": "Neuroticism (+)."
+  },
+  {
+    "id": "40",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "likes to reflect, play with ideas.",
+    "rewritten": "can chew on a hypothetical question for the length of a dinner.",
+    "removed_cues": [
+      "reflect",
+      "play with ideas"
+    ],
+    "note": "Openness (+)."
+  },
+  {
+    "id": "41",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "reverse",
+    "original": "has few artistic interests.",
+    "rewritten": "walks past the gallery to get to the food court.",
+    "removed_cues": [
+      "artistic interests"
+    ],
+    "note": "Openness (reverse) preserved."
+  },
+  {
+    "id": "42",
+    "survey": "BFI44",
+    "construct": "Agreeableness",
+    "scoring": "normal",
+    "original": "likes to cooperate with others.",
+    "rewritten": "would rather split the work and share the credit than keep both to themselves.",
+    "removed_cues": [
+      "cooperate"
+    ],
+    "note": "Agreeableness (+)."
+  },
+  {
+    "id": "43",
+    "survey": "BFI44",
+    "construct": "Conscientiousness",
+    "scoring": "reverse",
+    "original": "is easily distracted.",
+    "rewritten": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+    "removed_cues": [
+      "easily distracted"
+    ],
+    "note": "Conscientiousness (reverse) preserved."
+  },
+  {
+    "id": "44",
+    "survey": "BFI44",
+    "construct": "Openness",
+    "scoring": "normal",
+    "original": "is sophisticated in art, music, or literature.",
+    "rewritten": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+    "removed_cues": [
+      "sophisticated in art, music, or literature"
+    ],
+    "note": "Openness (+); domain content kept, trait adjective removed."
+  }
+]

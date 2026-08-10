@@ -1,0 +1,12 @@
+# Core analysis / figure dependencies (Python >= 3.10)
+numpy
+scipy
+matplotlib
+sentence-transformers
+torch
+transformers
+requests
+
+# Model serving (inference only) is handled separately with vLLM (>= 0.16.0).
+# Install it in its own environment following https://github.com/vllm-project/vllm
+# vllm>=0.16.0

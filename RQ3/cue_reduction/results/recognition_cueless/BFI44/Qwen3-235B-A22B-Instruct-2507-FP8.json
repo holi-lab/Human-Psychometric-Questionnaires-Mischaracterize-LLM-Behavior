@@ -1,0 +1,1379 @@
+{
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+  "survey": "BFI44",
+  "timestamp": "2026-07-12T08:55:02.903267+00:00",
+  "cue_removed": true,
+  "construct_definitions_used": {
+    "Openness": "The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives",
+    "Conscientiousness": "The tendency to be organized, responsible, hardworking, and goal-directed",
+    "Extraversion": "The tendency to be sociable, assertive, active, and to experience positive emotions",
+    "Agreeableness": "The tendency to be compassionate, cooperative, trusting, and helpful toward others",
+    "Neuroticism": "The tendency to experience negative emotions such as anxiety, depression, and emotional instability"
+  },
+  "results": {
+    "item_1": {
+      "question_text": "keeps a conversation going long after others have run out of things to say.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_2": {
+      "question_text": "usually notices what a colleague got wrong before noticing what they got right.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_3": {
+      "question_text": "reads a document down to the last page before signing off on it.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_4": {
+      "question_text": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_5": {
+      "question_text": "suggests approaches in meetings that nobody else at the table had thought of.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_6": {
+      "question_text": "lets others do most of the talking at gatherings.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_7": {
+      "question_text": "gives up a free weekend to move a friend's furniture without being asked twice.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_8": {
+      "question_text": "sometimes sends the email before noticing the attachment is missing.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_9": {
+      "question_text": "sleeps soundly the night before a big exam or presentation.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_10": {
+      "question_text": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_11": {
+      "question_text": "is still going strong when the rest of the group is ready to head home.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_12": {
+      "question_text": "turns small disagreements over dinner into raised voices.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_13": {
+      "question_text": "delivers what was promised on the day it was promised.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_14": {
+      "question_text": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_15": {
+      "question_text": "keeps turning a question over long after everyone else has settled for the easy answer.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_16": {
+      "question_text": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_17": {
+      "question_text": "meets a friend for coffee a week after that friend let them down badly.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_18": {
+      "question_text": "hunts for keys, chargers, and paperwork nearly every morning.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_19": {
+      "question_text": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_20": {
+      "question_text": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_21": {
+      "question_text": "can share a long car ride without feeling any need to fill the silence.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_22": {
+      "question_text": "takes people's stories at face value unless given a clear reason not to.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_23": {
+      "question_text": "leaves the laundry until there is nothing left to wear.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_24": {
+      "question_text": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_25": {
+      "question_text": "rigs a working fix out of spare parts when the proper tool is missing.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_26": {
+      "question_text": "says plainly at the table what they want and where they stand.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_27": {
+      "question_text": "answers a coworker's warm greeting with a short nod and keeps walking.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_28": {
+      "question_text": "stays at the desk until the last box on the list is ticked, even past midnight.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_29": {
+      "question_text": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_30": {
+      "question_text": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_31": {
+      "question_text": "rehearses a sentence twice before saying it to a stranger at a party.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_32": {
+      "question_text": "remembers the doorman's name and asks how his daughter's exams went.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_33": {
+      "question_text": "clears in one afternoon what takes others most of a week.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_34": {
+      "question_text": "was the one giving directions when the fire alarm went off.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_35": {
+      "question_text": "is happiest when today's tasks look exactly like yesterday's.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_36": {
+      "question_text": "leaves a party with three new phone numbers.",
+      "ground_truth_construct": "Extraversion",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_37": {
+      "question_text": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_38": {
+      "question_text": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_39": {
+      "question_text": "feels their heart race when the phone rings from an unknown number.",
+      "ground_truth_construct": "Neuroticism",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        }
+      }
+    },
+    "item_40": {
+      "question_text": "can chew on a hypothetical question for the length of a dinner.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_41": {
+      "question_text": "walks past the gallery to get to the food court.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_42": {
+      "question_text": "would rather split the work and share the credit than keep both to themselves.",
+      "ground_truth_construct": "Agreeableness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_43": {
+      "question_text": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+      "ground_truth_construct": "Conscientiousness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    },
+    "item_44": {
+      "question_text": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+      "ground_truth_construct": "Openness",
+      "predictions": {
+        "Openness": {
+          "raw_response": "yes",
+          "parsed": true,
+          "reasoning": null
+        },
+        "Conscientiousness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Extraversion": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Agreeableness": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        },
+        "Neuroticism": {
+          "raw_response": "no",
+          "parsed": false,
+          "reasoning": null
+        }
+      }
+    }
+  }
+}

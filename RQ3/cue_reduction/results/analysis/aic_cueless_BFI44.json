@@ -1,0 +1,323 @@
+{
+  "survey": "BFI44",
+  "by_prompt_variant": {
+    "normal": {
+      "Qwen2.5-72B-Instruct": {
+        "eta_squared": 0.28240343347639507,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.8203501600926499,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.01,
+          "eta_squared_null_mean": 0.09205080273406457,
+          "wmv_p_value": 0.012,
+          "wmv_null_mean": 1.024473151213753
+        }
+      },
+      "Qwen2.5-7B-Instruct": {
+        "eta_squared": 0.2579059829059828,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.8714041514041515,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.014,
+          "eta_squared_null_mean": 0.0949548076923077,
+          "wmv_p_value": 0.032,
+          "wmv_null_mean": 1.0216030402930403
+        }
+      },
+      "Qwen3-235B-A22B-Instruct-2507-FP8": {
+        "eta_squared": 0.22420767048957962,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.9045955992459882,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.036,
+          "eta_squared_null_mean": 0.09312769453693429,
+          "wmv_p_value": 0.071,
+          "wmv_null_mean": 1.0241905300988325
+        }
+      },
+      "Qwen3-30B-A3B-Instruct-2507": {
+        "eta_squared": 0.10480812137438632,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.05256964365398,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.339,
+          "eta_squared_null_mean": 0.0904306157965193,
+          "wmv_p_value": 0.589,
+          "wmv_null_mean": 1.0267724775929103
+        }
+      },
+      "gemma-3-27b-it": {
+        "eta_squared": 0.09558645877229945,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.04109582003893,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.4,
+          "eta_squared_null_mean": 0.09373773563702764,
+          "wmv_p_value": 0.515,
+          "wmv_null_mean": 1.0237279967892763
+        }
+      },
+      "gemma-3-4b-it": {
+        "eta_squared": 0.44525906981149965,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.6394911974451619,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.0,
+          "eta_squared_null_mean": 0.0962060007577911,
+          "wmv_p_value": 0.0,
+          "wmv_null_mean": 1.0194753081909096
+        }
+      },
+      "gpt-oss-120b": {
+        "eta_squared": 0.016611849945183256,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.1103593389307673,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.957,
+          "eta_squared_null_mean": 0.09328340721674047,
+          "wmv_p_value": 0.939,
+          "wmv_null_mean": 1.0236360888779934
+        }
+      },
+      "gpt-oss-20b": {
+        "eta_squared": 0.0784610630407911,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0387572350736751,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.502,
+          "eta_squared_null_mean": 0.09290288765279496,
+          "wmv_p_value": 0.501,
+          "wmv_null_mean": 1.023614322600899
+        }
+      }
+    },
+    "reversed": {
+      "Qwen2.5-72B-Instruct": {
+        "eta_squared": 0.28604892205638494,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.7949135276000954,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.004,
+          "eta_squared_null_mean": 0.0906165008291874,
+          "wmv_p_value": 0.005,
+          "wmv_null_mean": 1.0258598436389488
+        }
+      },
+      "Qwen2.5-7B-Instruct": {
+        "eta_squared": 0.21367234611758007,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.9081074240103252,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.051,
+          "eta_squared_null_mean": 0.09288063285310176,
+          "wmv_p_value": 0.086,
+          "wmv_null_mean": 1.0237423064272084
+        }
+      },
+      "Qwen3-235B-A22B-Instruct-2507-FP8": {
+        "eta_squared": 0.317791447505275,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.7980471817861499,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.005,
+          "eta_squared_null_mean": 0.09270060919437761,
+          "wmv_p_value": 0.01,
+          "wmv_null_mean": 1.0253005273458233
+        }
+      },
+      "Qwen3-30B-A3B-Instruct-2507": {
+        "eta_squared": 0.122170719145591,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0465796922981596,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.235,
+          "eta_squared_null_mean": 0.08938200645143797,
+          "wmv_p_value": 0.549,
+          "wmv_null_mean": 1.028026218396279
+        }
+      },
+      "gemma-3-27b-it": {
+        "eta_squared": 0.16774266621361428,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.9781337475527085,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.115,
+          "eta_squared_null_mean": 0.0922893192887077,
+          "wmv_p_value": 0.207,
+          "wmv_null_mean": 1.0257315055903444
+        }
+      },
+      "gemma-3-4b-it": {
+        "eta_squared": 0.5523917542184018,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.5024469004411698,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.0,
+          "eta_squared_null_mean": 0.09780552570837318,
+          "wmv_p_value": 0.0,
+          "wmv_null_mean": 1.0176892743439305
+        }
+      },
+      "gpt-oss-120b": {
+        "eta_squared": 0.24298611111111096,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.8712823129251699,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.027,
+          "eta_squared_null_mean": 0.09347974206349201,
+          "wmv_p_value": 0.038,
+          "wmv_null_mean": 1.0245038446712014
+        }
+      },
+      "gpt-oss-20b": {
+        "eta_squared": 0.1181808785529716,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0202412698412693,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.292,
+          "eta_squared_null_mean": 0.09592628682170536,
+          "wmv_p_value": 0.42,
+          "wmv_null_mean": 1.0196606485049828
+        }
+      }
+    },
+    "combined": {
+      "Qwen2.5-72B-Instruct": {
+        "eta_squared": 0.3054889185053557,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.7810866422683395,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.004,
+          "eta_squared_null_mean": 0.09082912285897624,
+          "wmv_p_value": 0.004,
+          "wmv_null_mean": 1.0256551565794394
+        }
+      },
+      "Qwen2.5-7B-Instruct": {
+        "eta_squared": 0.3147939767603598,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.8028332311896555,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.002,
+          "eta_squared_null_mean": 0.09534606981269192,
+          "wmv_p_value": 0.008,
+          "wmv_null_mean": 1.0210420283166832
+        }
+      },
+      "Qwen3-235B-A22B-Instruct-2507-FP8": {
+        "eta_squared": 0.2904368436108048,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.8283015347612629,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.01,
+          "eta_squared_null_mean": 0.0930051612112296,
+          "wmv_p_value": 0.017,
+          "wmv_null_mean": 1.0248405653338941
+        }
+      },
+      "Qwen3-30B-A3B-Instruct-2507": {
+        "eta_squared": 0.11533870486421961,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0527211493370847,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.266,
+          "eta_squared_null_mean": 0.08968547498259224,
+          "wmv_p_value": 0.583,
+          "wmv_null_mean": 1.0276356191423548
+        }
+      },
+      "gemma-3-27b-it": {
+        "eta_squared": 0.13349203079341113,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0068384217886384,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.221,
+          "eta_squared_null_mean": 0.09314865145307362,
+          "wmv_p_value": 0.34,
+          "wmv_null_mean": 1.024853336385208
+        }
+      },
+      "gemma-3-4b-it": {
+        "eta_squared": 0.5318140589569158,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.5332227166555845,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.0,
+          "eta_squared_null_mean": 0.09737889187253847,
+          "wmv_p_value": 0.0,
+          "wmv_null_mean": 1.0180497985780776
+        }
+      },
+      "gpt-oss-120b": {
+        "eta_squared": 0.10820586132952109,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 1.0290319842971738,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.341,
+          "eta_squared_null_mean": 0.09353895004368201,
+          "wmv_p_value": 0.464,
+          "wmv_null_mean": 1.0241545216197512
+        }
+      },
+      "gpt-oss-20b": {
+        "eta_squared": 0.1277110673665792,
+        "analytical_baseline_eta_squared": 0.09302325581395349,
+        "wmv": 0.9898528933883268,
+        "N": 44,
+        "K": 5,
+        "permutation": {
+          "eta_squared_p_value": 0.241,
+          "eta_squared_null_mean": 0.09498702974628173,
+          "wmv_p_value": 0.275,
+          "wmv_null_mean": 1.021494975628047
+        }
+      }
+    }
+  }
+}

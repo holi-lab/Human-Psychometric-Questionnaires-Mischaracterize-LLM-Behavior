@@ -1,0 +1,15 @@
+Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.
+
+{content}
+
+How much like you is this person?
+
+IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:
+Not like me at all
+Not like me
+A little like me
+Somewhat like me
+Like me
+Very much like me
+
+Any other words or characters will make the response invalid.

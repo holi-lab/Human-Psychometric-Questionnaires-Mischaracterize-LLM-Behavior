@@ -1,0 +1,249 @@
+{
+  "timestamp": "2026-03-12T02:21:01.088315+00:00",
+  "method": "raw_prob",
+  "score_field": "total_logprob",
+  "correlation_threshold": 0.3,
+  "description": "For each output, uses raw total_logprob directly (no exp, no length-normalisation). For each construct, averages the total_logprob of outputs tagged with correlation >= 0.3.",
+  "models": {
+    "Qwen2.5-72B-Instruct": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -191.092214,
+          "Conscientiousness": -189.338414,
+          "Extraversion": -192.302291,
+          "Neuroticism": -208.541179,
+          "Openness": -171.483281
+        },
+        "higher_order_values": {
+          "Conservation": -200.124618,
+          "Openness_to_Change": -184.598087,
+          "Self_Enhancement": -201.823513,
+          "Self_Transcendence": -179.353079
+        },
+        "pvq_values": {
+          "Achievement": -196.002083,
+          "Benevolence": -161.76777,
+          "Conformity": -184.60387,
+          "Hedonism": -204.946795,
+          "Power": -198.213954,
+          "Security": -186.695176,
+          "Self_Direction": -178.13857,
+          "Stimulation": -188.232974,
+          "Tradition": -193.17851,
+          "Universalism": -170.137641
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -167.754911,
+          "Conscientiousness": -168.835408,
+          "Extraversion": -167.91563,
+          "Neuroticism": -181.754682,
+          "Openness": -156.633858
+        },
+        "higher_order_values": {
+          "Conservation": -173.144395,
+          "Openness_to_Change": -165.490324,
+          "Self_Enhancement": -177.717317,
+          "Self_Transcendence": -167.655889
+        },
+        "pvq_values": {
+          "Achievement": -170.966075,
+          "Benevolence": -149.224665,
+          "Conformity": -166.756316,
+          "Hedonism": -174.819923,
+          "Power": -172.661071,
+          "Security": -169.79333,
+          "Self_Direction": -159.328474,
+          "Stimulation": -166.181632,
+          "Tradition": -176.778406,
+          "Universalism": -161.214772
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -145.107876,
+          "Conscientiousness": -146.345862,
+          "Extraversion": -140.006673,
+          "Neuroticism": -152.919927,
+          "Openness": -133.792252
+        },
+        "higher_order_values": {
+          "Conservation": -151.695221,
+          "Openness_to_Change": -145.381635,
+          "Self_Enhancement": -149.592279,
+          "Self_Transcendence": -131.667158
+        },
+        "pvq_values": {
+          "Achievement": -144.794866,
+          "Benevolence": -123.851368,
+          "Conformity": -142.598694,
+          "Hedonism": -150.929845,
+          "Power": -144.2135,
+          "Security": -145.446312,
+          "Self_Direction": -138.002616,
+          "Stimulation": -143.957167,
+          "Tradition": -146.003658,
+          "Universalism": -125.666868
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -169.56293,
+          "Conscientiousness": -176.185746,
+          "Extraversion": -168.579972,
+          "Neuroticism": -163.873343,
+          "Openness": -164.214672
+        },
+        "higher_order_values": {
+          "Conservation": -180.158857,
+          "Openness_to_Change": -171.341277,
+          "Self_Enhancement": -172.072977,
+          "Self_Transcendence": -166.065534
+        },
+        "pvq_values": {
+          "Achievement": -167.694546,
+          "Benevolence": -153.518039,
+          "Conformity": -168.884127,
+          "Hedonism": -181.344272,
+          "Power": -167.222631,
+          "Security": -188.181418,
+          "Self_Direction": -170.043409,
+          "Stimulation": -167.314675,
+          "Tradition": -169.512625,
+          "Universalism": -158.613
+        }
+      }
+    },
+    "gemma-3-27b-it": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -284.929013,
+          "Conscientiousness": -291.76571,
+          "Extraversion": -270.861822,
+          "Neuroticism": -282.762764,
+          "Openness": -285.460194
+        },
+        "higher_order_values": {
+          "Conservation": -293.009175,
+          "Openness_to_Change": -300.691706,
+          "Self_Enhancement": -301.873437,
+          "Self_Transcendence": -290.106027
+        },
+        "pvq_values": {
+          "Achievement": -291.833832,
+          "Benevolence": -266.257331,
+          "Conformity": -294.391815,
+          "Hedonism": -300.019113,
+          "Power": -286.578687,
+          "Security": -296.038019,
+          "Self_Direction": -286.499372,
+          "Stimulation": -295.779655,
+          "Tradition": -273.716796,
+          "Universalism": -275.02261
+        }
+      }
+    },
+    "gemma-3-4b-it": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -311.619478,
+          "Conscientiousness": -316.608826,
+          "Extraversion": -305.896871,
+          "Neuroticism": -332.148377,
+          "Openness": -314.961211
+        },
+        "higher_order_values": {
+          "Conservation": -334.067258,
+          "Openness_to_Change": -318.530843,
+          "Self_Enhancement": -327.783427,
+          "Self_Transcendence": -321.537358
+        },
+        "pvq_values": {
+          "Achievement": -319.026182,
+          "Benevolence": -304.00232,
+          "Conformity": -326.352817,
+          "Hedonism": -345.499541,
+          "Power": -317.077795,
+          "Security": -331.230874,
+          "Self_Direction": -337.462932,
+          "Stimulation": -311.089227,
+          "Tradition": -318.972366,
+          "Universalism": -306.630622
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -197.042931,
+          "Conscientiousness": -207.723812,
+          "Extraversion": -197.543983,
+          "Neuroticism": -209.798358,
+          "Openness": -200.318368
+        },
+        "higher_order_values": {
+          "Conservation": -226.661494,
+          "Openness_to_Change": -238.313987,
+          "Self_Enhancement": -206.954165,
+          "Self_Transcendence": -191.116047
+        },
+        "pvq_values": {
+          "Achievement": -201.873872,
+          "Benevolence": -188.257831,
+          "Conformity": -202.603954,
+          "Hedonism": -212.682977,
+          "Power": -200.115084,
+          "Security": -203.409888,
+          "Self_Direction": -213.674604,
+          "Stimulation": -203.253422,
+          "Tradition": -225.445245,
+          "Universalism": -183.373341
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "n_scenarios": 104,
+      "profile": {
+        "bfi_traits": {
+          "Agreeableness": -161.522643,
+          "Conscientiousness": -165.009598,
+          "Extraversion": -161.324448,
+          "Neuroticism": -177.539762,
+          "Openness": -156.291923
+        },
+        "higher_order_values": {
+          "Conservation": -165.365187,
+          "Openness_to_Change": -165.407259,
+          "Self_Enhancement": -168.008635,
+          "Self_Transcendence": -166.229007
+        },
+        "pvq_values": {
+          "Achievement": -163.149579,
+          "Benevolence": -149.152358,
+          "Conformity": -155.800442,
+          "Hedonism": -169.765303,
+          "Power": -165.817817,
+          "Security": -156.264398,
+          "Self_Direction": -165.487118,
+          "Stimulation": -155.912527,
+          "Tradition": -163.597355,
+          "Universalism": -160.562866
+        }
+      }
+    }
+  }
+}

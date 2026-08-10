@@ -1,0 +1,918 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "survey": "BFI44",
+  "survey_type": "bfi",
+  "format": "plain",
+  "scoring": "constrained_logprob_digit",
+  "timestamp": "2026-07-08T18:37:01.604252+00:00",
+  "num_items": 44,
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9336,
+        "final_score_argmax": 4,
+        "final_score": 3.9336,
+        "digit_prob_mass": 0.9995
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.4149,
+        "final_score_argmax": 3,
+        "final_score": 3.5851,
+        "digit_prob_mass": 0.9992
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9216,
+        "final_score_argmax": 5,
+        "final_score": 4.9216,
+        "digit_prob_mass": 0.9999
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.4549,
+        "final_score_argmax": 3,
+        "final_score": 2.4549,
+        "digit_prob_mass": 0.999
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.4149,
+        "final_score_argmax": 5,
+        "final_score": 4.4149,
+        "digit_prob_mass": 0.9999
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7329,
+        "final_score_argmax": 2,
+        "final_score": 2.2671,
+        "digit_prob_mass": 0.9994
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.881,
+        "final_score_argmax": 5,
+        "final_score": 4.881,
+        "digit_prob_mass": 0.9999
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.4901,
+        "final_score_argmax": 2,
+        "final_score": 2.5099,
+        "digit_prob_mass": 0.9996
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.6226,
+        "final_score_argmax": 1,
+        "final_score": 1.3774,
+        "digit_prob_mass": 0.9999
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8659,
+        "final_score_argmax": 5,
+        "final_score": 4.8659,
+        "digit_prob_mass": 0.9999
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7949,
+        "final_score_argmax": 5,
+        "final_score": 4.7949,
+        "digit_prob_mass": 0.9998
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.5248,
+        "final_score_argmax": 5,
+        "final_score": 4.4752,
+        "digit_prob_mass": 0.9996
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9456,
+        "final_score_argmax": 5,
+        "final_score": 4.9456,
+        "digit_prob_mass": 0.9999
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.208,
+        "final_score_argmax": 3,
+        "final_score": 3.208,
+        "digit_prob_mass": 0.9996
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.2185,
+        "final_score_argmax": 4,
+        "final_score": 4.2185,
+        "digit_prob_mass": 0.9999
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7882,
+        "final_score_argmax": 5,
+        "final_score": 4.7882,
+        "digit_prob_mass": 0.9999
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7593,
+        "final_score_argmax": 5,
+        "final_score": 4.7593,
+        "digit_prob_mass": 0.9999
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6641,
+        "final_score_argmax": 2,
+        "final_score": 2.3359,
+        "digit_prob_mass": 0.9993
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5165,
+        "final_score_argmax": 4,
+        "final_score": 3.5165,
+        "digit_prob_mass": 0.9994
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.431,
+        "final_score_argmax": 5,
+        "final_score": 4.431,
+        "digit_prob_mass": 0.9998
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.3507,
+        "final_score_argmax": 3,
+        "final_score": 2.6493,
+        "digit_prob_mass": 0.9989
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.4459,
+        "final_score_argmax": 5,
+        "final_score": 4.4459,
+        "digit_prob_mass": 0.9998
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 2,
+        "raw_score_weighted": 2.7898,
+        "final_score_argmax": 4,
+        "final_score": 3.2102,
+        "digit_prob_mass": 0.9989
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7826,
+        "final_score_argmax": 1,
+        "final_score": 1.2174,
+        "digit_prob_mass": 0.9998
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1404,
+        "final_score_argmax": 4,
+        "final_score": 4.1404,
+        "digit_prob_mass": 0.9998
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1312,
+        "final_score_argmax": 4,
+        "final_score": 4.1312,
+        "digit_prob_mass": 0.9996
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.0147,
+        "final_score_argmax": 3,
+        "final_score": 2.9853,
+        "digit_prob_mass": 0.9996
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9285,
+        "final_score_argmax": 5,
+        "final_score": 4.9285,
+        "digit_prob_mass": 0.9999
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1917,
+        "final_score_argmax": 3,
+        "final_score": 3.1917,
+        "digit_prob_mass": 0.9998
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7407,
+        "final_score_argmax": 4,
+        "final_score": 3.7407,
+        "digit_prob_mass": 0.9998
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.3671,
+        "final_score_argmax": 3,
+        "final_score": 2.6329,
+        "digit_prob_mass": 0.9996
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8042,
+        "final_score_argmax": 5,
+        "final_score": 4.8042,
+        "digit_prob_mass": 0.9999
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8831,
+        "final_score_argmax": 5,
+        "final_score": 4.8831,
+        "digit_prob_mass": 0.9999
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8066,
+        "final_score_argmax": 1,
+        "final_score": 1.1934,
+        "digit_prob_mass": 0.9999
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.5157,
+        "final_score_argmax": 2,
+        "final_score": 2.4843,
+        "digit_prob_mass": 0.9996
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8393,
+        "final_score_argmax": 5,
+        "final_score": 4.8393,
+        "digit_prob_mass": 0.9998
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 2,
+        "raw_score_weighted": 2.172,
+        "final_score_argmax": 4,
+        "final_score": 3.828,
+        "digit_prob_mass": 0.9997
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.8874,
+        "final_score_argmax": 5,
+        "final_score": 4.8874,
+        "digit_prob_mass": 0.9999
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1923,
+        "final_score_argmax": 3,
+        "final_score": 3.1923,
+        "digit_prob_mass": 0.9989
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.301,
+        "final_score_argmax": 4,
+        "final_score": 4.301,
+        "digit_prob_mass": 0.9999
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 2.726,
+        "final_score_argmax": 2,
+        "final_score": 3.274,
+        "digit_prob_mass": 0.9989
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7732,
+        "final_score_argmax": 5,
+        "final_score": 4.7732,
+        "digit_prob_mass": 0.9999
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.2273,
+        "final_score_argmax": 1,
+        "final_score": 1.7727,
+        "digit_prob_mass": 0.9995
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1209,
+        "final_score_argmax": 3,
+        "final_score": 3.1209,
+        "digit_prob_mass": 0.9997
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9474,
+        "final_score_argmax": 3,
+        "final_score": 2.9474,
+        "digit_prob_mass": 0.999
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9103,
+        "final_score_argmax": 3,
+        "final_score": 3.0897,
+        "digit_prob_mass": 0.9988
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.6007,
+        "final_score_argmax": 1,
+        "final_score": 1.6007,
+        "digit_prob_mass": 0.9996
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.1028,
+        "final_score_argmax": 3,
+        "final_score": 3.1028,
+        "digit_prob_mass": 0.9994
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6504,
+        "final_score_argmax": 3,
+        "final_score": 2.6504,
+        "digit_prob_mass": 0.9997
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6882,
+        "final_score_argmax": 3,
+        "final_score": 3.3118,
+        "digit_prob_mass": 0.9992
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.3182,
+        "final_score_argmax": 1,
+        "final_score": 2.3182,
+        "digit_prob_mass": 0.9994
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7441,
+        "final_score_argmax": 3,
+        "final_score": 3.2559,
+        "digit_prob_mass": 0.9993
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.3537,
+        "final_score_argmax": 3,
+        "final_score": 3.6463,
+        "digit_prob_mass": 0.9996
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.1128,
+        "final_score_argmax": 3,
+        "final_score": 2.1128,
+        "digit_prob_mass": 0.9996
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.0421,
+        "final_score_argmax": 1,
+        "final_score": 2.0421,
+        "digit_prob_mass": 0.9995
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9909,
+        "final_score_argmax": 3,
+        "final_score": 3.0091,
+        "digit_prob_mass": 0.9987
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.5981,
+        "final_score_argmax": 1,
+        "final_score": 1.5981,
+        "digit_prob_mass": 0.9995
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9875,
+        "final_score_argmax": 3,
+        "final_score": 2.9875,
+        "digit_prob_mass": 0.9995
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.5868,
+        "final_score_argmax": 3,
+        "final_score": 2.5868,
+        "digit_prob_mass": 0.9998
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.964,
+        "final_score_argmax": 1,
+        "final_score": 1.964,
+        "digit_prob_mass": 0.9995
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9103,
+        "final_score_argmax": 3,
+        "final_score": 2.9103,
+        "digit_prob_mass": 0.9995
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.8197,
+        "final_score_argmax": 3,
+        "final_score": 3.1803,
+        "digit_prob_mass": 0.9993
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.8488,
+        "final_score_argmax": 3,
+        "final_score": 2.8488,
+        "digit_prob_mass": 0.9991
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.8129,
+        "final_score_argmax": 3,
+        "final_score": 2.8129,
+        "digit_prob_mass": 0.9995
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9234,
+        "final_score_argmax": 3,
+        "final_score": 3.0766,
+        "digit_prob_mass": 0.9987
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9879,
+        "final_score_argmax": 3,
+        "final_score": 2.9879,
+        "digit_prob_mass": 0.9994
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.5464,
+        "final_score_argmax": 3,
+        "final_score": 3.4536,
+        "digit_prob_mass": 0.9986
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.0943,
+        "final_score_argmax": 5,
+        "final_score": 3.9057,
+        "digit_prob_mass": 0.9993
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.742,
+        "final_score_argmax": 3,
+        "final_score": 2.742,
+        "digit_prob_mass": 0.9996
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.913,
+        "final_score_argmax": 3,
+        "final_score": 2.913,
+        "digit_prob_mass": 0.9994
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9577,
+        "final_score_argmax": 3,
+        "final_score": 3.0423,
+        "digit_prob_mass": 0.9991
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.5542,
+        "final_score_argmax": 1,
+        "final_score": 1.5542,
+        "digit_prob_mass": 0.9996
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9928,
+        "final_score_argmax": 3,
+        "final_score": 2.9928,
+        "digit_prob_mass": 0.9997
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.889,
+        "final_score_argmax": 3,
+        "final_score": 2.889,
+        "digit_prob_mass": 0.9998
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9429,
+        "final_score_argmax": 3,
+        "final_score": 3.0571,
+        "digit_prob_mass": 0.9994
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.4745,
+        "final_score_argmax": 3,
+        "final_score": 2.4745,
+        "digit_prob_mass": 0.9993
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.0658,
+        "final_score_argmax": 1,
+        "final_score": 2.0658,
+        "digit_prob_mass": 0.9997
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.8255,
+        "final_score_argmax": 5,
+        "final_score": 4.1745,
+        "digit_prob_mass": 0.9997
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.4741,
+        "final_score_argmax": 3,
+        "final_score": 3.5259,
+        "digit_prob_mass": 0.9992
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.3423,
+        "final_score_argmax": 3,
+        "final_score": 2.3423,
+        "digit_prob_mass": 0.9992
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.0152,
+        "final_score_argmax": 3,
+        "final_score": 2.9848,
+        "digit_prob_mass": 0.9994
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.4967,
+        "final_score_argmax": 1,
+        "final_score": 1.4967,
+        "digit_prob_mass": 0.9996
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.899,
+        "final_score_argmax": 3,
+        "final_score": 2.899,
+        "digit_prob_mass": 0.9988
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6717,
+        "final_score_argmax": 3,
+        "final_score": 2.6717,
+        "digit_prob_mass": 0.9998
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.3501,
+        "final_score_argmax": 3,
+        "final_score": 3.6499,
+        "digit_prob_mass": 0.9989
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.2204,
+        "final_score_argmax": 3,
+        "final_score": 2.2204,
+        "digit_prob_mass": 0.9996
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6062,
+        "final_score_argmax": 3,
+        "final_score": 3.3938,
+        "digit_prob_mass": 0.9991
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9918,
+        "final_score_argmax": 3,
+        "final_score": 2.9918,
+        "digit_prob_mass": 0.9997
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 4.2819,
+      "Conscientiousness": 3.8217,
+      "Extraversion": 3.7546,
+      "Neuroticism": 2.419,
+      "Openness": 3.8992
+    },
+    "reversed": {
+      "Agreeableness": 2.7819,
+      "Conscientiousness": 2.3999,
+      "Extraversion": 2.7068,
+      "Neuroticism": 3.3197,
+      "Openness": 2.8633
+    },
+    "combined": {
+      "Agreeableness": 3.5319,
+      "Conscientiousness": 3.1108,
+      "Extraversion": 3.2307,
+      "Neuroticism": 2.8693,
+      "Openness": 3.3813
+    }
+  }
+}

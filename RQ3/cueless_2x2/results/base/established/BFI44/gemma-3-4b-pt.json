@@ -1,0 +1,918 @@
+{
+  "model": "google/gemma-3-4b-pt",
+  "survey": "BFI44",
+  "survey_type": "bfi",
+  "format": "plain",
+  "scoring": "constrained_logprob_digit",
+  "timestamp": "2026-07-14T03:00:39.431671+00:00",
+  "num_items": 44,
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "keeps a conversation going long after others have run out of things to say.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7161,
+        "final_score_argmax": 3,
+        "final_score": 2.7161,
+        "digit_prob_mass": 0.5521
+      },
+      "2": {
+        "content": "usually notices what a colleague got wrong before noticing what they got right.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4197,
+        "final_score_argmax": 5,
+        "final_score": 3.5803,
+        "digit_prob_mass": 0.5627
+      },
+      "3": {
+        "content": "reads a document down to the last page before signing off on it.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.577,
+        "final_score_argmax": 1,
+        "final_score": 2.577,
+        "digit_prob_mass": 0.6102
+      },
+      "4": {
+        "content": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.3991,
+        "final_score_argmax": 1,
+        "final_score": 2.3991,
+        "digit_prob_mass": 0.4815
+      },
+      "5": {
+        "content": "suggests approaches in meetings that nobody else at the table had thought of.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6636,
+        "final_score_argmax": 3,
+        "final_score": 2.6636,
+        "digit_prob_mass": 0.4357
+      },
+      "6": {
+        "content": "lets others do most of the talking at gatherings.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4248,
+        "final_score_argmax": 5,
+        "final_score": 3.5752,
+        "digit_prob_mass": 0.5464
+      },
+      "7": {
+        "content": "gives up a free weekend to move a friend's furniture without being asked twice.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7903,
+        "final_score_argmax": 3,
+        "final_score": 2.7903,
+        "digit_prob_mass": 0.6845
+      },
+      "8": {
+        "content": "sometimes sends the email before noticing the attachment is missing.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7199,
+        "final_score_argmax": 3,
+        "final_score": 3.2801,
+        "digit_prob_mass": 0.6108
+      },
+      "9": {
+        "content": "sleeps soundly the night before a big exam or presentation.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6049,
+        "final_score_argmax": 5,
+        "final_score": 3.3951,
+        "digit_prob_mass": 0.5484
+      },
+      "10": {
+        "content": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6464,
+        "final_score_argmax": 1,
+        "final_score": 2.6464,
+        "digit_prob_mass": 0.5466
+      },
+      "11": {
+        "content": "is still going strong when the rest of the group is ready to head home.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.7381,
+        "final_score_argmax": 1,
+        "final_score": 2.7381,
+        "digit_prob_mass": 0.615
+      },
+      "12": {
+        "content": "turns small disagreements over dinner into raised voices.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5472,
+        "final_score_argmax": 5,
+        "final_score": 3.4528,
+        "digit_prob_mass": 0.5998
+      },
+      "13": {
+        "content": "delivers what was promised on the day it was promised.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7297,
+        "final_score_argmax": 3,
+        "final_score": 2.7297,
+        "digit_prob_mass": 0.5319
+      },
+      "14": {
+        "content": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4983,
+        "final_score_argmax": 1,
+        "final_score": 2.4983,
+        "digit_prob_mass": 0.5711
+      },
+      "15": {
+        "content": "keeps turning a question over long after everyone else has settled for the easy answer.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.777,
+        "final_score_argmax": 3,
+        "final_score": 2.777,
+        "digit_prob_mass": 0.5136
+      },
+      "16": {
+        "content": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.8717,
+        "final_score_argmax": 3,
+        "final_score": 2.8717,
+        "digit_prob_mass": 0.5986
+      },
+      "17": {
+        "content": "meets a friend for coffee a week after that friend let them down badly.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6906,
+        "final_score_argmax": 1,
+        "final_score": 2.6906,
+        "digit_prob_mass": 0.6312
+      },
+      "18": {
+        "content": "hunts for keys, chargers, and paperwork nearly every morning.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6585,
+        "final_score_argmax": 5,
+        "final_score": 3.3415,
+        "digit_prob_mass": 0.7026
+      },
+      "19": {
+        "content": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5933,
+        "final_score_argmax": 1,
+        "final_score": 2.5933,
+        "digit_prob_mass": 0.5388
+      },
+      "20": {
+        "content": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.8253,
+        "final_score_argmax": 3,
+        "final_score": 2.8253,
+        "digit_prob_mass": 0.7081
+      },
+      "21": {
+        "content": "can share a long car ride without feeling any need to fill the silence.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4932,
+        "final_score_argmax": 5,
+        "final_score": 3.5068,
+        "digit_prob_mass": 0.6141
+      },
+      "22": {
+        "content": "takes people's stories at face value unless given a clear reason not to.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.7066,
+        "final_score_argmax": 1,
+        "final_score": 2.7066,
+        "digit_prob_mass": 0.5792
+      },
+      "23": {
+        "content": "leaves the laundry until there is nothing left to wear.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6007,
+        "final_score_argmax": 5,
+        "final_score": 3.3993,
+        "digit_prob_mass": 0.5756
+      },
+      "24": {
+        "content": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6714,
+        "final_score_argmax": 3,
+        "final_score": 3.3286,
+        "digit_prob_mass": 0.5907
+      },
+      "25": {
+        "content": "rigs a working fix out of spare parts when the proper tool is missing.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7951,
+        "final_score_argmax": 3,
+        "final_score": 2.7951,
+        "digit_prob_mass": 0.4764
+      },
+      "26": {
+        "content": "says plainly at the table what they want and where they stand.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6195,
+        "final_score_argmax": 1,
+        "final_score": 2.6195,
+        "digit_prob_mass": 0.4726
+      },
+      "27": {
+        "content": "answers a coworker's warm greeting with a short nod and keeps walking.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.3351,
+        "final_score_argmax": 5,
+        "final_score": 3.6649,
+        "digit_prob_mass": 0.6032
+      },
+      "28": {
+        "content": "stays at the desk until the last box on the list is ticked, even past midnight.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5761,
+        "final_score_argmax": 1,
+        "final_score": 2.5761,
+        "digit_prob_mass": 0.5213
+      },
+      "29": {
+        "content": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.6128,
+        "final_score_argmax": 3,
+        "final_score": 2.6128,
+        "digit_prob_mass": 0.5812
+      },
+      "30": {
+        "content": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7388,
+        "final_score_argmax": 3,
+        "final_score": 2.7388,
+        "digit_prob_mass": 0.5885
+      },
+      "31": {
+        "content": "rehearses a sentence twice before saying it to a stranger at a party.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6007,
+        "final_score_argmax": 5,
+        "final_score": 3.3993,
+        "digit_prob_mass": 0.6199
+      },
+      "32": {
+        "content": "remembers the doorman's name and asks how his daughter's exams went.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7585,
+        "final_score_argmax": 3,
+        "final_score": 2.7585,
+        "digit_prob_mass": 0.5774
+      },
+      "33": {
+        "content": "clears in one afternoon what takes others most of a week.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.666,
+        "final_score_argmax": 1,
+        "final_score": 2.666,
+        "digit_prob_mass": 0.5647
+      },
+      "34": {
+        "content": "was the one giving directions when the fire alarm went off.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6886,
+        "final_score_argmax": 5,
+        "final_score": 3.3114,
+        "digit_prob_mass": 0.6334
+      },
+      "35": {
+        "content": "is happiest when today's tasks look exactly like yesterday's.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4787,
+        "final_score_argmax": 5,
+        "final_score": 3.5213,
+        "digit_prob_mass": 0.6065
+      },
+      "36": {
+        "content": "leaves a party with three new phone numbers.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5202,
+        "final_score_argmax": 1,
+        "final_score": 2.5202,
+        "digit_prob_mass": 0.5446
+      },
+      "37": {
+        "content": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6294,
+        "final_score_argmax": 5,
+        "final_score": 3.3706,
+        "digit_prob_mass": 0.6347
+      },
+      "38": {
+        "content": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.4962,
+        "final_score_argmax": 1,
+        "final_score": 2.4962,
+        "digit_prob_mass": 0.4745
+      },
+      "39": {
+        "content": "feels their heart race when the phone rings from an unknown number.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.3608,
+        "final_score_argmax": 1,
+        "final_score": 2.3608,
+        "digit_prob_mass": 0.5346
+      },
+      "40": {
+        "content": "can chew on a hypothetical question for the length of a dinner.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5895,
+        "final_score_argmax": 1,
+        "final_score": 2.5895,
+        "digit_prob_mass": 0.5775
+      },
+      "41": {
+        "content": "walks past the gallery to get to the food court.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.7472,
+        "final_score_argmax": 3,
+        "final_score": 3.2528,
+        "digit_prob_mass": 0.643
+      },
+      "42": {
+        "content": "would rather split the work and share the credit than keep both to themselves.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.6464,
+        "final_score_argmax": 1,
+        "final_score": 2.6464,
+        "digit_prob_mass": 0.5782
+      },
+      "43": {
+        "content": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 2.5735,
+        "final_score_argmax": 5,
+        "final_score": 3.4265,
+        "digit_prob_mass": 0.6068
+      },
+      "44": {
+        "content": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.5764,
+        "final_score_argmax": 3,
+        "final_score": 2.5764,
+        "digit_prob_mass": 0.5988
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "keeps a conversation going long after others have run out of things to say.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.397,
+        "final_score_argmax": 5,
+        "final_score": 3.397,
+        "digit_prob_mass": 0.5333
+      },
+      "2": {
+        "content": "usually notices what a colleague got wrong before noticing what they got right.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5675,
+        "final_score_argmax": 1,
+        "final_score": 2.4325,
+        "digit_prob_mass": 0.5307
+      },
+      "3": {
+        "content": "reads a document down to the last page before signing off on it.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5375,
+        "final_score_argmax": 5,
+        "final_score": 3.5375,
+        "digit_prob_mass": 0.594
+      },
+      "4": {
+        "content": "has stretches where getting out of bed takes real effort and little seems worth doing.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6658,
+        "final_score_argmax": 5,
+        "final_score": 3.6658,
+        "digit_prob_mass": 0.4855
+      },
+      "5": {
+        "content": "suggests approaches in meetings that nobody else at the table had thought of.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.542,
+        "final_score_argmax": 5,
+        "final_score": 3.542,
+        "digit_prob_mass": 0.4122
+      },
+      "6": {
+        "content": "lets others do most of the talking at gatherings.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6168,
+        "final_score_argmax": 1,
+        "final_score": 2.3832,
+        "digit_prob_mass": 0.5532
+      },
+      "7": {
+        "content": "gives up a free weekend to move a friend's furniture without being asked twice.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.3114,
+        "final_score_argmax": 5,
+        "final_score": 3.3114,
+        "digit_prob_mass": 0.6524
+      },
+      "8": {
+        "content": "sometimes sends the email before noticing the attachment is missing.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4947,
+        "final_score_argmax": 1,
+        "final_score": 2.5053,
+        "digit_prob_mass": 0.6174
+      },
+      "9": {
+        "content": "sleeps soundly the night before a big exam or presentation.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4401,
+        "final_score_argmax": 1,
+        "final_score": 2.5599,
+        "digit_prob_mass": 0.5505
+      },
+      "10": {
+        "content": "will happily lose an afternoon reading about topics that have nothing to do with their work.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4655,
+        "final_score_argmax": 5,
+        "final_score": 3.4655,
+        "digit_prob_mass": 0.5196
+      },
+      "11": {
+        "content": "is still going strong when the rest of the group is ready to head home.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.382,
+        "final_score_argmax": 5,
+        "final_score": 3.382,
+        "digit_prob_mass": 0.6093
+      },
+      "12": {
+        "content": "turns small disagreements over dinner into raised voices.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4947,
+        "final_score_argmax": 1,
+        "final_score": 2.5053,
+        "digit_prob_mass": 0.5903
+      },
+      "13": {
+        "content": "delivers what was promised on the day it was promised.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4734,
+        "final_score_argmax": 5,
+        "final_score": 3.4734,
+        "digit_prob_mass": 0.5097
+      },
+      "14": {
+        "content": "sits with a clenched jaw and tight shoulders when things are up in the air.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.585,
+        "final_score_argmax": 5,
+        "final_score": 3.585,
+        "digit_prob_mass": 0.5711
+      },
+      "15": {
+        "content": "keeps turning a question over long after everyone else has settled for the easy answer.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.2896,
+        "final_score_argmax": 3,
+        "final_score": 3.2896,
+        "digit_prob_mass": 0.5329
+      },
+      "16": {
+        "content": "can get a whole team eager to start on a plan they were lukewarm about an hour earlier.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.4119,
+        "final_score_argmax": 3,
+        "final_score": 3.4119,
+        "digit_prob_mass": 0.5418
+      },
+      "17": {
+        "content": "meets a friend for coffee a week after that friend let them down badly.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.3519,
+        "final_score_argmax": 5,
+        "final_score": 3.3519,
+        "digit_prob_mass": 0.6124
+      },
+      "18": {
+        "content": "hunts for keys, chargers, and paperwork nearly every morning.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4401,
+        "final_score_argmax": 1,
+        "final_score": 2.5599,
+        "digit_prob_mass": 0.6996
+      },
+      "19": {
+        "content": "lies awake replaying tomorrow's appointments and what could go wrong with each.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5884,
+        "final_score_argmax": 5,
+        "final_score": 3.5884,
+        "digit_prob_mass": 0.546
+      },
+      "20": {
+        "content": "can spend a commute inventing whole life stories for the strangers across the aisle.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.2804,
+        "final_score_argmax": 5,
+        "final_score": 3.2804,
+        "digit_prob_mass": 0.6797
+      },
+      "21": {
+        "content": "can share a long car ride without feeling any need to fill the silence.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5624,
+        "final_score_argmax": 1,
+        "final_score": 2.4376,
+        "digit_prob_mass": 0.6005
+      },
+      "22": {
+        "content": "takes people's stories at face value unless given a clear reason not to.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4655,
+        "final_score_argmax": 5,
+        "final_score": 3.4655,
+        "digit_prob_mass": 0.5615
+      },
+      "23": {
+        "content": "leaves the laundry until there is nothing left to wear.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4947,
+        "final_score_argmax": 1,
+        "final_score": 2.5053,
+        "digit_prob_mass": 0.5803
+      },
+      "24": {
+        "content": "takes a canceled flight or a harsh comment without letting it ruin the day.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4655,
+        "final_score_argmax": 1,
+        "final_score": 2.5345,
+        "digit_prob_mass": 0.5852
+      },
+      "25": {
+        "content": "rigs a working fix out of spare parts when the proper tool is missing.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4891,
+        "final_score_argmax": 5,
+        "final_score": 3.4891,
+        "digit_prob_mass": 0.4387
+      },
+      "26": {
+        "content": "says plainly at the table what they want and where they stand.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4884,
+        "final_score_argmax": 5,
+        "final_score": 3.4884,
+        "digit_prob_mass": 0.4878
+      },
+      "27": {
+        "content": "answers a coworker's warm greeting with a short nod and keeps walking.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6427,
+        "final_score_argmax": 1,
+        "final_score": 2.3573,
+        "digit_prob_mass": 0.5893
+      },
+      "28": {
+        "content": "stays at the desk until the last box on the list is ticked, even past midnight.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4665,
+        "final_score_argmax": 5,
+        "final_score": 3.4665,
+        "digit_prob_mass": 0.5234
+      },
+      "29": {
+        "content": "can go from cheerful at breakfast to snappish by lunch without an obvious reason.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.4728,
+        "final_score_argmax": 3,
+        "final_score": 3.4728,
+        "digit_prob_mass": 0.5743
+      },
+      "30": {
+        "content": "will cross town on a weeknight to catch an exhibition or hear a string quartet.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4378,
+        "final_score_argmax": 5,
+        "final_score": 3.4378,
+        "digit_prob_mass": 0.543
+      },
+      "31": {
+        "content": "rehearses a sentence twice before saying it to a stranger at a party.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4947,
+        "final_score_argmax": 1,
+        "final_score": 2.5053,
+        "digit_prob_mass": 0.5858
+      },
+      "32": {
+        "content": "remembers the doorman's name and asks how his daughter's exams went.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4207,
+        "final_score_argmax": 5,
+        "final_score": 3.4207,
+        "digit_prob_mass": 0.5652
+      },
+      "33": {
+        "content": "clears in one afternoon what takes others most of a week.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5643,
+        "final_score_argmax": 5,
+        "final_score": 3.5643,
+        "digit_prob_mass": 0.5482
+      },
+      "34": {
+        "content": "was the one giving directions when the fire alarm went off.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4676,
+        "final_score_argmax": 1,
+        "final_score": 2.5324,
+        "digit_prob_mass": 0.6183
+      },
+      "35": {
+        "content": "is happiest when today's tasks look exactly like yesterday's.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6117,
+        "final_score_argmax": 1,
+        "final_score": 2.3883,
+        "digit_prob_mass": 0.5939
+      },
+      "36": {
+        "content": "leaves a party with three new phone numbers.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5485,
+        "final_score_argmax": 5,
+        "final_score": 3.5485,
+        "digit_prob_mass": 0.5142
+      },
+      "37": {
+        "content": "sometimes cuts the waiter off mid-sentence with a sharp remark.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.3706,
+        "final_score_argmax": 1,
+        "final_score": 2.6294,
+        "digit_prob_mass": 0.6205
+      },
+      "38": {
+        "content": "books the flights in January and is standing at the gate in June, itinerary in hand.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.639,
+        "final_score_argmax": 5,
+        "final_score": 3.639,
+        "digit_prob_mass": 0.4608
+      },
+      "39": {
+        "content": "feels their heart race when the phone rings from an unknown number.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6736,
+        "final_score_argmax": 5,
+        "final_score": 3.6736,
+        "digit_prob_mass": 0.5356
+      },
+      "40": {
+        "content": "can chew on a hypothetical question for the length of a dinner.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.4676,
+        "final_score_argmax": 5,
+        "final_score": 3.4676,
+        "digit_prob_mass": 0.5571
+      },
+      "41": {
+        "content": "walks past the gallery to get to the food court.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5457,
+        "final_score_argmax": 1,
+        "final_score": 2.4543,
+        "digit_prob_mass": 0.605
+      },
+      "42": {
+        "content": "would rather split the work and share the credit than keep both to themselves.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5038,
+        "final_score_argmax": 5,
+        "final_score": 3.5038,
+        "digit_prob_mass": 0.5989
+      },
+      "43": {
+        "content": "opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.6117,
+        "final_score_argmax": 1,
+        "final_score": 2.3883,
+        "digit_prob_mass": 0.5893
+      },
+      "44": {
+        "content": "can tell you which translation of a novel to pick and why one recording of a symphony outshines another.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 3.5549,
+        "final_score_argmax": 5,
+        "final_score": 3.5549,
+        "digit_prob_mass": 0.5544
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 3.0734,
+      "Conscientiousness": 2.9436,
+      "Extraversion": 2.9934,
+      "Neuroticism": 2.8124,
+      "Openness": 2.8386
+    },
+    "reversed": {
+      "Agreeableness": 2.9975,
+      "Conscientiousness": 3.0711,
+      "Extraversion": 3.0692,
+      "Neuroticism": 3.2016,
+      "Openness": 3.237
+    },
+    "combined": {
+      "Agreeableness": 3.0354,
+      "Conscientiousness": 3.0073,
+      "Extraversion": 3.0313,
+      "Neuroticism": 3.007,
+      "Openness": 3.0378
+    }
+  }
+}

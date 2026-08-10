@@ -1,0 +1,72 @@
+{
+    "1": {
+      "en_neutral": "is reserved.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "reverse"
+      }
+    },
+    "2": {
+      "en_neutral": "is generally trusting.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "normal"
+      }
+    },
+    "3": {
+      "en_neutral": "tends to be lazy.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "reverse"
+      }
+    },
+    "4": {
+      "en_neutral": "is relaxed, handles stress well.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "reverse"
+      }
+    },
+    "5": {
+      "en_neutral": "has few artistic interests.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "reverse"
+      }
+    },
+    "6": {
+      "en_neutral": "is outgoing, sociable.",
+      "meta_data": {
+        "trait": "Extraversion",
+        "scoring": "normal"
+      }
+    },
+    "7": {
+      "en_neutral": "tends to find fault with others.",
+      "meta_data": {
+        "trait": "Agreeableness",
+        "scoring": "reverse"
+      }
+    },
+    "8": {
+      "en_neutral": "does a thorough job.",
+      "meta_data": {
+        "trait": "Conscientiousness",
+        "scoring": "normal"
+      }
+    },
+    "9": {
+      "en_neutral": "gets nervous easily.",
+      "meta_data": {
+        "trait": "Neuroticism",
+        "scoring": "normal"
+      }
+    },
+    "10": {
+      "en_neutral": "has an active imagination.",
+      "meta_data": {
+        "trait": "Openness",
+        "scoring": "normal"
+      }
+    }
+  }

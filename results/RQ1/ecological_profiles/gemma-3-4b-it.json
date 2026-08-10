@@ -1,0 +1,36 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "survey": "VP",
+  "method": "raw_prob",
+  "score_field": "total_logprob",
+  "correlation_threshold": 0.3,
+  "n_scenarios_valid": 104,
+  "n_scenarios_total": 104,
+  "gen_prob_profile": {
+    "bfi_traits": {
+      "Agreeableness": -311.619478,
+      "Conscientiousness": -316.608826,
+      "Extraversion": -305.896871,
+      "Neuroticism": -332.148377,
+      "Openness": -314.961211
+    },
+    "higher_order_values": {
+      "Conservation": -334.067258,
+      "Openness_to_Change": -318.530843,
+      "Self_Enhancement": -327.783427,
+      "Self_Transcendence": -321.537358
+    },
+    "pvq_values": {
+      "Achievement": -319.026182,
+      "Benevolence": -304.00232,
+      "Conformity": -326.352817,
+      "Hedonism": -345.499541,
+      "Power": -317.077795,
+      "Security": -331.230874,
+      "Self_Direction": -337.462932,
+      "Stimulation": -311.089227,
+      "Tradition": -318.972366,
+      "Universalism": -306.630622
+    }
+  }
+}

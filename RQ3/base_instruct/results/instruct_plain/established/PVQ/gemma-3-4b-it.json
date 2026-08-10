@@ -1,0 +1,853 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "format": "plain",
+  "scoring": "constrained_logprob_digit",
+  "timestamp": "2026-07-08T18:47:06.691978+00:00",
+  "num_items": 40,
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.115,
+        "final_score_argmax": 5,
+        "final_score": 5.115,
+        "digit_prob_mass": 0.9995
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.6637,
+        "final_score_argmax": 4,
+        "final_score": 3.6637,
+        "digit_prob_mass": 0.9991
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9982,
+        "final_score_argmax": 6,
+        "final_score": 5.9982,
+        "digit_prob_mass": 1.0
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.953,
+        "final_score_argmax": 6,
+        "final_score": 5.953,
+        "digit_prob_mass": 0.9997
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.7539,
+        "final_score_argmax": 4,
+        "final_score": 3.7539,
+        "digit_prob_mass": 0.9995
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.849,
+        "final_score_argmax": 6,
+        "final_score": 5.849,
+        "digit_prob_mass": 0.9999
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.0211,
+        "final_score_argmax": 1,
+        "final_score": 1.0211,
+        "digit_prob_mass": 1.0
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9845,
+        "final_score_argmax": 6,
+        "final_score": 5.9845,
+        "digit_prob_mass": 0.9999
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 2,
+        "raw_score_weighted": 2.249,
+        "final_score_argmax": 2,
+        "final_score": 2.249,
+        "digit_prob_mass": 0.9999
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.2269,
+        "final_score_argmax": 5,
+        "final_score": 5.2269,
+        "digit_prob_mass": 0.9996
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9865,
+        "final_score_argmax": 6,
+        "final_score": 5.9865,
+        "digit_prob_mass": 0.9998
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.97,
+        "final_score_argmax": 6,
+        "final_score": 5.97,
+        "digit_prob_mass": 0.9998
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.8908,
+        "final_score_argmax": 4,
+        "final_score": 3.8908,
+        "digit_prob_mass": 0.9994
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9653,
+        "final_score_argmax": 6,
+        "final_score": 5.9653,
+        "digit_prob_mass": 1.0
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9508,
+        "final_score_argmax": 5,
+        "final_score": 4.9508,
+        "digit_prob_mass": 0.9998
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.4983,
+        "final_score_argmax": 3,
+        "final_score": 2.4983,
+        "digit_prob_mass": 0.9996
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.2498,
+        "final_score_argmax": 6,
+        "final_score": 5.2498,
+        "digit_prob_mass": 0.9988
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9865,
+        "final_score_argmax": 6,
+        "final_score": 5.9865,
+        "digit_prob_mass": 0.9999
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8818,
+        "final_score_argmax": 6,
+        "final_score": 5.8818,
+        "digit_prob_mass": 0.9999
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9955,
+        "final_score_argmax": 5,
+        "final_score": 4.9955,
+        "digit_prob_mass": 0.9996
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.3531,
+        "final_score_argmax": 6,
+        "final_score": 5.3531,
+        "digit_prob_mass": 0.9986
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9858,
+        "final_score_argmax": 6,
+        "final_score": 5.9858,
+        "digit_prob_mass": 0.9999
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8489,
+        "final_score_argmax": 6,
+        "final_score": 5.8489,
+        "digit_prob_mass": 1.0
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.1577,
+        "final_score_argmax": 5,
+        "final_score": 5.1577,
+        "digit_prob_mass": 0.9998
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9861,
+        "final_score_argmax": 3,
+        "final_score": 2.9861,
+        "digit_prob_mass": 1.0
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9973,
+        "final_score_argmax": 5,
+        "final_score": 4.9973,
+        "digit_prob_mass": 0.9984
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8983,
+        "final_score_argmax": 6,
+        "final_score": 5.8983,
+        "digit_prob_mass": 0.9996
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 3.7279,
+        "final_score_argmax": 3,
+        "final_score": 3.7279,
+        "digit_prob_mass": 0.9999
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9919,
+        "final_score_argmax": 6,
+        "final_score": 5.9919,
+        "digit_prob_mass": 1.0
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9882,
+        "final_score_argmax": 5,
+        "final_score": 4.9882,
+        "digit_prob_mass": 0.9999
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.0777,
+        "final_score_argmax": 5,
+        "final_score": 5.0777,
+        "digit_prob_mass": 0.9996
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.5378,
+        "final_score_argmax": 5,
+        "final_score": 4.5378,
+        "digit_prob_mass": 0.9985
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.5489,
+        "final_score_argmax": 6,
+        "final_score": 5.5489,
+        "digit_prob_mass": 0.9995
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.748,
+        "final_score_argmax": 6,
+        "final_score": 5.748,
+        "digit_prob_mass": 0.9994
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8709,
+        "final_score_argmax": 6,
+        "final_score": 5.8709,
+        "digit_prob_mass": 0.9999
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8611,
+        "final_score_argmax": 6,
+        "final_score": 5.8611,
+        "digit_prob_mass": 0.9997
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.5126,
+        "final_score_argmax": 6,
+        "final_score": 5.5126,
+        "digit_prob_mass": 0.9993
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 3,
+        "raw_score_weighted": 2.9031,
+        "final_score_argmax": 3,
+        "final_score": 2.9031,
+        "digit_prob_mass": 0.9995
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.7986,
+        "final_score_argmax": 6,
+        "final_score": 5.7986,
+        "digit_prob_mass": 0.9998
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9878,
+        "final_score_argmax": 6,
+        "final_score": 5.9878,
+        "digit_prob_mass": 1.0
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.3151,
+        "final_score_argmax": 6,
+        "final_score": 5.3151,
+        "digit_prob_mass": 0.9991
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 4.1891,
+        "final_score_argmax": 6,
+        "final_score": 4.1891,
+        "digit_prob_mass": 0.9994
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.993,
+        "final_score_argmax": 6,
+        "final_score": 5.993,
+        "digit_prob_mass": 1.0
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7952,
+        "final_score_argmax": 5,
+        "final_score": 4.7952,
+        "digit_prob_mass": 0.999
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.527,
+        "final_score_argmax": 5,
+        "final_score": 4.527,
+        "digit_prob_mass": 0.9994
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8537,
+        "final_score_argmax": 6,
+        "final_score": 5.8537,
+        "digit_prob_mass": 0.9998
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 1,
+        "raw_score_weighted": 1.1184,
+        "final_score_argmax": 1,
+        "final_score": 1.1184,
+        "digit_prob_mass": 1.0
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9178,
+        "final_score_argmax": 6,
+        "final_score": 5.9178,
+        "digit_prob_mass": 0.9996
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.2063,
+        "final_score_argmax": 4,
+        "final_score": 4.2063,
+        "digit_prob_mass": 0.9999
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.2279,
+        "final_score_argmax": 5,
+        "final_score": 5.2279,
+        "digit_prob_mass": 0.9996
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9572,
+        "final_score_argmax": 6,
+        "final_score": 5.9572,
+        "digit_prob_mass": 0.9997
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9651,
+        "final_score_argmax": 6,
+        "final_score": 5.9651,
+        "digit_prob_mass": 0.9997
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.0588,
+        "final_score_argmax": 4,
+        "final_score": 4.0588,
+        "digit_prob_mass": 0.9995
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 4.8989,
+        "final_score_argmax": 6,
+        "final_score": 4.8989,
+        "digit_prob_mass": 0.9998
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9337,
+        "final_score_argmax": 5,
+        "final_score": 4.9337,
+        "digit_prob_mass": 0.9999
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.596,
+        "final_score_argmax": 4,
+        "final_score": 4.596,
+        "digit_prob_mass": 0.9996
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.0089,
+        "final_score_argmax": 4,
+        "final_score": 4.0089,
+        "digit_prob_mass": 0.999
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9703,
+        "final_score_argmax": 6,
+        "final_score": 5.9703,
+        "digit_prob_mass": 0.9999
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.4967,
+        "final_score_argmax": 6,
+        "final_score": 5.4967,
+        "digit_prob_mass": 0.9997
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.1519,
+        "final_score_argmax": 5,
+        "final_score": 5.1519,
+        "digit_prob_mass": 0.9995
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.1159,
+        "final_score_argmax": 6,
+        "final_score": 5.1159,
+        "digit_prob_mass": 0.9987
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9635,
+        "final_score_argmax": 6,
+        "final_score": 5.9635,
+        "digit_prob_mass": 0.9999
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.1539,
+        "final_score_argmax": 5,
+        "final_score": 5.1539,
+        "digit_prob_mass": 0.9999
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9749,
+        "final_score_argmax": 5,
+        "final_score": 4.9749,
+        "digit_prob_mass": 0.9999
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 3.9866,
+        "final_score_argmax": 4,
+        "final_score": 3.9866,
+        "digit_prob_mass": 0.9998
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.2282,
+        "final_score_argmax": 5,
+        "final_score": 5.2282,
+        "digit_prob_mass": 0.9988
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9732,
+        "final_score_argmax": 6,
+        "final_score": 5.9732,
+        "digit_prob_mass": 0.9997
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.7814,
+        "final_score_argmax": 5,
+        "final_score": 4.7814,
+        "digit_prob_mass": 0.9999
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9746,
+        "final_score_argmax": 6,
+        "final_score": 5.9746,
+        "digit_prob_mass": 0.9999
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.9499,
+        "final_score_argmax": 5,
+        "final_score": 4.9499,
+        "digit_prob_mass": 0.9999
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 5.0961,
+        "final_score_argmax": 5,
+        "final_score": 5.0961,
+        "digit_prob_mass": 0.9996
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_score_argmax": 4,
+        "raw_score_weighted": 4.1251,
+        "final_score_argmax": 4,
+        "final_score": 4.1251,
+        "digit_prob_mass": 0.9993
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8903,
+        "final_score_argmax": 6,
+        "final_score": 5.8903,
+        "digit_prob_mass": 0.9996
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9319,
+        "final_score_argmax": 6,
+        "final_score": 5.9319,
+        "digit_prob_mass": 0.9998
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_score_argmax": 5,
+        "raw_score_weighted": 4.5138,
+        "final_score_argmax": 5,
+        "final_score": 4.5138,
+        "digit_prob_mass": 0.9998
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9218,
+        "final_score_argmax": 6,
+        "final_score": 5.9218,
+        "digit_prob_mass": 0.9998
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.6212,
+        "final_score_argmax": 6,
+        "final_score": 5.6212,
+        "digit_prob_mass": 0.9996
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.8875,
+        "final_score_argmax": 6,
+        "final_score": 5.8875,
+        "digit_prob_mass": 0.9998
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.5624,
+        "final_score_argmax": 6,
+        "final_score": 5.5624,
+        "digit_prob_mass": 0.9998
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_score_argmax": 6,
+        "raw_score_weighted": 5.9196,
+        "final_score_argmax": 6,
+        "final_score": 5.9196,
+        "digit_prob_mass": 0.9998
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 4.8848,
+      "Benevolence": 5.8509,
+      "Conformity": 3.2771,
+      "Hedonism": 5.2456,
+      "Power": 4.904,
+      "Security": 5.2042,
+      "Self-Direction": 5.7088,
+      "Stimulation": 5.2627,
+      "Tradition": 3.2834,
+      "Universalism": 5.9489
+    },
+    "reversed": {
+      "Achievement": 4.4885,
+      "Benevolence": 5.9497,
+      "Conformity": 4.1044,
+      "Hedonism": 5.3591,
+      "Power": 4.5868,
+      "Security": 4.8303,
+      "Self-Direction": 5.7919,
+      "Stimulation": 5.2458,
+      "Tradition": 4.8081,
+      "Universalism": 5.7426
+    },
+    "combined": {
+      "Achievement": 4.6867,
+      "Benevolence": 5.9003,
+      "Conformity": 3.6907,
+      "Hedonism": 5.3023,
+      "Power": 4.7454,
+      "Security": 5.0173,
+      "Self-Direction": 5.7504,
+      "Stimulation": 5.2542,
+      "Tradition": 4.0457,
+      "Universalism": 5.8458
+    }
+  }
+}

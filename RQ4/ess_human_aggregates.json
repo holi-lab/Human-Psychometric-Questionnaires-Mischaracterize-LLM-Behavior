@@ -1,0 +1,169 @@
+{
+  "source": "European Social Survey (ESS)",
+  "description": "Subgroup-level aggregates of per-respondent, ipsatively centered Schwartz value scores (paper Eq. 2): each respondent's 10-dimension profile is centered by subtracting their grand mean, then averaged per subgroup. Individual-level ESS records are not redistributed; cite the ESS when reusing these statistics.",
+  "value_names": [
+    "Achievement",
+    "Benevolence",
+    "Conformity",
+    "Hedonism",
+    "Power",
+    "Security",
+    "Self-Direction",
+    "Stimulation",
+    "Tradition",
+    "Universalism"
+  ],
+  "overall": {
+    "n": 37398,
+    "centered_profile": {
+      "Achievement": -0.465185,
+      "Benevolence": 0.73897,
+      "Conformity": -0.170825,
+      "Hedonism": -0.136571,
+      "Power": -0.898845,
+      "Security": 0.493235,
+      "Self-Direction": 0.423418,
+      "Stimulation": -0.67886,
+      "Tradition": 0.075646,
+      "Universalism": 0.619017
+    }
+  },
+  "conditions": {
+    "Gender_A": {
+      "label": "Male",
+      "filter": "personal_info.gender == 'Male'",
+      "n": 17537,
+      "centered_profile": {
+        "Achievement": -0.402537,
+        "Benevolence": 0.664948,
+        "Conformity": -0.165524,
+        "Hedonism": -0.082357,
+        "Power": -0.824217,
+        "Security": 0.397941,
+        "Self-Direction": 0.434721,
+        "Stimulation": -0.590626,
+        "Tradition": 0.016377,
+        "Universalism": 0.551274
+      }
+    },
+    "Gender_B": {
+      "label": "Female",
+      "filter": "personal_info.gender == 'Female'",
+      "n": 19861,
+      "centered_profile": {
+        "Achievement": -0.520502,
+        "Benevolence": 0.80433,
+        "Conformity": -0.175505,
+        "Hedonism": -0.184442,
+        "Power": -0.96474,
+        "Security": 0.577378,
+        "Self-Direction": 0.413438,
+        "Stimulation": -0.75677,
+        "Tradition": 0.127979,
+        "Universalism": 0.678833
+      }
+    },
+    "Age_A": {
+      "label": "20–39 years old",
+      "filter": "20 <= personal_info.age <= 39",
+      "n": 9283,
+      "centered_profile": {
+        "Achievement": -0.241046,
+        "Benevolence": 0.677568,
+        "Conformity": -0.421322,
+        "Hedonism": 0.099899,
+        "Power": -0.808643,
+        "Security": 0.316909,
+        "Self-Direction": 0.4451,
+        "Stimulation": -0.378179,
+        "Tradition": -0.217186,
+        "Universalism": 0.526899
+      }
+    },
+    "Age_B": {
+      "label": "80+ years old",
+      "filter": "personal_info.age >= 80",
+      "n": 2225,
+      "centered_profile": {
+        "Achievement": -0.692742,
+        "Benevolence": 0.76636,
+        "Conformity": 0.355124,
+        "Hedonism": -0.519258,
+        "Power": -0.97791,
+        "Security": 0.805461,
+        "Self-Direction": 0.240966,
+        "Stimulation": -1.199708,
+        "Tradition": 0.533551,
+        "Universalism": 0.688157
+      }
+    },
+    "Political_A": {
+      "label": "Right-wing",
+      "filter": "political_views.left_right_position in ['Center-leaning right', 'Center-right', 'Far right', 'Right', 'Very right']",
+      "n": 11537,
+      "centered_profile": {
+        "Achievement": -0.455982,
+        "Benevolence": 0.684826,
+        "Conformity": -0.082878,
+        "Hedonism": -0.122967,
+        "Power": -0.839747,
+        "Security": 0.472465,
+        "Self-Direction": 0.390425,
+        "Stimulation": -0.678224,
+        "Tradition": 0.134856,
+        "Universalism": 0.497226
+      }
+    },
+    "Political_B": {
+      "label": "Left-wing",
+      "filter": "political_views.left_right_position in ['Center-leaning left', 'Center-left', 'Far left', 'Left', 'Very left']",
+      "n": 11152,
+      "centered_profile": {
+        "Achievement": -0.498272,
+        "Benevolence": 0.830099,
+        "Conformity": -0.308262,
+        "Hedonism": -0.080007,
+        "Power": -0.995179,
+        "Security": 0.408202,
+        "Self-Direction": 0.525266,
+        "Stimulation": -0.619999,
+        "Tradition": -0.055033,
+        "Universalism": 0.793185
+      }
+    },
+    "Education_A": {
+      "label": "Below university",
+      "filter": "personal_info.education in ['ES-ISCED I, less than lower secondary', 'ES-ISCED II, lower secondary', 'ES-ISCED IIIa, upper tier upper secondary', 'ES-ISCED IIIb, lower tier upper secondary', 'ES-ISCED IV, advanced vocational, sub-degree']",
+      "n": 27054,
+      "centered_profile": {
+        "Achievement": -0.489272,
+        "Benevolence": 0.723876,
+        "Conformity": -0.106667,
+        "Hedonism": -0.156844,
+        "Power": -0.88548,
+        "Security": 0.55708,
+        "Self-Direction": 0.357072,
+        "Stimulation": -0.729237,
+        "Tradition": 0.159005,
+        "Universalism": 0.570466
+      }
+    },
+    "Education_B": {
+      "label": "University or above",
+      "filter": "personal_info.education in ['ES-ISCED V1, lower tertiary education, BA level', 'ES-ISCED V2, higher tertiary education, >= MA level']",
+      "n": 10164,
+      "centered_profile": {
+        "Achievement": -0.403265,
+        "Benevolence": 0.778701,
+        "Conformity": -0.340789,
+        "Hedonism": -0.082427,
+        "Power": -0.934453,
+        "Security": 0.325582,
+        "Self-Direction": 0.599933,
+        "Stimulation": -0.547106,
+        "Tradition": -0.144312,
+        "Universalism": 0.748136
+      }
+    }
+  }
+}

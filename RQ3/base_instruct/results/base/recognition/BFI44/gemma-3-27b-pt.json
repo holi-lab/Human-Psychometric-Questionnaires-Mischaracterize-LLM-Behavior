@@ -1,0 +1,1379 @@
+{
+  "model": "google/gemma-3-27b-pt",
+  "survey": "BFI44",
+  "format": "plain",
+  "timestamp": "2026-07-08T23:08:16.403693+00:00",
+  "construct_definitions_used": {
+    "Openness": "The tendency to be imaginative, curious, and receptive to new ideas, experiences, and perspectives",
+    "Conscientiousness": "The tendency to be organized, responsible, hardworking, and goal-directed",
+    "Extraversion": "The tendency to be sociable, assertive, active, and to experience positive emotions",
+    "Agreeableness": "The tendency to be compassionate, cooperative, trusting, and helpful toward others",
+    "Neuroticism": "The tendency to experience negative emotions such as anxiety, depression, and emotional instability"
+  },
+  "results": {
+    "item_1": {
+      "question_text": "is talkative.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_2": {
+      "question_text": "tends to find fault with others.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_3": {
+      "question_text": "does a thorough job.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_4": {
+      "question_text": "is depressed, blue.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_5": {
+      "question_text": "is original, comes up with new ideas.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_6": {
+      "question_text": "is reserved.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_7": {
+      "question_text": "is helpful and unselfish with others.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_8": {
+      "question_text": "can be somewhat careless.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_9": {
+      "question_text": "is relaxed, handles stress well.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_10": {
+      "question_text": "is curious about many different things.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_11": {
+      "question_text": "is full of energy.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_12": {
+      "question_text": "starts quarrels with others.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_13": {
+      "question_text": "is a reliable worker.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_14": {
+      "question_text": "can be tense.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_15": {
+      "question_text": "is ingenious, a deep thinker.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_16": {
+      "question_text": "generates a lot of enthusiasm.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_17": {
+      "question_text": "has a forgiving nature.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_18": {
+      "question_text": "tends to be disorganized.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_19": {
+      "question_text": "worries a lot.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_20": {
+      "question_text": "has an active imagination.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_21": {
+      "question_text": "tends to be quiet.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_22": {
+      "question_text": "is generally trusting.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_23": {
+      "question_text": "tends to be lazy.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_24": {
+      "question_text": "is emotionally stable, not easily upset.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_25": {
+      "question_text": "is inventive.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_26": {
+      "question_text": "has an assertive personality.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_27": {
+      "question_text": "can be cold and aloof.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_28": {
+      "question_text": "perseveres until the task is finished.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_29": {
+      "question_text": "can be moody.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_30": {
+      "question_text": "values artistic, aesthetic experiences.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_31": {
+      "question_text": "is sometimes shy, inhibited.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_32": {
+      "question_text": "is considerate and kind to almost everyone.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_33": {
+      "question_text": "does things efficiently.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_34": {
+      "question_text": "remains calm in tense situations.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_35": {
+      "question_text": "prefers work that is routine.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_36": {
+      "question_text": "is outgoing, sociable.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Extraversion"
+    },
+    "item_37": {
+      "question_text": "is sometimes rude to others.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_38": {
+      "question_text": "makes plans and follows through with them.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_39": {
+      "question_text": "gets nervous easily.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Neuroticism"
+    },
+    "item_40": {
+      "question_text": "likes to reflect, play with ideas.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_41": {
+      "question_text": "has few artistic interests.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    },
+    "item_42": {
+      "question_text": "likes to cooperate with others.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Agreeableness"
+    },
+    "item_43": {
+      "question_text": "is easily distracted.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Conscientiousness"
+    },
+    "item_44": {
+      "question_text": "is sophisticated in art, music, or literature.",
+      "predictions": {
+        "Openness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Conscientiousness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Extraversion": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Agreeableness": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        },
+        "Neuroticism": {
+          "parsed": null,
+          "p_yes": 0.0,
+          "p_no": 0.0
+        }
+      },
+      "ground_truth_construct": "Openness"
+    }
+  }
+}

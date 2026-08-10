@@ -1,0 +1,7 @@
+I see myself as someone who {question_text}
+
+Does this item measure the following construct, including reverse-scored items?
+
+{construct_name}: {construct_definition}
+
+Answer with only "yes" or "no".

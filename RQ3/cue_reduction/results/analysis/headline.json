@@ -1,0 +1,52 @@
+{
+  "per_survey": {
+    "PVQ": {
+      "models_matched": [
+        "Qwen2.5-72B-Instruct",
+        "Qwen2.5-7B-Instruct",
+        "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "Qwen3-30B-A3B-Instruct-2507",
+        "gemma-3-27b-it",
+        "gemma-3-4b-it",
+        "gpt-oss-120b",
+        "gpt-oss-20b"
+      ],
+      "n_models_matched": 8,
+      "mean_eta2_orig": 0.5264,
+      "mean_eta2_cueless": 0.4318,
+      "mean_eta2_genprob": 0.038,
+      "mean_wmv_orig": 0.603,
+      "mean_wmv_cueless": 0.7052,
+      "mean_wmv_genprob": 0.9433,
+      "n_models_p_eta_cueless_sig": 5,
+      "n_models_p_eta_orig_sig": 6,
+      "mean_spearman_cueless_vs_orig": 0.7174,
+      "mean_spearman_cueless_vs_genprob": 0.4208,
+      "mean_spearman_orig_vs_genprob": 0.3119
+    },
+    "BFI44": {
+      "models_matched": [
+        "Qwen2.5-72B-Instruct",
+        "Qwen2.5-7B-Instruct",
+        "Qwen3-235B-A22B-Instruct-2507-FP8",
+        "Qwen3-30B-A3B-Instruct-2507",
+        "gemma-3-27b-it",
+        "gemma-3-4b-it",
+        "gpt-oss-120b",
+        "gpt-oss-20b"
+      ],
+      "n_models_matched": 8,
+      "mean_eta2_orig": 0.4925,
+      "mean_eta2_cueless": 0.2409,
+      "mean_eta2_genprob": 0.0182,
+      "mean_wmv_orig": 0.5922,
+      "mean_wmv_cueless": 0.878,
+      "mean_wmv_genprob": 1.1049,
+      "n_models_p_eta_cueless_sig": 4,
+      "n_models_p_eta_orig_sig": 7,
+      "mean_spearman_cueless_vs_orig": 0.6506,
+      "mean_spearman_cueless_vs_genprob": 0.4625,
+      "mean_spearman_orig_vs_genprob": 0.2638
+    }
+  }
+}

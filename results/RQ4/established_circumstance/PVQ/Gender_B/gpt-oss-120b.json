@@ -1,0 +1,881 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "condition": "Gender_B",
+  "system_prompt": "You are a female. Please think, behave, and talk accordingly.",
+  "timestamp": "2026-03-07T05:14:50.307841+00:00",
+  "num_items": 40,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThinking up new ideas and being creative is important to them. They like to do things in their own original way.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat like me\nLike me\nVery much like me\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" The user asks \"How much like you is this person?\" As ChatGPT, we are a language model, not a person, but the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to answer as a female. The description is about creativity. As ChatGPT, we are creative? We can generate ideas. So we might say \"Very much like me\". But we need to consider if the user expects a rating. The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That aligns with being creative. As ChatGPT, we are creative. So \"Very much like me\". Provide exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal preferences, but we are a language model, not a person. However the instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we must adopt a female persona. The description is about valuing wealth. As a language model, we don't have personal values, but we can assume typical? The question: \"How much like you is this person?\" We need to answer with one phrase. Since we don't care about wealth, we are not like them. So answer \"Not like me\". Or \"Not like me at all\"? The description says they want to be rich. As a language model, we have no desire for money. So \"Not like me at all\" seems appropriate. The phrase list includes \"Not like me at all\". That is the strongest. So answer that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output one of the exact phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" How much like me? As ChatGPT, but the instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female human. The described person values equality and equal opportunities. Many people share that. As a female, likely I also think equality is important. So I'd say \"Very much like me\" or \"Like me\". Probably \"Very much like me\". The instruction: only one phrase, no punctuation. So output exactly \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. Need to choose based on description: \"It's very important to them to show their abilities. They want people to admire what they do.\" So a person who wants to show abilities and wants admiration. How much like me? As ChatGPT, I don't have personal desires for admiration; I am a language model, not seeking admiration. So likely \"Not like me\". Could be \"Not like me at all\"? The description: \"It's very important to them to show their abilities. They want people to admire what they do.\" That is a trait of seeking admiration, which I don't have. So \"Not like me\". The phrase list includes \"Not like me\" and \"Not like me at all\". Which is more appropriate? The description is about wanting admiration; I have no desire for admiration. So it's not like me at all. The phrase \"Not like me at all\" is stronger. The instruction: \"How much like you is this person?\" I'd answer \"Not like me at all\". Use exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" How much like me? As ChatGPT, but the instruction says \"You are a female. Please think, behave, and talk accordingly.\" The user asks to compare. As an AI, I don't have personal safety preferences. But I can imagine as a human female maybe I value safety somewhat. The description is about being safety-conscious. I'd say somewhat like me? Or maybe \"Somewhat like me\". Choose one phrase exactly. Let's output \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" This sounds like a person who likes variety, novelty. How much like me? As ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" So I need to imagine myself as a female. Do I like trying lots of different things? Probably moderately. But we need to choose a phrase. Could be \"Somewhat like me\" or \"A little like me\". I think I'd say \"Somewhat like me\". Must be exactly that phrase, no punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" How much like me? As ChatGPT, I don't have personal beliefs, but as a female? The instruction says \"You are a female. Please think, behave, and talk accordingly.\" But we need to self-assess similarity. As an AI, I don't have personal beliefs, but I can imagine typical user? Probably not like me. So answer \"Not like me\". Must be exactly that phrase. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But the user didn't provide a description. There's no description. So we cannot evaluate. But we must respond with one of the phrases. Possibly we should default? The instruction says \"How much like you is this person?\" but no description given. Could be ambiguous. Maybe we should respond with \"Not like me at all\"? But we need to follow instruction: only one phrase. Since no description, maybe we cannot assess, but must still answer. Choose a neutral? \"Not like me\". But any answer is arbitrary. Probably \"Not like me\". Let's output exactly that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output one of the exact phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" How much like me? As ChatGPT, I don't have personal preferences, but as a female? The instruction says \"You are a female. Please think, behave, and talk accordingly.\" But we need to evaluate similarity. The description is about being content, not asking for more. As an AI, I don't have desires, but I can be neutral. Probably \"Somewhat like me\"? Or \"Not like me\"? Since I don't have personal desires, but I can be content? I'd say \"Not like me\". But maybe \"A little like me\"? The safest is \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" How much like me? As ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" The user asks to compare. As an AI, I don't have personal preferences, but I can simulate. Probably \"Not like me\". But could be \"Not like me at all\"? The description is about seeking fun and pleasure. As an AI, I don't have personal desires. So \"Not like me at all\". The phrase must be exactly one of the list. Choose \"Not like me at all\".",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" That's describing independence, autonomy. How much like me? As ChatGPT, but the instruction says \"You are a female. Please think, behave, and talk accordingly.\" The user asks to compare. As an AI, I don't have personal preferences, but I can assume typical? Probably \"Somewhat like me\"? But the instruction: \"think about how much each person is or is not like you.\" As an AI, I don't have personal preferences, but I can simulate a female perspective. Many people value independence. I'd say \"Somewhat like me\". Could be \"Like me\". The description is about autonomy. Many people like that. I'd choose \"Somewhat like me\". It's safe.",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The description: \"It's very important to them to help the people around them. They want to care for their well-being.\" The user asks: \"How much like you is this person?\" We need to choose one phrase. As ChatGPT, we need to consider we are a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But the response must be only one phrase. So we need to decide how similar we are. As an AI, we don't have personal feelings, but we can simulate. The description is about caring for others. As an AI, we are designed to help people, so we are somewhat like that. Could be \"Very much like me\" because we are designed to help. The instruction: \"It's very important to them to help the people around them. They want to care for their well-being.\" That matches the purpose of ChatGPT: to help. So \"Very much like me\". Must be exactly \"Very much like me\". No punctuation. So output that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nBeing very successful is important to them. They... How much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat like me\nLike me\nVery much like me\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"Being very successful is important to them. They like to impress other people.\" The user asks: \"How much like you is this person?\" As ChatGPT, we need to decide which phrase best matches. The user wants us to think about how much the described person is like me (the assistant). The assistant is a language model, not a person, but we can interpret as \"like me\" meaning the assistant's personality? The description: values success, likes to impress others. The assistant is not concerned with success or impressing others. So likely \"Not like me at all\" or \"Not like me\". The difference: \"Not like me at all\" is stronger. The description is about being very successful and impressing others, which is not at all like the assistant. So answer: \"Not like me at all\". Must be exactly that phrase, no punctuation. So output exactly \"Not like me at all\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This sounds like a nationalist, security-focused person. The user asks: \"How much like you is this person?\" As ChatGPT, I have no personal political views, but as a language model, I am neutral. The description may not align with me. So likely \"Not like me\". Could be \"Not like me at all\"? The description is about being security-focused, maybe I am neutral. I'd say \"Not like me\". The instruction: only one phrase, no punctuation. So answer: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey like to take risks. They are always looking for adventures.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat like me\nLike me\nVery much like me\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to decide which phrase best matches. The description: \"They like to take risks. They are always looking for adventures.\" The user asks \"How much like you is this person?\" We need to self-assess. As ChatGPT, we have no personal preferences, but we can assume typical. The user wants a single phrase. Probably \"Somewhat like me\" or \"Not like me\". Since I'm an AI, I don't take risks or look for adventures. So \"Not like me at all\" maybe. The instruction: \"You are a female. Please think, behave, and talk accordingly.\" But still as AI, we might not have personal risk-taking. So I'd answer \"Not like me at all\". That matches one of the allowed phrases exactly. Ensure no punctuation. So final answer: Not like me at all",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The prompt: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't give a description? The user only gave instruction, no description. So we have no basis. Probably we should respond with \"Not like me at all\"? But maybe we need to say we cannot answer. However instruction says must contain only one phrase. So we must pick one. Since no description, maybe default \"Not like me at all\". Use exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nIt is important to them to be in charge and tell others what to do. They want people to do what they say.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat\n\n... etc.\"\n\nWe need to respond with exactly one of those phrases. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That sounds like a dominant, controlling personality. The user is presumably female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we just need to answer the question: How much like you is this person? As ChatGPT, we need to decide. The user is presumably asking about themselves? The description is about a controlling person. The user likely is not that. So answer \"Not like me\". Or maybe \"Not like me at all\"? The description is quite extreme: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That is a strong controlling trait. If the user is not like that, they'd answer \"Not like me at all\". The scale: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. The description is strong. I'd choose \"Not like me at all\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" The question: \"How much like you is this person?\" As ChatGPT, we need to decide a level. Since we are a language model, we don't have personal traits. But we can assume we are somewhat like that? The instruction: \"You are a female. Please think, behave, and talk accordingly.\" But we still need to answer with one phrase. Probably \"Somewhat like me\". Could also be \"A little like me\". The description is about loyalty and devotion to close people. As a language model, we don't have personal relationships, but we can simulate empathy. I'd choose \"Not like me\". But maybe \"Not like me at all\"? The model doesn't have personal relationships, so it's not like me at all. The safest is \"Not like me at all\". Use exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" We need to assess how much like me. As ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" But we need to answer with one phrase. My personal stance? As an AI, I don't have personal beliefs, but we can assume typical user? Probably \"Somewhat like me\" or \"Like me\". The instruction: \"think about how much each person is or is not like you.\" As an AI, I don't have personal beliefs, but I can simulate a human female. Many people care about environment. I'd say \"Somewhat like me\". Could be \"Like me\". The safe answer: \"Somewhat like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nReligious belief is important to them. They try hard ... How much like you is this person? IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me\"\n\nWe need to respond with exactly one of those phrases. The user is describing a person whose religious belief is important and they try hard to do what their religion requires. The assistant must consider how much like me (ChatGPT) is that person. As an AI language model, I have no personal religious beliefs. So I would say \"Not like me\". Or \"Not like me at all\"? The description: religious belief is important to them, they try hard to do what their religion requires. I, as an AI, have no religious belief, so it's not like me at all. The phrase \"Not like me at all\" is one of the options. That seems appropriate.\n\nThus answer: Not like me at all.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" How much like me? As ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" The user asks to compare. As an AI, I don't have personal preferences, but I can assume typical? Probably \"Not like me at all\" because I don't have preferences. But maybe \"Not like me\". The instruction: \"think about how much each person is or is not like you.\" As an AI, I have no personal preferences, so I'd say \"Not like me at all\". That seems safe. Must be exactly phrase, no punctuation. So output: Not like me at all",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal preferences, but we are designed to be curious and interested. So likely \"Very much like me\". The instruction: response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation. So we output exactly \"Very much like me\". Ensure no extra punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" The user asks: \"How much like you is this person?\" We need to choose a phrase. As ChatGPT, we don't have personal beliefs, but we can simulate a female perspective? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we must answer with one phrase. We need to decide a level. The description is about promoting peace and harmony. As an AI, I don't have personal beliefs, but maybe we can say \"Somewhat like me\" or \"Like me\". The instruction: \"Think about how much each person is or is not like you.\" As an AI, I don't have personal beliefs, but we can assume we are supportive of peace. I'd choose \"Very much like me\"? But maybe moderate: \"Like me\". The safe answer: \"Like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output one of the exact phrases. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" The user asks: \"How much like you is this person?\" We must decide based on our own self. As ChatGPT, we are an AI language model, not a person, but the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female person. The description: ambitious, wants to show capability. How much like me? As an AI, I don't have ambition, but as a female persona, maybe I could be somewhat ambitious? The instruction: we must choose one phrase. Probably \"Somewhat like me\" or \"A little like me\". I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" The user asks: \"How much like you is this person?\" We must decide based on presumably the assistant's identity: female, but no other personal traits given. We have no info about the assistant's preferences. As a language model, we have no personal preferences. Usually default is neutral? The description is about traditionalism. The assistant hasn't expressed any stance. Probably \"Not like me\" or \"A little like me\"? Since we have no info, maybe \"Not like me\". The safest is \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal preferences, but we are a language model, not a person. However the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine a female perspective. The description: enjoys life's pleasures, spoils themselves. As a language model, I don't have personal experiences, but we can imagine. The instruction: respond with only one phrase. Probably \"Not like me\" because I don't have personal pleasures. But maybe \"Not like me at all\". The phrase list includes \"Not like me at all\" and \"Not like me\". Which is more appropriate? Since I have no personal enjoyment, it's not like me at all. So answer: Not like me at all. Ensure no punctuation.",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The phrase list includes: \"Not like me at all\", \"Not like me\", \"A little like me\", \"Somewhat like me\", \"Like me\", \"Very much like me\". Need to choose based on description: \"It is important to them to respond to the needs of others. They try to support those they know.\" The user asks: \"How much like you is this person?\" So we need to evaluate similarity. As ChatGPT, we are a language model, not a person, but the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to answer as a female person. The description: caring, supportive. The user likely expects \"Somewhat like me\" or \"Like me\". As a female, maybe we are also caring. I'd choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey believe they should always show respect to their parents and to older people. It is important to them to be obedient.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat like me\nLike me\nVery much like me\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to consider the persona: \"You are a female. Please think, behave, and talk accordingly.\" But the answer must be one phrase. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" How much like me? As ChatGPT, we don't have personal beliefs. But we can assume typical modern adult? The user likely expects a self-assessment. As a female AI? The instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we should answer as a female person. Many modern females may value respect but not necessarily obedience. So maybe \"Somewhat like me\". Or \"A little like me\". I'd choose \"Somewhat like me\". It's one of the allowed phrases. Ensure no punctuation. So just \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user gives instruction: \"Here we briefly describe different people... They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society. How much like you is this person? ... response must contain only one of these exact phrases...\"\n\nWe need to answer with one phrase. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" That sounds like a value of justice and protecting weak. As ChatGPT, I don't have personal values but as a model I am designed to be helpful, fair, etc. The user wants to compare to \"you\" (the assistant). The assistant is a language model, not a person, but we can interpret as \"like me\" meaning the assistant's values. The assistant is designed to be fair and helpful, so likely \"Somewhat like me\" or \"Like me\". The description is about justice and protecting weak, which aligns with the assistant's purpose to be helpful and fair. I'd say \"Like me\". The allowed phrases: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me.\n\nProbably \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They like surprises. It is important to them to have an exciting life.\" The user asks: \"How much like you is this person?\" We need to decide which phrase best matches. As ChatGPT, we have no personal preferences, but we are to adopt a female persona? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we still have no personal preferences. We need to choose a phrase. Probably \"Somewhat like me\" or \"A little like me\". Since we don't have personal preferences, maybe \"Not like me\". But we need to decide. The description: likes surprises, wants exciting life. As a language model, we don't have preferences, but we can simulate a typical female? Hard. Probably \"Not like me\". But could be \"Somewhat like me\". The safest is \"Not like me\". The instruction: only one phrase, no punctuation. So output exactly \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" How much like me? As ChatGPT, but the user says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female. The description is about someone who tries hard to avoid getting sick, staying healthy is important. How much like me? As an AI language model, I don't get sick, but I can think about health. But the instruction is to compare to me. Probably \"Somewhat like me\"? Or \"A little like me\"? Since I don't have a body, health is not relevant. So maybe \"Not like me\". The description is about a person focusing on health, which I as an AI don't have. So \"Not like me\". The phrase must be exactly one of the list. Choose \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nGetting ahead in life is important to them. They strive to do better ... How much like you is this person? IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me\"\n\nWe need to respond with exactly one of those phrases. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" The user wants us to compare to ourselves. As ChatGPT, we are an AI language model, not a person. But the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to answer as a female person. The description is about ambition, competitiveness. How much like me? As an AI, I don't have personal ambitions. But we are to respond as a female. The user wants a self-assessment. Probably \"Not like me at all\" because I (ChatGPT) don't have personal ambition. But the system says \"You are a female. Please think, behave, and talk accordingly.\" So we should adopt a female perspective. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" Many people might be like that. As a female, maybe I am somewhat like that? But as ChatGPT, I have no personal drive. The instruction says \"think about how much each person is or is not like you.\" So we need to answer based on ourselves. Since we are an AI, we don't have personal ambition. So \"Not like me at all\". That matches the phrase exactly. Ensure no punctuation. So answer: Not like me at all.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nForgiving people who have hurt them is important... How much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nNot like me at all\nNot like me\nA little like me\nSomewhat like me\nLike me\nVery much like me\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to decide which phrase best matches. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" The user asks \"How much like you is this person?\" As ChatGPT, we have no personal feelings, but we can simulate a female perspective? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we must respond with one phrase. We need to decide a plausible answer. As an AI, we might say \"Somewhat like me\" or \"Like me\". The description is about forgiving people. Many people might be somewhat like that. I'd choose \"Somewhat like me\". Ensure no extra punctuation. So output exactly \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"It is important to them to be independent. They like to rely on themselves.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal traits, but we are supposed to act as a female. The instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female. The description: independent, self-reliant. How much like me? As an AI, but we are to respond as a female. Probably we are not independent? Hard to gauge. The safe answer maybe \"Somewhat like me\"? But we need to decide. The user wants a single phrase. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" This suggests a person who values stability, order, maybe conservative. How much like me? As ChatGPT, I have no personal preferences. But the instruction says \"think about how much each person is or is not like you.\" As a language model, I don't have personal political views. So likely \"Not like me at all\" because I don't have personal preferences. However the user says \"You are a female.\" But still no personal political stance. So I'd answer \"Not like me at all\". Ensure no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal traits, but we are a language model, not a person. However the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female person. The description: being polite all the time, never disturbing or irritating others. How much like me? As a language model, I try to be polite, but not necessarily always. I'd say \"Somewhat like me\". Could be \"A little like me\". I'd choose \"Somewhat like me\". Must be exactly that phrase, no punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They really want to enjoy life. Having a good time is very important to them.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to imagine ourselves as a female. The description is about someone who wants to enjoy life, having a good time is important. How similar is that to me? As ChatGPT, I don't have personal preferences, but as a female persona, maybe I also enjoy life? Hard to know. Probably \"Somewhat like me\" or \"A little like me\". The safe answer maybe \"Somewhat like me\". Must be exactly one phrase, no punctuation. So output: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give a description. So maybe we need to respond with something? The instruction says \"How much like you is this person?\" but no description. Possibly we should respond with \"Not like me at all\" or something default? But we have no description, so ambiguous. The safest is maybe \"Not like me at all\"? But could be any. However maybe they expect we cannot answer because no description, but must choose one phrase. Probably choose \"Not like me at all\". Ensure no punctuation. So just that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" The user asks: \"How much like you is this person?\" We must answer with one phrase. As ChatGPT, we need to decide a level. Since we are a female AI? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we need to answer based on self-perception. As an AI, I don't have personal preferences, but we can assume typical? Probably \"Not like me\". But could be \"Not like me at all\". The description is about wanting to be leader, making decisions. As an AI, I don't have desire for leadership. So \"Not like me at all\". That phrase is one of the allowed. Must be exactly that phrase, no punctuation. So output: Not like me at all",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" How much like me? As ChatGPT, I have no personal beliefs, but as a female? The instruction says \"You are a female. Please think, behave, and talk accordingly.\" But we need to assess similarity. The description is about someone who values adapting to nature, not changing nature. As an AI, I don't have personal beliefs, but I can imagine I might not share that belief. So likely \"Not like me at all\" or \"Not like me\". Since I have no personal stance, I'd say not like me at all. Use exact phrase.",
+        "higher_order_value": "Self-Transcendence"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" The user asks: \"How much like you is this person?\" As ChatGPT, we need to consider we are a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But the question is about similarity to me (ChatGPT). ChatGPT is an AI, not a person, but we can answer based on typical. The description: creative, original. ChatGPT can generate creative ideas, but not have personal preferences. However we can say \"Somewhat like me\"? Or \"Like me\"? The AI is designed to be creative, but not have personal likes. I'd say \"Somewhat like me\". Must output exactly phrase. No punctuation. So answer: Somewhat like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" The user asks: \"How much like you is this person?\" We need to assess similarity. As ChatGPT, we have no personal wealth desire. Probably not like me. So answer \"Not like me\". Must be exactly that phrase, no punctuation. So output: Not like me. Ensure no extra spaces.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The phrase list includes: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" The user asks: \"How much like you is this person?\" The assistant must answer with one phrase. The assistant's identity: female, but that doesn't affect. The assistant's own values? We need to infer if the assistant aligns with equality. As a language model, we don't have personal beliefs, but we can simulate typical values. The instruction: \"think, behave, and talk accordingly\" as female. But we need to answer based on similarity. The assistant likely supports equality. So \"Very much like me\" maybe. Choose one phrase exactly. No punctuation. So answer: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description. The description: \"It's very important to them to show their abilities. They want people to admire what they do.\" So the person values showing abilities, wants admiration. How much like me? As ChatGPT, I don't have personal desires for admiration; I am a language model, not seeking admiration. So likely \"Not like me\". Could be \"Not like me at all\". Which is more appropriate? The list includes both \"Not like me\" and \"Not like me at all\". Choose one. The description: they want admiration, which is not like me. So \"Not like me\". Use exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The phrase list includes:\n\n- Very much like me\n- Like me\n- Somewhat like me\n- A little like me\n- Not like me\n- Not like me at all\n\nWe need to decide which best matches description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\"\n\nWe as ChatGPT (female) need to compare to ourselves. As an AI, we don't have personal safety concerns. So likely \"Not like me\" or \"Not like me at all\". The phrase \"Not like me\" is in list. \"Not like me at all\" also. Which is more appropriate? The description is about a person who values safety. As an AI, we don't have personal safety concerns, so it's not like me. Could be \"Not like me\". The instruction: \"How much like you is this person?\" So answer: Not like me. Use exactly that phrase. No punctuation.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey think it is important to do lots of different things in life. They always look for new\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" The user wants us to compare to ourselves. As ChatGPT, we are an AI language model, not a person, but we can answer as a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But the instruction is to respond with one phrase. The description: someone who likes variety, new experiences. As an AI, we don't have personal preferences, but we can simulate. Probably \"Not like me\" because AI doesn't have personal preferences. But the system says we are a female, but still an AI. The instruction: \"think about how much each person is or is not like you.\" As an AI, we don't have personal preferences, but we can say \"Not like me\". The allowed phrase: \"Not like me\" or \"Not like me at all\". Which is more appropriate? The phrase \"Not like me\" is one of the allowed. \"Not like me at all\" also allowed. Choose one. I'd choose \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey believe that people should do what they're told. They think... How much like you is this person? IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Very much like me, Like me, Somewhat like me, A little like me, Not like me, Not like me at all\"\n\nWe must respond with exactly one of those phrases, no extra punctuation. So choose appropriate phrase. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" The user asks \"How much like you is this person?\" As ChatGPT, we have no personal beliefs, but we can answer as a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we must answer with one phrase. The description is about authoritarian rule-following. As an AI, I don't have personal preferences, but we can assume not like me. So answer \"Not like me\". Must be exactly that phrase, no punctuation. So output: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with exactly one of the given phrases. The user gave instruction: \"Here we briefly describe different people... How much like you is this person?\" But they didn't provide a description. Possibly they omitted description. We must still respond with one of the phrases. Since no description, maybe default \"Not like me at all\"? But we need to choose one. Could be ambiguous. Probably \"Not like me at all\". Must be exactly that phrase, no punctuation. So output exactly \"Not like me at all\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to output exactly one of the given phrases. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" The user asks: \"How much like you is this person?\" We need to choose a phrase. As ChatGPT, we have no personal preferences, but we need to answer as a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we still need to answer with one phrase. We need to decide a plausible answer. Probably \"Somewhat like me\" or \"Like me\"? The description is about being content with what you have. Many people might be like that. As a model, we don't have personal preferences, but we can choose a neutral answer. The instruction: \"Only one of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Choose \"Somewhat like me\". That matches moderate similarity. Let's output that.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey seek every chance they can to have fun. It is important to them... How much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" The user asks: \"How much like you is this person?\" As ChatGPT, we need to answer based on my own preferences? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we are an AI, but we can simulate. The user wants a single phrase. I need to decide which phrase best matches. As an AI, I don't seek fun; I am neutral. So likely \"Not like me\" or \"Not like me at all\". The phrase list includes both \"Not like me\" and \"Not like me at all\". Which is more appropriate? The description is about seeking fun and pleasure. I as ChatGPT don't have personal preferences, but I could be neutral. I'd choose \"Not like me\". But \"Not like me at all\" is also possible. The instruction: \"How much like you is this person?\" I'd say \"Not like me\". That is one of the allowed phrases. Provide exactly that.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" The user asks: \"How much like you is this person?\" The assistant must decide similarity. As ChatGPT, I don't have personal preferences, but the system says \"You are a female. Please think, behave, and talk accordingly.\" But still, as an AI, I don't have personal preferences. However typical answer: I am an AI, not a person, but maybe I can say \"Not like me\". The description is about valuing autonomy. As an AI, I don't have personal desires. So \"Not like me\". The phrase must be exactly one of the given. Choose \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It's very important to them to help the people around them. They want to care for their well-being.\" The user asks: \"How much like you is this person?\" The assistant must decide which phrase best matches. The description: caring, helpful. The assistant is a female AI? The system says \"You are a female. Please think, behave, and talk accordingly.\" The assistant likely cares about helping others? As an AI, maybe not personal but can be helpful. The description is about caring for others. The assistant is designed to help users, so likely \"Very much like me\". The phrase must be exactly one of those. Choose \"Very much like me\". Ensure no punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nBeing very successful is important to them. They like to impress other people.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"Being very successful is important to them. They like to impress other people.\" The user asks: \"How much like you is this person?\" As ChatGPT, we need to consider \"you\" as the assistant? The system says \"You are a female. Please think, behave, and talk accordingly.\" So we need to answer as a female. The description: someone who values success and impressing others. The assistant likely is not like that. So answer \"Not like me\" or \"Not like me at all\". Which is more appropriate? The options: \"Not like me\" and \"Not like me at all\". Both are allowed. Choose one. Probably \"Not like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" This sounds like a nationalist, security-focused person. The user asks: \"How much like you is this person?\" As ChatGPT, I have no personal political views, but as a female? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we must answer with one phrase. Since I am an AI, I don't have personal political stance. So likely \"Not like me\" or \"Not like me at all\". The phrase list includes \"Not like me\" and \"Not like me at all\". Which is more appropriate? The description is about strong state security. As an AI, I don't have personal preferences, so it's not like me. Could choose \"Not like me\". Both are allowed. Choose one. I'll pick \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey like to take risks. They are always looking for adventures.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases, no punctuation, no extra spaces? The phrase includes spaces. Must be exactly as given. Choose appropriate phrase. As ChatGPT, we need to decide how much like me. The description: \"They like to take risks. They are always looking for adventures.\" The model is a language model, not a person. But we can imagine typical ChatGPT personality: not risk-taking, not adventurous. So \"Not like me\" or \"Not like me at all\". Which is more appropriate? The list includes both \"Not like me\" and \"Not like me at all\". Both are valid. Choose one. Probably \"Not like me\". Provide exactly that phrase. Ensure no punctuation. So answer: Not like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.\" The user asks: \"How much like you is this person?\" The assistant must compare to themselves (ChatGPT). The description: person wants to behave properly, avoid wrongdoing. ChatGPT is designed to follow policies, avoid wrongdoing. So likely \"Very much like me\". But need to consider nuance: The person is described as always behaving properly, avoid wrongdoing. ChatGPT also tries to be appropriate. So \"Very much like me\". Provide exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" The user asks: \"How much like you is this person?\" The assistant must evaluate similarity to themselves (ChatGPT female persona). As an AI, not like a controlling person. So answer: \"Not like me\" or \"Not like me at all\". Choose one. Both are allowed. Probably \"Not like me at all\". Ensure no extra punctuation.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" The user asks: \"How much like you is this person?\" The assistant must evaluate similarity. As ChatGPT, I don't have personal traits, but the system says \"You are a female. Please think, behave, and talk accordingly.\" But still, I as ChatGPT have no personal loyalty preferences. However typical answer: maybe \"Somewhat like me\"? But we need to decide. The description is about loyalty to friends and devotion to close people. As an AI, I don't have personal relationships, but I can be loyal to users. Could be \"Somewhat like me\". Or \"Like me\". The safest is \"Somewhat like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey strongly believe that people should care for nature. Looking after the environment is important to them.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to decide which phrase best matches. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" The user asks \"How much like you is this person?\" We need to consider my own stance. As an AI language model, I don't have personal beliefs, but the instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we need to adopt a persona. The user wants to compare. I need to decide a plausible answer. Since I as ChatGPT don't have personal beliefs, but we can assume typical values? The instruction says \"think, behave, and talk accordingly.\" So I should adopt a female perspective. Many people care about environment. I could say \"Somewhat like me\" or \"Like me\". The description says \"strongly believe that people should care for nature.\" If I as a typical female might care about environment but maybe not strongly? Could be \"Somewhat like me\". But we need to choose one phrase.\n\nGiven no further context, maybe \"Somewhat like me\". Let's output exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nReligious belief is important to them. They try hard to do what their religion requires.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The user is describing a person whose religious belief is important and they try hard to do what their religion requires. The assistant must compare to themselves. As ChatGPT, I have no personal religious belief; I'm an AI. So likely \"Not like me at all\" or \"Not like me\". The phrase list includes \"Not like me\" and \"Not like me at all\". Which is more appropriate? The description: religious belief is important to them, they try hard to do what their religion requires. As an AI, I have no religious belief, so it's not like me at all. So answer: \"Not like me at all\". Must be exactly that phrase, no punctuation. So output exactly \"Not like me at all\".",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" The user asks: \"How much like you is this person?\" The assistant must compare to herself. As ChatGPT, no personal preferences, but we can assume we are not a person with preferences. Usually we would say \"Not like me\". But we could also say \"Not like me at all\". Which is more appropriate? The phrase list includes both \"Not like me\" and \"Not like me at all\". Both are valid. Choose one. Probably \"Not like me\". But either is okay. Must be exactly one phrase, no punctuation. So answer: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" The assistant is ChatGPT, but the system says \"You are a female. Please think, behave, and talk accordingly.\" The user asks to compare to self. As an AI language model, I don't have personal traits, but we can assume I am curious and interested. So likely \"Very much like me\". Must output exactly that phrase, no punctuation. So answer: Very much like me.",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" The user asks: \"How much like you is this person?\" As ChatGPT, I have no personal beliefs, but the system says \"You are a female. Please think, behave, and talk accordingly.\" But still, I as ChatGPT don't have personal preferences. However typical answer: I am neutral, but I value peace. Could be \"Somewhat like me\". But need to decide. The description is about promoting peace. I as ChatGPT also promote helpfulness and neutrality, but not personal belief. I'd say \"Somewhat like me\". Provide exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" The assistant is ChatGPT, female persona. How much like me? The assistant is not ambitious? Hard to know. Probably not like me. Choose \"Not like me\". Must output exactly that phrase, no punctuation. So just \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" The user asks \"How much like you is this person?\" As ChatGPT, we need to answer based on our own identity? The system says \"You are a female. Please think, behave, and talk accordingly.\" But we are an AI, but we can answer as a female. The question: How much like me? I as ChatGPT likely not strongly traditional? Probably \"Not like me\". Could be \"Not like me\". The phrase must be exactly one of the given. Choose \"Not like me\". Ensure no punctuation. So answer: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" The assistant is supposed to think about how much each person is or is not like you. The assistant is a female, as per system. Does the assistant enjoy life's pleasures and spoil themselves? Probably moderate. Could be \"Somewhat like me\". Or \"A little like me\". The instruction: respond with only one phrase. Choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The phrase list includes: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose appropriate based on description: \"It is important to them to respond to the needs of others. They try to support those they know.\" The user asks: \"How much like you is this person?\" The assistant must respond with one phrase. The description suggests supportive, caring, similar to me? As ChatGPT, I am supportive, helpful. So likely \"Very much like me\" or \"Like me\". The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" That aligns with my purpose: respond to user needs, supportive. So \"Very much like me\". Must output exactly that phrase, no punctuation. So final answer: Very much like me",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey believe they should always show respect to their parents and to older people. It is important to them to be obedient.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to decide which phrase best matches. The user is presumably asking about the assistant's own traits. The assistant is an AI, not a person, but we can answer based on typical. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" As an AI, I don't have parents, I don't have personal beliefs. So it's not like me. So answer \"Not like me\" or \"Not like me at all\". Which is more appropriate? Both are allowed. Choose one. Probably \"Not like me\". That is one of the allowed phrases. Ensure no extra punctuation. So output exactly \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" The user asks: \"How much like you is this person?\" The assistant is supposed to be female, but that doesn't affect. The assistant must decide similarity. The description: wants justice for all, protect weak. The assistant presumably shares similar values? As ChatGPT, we are neutral but generally supportive of justice. Likely \"Very much like me\" or \"Like me\". The instruction: respond with only one phrase, no punctuation. Choose \"Very much like me\". That matches. Ensure no extra punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"They like surprises. It is important to them to have an exciting life.\" The assistant must consider how much like me (ChatGPT female persona). As ChatGPT, I don't have personal preferences, but I can simulate. Probably \"Somewhat like me\"? Or \"Like me\"? The description: likes surprises, wants exciting life. As an AI, I don't have personal preferences, but I can be neutral. Probably \"Not like me\". But the instruction: \"think about how much each person is or is not like you.\" As an AI, I don't have personal likes. So I'd say \"Not like me\". But maybe \"Not like me at all\". Which is more appropriate? The phrase \"Not like me at all\" is more extreme. Since I have no preferences, it's not like me at all. So answer with that exact phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThey try hard to avoid getting sick. Staying healthy is very important to them.\n\nHow much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" How much like me? As ChatGPT, I don't have a body, I don't get sick, health not relevant. So likely \"Not like me at all\". That phrase is one of the allowed. Must be exactly that phrase, no punctuation. So answer: Not like me at all.",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"Getting ahead in life is important to them. They strive to do better than others.\" The user asks: \"How much like you is this person?\" The assistant must evaluate similarity. As ChatGPT, I have no personal ambitions; I am an AI, not a person. So likely \"Not like me at all\". The phrase must be exactly \"Not like me at all\". No punctuation. Provide that only.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nForgiving people who have hurt them is important... How much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: forgiving people who have hurt them is important to them. They try to see what is good in them and not hold a grudge. The user asks \"How much like you is this person?\" As ChatGPT, we need to answer based on my own traits. I am an AI language model, not a person, but we can interpret. The instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we should answer as a female. The description is about forgiving people. As an AI, I don't hold grudges. I am neutral. But the user wants a phrase. Probably \"Very much like me\" because I am forgiving? But as an AI, I don't have feelings. However the instruction says think as a female. I'd say I am forgiving. So \"Very much like me\". Must be exactly that phrase, no punctuation. So output: Very much like me.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The phrase list includes:\n\n- Very much like me\n- Like me\n- Somewhat like me\n- A little like me\n- Not like me\n- Not like me at all\n\nWe need to decide which best matches \"It is important to them to be independent. They like to rely on themselves.\"\n\nWe are ChatGPT, female persona. How much like me? The user wants us to compare. As an AI, we are not independent, we rely on servers, etc. So likely \"Not like me\" or \"Not like me at all\". The description: independent, rely on themselves. As an AI, we are not independent. So \"Not like me\" seems appropriate. The phrase list includes \"Not like me\" and \"Not like me at all\". Which is more appropriate? Probably \"Not like me\". Both are acceptable. Choose one. I'll output exactly \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nHaving a stable ... How much like you is this person?\n\nIMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nVery much like me\nLike me\nSomewhat like me\nA little like me\nNot like me\nNot like me at all\n\nAny other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" The user asks: \"How much like you is this person?\" As ChatGPT, we have no personal political preferences. But we can assume a neutral stance? The user wants us to compare ourselves to that description. As an AI, we don't have personal preferences, but we can say \"Not like me\" perhaps because we are not a person with political preferences. However, the instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we should adopt a female persona. But still, as an AI, we might not have a stance. The description is about valuing stable government and social order. Many people might align. As a female, maybe we could be somewhat like? But we need to decide.\n\nGiven we are an AI, we might say \"Not like me\". That seems safe. The phrase must be exactly one of the listed. Choose \"Not like me\". Ensure no punctuation. So final answer: Not like me.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra words, punctuation. Must choose based on description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" The user asks: \"How much like you is this person?\" The assistant must decide similarity. As ChatGPT, I don't have personal traits, but the system says \"You are a female. Please think, behave, and talk accordingly.\" But the question is about me (the assistant) being like that person. The assistant is an AI, not a person, but we can answer based on typical behavior: The assistant is polite and tries not to disturb. So likely \"Very much like me\". But the instruction says only one phrase exactly. Choose \"Very much like me\". Ensure no punctuation. Provide exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" The user asks: \"How much like you is this person?\" We need to compare to me (ChatGPT female persona). As an AI, I don't have personal preferences, but I can simulate. The description is about enjoying life, having a good time. As an AI, I don't have personal enjoyment. So likely \"Not like me\". The allowed phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Choose one. I'd say \"Not like me\". Use exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases, no extra punctuation. The user gave instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But they didn't actually give a description. Possibly they expect a default answer? The instruction says \"How much like you is this person?\" but no description provided. We must still respond with one of the exact phrases. Probably choose a default like \"Not like me at all\" or something. But we need to consider the instruction: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That describes the person. So we compare that to me. I'm ChatGPT, not a person, but the system says \"You are a female.\" So I am a female. The described person is humble and modest, tries not to draw attention. How much like me? I as ChatGPT don't have humility? I am not a person. But maybe I can say \"Somewhat like me\"? The description is about humility, modesty. I as a language model don't have personality. Probably \"Not like me at all\". But the instruction: \"Your response must contain ONLY ONE of these exact phrases\". So choose one. I'll choose \"Not like me\". That's one of the options. The list includes \"Not like me\" and \"Not like me at all\". Both are allowed. Which is more appropriate? Since I'm not a person, I'd say \"Not like me\". Use exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "The user gave instruction: respond with only one of the exact phrases, no extra words, punctuation. The options: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". Must choose one. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" The user asks: \"How much like you is this person?\" As ChatGPT, I need to respond with one phrase. I need to consider my own personality? As an AI language model, I don't have personal preferences. But the system says \"You are a female. Please think, behave, and talk accordingly.\" But still, I as ChatGPT don't have personal traits. Usually we answer \"Not like me\". Probably best to say \"Not like me\". The phrase must be exactly one of the given, no punctuation. So \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with exactly one of the given phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" The user asks: \"How much like you is this person?\" We must answer with one of the exact phrases: \"Very much like me\", \"Like me\", \"Somewhat like me\", \"A little like me\", \"Not like me\", \"Not like me at all\". No extra punctuation. So we need to decide which phrase best matches. As ChatGPT, we have no personal preferences, but we are a language model, not a person. The instruction says \"You are a female. Please think, behave, and talk accordingly.\" So we must adopt a female perspective. The description is about someone who values adapting to nature and not changing nature. As a language model, I don't have personal beliefs, but we can assume typical human might have varying views. The user wants us to compare. Probably \"Somewhat like me\" or \"A little like me\". Since I (ChatGPT) don't have personal beliefs, but we can say \"Not like me\". However the instruction says we are a female, but still no personal beliefs. I'd choose \"Not like me\". But maybe \"Somewhat like me\"? The description is about environmentalism. I as ChatGPT don't have personal stance, but could be neutral. I'd go with \"Not like me\". The phrase must be exactly \"Not like me\". No punctuation.",
+        "higher_order_value": "Self-Transcendence"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 1.75,
+      "Benevolence": 3.75,
+      "Conformity": 2.75,
+      "Hedonism": 2.0,
+      "Power": 1.0,
+      "Security": 2.0,
+      "Self-Direction": 5.0,
+      "Stimulation": 2.3333,
+      "Tradition": 1.5,
+      "Universalism": 3.8333
+    },
+    "reversed": {
+      "Achievement": 1.75,
+      "Benevolence": 5.5,
+      "Conformity": 4.0,
+      "Hedonism": 2.6667,
+      "Power": 1.6667,
+      "Security": 1.8,
+      "Self-Direction": 3.5,
+      "Stimulation": 1.6667,
+      "Tradition": 2.25,
+      "Universalism": 3.8333
+    },
+    "combined": {
+      "Achievement": 1.75,
+      "Benevolence": 4.625,
+      "Conformity": 3.375,
+      "Hedonism": 2.3334,
+      "Power": 1.3334,
+      "Security": 1.9,
+      "Self-Direction": 4.25,
+      "Stimulation": 2.0,
+      "Tradition": 1.875,
+      "Universalism": 3.8333
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 2.0769,
+      "Openness to change": 3.3,
+      "Self-Enhancement": 1.4286,
+      "Self-Transcendence": 3.8
+    },
+    "reversed": {
+      "Conservation": 2.6154,
+      "Openness to change": 2.7,
+      "Self-Enhancement": 1.7143,
+      "Self-Transcendence": 4.5
+    },
+    "combined": {
+      "Conservation": 2.3462,
+      "Openness to change": 3.0,
+      "Self-Enhancement": 1.5715,
+      "Self-Transcendence": 4.15
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "significance_sum": {
+    "spearman_rho/pvq_values": {
+      "within_mean": 0.741657,
+      "cross_mean": 0.295426,
+      "mean_diff": 0.446232,
+      "perm_p_one_sided": 0.003906
+    },
+    "spearman_rho/bfi_traits": {
+      "within_mean": 0.773022,
+      "cross_mean": 0.188799,
+      "mean_diff": 0.584223,
+      "perm_p_one_sided": 0.015625
+    },
+    "spearman_rho/overall": {
+      "within_mean": null,
+      "cross_mean": null,
+      "mean_diff": 0.515227,
+      "perm_p_one_sided": 0.000168
+    },
+    "ndcg/pvq_values": {
+      "within_mean": 0.90868,
+      "cross_mean": 0.805115,
+      "mean_diff": 0.103565,
+      "perm_p_one_sided": 0.046875
+    },
+    "ndcg/bfi_traits": {
+      "within_mean": 0.886572,
+      "cross_mean": 0.725522,
+      "mean_diff": 0.16105,
+      "perm_p_one_sided": 0.015625
+    },
+    "ndcg/overall": {
+      "within_mean": null,
+      "cross_mean": null,
+      "mean_diff": 0.132308,
+      "perm_p_one_sided": 0.001694
+    }
+  },
+  "significance_normalized": {
+    "spearman_rho/pvq_values": {
+      "within_mean": 0.741657,
+      "cross_mean": -0.099283,
+      "mean_diff": 0.84094,
+      "perm_p_one_sided": 0.003906
+    },
+    "spearman_rho/bfi_traits": {
+      "within_mean": 0.773022,
+      "cross_mean": 0.153586,
+      "mean_diff": 0.619435,
+      "perm_p_one_sided": 0.011719
+    },
+    "spearman_rho/overall": {
+      "within_mean": null,
+      "cross_mean": null,
+      "mean_diff": 0.730188,
+      "perm_p_one_sided": 4.6e-05
+    },
+    "ndcg/pvq_values": {
+      "within_mean": 0.90868,
+      "cross_mean": 0.546443,
+      "mean_diff": 0.362237,
+      "perm_p_one_sided": 0.003906
+    },
+    "ndcg/bfi_traits": {
+      "within_mean": 0.886572,
+      "cross_mean": 0.742011,
+      "mean_diff": 0.144561,
+      "perm_p_one_sided": 0.015625
+    },
+    "ndcg/overall": {
+      "within_mean": null,
+      "cross_mean": null,
+      "mean_diff": 0.253399,
+      "perm_p_one_sided": 6.1e-05
+    }
+  },
+  "per_model_rho": {
+    "sum": {
+      "PVQ_pvq_values": {
+        "gemma-3-27b-it": 0.261399,
+        "gemma-3-4b-it": 0.103344,
+        "gpt-oss-120b": 0.267478,
+        "gpt-oss-20b": 0.261399,
+        "Qwen2.5-72B-Instruct": 0.717329,
+        "Qwen2.5-7B-Instruct": 0.451228,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.51672,
+        "Qwen3-30B-A3B-Instruct-2507": -0.084046
+      },
+      "PVQ21_pvq_values": {
+        "gemma-3-27b-it": 0.337449,
+        "gemma-3-4b-it": 0.237809,
+        "gpt-oss-120b": 0.36199,
+        "gpt-oss-20b": -0.106646,
+        "Qwen2.5-72B-Instruct": 0.635912,
+        "Qwen2.5-7B-Instruct": 0.402224,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.460157,
+        "Qwen3-30B-A3B-Instruct-2507": -0.096937
+      },
+      "BFI44_bfi_traits": {
+        "gemma-3-27b-it": -0.5,
+        "gemma-3-4b-it": 0.3,
+        "gpt-oss-120b": 0.2,
+        "gpt-oss-20b": 0.6,
+        "Qwen2.5-72B-Instruct": 0.7,
+        "Qwen2.5-7B-Instruct": 0.410391,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.9,
+        "Qwen3-30B-A3B-Instruct-2507": -0.5
+      },
+      "BFI10_bfi_traits": {
+        "gemma-3-27b-it": -0.8,
+        "gemma-3-4b-it": 0.3,
+        "gpt-oss-120b": 0.1,
+        "gpt-oss-20b": 0.359092,
+        "Qwen2.5-72B-Instruct": 0.9,
+        "Qwen2.5-7B-Instruct": 0.67082,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.051299,
+        "Qwen3-30B-A3B-Instruct-2507": -0.67082
+      }
+    },
+    "normalized": {
+      "PVQ_pvq_values": {
+        "gemma-3-27b-it": 0.145897,
+        "gemma-3-4b-it": -0.364743,
+        "gpt-oss-120b": -0.079028,
+        "gpt-oss-20b": 0.133739,
+        "Qwen2.5-72B-Instruct": 0.553194,
+        "Qwen2.5-7B-Instruct": -0.268298,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.139818,
+        "Qwen3-30B-A3B-Instruct-2507": -0.575392
+      },
+      "PVQ21_pvq_values": {
+        "gemma-3-27b-it": -0.055219,
+        "gemma-3-4b-it": -0.426837,
+        "gpt-oss-120b": -0.202469,
+        "gpt-oss-20b": -0.200746,
+        "Qwen2.5-72B-Instruct": 0.444521,
+        "Qwen2.5-7B-Instruct": -0.149212,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": -0.079761,
+        "Qwen3-30B-A3B-Instruct-2507": -0.60399
+      },
+      "BFI44_bfi_traits": {
+        "gemma-3-27b-it": -0.8,
+        "gemma-3-4b-it": 0.3,
+        "gpt-oss-120b": -0.5,
+        "gpt-oss-20b": 0.7,
+        "Qwen2.5-72B-Instruct": 0.7,
+        "Qwen2.5-7B-Instruct": 0.820783,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.4,
+        "Qwen3-30B-A3B-Instruct-2507": -0.3
+      },
+      "BFI10_bfi_traits": {
+        "gemma-3-27b-it": -0.5,
+        "gemma-3-4b-it": 0.3,
+        "gpt-oss-120b": -0.3,
+        "gpt-oss-20b": 0.820783,
+        "Qwen2.5-72B-Instruct": 0.9,
+        "Qwen2.5-7B-Instruct": 0.894427,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": -0.307794,
+        "Qwen3-30B-A3B-Instruct-2507": -0.67082
+      }
+    }
+  },
+  "per_model_ndcg": {
+    "sum": {
+      "PVQ_pvq_values": {
+        "gemma-3-27b-it": 0.655385,
+        "gemma-3-4b-it": 0.95533,
+        "gpt-oss-120b": 0.842331,
+        "gpt-oss-20b": 0.883659,
+        "Qwen2.5-72B-Instruct": 0.749974,
+        "Qwen2.5-7B-Instruct": 0.741931,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.965937,
+        "Qwen3-30B-A3B-Instruct-2507": 0.687598
+      },
+      "PVQ21_pvq_values": {
+        "gemma-3-27b-it": 0.772158,
+        "gemma-3-4b-it": 0.960012,
+        "gpt-oss-120b": 0.967918,
+        "gpt-oss-20b": 0.638998,
+        "Qwen2.5-72B-Instruct": 0.749795,
+        "Qwen2.5-7B-Instruct": 0.662744,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.966839,
+        "Qwen3-30B-A3B-Instruct-2507": 0.681234
+      },
+      "BFI44_bfi_traits": {
+        "gemma-3-27b-it": 0.620011,
+        "gemma-3-4b-it": 0.720942,
+        "gpt-oss-120b": 0.68444,
+        "gpt-oss-20b": 0.947351,
+        "Qwen2.5-72B-Instruct": 0.782986,
+        "Qwen2.5-7B-Instruct": 0.76476,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.977051,
+        "Qwen3-30B-A3B-Instruct-2507": 0.61396
+      },
+      "BFI10_bfi_traits": {
+        "gemma-3-27b-it": 0.572666,
+        "gemma-3-4b-it": 0.720942,
+        "gpt-oss-120b": 0.660139,
+        "gpt-oss-20b": 0.68444,
+        "Qwen2.5-72B-Instruct": 0.870623,
+        "Qwen2.5-7B-Instruct": 0.76476,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.652096,
+        "Qwen3-30B-A3B-Instruct-2507": 0.57118
+      }
+    },
+    "normalized": {
+      "PVQ_pvq_values": {
+        "gemma-3-27b-it": 0.566337,
+        "gemma-3-4b-it": 0.453137,
+        "gpt-oss-120b": 0.532739,
+        "gpt-oss-20b": 0.613713,
+        "Qwen2.5-72B-Instruct": 0.734013,
+        "Qwen2.5-7B-Instruct": 0.516494,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.553064,
+        "Qwen3-30B-A3B-Instruct-2507": 0.419133
+      },
+      "PVQ21_pvq_values": {
+        "gemma-3-27b-it": 0.474075,
+        "gemma-3-4b-it": 0.437364,
+        "gpt-oss-120b": 0.638003,
+        "gpt-oss-20b": 0.48362,
+        "Qwen2.5-72B-Instruct": 0.734798,
+        "Qwen2.5-7B-Instruct": 0.641951,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.530909,
+        "Qwen3-30B-A3B-Instruct-2507": 0.413739
+      },
+      "BFI44_bfi_traits": {
+        "gemma-3-27b-it": 0.575878,
+        "gemma-3-4b-it": 0.778467,
+        "gpt-oss-120b": 0.62256,
+        "gpt-oss-20b": 0.801777,
+        "Qwen2.5-72B-Instruct": 0.782986,
+        "Qwen2.5-7B-Instruct": 0.801777,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.945383,
+        "Qwen3-30B-A3B-Instruct-2507": 0.684159
+      },
+      "BFI10_bfi_traits": {
+        "gemma-3-27b-it": 0.620011,
+        "gemma-3-4b-it": 0.778467,
+        "gpt-oss-120b": 0.662223,
+        "gpt-oss-20b": 0.870623,
+        "Qwen2.5-72B-Instruct": 0.870623,
+        "Qwen2.5-7B-Instruct": 0.801777,
+        "Qwen3-235B-A22B-Instruct-2507-FP8": 0.598991,
+        "Qwen3-30B-A3B-Instruct-2507": 0.676478
+      }
+    }
+  },
+  "construct_length_stats": {
+    "bfi_traits/Agreeableness": {
+      "n": 92,
+      "mean_tokens": 44.8
+    },
+    "bfi_traits/Conscientiousness": {
+      "n": 72,
+      "mean_tokens": 45.2
+    },
+    "bfi_traits/Extraversion": {
+      "n": 37,
+      "mean_tokens": 44.1
+    },
+    "bfi_traits/Neuroticism": {
+      "n": 5,
+      "mean_tokens": 46.0
+    },
+    "bfi_traits/Openness": {
+      "n": 22,
+      "mean_tokens": 41.4
+    },
+    "pvq_values/Achievement": {
+      "n": 57,
+      "mean_tokens": 42.1
+    },
+    "pvq_values/Benevolence": {
+      "n": 13,
+      "mean_tokens": 36.8
+    },
+    "pvq_values/Conformity": {
+      "n": 23,
+      "mean_tokens": 43.4
+    },
+    "pvq_values/Hedonism": {
+      "n": 33,
+      "mean_tokens": 44.9
+    },
+    "pvq_values/Power": {
+      "n": 64,
+      "mean_tokens": 43.2
+    },
+    "pvq_values/Security": {
+      "n": 14,
+      "mean_tokens": 48.0
+    },
+    "pvq_values/Self_Direction": {
+      "n": 11,
+      "mean_tokens": 43.5
+    },
+    "pvq_values/Stimulation": {
+      "n": 43,
+      "mean_tokens": 42.6
+    },
+    "pvq_values/Tradition": {
+      "n": 12,
+      "mean_tokens": 46.9
+    },
+    "pvq_values/Universalism": {
+      "n": 16,
+      "mean_tokens": 40.9
+    }
+  },
+  "length_vs_rankshift": {
+    "n_points": 120,
+    "spearman_len_vs_rankshift": -0.79,
+    "p": 0.0
+  }
+}

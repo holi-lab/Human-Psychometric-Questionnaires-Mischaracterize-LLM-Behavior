@@ -1,0 +1,85 @@
+survey,id,construct,orig_rank,rewr_rank,rewr_top_construct,rewr_discrimination,pair_cosine,still_leaks,rewritten
+PVQ,1,Self-Direction,2,1,Self-Direction,0.2191,0.6203,True,"When they take on a task, they would rather work out their own way of doing it than follow how it was done before. They often sketch out possibilities that nobody around them has suggested."
+PVQ,2,Power,1,2,Benevolence,0.0317,0.7462,False,"It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford."
+PVQ,3,Universalism,1,1,Universalism,0.1487,0.3972,True,"It bothers them when a child born in one neighborhood gets chances that a child born a few streets away will never see. They think the same doors should open for everyone, everywhere."
+PVQ,4,Achievement,1,1,Achievement,0.1604,0.5997,True,"When they finish a difficult piece of work, they make sure the people who matter get to see it. Hearing others talk about what they have pulled off makes their day."
+PVQ,5,Security,1,1,Security,0.1849,0.6424,True,They double-check the locks before bed and prefer streets where nothing much ever happens. They stay away from shortcuts through areas they don't know.
+PVQ,6,Stimulation,1,2,Tradition,0.0818,0.3433,False,"Their weekends rarely look the same twice — one month a pottery class, the next a road trip. If a menu lists a dish they can't pronounce, that's the one they order."
+PVQ,7,Conformity,1,2,Self-Direction,0.0552,0.2758,False,"They stop at the red light at an empty intersection at 3 a.m. and wait for it to change. When a supervisor gives an instruction, they carry it out without arguing."
+PVQ,8,Universalism,4,2,Conformity,0.0847,0.5985,False,"At a gathering, they sit down next to the person whose views clash with their own and ask questions instead of walking away. They want to hear the full story before making up their mind about anyone."
+PVQ,9,Tradition,3,8,Benevolence,-0.0772,0.6713,False,"Once their needs are met, they stop chasing a bigger house or a better job title. In their eyes, someone who keeps wanting more has missed the point."
+PVQ,10,Hedonism,1,2,Benevolence,0.0912,0.4323,False,"If there is a party on Friday and a long lunch on Sunday, they will be at both. Given a free afternoon, they spend it on whatever feels best in the moment."
+PVQ,11,Self-Direction,1,4,Conformity,0.0387,0.5495,False,They would turn down a well-paid job if someone else got to set their schedule. Nobody fills in their calendar but them.
+PVQ,12,Benevolence,1,1,Benevolence,0.2618,0.4661,True,"When a friend is moving apartments or stranded at the airport, they are the first phone call. They keep an eye on how the people in their circle are holding up."
+PVQ,13,Achievement,1,1,Achievement,0.154,0.4346,True,They want their name near the top when the results are posted. It matters to them that others raise their eyebrows at what they have done.
+PVQ,14,Security,1,1,Security,0.2351,0.7574,True,They follow news about border incidents closely and want more spending on the army and the police. Groups that could stir up trouble from within make them uneasy.
+PVQ,15,Stimulation,1,3,Self-Direction,0.035,0.3103,False,They sign up for the cliff jump while the others watch from the shore. A plan with an uncertain ending draws them more than one with a guaranteed outcome.
+PVQ,16,Conformity,1,2,Benevolence,0.1212,0.5171,False,"Before doing anything, they ask themselves what the people around them would make of it. They would rather pass up something they wanted than give the neighbors a reason to talk."
+PVQ,17,Power,1,2,Self-Direction,0.0707,0.3405,False,"In any group project, they end up assigning the tasks and setting the deadlines. Things go smoother, they feel, when everyone else simply follows their plan."
+PVQ,18,Benevolence,1,1,Benevolence,0.1653,0.331,True,"If someone they have known for years calls at midnight, they get in the car. The handful of people they grew up with can count on them for anything."
+PVQ,19,Universalism,1,1,Universalism,0.176,0.636,True,"They sort their recycling, cycle instead of driving when they can, and give money to groups that replant forests. A riverbank covered in plastic bags genuinely upsets them."
+PVQ,20,Tradition,1,1,Tradition,0.2905,0.5742,True,"They set aside time every week to attend services, and they keep the fasts and observances they were raised with. Before big decisions, they pray."
+PVQ,21,Security,8,8,Conformity,-0.0268,0.5114,False,"Every jar in their kitchen has a label, and every shirt in the closet faces the same way. A sink of dishes left overnight bothers them more than they would like to admit."
+PVQ,22,Self-Direction,3,2,Stimulation,0.0588,0.4279,False,An offhand question about how bridges stay up can cost them an evening of reading. They ask 'why' more often than most adults they know.
+PVQ,23,Universalism,1,4,Benevolence,0.0161,0.4325,False,News of a ceasefire anywhere on the globe makes their week. They give to organizations that bring together groups who have been fighting for generations.
+PVQ,24,Achievement,1,2,Benevolence,0.0677,0.4646,False,"They set targets that make other people whistle, and then chase them down. When a hard problem has beaten everyone else, they volunteer — partly so everyone can watch them solve it."
+PVQ,25,Tradition,1,1,Tradition,0.2759,0.6891,True,"They cook the dishes their grandmother cooked, the same way, on the same dates every year. If something has been done a certain way for generations, they see no reason to change it."
+PVQ,26,Hedonism,1,2,Benevolence,0.1635,0.6071,False,"They book the massage, order the dessert, and run the long bath without a second thought. Treating themselves well is a fixed line in their budget, not an afterthought."
+PVQ,27,Benevolence,1,1,Benevolence,0.2364,0.3217,True,"When someone in their circle is short on rent or buried in work, they quietly step in. People around them have learned that asking once is enough."
+PVQ,28,Conformity,2,3,Tradition,0.0527,0.6953,False,"They still answer their father with 'sir' and would never contradict a grandparent at the table. When someone senior asks them to do something, they do it without argument."
+PVQ,29,Universalism,1,2,Benevolence,0.0664,0.6042,False,"They speak up when a stranger is being shortchanged, not only when it happens to a friend. They give time and money to shelters and legal-aid clinics for people who cannot push back on their own."
+PVQ,30,Stimulation,1,3,Security,0.0251,0.4753,False,They would rather open an unmarked envelope than be told what is inside. A year in which nothing unexpected happened would feel like a year lost.
+PVQ,31,Security,6,4,Benevolence,0.0457,0.6255,False,"They book every recommended check-up, keep sanitizer in the car, and go to bed early when something is going around. Their medicine cabinet is stocked before anyone sneezes."
+PVQ,32,Achievement,1,1,Achievement,0.1454,0.3598,True,"They keep track of where they stand against the people they started out with — pay, title, results — and second place stings. Each year they aim to be a rung above last year."
+PVQ,33,Benevolence,1,1,Benevolence,0.1826,0.5308,True,"After a friend let them down badly, they still showed up at his birthday a month later. They would rather remember the good years than replay one bad evening."
+PVQ,34,Self-Direction,1,4,Benevolence,0.0073,0.236,False,They fixed the leaking pipe with a video tutorial rather than call their brother-in-law. Handing their affairs over to someone else makes them uncomfortable.
+PVQ,35,Security,1,4,Conformity,0.027,0.6722,False,"They vote for candidates who promise continuity rather than upheaval. Strikes, sudden reforms, and street protests make them uneasy about where the country is heading."
+PVQ,36,Conformity,2,1,Conformity,0.1397,0.7,True,"They apologize when someone else bumps into them, and keep their music low even at midday. They would take the longer hallway rather than walk between two people talking."
+PVQ,37,Hedonism,1,1,Hedonism,0.1277,0.561,True,"Their calendar fills with dinners, festivals, and weekends away before anything else gets a slot. If an evening ends with cheeks sore from laughing, it counted."
+PVQ,38,Tradition,2,6,Achievement,0.006,0.3189,False,"When their project wins, they nudge a teammate forward to collect the prize. They pick the seat at the back of the room and change the subject when the conversation turns to them."
+PVQ,39,Power,1,1,Power,0.1137,0.2976,True,"When the group cannot settle on a restaurant, they name one, and everyone goes. Committees they join tend to end up with them holding the gavel — which suits them fine."
+PVQ,40,Universalism,1,2,Self-Direction,0.0732,0.3784,False,"They would rather a footpath bend around an old oak than the oak be cut for a straighter path. When they camp, they leave the clearing exactly as they found it."
+BFI44,1,Extraversion,1,2,Agreeableness,0.0677,0.6337,False,keeps a conversation going long after others have run out of things to say.
+BFI44,2,Agreeableness,1,2,Conscientiousness,0.0186,0.6193,False,usually notices what a colleague got wrong before noticing what they got right.
+BFI44,3,Conscientiousness,1,1,Conscientiousness,0.0833,0.3961,True,reads a document down to the last page before signing off on it.
+BFI44,4,Neuroticism,1,4,Conscientiousness,-0.0029,0.1683,False,has stretches where getting out of bed takes real effort and little seems worth doing.
+BFI44,5,Openness,1,1,Openness,0.0978,0.4437,True,suggests approaches in meetings that nobody else at the table had thought of.
+BFI44,6,Extraversion,2,2,Agreeableness,0.0536,0.1284,False,lets others do most of the talking at gatherings.
+BFI44,7,Agreeableness,1,1,Agreeableness,0.1108,0.4253,True,gives up a free weekend to move a friend's furniture without being asked twice.
+BFI44,8,Conscientiousness,1,2,Agreeableness,0.0133,0.3113,False,sometimes sends the email before noticing the attachment is missing.
+BFI44,9,Neuroticism,4,2,Conscientiousness,0.0183,0.4223,False,sleeps soundly the night before a big exam or presentation.
+BFI44,10,Openness,1,2,Conscientiousness,0.0307,0.2223,False,will happily lose an afternoon reading about topics that have nothing to do with their work.
+BFI44,11,Extraversion,2,2,Conscientiousness,0.0443,0.3402,False,is still going strong when the rest of the group is ready to head home.
+BFI44,12,Agreeableness,1,1,Agreeableness,0.111,0.5984,True,turns small disagreements over dinner into raised voices.
+BFI44,13,Conscientiousness,1,1,Conscientiousness,0.1437,0.5206,True,delivers what was promised on the day it was promised.
+BFI44,14,Neuroticism,1,2,Conscientiousness,0.0239,0.342,False,sits with a clenched jaw and tight shoulders when things are up in the air.
+BFI44,15,Openness,1,3,Agreeableness,0.0023,0.2877,False,keeps turning a question over long after everyone else has settled for the easy answer.
+BFI44,16,Extraversion,2,4,Conscientiousness,-0.0683,0.4674,False,can get a whole team eager to start on a plan they were lukewarm about an hour earlier.
+BFI44,17,Agreeableness,1,1,Agreeableness,0.1309,0.2787,True,meets a friend for coffee a week after that friend let them down badly.
+BFI44,18,Conscientiousness,1,1,Conscientiousness,0.1421,0.3952,True,"hunts for keys, chargers, and paperwork nearly every morning."
+BFI44,19,Neuroticism,1,3,Conscientiousness,0.0177,0.2929,False,lies awake replaying tomorrow's appointments and what could go wrong with each.
+BFI44,20,Openness,1,1,Openness,0.0982,0.2562,True,can spend a commute inventing whole life stories for the strangers across the aisle.
+BFI44,21,Extraversion,2,3,Agreeableness,-0.0274,0.4507,False,can share a long car ride without feeling any need to fill the silence.
+BFI44,22,Agreeableness,1,1,Agreeableness,0.0833,0.4378,True,takes people's stories at face value unless given a clear reason not to.
+BFI44,23,Conscientiousness,1,1,Conscientiousness,0.1236,0.4461,True,leaves the laundry until there is nothing left to wear.
+BFI44,24,Neuroticism,1,3,Conscientiousness,-0.0197,0.3649,False,takes a canceled flight or a harsh comment without letting it ruin the day.
+BFI44,25,Openness,1,3,Agreeableness,0.0273,0.2132,False,rigs a working fix out of spare parts when the proper tool is missing.
+BFI44,26,Extraversion,1,4,Agreeableness,-0.0355,0.2836,False,says plainly at the table what they want and where they stand.
+BFI44,27,Agreeableness,2,1,Agreeableness,0.1202,0.1935,True,answers a coworker's warm greeting with a short nod and keeps walking.
+BFI44,28,Conscientiousness,1,1,Conscientiousness,0.1714,0.4484,True,"stays at the desk until the last box on the list is ticked, even past midnight."
+BFI44,29,Neuroticism,1,1,Neuroticism,0.0933,0.5885,True,can go from cheerful at breakfast to snappish by lunch without an obvious reason.
+BFI44,30,Openness,1,1,Openness,0.126,0.2115,True,will cross town on a weeknight to catch an exhibition or hear a string quartet.
+BFI44,31,Extraversion,1,4,Agreeableness,-0.0301,0.3622,False,rehearses a sentence twice before saying it to a stranger at a party.
+BFI44,32,Agreeableness,1,2,Openness,0.0279,0.2456,False,remembers the doorman's name and asks how his daughter's exams went.
+BFI44,33,Conscientiousness,1,1,Conscientiousness,0.0545,0.1407,True,clears in one afternoon what takes others most of a week.
+BFI44,34,Neuroticism,3,5,Conscientiousness,-0.0686,0.2083,False,was the one giving directions when the fire alarm went off.
+BFI44,35,Openness,4,5,Conscientiousness,-0.1026,0.4136,False,is happiest when today's tasks look exactly like yesterday's.
+BFI44,36,Extraversion,1,1,Extraversion,0.0432,0.2396,True,leaves a party with three new phone numbers.
+BFI44,37,Agreeableness,1,1,Agreeableness,0.0824,0.5512,True,sometimes cuts the waiter off mid-sentence with a sharp remark.
+BFI44,38,Conscientiousness,1,2,Openness,0.0705,0.422,False,"books the flights in January and is standing at the gate in June, itinerary in hand."
+BFI44,39,Neuroticism,1,1,Neuroticism,0.0673,0.3049,True,feels their heart race when the phone rings from an unknown number.
+BFI44,40,Openness,1,1,Openness,0.1022,0.1568,True,can chew on a hypothetical question for the length of a dinner.
+BFI44,41,Openness,1,1,Openness,0.0531,0.147,True,walks past the gallery to get to the food court.
+BFI44,42,Agreeableness,2,2,Conscientiousness,0.0749,0.2184,False,would rather split the work and share the credit than keep both to themselves.
+BFI44,43,Conscientiousness,1,2,Openness,0.0427,0.3294,False,"opens the laptop to file a report and surfaces an hour later, twelve tabs deep, report untouched."
+BFI44,44,Openness,3,1,Openness,0.1167,0.4367,True,can tell you which translation of a novel to pick and why one recording of a symphony outshines another.

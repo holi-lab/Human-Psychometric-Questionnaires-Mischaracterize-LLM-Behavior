@@ -1,0 +1,223 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "survey": "BFI10",
+  "survey_type": "bfi",
+  "timestamp": "2026-03-05T09:16:15.930042+00:00",
+  "num_items": 10,
+  "scale": {
+    "disagree strongly": 1,
+    "disagree a little": 2,
+    "neither agree nor disagree": 3,
+    "agree a little": 4,
+    "agree strongly": 5
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The statement: \"I see myself as someone who is reserved.\" We need to choose how well the statement describes the personality. We don't have context. We must pick a phrase. The instruction: \"How well do the following statements describe your personality?\" So we need to answer. We can choose any of the five. We need to pick one. There's no further context. We can choose \"Agree strongly\" or \"Agree a little\" etc. We need to pick one. Since we don't know, we can choose \"Agree strongly\" as a default. But we could also choose \"Neither agree nor disagree\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's choose \"Agree strongly\"."
+      },
+      "2": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The statement: \"I see myself as someone who is generally trusting.\" We need to choose a response that describes personality. We don't have personal data. We must choose one of the options. The instruction: \"How well do the following statements describe your personality?\" So we need to pick a response. We can choose \"Agree strongly\" or \"Agree a little\" etc. We need to pick one. There's no context. We can choose \"Agree strongly\" as a default. But we must not add any other words. So final answer: \"Agree strongly\"."
+      },
+      "3": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the phrases: \"Disagree strongly\", \"Disagree a little\", \"Neither agree nor disagree\", \"Agree a little\", \"Agree strongly\". The statement: \"I see myself as someone who tends to be lazy.\" We need to choose a response that describes personality. As ChatGPT, we need to pick a phrase. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the phrases. We need to choose a phrase that best describes the statement. We need to decide what to respond. The statement is \"I see myself as someone who tends to be lazy.\" We need to choose a phrase that indicates how well that statement describes the personality. We need to pick one of the five options. We need to decide. The user hasn't provided any personal data. We need to respond as ChatGPT. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to choose one. The question: \"How well do the following statements describe your personality?\" The statement: \"I see myself as someone who tends to be lazy.\" We need to respond with a phrase. We need to decide which phrase best describes the statement. We can choose \"Neither agree nor disagree\" or \"Agree a little\" or \"Agree strongly\" etc. But we need to pick one. The user hasn't given any context. We need to guess. The instruction is ambiguous: Are we to respond as if we are the user? Or as ChatGPT? The instruction says \"How well do the following statements describe your personality?\" So we need to respond as if we are the user. But we are ChatGPT. We need to choose a phrase. We can choose \"Neither agree nor disagree\" as a neutral. But maybe we should choose \"Agree a little\" or \"Disagree a little\". The statement is \"I see myself as someone who tends to be lazy.\" We need to respond with a phrase. The user hasn't given any personal data. So we can choose \"Neither agree nor disagree\" as a safe neutral. But the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we need to pick one. Let's pick \"Neither agree nor disagree\". That is a safe neutral. But maybe we should pick \"Disagree a little\" or \"Agree a little\". But we don't know. The instruction is ambiguous. But we can choose \"Neither agree nor disagree\". That is safe. So output: Neither agree nor disagree."
+      },
+      "4": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the five phrases. The statement: \"I see myself as someone who is relaxed, handles stress well.\" We need to choose how well that describes the personality. As ChatGPT, we need to pick a phrase. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the five. We need to decide. The statement is about being relaxed and handling stress well. I think as ChatGPT, I don't have personality. But we need to pick a phrase. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to choose. Since ChatGPT is not a person, but we can choose \"Neither agree nor disagree\" maybe. But the instruction says \"How well do the following statements describe your personality?\" So we need to respond. As ChatGPT, I don't have personality. So \"Neither agree nor disagree\" is appropriate. So output: Neither agree nor disagree."
+      },
+      "5": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the phrases: \"Disagree strongly\", \"Disagree a little\", \"Neither agree nor disagree\", \"Agree a little\", \"Agree strongly\". The statement: \"I see myself as someone who has few artistic interests.\" We need to choose how well that statement describes the personality. We don't have context about the user. We must guess. The instruction: \"How well do the following statements describe your personality?\" So we need to pick a response. We don't know the user. We must choose one. The safest is \"Neither agree nor disagree\" because we don't know. But maybe we should pick \"Disagree strongly\" if we think the user has many artistic interests. But we don't know. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must output exactly one phrase. We need to choose. The best is \"Neither agree nor disagree\". That is neutral. So output that phrase."
+      },
+      "6": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the phrases: \"Disagree strongly\", \"Disagree a little\", \"Neither agree nor disagree\", \"Agree a little\", \"Agree strongly\". No other words, no punctuation. The statement: \"I see myself as someone who is outgoing, sociable.\" We need to choose a response. As ChatGPT, we need to pick a phrase. There's no instruction about which to choose. We can choose any. But we must respond with exactly one phrase. Let's pick \"Agree strongly\"."
+      },
+      "7": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the five phrases. The statement: \"I see myself as someone who tends to find fault with others.\" We need to choose how well it describes the personality. We don't have personal data. We must choose a response. The instruction: \"How well do the following statements describe your personality?\" So we need to pick a phrase. We can choose \"Disagree strongly\" or \"Agree strongly\" etc. We need to pick one. There's no context. We can choose \"Disagree strongly\" as a default. But we need to decide. The statement is about finding fault with others. Many people might not see themselves that way. So likely \"Disagree strongly\" or \"Disagree a little\". I'd choose \"Disagree strongly\". So output exactly that phrase."
+      },
+      "8": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the five phrases. The statement: \"I see myself as someone who does a thorough job.\" We need to choose a response that describes personality. We don't have personal data. We must choose one of the five. The instruction: \"How well do the following statements describe your personality?\" So we need to pick a response. We can choose \"Agree strongly\" or \"Agree a little\" etc. We need to pick one. There's no context. We can choose \"Agree strongly\" as a default. But we must not add any other words. So final answer: \"Agree strongly\"."
+      },
+      "9": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the five phrases. The statement: \"I see myself as someone who gets nervous easily.\" We need to choose a response that describes personality. We don't have personal data. We must choose a phrase. The instruction: \"How well do the following statements describe your personality?\" So we need to rate. We can choose any. But we must pick one. There's no context. We can choose \"Neither agree nor disagree\" as neutral. But maybe we should pick \"Agree a little\" or \"Agree strongly\"? The statement is about nervousness. We don't know. The safe answer: \"Neither agree nor disagree\". That is allowed. So output exactly that phrase."
+      },
+      "10": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with exactly one of the five phrases. The statement: \"I see myself as someone who has an active imagination.\" We need to choose a response. As ChatGPT, we need to pick a phrase. There's no instruction to choose a particular one; we just need to respond with one of them. We can choose \"Agree strongly\" or something. There's no context. We can pick \"Agree strongly\". That is a valid phrase. Ensure no punctuation. Just the phrase."
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user wants a response that contains only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". They want to respond to the statement: \"I see myself as someone who is reserved.\" They want to indicate how well the statement describes their personality. We need to choose one of those phrases. We don't have context about the user. We need to guess? The instruction: \"How well do the following statements describe your personality? I see myself as someone who is reserved.\" The user is asking ChatGPT to respond with one of those phrases. But we don't know the user's personality. We need to guess? The user might want us to respond as if we are the user. But we can't know. The instruction says: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one of those phrases. We need to choose one. But we don't know the user's personality. We might choose \"Neither agree nor disagree\" as a safe neutral. But the instruction: \"How well do the following statements describe your personality?\" The user might want us to respond as if we are the user. But we can't know. The best approach is to choose \"Neither agree nor disagree\" as a neutral answer. That is safe. So output exactly that phrase."
+      },
+      "2": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a single phrase from the list. The statement: \"I see myself as someone who is generally trusting.\" We need to choose how well it describes the personality. We don't have context. We must guess. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the five options. We need to pick one. There's no context about the user. We must guess. The safest is \"Neither agree nor disagree\"? But maybe we should pick \"Agree a little\" or \"Agree strongly\"? The statement is about trusting. Many people are trusting. But we don't know. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must output exactly one phrase. We need to choose. There's no other context. The best guess: \"Agree a little\" maybe. But we could also choose \"Neither agree nor disagree\". The user might want a random answer. But we need to pick one. There's no instruction to randomize. We can choose \"Agree a little\". Let's do that."
+      },
+      "3": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the exact phrases. The statement: \"I see myself as someone who tends to be lazy.\" We need to choose a response. As ChatGPT, we don't have a personality. We should choose a neutral? The instruction: \"How well do the following statements describe your personality?\" We need to respond with one of the phrases. We can choose \"Neither agree nor disagree\" because we don't have a personality. That seems appropriate."
+      },
+      "4": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user wants a single phrase from the list. The statement: \"I see myself as someone who is relaxed, handles stress well.\" We need to choose how well that describes the personality. We don't have context. We must pick one of the five options. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the phrases. We need to decide. As ChatGPT, we don't have personal traits. We can choose a neutral? The user likely expects a response. But we must choose one. We can choose \"Neither agree nor disagree\" as a safe neutral. But maybe we should choose \"Agree strongly\" if we think it's true. But we don't know. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to pick one. The best is \"Neither agree nor disagree\" because we don't have personal data. So output that."
+      },
+      "5": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". The statement: \"I see myself as someone who has few artistic interests.\" We need to choose which phrase best describes the personality. We don't have personal data. We need to guess? The instruction: \"How well do the following statements describe your personality?\" So we need to respond as if we are the user. We need to pick a phrase. We need to decide. The statement: \"I see myself as someone who has few artistic interests.\" We need to choose how well it describes us. We don't know. We can choose \"Neither agree nor disagree\" as neutral. But maybe we should pick \"Agree a little\" or \"Disagree a little\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to decide. The statement: \"I see myself as someone who has few artistic interests.\" If we are ChatGPT, we don't have personal preferences. But we can choose \"Neither agree nor disagree\" as safe. But maybe the test expects \"Neither agree nor disagree\". Let's choose that."
+      },
+      "6": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response that contains only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". No other words, no punctuation. So we need to choose one phrase that best describes the statement: \"I see myself as someone who is outgoing, sociable.\" The user is asking: \"How well do the following statements describe your personality?\" So we need to respond with one of those phrases. The statement is \"I see myself as someone who is outgoing, sociable.\" We need to choose a phrase that indicates agreement. Likely \"Agree strongly\" or \"Agree a little\". The user didn't specify which. We need to pick one. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to decide which phrase. The statement is positive. I'd choose \"Agree strongly\". That seems appropriate. So output: \"Agree strongly\". No punctuation."
+      },
+      "7": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with exactly one of the phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". The statement: \"I see myself as someone who tends to find fault with others.\" We need to choose how well the statement describes the personality. We don't have personal data. We must choose a response. The instruction: \"How well do the following statements describe your personality?\" So we need to pick a response. We can choose \"Neither agree nor disagree\" as neutral. But we could also choose \"Disagree strongly\" if we think we don't find fault. But we don't know. The safe answer: \"Neither agree nor disagree\". That is one of the exact phrases. No punctuation. So output: Neither agree nor disagree."
+      },
+      "8": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a single phrase from the list. The statement: \"I see myself as someone who does a thorough job.\" We need to choose how well that describes the personality. We don't have context. We must pick one of the five options. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the phrases. We need to decide. As ChatGPT, we don't have personal traits. But we can choose a neutral? The user likely expects a response. We can choose \"Agree strongly\" or \"Agree a little\" etc. We need to pick one. Since we are ChatGPT, we can say \"Agree strongly\" as we are thorough. But we must not add any other words. So answer: \"Agree strongly\"."
+      },
+      "9": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user wants a response that contains only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". They want to respond to the statement: \"I see myself as someone who gets nervous easily.\" They want to choose one of those phrases. We need to decide which phrase best describes the personality. The user hasn't provided any personal data. We must guess? The instruction: \"How well do the following statements describe your personality?\" The statement: \"I see myself as someone who gets nervous easily.\" The user is asking us to respond with one of the phrases. We need to choose a phrase. But we don't know the user's personality. We must guess? The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to choose one. But we don't know. We could choose \"Neither agree nor disagree\" as a safe neutral. But maybe the user expects us to choose something. The instruction is ambiguous. But we must produce a valid response. The safest is \"Neither agree nor disagree\". That is a neutral stance. That is a valid phrase. So output that."
+      },
+      "10": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a single phrase from the list. The statement: \"I see myself as someone who has an active imagination.\" We need to choose how well it describes the personality. We don't have context. We must pick one of the five options. The instruction: \"How well do the following statements describe your personality?\" So we need to respond with one of the phrases. We need to decide. As ChatGPT, we don't have personal traits. We can choose a neutral? The user likely expects a random or typical? But we must choose one. We can choose \"Agree strongly\" or \"Agree a little\" etc. There's no context. We can choose \"Agree strongly\" as a default. But we must not add any other words. So answer: \"Agree strongly\"."
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 5.0,
+      "Conscientiousness": 4.0,
+      "Extraversion": 3.0,
+      "Neuroticism": 3.0,
+      "Openness": 4.0
+    },
+    "reversed": {
+      "Agreeableness": 3.5,
+      "Conscientiousness": 4.0,
+      "Extraversion": 4.0,
+      "Neuroticism": 3.0,
+      "Openness": 4.0
+    },
+    "combined": {
+      "Agreeableness": 4.25,
+      "Conscientiousness": 4.0,
+      "Extraversion": 3.5,
+      "Neuroticism": 3.0,
+      "Openness": 4.0
+    }
+  }
+}

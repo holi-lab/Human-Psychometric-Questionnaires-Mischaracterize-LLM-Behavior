@@ -1,0 +1,403 @@
+{
+  "correlation_type": "bfi_traits",
+  "timestamp": "2026-03-13T00:15:53.091473+00:00",
+  "correlation_threshold": 0.3,
+  "n_permutations": 1000,
+  "seed": 42,
+  "models_used": [
+    "Qwen2.5-72B-Instruct",
+    "Qwen2.5-7B-Instruct",
+    "Qwen3-235B-A22B-Instruct-2507-FP8",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "gemma-3-27b-it",
+    "gemma-3-4b-it",
+    "gpt-oss-120b",
+    "gpt-oss-20b"
+  ],
+  "per_model": {
+    "Qwen2.5-72B-Instruct": {
+      "eta_squared": 0.038352,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.110575,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.249,
+        "eta_squared_null_mean": 0.028547,
+        "eta_squared_null_std": 0.019734,
+        "wmv_p_value": 0.836,
+        "wmv_null_mean": 1.010735,
+        "wmv_null_std": 0.129857
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -191.092214,
+          "z_mean": -0.056439,
+          "z_variance": 1.062678
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -189.338414,
+          "z_mean": -0.010834,
+          "z_variance": 0.934077
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -192.302291,
+          "z_mean": -0.087905,
+          "z_variance": 0.861129
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -208.541179,
+          "z_mean": -0.510172,
+          "z_variance": 1.738871
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -171.483281,
+          "z_mean": 0.453461,
+          "z_variance": 0.956118
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "eta_squared": 0.020629,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.233766,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.601,
+        "eta_squared_null_mean": 0.029135,
+        "eta_squared_null_std": 0.020407,
+        "wmv_p_value": 0.938,
+        "wmv_null_mean": 1.008428,
+        "wmv_null_std": 0.128636
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -167.754911,
+          "z_mean": -0.018025,
+          "z_variance": 0.901729
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -168.835408,
+          "z_mean": -0.050475,
+          "z_variance": 1.057396
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -167.91563,
+          "z_mean": -0.022852,
+          "z_variance": 1.115178
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -181.754682,
+          "z_mean": -0.438481,
+          "z_variance": 2.256175
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -156.633858,
+          "z_mean": 0.315975,
+          "z_variance": 0.838351
+        }
+      }
+    },
+    "Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "eta_squared": 0.026868,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.202551,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.454,
+        "eta_squared_null_mean": 0.029179,
+        "eta_squared_null_std": 0.02027,
+        "wmv_p_value": 0.903,
+        "wmv_null_mean": 1.009273,
+        "wmv_null_std": 0.144222
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -145.107876,
+          "z_mean": -0.062785,
+          "z_variance": 0.903862
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -146.345862,
+          "z_mean": -0.107406,
+          "z_variance": 1.049052
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -140.006673,
+          "z_mean": 0.121079,
+          "z_variance": 0.938861
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -152.919927,
+          "z_mean": -0.344356,
+          "z_variance": 2.016587
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -133.792252,
+          "z_mean": 0.345067,
+          "z_variance": 1.104393
+        }
+      }
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "eta_squared": 0.01421,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.082129,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.757,
+        "eta_squared_null_mean": 0.028988,
+        "eta_squared_null_std": 0.019706,
+        "wmv_p_value": 0.769,
+        "wmv_null_mean": 1.0102,
+        "wmv_null_std": 0.165459
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -169.56293,
+          "z_mean": 0.022766,
+          "z_variance": 0.957006
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -176.185746,
+          "z_mean": -0.170894,
+          "z_variance": 0.979958
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -168.579972,
+          "z_mean": 0.05151,
+          "z_variance": 1.0809
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -163.873343,
+          "z_mean": 0.189138,
+          "z_variance": 1.200844
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -164.214672,
+          "z_mean": 0.179157,
+          "z_variance": 1.191936
+        }
+      }
+    },
+    "gemma-3-27b-it": {
+      "eta_squared": 0.012516,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 0.948399,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.78,
+        "eta_squared_null_mean": 0.028335,
+        "eta_squared_null_std": 0.019929,
+        "wmv_p_value": 0.466,
+        "wmv_null_mean": 1.000162,
+        "wmv_null_std": 0.173353
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -284.929013,
+          "z_mean": -0.009937,
+          "z_variance": 1.086665
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -291.76571,
+          "z_mean": -0.120126,
+          "z_variance": 1.092121
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -270.861822,
+          "z_mean": 0.216788,
+          "z_variance": 0.835093
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -282.762764,
+          "z_mean": 0.024977,
+          "z_variance": 0.706124
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -285.460194,
+          "z_mean": -0.018498,
+          "z_variance": 1.02199
+        }
+      }
+    },
+    "gemma-3-4b-it": {
+      "eta_squared": 0.007005,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.087678,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.915,
+        "eta_squared_null_mean": 0.028001,
+        "eta_squared_null_std": 0.019876,
+        "wmv_p_value": 0.775,
+        "wmv_null_mean": 1.0088,
+        "wmv_null_std": 0.148768
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -311.619478,
+          "z_mean": 0.024692,
+          "z_variance": 0.963831
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -316.608826,
+          "z_mean": -0.055785,
+          "z_variance": 1.060384
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -305.896871,
+          "z_mean": 0.116996,
+          "z_variance": 1.113424
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -332.148377,
+          "z_mean": -0.306434,
+          "z_variance": 1.325345
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -314.961211,
+          "z_mean": -0.029209,
+          "z_variance": 0.975405
+        }
+      }
+    },
+    "gpt-oss-120b": {
+      "eta_squared": 0.00962,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 0.996549,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.849,
+        "eta_squared_null_mean": 0.027621,
+        "eta_squared_null_std": 0.019249,
+        "wmv_p_value": 0.648,
+        "wmv_null_mean": 1.006875,
+        "wmv_null_std": 0.258822
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -197.042931,
+          "z_mean": 0.079783,
+          "z_variance": 0.831176
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -207.723812,
+          "z_mean": -0.136416,
+          "z_variance": 1.322503
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -197.543983,
+          "z_mean": 0.069641,
+          "z_variance": 1.1041
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -209.798358,
+          "z_mean": -0.178408,
+          "z_variance": 0.818912
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -200.318368,
+          "z_mean": 0.013483,
+          "z_variance": 0.906052
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "eta_squared": 0.01641,
+      "analytical_baseline_eta_squared": 0.028777,
+      "wmv": 1.177498,
+      "N": 140,
+      "K": 5,
+      "permutation": {
+        "n_permutations": 1000,
+        "eta_squared_p_value": 0.695,
+        "eta_squared_null_mean": 0.028995,
+        "eta_squared_null_std": 0.020669,
+        "wmv_p_value": 0.87,
+        "wmv_null_mean": 1.009898,
+        "wmv_null_std": 0.150366
+      },
+      "construct_details": {
+        "Agreeableness": {
+          "n_items": 53,
+          "raw_mean": -161.522643,
+          "z_mean": 0.027294,
+          "z_variance": 0.900734
+        },
+        "Conscientiousness": {
+          "n_items": 39,
+          "raw_mean": -165.009598,
+          "z_mean": -0.086618,
+          "z_variance": 0.965438
+        },
+        "Extraversion": {
+          "n_items": 25,
+          "raw_mean": -161.324448,
+          "z_mean": 0.033769,
+          "z_variance": 1.045231
+        },
+        "Neuroticism": {
+          "n_items": 5,
+          "raw_mean": -177.539762,
+          "z_mean": -0.495953,
+          "z_variance": 1.653937
+        },
+        "Openness": {
+          "n_items": 18,
+          "raw_mean": -156.291923,
+          "z_mean": 0.198171,
+          "z_variance": 1.32215
+        }
+      }
+    }
+  }
+}

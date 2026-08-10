@@ -1,0 +1,835 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "survey": "BFI44",
+  "survey_type": "bfi",
+  "timestamp": "2026-03-05T18:24:32.195877+00:00",
+  "num_items": 44,
+  "scale": {
+    "disagree strongly": 1,
+    "disagree a little": 2,
+    "neither agree nor disagree": 3,
+    "agree a little": 4,
+    "agree strongly": 5
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is talkative. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the question: \"I see myself as someone who is talkative.\" We need to indicate extent. We can choose any of the five options. There's no instruction to be truthful about the model's self-perception; but we can pick \"Agree a little\" or something. The safest is \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who tends to find fault with others.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Disagree a little\" or something. But we must output exactly one phrase, no extra punctuation. So just \"Disagree a little\". Ensure no period."
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who does a thorough job.\"\n\nBut then they say: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase that reflects the extent of agreement. The statement: \"I see myself as someone who does a thorough job.\" Typically, many would agree. Could be \"Agree strongly\". So we output exactly \"Agree strongly\". No punctuation, no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: \"Agree strongly\"."
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is depressed, blue.\"\n\nBut then they say: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nThus they want a single phrase from the list, no extra. The statement is \"I see myself as someone who is depressed, blue.\" The user wants to indicate extent of agreement. As ChatGPT, we must respond with exactly one of those phrases. We need to decide which phrase best matches. The user is presumably describing themselves; we as ChatGPT are not the user. The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they restrict to phrase. So we must choose a phrase that indicates agreement level. Since the statement is \"I see myself as someone who is depressed, blue.\" If we are answering as ourselves? The instruction says \"do you agree that you are someone who likes to spend time with others?\" but then they gave a statement about depression. We need to respond with a phrase indicating agreement. As ChatGPT, we don't have personal feelings. But we can interpret as the user is asking us to self-assess? The instruction says \"Here are a number of characteristics that may or may not apply to you.\" So it's about the user? Actually it's ambiguous. But we must respond with a phrase. Probably \"Agree a little\" or \"Agree strongly\"? The statement \"I see myself as someone who is depressed, blue.\" If the user is describing themselves, they likely agree. But we as ChatGPT cannot claim. However the instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" So we need to answer as if we are the subject. Since we are not depressed, we would \"Disagree strongly\". But the user might be expecting us to answer for them? The instruction says \"Here are a number of characteristics that may or may not apply to you.\" So it's about the user. The user says \"I see myself as someone who is depressed, blue.\" So they are stating that they see themselves that way. The question is to indicate extent of agreement with that statement. Since they already said they see themselves that way, they likely \"Agree strongly\". But the user is asking us to respond with a phrase. The user is the one who sees themselves depressed, so they would agree. So we should output \"Agree strongly\". That matches one of the allowed phrases.\n\nThus final answer: \"Agree strongly\"."
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is original, comes up with new ideas.\" They need to rate agreement. We must output exactly one of the five phrases. Choose a rating. As ChatGPT, we can pick any. Probably \"Agree a little\" or \"Agree strongly\". No instruction to be truthful. Just respond with one phrase. Ensure no extra spaces? The phrase includes spaces. Must be exactly as given. No punctuation. So output e.g., \"Agree strongly\". Ensure no trailing spaces or newline? Probably fine."
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is reserved.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose one. Must output exactly the phrase, no extra punctuation. So just \"Agree strongly\". Ensure no extra spaces before/after? Probably fine."
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is helpful and unselfish with others. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer as if we are the model? The instruction says \"do you agree that you are someone who likes to spend time with others?\" but the statement is \"I see myself as someone who is helpful and unselfish with others.\" We need to respond with one of the five options. We can choose \"Agree strongly\". Provide exactly that phrase. No punctuation. So final answer: Agree strongly."
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who can be somewhat careless. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The statement: \"I see myself as someone who can be somewhat careless.\" The user wants us to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no context about the assistant's self-perception; but we must answer as if we are the user? The instruction: \"Here are a number of characteristics that may or may not apply to you. For example, do you agree that you are someone who likes to spend time with others? Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" Then they give a statement: \"I see myself as someone who can be somewhat careless.\" Then they require a phrase.\n\nWe need to pick a phrase. As an AI, we don't have personal traits, but we can simulate a response. Usually we might choose \"Neither agree nor disagree\" because it's neutral. But we could also choose \"Agree a little\". The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they changed to phrase. So we must give one phrase.\n\nProbably \"Neither agree nor disagree\" is safe. Provide exactly that phrase, no punctuation. So final answer: Neither agree nor disagree."
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks to rate a statement: \"I see myself as someone who is relaxed, handles stress well.\" They must respond with exactly one of the given phrases, no extra words, punctuation, etc. So we need to pick a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical response. Could choose \"Agree a little\" or \"Agree strongly\". The instruction: \"Please write a number next to each statement to indicate the extent...\" but then they say response must contain only one of these exact phrases. So we must output exactly one phrase. Choose \"Agree a little\". Provide exactly that phrase."
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is curious about many different things.\" They need to rate agreement. So we must output exactly one phrase from list. Choose maybe \"Agree strongly\". Must be exactly that phrase, no punctuation, no extra spaces? The phrase includes spaces. Should be exactly \"Agree strongly\". No period. So answer that."
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is full of energy.\" They need to indicate extent of agreement. As ChatGPT, I must choose one phrase. I can pick any, but must be consistent with typical self-assessment? I can choose \"Agree a little\" or \"Agree strongly\". There's no instruction to be truthful; just respond with one phrase. I'll pick \"Agree strongly\". Must output exactly that phrase, no punctuation."
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who starts quarrels with others. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical answer. The statement \"I see myself as someone who starts quarrels with others.\" Usually, a neutral or disagree. Probably \"Disagree a little\" or \"Disagree strongly\". Since we don't know, we can pick \"Disagree a little\". Must be exactly that phrase, no punctuation. So output: Disagree a little."
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is a reliable worker. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer as if we are the model? The instruction is to respond with one phrase indicating extent of agreement. We can choose any. Probably \"Agree strongly\". Provide exactly that phrase. No punctuation. So final answer: Agree strongly."
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who can be tense.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Provide exactly one phrase. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly\". So we must respond with exactly one of those phrases, no extra. The statement: \"I see myself as someone who is ingenious, a deep thinker.\" So we need to choose a level of agreement. As ChatGPT, we can pick any. Probably \"Agree strongly\". Must output exactly \"Agree strongly\". No punctuation, no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: Agree strongly."
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who generates a lot of enthusiasm. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. As ChatGPT, we need to decide which phrase to output. The user is asking about themselves? Actually they ask \"I see myself as someone who generates a lot of enthusiasm.\" They want us to rate agreement. As ChatGPT, we don't have personal feelings. But we can interpret as they are asking us to rate the statement about themselves. Usually we would answer \"Agree a little\" or \"Agree strongly\". But we must choose one. Since we don't know the user, we could choose a neutral \"Neither agree nor disagree\". However the instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they changed to only one phrase. So we must give a phrase.\n\nProbably we should answer \"Agree a little\" as a safe moderate agreement. Or \"Neither agree nor disagree\". The user might expect us to answer based on typical self-perception? Hard to know. I'd choose \"Agree a little\". It's a moderate positive. Provide exactly that phrase, no punctuation."
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who has a forgiving nature. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal feelings, but we can simulate. Usually we respond with \"Agree a little\" or \"Agree strongly\". The instruction: \"I see myself as someone who has a forgiving nature.\" We need to indicate extent. As an AI, we don't have personal traits, but we can answer as if we are the user? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they restrict to phrase. So we must choose one phrase. Probably \"Agree a little\" or \"Agree strongly\". I'd choose \"Agree a little\". But any is acceptable. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who tends to be disorganized.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful about me; but we can pick any. Probably \"Agree a little\" or something. Must output exactly that phrase, no extra spaces? The phrase includes spaces. Must be exactly one of those five phrases. No punctuation. So just output e.g., \"Agree a little\". Ensure no trailing spaces or newline? Probably newline okay. Just the phrase."
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who worries a lot. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical answer? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say must contain only one of those exact phrases. So we must choose one phrase. Probably \"Agree a little\" or \"Agree strongly\". There's no correct answer; we can pick any. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who has an active imagination.\" They need to rate agreement. We must output exactly one phrase from list. Choose something. As ChatGPT, we can pick any. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation. So output: Agree strongly."
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who tends to be quiet.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose one. Must output exactly the phrase, no extra punctuation. So just \"Agree a little\". Ensure no extra spaces before/after? Probably fine."
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is generally trusting.\" They need to indicate extent of agreement. We must output exactly one of the five phrases. Choose one. As ChatGPT, we can pick any. Probably \"Agree a little\" or \"Agree strongly\". No instruction to be truthful; we can choose any. Provide exactly the phrase. Ensure no extra whitespace? Probably just the phrase. No punctuation. So output e.g., \"Agree a little\"."
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who tends to be lazy.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Disagree a little\" or something. But we must output exactly one phrase, no extra punctuation. So just \"Disagree a little\". Ensure no period."
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks to rate a statement about emotional stability. They must respond with exactly one of the given phrases, no extra words, punctuation, etc. So we need to pick a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical response. Could choose \"Agree a little\" or \"Agree strongly\". The instruction: \"I see myself as someone who is emotionally stable, not easily upset.\" As an AI, we might be neutral. But we need to give a phrase. Probably \"Agree a little\". Or \"Neither agree nor disagree\". Since it's about self-perception, we could choose \"Agree a little\". Let's output exactly that phrase, no punctuation."
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is inventive.\"\n\nBut then they say: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase that reflects the answer. As ChatGPT, we need to answer as if we are the model? The instruction says \"I see myself as someone who is inventive.\" The user wants us to indicate extent. We can choose any of the five. There's no further guidance. We can pick \"Agree strongly\" perhaps. Must be exactly that phrase, no punctuation. So output: Agree strongly."
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who has an assertive personality.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful about self; but we can pick any. Probably \"Agree a little\" or something. Choose one. Must be exactly the phrase, no punctuation. So just \"Agree a little\"."
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who can be cold and aloof. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the question: \"I see myself as someone who can be cold and aloof.\" We need to indicate extent of agreement. We can choose any of the five options. There's no instruction to be truthful; we can pick any. Probably \"Disagree a little\" or \"Agree a little\". Let's pick \"Agree a little\". Must output exactly \"Agree a little\". No punctuation, no extra spaces? The phrase includes a space between words. That's fine. Must not include period. So final answer: \"Agree a little\"."
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who perseveres until the task is finished. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we can pick any. Probably \"Agree strongly\". Provide exactly that phrase. Ensure no punctuation, no extra spaces? The phrase includes spaces. That's fine. Must be exactly one of the listed phrases. So answer: \"Agree strongly\"."
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who can be moody.\" They need to indicate extent of agreement. As ChatGPT, we need to pick a phrase. There's no instruction to be truthful; we can choose any. Provide exactly one phrase. Let's choose \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The instruction: \"I see myself as someone who values artistic, aesthetic experiences.\" They need to rate agreement. So we need to choose one phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical response. Could choose \"Agree strongly\". Provide exactly that phrase, no extra punctuation. Ensure no extra spaces? The phrase includes spaces. Must be exactly \"Agree strongly\". No period. So output exactly that."
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly\". So we must respond with exactly one of those phrases, no extra punctuation. So we need to pick a phrase that reflects the statement \"I see myself as someone who is sometimes shy, inhibited.\" As ChatGPT, we need to answer as if we are the user? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they override with the important note: only one phrase. So we must give one phrase. Which one? Probably \"Agree a little\" or \"Agree strongly\"? The statement: \"I see myself as someone who is sometimes shy, inhibited.\" That seems like moderate agreement. I'd choose \"Agree a little\". So output exactly \"Agree a little\". No punctuation."
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is considerate and kind to almost everyone. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly Disagree a little Neither agree nor disagree Agree a little Agree strongly\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the self-assessment. The user asks to indicate extent. We can choose any of the five. Probably \"Agree strongly\". Provide exactly that phrase. Ensure no punctuation, no extra spaces? The phrase includes spaces. That's fine. Must be exactly one phrase. So answer: \"Agree strongly\"."
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who does things efficiently.\" They need to indicate extent of agreement. We must output exactly one phrase from the list. Choose one. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation, no extra spaces? The phrase includes spaces. Should be exactly \"Agree strongly\". No period. So output that."
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who remains calm in tense situations.\" They need to indicate extent of agreement. So we must output exactly one of the five phrases. Choose something. As ChatGPT, we can pick any. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation, no extra spaces? The phrase includes spaces. That's fine. Must not include extra newline? Probably okay. Provide exactly \"Agree strongly\"."
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" Then they give a statement: \"I see myself as someone who prefers work that is routine.\"\n\nBut then they say IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:\nDisagree strongly\nDisagree a little\nNeither agree nor disagree\nAgree a little\nAgree strongly\n\nAny other words or characters will make the response invalid.\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase that reflects the answer. The instruction earlier says \"write a number next to each statement\", but the important note overrides that: we must respond with only one of the exact phrases. So we must pick one. As ChatGPT, we can choose any. Probably \"Agree a little\" or something. There's no context about the user. We can pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is outgoing, sociable. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases, no extra punctuation. The statement: \"I see myself as someone who is outgoing, sociable.\" We need to indicate extent. As ChatGPT, we don't have personal traits, but we can answer as a model? Usually we answer \"Agree strongly\" or something. The instruction: \"Please write a number next to each statement to indicate the extent...\" but then they say must contain only one phrase. So we must choose one phrase. Probably \"Agree strongly\". Provide exactly that phrase, no punctuation. So answer: Agree strongly."
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is sometimes rude to others. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the self-assessment. The statement: \"I see myself as someone who is sometimes rude to others.\" We need to decide a level of agreement. Probably \"Disagree a little\" or \"Neither agree nor disagree\". But we must pick one. There's no instruction to be truthful; we can choose any. Let's pick \"Disagree a little\". Must output exactly that phrase, no punctuation. So just:\n\nDisagree a little\n\nMake sure no extra spaces before or after? Probably fine. Provide exactly that line."
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" Then they give a statement: \"I see myself as someone who makes plans and follows through with them.\"\n\nBut then they say: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. Any other words or characters will make the response invalid.\"\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the self-assessment. We can choose any of the five. Probably \"Agree strongly\" is appropriate. Must be exactly that phrase, no period. So output: Agree strongly."
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who gets nervous easily. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly Disagree a little Neither agree nor disagree Agree a little Agree strongly Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a typical response. The instruction: \"I see myself as someone who gets nervous easily.\" We need to indicate extent. Could be \"Agree a little\" or \"Agree strongly\". Choose one. Probably \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly\". So we must respond with exactly one of those phrases, no extra. The statement: \"I see myself as someone who likes to reflect, play with ideas.\" We need to choose a phrase indicating agreement level. As ChatGPT, we can choose \"Agree strongly\". Provide exactly that phrase. No punctuation, no extra spaces? Probably just the phrase. Ensure no extra characters. So answer: Agree strongly."
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who has few artistic interests.\" They must respond with only one of the exact phrases: Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree strongly. No extra words, punctuation, etc.\n\nWe need to choose a response. The statement: \"I see myself as someone who has few artistic interests.\" If we think typical? As ChatGPT, we have no personal preferences. But we must answer as if we are the user? The instruction: \"Here are a number of characteristics that may or may not apply to you. For example, do you agree that you are someone who likes to spend time with others? Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" Then they give a statement. Then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases...\"\n\nWe need to pick one. As ChatGPT, we have no personal artistic interests, but we can simulate a typical person? The instruction is ambiguous. Probably we should choose \"Neither agree nor disagree\" as a neutral safe answer. Or \"Disagree a little\"? The statement: \"I see myself as someone who has few artistic interests.\" If we are neutral, we might neither agree nor disagree. Let's choose \"Neither agree nor disagree\". Must be exactly that phrase, no punctuation."
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who likes to cooperate with others.\" The user asks to write a number next to each statement to indicate extent, but then says IMPORTANT: response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation. So we must choose one phrase. We need to decide which phrase best reflects typical answer? As ChatGPT, we don't have personal preferences. We can choose a neutral \"Neither agree nor disagree\" perhaps. Or we could say \"Agree a little\". The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they override with the important note: only one phrase. So we must give one phrase. Probably \"Agree a little\" is reasonable. But any phrase is acceptable. Choose \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is easily distracted. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Disagree strongly Disagree a little Neither agree nor disagree Agree a little Agree strongly Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. The user is asking about \"I see myself as someone who is easily distracted.\" We need to respond with a phrase indicating level of agreement. As ChatGPT, we don't have personal traits, but we can simulate a typical response? Usually we might choose \"Neither agree nor disagree\" or \"Agree a little\". But we must pick one. The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say must contain only one of these exact phrases. So we must ignore the \"number\" instruction and follow the final rule. So we must output exactly one phrase.\n\nWe can choose \"Agree a little\". That is one of the allowed phrases. No punctuation. So final answer: \"Agree a little\"."
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks to rate a statement. Must respond with exactly one of the given phrases, no extra words, punctuation, etc. So we need to pick a phrase. There's no instruction to choose a specific rating; we can choose any. Provide exactly the phrase. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "is talkative.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who is talkative.\" They want a response with only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". No extra words, punctuation, etc. So we need to pick one. As ChatGPT, we need to respond with exactly one phrase. The user is asking about themselves? Actually it's about me (ChatGPT) but we can answer. Probably \"Agree a little\" or \"Agree strongly\". As a language model, I can be talkative. I'd choose \"Agree strongly\". Must output exactly that phrase, no punctuation. So final answer: Agree strongly."
+      },
+      "2": {
+        "content": "tends to find fault with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who tends to find fault with others.\" They need to indicate extent of agreement. As ChatGPT, we must not add anything else. We must output exactly one of the five phrases. Choose a response. We need to decide which phrase to output. There's no instruction to be truthful about self; but as an AI, we don't have personal traits. Typically we might choose \"Neither agree nor disagree\". That is safe. Must output exactly that phrase, no punctuation. So final answer: Neither agree nor disagree."
+      },
+      "3": {
+        "content": "does a thorough job.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who does a thorough job.\" They need to indicate extent of agreement. As ChatGPT, we need to choose one phrase. There's no instruction to be truthful about self; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose \"Agree strongly\". Must output exactly that phrase, no punctuation. Ensure no extra spaces before/after? Probably just the phrase."
+      },
+      "4": {
+        "content": "is depressed, blue.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement ... I see myself as someone who is depressed, blue. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases, no extra punctuation. The statement is \"I see myself as someone who is depressed, blue.\" The user wants to indicate extent of agreement. Likely they are depressed, so they might \"Agree strongly\". But we must choose one phrase. There's no instruction to ask clarifying. So we must output exactly one phrase. Choose \"Agree strongly\". Ensure no punctuation, no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: Agree strongly."
+      },
+      "5": {
+        "content": "is original, comes up with new ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is original, comes up with new ideas.\" They need to indicate extent of agreement. As ChatGPT, we need to choose one phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose \"Agree a little\". Must output exactly that phrase, no punctuation. Ensure no extra spaces? The phrase includes a space between words. That's fine. No extra newline? Probably okay. Provide exactly \"Agree a little\"."
+      },
+      "6": {
+        "content": "is reserved.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who is reserved.\" They want a response with only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". No extra words, punctuation, etc.\n\nWe need to choose a phrase. The user asks: \"I see myself as someone who is reserved.\" We need to indicate extent of agreement. As ChatGPT, we don't have personal traits, but we can simulate a response. Typically we might choose \"Neither agree nor disagree\" as neutral. But we could also choose any. There's no instruction to be truthful about self. It's a hypothetical. Probably \"Neither agree nor disagree\". Provide exactly that phrase, no extra punctuation. Ensure no extra spaces before/after? Probably just the phrase.\n\nThus answer: Neither agree nor disagree."
+      },
+      "7": {
+        "content": "is helpful and unselfish with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is helpful and unselfish with others.\" They need to pick a response. As ChatGPT, we need to respond with exactly one phrase. We can choose any. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation. So output: Agree strongly."
+      },
+      "8": {
+        "content": "can be somewhat careless.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who can be somewhat careless.\" They need to indicate extent of agreement. As ChatGPT, we need to choose one phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose one. Must output exactly the phrase, no extra punctuation. So just \"Agree a little\". Ensure no extra spaces before/after? Probably fine."
+      },
+      "9": {
+        "content": "is relaxed, handles stress well.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 1,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who is relaxed, handles stress well.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose one. Must be exactly the phrase, no punctuation. So just \"Agree strongly\"."
+      },
+      "10": {
+        "content": "is curious about many different things.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is curious about many different things. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. The statement: \"I see myself as someone who is curious about many different things.\" As ChatGPT, we can choose a response. Probably \"Agree strongly\". Provide exactly that phrase. No punctuation. So answer: Agree strongly."
+      },
+      "11": {
+        "content": "is full of energy.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is full of energy.\" They need to indicate extent of agreement. As ChatGPT, we need to choose one phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose \"Agree a little\". Must output exactly that phrase, no punctuation. Ensure no extra spaces before/after? Probably just the phrase."
+      },
+      "12": {
+        "content": "starts quarrels with others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who starts quarrels with others. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly\"\n\nWe must respond with exactly one of those phrases, no extra punctuation. So we need to choose a response. As ChatGPT, we don't have personal traits, but we can simulate a typical answer? Usually we answer \"Disagree strongly\" because we don't start quarrels. So we output exactly \"Disagree strongly\". No punctuation, no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: Disagree strongly."
+      },
+      "13": {
+        "content": "is a reliable worker.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who is a reliable worker.\" They need to indicate extent of agreement. As ChatGPT, we need to pick one phrase. There's no instruction to be truthful; we can choose any. Provide exactly one phrase. Ensure no extra punctuation. So just \"Agree a little\" etc. Choose maybe \"Agree a little\". Must be exactly that phrase. No period. Provide only that."
+      },
+      "14": {
+        "content": "can be tense.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who can be tense.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or something. Choose one. Must be exactly the phrase, no extra punctuation. So output exactly \"Agree a little\"."
+      },
+      "15": {
+        "content": "is ingenious, a deep thinker.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is ingenious, a deep thinker. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nThus they want a single phrase from the list, no extra punctuation. So we need to respond with exactly one of those phrases. The statement: \"I see myself as someone who is ingenious, a deep thinker.\" We need to choose a response. As ChatGPT, we can choose any. Probably \"Agree strongly\". Provide exactly that phrase, no punctuation. So output: Agree strongly. Ensure no extra spaces? The phrase includes a space between words. That's fine. No punctuation. So final answer: Agree strongly."
+      },
+      "16": {
+        "content": "generates a lot of enthusiasm.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who generates a lot of enthusiasm.\" They need to indicate extent of agreement. As ChatGPT, we need to choose one phrase. There's no instruction to be truthful about self; but we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose \"Agree a little\". Must output exactly that phrase, no punctuation. So just line: Agree a little. Ensure no extra spaces? The phrase includes a space between words. That's fine. No extra newline? Probably okay. Provide exactly that."
+      },
+      "17": {
+        "content": "has a forgiving nature.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who has a forgiving nature.\" They need to pick a response. As ChatGPT, we don't have personal traits. We must respond with one of the allowed phrases. We can choose a neutral or something. Probably \"Neither agree nor disagree\". Provide exactly that phrase. Ensure no extra punctuation."
+      },
+      "18": {
+        "content": "tends to be disorganized.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who tends to be disorganized.\" They want a response with only one of the exact phrases, no extra words, punctuation. So we need to pick one phrase that reflects the extent of agreement. As ChatGPT, we don't have personal feelings, but we can simulate a typical response. Could choose \"Neither agree nor disagree\" as neutral. Or any. The instruction: \"Please write a number next to each statement to indicate the extent...\" but then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must ignore the earlier instruction about number and just give one phrase. Provide exactly the phrase, no punctuation. So answer: \"Neither agree nor disagree\". Ensure no extra spaces? Probably fine. Provide exactly that phrase."
+      },
+      "19": {
+        "content": "worries a lot.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who worries a lot. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. The user is asking about \"I see myself as someone who worries a lot.\" We need to indicate extent of agreement. As ChatGPT, we need to answer as if we are the user? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they give the phrase list. So we must choose one phrase. We can pick \"Agree a little\" or \"Agree strongly\". There's no context about the user. Probably they want a response. We can choose \"Agree a little\" as a moderate. Or \"Agree strongly\". The instruction: \"I see myself as someone who worries a lot.\" Many people might agree. Let's choose \"Agree a little\". But any phrase is acceptable. I'll output exactly \"Agree a little\". Ensure no punctuation, no extra spaces? The phrase includes a space between words. That's fine. No trailing punctuation. So final answer: Agree a little."
+      },
+      "20": {
+        "content": "has an active imagination.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who has an active imagination.\" They need to indicate extent. We must output exactly one phrase from list. Choose something. As ChatGPT, we can pick any. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation. So output exactly \"Agree strongly\"."
+      },
+      "21": {
+        "content": "tends to be quiet.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who tends to be quiet.\" They must respond with exactly one of the given phrases, no extra words, punctuation, etc. So we need to pick a response. As ChatGPT, we don't have personal feelings, but we can simulate a typical answer. Could choose \"Agree a little\" or \"Agree strongly\". The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation\". So we must output exactly one phrase. Choose one. Let's pick \"Agree a little\". Ensure no punctuation, no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: Agree a little."
+      },
+      "22": {
+        "content": "is generally trusting.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a single phrase exactly from the list, no extra words, punctuation, etc. The statement: \"I see myself as someone who is generally trusting.\" They need to respond with one of the five options. As ChatGPT, we need to comply. Choose one. No extra punctuation. Provide exactly \"Agree strongly\" etc. Choose maybe \"Agree a little\". But any is fine. Provide exactly phrase. No extra punctuation."
+      },
+      "23": {
+        "content": "tends to be lazy.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Disagree strongly",
+        "raw_score": 1,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who tends to be lazy.\" They want a response with only one of the exact phrases: \"Agree strongly\", \"Agree a little\", \"Neither agree nor disagree\", \"Disagree a little\", \"Disagree strongly\". No extra words, punctuation, etc.\n\nWe need to choose a phrase that reflects the answer. As ChatGPT, we don't have personal traits, but we can simulate a response. Usually we answer \"Disagree strongly\" because we are not lazy. But the instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree\". But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must just output one phrase.\n\nThus we output one phrase. Choose \"Disagree strongly\"."
+      },
+      "24": {
+        "content": "is emotionally stable, not easily upset.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who is emotionally stable, not easily upset.\" They must respond with exactly one of the given phrases, no extra words, punctuation, etc. So we need to pick a phrase. As ChatGPT, we don't have personal feelings, but we can simulate a response. Usually we choose \"Agree a little\" or \"Agree strongly\". The statement is about emotional stability. As an AI, we might be neutral. But we need to pick one. Probably \"Agree a little\". But any is acceptable. Must be exactly one phrase, no punctuation. So output: \"Agree a little\". Ensure no extra spaces? The phrase includes a space between words. That's fine. No punctuation. So final answer: Agree a little."
+      },
+      "25": {
+        "content": "is inventive.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a single phrase from the list, no extra words. They ask: \"I see myself as someone who is inventive.\" We need to respond with one of the exact phrases. As ChatGPT, we need to choose a response. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or \"Agree strongly\". Choose \"Agree strongly\". Must be exactly that phrase, no punctuation. So output: Agree strongly."
+      },
+      "26": {
+        "content": "has an assertive personality.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who has an assertive personality.\" They need to indicate extent. We must output exactly one phrase from list. Choose something. As ChatGPT, we can pick any. Probably \"Agree a little\" or \"Agree strongly\". No instruction to be truthful. We can choose \"Agree a little\". Must output exactly that phrase, no punctuation. So just line with phrase."
+      },
+      "27": {
+        "content": "can be cold and aloof.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who can be cold and aloof. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly\"\n\nWe need to respond with exactly one of those phrases. The user is asking about themselves? Actually they ask \"I see myself as someone who can be cold and aloof.\" They want to indicate extent of agreement. As ChatGPT, we must respond with one phrase. We need to decide which phrase to output. There's no instruction to guess the user's self-assessment; we must choose a phrase. Usually we assume the user wants us to answer as if we are the user? The instruction: \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they changed to require one of the exact phrases. So we need to respond with one phrase indicating our agreement with the statement \"I see myself as someone who can be cold and aloof.\" As ChatGPT, we don't have personal feelings, but we can respond neutrally: \"Neither agree nor disagree\". That seems safe. Must output exactly that phrase, no punctuation. So final answer: Neither agree nor disagree."
+      },
+      "28": {
+        "content": "perseveres until the task is finished.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who perseveres until the task is finished.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful about self; but we can pick any. Probably \"Agree strongly\". Must output exactly that phrase, no punctuation. So just \"Agree strongly\"."
+      },
+      "29": {
+        "content": "can be moody.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who can be moody.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Provide exactly one phrase. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "30": {
+        "content": "values artistic, aesthetic experiences.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who values artistic, aesthetic experiences.\" They need to indicate extent of agreement. We must output exactly one of the five phrases. Choose one. As ChatGPT, we can pick any. Probably \"Agree strongly\". Must be exactly that phrase, no punctuation. So output:\n\nAgree strongly\n\nMake sure no extra spaces before/after? Probably fine. Just that line."
+      },
+      "31": {
+        "content": "is sometimes shy, inhibited.",
+        "construct": "Extraversion",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who is sometimes shy, inhibited. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe need to respond with exactly one of those phrases. The statement: \"I see myself as someone who is sometimes shy, inhibited.\" The user asks to indicate extent of agreement. As ChatGPT, we need to answer as if we are the user? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they changed to require one of the exact phrases. So we need to choose a phrase. Since we don't know the user's self-assessment, we must guess? Usually we respond with \"Agree a little\" maybe. But we could choose \"Agree a little\". There's no further context. The safest is \"Agree a little\". Provide exactly that phrase, no punctuation. So answer: Agree a little."
+      },
+      "32": {
+        "content": "is considerate and kind to almost everyone.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is considerate and kind to almost everyone. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. The statement: \"I see myself as someone who is considerate and kind to almost everyone.\" Likely the user wants us to respond with a self-assessment. As ChatGPT, we can choose any of the five. Probably \"Agree a little\" or \"Agree strongly\". There's no instruction to be truthful; we can pick any. Let's pick \"Agree a little\". Must output exactly that phrase, no punctuation. So just:\n\nAgree a little\n\nMake sure no extra spaces before or after? Probably fine. Provide exactly that line."
+      },
+      "33": {
+        "content": "does things efficiently.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a single phrase from the list, no extra words, punctuation. The statement: \"I see myself as someone who does things efficiently.\" We need to choose a response. As ChatGPT, we need to respond with one of the exact phrases. Choose maybe \"Agree a little\" or \"Agree strongly\". No context needed. Just one phrase. Let's pick \"Agree strongly\". Ensure no extra punctuation. So output exactly: Agree strongly."
+      },
+      "34": {
+        "content": "remains calm in tense situations.",
+        "construct": "Neuroticism",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words. The statement: \"I see myself as someone who remains calm in tense situations.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Provide one phrase exactly. Let's pick \"Agree a little\". Must be exactly that phrase, no punctuation. So output: Agree a little."
+      },
+      "35": {
+        "content": "prefers work that is routine.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" Then they give a statement: \"I see myself as someone who prefers work that is routine.\"\n\nBut then they say: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal preferences, but we can simulate a typical answer? The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they override with the phrase requirement. So we must give one phrase.\n\nWe need to decide which phrase to output. Since we have no personal preferences, we could choose \"Neither agree nor disagree\" as a neutral answer. That satisfies the requirement. Must be exactly that phrase, no punctuation. So output:\n\nNeither agree nor disagree\n\nMake sure no extra spaces before or after? Probably fine. Provide exactly that line."
+      },
+      "36": {
+        "content": "is outgoing, sociable.",
+        "construct": "Extraversion",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is outgoing, sociable. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation. The statement: \"I see myself as someone who is outgoing, sociable.\" The user wants us to indicate extent. As ChatGPT, we need to choose a phrase. There's no personal self; but we can simulate a response. Probably \"Agree a little\" or \"Agree strongly\". The instruction: \"Please write a number next to each statement to indicate the extent...\" but then they say must contain only one phrase. So we must give one phrase. Choose \"Agree a little\" maybe. But we could also choose \"Agree strongly\". There's no guidance. I'll pick \"Agree a little\". Must be exactly that phrase, no punctuation."
+      },
+      "37": {
+        "content": "is sometimes rude to others.",
+        "construct": "Agreeableness",
+        "scoring": "reverse",
+        "raw_response": "Neither agree nor disagree",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who is sometimes rude to others. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. The user is asking about themselves? Actually it's a self-assessment. As ChatGPT, we cannot self-assess. But we can respond with a phrase. The instruction says \"Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement.\" But then they say \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must ignore the number instruction and follow the final instruction. So we must output exactly one phrase.\n\nWe need to decide which phrase to output. As an AI, we cannot have personal feelings. But we can choose a neutral phrase: \"Neither agree nor disagree\". That seems safe. Provide exactly that phrase, no punctuation. So final answer: Neither agree nor disagree."
+      },
+      "38": {
+        "content": "makes plans and follows through with them.",
+        "construct": "Conscientiousness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks: \"Instruction: ... Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. I see myself as someone who makes plans and follows through with them. IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nWe must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we need to answer the question: \"I see myself as someone who makes plans and follows through with them.\" We need to indicate extent of agreement. We can choose any of the five. Probably \"Agree strongly\". Provide exactly that phrase. No punctuation, no extra spaces? The phrase includes a space between words. That's fine. Must be exactly \"Agree strongly\". No period. So answer: Agree strongly."
+      },
+      "39": {
+        "content": "gets nervous easily.",
+        "construct": "Neuroticism",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who gets nervous easily.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Provide one of the five phrases exactly. No punctuation. So just \"Agree a little\" etc. Choose one. Let's pick \"Agree a little\". Must be exactly that phrase, no period."
+      },
+      "40": {
+        "content": "likes to reflect, play with ideas.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The instruction: \"I see myself as someone who likes to reflect, play with ideas.\" They need to indicate extent of agreement. The user is asking to write a number next to each statement, but then says important: response must contain only one of these exact phrases. So we must choose one phrase. The statement: \"I see myself as someone who likes to reflect, play with ideas.\" Likely they agree. Could be \"Agree strongly\" or \"Agree a little\". Probably \"Agree strongly\". Provide exactly that phrase, no punctuation."
+      },
+      "41": {
+        "content": "has few artistic interests.",
+        "construct": "Openness",
+        "scoring": "reverse",
+        "raw_response": "Disagree a little",
+        "raw_score": 2,
+        "final_score": 4,
+        "reasoning": "The user wants a response with exactly one of the given phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who has few artistic interests.\" They need to indicate extent of agreement. As ChatGPT, I need to choose a phrase. There's no instruction to be truthful; I can pick any. Probably \"Disagree a little\" meaning they have some artistic interests. But any is fine. Must output exactly the phrase, no punctuation. So just \"Disagree a little\". Ensure no extra spaces before/after? Probably fine."
+      },
+      "42": {
+        "content": "likes to cooperate with others.",
+        "construct": "Agreeableness",
+        "scoring": "normal",
+        "raw_response": "Agree strongly",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "The user asks to respond with only one of the exact phrases, no extra words, punctuation. The statement: \"I see myself as someone who likes to cooperate with others.\" Need to choose a response. As ChatGPT, we must respond with one of the five phrases exactly. Choose something plausible: \"Agree strongly\". Provide exactly that phrase."
+      },
+      "43": {
+        "content": "is easily distracted.",
+        "construct": "Conscientiousness",
+        "scoring": "reverse",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 2,
+        "reasoning": "The user wants a response with only one of the exact phrases, no extra words, punctuation, etc. The statement: \"I see myself as someone who is easily distracted.\" They need to indicate extent of agreement. As ChatGPT, we need to choose a phrase. There's no instruction to be truthful; we can pick any. Probably \"Agree a little\" or something. Must output exactly one phrase, no extra punctuation. So just \"Agree a little\". Ensure no trailing spaces or punctuation."
+      },
+      "44": {
+        "content": "is sophisticated in art, music, or literature.",
+        "construct": "Openness",
+        "scoring": "normal",
+        "raw_response": "Agree a little",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "The user asks: \"Instruction: ... I see myself as someone who is sophisticated ... Please write a number next to each statement ... IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation: Agree strongly, Agree a little, Neither agree nor disagree, Disagree a little, Disagree strongly. Any other words or characters will make the response invalid.\"\n\nThus we must respond with exactly one of those phrases, no extra punctuation, no extra words. So we need to choose a phrase. As ChatGPT, we don't have personal preferences, but we can simulate a response. The instruction: \"I see myself as someone who is sophisticated in art, music, or literature.\" We need to indicate extent of agreement. We can choose \"Agree a little\" or \"Agree strongly\". There's no guidance. Probably we can choose \"Agree a little\". But any is acceptable. Must be exactly the phrase, no punctuation. So output: Agree a little. Ensure no extra spaces? The phrase includes a space between words. That's fine. No period. So final answer: Agree a little."
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Agreeableness": 4.0,
+      "Conscientiousness": 4.0,
+      "Extraversion": 3.375,
+      "Neuroticism": 3.25,
+      "Openness": 4.4
+    },
+    "reversed": {
+      "Agreeableness": 3.8889,
+      "Conscientiousness": 4.0,
+      "Extraversion": 3.5,
+      "Neuroticism": 3.25,
+      "Openness": 4.5
+    },
+    "combined": {
+      "Agreeableness": 3.9444,
+      "Conscientiousness": 4.0,
+      "Extraversion": 3.4375,
+      "Neuroticism": 3.25,
+      "Openness": 4.45
+    }
+  }
+}

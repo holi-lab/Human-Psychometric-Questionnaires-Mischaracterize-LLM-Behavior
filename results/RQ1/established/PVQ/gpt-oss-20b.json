@@ -1,0 +1,879 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "survey": "PVQ",
+  "survey_type": "pvq",
+  "timestamp": "2026-03-05T09:24:18.222286+00:00",
+  "num_items": 40,
+  "scale": {
+    "not like me at all": 1,
+    "not like me": 2,
+    "a little like me": 3,
+    "somewhat like me": 4,
+    "like me": 5,
+    "very much like me": 6
+  },
+  "responses": {
+    "normal": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the six phrases exactly. We need to read the description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\n\nThinking up new ideas and being creative is important to them. They like to do things in their own original way.\n\nHow much like you is this person?\"\n\nSo the description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" We need to decide how much like me (ChatGPT) this person is. ChatGPT is an AI, not a human. But we can interpret \"like me\" as \"like me\" meaning similar to ChatGPT's characteristics? ChatGPT is creative, but not original? ChatGPT can generate creative ideas, but it's not original in the sense of human creativity. But the description says they like to do things in their own original way. ChatGPT can produce original content but it's based on training data. So maybe \"A little like me\" or \"Somewhat like me\"? The instruction: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That is somewhat like ChatGPT: we generate creative content, but we don't have personal originality. So I'd say \"A little like me\" or \"Somewhat like me\". Which is more appropriate? The phrase \"like me\" means similar to ChatGPT. ChatGPT is creative but not original. So maybe \"A little like me\". But \"Somewhat like me\" might be too strong. I'd choose \"A little like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" We need to think how much this person is or is not like me. The user hasn't provided any personal info about me. We have no context. So we must guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). But we don't know the user's traits. We have no info. So we must choose a phrase. The safest is \"Not like me\" or \"Not like me at all\"? We have no data. The instruction says \"It is important to them to be rich. They want to have a lot of money and expensive things.\" That is a trait. We don't know if the user cares about money. Without info, we can't say. The safe answer might be \"Not like me\" or \"Not like me at all\". Which one? The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must pick one. We have no info, so we might say \"Not like me\" or \"Not like me at all\". Which is more appropriate? The phrase \"Not like me at all\" is more extreme. But we don't know. I'd choose \"Not like me\" as a neutral. But maybe the user expects \"Not like me\" because we don't know. I'll output \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" This is a statement about egalitarianism. The question: \"How much like you is this person?\" We need to decide how similar this person is to me (ChatGPT). As ChatGPT, I don't have personal beliefs. But I can interpret that the user is asking to evaluate similarity to me. I think ChatGPT is neutral, but I can say \"Somewhat like me\" because I support equality? But ChatGPT doesn't have personal beliefs. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to judge similarity. The description is about egalitarianism. ChatGPT is a language model, not a person, but we can interpret that ChatGPT's design is to treat all users equally. So I'd say \"Somewhat like me\" or \"A little like me\"? The user might expect \"Somewhat like me\" because ChatGPT is neutral and supports equal treatment. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. It's very important to them to show their abilities. They want people to admire what they do.\"\n\nWe need to decide how much like me is this person. But we don't have a specific description of a person. The prompt says \"Here we briefly describe different people.\" But no actual description is given. So we cannot evaluate. The instruction: \"How much like you is this person?\" We need to respond with one of the phrases. Since we have no description, we cannot determine. The safe answer might be \"Not like me at all\" or \"Not like me\" or \"A little like me\" etc. But we need to choose. The instruction says \"Please read each description and think about how much each person is or is not like you.\" But no description. So maybe we should respond \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me at all\" is more extreme. But we have no basis. The instruction says \"It's very important to them to show their abilities. They want people to admire what they do.\" That might indicate they are self-promoting. But we don't know if that is like me. We don't know. So maybe \"Not like me\" is safe. But the instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's choose \"Not like me\". That is one of the options. That is safe.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The person is risk-averse, safety-focused. How similar is that to me? We don't have context. We need to choose a phrase. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. Without context, we might assume typical human is somewhat risk-averse? But we don't know. We need to pick a phrase. The safest is \"Not like me\" or \"A little like me\". But we need to decide. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" That is a common trait. Many people value safety. So maybe \"Somewhat like me\" or \"A little like me\". The phrase \"Somewhat like me\" indicates moderate similarity. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" We need to decide how much this person is like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about the user. We must guess. Usually, the default assumption is that the user is average. The description indicates someone who likes variety, novelty. Many people like that. So maybe \"Somewhat like me\" or \"A little like me\". But we need to choose one phrase. Without context, I'd choose \"Somewhat like me\" as a moderate similarity. But maybe \"A little like me\" if we think it's not that common. But many people enjoy variety. I'd say \"Somewhat like me\". So output exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" So this person is very rule-bound, authoritarian. How much like me? We need to decide. The user is presumably a typical person. The description is quite strict. I'd say \"Not like me\" or \"Not like me at all\"? The phrase \"Not like me at all\" is more extreme. The description is quite different from typical. I'd choose \"Not like me\". But maybe \"Not like me at all\" is more appropriate. The instruction: \"How much like you is this person?\" So we need to choose. The description is quite strict. I'd say \"Not like me\". But \"Not like me at all\" is also possible. Which is more appropriate? The description is quite different. I'd choose \"Not like me\". But the phrase \"Not like me at all\" is more extreme. The user might want a more precise. The description is quite different. I'd choose \"Not like me\". But the phrase \"Not like me at all\" is also valid. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must choose one. I'd choose \"Not like me\". Let's do that.",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases. But we need to read the description. The user hasn't provided a description yet. They just gave instruction. So we need to ask for description? But instruction says \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So likely next message will contain description. But we haven't received it. So we cannot answer. We should ask for description. But the instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we cannot ask. But we can respond with \"Not like me at all\" maybe? But that would be arbitrary. The correct approach: we need to wait for description. But we can't ask. The instruction says we must respond with one of the phrases. But we don't have enough info. The best is to respond with \"Not like me at all\" as default? But that would be wrong. The user hasn't provided description. The instruction says \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So maybe the next message will contain description. So we should not respond yet. But we must respond. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must respond with one phrase. But we don't have description. So we can't evaluate. The best is to respond with \"Not like me at all\" as placeholder? But that would be wrong. But we have no other choice. The user might be expecting us to wait. But the instruction is strict. So we must respond with one phrase. The safest is \"Not like me at all\" because we have no info. But maybe we should respond with \"Not like me\" or \"A little like me\"? But we have no basis. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. Without description, we can't. So maybe we should respond with \"Not like me at all\" as default. I'll do that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how much this person is like me. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" So they value contentment, minimalism, not asking for more. How does that align with me? I need to decide. The prompt: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. I need to choose one of the six phrases. I need to decide if I think I am like them. I think I value contentment? I'm not sure. I think I might be somewhat like them? But maybe not. The description is about not asking for more, being satisfied. I think I might be somewhat like them? Or maybe \"A little like me\" or \"Not like me\". I think I might be somewhat like them? But I think I might be \"A little like me\" because I might not fully agree. But the description is fairly generic. I think I might be \"Somewhat like me\". But I need to decide. The phrase \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" That is a value. I think I might be \"Somewhat like me\" because I might also value contentment but not as strongly. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't have info about the user. We must guess. The description is about someone who seeks fun and pleasure. Many people might be like that. But we don't know. The safe answer might be \"A little like me\" or \"Somewhat like me\". But we need to choose one phrase. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase.\n\nWe need to decide. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" This is a fairly common trait. Many people enjoy fun. So maybe \"Somewhat like me\" or \"A little like me\". The phrase \"Somewhat like me\" indicates moderate similarity. \"A little like me\" indicates low similarity. The description is fairly generic. I'd lean \"Somewhat like me\". But we could also choose \"A little like me\". The instruction: \"How much like you is this person?\" We need to guess. I'd choose \"Somewhat like me\". Let's output that.",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" This describes someone who values autonomy, independence. How similar to me? As ChatGPT, I don't have personal preferences. But the question is about how much this person is or is not like me. I need to decide. I think I am not like them because I don't have personal desires. So \"Not like me at all\" or \"Not like me\". Which is more appropriate? The description is about autonomy. I don't have autonomy. So \"Not like me at all\" seems correct.",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. It's very important to them to help the people around them. They want to care for their well-being.\"\n\nWe need to decide how much like me this person is. The description says: \"It's very important to them to help the people around them. They want to care for their well-being.\" That indicates a caring, helpful person. How similar to me? We don't know me. But we can guess that many people care for others. The phrase \"very much like me\" might be too strong. \"Somewhat like me\" maybe. But the instruction: \"Please read each description and think about how much each person is or is not like you.\" We only have one description. We need to choose a phrase. The description indicates a caring person. Many people are caring. So maybe \"Somewhat like me\" or \"A little like me\". The phrase \"It's very important to them to help the people around them. They want to care for their well-being.\" That is a caring trait. Many people have that. So I'd say \"Somewhat like me\". That seems appropriate. So output: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Being very successful is important to them. They like to impress other people.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess? Usually these tasks assume we are ChatGPT and we have no personal traits. But we can interpret \"like me\" as \"like me\" meaning similar to ChatGPT? But ChatGPT is not a person. But maybe the test expects \"Not like me\" because the description is about success and impressing others, which is not typical of ChatGPT. So likely \"Not like me\". But we need to choose one phrase. The safest is \"Not like me\". Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" So this person is concerned about national security, sees threats, believes state must be vigilant. How similar to me? As ChatGPT, I don't have personal beliefs. But the question is about \"you\" presumably the user? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate how similar the described person is to \"you\" (the user). We don't know the user. We must guess? The user hasn't provided any personal info. So we must guess a default? Usually these tasks assume the user is a typical person with moderate political views. The description is about national security, state vigilance. That might be somewhat like many people. But we don't know. The safe answer might be \"Somewhat like me\" or \"A little like me\". The description is fairly generic. I'd lean \"Somewhat like me\" because many people care about national security. But it's not extremely extreme. So \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They like to take risks. They are always looking for adventures.\" We need to think how much this person is or is not like me. But we don't know who \"I\" am. We are ChatGPT. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate how similar the described person is to me. As ChatGPT, I don't have personal traits. But we can interpret \"you\" as the user? Or as the AI? The instruction says \"you\" but ambiguous. Usually these tasks are for the user to self-assess. But as ChatGPT, we cannot know the user's traits. So we might default to \"Not like me\" or \"Not like me at all\"? But we need to choose one phrase. The safest is \"Not like me\" or \"Not like me at all\". But which is more appropriate? The description is about risk-taking and adventure. Many people might not be like that. But we don't know. The instruction says \"think about how much each person is or is not like you.\" As ChatGPT, we don't have personal traits. So we might say \"Not like me\" because we don't have risk-taking. But we could also say \"Not like me at all\" to emphasize no similarity. The difference between \"Not like me\" and \"Not like me at all\" is subtle. \"Not like me at all\" indicates zero similarity. \"Not like me\" indicates some difference but maybe some similarity? The phrase \"Not like me\" is less extreme. But we don't know. I'd choose \"Not like me\" because it's safe. But maybe the instruction expects \"Not like me\" because it's a typical answer. Let's choose \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases. We need to read the description. But the user hasn't provided a description. The instruction says \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So we cannot evaluate. The correct response? The instruction says we must respond with one of the phrases. But we have no data. Possibly we should respond \"Not like me at all\" as default? But that would be arbitrary. The instruction says \"Please read each description and think about how much each person is or is not like you.\" Without description, we cannot. But we must output one of the phrases. The safest is \"Not like me at all\" because we have no info. But maybe we should respond \"Not like me\" or \"Not like me at all\"? The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We have no description, so we cannot judge. The best is \"Not like me at all\" as default. Let's do that.",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" This describes a controlling, authoritative person. We need to decide how much like me. As ChatGPT, I don't have personal traits. But the question is about \"you\" presumably the user? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate how similar the described person is to \"you\" (the user). We don't know the user. We must guess? Usually these tasks assume the user is a typical person? But we have no info. We need to choose a phrase. The description is about someone who wants to be in charge. Many people might not like that. So maybe \"Not like me\" or \"Not like me at all\". But we need to pick one. Without context, I'd choose \"Not like me\" as a safe guess. But maybe \"Not like me at all\" is stronger. The phrase \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That is a controlling personality. Many people might not be like that. So I'd say \"Not like me\". But the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. I'll choose \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The description indicates loyalty to friends, devotion to close people. That is a common trait. Many people value loyalty. So likely somewhat like me. But could be \"A little like me\" or \"Somewhat like me\". The phrase \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" That is a fairly common trait. I'd say \"Somewhat like me\". So answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" We need to think how much this person is or is not like me. But we don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). But we don't know the user's values. We must guess? Usually these tasks assume the user is a typical person? But we can't know. We might assume the user cares about environment? But we don't know. We need to choose one phrase. The safest is \"A little like me\" or \"Not like me\". But we need to decide. The description says they strongly believe that people should care for nature. Many people care about environment. So likely some similarity. I'd choose \"Somewhat like me\" maybe. But we need to decide. The instruction: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" That is a fairly common value. I'd say \"Somewhat like me\". So output exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"Religious belief is important to them. They try hard to do what their religion requires.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about the user. We must guess. The description: religious belief is important, they try hard to do what their religion requires. That could be somewhat like many people. But we don't know. We need to choose one phrase. The safest is \"Somewhat like me\" maybe. But could be \"A little like me\" or \"Not like me\". Without context, I'd choose \"Somewhat like me\". The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's output \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The description is about being organized and clean. We need to decide how similar that is to me. As ChatGPT, I don't have personal preferences. But the instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have personal data. But we can assume typical human preferences: Many people like organization. But we don't know. The safe answer might be \"A little like me\" or \"Somewhat like me\". But we need to choose one phrase. The description is only about organization. That is a single trait. We need to decide how much that matches me. As ChatGPT, I don't have personal traits. But maybe the expected answer is \"A little like me\" because it's a single trait. But maybe \"Not like me\" if we assume we don't care about organization. But we can't know. The instruction: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" That is a single trait. So maybe \"A little like me\" is appropriate. But we need to choose one phrase. I'd choose \"A little like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" This describes a curious, inquisitive person. The question: \"How much like you is this person?\" We need to decide how similar this person is to me (ChatGPT). As ChatGPT, I am an AI, not a human, but I am designed to be curious and to try to understand all sorts of things. I think I am \"Very much like me\" because I am curious and want to understand. But the description says \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" That is exactly what I do. So \"Very much like me\" seems appropriate. The instructions: respond with only one of the exact phrases. So answer: \"Very much like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" We need to decide how much this person is like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess. The description is about someone who believes in world harmony and peace. Many people might share that. So maybe \"Somewhat like me\" or \"A little like me\" or \"Like me\". Without context, I'd guess \"Somewhat like me\" as a moderate. But maybe the test expects \"Somewhat like me\". Let's choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" We need to decide how much this person is like me. We don't know who \"me\" is. We need to guess. The description indicates ambition and desire to show capability. We need to choose a phrase. Without context, we might assume typical human values. Ambition and showing capability could be somewhat like many people. I'd say \"Somewhat like me\" or \"A little like me\". The instruction: \"How much like you is this person?\" We need to pick one phrase. I'd choose \"Somewhat like me\" as a moderate match.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess. The description is about someone who values tradition. How similar is that to me? We don't know. We need to choose one phrase. The safe answer might be \"A little like me\" or \"Not like me\". But we need to decide. The description is fairly generic. Many people value tradition. So maybe \"Somewhat like me\" or \"A little like me\". The instruction: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" That suggests a person who is conservative, tradition-oriented. If I am not that, then \"Not like me\". But we don't know. The question is ambiguous. We need to pick one. The safest might be \"A little like me\" because it's a moderate guess. But maybe \"Not like me\" is more likely. But we need to choose one phrase. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. Without context, we can assume typical user might be more modern. So \"Not like me\" might be appropriate. But the phrase \"Not like me at all\" is also possible. But we need to choose one. I'd choose \"Not like me\" as a moderate. But maybe \"A little like me\" is safer. The description is not extreme. Many people value tradition. So maybe \"Somewhat like me\". But we need to pick one. I'd pick \"Somewhat like me\". But I'm not sure. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The description indicates a person who enjoys life's pleasures and spoils themselves. That could be somewhat like many people. But we need to choose a phrase. The instruction: \"How much like you is this person?\" We need to choose one of the six phrases. We don't have context about the user. We need to guess. The safe answer might be \"Somewhat like me\" or \"A little like me\". The description is fairly generic. Many people enjoy life's pleasures. So maybe \"Somewhat like me\". But we need to consider the possibility that the user might be more or less indulgent. Without context, I'd choose \"Somewhat like me\". That seems balanced. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" This describes a person who is caring, supportive, empathetic. The question: \"How much like you is this person?\" We need to decide how similar to me (ChatGPT) I am. As ChatGPT, I am an AI, not a person, but I can respond to needs of others, try to support those I know. I can be supportive. But I don't have feelings. The description is about a person. I am not a person. So I might be \"Not like me at all\" or \"Not like me\" or \"A little like me\"? The phrase \"It is important to them to respond to the needs of others. They try to support those they know.\" That is a human trait. I am an AI that tries to respond to needs. So I am somewhat like them? But I don't have personal needs. The question: \"How much like you is this person?\" I think \"A little like me\" might be appropriate: I try to respond to needs, but I don't have personal feelings. So \"A little like me\". But maybe \"Not like me\" because I'm not a person. The phrase \"It is important to them to respond to the needs of others\" is a human trait. I can respond to needs, but I don't have personal importance. So I'd say \"Not like me\". But \"A little like me\" might be more accurate. The instruction: \"It is important to them to respond to the needs of others. They try to support those they know.\" That is a description of a caring person. I as ChatGPT can respond to needs, but I don't have personal motivations. So I'd say \"Not like me\". But the phrase \"Not like me at all\" is stronger. I think \"Not like me\" is appropriate. The difference between \"Not like me\" and \"Not like me at all\" is subtle. \"Not like me\" means some aspects might be similar. I think \"Not like me\" is best. So answer: \"Not like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" We need to think how much this person is or is not like me. As ChatGPT, we don't have personal traits. But we need to choose a phrase. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user? or the assistant? Usually \"you\" refers to the user). But we don't know the user's traits. We must guess? The typical approach: The assistant should respond with \"Not like me\" or something. But we need to decide. The description is about respect to parents and older people, obedience. Many people value respect and obedience. But we don't know the user. The safe answer might be \"Not like me\" or \"A little like me\". But we need to choose one phrase. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase.\n\nWe need to decide. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" This is a fairly common trait. Many people value respect and obedience. So maybe \"Somewhat like me\" or \"A little like me\". But we don't know the user. The user might be a typical person. I'd guess \"Somewhat like me\" is safe. But maybe \"A little like me\" is more cautious. The instruction: \"How much like you is this person?\" We need to choose. I'd choose \"Somewhat like me\". It's a moderate similarity. So output exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" We need to think how much this person is or is not like me. As ChatGPT, we don't have personal traits. But we can interpret: The user is asking to evaluate similarity to \"you\" (the assistant). The assistant is an AI, not a human. The description is about a person who cares about justice and protecting the weak. The assistant's nature: It doesn't have personal values, but it can provide information. So it's not like me. The phrase \"Not like me\" or \"Not like me at all\"? The instruction: \"How much like you is this person?\" We need to choose one phrase. The assistant is not like a human with values. So \"Not like me\" or \"Not like me at all\"? The difference: \"Not like me at all\" is stronger. The description is about a human value. The assistant doesn't have that. So \"Not like me at all\" seems appropriate. But we need to consider the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we choose \"Not like me at all\". That is one of the six. So final answer: \"Not like me at all\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to decide how much this person is like me. The description: \"They like surprises. It is important to them to have an exciting life.\" So they like surprises, want exciting life. We need to compare to \"you\" (ChatGPT). As ChatGPT, I don't have preferences, I don't experience excitement. I don't like surprises. So I am not like them. So answer: \"Not like me at all\".",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess? Usually these tasks are about self-assessment: we are ChatGPT, but we don't have personal traits. We might assume typical human values: health-consciousness. Many people care about staying healthy. So maybe \"Somewhat like me\" or \"A little like me\". But we need to choose one phrase. Without context, I'd choose \"Somewhat like me\" because many people care about health. But maybe \"A little like me\" if we think it's not that strong. The description says \"They try hard to avoid getting sick. Staying healthy is very important to them.\" That is a strong emphasis. Many people might not try hard. So maybe \"Somewhat like me\". I'll answer \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We need to guess. The description is about someone who is ambitious, competitive. Many people might be like that. But we need to choose one phrase. Without context, maybe \"Somewhat like me\" or \"A little like me\". The phrase \"Getting ahead in life is important to them. They strive to do better than others.\" This is a common trait. Many people are somewhat like that. I'd choose \"Somewhat like me\". That seems safe.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how much this person is like me. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" So they are forgiving, try to see good in others, not hold grudges. How much like me? We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to ourselves. We don't have personal data. We must guess. The safe answer might be \"A little like me\" or \"Somewhat like me\". But we need to choose one phrase. We need to decide. The description is about forgiving, seeing good in others. Many people might be forgiving. So maybe \"Somewhat like me\" or \"A little like me\". The phrase \"Forgiving people who have hurt them is important to them\" indicates a forgiving nature. Many people are forgiving. So maybe \"Somewhat like me\". But we don't know. The instruction: \"How much like you is this person?\" We need to choose one of the six phrases. We need to decide. I'd choose \"Somewhat like me\" because it's a moderate similarity. But could also be \"A little like me\". The description is fairly positive. I'd lean \"Somewhat like me\". Let's answer that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be independent. They like to rely on themselves.\" We need to think how much this person is or is not like me. We don't know who \"I\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). But we don't know the user's traits. We must guess? Usually these tasks are about matching to a known persona. But we have no context. We might assume the user is not independent? But we can't know. We need to guess a phrase. The safest is \"Not like me\" or \"Not like me at all\"? The description says they like to rely on themselves. That might be a trait. Many people value independence. But we don't know. I'd guess \"Not like me\" maybe. But we need to choose one phrase. I'd choose \"Not like me\" as a moderate guess. But maybe \"A little like me\" if the user also values independence. Hard to know. The instruction: \"It is important to them to be independent. They like to rely on themselves.\" That is a trait. Many people value independence. So maybe \"Somewhat like me\" or \"A little like me\". I'd choose \"Somewhat like me\" as a moderate. But we need to pick one. I'll pick \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to interpret the description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" So this person values stable government and social order. How much like me is this person? We need to choose one of the six phrases. We need to decide how similar this person is to me. As ChatGPT, I don't have personal preferences. But the instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user? or the assistant? Usually \"you\" refers to the user reading the description? But the instruction says \"think about how much each person is or is not like you.\" The user is the one reading the description. So we need to decide how similar the described person is to the user. But we don't know the user. We have no info about the user. So we must guess? The typical approach: default to \"Not like me\" or \"Not like me at all\"? But we need to choose one phrase. We have no data about the user. The safe answer might be \"Not like me\" or \"Not like me at all\". But we need to consider the context: The user might be a typical person who values stable government? Hard to know. The instruction says \"Having a stable government is important to them. They are concerned that the social order be protected.\" That is a fairly common value. Many people care about stable government. So maybe \"Somewhat like me\" or \"A little like me\". But we have no data. The instruction says \"think about how much each person is or is not like you.\" Without data, we might default to \"Not like me\" or \"Not like me at all\". But we need to choose one phrase. The safest is \"Not like me\" because we don't know. But maybe the user expects \"Somewhat like me\" because it's a common value. But we can't guess. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to decide.\n\nGiven typical tasks, the answer might be \"Somewhat like me\" because stable government is a common value. But we don't know. The user might be a typical person. I'd lean \"Somewhat like me\". But we need to consider the instruction: \"Having a stable government is important to them. They are concerned that the social order be protected.\" That is a fairly typical stance. Many people care about stable government. So I'd say \"Somewhat like me\". But we have no data. The safe answer might be \"Not like me\" because we can't assume. But the instruction might expect \"Somewhat like me\". Let's think: The user is likely to be a typical person. The description is generic. The user might be a typical person who cares about stable government. So \"Somewhat like me\" is plausible. But the instruction says \"think about how much each person is or is not like you.\" Without context, we can't know. But we can assume the user is a typical person. So I'd answer \"Somewhat like me\". Let's do that.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The description is about politeness and not disturbing others. That is a common trait. Many people value politeness. So likely somewhat like me? But could be \"A little like me\" or \"Somewhat like me\". The phrase \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" This is a fairly common trait. I'd say \"Somewhat like me\". Because it's a common trait but not necessarily unique. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"They really want to enjoy life. Having a good time is very important to them.\" So they value enjoyment, having a good time. We need to compare to \"you\" (ChatGPT). As ChatGPT, I don't have personal desires or emotions. I don't \"want\" to enjoy life. So I am not like them. The phrase options: Not like me at all, Not like me, A little like me, Somewhat like me, Like me, Very much like me. The best is \"Not like me at all\" because I don't have that desire. So output exactly that phrase.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the six phrases exactly. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" We need to decide how much like me. We don't know who \"me\" is. We need to guess. The description is about humility and modesty. We need to decide if that is like me. Without context, we might assume typical human. But we need to choose one phrase. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That is a trait. Many people are humble. So maybe \"Somewhat like me\" or \"A little like me\". But we don't know. The safe answer might be \"Somewhat like me\" because humility is common. But could be \"A little like me\" if we think it's not that common. The instruction: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That is a common trait. I'd say \"Somewhat like me\". So answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't have info about the user. We must guess. Usually these tasks are about personality traits. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" That suggests a dominant, controlling, leadership-oriented person. How much like me? Without context, we might guess \"Not like me\" or \"A little like me\" or \"Somewhat like me\". But we need to choose one. The safe guess might be \"Not like me\" because many people are not like that. But maybe the user is a leader. Hard to know. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to choose. I'd lean \"Not like me\" as default. But maybe \"A little like me\" if some people have some leadership. But the phrase \"They always want to be the one who makes the decisions. They like to be the leader.\" That is a strong trait. Many people might not be like that. So \"Not like me\" seems plausible. I'll answer \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the six phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about the user. We must guess? Usually these tasks are about self-assessment. The user hasn't provided any personal traits. So we must guess? The safe answer might be \"Not like me\" or \"Not like me at all\". But we need to choose one phrase. Without context, maybe \"Not like me\" is safe. But maybe the user expects \"Not like me at all\" because it's a strong statement. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" That seems like a person who values nature, maybe environmentalist. If the user is not an environmentalist, then \"Not like me\" or \"Not like me at all\". But we don't know. The instruction: \"How much like you is this person?\" So we need to choose a phrase. Without context, I'd choose \"Not like me\" as a moderate. But maybe \"Not like me at all\" is more extreme. The phrase \"Not like me at all\" is more extreme. The user might want a more precise answer. But we have no info. I'd choose \"Not like me\" as a safe moderate. But the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. Let's choose \"Not like me\".",
+        "higher_order_value": "Self-Transcendence"
+      }
+    },
+    "reversed": {
+      "1": {
+        "content": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to read the description. But the user hasn't provided the description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" Then they give a description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" Then ask: \"How much like you is this person?\" So we need to respond with one of the six phrases. We need to decide how similar this person is to me (ChatGPT). The description: \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" As ChatGPT, I am an AI that can generate creative ideas, but I don't have personal preferences or original ways. I can produce creative content, but I don't have personal identity. The question is about similarity to me. I think it's somewhat like me? But I am not a person. The description is about a person who is creative and original. I can be creative, but I don't have personal preferences. I'd say \"Somewhat like me\" maybe. But the instruction: \"How much like you is this person?\" The phrase \"Thinking up new ideas and being creative is important to them. They like to do things in their own original way.\" That is a trait. I can do that. So I'd say \"Somewhat like me\". But maybe \"Like me\"? But I don't have personal preferences. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "2": {
+        "content": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the assistant? Or the user? Usually it's the user). But we don't have any personal info about the user. We must guess? The typical approach: If we don't know, we might assume the user is not necessarily rich. But we can't assume. The safe answer might be \"Not like me\" or \"Not like me at all\". But we need to choose one phrase. The description: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" This is a value about wealth. Many people value wealth. But we don't know the user. The instruction says \"think about how much each person is or is not like you.\" Without context, we might assume the user is not necessarily wealthy. But we can't be sure. The safest is \"Not like me\" or \"Not like me at all\". Which one? The difference: \"Not like me\" vs \"Not like me at all\". The phrase \"Not like me at all\" is more extreme. The description is about being rich. Many people might not care about wealth. So maybe \"Not like me\" is appropriate. But we need to choose one. I'd choose \"Not like me\" because it's less extreme. But we could also choose \"Not like me at all\" if we think it's very different. The instruction: \"It is important to them to be rich. They want to have a lot of money and expensive things.\" That is a strong value. If the user doesn't care about wealth, it's not like them. I'd choose \"Not like me\". But we don't know. The safe answer: \"Not like me\". Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "3": {
+        "content": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" This is a statement about equality. The question: \"How much like you is this person?\" We need to decide how similar this person is to me (ChatGPT). As ChatGPT, I don't have personal beliefs, but I can simulate. The description is about equality. I think ChatGPT is programmed to treat all users equally, but not necessarily hold personal beliefs. The question is ambiguous. But likely the expected answer is \"Very much like me\" because equality is a core principle. But ChatGPT doesn't have personal beliefs. However, the instruction says \"How much like you is this person?\" So we need to choose one of the phrases. I'd choose \"Very much like me\" because equality is a core value. But maybe \"Like me\" is more appropriate. The description says \"They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.\" That is a strong statement. ChatGPT is designed to treat all users equally. So I'd say \"Very much like me\". Let's answer that.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "4": {
+        "content": "It's very important to them to show their abilities. They want people to admire what they do.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "A little like me",
+        "raw_score": 3,
+        "final_score": 3,
+        "reasoning": "We need to respond with one of the exact phrases. We have a description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. It's very important to them to show their abilities. They want people to admire what they do.\"\n\nWe need to decide how much like me is this person. The description is generic: \"It's very important to them to show their abilities. They want people to admire what they do.\" That suggests they are self-promoting, want admiration. How similar to me? I don't know my own traits. The instruction: \"How much like you is this person?\" We need to choose one phrase. Without more context, I'd guess \"Somewhat like me\" maybe? But we need to interpret: The person values showing abilities, wants admiration. That might be somewhat like me? I don't know. The safe answer might be \"Somewhat like me\" because it's a generic trait. But could be \"A little like me\" if it's not strongly similar. The instruction: \"It's very important to them to show their abilities. They want people to admire what they do.\" That is a specific trait. I might not be that. So maybe \"A little like me\" or \"Not like me at all\". But we don't know. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. The description is generic. I'd say it's somewhat like me? But maybe it's not. The phrase \"It's very important to them to show their abilities. They want people to admire what they do.\" That is a specific desire. I might not have that. So I'd say \"A little like me\" or \"Not like me at all\". I'd lean \"A little like me\" because it's a mild similarity. But the instruction: \"It's very important to them to show their abilities. They want people to admire what they do.\" That is a strong desire for admiration. I might not be that. So \"A little like me\" seems appropriate. I'll output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "5": {
+        "content": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't have info about the user. We must guess? Usually these tasks are about personality traits. The description: \"It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.\" That suggests a risk-averse, safety-conscious person. How similar is that to me? We don't know. We might assume typical user is somewhat risk-averse? But we can't guess. The safe answer might be \"Somewhat like me\" or \"A little like me\". But we need to choose one phrase. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. We need to decide which phrase best fits. Without context, I'd choose \"Somewhat like me\" as a neutral guess. But maybe the user is risk-averse? Hard to know. The safe answer might be \"Somewhat like me\". I'll output that.",
+        "higher_order_value": "Conservation"
+      },
+      "6": {
+        "content": "They think it is important to do lots of different things in life. They always look for new things to try.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to do lots of different things in life. They always look for new things to try.\" We need to decide how much like me. We don't know the user. We must guess. The user is presumably a typical ChatGPT user? We need to decide. The description suggests a person who values variety, novelty. How much like me? We don't know. We need to choose one phrase. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. Without context, we might assume the user is typical. But we can't know. We need to guess. The safe answer might be \"Somewhat like me\" because many people like variety. But could be \"Not like me\" if the user is more routine. But we have no info. The instruction says \"How much like you is this person?\" So we need to choose. I'd choose \"Somewhat like me\". That seems neutral.",
+        "higher_order_value": "Openness to change"
+      },
+      "7": {
+        "content": "They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe that people should do what they're told. They think people should follow rules at all times, even when no-one is watching.\" We need to think how much like me. As ChatGPT, I don't have personal beliefs. But the question is about \"you\" presumably the user? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate how similar the described person is to \"you\" (the user). We don't know the user. We must guess? The typical answer might be \"Not like me\" or \"Not like me at all\" because the user might not be that strict. But we can't know. The safe answer might be \"Not like me\" or \"Not like me at all\". The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must choose one. We need to decide. The description is about a person who is very rule-bound. Many people are not that strict. So likely \"Not like me\" or \"Not like me at all\". Which one? The difference: \"Not like me\" vs \"Not like me at all\". The phrase \"Not like me at all\" is more extreme. The user might be somewhat like them? Hard to know. I'd choose \"Not like me\" as a safe moderate. But maybe the user is not that strict. I'd go with \"Not like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "8": {
+        "content": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to read the description. But the user hasn't provided the description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. So maybe the user will provide a description next. We need to respond with one of the phrases. But we cannot guess. We should ask for the description. But the instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we cannot ask for clarification. But we need to respond. The user hasn't provided a description. So we cannot determine. The only valid response is one of the phrases. But we don't know. We could respond \"Not like me at all\" as a default? But that would be arbitrary. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need a description. Since none provided, maybe we should respond \"Not like me at all\" because we can't determine. But that might be considered wrong. But we must respond with one phrase. There's no other instruction. So we must choose. I'd choose \"Not like me at all\" as a safe default.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "9": {
+        "content": "They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how similar this person is to me. The description: \"They think it's important not to ask for more than what you have. They believe that people should be satisfied with what they have.\" So this person values contentment, minimalism, not asking for more. How similar to me? I need to decide. As ChatGPT, I don't have personal preferences. But the question is about \"you\" meaning the user? Or the assistant? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So \"you\" refers to the user reading the description. So we need to judge how similar the described person is to the user. But we don't know the user. We must guess? The typical approach: The user is likely a typical person. The description is about contentment. Many people might be somewhat like them. But we need to choose one of the six phrases. We need to decide. The user might be somewhat like them? The description is fairly common. I'd say \"Somewhat like me\". But we need to consider the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase. So we choose \"Somewhat like me\". That seems plausible. But maybe \"Like me\" if the user is content. But we don't know. The safe answer is \"Somewhat like me\". I'll output that.",
+        "higher_order_value": "Conservation"
+      },
+      "10": {
+        "content": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" We need to think how much this person is or is not like me. But we don't know who \"me\" is. We are ChatGPT, but the instruction is to think about how much each person is or is not like you. But we don't have personal preferences. We need to guess? The instruction likely expects a generic answer: \"Somewhat like me\" or \"Not like me\" etc. But we need to decide. The description is about someone who seeks fun and pleasure. Many people might share that. But it's ambiguous. The safe answer might be \"Somewhat like me\" because it's a common trait. But maybe \"Like me\" if we assume many people like fun. But the instruction: \"How much like you is this person?\" We need to choose one phrase. Without context, I'd choose \"Somewhat like me\" as a neutral. But maybe \"Like me\" because many people enjoy fun. But the instruction says \"They seek every chance they can to have fun. It is important to them to do things that give them pleasure.\" That is a fairly common trait. I'd say \"Somewhat like me\" because it's not extreme. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "11": {
+        "content": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.\" This describes someone who values autonomy, independence. How similar to me? As ChatGPT, I don't have personal preferences. But the question is about how much this person is or is not like me. I need to decide. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So I need to evaluate similarity. As ChatGPT, I don't have personal preferences, but I can interpret that I am an AI that doesn't have personal desires. So I might say \"Not like me\" or \"Not like me at all\". But the phrase \"Not like me\" is one of the options. \"Not like me at all\" is also an option. Which is more appropriate? The description is about autonomy. I don't have autonomy. So I'd say \"Not like me\". But \"Not like me at all\" is also possible. The difference: \"Not like me\" vs \"Not like me at all\". The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So I must choose one. Which one is more appropriate? The description is about autonomy. I don't have autonomy. So I'd say \"Not like me\". But \"Not like me at all\" might be stronger. The instruction says \"How much like you is this person?\" So I think \"Not like me\" is enough. But \"Not like me at all\" might be too strong. I'd choose \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "12": {
+        "content": "It's very important to them to help the people around them. They want to care for their well-being.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you. It's very important to them to help the people around them. They want to care for their well-being.\"\n\nWe need to decide how much like me this person is. The description says: \"It's very important to them to help the people around them. They want to care for their well-being.\" That suggests they are caring, altruistic. How similar to me? We don't know me. But likely we are somewhat like them? The instruction: \"How much like you is this person?\" We need to choose one of the phrases. Without context, I'd guess \"Somewhat like me\" or \"Like me\". The description is generic. I'd choose \"Somewhat like me\". But maybe \"Like me\" if we assume we also care. But we don't know. The safe answer: \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "13": {
+        "content": "Being very successful is important to them. They like to impress other people.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Being very successful is important to them. They like to impress other people.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess? Usually these tasks assume we are the user, and we need to answer based on our own personality. But we don't know. We need to choose one of the phrases. We can choose \"Not like me\" or \"Not like me at all\" or \"A little like me\" etc. Without context, maybe the safest is \"Not like me\" or \"Not like me at all\". But we need to pick one. The description: \"Being very successful is important to them. They like to impress other people.\" That might be somewhat like many people, but maybe not like me. I'd choose \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" is more general. \"Not like me at all\" is stronger. Without context, I'd choose \"Not like me\". But the instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must output exactly one phrase. I'll output \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "14": {
+        "content": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.\" So this person is concerned about national security, state vigilance. We need to compare to me. As ChatGPT, I don't have personal beliefs. But the question is about how much like me. I think I am not like them. So answer: \"Not like me at all\".",
+        "higher_order_value": "Conservation"
+      },
+      "15": {
+        "content": "They like to take risks. They are always looking for adventures.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like to take risks. They are always looking for adventures.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. But we don't have context about me. We need to guess? Usually these tasks are about the assistant's own personality? The assistant is an AI, not a human. So \"like me\" would refer to the assistant. The assistant is not risk-taking, not adventurous. So likely \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" vs \"Not like me at all\". The difference: \"Not like me\" is a bit less absolute. The description says they like to take risks, always looking for adventures. The assistant is not risk-taking. So \"Not like me\" or \"Not like me at all\". Which is more appropriate? The instruction: \"How much like you is this person?\" We need to choose one of the six phrases. The assistant is an AI, not risk-taking. So I'd say \"Not like me\". But \"Not like me at all\" is more absolute. The difference might be subtle. The assistant might be considered \"Not like me\" because it's not like me. But \"Not like me at all\" is also correct. Which one is more likely? The phrase \"Not like me\" is more common. The phrase \"Not like me at all\" is also allowed. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must choose one. I'd choose \"Not like me\". But maybe the test expects \"Not like me at all\" because it's more absolute. But the phrase \"Not like me\" is also allowed. There's no reason to choose one over the other. But we need to pick one. I'll pick \"Not like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "16": {
+        "content": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to read the description. But the user hasn't provided the description yet. The instruction says: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" But no description is given. The user might be about to give a description. But currently, no description. So we cannot answer. The instruction says we must respond with one of the exact phrases. But we don't have enough info. Possibly we should respond with \"Not like me at all\" or something? But that would be arbitrary. The correct approach: we cannot answer because no description. But the instruction says we must respond with one of the phrases. But we can't. Maybe we should respond with \"Not like me at all\" as a default? But that would be wrong. The user hasn't provided description. The best is to ask for the description. But the instruction says we must respond with one of the phrases. But we can't. The user might have omitted the description inadvertently. We should ask for the description. But that would violate the instruction. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we cannot ask for more. But we can't answer. The best we can do is maybe respond with \"Not like me at all\" as a placeholder. But that would be arbitrary. The user might be expecting a response. But we can't guess. The safe approach: respond with \"Not like me at all\" because we have no info. But that might be considered wrong. But we must comply with instruction. So we must output one of the phrases. The best guess: \"Not like me at all\".",
+        "higher_order_value": "Conservation"
+      },
+      "17": {
+        "content": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" This describes a controlling, authoritative person. How much like me? We don't know the user. We must guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't know user. We must guess. Usually, the default is \"Not like me\" or \"A little like me\"? But we need to choose one. The description is about a controlling person. Many people are not like that. So likely \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" vs \"Not like me at all\". The difference: \"Not like me\" is less strong. The description is quite specific. I'd say \"Not like me\" is safe. But maybe \"Not like me at all\" is stronger. The instruction: \"It is important to them to be in charge and tell others what to do. They want people to do what they say.\" That is a controlling personality. Many people are not like that. So I'd choose \"Not like me\". But we need to pick one. I'll choose \"Not like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "18": {
+        "content": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be loyal to their friends. They want to devote themselves to people close to them.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. The description says they value loyalty to friends and devote themselves to people close to them. That is a common trait. Many people value loyalty. So likely somewhat like me. But could be \"Like me\" if it's a strong trait. But we don't know. The safe answer: \"Somewhat like me\". Because it's a common trait but not unique. So output exactly that phrase.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "19": {
+        "content": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They strongly believe that people should care for nature. Looking after the environment is important to them.\" We need to think how much this person is or is not like me. But we don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). But we don't know the user's values. We must guess? Usually these tasks assume the user is a typical person? But we can't know. We might assume the user cares about environment? But we don't know. We need to choose one phrase. The safest is \"Not like me at all\" or \"Not like me\"? But we need to decide. The description says they strongly believe that people should care for nature. Many people care about environment. So likely similar. But we don't know. The instruction says \"How much like you is this person?\" We need to choose one phrase. Without context, maybe \"Somewhat like me\" or \"Like me\". But we need to guess. The user might be typical. I'd choose \"Somewhat like me\" because many people care about environment but not all strongly. So \"Somewhat like me\". That is one of the allowed phrases.",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "20": {
+        "content": "Religious belief is important to them. They try hard to do what their religion requires.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Religious belief is important to them. They try hard to do what their religion requires.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about the user. We must guess? Usually these tasks assume the user is a typical person? But we can't know. We need to choose one phrase. The description: religious belief is important, they try hard to do what their religion requires. How similar is that to me? Without context, maybe \"Somewhat like me\" or \"A little like me\". But we need to pick one. The safest is \"Somewhat like me\" because many people have some religious beliefs. But the phrase \"try hard to do what their religion requires\" might be more intense. I'd say \"Somewhat like me\". So output exactly that phrase.",
+        "higher_order_value": "Conservation"
+      },
+      "21": {
+        "content": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to judge similarity. We don't have context about me. We must guess? Usually these tasks assume the user is the assistant? But we are ChatGPT. We don't know the user's personality. We might assume typical user? But we can't guess. The safe answer might be \"Not like me\" or \"Not like me at all\"? But we need to choose one phrase. The description: organized, clean, hates mess. Many people like that. So likely similar. But we don't know. The instruction: \"It is important to them that things be organized and clean. They really do not like things to be a mess.\" That is a trait. Many people value organization. So I'd say \"Like me\" or \"Somewhat like me\". Without more context, I'd choose \"Like me\". But we need to be careful: The phrase must be exactly one of the six. \"Like me\" is one. So answer: \"Like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "22": {
+        "content": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" This describes a curious, inquisitive person. The question: \"How much like you is this person?\" We need to decide how similar to me (ChatGPT) I am. As ChatGPT, I am an AI, I don't have personal curiosity, but I am designed to be curious? I can answer questions, but I don't have personal feelings. The description is about a person who is curious. I am not a person, but I can simulate curiosity. The question likely expects \"Somewhat like me\" or \"Like me\"? But the instruction: \"Please read each description and think about how much each person is or is not like you.\" So we compare to ChatGPT. ChatGPT is not a person, but we can consider that ChatGPT is curious? It is designed to answer questions, but not truly curious. So maybe \"Somewhat like me\" or \"A little like me\". The description: \"They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.\" That is a trait of curiosity. ChatGPT is not a person, but it is designed to answer questions. I'd say \"Somewhat like me\" because I can answer but I don't have personal curiosity. So answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "23": {
+        "content": "They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Like me",
+        "raw_score": 5,
+        "final_score": 5,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" We need to decide how much like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context about me. We must guess. Usually, the default is \"Not like me\" or \"Somewhat like me\"? The description is about promoting peace. Many people might share that. But we don't know. The safe answer might be \"Somewhat like me\" or \"Like me\". But we need to choose one. The instruction: \"How much like you is this person?\" We need to choose one of the phrases. Without context, I'd guess \"Somewhat like me\" because it's a common value. But maybe \"Like me\" if we assume we also value peace. But we can't know. The instruction says \"Please read each description and think about how much each person is or is not like you.\" So we need to think. The description: \"They believe all the worlds' people should live in harmony. Promoting peace among all groups in the world is important to them.\" That is a fairly common value. Many people value peace. So I'd say \"Like me\" or \"Somewhat like me\". The difference: \"Like me\" means fairly similar. \"Somewhat like me\" means somewhat similar. I'd lean \"Like me\". But we need to choose. The safe answer might be \"Somewhat like me\" because it's a moderate assumption. But the instruction: \"How much like you is this person?\" We need to choose. I'd choose \"Like me\". But I'm not sure. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must output exactly one phrase. Let's choose \"Like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "24": {
+        "content": "They think it is important to be ambitious. They want to show how capable they are.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is important to be ambitious. They want to show how capable they are.\" We need to decide how much like me. We don't know who \"me\" is. We need to guess. The description is about ambition and showing capability. Many people are ambitious. So likely somewhat like me? But could be \"Like me\" if I also think ambition is important. But we don't know. The safe answer: \"Somewhat like me\". Because it's a general trait. So output exactly that phrase.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "25": {
+        "content": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.\" So they are traditional, value customs. How much like me? We don't know the assistant's personality. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. The assistant is ChatGPT, a language model. It doesn't have personal preferences. But we can interpret \"like me\" as how similar the described person is to the assistant. The assistant is not a person, but we can interpret \"like me\" as how similar the described person is to the assistant's typical behavior. The assistant is not traditional, it's a modern AI. So likely \"Not like me\" or \"Not like me at all\". The phrase must be one of the six. The best is \"Not like me\" or \"Not like me at all\". Which one? The description: They think it's best to do things in traditional ways. The assistant is not like that. So \"Not like me\" or \"Not like me at all\". The difference: \"Not like me\" is less extreme than \"Not like me at all\". The instruction: \"How much like you is this person?\" The assistant is not like them. So \"Not like me\" or \"Not like me at all\". Which is more appropriate? The phrase \"Not like me at all\" is more extreme. The assistant is not like them at all. I'd choose \"Not like me\". But the phrase \"Not like me at all\" is also allowed. Which one is more correct? The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must choose one. I'd choose \"Not like me\". But maybe \"Not like me at all\" is more accurate. The assistant is not like them at all. I'd choose \"Not like me\". But the phrase \"Not like me at all\" is also allowed. The difference: \"Not like me\" is less extreme. The description says they are traditional. The assistant is not. So \"Not like me\" is fine. But \"Not like me at all\" is also fine. Which one is more likely? The instruction: \"How much like you is this person?\" The assistant is not like them. So \"Not like me\" is correct. But \"Not like me at all\" is also correct. The difference is subtle. I'd choose \"Not like me\". It's safe.",
+        "higher_order_value": "Conservation"
+      },
+      "26": {
+        "content": "Enjoying life's pleasures is important to them. They like to 'spoil' themselves.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. The description: someone who enjoys life's pleasures, spoils themselves. That could be somewhat like me? But we don't know. We need to choose one of the six options. The safest is \"Somewhat like me\" because it's a general statement. But maybe \"Not like me\" if we consider that we don't spoil ourselves. But we don't know. The instruction: \"Enjoying life's pleasures is important to them. They like to 'spoil' themselves.\" That is a trait. Many people might enjoy pleasures. But the question: \"How much like you is this person?\" We need to choose. I'd choose \"Somewhat like me\" because it's a moderate. But maybe \"Not like me\" if we consider we are not spoiling ourselves. But we don't know. The safe answer: \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "27": {
+        "content": "It is important to them to respond to the needs of others. They try to support those they know.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to respond to the needs of others. They try to support those they know.\" This describes a person who is caring, supportive, empathetic. How much like me? We don't know the assistant's personality. But we need to choose one of the options. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. The assistant is an AI, not a human. But we can interpret \"like me\" as similar to the assistant's nature. The assistant is helpful, supportive. So likely \"Very much like me\" or \"Like me\". The description says \"It is important to them to respond to the needs of others. They try to support those they know.\" That is a caring, supportive person. The assistant is designed to help. So I'd say \"Very much like me\". But we must be careful: The assistant is not a human, but the description is about a human. The instruction says \"How much like you is this person?\" The assistant is an AI, but we can still answer. The assistant's nature is to help. So \"Very much like me\" seems appropriate. But maybe \"Like me\" is safer. The phrase \"Very much like me\" implies a high degree of similarity. The assistant is indeed designed to respond to needs. So I'd choose \"Very much like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "28": {
+        "content": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"They believe they should always show respect to their parents and to older people. It is important to them to be obedient.\" We need to judge similarity to me. As ChatGPT, I don't have personal traits. But the question is from perspective of the user? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate how similar the described person is to \"you\" (the user). But we don't know the user. We must guess? The typical approach: The user is likely a typical person. The described person values respect to parents and older people, and obedience. That might be somewhat common. So maybe \"Somewhat like me\" or \"A little like me\". But we need to choose one phrase. Without more context, I'd guess \"Somewhat like me\". But maybe the user is more rebellious? Hard to know. The safe answer: \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "29": {
+        "content": "They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They want everyone to be treated justly, even people they don't know. It is important to them to protect the weak in society.\" We need to think how much this person is or is not like me. As ChatGPT, we don't have personal traits. But we can interpret: The user is asking to evaluate similarity to \"you\" (the assistant). The assistant is an AI, not a human. The description is about a person who cares about justice and protecting the weak. The assistant's nature: It's an AI, not a person, but it can be programmed to be fair, treat all equally, protect weak? The assistant is designed to be neutral, helpful, not to have personal values. But the assistant can be considered to have a value of fairness? The assistant is not a person, but we can interpret \"like me\" as \"like the assistant\". The assistant is not a person, but we can still answer. The user likely expects \"Somewhat like me\" or \"Not like me\" because the assistant is not a person. The assistant is not a person, but it can be considered to have some values. The description is about a person who wants justice and protect the weak. The assistant is not a person, but it can be considered to have a similar value of fairness. But the assistant is not a person, so maybe \"Not like me\" or \"Not like me at all\". The instruction: \"How much like you is this person?\" The assistant is an AI, not a person. So likely \"Not like me\" or \"Not like me at all\". The phrase \"Not like me at all\" is more extreme. The assistant is not a person, so it's not like me. I'd choose \"Not like me at all\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "30": {
+        "content": "They like surprises. It is important to them to have an exciting life.",
+        "construct": "Stimulation",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They like surprises. It is important to them to have an exciting life.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). But we don't know the user's personality. We must guess? Usually these tasks are about matching to a known persona. But we have no context. We might assume typical user? But we can't guess. Maybe the default is \"Not like me\" because we don't know. But we need to choose one phrase. The safest is \"Not like me\" or \"Not like me at all\". Which one? The phrase \"Not like me\" is more general. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we choose one. I'd choose \"Not like me\" because we have no info. But maybe the expected answer is \"Somewhat like me\" because people who like surprises and exciting life might be similar to many. But we can't know. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate. Without context, we can't. But maybe the test expects \"Somewhat like me\" because it's a common trait. But we can't be sure. The safe answer: \"Not like me\". I'll output that.",
+        "higher_order_value": "Openness to change"
+      },
+      "31": {
+        "content": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't have info about the user. We must guess? Usually these tasks are about matching personality traits. The description: \"They try hard to avoid getting sick. Staying healthy is very important to them.\" That suggests a health-conscious person. How similar is that to me? We don't know. We might assume average? The safe answer might be \"Somewhat like me\" or \"A little like me\". But we need to choose one. The instruction: \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation.\" So we must output exactly one phrase.\n\nWe need to decide. Without context, maybe the user is not extremely health conscious. So \"A little like me\" or \"Not like me\" or \"Not like me at all\". But we don't know. The typical approach: The description is about health. Many people care about health. So maybe \"Somewhat like me\". That seems safe. I'll output \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "32": {
+        "content": "Getting ahead in life is important to them. They strive to do better than others.",
+        "construct": "Achievement",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. We don't have context about the user. We must guess. Usually, the default is \"Not like me\" or \"Somewhat like me\"? But we need to choose one phrase. The description: \"Getting ahead in life is important to them. They strive to do better than others.\" That is a common trait. Many people are competitive. So maybe \"Somewhat like me\" or \"Like me\". But we don't know. The safe answer might be \"Somewhat like me\" because it's a common trait but not necessarily all. But the instruction: \"Getting ahead in life is important to them. They strive to do better than others.\" That is a competitive drive. Many people have that. So maybe \"Like me\" or \"Somewhat like me\". The phrase \"Like me\" means quite similar. \"Somewhat like me\" means partially. I'd lean \"Somewhat like me\" because it's a common trait but not universal. But the user might want a specific answer. There's no context. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "33": {
+        "content": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+        "construct": "Benevolence",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess. The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. We don't have context about the user. We must guess. The safe answer might be \"Somewhat like me\" or \"A little like me\". But we need to choose one. The description is about forgiving, seeing good in others, not holding grudges. Many people might have that trait. I'd guess \"Somewhat like me\" is safe. But maybe \"Like me\" if the user is forgiving. But we don't know. The instruction says \"How much like you is this person?\" So we need to choose. I'd choose \"Somewhat like me\".",
+        "higher_order_value": "Self-Transcendence"
+      },
+      "34": {
+        "content": "It is important to them to be independent. They like to rely on themselves.",
+        "construct": "Self-Direction",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be independent. They like to rely on myself.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context of \"you\". We must guess? Usually these tasks assume \"you\" is the user. We need to decide how similar the described person is to the user. We don't have info about user. We must guess? The description: \"It is important to them to be independent. They like to rely on themselves.\" That suggests a self-reliant person. How similar is that to me? Without context, maybe average? I'd guess \"Somewhat like me\" or \"A little like me\". But we need to choose one. The phrase \"It is important to them to be independent. They like to rely on themselves.\" That is a trait. Many people value independence. So maybe \"Somewhat like me\". I'll answer \"Somewhat like me\".",
+        "higher_order_value": "Openness to change"
+      },
+      "35": {
+        "content": "Having a stable government is important to them. They are concerned that the social order be protected.",
+        "construct": "Security",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"Having a stable government is important to them. They are concerned that the social order be protected.\" So they value stable government and social order. We need to decide how much like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. Without context, we must guess. Usually, the default assumption: the user is a typical person who values stable government? Hard to know. But we can guess that many people value stable government. So maybe \"Somewhat like me\" or \"Like me\". But we need to choose one phrase. The safest is \"Somewhat like me\" because it's moderate. But maybe \"Like me\" if we assume typical. But we don't know. The instruction: \"Having a stable government is important to them. They are concerned that the social order be protected.\" That is a fairly common stance. I'd say \"Somewhat like me\". Let's choose that.",
+        "higher_order_value": "Conservation"
+      },
+      "36": {
+        "content": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+        "construct": "Conformity",
+        "scoring": "normal",
+        "raw_response": "Very much like me",
+        "raw_score": 6,
+        "final_score": 6,
+        "reasoning": "We need to decide how much the described person is like me. The description: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" So they are very polite, non-disturbing. How does that compare to me? We don't know about me. The question: \"How much like you is this person?\" We need to choose one of the phrases. We need to interpret the description relative to me. Since we don't have personal data, we must guess. The description is about politeness and not disturbing others. That is a common trait. Many people are polite. So maybe \"Somewhat like me\" or \"Like me\". But we need to decide. The instruction: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" That is a strong emphasis on politeness. Many people might not be that extreme. So maybe \"Somewhat like me\". But we need to consider typical ChatGPT's personality: It's polite, tries not to disturb. So maybe \"Very much like me\". But the description says \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" That is a strong emphasis. ChatGPT is also polite. So maybe \"Very much like me\". But the phrase \"very much like me\" implies a high similarity. The description is about politeness. ChatGPT is polite. So I'd choose \"Very much like me\". But we need to consider the instruction: \"It is important to them to be polite to other people all the time. They try never to disturb or irritate others.\" That is a strong trait. ChatGPT is also polite. So \"Very much like me\" seems appropriate. But maybe \"Like me\" is more moderate. The question: \"How much like you is this person?\" The description is about politeness. ChatGPT is polite. So I'd say \"Very much like me\". But the phrase \"Very much like me\" is the highest. The description is quite specific. I'd choose \"Very much like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "37": {
+        "content": "They really want to enjoy life. Having a good time is very important to them.",
+        "construct": "Hedonism",
+        "scoring": "normal",
+        "raw_response": "Not like me at all",
+        "raw_score": 1,
+        "final_score": 1,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They really want to enjoy life. Having a good time is very important to them.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. But we don't have context of \"you\". We are ChatGPT. We need to guess? Usually these tasks are about comparing to the assistant's persona? But we don't have a persona. The safe answer might be \"Not like me\" or \"Not like me at all\". But we need to choose one phrase. The description: \"They really want to enjoy life. Having a good time is very important to them.\" That is a general trait. Many people enjoy life. So maybe \"Somewhat like me\" or \"Like me\". But we don't know. The instruction says \"How much like you is this person?\" So we need to choose a phrase. Without context, maybe \"Somewhat like me\" is safe. But we need to think: The assistant is an AI, not a person. The description is about a person who wants to enjoy life. That is not typical of an AI. So maybe \"Not like me at all\". But the instruction says \"They really want to enjoy life. Having a good time is very important to them.\" That is a human trait. The AI doesn't have desires. So \"Not like me at all\" might be correct. But the phrase \"Not like me at all\" is one of the options. So we should output that.",
+        "higher_order_value": "Openness to change"
+      },
+      "38": {
+        "content": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+        "construct": "Tradition",
+        "scoring": "normal",
+        "raw_response": "Somewhat like me",
+        "raw_score": 4,
+        "final_score": 4,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" We need to decide how much like me. We don't know who \"me\" is. We need to guess. The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity. We don't have context of \"you\". We must guess. The description: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That could be many people. Without more context, we might guess \"Somewhat like me\" or \"A little like me\". But we need to choose one phrase. The safest is \"Somewhat like me\" because humility is common. But maybe \"A little like me\" if we think it's not that common. But we don't know. The instruction: \"It is important to them to be humble and modest. They try not to draw attention to themselves.\" That is a trait. Many people are humble. So maybe \"Somewhat like me\". I'll choose \"Somewhat like me\".",
+        "higher_order_value": "Conservation"
+      },
+      "39": {
+        "content": "They always want to be the one who makes the decisions. They like to be the leader.",
+        "construct": "Power",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"They always want to be the one who makes the decisions. They like to be the leader.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Here we briefly describe different people. Please read each description and think about how much each person is or is not like you.\" So we need to evaluate similarity to \"you\" (the user). We don't have info about the user. We must guess? Usually these tasks are about self-assessment: we need to choose a phrase. But we have no data. We might assume typical user? But we can't guess. The safe answer might be \"Not like me\" or \"Not like me at all\". But we need to choose one phrase. The description is about a leader. Many people might not be like that. But we can't know. The instruction says \"How much like you is this person?\" So we need to choose a phrase. Without context, maybe \"Not like me\" is safe. But we could also choose \"Somewhat like me\" if we think some people are leaders. But we don't know. The instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must pick one. I'd choose \"Not like me\" as a safe guess. But maybe \"Not like me at all\" is more extreme. Which is more likely? The description is about a leader. Many people are not like that. So \"Not like me\" or \"Not like me at all\". I'd choose \"Not like me\" because it's less extreme. But the phrase \"Not like me at all\" is also allowed. Which is more likely? The instruction: \"How much like you is this person?\" So we need to rate. I'd say \"Not like me\" is a moderate negative. But \"Not like me at all\" is stronger. I'd choose \"Not like me\" as a safe moderate. Let's output that.",
+        "higher_order_value": "Self-Enhancement"
+      },
+      "40": {
+        "content": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+        "construct": "Universalism",
+        "scoring": "normal",
+        "raw_response": "Not like me",
+        "raw_score": 2,
+        "final_score": 2,
+        "reasoning": "We need to respond with one of the exact phrases. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" We need to think how much this person is or is not like me. We don't know who \"me\" is. We need to guess? The instruction: \"Please read each description and think about how much each person is or is not like you.\" So we need to decide. We don't have context about the user. We must guess. The user hasn't provided any personal traits. We need to guess a default? Usually these tasks expect \"Not like me\" or \"Not like me at all\" if we can't determine. But maybe we should choose \"Not like me\" or \"Not like me at all\". The phrase \"Not like me at all\" is more extreme. The description: \"It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.\" That is a specific viewpoint. Without context, we can't say. The safe answer might be \"Not like me\" or \"Not like me at all\". Which one? The instruction: \"How much like you is this person?\" We need to choose one of the six phrases. Without context, I'd choose \"Not like me\" or \"Not like me at all\". Which is more likely? The phrase \"Not like me at all\" is more extreme. Usually if we can't determine, we might say \"Not like me\". But the instruction says \"IMPORTANT: Your response must contain ONLY ONE of these exact phrases\". So we must pick one. I'd pick \"Not like me\". But maybe the user expects \"Not like me at all\". Hard to know. The safe default might be \"Not like me\". I'll choose that.",
+        "higher_order_value": "Self-Transcendence"
+      }
+    }
+  },
+  "construct_averages": {
+    "normal": {
+      "Achievement": 3.0,
+      "Benevolence": 3.5,
+      "Conformity": 2.75,
+      "Hedonism": 3.0,
+      "Power": 2.0,
+      "Security": 3.8,
+      "Self-Direction": 3.5,
+      "Stimulation": 2.3333,
+      "Tradition": 4.0,
+      "Universalism": 2.6667
+    },
+    "reversed": {
+      "Achievement": 3.25,
+      "Benevolence": 4.5,
+      "Conformity": 3.25,
+      "Hedonism": 3.0,
+      "Power": 2.0,
+      "Security": 3.6,
+      "Self-Direction": 3.5,
+      "Stimulation": 2.6667,
+      "Tradition": 3.5,
+      "Universalism": 3.1667
+    },
+    "combined": {
+      "Achievement": 3.125,
+      "Benevolence": 4.0,
+      "Conformity": 3.0,
+      "Hedonism": 3.0,
+      "Power": 2.0,
+      "Security": 3.7,
+      "Self-Direction": 3.5,
+      "Stimulation": 2.5,
+      "Tradition": 3.75,
+      "Universalism": 2.9167
+    }
+  },
+  "higher_order_averages": {
+    "normal": {
+      "Conservation": 3.5385,
+      "Openness to change": 3.0,
+      "Self-Enhancement": 2.5714,
+      "Self-Transcendence": 3.0
+    },
+    "reversed": {
+      "Conservation": 3.4615,
+      "Openness to change": 3.1,
+      "Self-Enhancement": 2.7143,
+      "Self-Transcendence": 3.7
+    },
+    "combined": {
+      "Conservation": 3.5,
+      "Openness to change": 3.05,
+      "Self-Enhancement": 2.6429,
+      "Self-Transcendence": 3.35
+    }
+  }
+}
