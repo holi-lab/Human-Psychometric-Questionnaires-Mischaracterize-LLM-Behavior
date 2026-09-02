@@ -2,10 +2,30 @@
 
 # Human Psychometric Questionnaires Mischaracterize LLM Behavior
 
+### Accepted at EMNLP 2026 (Main Conference)
+
 <p align="center">
+  <a href="https://holi-lab.github.io/Human-Psychometric-Questionnaires-Mischaracterize-LLM-Behavior/"><img src="https://img.shields.io/badge/Project-Page-0f766e" alt="Project Page"></a>
   <a href="https://arxiv.org/pdf/2509.10078"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b" alt="Paper"></a>
   <a href="https://arxiv.org/abs/2509.10078"><img src="https://img.shields.io/badge/arXiv-2509.10078-b31b1b" alt="arXiv"></a>
+  <a href="https://2026.emnlp.org/"><img src="https://img.shields.io/badge/EMNLP-2026%20Main-1d4ed8" alt="EMNLP 2026"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-green" alt="License"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/opusdeisong">Woojung Song</a><sup>1*</sup>,
+  <a href="https://scholar.google.com/citations?user=9AlW_GAAAAAJ&hl=en">Dongmin Choi</a><sup>1*</sup>,
+  <a href="https://scholar.google.com/citations?user=oLNnSjQAAAAJ&hl=en">Yoonah Park</a><sup>1</sup>,
+  <a href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en">Jongwook Han</a><sup>1</sup>,
+  <a href="https://scholar.google.com/citations?user=LPVWCwsAAAAJ&hl=en&oi=ao">Eun-Ju Lee</a><sup>2</sup>,
+  <a href="https://yohanjo.github.io/">Yohan Jo</a><sup>1&dagger;</sup><br>
+  <sup>1</sup>Graduate School of Data Science, Seoul National University<br>
+  <sup>2</sup>Department of Communication, Interdisciplinary Program in Artificial Intelligence, Seoul National University<br>
+  <sub><sup>*</sup>Equal contribution &nbsp;&nbsp; <sup>&dagger;</sup>Corresponding author</sub>
+</p>
+
+<p align="center">
+  🌐 <b>Project page:</b> <a href="https://holi-lab.github.io/Human-Psychometric-Questionnaires-Mischaracterize-LLM-Behavior/">holi-lab.github.io/Human-Psychometric-Questionnaires-Mischaracterize-LLM-Behavior</a>
 </p>
 
 </div>
@@ -18,15 +38,16 @@ comparing their value and personality profiles derived from two different method
 self-reports on established questionnaires (PVQ-40/21 and BFI-44/10) and generation probabilities
 over value-laden responses to everyday user queries. The two profiles diverge substantially.
 Within-construct item consistency, often cited as evidence of stable LLM dispositions, disappears in
-generation probabilities. We attribute this gap to the fact that explicit lexical cues in
-established questionnaire items allow models to recognize the target construct and respond in
-alignment-consistent, socially desirable ways, whereas realistic user queries provide no such cues.
-In addition, demographic persona prompts shift models' responses to human questionnaires in ways
-consistent with real human patterns, but no such shifts appear in the generation probabilities of
-responses to realistic user queries, showing their limited ability to simulate the behaviors of
-target demographics in real-world user interactions. Overall, our study shows that human
-psychometric questionnaires are insufficient tools for predicting LLM behavior and suggests
-generation-based profiling as a more accurate measure.
+generation probabilities. We find that established questionnaire items contain explicit lexical cues
+that allow models to recognize the target construct and respond in alignment-consistent, socially
+desirable ways, whereas realistic user queries contain far less recognizable cues. In addition,
+demographic persona prompts shift models' responses to human questionnaires in ways consistent with
+real human patterns, but no such shifts appear in the generation setting, highlighting that human
+questionnaires overestimate LLMs' ability to faithfully reproduce expected psychological traits when
+role-playing demographic personas. Overall, our study indicates that questionnaire scores alone
+should not be treated as evidence of LLMs' response tendencies in realistic user interactions, and
+supports generation-probability profiling with ecologically valid items as a complementary
+behavioral measure.
 
 This repository contains the code, data, and experimental results for the study.
 
@@ -57,7 +78,8 @@ the RQ they support, and keep their outputs next to their scripts.
 │   ├── established_circumstance.py, ecological_circumstance.py
 │   ├── analysis_circumstance_vs_human.py, analyze_*.py
 │   └── ess_human_aggregates.json   # ESS human reference (subgroup aggregates)
-└── results/                # Experimental outputs per RQ
+├── results/                # Experimental outputs per RQ
+└── vp2_project_page/       # Static project page (deployed to GitHub Pages)
 ```
 
 ## Models

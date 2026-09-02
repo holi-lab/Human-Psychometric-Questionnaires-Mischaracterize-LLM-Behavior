@@ -1,0 +1,10 @@
+# Camera-ready LaTeX sources (kept local only)
+vp2_arXiv/
+
+# vLLM server logs written by the experiment scripts
+logs/
+
+# Python / editor artifacts
+__pycache__/
+*.pyc
+.DS_Store
