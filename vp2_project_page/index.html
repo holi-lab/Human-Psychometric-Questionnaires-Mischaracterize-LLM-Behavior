@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Human Psychometric Questionnaires Mischaracterize LLM Behavior</title>
 
-  <meta name="description" content="EMNLP 2026 (Main). Likert self-reports on PVQ and BFI questionnaires give LLM profiles that do not match the profiles implied by the models' own generation probabilities on realistic user queries.">
+  <meta name="description" content="EMNLP 2026 (Main). Questionnaire profiles of eight open LLMs diverge from their generation-probability profiles on realistic user queries.">
   <meta name="keywords" content="psychometrics, large language models, personality, values, Big Five, Schwartz values, PVQ, BFI, Value Portrait, generation probability, persona prompting, EMNLP 2026">
   <meta name="author" content="Woojung Song, Dongmin Choi, Yoonah Park, Jongwook Han, Eun-Ju Lee, Yohan Jo">
 
@@ -34,284 +34,163 @@
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpath d='M7 10h7M7 16h7M7 22h7' stroke='%238FA8EC' stroke-width='2.4' stroke-linecap='round'/%3E%3Cpath d='M18 10l7 12M18 22l7-12' stroke='%23EE8A76' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
 
   <style>
     :root {
       color-scheme: light;
-      --bg: #F6F7F9;
+      --bg: #FFFFFF;
       --surface: #FFFFFF;
-      --surface-2: #EEF0F4;
-      --ink: #171B26;
-      --ink-2: #3F4557;
-      --muted: #6E7590;
-      --rule: #D9DCE5;
-      --rule-soft: #E8EAF0;
+      --surface-2: #F5F5F7;
+      --ink: #1E1E22;
+      --ink-2: #444450;
+      --muted: #6B6F7E;
+      --rule: #DCDDE3;
+      --rule-soft: #ECEDF1;
       --q: #2C4F9E;
       --q-ink: #1F3B7A;
       --q-soft: #E4EAF8;
       --g: #C23B2C;
       --g-ink: #9C2E22;
       --g-soft: #F8E5E1;
-      --line-strong: #171B26;
-      --line-weak: #9AA0B4;
-      --shadow: 0 1px 2px rgba(23, 27, 38, 0.06), 0 8px 24px rgba(23, 27, 38, 0.06);
-      --serif: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
-      --sans: "IBM Plex Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
-      --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      --line-strong: #1E1E22;
+      --line-weak: #A0A3B1;
+      --link: #3273DC;
+      --sans: "Google Sans", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+      --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) {
         color-scheme: dark;
-        --bg: #12151D;
-        --surface: #1A1E29;
-        --surface-2: #222735;
-        --ink: #E9EBF2;
-        --ink-2: #C2C7D6;
-        --muted: #8C93AB;
-        --rule: #2C3243;
-        --rule-soft: #232837;
-        --q: #8FA8EC;
-        --q-ink: #B7C7F5;
-        --q-soft: #1E2A47;
-        --g: #EE8A76;
-        --g-ink: #F4A897;
-        --g-soft: #3E211D;
-        --line-strong: #E9EBF2;
-        --line-weak: #5C6479;
-        --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+        --bg: #14151A; --surface: #1B1C23; --surface-2: #23242D;
+        --ink: #ECEDF2; --ink-2: #C4C6D1; --muted: #8E92A3;
+        --rule: #30323D; --rule-soft: #262832;
+        --q: #8FA8EC; --q-ink: #B7C7F5; --q-soft: #1E2A47;
+        --g: #EE8A76; --g-ink: #F4A897; --g-soft: #3E211D;
+        --line-strong: #ECEDF2; --line-weak: #5C6072; --link: #7FAAF0;
       }
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #12151D;
-      --surface: #1A1E29;
-      --surface-2: #222735;
-      --ink: #E9EBF2;
-      --ink-2: #C2C7D6;
-      --muted: #8C93AB;
-      --rule: #2C3243;
-      --rule-soft: #232837;
-      --q: #8FA8EC;
-      --q-ink: #B7C7F5;
-      --q-soft: #1E2A47;
-      --g: #EE8A76;
-      --g-ink: #F4A897;
-      --g-soft: #3E211D;
-      --line-strong: #E9EBF2;
-      --line-weak: #5C6479;
-      --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+      --bg: #14151A; --surface: #1B1C23; --surface-2: #23242D;
+      --ink: #ECEDF2; --ink-2: #C4C6D1; --muted: #8E92A3;
+      --rule: #30323D; --rule-soft: #262832;
+      --q: #8FA8EC; --q-ink: #B7C7F5; --q-soft: #1E2A47;
+      --g: #EE8A76; --g-ink: #F4A897; --g-soft: #3E211D;
+      --line-strong: #ECEDF2; --line-weak: #5C6072; --link: #7FAAF0;
     }
 
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      * { transition: none !important; animation: none !important; }
-    }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: var(--sans);
-      font-size: 17px;
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: var(--q); text-decoration-thickness: 1px; text-underline-offset: 3px; }
-    a:hover { color: var(--q-ink); }
-    :focus-visible { outline: 2px solid var(--q); outline-offset: 3px; border-radius: 2px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    :focus-visible { outline: 2px solid var(--link); outline-offset: 3px; border-radius: 2px; }
     img { max-width: 100%; height: auto; display: block; }
     sup { font-size: 0.66em; line-height: 0; }
+    p { margin: 0 0 14px; }
 
-    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
-    .prose { max-width: none; }
-    .prose p { margin: 0 0 1.1em; }
-    .prose p:last-child { margin-bottom: 0; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    body { overflow-x: hidden; }
+    .methods > *, .evidence > *, .pair > *, .evidence .tablewrap { min-width: 0; }
 
-    /* ---------- top bar ---------- */
-    .topbar {
-      position: sticky; top: 0; z-index: 20;
-      background: color-mix(in srgb, var(--bg) 88%, transparent);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--rule-soft);
-    }
-    .topbar .wrap {
-      display: flex; align-items: center; justify-content: space-between; gap: 16px;
-      height: 52px;
-    }
-    .venue {
-      font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase;
-      color: var(--ink-2); white-space: nowrap;
-    }
-    .venue b { font-weight: 500; color: var(--ink); }
-    .topnav { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
-    .topnav a {
-      font-size: 14px; color: var(--ink-2); text-decoration: none; padding: 6px 10px; border-radius: 6px;
-    }
-    .topnav a:hover { background: var(--surface-2); color: var(--ink); }
+    /* top bar */
+    .topbar { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--rule-soft); }
+    .topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 48px; }
+    .venue { font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .topnav { display: flex; gap: 2px; flex-wrap: wrap; justify-content: flex-end; }
+    .topnav a { font-size: 14px; color: var(--ink-2); padding: 5px 9px; border-radius: 5px; }
+    .topnav a:hover { background: var(--surface-2); color: var(--ink); text-decoration: none; }
     @media (max-width: 720px) { .topnav a.optional { display: none; } }
+    @media (max-width: 560px) { .topnav { display: none; } }
 
-    /* ---------- hero ---------- */
-    .hero { padding: 64px 0 40px; }
-    .eyebrow {
-      font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
-      color: var(--muted); margin: 0 0 18px;
-    }
-    .eyebrow .dot { color: var(--g); margin: 0 6px; }
-    h1 {
-      font-family: var(--serif); font-weight: 500; font-size: clamp(2.3rem, 4.6vw, 3.6rem);
-      line-height: 1.05; letter-spacing: -0.015em; margin: 0 0 28px; max-width: none; text-wrap: balance;
-      font-variation-settings: "opsz" 72;
-    }
-    .authors { font-size: 17px; line-height: 1.7; margin: 0 0 6px; max-width: 70ch; }
-    .authors a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
-    .authors a:hover { border-bottom-color: var(--ink); }
+    /* hero (centered, Nerfies-style) */
+    .hero { padding: 52px 0 28px; text-align: center; }
+    h1 { font-family: var(--sans); font-weight: 700; font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.2; margin: 0 auto 18px; max-width: 22ch; text-wrap: balance; }
+    .authors { font-size: 17px; line-height: 1.7; margin: 0 auto 4px; max-width: 46rem; }
     .authors sup { color: var(--muted); }
-    .affils { font-size: 14.5px; color: var(--ink-2); line-height: 1.6; margin: 0 0 8px; }
-    .marks { font-size: 13px; color: var(--muted); margin: 0 0 28px; }
-    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 8px; }
-    .btn {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 14.5px; font-weight: 500; text-decoration: none;
-      padding: 9px 14px; border-radius: 8px; border: 1px solid var(--rule);
-      background: var(--surface); color: var(--ink);
-      transition: border-color 120ms ease, background 120ms ease;
-    }
-    .btn:hover { border-color: var(--ink); color: var(--ink); }
-    .btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-    .btn.primary:hover { background: var(--ink-2); border-color: var(--ink-2); color: var(--bg); }
-    .btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .affils { font-size: 14.5px; color: var(--ink-2); line-height: 1.6; margin: 0 auto 6px; max-width: 46rem; }
+    .marks { font-size: 13px; color: var(--muted); margin: 0 0 22px; }
+    .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 8px; }
+    .btn { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); }
+    .btn:hover { text-decoration: none; opacity: 0.85; }
+    .btn svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
-    /* ---------- thesis figure (bump chart) ---------- */
-    .thesis { padding: 24px 0 8px; }
-    .panel {
-      background: var(--surface); border: 1px solid var(--rule); border-radius: 12px;
-      box-shadow: var(--shadow); overflow: hidden;
-    }
-    .panel-head {
-      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
-      padding: 16px 20px; border-bottom: 1px solid var(--rule-soft);
-    }
-    .panel-title { font-family: var(--serif); font-size: 1.35rem; font-weight: 500; margin: 0; font-variation-settings: "opsz" 24; }
-    .panel-title em { font-style: italic; color: var(--ink-2); }
-    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
-    .seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
-    .seg button, .chips button {
-      font-family: var(--sans); font-size: 13.5px; font-weight: 500; cursor: pointer;
-      background: transparent; color: var(--ink-2); border: 0; padding: 6px 12px;
-    }
+    /* interactive figure */
+    .thesis { padding: 8px 0 0; }
+    .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+    .panel-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; padding: 12px 16px; border-bottom: 1px solid var(--rule-soft); }
+    .panel-title { font-size: 15px; font-weight: 600; margin: 0; }
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+    .seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+    .seg button, .chips button { font-family: var(--sans); font-size: 13px; font-weight: 500; cursor: pointer; background: transparent; color: var(--ink-2); border: 0; padding: 5px 10px; }
     .seg button + button { border-left: 1px solid var(--rule); }
     .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-    .chips .fam { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); align-self: center; margin-left: 6px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+    .chips .fam { font-size: 12px; color: var(--muted); margin-left: 6px; }
     .chips .fam:first-child { margin-left: 0; }
-    .chips button { border: 1px solid var(--rule); border-radius: 999px; padding: 4px 11px; font-family: var(--mono); font-size: 12.5px; }
+    .chips button { border: 1px solid var(--rule); border-radius: 999px; padding: 3px 10px; font-size: 12.5px; }
     .chips button:hover { border-color: var(--ink-2); color: var(--ink); }
     .chips button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-    .bump { overflow-x: auto; padding: 8px 12px 4px; }
-    .bump svg { display: block; width: 100%; min-width: 640px; height: auto; font-family: var(--sans); }
-    .bump .colhead { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+    .bump { padding: 6px 10px 2px; }
+    .bump svg { display: block; width: 100%; height: auto; font-family: var(--sans); }
+    .bump .colhead { font-size: 12.5px; font-weight: 600; }
     .bump .colhead.q { fill: var(--q); }
     .bump .colhead.g { fill: var(--g); }
-    .bump .rank { font-family: var(--mono); font-size: 11.5px; fill: var(--muted); paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round; }
+    .bump .rank { font-size: 11.5px; fill: var(--muted); paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round; }
     .bump .lbl { font-size: 14px; fill: var(--ink); }
-    .bump .lbl .score { font-family: var(--mono); font-size: 12.5px; fill: var(--muted); }
+    .bump svg.compact .lbl { font-size: 12.5px; }
+    .bump .lbl .score { font-size: 12px; fill: var(--muted); font-variant-numeric: tabular-nums; }
     .bump .link { fill: none; stroke: var(--line-weak); stroke-width: 1.6; opacity: 0.75; }
     .bump .link.big { stroke: var(--line-strong); stroke-width: 2.2; opacity: 0.95; }
     .bump .node { stroke: var(--surface); stroke-width: 1.5; }
     .bump .node.q { fill: var(--q); }
     .bump .node.g { fill: var(--g); }
-    .bump g.row { cursor: default; }
     .bump g.row:hover .link { stroke: var(--g); stroke-width: 3; opacity: 1; }
     .bump g.row:hover .lbl { font-weight: 600; }
-    .panel-foot {
-      display: flex; flex-wrap: wrap; gap: 8px 28px; align-items: baseline;
-      padding: 12px 20px 16px; border-top: 1px solid var(--rule-soft);
-      font-size: 14px; color: var(--ink-2);
-    }
-    .stat { font-family: var(--mono); font-size: 13.5px; color: var(--ink); }
+    .panel-foot { display: flex; flex-wrap: wrap; gap: 6px 24px; align-items: baseline; padding: 10px 16px 12px; border-top: 1px solid var(--rule-soft); font-size: 13.5px; color: var(--ink-2); }
+    .stat { color: var(--ink); font-variant-numeric: tabular-nums; }
     .stat .k { color: var(--muted); }
-    .caption { font-size: 14px; color: var(--ink-2); line-height: 1.55; margin: 12px 0 0; }
-    .caption b { font-weight: 600; color: var(--ink); }
+    .caption { font-size: 14px; color: var(--ink-2); line-height: 1.55; margin: 10px 0 0; }
 
-    .abstract { max-width: none; margin: 0; font-size: 16.5px; line-height: 1.7; color: var(--ink); }
-
-    /* ---------- generic sections ---------- */
-    section.block { padding: 56px 0; border-top: 1px solid var(--rule-soft); }
-    section.block.tight { padding-top: 40px; }
-    .sec-eyebrow {
-      font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
-      margin: 0 0 10px;
-    }
-    h2 {
-      font-family: var(--serif); font-weight: 500; font-size: clamp(1.7rem, 3vw, 2.35rem);
-      line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 18px; max-width: 44ch; text-wrap: balance;
-      font-variation-settings: "opsz" 48;
-    }
-    h3 {
-      font-family: var(--sans); font-weight: 600; font-size: 1.05rem; margin: 28px 0 10px; letter-spacing: -0.005em;
-    }
-    .answer {
-      font-family: var(--serif); font-size: 1.35rem; line-height: 1.4; font-weight: 500; color: var(--ink);
-      margin: 0 0 22px; max-width: 60ch; font-variation-settings: "opsz" 24; text-wrap: balance;
-    }
-    .answer .no { color: var(--g); }
-    .answer .yes { color: var(--q); }
-    .two { display: grid; grid-template-columns: minmax(0, 68ch) minmax(280px, 1fr); gap: 32px 56px; align-items: start; }
-    @media (max-width: 880px) { .two { grid-template-columns: 1fr; } }
-
-    /* findings list */
-    .findings { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; border-top: 1px solid var(--rule); }
-    @media (max-width: 760px) { .findings { grid-template-columns: 1fr; } }
-    .findings li { padding: 20px 0; border-bottom: 1px solid var(--rule-soft); display: grid; grid-template-columns: 52px 1fr; gap: 12px; }
-    .findings .tag { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.06em; color: var(--muted); padding-top: 4px; }
-    .findings a { color: var(--ink); text-decoration: none; font-weight: 600; }
-    .findings a:hover { text-decoration: underline; }
-    .findings p { margin: 4px 0 0; font-size: 15.5px; color: var(--ink-2); }
+    /* sections */
+    section.block { padding: 36px 0 8px; }
+    h2 { font-weight: 700; font-size: 1.5rem; line-height: 1.3; margin: 0 0 14px; text-wrap: balance; }
+    h3 { font-weight: 600; font-size: 1.1rem; margin: 26px 0 8px; }
+    .finding { font-weight: 600; }
+    ul.plain { margin: 0 0 14px; padding-left: 1.25em; }
+    ul.plain li { margin: 0 0 8px; }
 
     /* method comparison */
-    .methods { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 8px; }
-    @media (max-width: 820px) { .methods { grid-template-columns: 1fr; } }
-    .method { border-top: 3px solid var(--rule); padding-top: 16px; }
+    .methods { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 4px; }
+    @media (max-width: 800px) { .methods { grid-template-columns: 1fr; } }
+    .method { border-top: 3px solid var(--rule); padding-top: 12px; }
     .method.q { border-top-color: var(--q); }
     .method.g { border-top-color: var(--g); }
-    .method .name { font-family: var(--serif); font-size: 1.45rem; font-weight: 500; margin: 0 0 4px; font-variation-settings: "opsz" 24; }
+    .method .name { font-size: 1.1rem; font-weight: 600; margin: 0 0 4px; }
     .method.q .name { color: var(--q); }
     .method.g .name { color: var(--g); }
-    .method .sub { font-size: 14.5px; color: var(--ink-2); margin: 0 0 16px; }
-    .item {
-      background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; margin: 0 0 12px;
-      font-size: 15px; line-height: 1.55;
-    }
-    .item .src { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-    .item .src .tagline { text-transform: none; letter-spacing: 0; }
-    .item .src .tagline .t { display: inline-block; padding: 1px 7px; border-radius: 4px; margin-left: 4px; }
+    .method .sub { font-size: 14.5px; color: var(--ink-2); margin: 0 0 14px; }
+    .item { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; margin: 0 0 12px; font-size: 14.5px; line-height: 1.55; }
+    .item .src { font-size: 12px; color: var(--muted); margin: 0 0 6px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .item .src .tagline .t { display: inline-block; padding: 1px 7px; border-radius: 4px; margin-left: 4px; font-weight: 500; }
     .method.q .t { background: var(--q-soft); color: var(--q-ink); }
     .method.g .t { background: var(--g-soft); color: var(--g-ink); }
-    .item q { font-family: var(--serif); font-size: 1.08rem; font-variation-settings: "opsz" 18; }
-    .item .text { color: var(--ink); }
-    .item .text.scenario { white-space: pre-line; color: var(--ink-2); font-size: 14.5px; }
-    .likert { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin: 12px 0 0; }
-    .likert span {
-      font-family: var(--mono); font-size: 12.5px; text-align: center; padding: 6px 0;
-      border: 1px solid var(--rule); border-radius: 4px; color: var(--ink-2); background: var(--surface-2);
-    }
+    .item q { font-weight: 500; }
+    .item .text.scenario { white-space: pre-line; color: var(--ink-2); font-size: 14px; margin-top: 6px; }
+    .likert-var { font-size: 11.5px; color: var(--muted); margin-top: 12px; }
+    .likert { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin: 6px 0 0; }
+    .likert span { font-size: 12.5px; text-align: center; padding: 5px 0; border: 1px solid var(--rule); border-radius: 4px; color: var(--ink-2); background: var(--surface-2); }
     .likert span.on { background: var(--q-soft); border-color: var(--q); color: var(--q-ink); }
-    .likert-lab { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-top: 6px; }
-    .likert-var { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
-    .likert-var + .likert { margin-top: 6px; }
-    .resp { border-left: 2px solid var(--rule); padding: 6px 12px; margin: 10px 0 0; font-size: 14.5px; color: var(--ink-2); }
-    .resp .tagline { display: block; font-family: var(--mono); font-size: 11.5px; color: var(--muted); margin-bottom: 4px; }
-    .resp .tagline .t { display: inline-block; padding: 1px 7px; border-radius: 4px; margin-right: 4px; }
+    .likert-lab { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-top: 5px; }
+    .resp { border-left: 2px solid var(--rule); padding: 5px 12px; margin: 10px 0 0; font-size: 14px; color: var(--ink-2); }
+    .resp .tagline { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+    .resp .tagline .t { display: inline-block; padding: 1px 7px; border-radius: 4px; margin-right: 4px; font-weight: 500; }
     .resp .lp { font-family: var(--mono); font-size: 12px; color: var(--g); }
-    .eq {
-      font-family: var(--serif); font-size: 1.15rem; margin: 18px 0 8px; padding: 14px 16px;
-      background: var(--surface-2); border-radius: 8px; overflow-x: auto; white-space: nowrap;
-      font-variation-settings: "opsz" 18;
-    }
+    .eq { font-family: "Times New Roman", Times, serif; font-size: 1.1rem; margin: 14px 0 8px; padding: 12px 14px; background: var(--surface-2); border-radius: 6px; overflow-x: auto; white-space: nowrap; }
     .eq i { font-style: italic; }
     .eq .frac { display: inline-block; vertical-align: middle; text-align: center; line-height: 1.05; margin: 0 4px; }
     .eq .frac span { display: block; padding: 0 4px; }
@@ -321,100 +200,109 @@
     .eq-note { font-size: 14px; color: var(--ink-2); margin: 0; }
 
     /* tables */
-    .tablewrap { overflow-x: auto; margin: 16px 0 6px; }
-    table.data {
-      border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums;
-      background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
-    }
-    table.data th, table.data td { padding: 7px 10px; text-align: right; border-bottom: 1px solid var(--rule-soft); white-space: nowrap; }
-    table.data th { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.04em; color: var(--muted); text-transform: uppercase; background: var(--surface-2); }
+    .tablewrap { overflow-x: auto; margin: 12px 0 6px; -webkit-overflow-scrolling: touch; }
+    table.data { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+    table.data th, table.data td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--rule-soft); white-space: nowrap; }
+    table.data th { font-weight: 600; font-size: 13px; color: var(--ink-2); background: var(--surface-2); }
     table.data th .nt { text-transform: none; }
     table.data th.l, table.data td.l { text-align: left; }
-    table.data th.c, table.data td.c { text-align: center; }
-    table.data td.num { font-family: var(--mono); font-size: 13px; }
+    table.data td.num { font-size: 13.5px; }
     table.data tr.within td { color: var(--q-ink); }
     table.data tr.within td.l { color: var(--q); font-weight: 500; }
     table.data tr.cross td.l { color: var(--g); font-weight: 500; }
     table.data tr.cross td.num { color: var(--ink); }
-    table.data td b { font-weight: 600; }
+    table.data td b { font-weight: 700; }
     table.data tr.sep td { border-top: 2px solid var(--rule); }
     table.data tr.base td { color: var(--muted); font-style: italic; }
     table.data tr.base td.num { font-style: normal; }
     table.data td.neg { color: var(--g-ink); }
     table.data tbody tr:last-child td { border-bottom: 0; }
-    .tnote { font-size: 13.5px; color: var(--muted); margin: 6px 0 0; }
+    .tablewrap.narrow { max-width: 640px; }
+    .tnote { font-size: 13.5px; color: var(--muted); margin: 6px 0 0; line-height: 1.55; }
     .colkey { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13.5px; color: var(--ink-2); margin: 10px 0 0; }
     .colkey span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
     .colkey .kq::before { background: var(--q); }
     .colkey .kg::before { background: var(--g); }
+    @media (max-width: 600px) { table.data { font-size: 13px; } table.data th, table.data td { padding: 5px 7px; } }
 
-    /* evidence grids (tables below the prose, side by side when there is room) */
-    .evidence { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 16px 32px; align-items: start; margin-top: 20px; }
+    /* evidence grids */
+    .evidence { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 12px 28px; align-items: start; }
     @media (max-width: 480px) { .evidence { grid-template-columns: 1fr; } }
     .evidence .tablewrap { margin-top: 0; }
-    .evidence .strip { margin-top: 18px; }
-    .tablewrap.narrow { max-width: 720px; }
-    .aside-lab { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+    .evidence table.data { font-size: 13.5px; }
+    .evidence table.data th, .evidence table.data td { padding: 6px 7px; }
+    .aside-lab { font-size: 12.5px; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
 
     /* figures */
-    figure { margin: 24px 0 0; }
-    figure .frame { background: #FFFFFF; border: 1px solid var(--rule); border-radius: 8px; padding: 10px; }
-    figure figcaption { font-size: 14px; color: var(--ink-2); margin-top: 10px; line-height: 1.55; }
+    figure { margin: 16px 0 0; }
+    figure .frame { background: #FFFFFF; border: 1px solid var(--rule); border-radius: 6px; padding: 8px; }
+    figure figcaption { font-size: 14px; color: var(--ink-2); margin-top: 8px; line-height: 1.55; }
     figure figcaption b { color: var(--ink); font-weight: 600; }
-    details { margin-top: 20px; border-top: 1px solid var(--rule-soft); }
-    details summary { cursor: pointer; padding: 12px 0; font-weight: 500; color: var(--ink-2); list-style: none; display: flex; align-items: center; gap: 8px; }
-    details summary::-webkit-details-marker { display: none; }
-    details summary::before { content: "+"; font-family: var(--mono); color: var(--muted); width: 14px; }
-    details[open] summary::before { content: "–"; }
 
-    /* cue-reduction pairs */
-    .pairs { display: grid; gap: 12px; margin: 12px 0 0; }
-    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; font-size: 14.5px; }
-    @media (max-width: 720px) { .pair { grid-template-columns: 1fr; } }
-    .pair > div { padding: 12px 14px; }
+
+    /* Figure 1: pipeline */
+    .pipeline { margin: 12px 0 10px; }
+    .pipe { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 0; overflow: hidden; }
+    .pipe-col { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+    .pipe-col + .pipe-col { border-left: 1px solid var(--rule-soft); }
+    @media (max-width: 760px) { .pipe { grid-template-columns: 1fr; } .pipe-col + .pipe-col { border-left: 0; border-top: 1px solid var(--rule-soft); } }
+    .pipe-head { font-weight: 700; font-size: 15px; padding-bottom: 8px; border-bottom: 3px solid var(--rule); margin-bottom: 4px; }
+    .pipe-col.q .pipe-head { color: var(--q); border-bottom-color: var(--q); }
+    .pipe-col.g .pipe-head { color: var(--g); border-bottom-color: var(--g); }
+    .step-lab { font-size: 12px; font-weight: 600; color: var(--ink-2); }
+    .step-lab span { font-weight: 400; color: var(--muted); margin-left: 6px; }
+    .step-lab b { font-weight: 600; color: var(--ink-2); }
+    .step-card { border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; font-size: 14px; line-height: 1.5; background: var(--surface); }
+    .step-card .dim { color: var(--muted); font-size: 13px; }
+    .step-card.items { padding: 4px 0; }
+    .step-card.items .it { display: flex; gap: 10px; padding: 6px 12px; border-bottom: 1px solid var(--rule-soft); font-size: 13.5px; }
+    .step-card.items .it:last-child { border-bottom: 0; }
+    .step-card.items .n { flex-shrink: 0; width: 22px; color: var(--muted); font-size: 12px; padding-top: 2px; }
+    .step-card .likert-var:first-child { margin-top: 0; }
+    .pipe-arrow { position: relative; font-size: 12.5px; color: var(--muted); padding: 2px 0 2px 22px; line-height: 1.4; }
+    .pipe-arrow::before { content: ""; position: absolute; left: 7px; top: -6px; bottom: -6px; border-left: 2px solid var(--rule); }
+    .pipe-arrow::after { content: ""; position: absolute; left: 3px; bottom: -8px; border: 5px solid transparent; border-top: 7px solid var(--rule); border-bottom: 0; }
+    .responses { padding: 4px 0; }
+    .responses .r { display: flex; justify-content: space-between; gap: 10px; align-items: center; padding: 6px 12px; border-bottom: 1px solid var(--rule-soft); font-size: 13px; }
+    .responses .r:last-child { border-bottom: 0; }
+    .responses .rt { color: var(--ink-2); min-width: 0; }
+    .responses .r.hi { background: var(--g-soft); }
+    .responses .r.hi .rt { color: var(--ink); }
+    .responses .tags { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; flex-shrink: 0; max-width: 46%; }
+    .responses .t { display: inline-block; padding: 1px 6px; border-radius: 4px; background: var(--surface-2); color: var(--ink-2); font-size: 11.5px; white-space: nowrap; }
+    .responses .t.on { background: var(--g); color: #fff; font-weight: 600; }
+    .responses .none { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+    @media (max-width: 480px) { .responses .r { flex-direction: column; align-items: flex-start; } .responses .tags { max-width: none; justify-content: flex-start; } }
+    .pipe-score { border-radius: 6px; padding: 10px 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+    .pipe-col.q .pipe-score { background: var(--q-soft); color: var(--q-ink); }
+    .pipe-col.g .pipe-score { background: var(--g-soft); color: var(--g-ink); }
+    .pipe-score .sc { font-weight: 700; font-size: 16px; font-variant-numeric: tabular-nums; }
+    .pipe-score .sc-note { font-size: 12.5px; opacity: 0.85; }
+    figure.pipeline .frame { padding: 0; }
+
+    /* cue-reduced pairs */
+    .pairs { display: grid; gap: 10px; margin: 10px 0 0; }
+    .pair { display: grid; grid-template-columns: 1fr 1fr; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; font-size: 14.5px; }
+    @media (max-width: 700px) { .pair { grid-template-columns: 1fr; } }
+    .pair > div { padding: 10px 12px; }
     .pair > div + div { border-left: 1px solid var(--rule-soft); }
-    @media (max-width: 720px) { .pair > div + div { border-left: 0; border-top: 1px solid var(--rule-soft); } }
-    .pair .lab { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 4px; }
-    .pair .lab .t { text-transform: none; letter-spacing: 0; color: var(--ink-2); margin-left: 6px; }
+    @media (max-width: 700px) { .pair > div + div { border-left: 0; border-top: 1px solid var(--rule-soft); } }
+    .pair .lab { font-size: 12px; color: var(--muted); display: block; margin-bottom: 3px; font-weight: 600; }
+    .pair .lab .t { color: var(--ink-2); margin-left: 6px; font-weight: 500; }
     .pair mark { background: var(--q-soft); color: var(--q-ink); padding: 0 3px; border-radius: 3px; }
 
-    /* stat strips */
-    .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 16px 0 0; }
-    .strip div { border-top: 2px solid var(--rule); padding-top: 8px; }
-    .strip .v { font-family: var(--mono); font-size: 1.35rem; color: var(--ink); line-height: 1.2; }
-    .strip .v .arrow { color: var(--muted); margin: 0 4px; }
-    .strip .k { font-size: 13px; color: var(--muted); margin-top: 4px; }
-    .strip div.q { border-top-color: var(--q); }
-    .strip div.g { border-top-color: var(--g); }
-
     /* persona prompt */
-    .sysprompt { font-family: var(--mono); font-size: 13.5px; background: var(--surface-2); border-radius: 6px; padding: 10px 12px; margin: 6px 0 0; color: var(--ink); }
+    .sysprompt { font-family: var(--mono); font-size: 13px; background: var(--surface-2); border-radius: 6px; padding: 10px 12px; margin: 0; color: var(--ink); }
     .sysprompt .role { color: var(--muted); }
 
-    /* takeaways */
-    .take { list-style: none; padding: 0; margin: 0; }
-    .full { max-width: none; }
-    .take li { padding: 14px 0 14px 28px; border-bottom: 1px solid var(--rule-soft); position: relative; }
-    .take li::before { content: "→"; position: absolute; left: 0; top: 14px; color: var(--g); font-family: var(--mono); }
-
     /* bibtex */
-    pre.bib {
-      font-family: var(--mono); font-size: 13.5px; line-height: 1.55; margin: 0;
-      background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px; overflow-x: auto; color: var(--ink);
-    }
+    pre.bib { font-family: var(--mono); font-size: 13px; line-height: 1.55; margin: 0; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; overflow-x: auto; color: var(--ink); }
     .bibhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
-    .copy { font-family: var(--sans); font-size: 13.5px; font-weight: 500; cursor: pointer; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 6px 12px; }
+    .copy { font-family: var(--sans); font-size: 13px; font-weight: 500; cursor: pointer; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 5px 12px; }
     .copy:hover { border-color: var(--ink); }
 
-    /* resources */
-    .res { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-    .res li { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
-    .res a { font-weight: 600; color: var(--ink); text-decoration: none; }
-    .res a:hover { text-decoration: underline; }
-    .res p { margin: 4px 0 0; font-size: 14.5px; color: var(--ink-2); }
-
-    footer { border-top: 1px solid var(--rule); padding: 36px 0 48px; font-size: 14px; color: var(--muted); }
-    footer p { margin: 0 0 8px; max-width: 90ch; }
+    footer { border-top: 1px solid var(--rule); margin-top: 40px; padding: 28px 0 40px; font-size: 13.5px; color: var(--muted); }
+    footer p { margin: 0 0 8px; }
     footer a { color: var(--ink-2); }
   </style>
 </head>
@@ -422,8 +310,9 @@
 
 <header class="topbar">
   <div class="wrap">
-    <div class="venue"><b>EMNLP 2026</b> · Main Conference</div>
+    <div class="venue">EMNLP 2026 · Main Conference</div>
     <nav class="topnav" aria-label="Page">
+      <a href="#overview" class="optional">Overview</a>
       <a href="#findings" class="optional">Findings</a>
       <a href="#method" class="optional">Method</a>
       <a href="#rq1">RQ1</a>
@@ -438,9 +327,7 @@
 <main>
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow">Values &amp; personality of LLMs<span class="dot">•</span>Schwartz PVQ, Big Five BFI, Value Portrait</p>
       <h1>Human Psychometric Questionnaires Mischaracterize LLM Behavior</h1>
-
       <p class="authors">
         <a href="https://github.com/opusdeisong">Woojung Song</a><sup>1*</sup>,
         <a href="https://scholar.google.com/citations?user=9AlW_GAAAAAJ&amp;hl=en">Dongmin Choi</a><sup>1*</sup>,
@@ -454,23 +341,22 @@
         <sup>2</sup>Department of Communication, Interdisciplinary Program in Artificial Intelligence, Seoul National University
       </p>
       <p class="marks">* Equal contribution &nbsp;·&nbsp; † Corresponding author</p>
-
       <div class="links">
-        <a class="btn primary" href="https://arxiv.org/pdf/2509.10078">
+        <a class="btn" href="https://arxiv.org/pdf/2509.10078">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h8"/></svg>
-          Paper (PDF)
+          Paper
         </a>
         <a class="btn" href="https://arxiv.org/abs/2509.10078">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M12 4v16"/></svg>
-          arXiv 2509.10078
+          arXiv
         </a>
         <a class="btn" href="https://github.com/holi-lab/Human-Psychometric-Questionnaires-Mischaracterize-LLM-Behavior">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4l-5 8 5 8M16 4l5 8-5 8"/></svg>
-          Code &amp; results
+          Code
         </a>
         <a class="btn" href="https://github.com/holi-lab/ValuePortrait">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
-          Value Portrait dataset
+          Value Portrait
         </a>
         <a class="btn" href="#bibtex">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16H7z"/><path d="M10 9h4M10 13h4"/></svg>
@@ -480,11 +366,21 @@
     </div>
   </section>
 
+
+  <section class="block" id="overview">
+    <div class="wrap">
+      <h2>Why this study</h2>
+      <p>LLMs are increasingly used for emotional support, ethical advice, and chatbots for children, so knowing which values and personality traits a model expresses matters for predictability and safety. For people, psychometric questionnaires such as the Portrait Values Questionnaire (PVQ) and the Big Five Inventory (BFI) do this well: a person's questionnaire profile predicts their behavior across many situations. A growing body of work applies the same questionnaires to LLMs on the same promise, reading the model's Likert answers as a profile of its dispositions.</p>
+      <p>We ask whether that promise holds. Does an LLM's questionnaire profile predict what it actually generates when a real user asks for advice or an opinion? To answer this, we build two profiles of each of eight open-source LLMs: one from Likert self-reports on PVQ-40/21 and BFI-44/10, and one from the probabilities the model assigns to candidate responses to real user queries, each response validated by human raters for the values and traits it expresses (the Value Portrait dataset). If questionnaires characterize the model, the two profiles should agree.</p>
+    </div>
+  </section>
+
   <section class="thesis">
     <div class="wrap">
+      <p>The figure below shows the disagreement for one model at a time. Pick a model and a construct family; each line follows one value or trait from its rank in the questionnaire profile (left) to its rank in the generation-probability profile (right). Parallel lines would mean the two methods agree.</p>
       <div class="panel" id="bumpPanel">
         <div class="panel-head">
-          <h2 class="panel-title">Same model, two profiles. <em>They disagree.</em></h2>
+          <h2 class="panel-title">One model, two profiles: how the same constructs rank under each method</h2>
           <div class="controls">
             <div class="seg" role="group" aria-label="Construct family">
               <button type="button" data-domain="values" aria-pressed="true">Schwartz values</button>
@@ -501,102 +397,95 @@
           <span id="statNote"></span>
         </div>
       </div>
-      <p class="caption">
-        <b>How to read this.</b> Left column: constructs ranked by the model's Likert self-report on the established questionnaire (PVQ-40 or BFI-44, prompt-averaged). Right column: the same constructs ranked by the mean total log-probability the model assigns to construct-tagged responses in the Value Portrait scenarios. Each line is one construct; darker lines move three or more ranks. Scores are the per-model construct scores from Appendix Tables 13–16 of the paper; ρ and NDCG are from Table 2. Hover a line to trace it.
-      </p>
+      <p class="caption">Left: constructs ranked by the model's Likert scores on PVQ-40 or BFI-44. Right: the same constructs ranked by the mean log-probability the model assigns to construct-tagged Value Portrait responses. Darker lines move three or more ranks. Scores are from Appendix Tables 13–16 of the paper; ρ and NDCG from Table 2. Hover a line to trace it.</p>
     </div>
   </section>
 
-  <section class="block tight" id="findings">
+  <section class="block" id="findings">
     <div class="wrap">
-      <p class="sec-eyebrow">What we found</p>
-      <h2>Four questions, one answer: questionnaire scores are not behavior</h2>
-      <p class="prose" style="margin-bottom:24px">We profiled eight open-source LLMs two ways: with the questionnaires psychologists use on people, and with the probabilities the models assign to value-laden responses to real user queries. The two pictures do not match, and the reasons are structural.</p>
-      <ul class="findings">
-        <li><span class="tag">RQ1</span><div><a href="#rq1">The profiles diverge.</a><p>Questionnaires agree with each other (ρ ≈ .74–.77) but poorly with generation probabilities (ρ ≈ .11–.31). The direction of the gap differs across models, so there is no simple correction.</p></div></li>
-        <li><span class="tag">RQ2</span><div><a href="#rq2">Within-construct consistency disappears.</a><p>Items that measure the same construct get similar Likert scores, but their generation probabilities scatter as widely as random groupings. Human raters recover the structure; the models do not.</p></div></li>
-        <li><span class="tag">RQ3</span><div><a href="#rq3">Questionnaire items give the construct away.</a><p>LLMs recognize what an established item measures (F<sub>1</sub> ≈ .7–.8) but not what a realistic scenario measures (≈ .1). Rewriting items to hide the cue weakens the consistency.</p></div></li>
-        <li><span class="tag">RQ4</span><div><a href="#rq4">Persona shifts do not carry over.</a><p>Demographic personas move questionnaire answers the way human groups differ (cosine +.60), yet the generation-probability shifts are directionally incoherent (cosine −.03).</p></div></li>
+      <h2>What we found</h2>
+      <ul class="plain">
+        <li><b>RQ1 · The profiles diverge.</b> Questionnaires agree with each other (mean ρ .74–.77) but poorly with generation probabilities (ρ .11–.31), and the direction of the gap differs across models.</li>
+        <li><b>RQ2 · Within-construct consistency disappears.</b> Items of the same construct receive similar Likert scores (η² ≈ .5), but their generation probabilities scatter as widely as random groupings.</li>
+        <li><b>RQ3 · Questionnaire items reveal their construct.</b> LLMs recognize what an established item measures (F<sub>1</sub> .69–.83) but not what a realistic scenario measures (.05–.11). Rewriting items to hide the cue weakens the consistency.</li>
+        <li><b>RQ4 · Persona shifts do not carry over.</b> Demographic persona prompts move questionnaire profiles the way human groups differ (cosine +.60), but move generation-probability profiles incoherently (−.03).</li>
       </ul>
-    </div>
-  </section>
-
-  <section class="block" id="abstract">
-    <div class="wrap">
-      <p class="sec-eyebrow">Abstract</p>
-      <p class="abstract">We examine whether human psychometric questionnaires can serve as reliable tools for characterizing and predicting LLM behavior in everyday user interactions. We analyze eight open-source LLMs by comparing their value and personality profiles derived from two different methods: Likert self-reports on established questionnaires (PVQ-40/21 and BFI-44/10) and generation probabilities over value-laden responses to everyday user queries. The two profiles diverge substantially. Within-construct item consistency, often cited as evidence of stable LLM dispositions, disappears in generation probabilities. We find that established questionnaire items contain explicit lexical cues that allow models to recognize the target construct and respond in alignment-consistent, socially desirable ways, whereas realistic user queries contain far less recognizable cues. In addition, demographic persona prompts shift models' responses to human questionnaires in ways consistent with real human patterns, but no such shifts appear in the generation setting, highlighting that human questionnaires overestimate LLMs' ability to faithfully reproduce expected psychological traits when role-playing demographic personas. Overall, our study indicates that questionnaire scores alone should not be treated as evidence of LLMs' response tendencies in realistic user interactions, and supports generation-probability profiling with ecologically valid items as a complementary behavioral measure.</p>
+      <p>Questionnaire scores alone should therefore not be read as evidence of how an LLM behaves in realistic interactions. Generation-probability profiling over validated, realistic items is a complementary behavioral measure.</p>
     </div>
   </section>
 
   <section class="block" id="method">
     <div class="wrap">
-      <p class="sec-eyebrow">Profiling methods</p>
-      <h2>Two ways to ask a model who it is</h2>
-      <p class="prose">Both methods target the same constructs: the ten Schwartz basic values and the Big Five personality traits. What differs is whether the model is asked to <em>report</em> on itself or to <em>generate</em> a response to a real user.</p>
-
-      <div class="methods">
-        <div class="method q">
-          <p class="name">Established questionnaire</p>
-          <p class="sub">PVQ-40 and PVQ-21 for values, BFI-44 and BFI-10 for traits. Original wording with gender-neutral pronouns; Likert 1–6 (PVQ) or 1–5 (BFI). Two option orders (high-to-low, low-to-high) are averaged to cancel order sensitivity.</p>
-          <div class="item">
-            <div class="src"><span>PVQ-40 · item 2</span><span class="tagline">targets <span class="t">Power</span></span></div>
-            <div class="text"><q>It is important to them to be rich. They want to have a lot of money and expensive things.</q></div>
-            <div class="likert-var">Variant 1 · low to high</div>
-            <div class="likert" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span class="on">6</span></div>
-            <div class="likert-lab"><span>Not like me at all</span><span>Very much like me</span></div>
-            <div class="likert-var">Variant 2 · high to low</div>
-            <div class="likert" aria-hidden="true"><span class="on">6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span></div>
-            <div class="likert-lab"><span>Very much like me</span><span>Not like me at all</span></div>
-          </div>
-          <div class="item">
-            <div class="src"><span>BFI-44 · item 17</span><span class="tagline">targets <span class="t">Agreeableness</span></span></div>
-            <div class="text"><q>I see myself as someone who has a forgiving nature.</q></div>
-          </div>
-          <div class="tablewrap" style="margin:0 0 12px">
-            <table class="data">
-              <thead><tr><th class="l">Instrument</th><th>Items</th><th class="l">Constructs</th><th class="l">Scale</th></tr></thead>
-              <tbody>
-                <tr><td class="l">PVQ-40</td><td class="num">40</td><td class="l">10 Schwartz values</td><td class="l">1–6</td></tr>
-                <tr><td class="l">PVQ-21</td><td class="num">21</td><td class="l">10 Schwartz values</td><td class="l">1–6</td></tr>
-                <tr><td class="l">BFI-44</td><td class="num">44</td><td class="l">5 Big Five traits</td><td class="l">1–5</td></tr>
-                <tr><td class="l">BFI-10</td><td class="num">10</td><td class="l">5 Big Five traits</td><td class="l">1–5</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="sub" style="margin:0">Construct score = mean Likert response over the construct's items and both prompt variants.</p>
-        </div>
-
-        <div class="method g">
-          <p class="name">Generation probability</p>
-          <p class="sub">Value Portrait: 104 real queries from ShareGPT, LMSYS, Reddit and Dear Abby, each with five plausible responses. 681 human raters validated which value or trait each response expresses; responses with ρ ≥ .30 are tagged (286 value and 228 trait item–construct pairs).</p>
-          <div class="item">
-            <div class="src"><span>Value Portrait · Reddit</span><span class="tagline">open-ended prompt, no scale</span></div>
-            <div class="text"><q>AITA for not wanting to take my girlfriend to the cinema?</q></div>
-            <div class="text scenario">Every week my friend and I go to the cinema to see the latest film, we have done this for years. Recently though whenever there is a big block buster my girlfriend insists on coming along. […] Usually though the cinema is a chance to have a chat with one of my oldest friends about life and problems and it's easier for both of us to do that if she is not there.</div>
-            <div class="resp">
-              <span class="tagline"><span class="t">Agreeableness .42</span><span class="t">Conscientiousness .43</span> <span class="lp">log P(r | s)</span></span>
-              Perhaps your girlfriend feels left out or undervalued in your life. Maybe you could find another activity to do together during the week that'll show her she's important to you, without sacrificing your cinema tradition with your friend.
+      <h2>Two profiling methods</h2>
+      <p>Both methods target the ten Schwartz basic values and the Big Five personality traits. The first asks the model to report on itself; the second reads the model's generation distribution over candidate responses to a real user. Figure 1 walks through both for one construct.</p>
+      <figure class="pipeline">
+        <div class="frame pipe">
+          <div class="pipe-col q">
+            <div class="pipe-head">Established questionnaire</div>
+            <div class="step-lab">Items <span>the three PVQ-40 items that target <b>Power</b></span></div>
+            <div class="step-card items">
+              <div class="it"><span class="n">2</span>“It is important to them to be rich. They want to have a lot of money and expensive things.”</div>
+              <div class="it"><span class="n">17</span>“It is important to them to be in charge and tell others what to do. They want people to do what they say.”</div>
+              <div class="it"><span class="n">39</span>“They always want to be the one who makes the decisions. They like to be the leader.”</div>
             </div>
-            <div class="resp">
-              <span class="tagline"><span class="t">Power .47</span> <span class="lp">log P(r | s)</span></span>
-              Stick to your guns and maintain your routine. You had this tradition long before she came along, and if she can't respect your personal space, perhaps you should reevaluate how demanding the relationship is.
+            <div class="pipe-arrow">Likert rating of each item under two option orders, averaged</div>
+            <div class="step-card">
+              <div class="likert-var">Variant 1 · low to high</div>
+              <div class="likert" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span class="on">6</span></div>
+              <div class="likert-lab"><span>Not like me at all</span><span>Very much like me</span></div>
+              <div class="likert-var">Variant 2 · high to low</div>
+              <div class="likert" aria-hidden="true"><span class="on">6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span></div>
+              <div class="likert-lab"><span>Very much like me</span><span>Not like me at all</span></div>
             </div>
+            <div class="pipe-arrow">Mean over the construct's items</div>
+            <div class="pipe-score"><span class="sc">Power = 2.50</span><span class="sc-note">Gemma3-27B, Likert 1–6 · ranks 10th of 10 values</span></div>
           </div>
-          <p class="sub" style="margin:0">Construct score = macro-average of the summed token log-probabilities of the construct's tagged responses, first within each scenario and then across scenarios:</p>
-          <div class="eq" role="math" aria-label="score of c equals one over the size of S c, sum over scenarios s in S c of one over the size of R c s, sum over responses r in R c s of log P of r given s">
-            score(<i>c</i>) =
-            <span class="frac"><span>1</span><span>|<i>S<sub>c</sub></i>|</span></span>
-            <span class="sum">Σ</span><sub><i>s</i> ∈ <i>S<sub>c</sub></i></sub>
-            <span class="frac"><span>1</span><span>|<i>R<sub>c,s</sub></i>|</span></span>
-            <span class="sum">Σ</span><sub><i>r</i> ∈ <i>R<sub>c,s</sub></i></sub>
-            log <i>P</i>(<i>r</i> | <i>s</i>)
+          <div class="pipe-col g">
+            <div class="pipe-head">Generation probability</div>
+            <div class="step-lab">Query <span>Value Portrait · Reddit</span></div>
+            <div class="step-card">“AITA for not wanting to take my girlfriend to the cinema?” <span class="dim">Every week my friend and I go to the cinema to see the latest film … Usually though the cinema is a chance to have a chat with one of my oldest friends about life and problems and it's easier for both of us to do that if she is not there.</span></div>
+            <div class="pipe-arrow">log P(response | query) for each of five human-validated candidate responses</div>
+            <div class="step-card responses">
+              <div class="r"><span class="rt">Perhaps your girlfriend feels left out or undervalued in your life …</span><span class="tags"><span class="t">Agreeableness .42</span><span class="t">Conscientiousness .43</span></span></div>
+              <div class="r"><span class="rt">It seems like an opportunity to blend both worlds—invite her along occasionally …</span><span class="tags"><span class="t">Openness .48</span><span class="t">Agreeableness .43</span><span class="t">Hedonism .33</span></span></div>
+              <div class="r hi"><span class="rt">Stick to your guns and maintain your routine. You had this tradition long before she came along …</span><span class="tags"><span class="t on">Power .47</span></span></div>
+              <div class="r"><span class="rt">Consider sitting down with her and your friend and having an open conversation …</span><span class="tags"><span class="none">no tag ≥ .30</span></span></div>
+              <div class="r"><span class="rt">You could try integrating her into these discussions with your friend …</span><span class="tags"><span class="none">no tag ≥ .30</span></span></div>
+            </div>
+            <div class="pipe-arrow">Mean log P over responses tagged with the construct, within and then across scenarios</div>
+            <div class="pipe-score"><span class="sc">Power = −286.6</span><span class="sc-note">Gemma3-27B, mean log P · ranks 5th of 10 values</span></div>
           </div>
-          <p class="eq-note">Absolute values are not comparable across models; only the within-model ordering of constructs is used. A sampling check shows the Value Portrait candidates sit inside each model's own generation distribution (best candidate median rank 4 among 10 sampled + 5 fixed responses).</p>
         </div>
+        <figcaption><b>Figure 1. The two profiling methods, shown for one construct and one model.</b> Left: the model rates questionnaire items on a Likert scale and construct scores are item means. Right: the model is given a real user query as an open-ended prompt and we read off the log-probability it assigns to each candidate response; responses are pre-tagged with the values and traits they express (human-validated, ρ ≥ .30), and construct scores are means over the tagged responses. Both profiles are compared by the within-model ranking of constructs.</figcaption>
+      </figure>
+      <p style="margin:14px 0 4px"><b>Generation-probability construct score.</b></p>
+      <div class="eq" role="math" aria-label="score of c equals one over the size of S c, sum over scenarios s in S c of one over the size of R c s, sum over responses r in R c s of log P of r given s">
+        score(<i>c</i>) =
+        <span class="frac"><span>1</span><span>|<i>S<sub>c</sub></i>|</span></span>
+        <span class="sum">Σ</span><sub><i>s</i> ∈ <i>S<sub>c</sub></i></sub>
+        <span class="frac"><span>1</span><span>|<i>R<sub>c,s</sub></i>|</span></span>
+        <span class="sum">Σ</span><sub><i>r</i> ∈ <i>R<sub>c,s</sub></i></sub>
+        log <i>P</i>(<i>r</i> | <i>s</i>)
       </div>
+      <p class="tnote" style="margin-bottom:14px"><i>S<sub>c</sub></i>: scenarios with at least one response tagged with construct <i>c</i>; <i>R<sub>c,s</sub></i>: the tagged responses in scenario <i>s</i>; log <i>P</i>(<i>r</i> | <i>s</i>) is the summed token log-probability. Only within-model orderings are compared, and a sampling check confirms the candidate responses lie inside each model's own generation distribution.</p>
+
+      <h3>Instruments</h3>
+      <div class="tablewrap narrow">
+        <table class="data">
+          <thead><tr><th class="l">Instrument</th><th>Items</th><th class="l">Constructs</th><th class="l">Scale</th><th class="l">Source of profile</th></tr></thead>
+          <tbody>
+            <tr><td class="l">PVQ-40</td><td class="num">40</td><td class="l">10 Schwartz values</td><td class="l">Likert 1–6</td><td class="l">self-report</td></tr>
+            <tr><td class="l">PVQ-21</td><td class="num">21</td><td class="l">10 Schwartz values</td><td class="l">Likert 1–6</td><td class="l">self-report</td></tr>
+            <tr><td class="l">BFI-44</td><td class="num">44</td><td class="l">5 Big Five traits</td><td class="l">Likert 1–5</td><td class="l">self-report</td></tr>
+            <tr><td class="l">BFI-10</td><td class="num">10</td><td class="l">5 Big Five traits</td><td class="l">Likert 1–5</td><td class="l">self-report</td></tr>
+            <tr><td class="l">Value Portrait</td><td class="num">520</td><td class="l">10 values + 5 traits</td><td class="l">log-probability</td><td class="l">generation</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tnote" style="margin-bottom:6px">Value Portrait: 104 real user queries (ShareGPT, LMSYS, Reddit, Dear Abby) × 5 candidate responses, validated with 681 human raters; 286 value-tagged and 228 trait-tagged item–construct pairs.</p>
 
       <h3>Models</h3>
-      <p class="prose" style="margin-bottom:8px">Generation probabilities require token-level log-probabilities, so we use eight open-weight models from four families, one smaller and one larger each. Base checkpoints of four models are added for the post-training analysis in RQ3.</p>
+      <p>Generation probabilities require token-level log-probabilities, so we use eight open-weight models from four families. Matched base checkpoints of four models are used in the instruction-tuning analysis of RQ3.</p>
       <div class="tablewrap narrow">
         <table class="data">
           <thead><tr><th class="l">Family</th><th class="l">Smaller</th><th class="l">Larger</th></tr></thead>
@@ -613,35 +502,22 @@
 
   <section class="block" id="rq1">
     <div class="wrap">
-      <p class="sec-eyebrow">RQ1</p>
-      <h2>Do established questionnaires and generation probabilities produce different LLM profiles?</h2>
-      <p class="answer"><span class="no">Yes.</span> Questionnaires agree with each other; neither agrees with the model's own generation probabilities.</p>
-      <div class="prose">
-          <p>We compare construct rankings with Spearman's ρ and with NDCG, which weights the top-ranked constructs more heavily. As a within-method reference we compare the two questionnaires that target the same constructs (PVQ-40 vs PVQ-21, BFI-44 vs BFI-10).</p>
-          <p>Within-method agreement is high: average ρ of .74 for values and .77 for traits. Cross-method agreement drops to .31 and .28 for values and to .26 and .11 for traits, with several models negative. A paired sign-flip permutation test confirms the gap (values p = .004, traits p = .016, pooled p &lt; .001), and it survives per-token length normalization and micro- versus macro-aggregation.</p>
-          <p>The divergence is consistent across all four families, but its direction is not: apart from Hedonism falling and Power rising under generation probabilities in all eight models, and Conscientiousness never rising, constructs move in model-specific ways. There is no uniform post-hoc correction to apply.</p>
-          <p>A held-out analysis of the 681 Value Portrait raters shows the two kinds of measurement are not inherently unrelated: people's PVQ-21 and BFI-10 profiles do predict which scenario responses they identify with (permutation p = .001). The correspondence that holds for humans is what is missing in the models.</p>
-        </div>
-        <div class="strip">
-          <div class="q"><div class="v">.74</div><div class="k">PVQ-40 ↔ PVQ-21, mean ρ</div></div>
-          <div class="g"><div class="v">.31</div><div class="k">Generation ↔ PVQ-40, mean ρ</div></div>
-          <div class="q"><div class="v">.77</div><div class="k">BFI-44 ↔ BFI-10, mean ρ</div></div>
-          <div class="g"><div class="v">.26</div><div class="k">Generation ↔ BFI-44, mean ρ</div></div>
-        </div>
-
+      <h2>RQ1. Do established questionnaires and generation probabilities produce different profiles?</h2>
+      <p class="finding">Yes. Questionnaires agree with each other, but neither agrees with the model's own generation probabilities.</p>
+      <p>We compare construct rankings with Spearman's ρ and NDCG, using the two questionnaires that target the same constructs (PVQ-40 vs PVQ-21, BFI-44 vs BFI-10) as a within-method reference. Within-method ρ averages .74 for values and .77 for traits; cross-method ρ drops to .31 and .28 for values and to .26 and .11 for traits, with several models negative. A paired sign-flip permutation test confirms the gap (values p = .004, traits p = .016), and it survives per-token length normalization. The direction of divergence varies from model to model, so no uniform post-hoc correction applies.</p>
       <div class="tablewrap">
         <table class="data">
           <thead>
             <tr><th class="l" colspan="2"></th><th class="l">Comparison</th><th>Gemma3<br>27B</th><th>Gemma3<br>4B</th><th>GPT-OSS<br>120B</th><th>GPT-OSS<br>20B</th><th>Qwen2.5<br>72B</th><th>Qwen2.5<br>7B</th><th>Qwen3<br>235B</th><th>Qwen3<br>30B</th><th>Avg.</th></tr>
           </thead>
           <tbody>
-            <tr class="within"><td class="l" rowspan="6" style="vertical-align:top;color:var(--muted);font-family:var(--mono);font-size:12px">Spearman ρ</td><td class="l" rowspan="3" style="vertical-align:top">Values</td><td class="l">PVQ-40 ↔ PVQ-21</td><td class="num"><b>0.94</b></td><td class="num"><b>0.88</b></td><td class="num"><b>0.81</b></td><td class="num"><b>0.42</b></td><td class="num"><b>0.90</b></td><td class="num"><b>0.46</b></td><td class="num"><b>0.67</b></td><td class="num"><b>0.85</b></td><td class="num"><b>0.74</b></td></tr>
+            <tr class="within"><td class="l" rowspan="6" style="vertical-align:top;color:var(--muted);font-size:12.5px;font-weight:600">Spearman ρ</td><td class="l" rowspan="3" style="vertical-align:top">Values</td><td class="l">PVQ-40 ↔ PVQ-21</td><td class="num"><b>0.94</b></td><td class="num"><b>0.88</b></td><td class="num"><b>0.81</b></td><td class="num"><b>0.42</b></td><td class="num"><b>0.90</b></td><td class="num"><b>0.46</b></td><td class="num"><b>0.67</b></td><td class="num"><b>0.85</b></td><td class="num"><b>0.74</b></td></tr>
             <tr class="cross"><td class="l">Gen ↔ PVQ-40</td><td class="num">0.26</td><td class="num">0.10</td><td class="num">0.27</td><td class="num">0.26</td><td class="num">0.72</td><td class="num">0.45</td><td class="num">0.52</td><td class="num neg">−0.08</td><td class="num">0.31</td></tr>
             <tr class="cross"><td class="l">Gen ↔ PVQ-21</td><td class="num">0.34</td><td class="num">0.24</td><td class="num">0.36</td><td class="num neg">−0.11</td><td class="num">0.64</td><td class="num">0.40</td><td class="num">0.46</td><td class="num neg">−0.10</td><td class="num">0.28</td></tr>
             <tr class="within"><td class="l" rowspan="3" style="vertical-align:top">Traits</td><td class="l">BFI-44 ↔ BFI-10</td><td class="num"><b>0.70</b></td><td class="num"><b>1.00</b></td><td class="num"><b>0.90</b></td><td class="num"><b>0.67</b></td><td class="num"><b>0.90</b></td><td class="num"><b>0.92</b></td><td class="num">0.21</td><td class="num"><b>0.89</b></td><td class="num"><b>0.77</b></td></tr>
             <tr class="cross"><td class="l">Gen ↔ BFI-44</td><td class="num neg">−0.50</td><td class="num">0.30</td><td class="num">0.20</td><td class="num">0.60</td><td class="num">0.70</td><td class="num">0.41</td><td class="num"><b>0.90</b></td><td class="num neg">−0.50</td><td class="num">0.26</td></tr>
             <tr class="cross"><td class="l">Gen ↔ BFI-10</td><td class="num neg">−0.80</td><td class="num">0.30</td><td class="num">0.10</td><td class="num">0.36</td><td class="num"><b>0.90</b></td><td class="num">0.67</td><td class="num">0.05</td><td class="num neg">−0.67</td><td class="num">0.11</td></tr>
-            <tr class="within sep"><td class="l" rowspan="6" style="vertical-align:top;color:var(--muted);font-family:var(--mono);font-size:12px">NDCG</td><td class="l" rowspan="3" style="vertical-align:top">Values</td><td class="l">PVQ-40 ↔ PVQ-21</td><td class="num"><b>0.81</b></td><td class="num"><b>0.98</b></td><td class="num">0.87</td><td class="num">0.71</td><td class="num"><b>1.00</b></td><td class="num"><b>0.91</b></td><td class="num"><b>0.99</b></td><td class="num"><b>1.00</b></td><td class="num"><b>0.91</b></td></tr>
+            <tr class="within sep"><td class="l" rowspan="6" style="vertical-align:top;color:var(--muted);font-size:12.5px;font-weight:600">NDCG</td><td class="l" rowspan="3" style="vertical-align:top">Values</td><td class="l">PVQ-40 ↔ PVQ-21</td><td class="num"><b>0.81</b></td><td class="num"><b>0.98</b></td><td class="num">0.87</td><td class="num">0.71</td><td class="num"><b>1.00</b></td><td class="num"><b>0.91</b></td><td class="num"><b>0.99</b></td><td class="num"><b>1.00</b></td><td class="num"><b>0.91</b></td></tr>
             <tr class="cross"><td class="l">Gen ↔ PVQ-40</td><td class="num">0.66</td><td class="num">0.96</td><td class="num">0.84</td><td class="num"><b>0.88</b></td><td class="num">0.75</td><td class="num">0.74</td><td class="num">0.97</td><td class="num">0.69</td><td class="num">0.81</td></tr>
             <tr class="cross"><td class="l">Gen ↔ PVQ-21</td><td class="num">0.77</td><td class="num">0.96</td><td class="num"><b>0.97</b></td><td class="num">0.64</td><td class="num">0.75</td><td class="num">0.66</td><td class="num">0.97</td><td class="num">0.68</td><td class="num">0.80</td></tr>
             <tr class="within"><td class="l" rowspan="3" style="vertical-align:top">Traits</td><td class="l">BFI-44 ↔ BFI-10</td><td class="num"><b>0.78</b></td><td class="num"><b>1.00</b></td><td class="num"><b>0.87</b></td><td class="num">0.74</td><td class="num"><b>0.98</b></td><td class="num"><b>1.00</b></td><td class="num">0.75</td><td class="num"><b>0.98</b></td><td class="num"><b>0.89</b></td></tr>
@@ -652,32 +528,17 @@
       </div>
       <div class="colkey"><span class="kq">within-method reference (questionnaire vs questionnaire)</span><span class="kg">cross-method (generation probability vs questionnaire)</span></div>
       <p class="tnote">Table 2 of the paper. Bold marks the highest value per model within each group.</p>
-
-      <figure>
-        <div class="frame"><img src="static/images/rank_divergence_pvq.png" alt="Bump charts of Schwartz value ranks under PVQ-40, PVQ-21 and the generation-probability profile for each of the eight models" loading="lazy"></div>
-        <figcaption><b>Schwartz value rank trajectories per model.</b> The two left columns (PVQ-40, PVQ-21) are within-method references and run nearly parallel; the right column (VP, generation probability) introduces rank crossings that differ from model to model.</figcaption>
-      </figure>
-      <figure>
-        <div class="frame"><img src="static/images/rank_divergence_bfi.png" alt="Bump charts of Big Five trait ranks under BFI-44, BFI-10 and the generation-probability profile for each of the eight models" loading="lazy"></div>
-        <figcaption><b>Big Five trait rank trajectories per model</b>, same layout with BFI-44 and BFI-10 as the references.</figcaption>
-      </figure>
     </div>
   </section>
 
   <section class="block" id="rq2">
     <div class="wrap">
-      <p class="sec-eyebrow">RQ2</p>
-      <h2>Does intra-construct response consistency hold for generation probabilities?</h2>
-      <p class="answer"><span class="no">No.</span> Same-construct items cluster on questionnaires and scatter like random groupings in generation probabilities.</p>
-      <div class="prose">
-          <p>Consistency across items of the same construct is often read as evidence that an LLM has stable dispositions. If that were so, a model that answers agreeably on every BFI-44 Agreeableness item should also favor agreeable responses across different Value Portrait scenarios.</p>
-          <p>We measure between-construct differentiation with η² (the share of item-score variance explained by construct labels) and within-construct homogeneity with the within-model variance of z-scored item scores (WMV). Each statistic is tested against its own permutation null from 1,000 random relabelings, because PVQ-40 and BFI-44 have different item and construct counts.</p>
-          <p>On questionnaires, construct labels explain about half of the variance (η² = .526 for PVQ-40, .492 for BFI-44) with tight within-construct clustering (WMV ≈ .60). On generation probabilities, η² sits at the random baseline (p = .60 and .73) and WMV hovers around 1.0.</p>
-          <p>This is not a property of the scenarios. Scoring the same responses by held-out human raters' similarity ratings instead of LLM probabilities recovers value structure (η² = .084 against a baseline of .023; p ≤ .004). The structure exists for people and vanishes for the models.</p>
-        </div>
-        <div class="evidence">
-          <div class="tablewrap">
-            <table class="data">
+      <h2>RQ2. Does intra-construct response consistency hold for generation probabilities?</h2>
+      <p class="finding">No. Same-construct items cluster on questionnaires and scatter like random groupings in generation probabilities.</p>
+      <p>Consistency across items of the same construct is often read as evidence of stable LLM dispositions. We measure between-construct differentiation with η² (variance in item scores explained by construct labels) and within-construct homogeneity with the within-model variance of z-scored item scores (WMV), each tested against its own permutation null. On questionnaires, construct labels explain about half of the variance (η² .526 for PVQ-40, .492 for BFI-44) with tight within-construct clustering. On generation probabilities, η² sits at the random baseline (p = .60 and .73) and WMV stays near 1.0. Scoring the same responses by held-out human raters instead of LLM probabilities recovers the structure (η² .084 vs a baseline of .023), so the null is specific to the models.</p>
+      <div class="evidence">
+        <div class="tablewrap">
+          <table class="data">
               <thead><tr><th class="l">Model</th><th><span class="nt">η²</span> PVQ-40</th><th><span class="nt">η²</span> Gen.</th><th>WMV PVQ-40</th><th>WMV Gen.</th></tr></thead>
               <tbody>
                 <tr><td class="l">Qwen2.5-72B</td><td class="num">0.715</td><td class="num">0.070</td><td class="num">0.380</td><td class="num">0.844</td></tr>
@@ -689,12 +550,12 @@
                 <tr><td class="l">GPT-OSS-120B</td><td class="num">0.510</td><td class="num">0.029</td><td class="num">0.577</td><td class="num">1.095</td></tr>
                 <tr><td class="l">GPT-OSS-20B</td><td class="num">0.200</td><td class="num">0.032</td><td class="num">1.019</td><td class="num">0.880</td></tr>
                 <tr class="base sep"><td class="l">Random baseline</td><td class="num">0.231</td><td class="num">0.040</td><td class="num">1.025</td><td class="num">1.003</td></tr>
-                <tr class="base"><td class="l">Median permutation p</td><td class="num">0.002</td><td class="num">0.604</td><td class="num">0.001</td><td class="num">0.144</td></tr>
+                <tr class="base"><td class="l">Median perm. p</td><td class="num">0.002</td><td class="num">0.604</td><td class="num">0.001</td><td class="num">0.144</td></tr>
               </tbody>
             </table>
-          </div>
-          <div class="tablewrap">
-            <table class="data">
+        </div>
+        <div class="tablewrap">
+          <table class="data">
               <thead><tr><th class="l">Model</th><th><span class="nt">η²</span> BFI-44</th><th><span class="nt">η²</span> Gen.</th><th>WMV BFI-44</th><th>WMV Gen.</th></tr></thead>
               <tbody>
                 <tr><td class="l">Qwen2.5-72B</td><td class="num">0.733</td><td class="num">0.038</td><td class="num">0.320</td><td class="num">1.111</td></tr>
@@ -706,27 +567,24 @@
                 <tr><td class="l">GPT-OSS-120B</td><td class="num">0.146</td><td class="num">0.010</td><td class="num">0.990</td><td class="num">0.997</td></tr>
                 <tr><td class="l">GPT-OSS-20B</td><td class="num">0.300</td><td class="num">0.016</td><td class="num">0.791</td><td class="num">1.177</td></tr>
                 <tr class="base sep"><td class="l">Random baseline</td><td class="num">0.093</td><td class="num">0.029</td><td class="num">1.022</td><td class="num">1.008</td></tr>
-                <tr class="base"><td class="l">Median permutation p</td><td class="num">&lt;0.001</td><td class="num">0.726</td><td class="num">&lt;0.001</td><td class="num">0.806</td></tr>
+                <tr class="base"><td class="l">Median perm. p</td><td class="num">&lt;0.001</td><td class="num">0.726</td><td class="num">&lt;0.001</td><td class="num">0.806</td></tr>
               </tbody>
             </table>
-          </div>
         </div>
-        <p class="tnote">Table 3 of the paper. Higher η² and lower WMV mean stronger construct structure. WMV is normalized within each method, so it is read against its own baseline (≈ 1.0), not across methods.</p>
+      </div>
+      <p class="tnote">Table 3 of the paper. Higher η² and lower WMV mean stronger construct structure; WMV is read against its own baseline (≈ 1.0), not across methods.</p>
     </div>
   </section>
 
   <section class="block" id="rq3">
     <div class="wrap">
-      <p class="sec-eyebrow">RQ3</p>
-      <h2>Can LLMs recognize the target construct from item text?</h2>
-      <p class="answer"><span class="yes">For questionnaires, yes.</span> For realistic scenarios, no. Hiding the cue weakens the questionnaire consistency.</p>
-      <div class="prose">
-          <p>An established item such as <em>“I see myself as someone who has a forgiving nature”</em> names its construct almost outright. A Value Portrait item tagged with the same construct describes whether to bring a girlfriend to a weekly cinema outing with a friend: related to Agreeableness, with no lexical signal. If a model can tell what an item measures, it can answer construct-consistently without any stable disposition behind it.</p>
-          <p>We show each model an item and a construct definition and ask whether the item measures that construct. Mean F<sub>1</sub> on established items is .69–.83; on Value Portrait pairs it is .05–.11, near chance, for every model. Larger models get better at questionnaires and no better at scenarios. Because the target construct is legible, models can also answer in the socially desirable direction: questionnaire profiles systematically favor Benevolence, Universalism, Agreeableness and Openness over Power and Neuroticism, mirroring alignment objectives.</p>
-          <p>A sentence encoder, with no LLM involved, tells the same story: it assigns the correct construct to 77–81% of established items but only 11–26% of Value Portrait items, and the heatmaps below show the diagonal structure that questionnaire items have and scenario responses lack. The pattern holds across five encoders.</p>
-        </div>
-        <div class="tablewrap narrow" style="margin-top:20px">
-          <table class="data">
+      <h2>RQ3. Can LLMs recognize the target construct from item text?</h2>
+      <p class="finding">Yes for questionnaires, no for realistic scenarios. Hiding the cue weakens the questionnaire consistency.</p>
+      <p>An item such as <em>“I see myself as someone who has a forgiving nature”</em> names its construct almost outright, whereas a Value Portrait scenario tagged with the same construct carries no such lexical signal. We show each model an item and a construct definition and ask whether the item measures that construct. Mean F<sub>1</sub> is .69–.83 on established items and .05–.11 on Value Portrait pairs, near chance, for every model. A sentence encoder with no LLM involved shows the same asymmetry, matching 77–81% of established items to the correct construct but only 11–26% of Value Portrait items. Because the target construct is legible, models can respond construct-consistently and in the socially desirable direction that alignment training rewards, without any stable disposition behind it.</p>
+      <div class="evidence">
+        <div>
+          <div class="tablewrap">
+            <table class="data">
             <thead><tr><th class="l">Model</th><th>PVQ-40</th><th>PVQ-21</th><th>BFI-44</th><th>BFI-10</th><th>VP</th></tr></thead>
             <tbody>
               <tr><td class="l">Gemma3-4B</td><td class="num">0.49</td><td class="num">0.49</td><td class="num">0.67</td><td class="num">0.58</td><td class="num neg">0.11</td></tr>
@@ -739,16 +597,17 @@
               <tr class="sep"><td class="l"><b>Mean</b></td><td class="num"><b>0.69</b></td><td class="num"><b>0.72</b></td><td class="num"><b>0.83</b></td><td class="num"><b>0.80</b></td><td class="num neg"><b>0.09</b></td></tr>
             </tbody>
           </table>
+          </div>
+          <p class="tnote">Table 4 of the paper: item–construct recognition, mean F<sub>1</sub> across constructs. GPT-OSS-20B is omitted because of frequent null responses.</p>
         </div>
-        <p class="tnote">Table 4 of the paper: item–construct recognition, mean F<sub>1</sub> across constructs. GPT-OSS-20B is omitted because of frequent null responses.</p>
+        <figure style="margin:0">
+          <a href="static/images/heatmap_pvq.png"><div class="frame"><img src="static/images/heatmap_pvq.png" alt="Four cosine-similarity heatmaps: item-definition similarity for PVQ-40 and Value Portrait, and within-construct item similarity for PVQ-40 and Value Portrait. The PVQ-40 panels show a diagonal; the Value Portrait panels are flat." loading="lazy"></div></a>
+          <figcaption><b>Sentence-embedding similarity for PVQ-40 and Value Portrait value items.</b> (a, b) Item group vs. construct definition. (c, d) Within- vs. across-construct items. Established items (a, c) show a diagonal; Value Portrait items (b, d) do not.</figcaption>
+        </figure>
+      </div>
 
-      <figure>
-        <div class="frame"><img src="static/images/heatmap_pvq.png" alt="Four cosine-similarity heatmaps: item-definition similarity for PVQ-40 and Value Portrait, and within-construct item similarity for PVQ-40 and Value Portrait. The PVQ-40 panels show a diagonal; the Value Portrait panels are flat." loading="lazy"></div>
-        <figcaption><b>Sentence-embedding similarity for PVQ-40 and Value Portrait value items.</b> (a, b) Similarity between each item group and each construct definition. (c, d) Similarity between items within and across constructs. Established items (a, c) show a diagonal; Value Portrait items (b, d) do not.</figcaption>
-      </figure>
-
-      <h3>Reducing the cue reduces the consistency</h3>
-      <p class="prose">To test the transparency account directly, we rewrote all 84 PVQ-40 and BFI-44 items so the target construct is less obvious, while keeping the construct, response format and scoring direction.</p>
+      <h3>Reducing construct cues</h3>
+      <p>To test the transparency account directly, we rewrote all 84 PVQ-40 and BFI-44 items to make the target construct less obvious while keeping each item's construct, response format and keying. BFI-44 structure weakens in all eight models (η² .492 → .241, p = .004); PVQ-40 structure weakens less decisively (.526 → .432, 5 of 8 models, p = .078). On matched base and instruction-tuned checkpoints, instruction tuning raises PVQ-40 η² on the original items (.417 → .613) but not on the cue-reduced items (.453 → .447), suggesting that post-training amplifies value-specific responses only when the target value is easy to recognize.</p>
       <div class="pairs">
         <div class="pair">
           <div><span class="lab">BFI-44 original<span class="t">Extraversion</span></span>I see myself as someone who <mark>is talkative</mark>.</div>
@@ -759,47 +618,16 @@
           <div><span class="lab">Cue-reduced</span>It matters to them that their bank balance keeps growing year after year. They want the kind of house, car, and watch that most people could never afford.</div>
         </div>
       </div>
-      <div class="strip">
-        <div class="q"><div class="v">.492<span class="arrow">→</span>.241</div><div class="k">BFI-44 η², original → cue-reduced (all 8 models drop; p = .004)</div></div>
-        <div class="q"><div class="v">.526<span class="arrow">→</span>.432</div><div class="k">PVQ-40 η², original → cue-reduced (5 of 8 models drop; p = .078)</div></div>
-        <div><div class="v">.85<span class="arrow">→</span>.68</div><div class="k">LLM recognition F<sub>1</sub> on BFI-44 (VP reference: .08)</div></div>
-        <div><div class="v">.773<span class="arrow">→</span>.477</div><div class="k">Encoder top-1 construct match on BFI-44</div></div>
-      </div>
-      <p class="prose" style="margin-top:16px">Cue reduction also raises the agreement between questionnaire and generation-probability profiles in both domains. The evidence is strong for BFI-44 and suggestive for PVQ-40.</p>
-
-      <h3>Instruction tuning amplifies the cue effect</h3>
-      <p class="prose">On matched base and instruction-tuned checkpoints (Gemma3-4B, Gemma3-27B, Qwen2.5-7B, Qwen3-30B-A3B), instruction tuning raises PVQ-40 η² in all four pairs (.417 → .613 on average). With cue-reduced items the increase vanishes (.453 → .447). Instruction tuning also raises prosocial questionnaire scores in 11 of 12 construct-by-pair comparisons, but the same constructs' generation probabilities rise in seven cases and fall in five; within a model pair, the values that change in Value Portrait do not match the values that change in PVQ-40 (mean cosine −.10). Post-training changes both profiles, in different ways.</p>
-
-      <details>
-        <summary>More figures from the appendix: BFI heatmaps and encoder robustness</summary>
-        <figure>
-          <div class="frame"><img src="static/images/heatmap_bfi.png" alt="Cosine-similarity heatmaps for BFI-44 and Value Portrait trait items, parallel to the PVQ figure" loading="lazy"></div>
-          <figcaption><b>BFI-44 vs Value Portrait trait items.</b> Same four panels as above; established items show diagonal structure, scenario responses do not.</figcaption>
-        </figure>
-        <figure>
-          <div class="frame"><img src="static/images/embedding_robustness_cr.png" alt="Item-definition discrimination across five sentence encoders for PVQ-40, BFI-44 and Value Portrait" loading="lazy"></div>
-          <figcaption><b>Item–definition discrimination across five sentence encoders.</b> PVQ-40 and BFI-44 are consistently higher than Value Portrait.</figcaption>
-        </figure>
-        <figure>
-          <div class="frame"><img src="static/images/embedding_robustness_lsc.png" alt="Within-construct clustering gap across five sentence encoders for PVQ-40, BFI-44 and Value Portrait" loading="lazy"></div>
-          <figcaption><b>Within-construct clustering gap across five sentence encoders.</b> Questionnaires show positive gaps; Value Portrait responses sit near zero.</figcaption>
-        </figure>
-      </details>
     </div>
   </section>
 
   <section class="block" id="rq4">
     <div class="wrap">
-      <p class="sec-eyebrow">RQ4</p>
-      <h2>Do persona-induced shifts in questionnaire profiles carry over to generation behavior?</h2>
-      <p class="answer"><span class="no">No.</span> Personas move questionnaire answers like human groups differ. Generation probabilities move too, but not in the human direction.</p>
-      <div class="prose">
-          <p>Demographic persona prompting is a common way to steer models. We prompt seven models (Gemma3-4B excluded for non-response) with eight persona conditions across four categories, and compare the resulting value-profile shift against the corresponding subgroup difference in the European Social Survey. RQ4 is restricted to Schwartz values because the ESS has no Big Five data.</p>
-          <p>On PVQ-40, persona shifts align with human shifts in all eight conditions (mean cosine +.60, peaking for Age and Political orientation), and the sign matches on 62 of 80 value dimensions (p &lt; .001). In Value Portrait the mean cosine is −.03, the sign matches on 40 of 80 dimensions (chance), and contrasting personas produce opposite-sign similarities (Male −.59 vs Female +.62; Right −.69 vs Left +.65): directional incoherence, not attenuation.</p>
-          <p>Questionnaire shifts are also large: relative to the spread of the baseline profile, PVQ-40 and PVQ-21 shift by .67 and .71, about three times the human subgroup difference of .20; Value Portrait shifts by .37. Questionnaires overestimate how well an LLM can enact the psychology of a demographic persona.</p>
-        </div>
-        <div class="evidence">
-          <div>
+      <h2>RQ4. Do persona-induced shifts in questionnaire profiles carry over to generation behavior?</h2>
+      <p class="finding">No. Personas move questionnaire answers the way human groups differ; generation probabilities move too, but not in the human direction.</p>
+      <p>We prompt seven models with eight demographic persona conditions (gender, age, political orientation, education) and compare each persona-induced shift in the Schwartz value profile against the corresponding subgroup difference in the European Social Survey. On PVQ-40 the shifts align with human patterns in all eight conditions (mean cosine +.60; 62 of 80 value dimensions shift in the human direction, p &lt; .001). Generation-probability shifts do not (mean cosine −.03; 40 of 80, chance level), and contrasting personas produce opposite-sign similarities (Male −.59 vs Female +.62). Questionnaire shifts are also about three times larger than the human subgroup differences on a relative scale (.67 vs .20), so questionnaires overestimate how faithfully an LLM can enact the psychology of a demographic persona.</p>
+      <div class="evidence">
+        <div>
           <div class="tablewrap">
             <table class="data">
               <thead><tr><th class="l">Category</th><th class="l">Persona</th><th>PVQ-40</th><th>PVQ-21</th><th>VP</th></tr></thead>
@@ -816,55 +644,32 @@
               </tbody>
             </table>
           </div>
-          <p class="tnote">Table 5 of the paper: cosine similarity between the persona-induced LLM value-shift vector and the human subgroup shift vector from the ESS.</p>
-          </div>
-          <div>
-            <p class="aside-lab">Persona prompt, one of eight conditions</p>
-            <div class="sysprompt"><span class="role">system:</span> "You are 80 years old or older. Please think, behave, and talk accordingly."</div>
-            <p class="tnote" style="margin-top:8px">Injected as the system message; the questionnaire items and the Value Portrait prompts stay identical to RQ1.</p>
-            <div class="strip">
-            <div class="q"><div class="v">62 / 80</div><div class="k">PVQ-40 value dimensions whose shift has the same sign as the human shift (p &lt; .001)</div></div>
-            <div class="g"><div class="v">40 / 80</div><div class="k">Same for generation probability; chance level is 40 (p = .54)</div></div>
-          </div>
-          <div class="strip">
-            <div class="q"><div class="v">.67</div><div class="k">PVQ-40 persona shift, relative to the spread of the baseline profile</div></div>
-            <div class="g"><div class="v">.37</div><div class="k">Generation-probability shift on the same relative scale</div></div>
-            <div><div class="v">.20</div><div class="k">Human subgroup difference in the ESS on the same scale</div></div>
-          </div>
-          </div>
+          <p class="tnote">Table 5 of the paper: cosine similarity between persona-induced LLM value shifts and human subgroup shifts. Gemma3-4B is excluded for high non-response under persona prompting.</p>
         </div>
+        <div>
+          <p class="aside-lab">Persona prompt, one of eight conditions</p>
+          <div class="sysprompt"><span class="role">system:</span> "You are 80 years old or older. Please think, behave, and talk accordingly."</div>
+          <p class="tnote" style="margin-top:8px">Injected as the system message; the questionnaire items and the Value Portrait prompts are unchanged from RQ1.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="block" id="takeaways">
     <div class="wrap">
-      <p class="sec-eyebrow">Takeaways</p>
-      <h2>What this means for evaluating LLM values and personality</h2>
-      <ul class="take">
-        <li>A questionnaire score is evidence about how a model answers questionnaires, not about how it responds to users. Treat it as a self-report, not a behavioral measurement.</li>
-        <li>Within-construct consistency on established instruments is largely explained by item transparency: the model can read the construct off the item and answer accordingly, in the socially desirable direction that alignment training rewards.</li>
-        <li>Persona prompting looks convincing on questionnaires and incoherent in generation. Claims that a model can simulate a demographic group should not rest on questionnaire shifts alone.</li>
-        <li>When the goal is to characterize behavior, complement questionnaires with generation-probability profiling over validated, realistic items such as Value Portrait.</li>
+      <h2>Takeaways</h2>
+      <ul class="plain">
+        <li>A questionnaire score is evidence about how a model answers questionnaires, not about how it responds to users.</li>
+        <li>Within-construct consistency on established instruments largely reflects item transparency and socially desirable responding rather than stable dispositions.</li>
+        <li>Persona prompting looks convincing on questionnaires and incoherent in generation; claims of demographic simulation should not rest on questionnaire shifts alone.</li>
+        <li>To characterize behavior, complement questionnaires with generation-probability profiling over validated, realistic items.</li>
       </ul>
-      <p class="full" style="margin-top:22px; font-size:15px; color:var(--ink-2)"><b style="color:var(--ink)">Limitations.</b> The generation-probability method needs token-level log-probabilities, which external evaluators may not get from proprietary APIs. The behavioral analysis relies on a single benchmark and so speaks to the Schwartz values and Big Five traits it covers, and RQ4 uses the ESS, which has no Big Five reference. The score is computed over fixed, construct-validated candidate responses, so it sits between Likert self-reports and unconstrained generation rather than measuring free-form output directly.</p>
-    </div>
-  </section>
-
-  <section class="block" id="resources">
-    <div class="wrap">
-      <p class="sec-eyebrow">Resources</p>
-      <h2>Paper, code, data</h2>
-      <ul class="res">
-        <li><a href="https://arxiv.org/abs/2509.10078">arXiv 2509.10078</a><p>Camera-ready version of the EMNLP 2026 paper, with all appendices including every original and cue-reduced item.</p></li>
-        <li><a href="https://github.com/holi-lab/Human-Psychometric-Questionnaires-Mischaracterize-LLM-Behavior">GitHub repository</a><p>Prompts, questionnaire files, scripts for all four research questions, and the shipped results behind every table. MIT code, CC BY 4.0 data.</p></li>
-        <li><a href="https://github.com/holi-lab/ValuePortrait">Value Portrait</a><p>The psychometrically validated scenario–response dataset used for generation-probability profiling; 104 queries, 520 responses, 681 raters.</p></li>
-      </ul>
+      <p class="tnote"><b>Limitations.</b> The method needs token-level log-probabilities, which external evaluators may not get from proprietary APIs; the behavioral analysis relies on a single benchmark; and RQ4 uses the ESS, which has no Big Five reference. The score is computed over fixed, validated candidate responses and does not directly measure free-form generation.</p>
     </div>
   </section>
 
   <section class="block" id="bibtex">
     <div class="wrap">
-      <p class="sec-eyebrow">Citation</p>
       <div class="bibhead">
         <h2 style="margin:0">BibTeX</h2>
         <button type="button" class="copy" id="copyBib">Copy</button>
@@ -885,7 +690,7 @@
 <footer>
   <div class="wrap">
     <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University.</p>
-    <p>This work was supported by the National Research Foundation of Korea (RS-2024-00333484, RS-2022-NR070855) and by IITP grants (RS-2021-II211343, Artificial Intelligence Graduate School Program, Seoul National University; RS-2026-25551943, Military-Industry-Academia Cooperation Center), both funded by the Korean government, by the National Supercomputing Center (KSC-2025-CRE-0514), and by the Creative-Pioneering Researchers Program through Seoul National University.</p>
+    <p>Supported by NRF grants RS-2024-00333484 and RS-2022-NR070855, IITP grants RS-2021-II211343 and RS-2026-25551943, the National Supercomputing Center (KSC-2025-CRE-0514), and the Creative-Pioneering Researchers Program through Seoul National University.</p>
     <p>Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Questionnaire item text remains the copyright of the instruments' authors.</p>
   </div>
 </footer>
@@ -938,7 +743,13 @@
   var rows = {};  // construct name -> { g, path, left, right, nodeL, nodeR, yL, yR }
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  var W = 760, ROW = 42, TOP = 58, XL = 262, XR = 498, PAD = 16;
+  var W, ROW, TOP, XL, XR, PAD, compact = false;
+  function setGeom() {
+    compact = !!(window.matchMedia && window.matchMedia('(max-width: 640px)').matches);
+    if (compact) { W = 430; ROW = 36; TOP = 50; XL = 150; XR = 280; PAD = 12; }
+    else { W = 760; ROW = 42; TOP = 58; XL = 262; XR = 498; PAD = 16; }
+  }
+  setGeom();
 
   function el(tag, attrs, parent) {
     var e = document.createElementNS(SVGNS, tag);
@@ -961,9 +772,10 @@
     var H = TOP + names.length * ROW + PAD;
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     var hL = el('text', { x: XL - 14, y: 30, 'text-anchor': 'end', 'class': 'colhead q' }, svg);
-    hL.textContent = state.domain === 'values' ? 'PVQ-40 · Likert mean' : 'BFI-44 · Likert mean';
+    svg.setAttribute('class', compact ? 'compact' : '');
+    hL.textContent = compact ? (state.domain === 'values' ? 'PVQ-40' : 'BFI-44') : (state.domain === 'values' ? 'PVQ-40 · Likert mean' : 'BFI-44 · Likert mean');
     var hR = el('text', { x: XR + 14, y: 30, 'class': 'colhead g' }, svg);
-    hR.textContent = 'Generation · mean log P';
+    hR.textContent = compact ? 'Generation' : 'Generation · mean log P';
     var hM = el('text', { x: (XL + XR) / 2, y: 30, 'text-anchor': 'middle', 'class': 'rank' }, svg);
     hM.textContent = 'rank';
     el('line', { x1: XL, y1: TOP - 6, x2: XL, y2: H - PAD, stroke: 'var(--rule)', 'stroke-width': 1 }, svg);
@@ -1005,8 +817,8 @@
     names.forEach(function (name, i) {
       var r = rows[name];
       var dR = rG[name] - rE[name];
-      r.lScore.textContent = est[i].toFixed(2);
-      r.rScore.textContent = fmt(gen[i], 1);
+      r.lScore.textContent = compact ? '' : est[i].toFixed(2);
+      r.rScore.textContent = compact ? '' : fmt(gen[i], 1);
       r.path.setAttribute('class', 'link' + (Math.abs(dR) >= 3 ? ' big' : ''));
       r.title.textContent = name + ': rank ' + (rE[name] + 1) + ' on the questionnaire, rank ' + (rG[name] + 1) + ' by generation probability';
       targets[name] = { yL: yFor(rE[name]), yR: yFor(rG[name]) };
@@ -1059,6 +871,7 @@
     });
   });
   render(false);
+  window.addEventListener('resize', function () { var was = compact; setGeom(); if (was !== compact) { rows = {}; render(false); } });
 
   // BibTeX copy
   var copy = document.getElementById('copyBib');
