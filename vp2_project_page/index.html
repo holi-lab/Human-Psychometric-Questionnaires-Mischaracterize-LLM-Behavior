@@ -163,7 +163,10 @@
     .finding { font-weight: 600; }
     .tldr { font-weight: 600; font-size: 17px; line-height: 1.55; margin: 0 0 6px; }
     ol.flow { margin: 0 0 14px; padding-left: 1.4em; }
-    ol.flow li { margin: 0 0 6px; }
+    ol.flow li { margin: 0 0 8px; }
+    ol.flow li a { color: var(--link); }
+    ol.flow li a b { font-weight: 700; margin-right: 2px; }
+    ol.flow li a::after { content: " ↓"; font-size: 12px; color: var(--muted); }
     #overview h3 { margin-top: 18px; }
     ul.plain { margin: 0 0 14px; padding-left: 1.25em; }
     ul.plain li { margin: 0 0 8px; }
@@ -317,7 +320,6 @@
     <div class="venue">EMNLP 2026 · Main Conference</div>
     <nav class="topnav" aria-label="Page">
       <a href="#overview" class="optional">TL;DR</a>
-      <a href="#findings" class="optional">Findings</a>
       <a href="#method" class="optional">Method</a>
       <a href="#rq1">RQ1</a>
       <a href="#rq2">RQ2</a>
@@ -375,13 +377,12 @@
     <div class="wrap">
       <h2>TL;DR</h2>
       <p class="tldr">Profiles of LLMs derived from human questionnaires (PVQ, BFI) do not match the profiles implied by what the models actually generate, so questionnaire scores alone are not evidence of LLM behavior.</p>
-      <h3>In brief</h3>
-      <p>We profile eight open-source LLMs in two ways: Likert self-reports on PVQ-40/21 and BFI-44/10, and the probabilities each model assigns to human-validated responses to real user queries (Value Portrait). We then ask four questions:</p>
+      <p>We profile eight open-source LLMs in two ways: Likert self-reports on PVQ-40/21 and BFI-44/10, and the probabilities each model assigns to human-validated responses to real user queries (Value Portrait). Four questions, four answers:</p>
       <ol class="plain flow">
-        <li><b>RQ1</b> Do the two profiles agree?</li>
-        <li><b>RQ2</b> Does the within-construct consistency seen on questionnaires also hold in generation?</li>
-        <li><b>RQ3</b> Can LLMs tell which construct a questionnaire item measures, and does that explain the consistency?</li>
-        <li><b>RQ4</b> Do persona-induced shifts on questionnaires carry over to generation?</li>
+        <li><a href="#rq1"><b>RQ1</b> Do the two profiles agree?</a> No. Questionnaires agree with each other (mean ρ .74–.77) but poorly with generation probabilities (ρ .11–.31), and the direction of the gap differs across models.</li>
+        <li><a href="#rq2"><b>RQ2</b> Does within-construct consistency hold in generation?</a> No. Items of the same construct receive similar Likert scores (η² ≈ .5), but their generation probabilities scatter as widely as random groupings.</li>
+        <li><a href="#rq3"><b>RQ3</b> Can LLMs tell which construct an item measures?</a> Yes for questionnaire items (F<sub>1</sub> .69–.83), not for realistic scenarios (.05–.11). Rewriting items to hide the cue weakens the consistency.</li>
+        <li><a href="#rq4"><b>RQ4</b> Do persona-induced questionnaire shifts carry over to generation?</a> No. Personas move questionnaire profiles the way human groups differ (cosine +.60) but move generation-probability profiles incoherently (−.03).</li>
       </ol>
       <p class="tnote">Background: psychometric questionnaires are widely applied to LLMs on the assumption, borrowed from human psychology, that the resulting profile predicts behavior. This study tests that assumption directly.</p>
     </div>
@@ -413,18 +414,6 @@
     </div>
   </section>
 
-  <section class="block" id="findings">
-    <div class="wrap">
-      <h2>What we found</h2>
-      <ul class="plain">
-        <li><b>RQ1 · The profiles diverge.</b> Questionnaires agree with each other (mean ρ .74–.77) but poorly with generation probabilities (ρ .11–.31), and the direction of the gap differs across models.</li>
-        <li><b>RQ2 · Within-construct consistency disappears.</b> Items of the same construct receive similar Likert scores (η² ≈ .5), but their generation probabilities scatter as widely as random groupings.</li>
-        <li><b>RQ3 · Questionnaire items reveal their construct.</b> LLMs recognize what an established item measures (F<sub>1</sub> .69–.83) but not what a realistic scenario measures (.05–.11). Rewriting items to hide the cue weakens the consistency.</li>
-        <li><b>RQ4 · Persona shifts do not carry over.</b> Demographic persona prompts move questionnaire profiles the way human groups differ (cosine +.60), but move generation-probability profiles incoherently (−.03).</li>
-      </ul>
-      <p>Questionnaire scores alone should therefore not be read as evidence of how an LLM behaves in realistic interactions. Generation-probability profiling over validated, realistic items is a complementary behavioral measure.</p>
-    </div>
-  </section>
 
   <section class="block" id="method">
     <div class="wrap">
