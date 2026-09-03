@@ -376,11 +376,12 @@
       <h2>TL;DR</h2>
       <p class="tldr">Profiles of LLMs derived from human questionnaires (PVQ, BFI) do not match the profiles implied by what the models actually generate, so questionnaire scores alone are not evidence of LLM behavior.</p>
       <h3>In brief</h3>
+      <p>We profile eight open-source LLMs in two ways: Likert self-reports on PVQ-40/21 and BFI-44/10, and the probabilities each model assigns to human-validated responses to real user queries (Value Portrait). We then ask four questions:</p>
       <ol class="plain flow">
-        <li>We profile eight open-source LLMs in two ways: Likert self-reports on PVQ-40/21 and BFI-44/10, and the probabilities each model assigns to human-validated responses to real user queries (Value Portrait).</li>
-        <li>The two profiles disagree, and the direction of the disagreement differs from model to model.</li>
-        <li>Items of the same construct get consistent answers on questionnaires but not in generation, because questionnaire items reveal which construct they measure and realistic queries do not. Hiding the cue weakens the consistency.</li>
-        <li>Demographic persona prompts shift questionnaire profiles the way human groups differ, but shift generation-probability profiles incoherently.</li>
+        <li><b>RQ1</b> Do the two profiles agree?</li>
+        <li><b>RQ2</b> Does the within-construct consistency seen on questionnaires also hold in generation?</li>
+        <li><b>RQ3</b> Can LLMs tell which construct a questionnaire item measures, and does that explain the consistency?</li>
+        <li><b>RQ4</b> Do persona-induced shifts on questionnaires carry over to generation?</li>
       </ol>
       <p class="tnote">Background: psychometric questionnaires are widely applied to LLMs on the assumption, borrowed from human psychology, that the resulting profile predicts behavior. This study tests that assumption directly.</p>
     </div>
