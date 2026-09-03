@@ -312,7 +312,7 @@
   <div class="wrap">
     <div class="venue">EMNLP 2026 · Main Conference</div>
     <nav class="topnav" aria-label="Page">
-      <a href="#overview" class="optional">Overview</a>
+      <a href="#overview" class="optional">TL;DR</a>
       <a href="#findings" class="optional">Findings</a>
       <a href="#method" class="optional">Method</a>
       <a href="#rq1">RQ1</a>
@@ -369,15 +369,15 @@
 
   <section class="block" id="overview">
     <div class="wrap">
-      <h2>Why this study</h2>
-      <p>LLMs are increasingly used for emotional support, ethical advice, and chatbots for children, so knowing which values and personality traits a model expresses matters for predictability and safety. For people, psychometric questionnaires such as the Portrait Values Questionnaire (PVQ) and the Big Five Inventory (BFI) do this well: a person's questionnaire profile predicts their behavior across many situations. A growing body of work applies the same questionnaires to LLMs on the same promise, reading the model's Likert answers as a profile of its dispositions.</p>
-      <p>We ask whether that promise holds. Does an LLM's questionnaire profile predict what it actually generates when a real user asks for advice or an opinion? To answer this, we build two profiles of each of eight open-source LLMs: one from Likert self-reports on PVQ-40/21 and BFI-44/10, and one from the probabilities the model assigns to candidate responses to real user queries, each response validated by human raters for the values and traits it expresses (the Value Portrait dataset). If questionnaires characterize the model, the two profiles should agree.</p>
+      <h2>TL;DR</h2>
+      <p><b>Questionnaire profiles of LLMs do not match what the models actually generate.</b> We profile eight open-source LLMs with standard human questionnaires (PVQ, BFI) and, separately, with the probabilities they assign to human-validated responses to real user queries. The two profiles disagree. The within-construct consistency and the human-like persona shifts seen on questionnaires do not carry over to generation, because questionnaire items reveal which construct they measure and realistic queries do not. Questionnaire scores alone should not be read as evidence of LLM behavior.</p>
+      <p class="tnote" style="font-size:14.5px;color:var(--ink-2)">Background: psychometric questionnaires are widely applied to LLMs on the assumption, borrowed from human psychology, that the resulting profile predicts behavior. This study tests that assumption directly.</p>
     </div>
   </section>
 
   <section class="thesis">
     <div class="wrap">
-      <p>The figure below shows the disagreement for one model at a time. Pick a model and a construct family; each line follows one value or trait from its rank in the questionnaire profile (left) to its rank in the generation-probability profile (right). Parallel lines would mean the two methods agree.</p>
+      <p>Pick a model below: each line follows one value or trait from its rank under the questionnaire (left) to its rank under generation probability (right). Parallel lines would mean the two methods agree.</p>
       <div class="panel" id="bumpPanel">
         <div class="panel-head">
           <h2 class="panel-title">One model, two profiles: how the same constructs rank under each method</h2>
